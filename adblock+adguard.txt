@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: AdRules (For AdBlock) + AdRules (For AdGuard)并补充了一些规则
-! Version: 2022-03-12 16:15:18（北京时间） 
-! Total count: 383322
+! Version: 2022-03-12 22:22:31（北京时间） 
+! Total count: 383368
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -12847,6 +12847,8 @@
 ##.adbreak
 ##.adbrite2
 ##.adbrite_post
+##.adbtn
+##.adbtns
 ##.adbttm_right_300
 ##.adbttm_right_label
 ##.adbucks
@@ -24504,7 +24506,6 @@
 ##a[href^="https://affiliate.rusvpn.com/click.php?"]
 ##a[href^="https://affiliates.bet-at-home.com/processing/"]
 ##a[href^="https://agacelebir.com/"]
-##a[href^="https://ak.hetaruvg.com/"]
 ##a[href^="https://albionsoftwares.com/"]
 ##a[href^="https://americafirstpolls.com/"]
 ##a[href^="https://as.sexad.net/"]
@@ -36149,6 +36150,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /linkcountdata/*
 /linkedads/*
 /linkinformer.js
+/linkpulse.js
 /links/popad$popup
 /links_sponsored_
 /linktrack.js
@@ -44203,6 +44205,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
+@@||showcase.codethislab.com/banners/$image,~third-party
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -47074,6 +47077,7 @@ baltic-course.com###banner_master_top
 baltic-course.com###bannerbottom
 baltic-course.com###bannerleft
 baltic-course.com,webfail.com###bannertop
+bangordailynews.com##.scaip
 bangtubevideos.com#$#override-property-read setTimeout noopFunc; abort-on-property-write location.replace
 banid.pl#@#.ga
 banjiajia.com##.register-box
@@ -51049,6 +51053,7 @@ genius.com##div[class^="DfpAd__Container-"]
 genius.com##div[class^="LeaderboardOrMarquee__"]
 geo.de##.lp_mwi_dialog-wrapper
 geo.de##div.lp_mwi_dialog-overlay.lp_mwi_dialog-overlay--is-active
+geoguessr.com##.game-layout__in-game-ad
 geoguessr.com##.start__display-ad
 geoguessr.com##div[class^=result-layout_right__]
 geoparker.net
@@ -64116,6 +64121,7 @@ zzpzero.com
 ||2txt.cc:8862^
 ||2ujj.com/js/bo.js
 ||2vv.cc
+||2yjw.com/statics/js/jquery.min.
 ||2yt.cn^
 ||2zfzly.com^
 ||2zm4.cn^
@@ -73325,6 +73331,7 @@ zzpzero.com
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
+||bing.com/mouselog
 ||bing.com/search^$removeparam=pc
 ||bing.com^$removeparam=/^sh/
 ||bing.com^$removeparam=FORM
@@ -74209,6 +74216,7 @@ zzpzero.com
 ||brownfox.top^
 ||broworker7.com^
 ||browsealoud.com/plus/scripts/$script
+||browser-intake-datadoghq.com^
 ||browser-statistik.de^$third-party
 ||browser-update.org^$third-party
 ||browser-updater.yandex.net^
@@ -74768,6 +74776,7 @@ zzpzero.com
 ||cactusglobal.io^$third-party
 ||cactusmedia.com^$third-party
 ||cad.chosun.com^
+||cad.youku.com^
 ||cadfixbig.site^
 ||cadlsyndicate.com^
 ||cadlsyndicate.com^$popup
@@ -80116,6 +80125,7 @@ zzpzero.com
 ||digreality.com^$third-party
 ||digressremarkableconfide.com^
 ||digresstrailfined.com^
+||digrice.xyz^
 ||diguver.com^
 ||dihutyaiafuhr.cloudfront.net^
 ||diitlm.com^
@@ -87031,6 +87041,7 @@ zzpzero.com
 ||gtimg.com/finance/js/st/p/quotpage/maxcard_
 ||gtimg.com/gamezone/2014index/images/600x75.jpg
 ||gtimg.com/news/news/2014ad/
+||gtimg.com/newsapp_bt/0/14484060967/641
 ||gtimg.com/newsapp_bt/0/1846661534/641
 ||gtimg.com/newsapp_ls/0/13369140468/0
 ||gtimg.com/newsapp_ls/0/13971120264/0
@@ -91870,6 +91881,7 @@ zzpzero.com
 ||jkleosnfjutme.top^
 ||jkmxy.com^
 ||jknarp.kakaku.com^
+||jknrwe.cn^
 ||jksdcwgjfm.xyz^
 ||jktopia.com^
 ||jktshare.icu^
@@ -92055,6 +92067,7 @@ zzpzero.com
 ||jpysvip.net/ad/
 ||jpzwomhbxoalxu.com^
 ||jq159.com$third-party
+||jqad.vip^
 ||jqcfgnm.cn^
 ||jqcgyjwidktu.xyz^
 ||jqk72ugyl2pz.com^
@@ -104219,6 +104232,7 @@ zzpzero.com
 ||psozyhotho.pro^
 ||psqiwslwpjccb.com^
 ||psqsjg.coach.com^
+||pss.alicdn.com/iku/log^
 ||pstat.akathists.com^
 ||pstatp.com/*from=ad^
 ||pstatp.com/growth/mobile_list/image/bonus_
@@ -104703,6 +104717,7 @@ zzpzero.com
 ||pyhszs.cn^
 ||pyhuiyu.com^
 ||pyk.imrworldwide.com/cgi-bin^$app=com.huawei.hwvplayer.youku
+||pyk.in-neo.cn^
 ||pyloic.com^
 ||pylon.micstatic.com^
 ||pymsqjixir.xyz^
@@ -107985,6 +108000,7 @@ zzpzero.com
 ||seal.verisign.com^$third-party
 ||sealine.youku.com/yk/*callback=adpagesdk$script
 ||sealine.youku.com/yk/html?
+||sealine.youku.com^
 ||sealserver.trustwave.com^$third-party
 ||seamchristmas.com^
 ||seao.business.samsung.com^
@@ -117815,6 +117831,7 @@ zzpzero.com
 ||umsns.com^
 ||umtnycoscl.xyz^
 ||umvspj.cn^
+||un-acs.youku.com^
 ||un.ubaike.cn^
 ||un.xz6.com^
 ||un1.lawyernet.cn^
@@ -123173,6 +123190,7 @@ zzpzero.com
 ||yjxssk.apartments.com^
 ||yjyc-ask.com/res/ads/
 ||yjyjnolllezo.com^
+||ykad-data.youku.com^
 ||ykad-gateway.youku.com^
 ||ykanx.com^
 ||ykbeeweifodyyb.com^
@@ -123331,6 +123349,7 @@ zzpzero.com
 ||youivr.com/image/*-960x80
 ||youjizzlive.com/api/metrics
 ||youkewangluo.cn$third-party,script
+||youku-crm-product.youku.com^
 ||youku.com/QVideo/~ajax/getDefaultItem?
 ||youku.com/cms/tool/pub/get_putdata.
 ||youku.com/compvlog?
@@ -123792,6 +123811,7 @@ zzpzero.com
 ||yzjlsb.com^
 ||yzjy.pro^
 ||yzlwuuzzehjh.com^
+||yzmklm.com^
 ||yzpsb.com/1.js
 ||yzpsb.com/js/system.js
 ||yzpsb.net/1.js
@@ -124934,6 +124954,7 @@ zzpzero.com
 2smsupernetwork.com,zambiareports.com###text-3
 2ujj.com#@#.ad350
 2x4u.de##a[href^="http://www.myfreecams.com/?baf="]
+2yjw.com##.widget-tops
 3bmeteo.com###adblock_warning
 3boys2girls.com###displayadb1
 3boys2girls.com###displayadbu3

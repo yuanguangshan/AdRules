@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-12 16:15:18（北京时间） 
-! Total count: 63207
+! Version: 2022-03-12 22:22:31（北京时间） 
+! Total count: 63217
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 00-gov.cn
@@ -11898,6 +11898,7 @@
 0.0.0.0 cacuoc247.com
 0.0.0.0 cacuoc79.com
 0.0.0.0 cad.chosun.com
+0.0.0.0 cad.youku.com
 0.0.0.0 cade.clmbtech.com
 0.0.0.0 cadfixbig.site
 0.0.0.0 cadimavume.com
@@ -17659,6 +17660,7 @@
 0.0.0.0 dignow.org
 0.0.0.0 digressremarkableconfide.com
 0.0.0.0 digresstrailfined.com
+0.0.0.0 digrice.xyz
 0.0.0.0 diguver.com
 0.0.0.0 dihutyaiafuhr.cloudfront.net
 0.0.0.0 diitlm.com
@@ -28937,6 +28939,7 @@
 0.0.0.0 jkleosnfjutme.top
 0.0.0.0 jkmxy.com
 0.0.0.0 jknarp.kakaku.com
+0.0.0.0 jknrwe.cn
 0.0.0.0 jkolp.com
 0.0.0.0 jksdcwgjfm.xyz
 0.0.0.0 jktopia.com
@@ -29122,6 +29125,7 @@
 0.0.0.0 jpush.cn
 0.0.0.0 jpyjdpal.xyz
 0.0.0.0 jpzwomhbxoalxu.com
+0.0.0.0 jqad.vip
 0.0.0.0 jqcfgnm.cn
 0.0.0.0 jqcgyjwidktu.xyz
 0.0.0.0 jqdnvg.com
@@ -42334,6 +42338,7 @@
 0.0.0.0 pyhszs.cn
 0.0.0.0 pyhuiyu.com
 0.0.0.0 pyjamaican.club
+0.0.0.0 pyk.in-neo.cn
 0.0.0.0 pyksf.com
 0.0.0.0 pyloic.com
 0.0.0.0 pylon.micstatic.com
@@ -45939,6 +45944,7 @@
 0.0.0.0 seal.qualys.com
 0.0.0.0 seal.verisign.com
 0.0.0.0 sealine-pfuoxcbgd.netdna-ssl.com
+0.0.0.0 sealine.youku.com
 0.0.0.0 seamchristmas.com
 0.0.0.0 seao.business.samsung.com
 0.0.0.0 seaofads.com
@@ -56485,6 +56491,7 @@
 0.0.0.0 umvspj.cn
 0.0.0.0 umwiba.com
 0.0.0.0 umyetor.ru
+0.0.0.0 un-acs.youku.com
 0.0.0.0 un.ubaike.cn
 0.0.0.0 un.xz6.com
 0.0.0.0 un1.lawyernet.cn
@@ -61838,6 +61845,7 @@
 0.0.0.0 yjxqy.com
 0.0.0.0 yjxssk.apartments.com
 0.0.0.0 yjyjnolllezo.com
+0.0.0.0 ykad-data.youku.com
 0.0.0.0 ykad-gateway.youku.com
 0.0.0.0 ykanx.com
 0.0.0.0 ykbeeweifodyyb.com
@@ -61989,6 +61997,7 @@
 0.0.0.0 youhehuixiangxinxi.top
 0.0.0.0 youhuixia1210.cn
 0.0.0.0 youhuomeishi.com
+0.0.0.0 youku-crm-product.youku.com
 0.0.0.0 youlamedia.com
 0.0.0.0 youle55.com
 0.0.0.0 youlejia.xyz
@@ -62337,6 +62346,7 @@
 0.0.0.0 yzjlsb.com
 0.0.0.0 yzjy.pro
 0.0.0.0 yzlwuuzzehjh.com
+0.0.0.0 yzmklm.com
 0.0.0.0 yzt001.com
 0.0.0.0 yzus09by.com
 0.0.0.0 yzwr588.com
