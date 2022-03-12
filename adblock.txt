@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-12 22:28:11（北京时间） 
-! Total count: 126548
+! Version: 2022-03-13 00:17:06（北京时间） 
+! Total count: 126549
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -113393,6 +113393,7 @@ zzpzero.com
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/w$third-party
 ||svclqyctlijue.com^
+||svcwvx.cn^
 ||svem.cc
 ||svfwer.top^
 ||sviss.top^
