@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: AdRules (For AdBlock) + AdRules (For AdGuard)并补充了一些规则
-! Version: 2022-03-12 13:10:17（北京时间） 
-! Total count: 383307
+! Version: 2022-03-12 16:15:18（北京时间） 
+! Total count: 383322
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -4832,6 +4832,7 @@
 ###bsaadvert
 ###bsap_aplink
 ###bt-ad
+###bt-ad-header
 ###btfAdNew
 ###btm_ad
 ###btm_ads
@@ -11062,6 +11063,7 @@
 ##.ad-size-iab-uap-leaderboard-728x90
 ##.ad-size-iab-uap-medium-rectangle-300x250
 ##.ad-size-leaderboard
+##.ad-size-medium-rectangle
 ##.ad-size-medium-rectangle-flex
 ##.ad-skin-link
 ##.ad-sky
@@ -84181,8 +84183,6 @@ zzpzero.com
 ||firescorrelationprodigy.com^$popup
 ||fireworkadservices.com^$third-party
 ||fireworkanalytics.com^$third-party
-||fireworkapi.com^$third-party
-||fireworktv.com^$third-party
 ||firexclamation.com^
 ||firingair.com^
 ||firon.xyz^
@@ -85138,7 +85138,6 @@ zzpzero.com
 ||fwccw.com^
 ||fwcdn1.com/js/fwn.js
 ||fwcdn1.com/js/storyblock.js
-||fwcdn2.com^$third-party
 ||fwetxfvxsjtw.com^
 ||fwgvpvdgwby.com^
 ||fwix.com/ref.js
@@ -90990,6 +90989,7 @@ zzpzero.com
 ||irs03.com^
 ||irs09.com^
 ||irs09.com^$third-party
+||irsufth.cn^
 ||irtya.com^
 ||irtya.com^$popup
 ||irtye.com^$popup
@@ -102256,6 +102256,7 @@ zzpzero.com
 ||pdmtmribgaqctz.com^
 ||pdn-1.com^
 ||pdn-2.com^
+||pdqgywt.cn^
 ||pdrfvumww.com^
 ||pds-midea.com^
 ||pdsjycm.com^
@@ -118011,7 +118012,6 @@ zzpzero.com
 ||uojjpevjusfoidc.com^
 ||uol.com.br/stats?
 ||uolwbz.heine.de^
-||uoowu.com/a/m_couplet.
 ||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
 ||uopmcdnpad.com^
@@ -118859,6 +118859,7 @@ zzpzero.com
 ||viirad.com^
 ||viitgb.com^
 ||vik.cx^
+||vike.ink^
 ||vilelaaccable.com^
 ||vilercarpetfolk.com^
 ||viliaff.com^
