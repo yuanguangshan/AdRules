@@ -4,7 +4,6 @@
 <img src="https://img.shields.io/github/stars/Cats-Team/AdRules?color=yellow">
 <img src="https://img.shields.io/github/forks/Cats-Team/AdRules?color=orange">
 <img src="https://img.shields.io/github/issues/Cats-Team/AdRules?color=green">
-
 <br>
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cats-team/adrules">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/cats-team/adrules">
@@ -30,7 +29,6 @@
 
 * 此列表规则均适用于内容过滤器
 * DNS过滤器请使用AdRules (For DNS)
-* [更新日志](/Update-log.md)
 ## 规则总数
 ```
 
@@ -97,4 +95,3 @@ AD Damian数量: 64362
 ## Star数
 
 [![Stargazers over time](https://starchart.cc/Cats-Team/AdRules.svg)](https://starchart.cc/Cats-Team/AdRules)
-
