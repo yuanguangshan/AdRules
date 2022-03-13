@@ -1,10 +1,20 @@
 #!/bin/sh
 rm *.txt
+
 # Create temporary folder
 echo '新建TMP文件夹...'
 mkdir -p ./tmp/
 cd tmp
 echo '新建TMP文件夹完成'
+
+# Install GAWK
+wget http://ftp.gnu.org/gnu/gawk/gawk-5.0.0.tar.xz
+tar xvf gawk-5.0.0.tar.xz
+./configure
+make
+make check
+sudo make install
+cd ../
 # Start Download Filter File
 echo '开始下载规则...'
 easylist=(
