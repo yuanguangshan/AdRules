@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-14 00:17:56（北京时间） 
-! Total count: 63561
+! Version: 2022-03-14 00:25:57（北京时间） 
+! Total count: 63572
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -39,6 +39,7 @@
 @@||aod.itunes.g.aaplimg.com^
 @@||api-merchants.skimlinks.com^
 @@||api.ads.tvb.com^
+@@||api.yjllq.com^
 @@||app-advertise.zhihuishu.com^
 @@||app.adjust.com^|
 @@||app.appsflyer.com^|
@@ -107,6 +108,7 @@
 @@||lemon.baidu.com^
 @@||links.e.theatlantic.com^|
 @@||links.getblueshift.com^|
+@@||list-manage.com
 @@||log.mmstat.com^|
 @@||logentries.com^|
 @@||login.sendpulse.com^|
@@ -115,6 +117,7 @@
 @@||ma135-r.analytics.edgekey.net^|
 @@||marketing.net.idealo-partner.com^|
 @@||mb.yidianzixun.com^
+@@||metrics1.data.hicloud.com^
 @@||mf.atm.youku.com^
 @@||mi.cn^
 @@||minigame.qq.com^
@@ -129,6 +132,7 @@
 @@||oneline.nextday.media^|
 @@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
 @@||pagead.l.doubleclick.net^|
+@@||pan.quark.cn^
 @@||passets-cdn.pinterest.com^
 @@||phs.tanx.com^
 @@||promo.gramedia.com^|
@@ -167,6 +171,7 @@
 @@||www.googleadservices.com^|
 @@||www.gsxt.gov.cn^
 @@||www.jdoqocy.com^|
+@@||wxsnsdy.wxs.qq.com^
 @@||xmxing.net^
 @@||zbj.com^
 |balmoralmkt.com^
@@ -27321,6 +27326,7 @@
 ||img1.leyun365.com^
 ||img1.qqwangming6.com^
 ||img1.yulu99.com^
+||img14.360buyimg.com^
 ||img1458.r.worldssl.net^
 ||img1461.r.worldssl.net^
 ||img16.diyifanwen.com^
@@ -27479,6 +27485,7 @@
 ||imyqb.cn^
 ||imzahrwl.xyz^
 ||imzhv.xyz^
+||in-addr.arpa^
 ||in-appadvertising.com^
 ||in-gmtdmp.mookie1.com^
 ||in-page-push.com^
@@ -30936,6 +30943,7 @@
 ||lanistaads.com^
 ||lanistaconcepts.com^
 ||lankychaosrun.com^
+||lanm.huliyinzi.com
 ||lanopoon.net^
 ||lanshi021.com^
 ||lanshiwan.cn^
@@ -37696,6 +37704,7 @@
 ||nryceuula.com^
 ||nrzcj.top^
 ||ns-zhy.com^
+||ns.adobe.com^
 ||ns.machinevision-getter.net.zooplus.it^
 ||ns.machinevision.webapp.net.zooplus.it^
 ||ns.rvmkitt.com^
@@ -51933,6 +51942,7 @@
 ||swfstats.com^
 ||swi-adserver.com^
 ||swiftmining.win^
+||swimg2.tsderen.cn^
 ||swimslope.com^
 ||swimsunleisure.com^
 ||swinity.com^
@@ -57394,6 +57404,7 @@
 ||utteroccupied.com^
 ||uttium.com^
 ||utxdtismojqk.xyz^
+||uty.micocc.com
 ||uu1.3gu.com^
 ||uu7ey6.cn^
 ||uuaajohul.com^
