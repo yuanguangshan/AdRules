@@ -1,8 +1,0 @@
-version.o: gawk-5.0.0/version.c /usr/include/stdc-predef.h config.h \
- gawk-5.0.0/custom.h
-
-/usr/include/stdc-predef.h:
-
-config.h:
-
-gawk-5.0.0/custom.h:
