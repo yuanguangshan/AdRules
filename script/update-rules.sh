@@ -1,11 +1,12 @@
 #!/bin/sh
 
 # Create temporary folder
+echo '新建TMP文件夹...'
 mkdir -p ./tmp/
 cd tmp
-
+echo '新建TMP文件夹完成'
 # Start Download Filter File
-
+echo '开始下载规则...'
 easylist=(
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
   "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
@@ -101,7 +102,6 @@ allow_damain=(
   "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt"
 )
 
-
 for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_damain[@]}"  "${!allow_damain[@]}"
 do
   curl --parallel --parallel-immediate -k -L -C - -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}"
@@ -118,7 +118,7 @@ done
 echo '规则下载完成'
 
 # Pre Fix rules
-
+echo '处理规则中...'
 cat hosts*.txt| grep -Ev '#|\$|@|!|/|\\|\*'| sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' |sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d'| grep -v '^#' | grep -v 'local' | sort -n | uniq | awk '!a[$0]++' > abp-hosts.txt  #Hosts规则转ABP规则
 
 cat allow-damain*.txt | sed "s/^/@@||&/g" | sed "s/$/&^/g" >> pre-allow.txt  #将允许域名转换为ABP规则
@@ -127,19 +127,21 @@ cat allow-damain*.txt | sed "s/^/@@||&/g" | sed "s/$/&^/g" >> pre-allow.txt  #�
 
 cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
 cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock+adguard.txt #处理Plus规则
-cat adguard*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
+cat adguard*.txt | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
 cat .././mod/rules/dns-rules.txt dns*.txt abp-hosts.txt | grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
 cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt #处理广告域名
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
-
+echo '规则去重处理完成'
 # Move to Pre Filter
+echo '移动规则到Pre目录'
 cd ../
 mkdir -p ./pre/
 mv ./tmp/tmp-*.txt ./pre
 cd ./pre
-
+echo '移动完成'
 # Start Count Rules
+echo '正在计算规则总数..'
 adblock_num=`cat tmp-adblock.txt | wc -l`
 adblock_plus_num=`cat tmp-adblock+adguard.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
@@ -147,7 +149,7 @@ dns_num=`cat tmp-dns.txt | wc -l`
 hosts_num=`cat tmp-hosts.txt | wc -l`
 ad_damain_num=`cat tmp-ad-damain.txt | wc -l`
 allow_num=`cat tmp-allow.txt | wc -l`
-
+echo '规则计算完毕'
 # Start Add title and date
 echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
 echo "! Total count: $adblock_num" >> adblock-tpdate.txt
@@ -178,5 +180,5 @@ for i in $diffFile; do
  echo "合并${i}的标题中"
 done
 echo '规则处理完成'
-rm -rf tmp pre
+rm -rf pre
 exit
