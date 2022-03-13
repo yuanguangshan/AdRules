@@ -102,6 +102,11 @@ ad_damain=(
 
 allow_damain=(
   "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt"
+  "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt"
+  "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt"
+  "https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/whitelist/master/domains.list"
+  "https://raw.githubusercontent.com/neodevpro/neodevhost/master/customallowlist"
+  "https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt"
 )
 
 for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_damain[@]}"  "${!allow_damain[@]}"
@@ -123,12 +128,12 @@ echo '规则下载完成'
 echo '处理规则中...'
 cat hosts*.txt| grep -Ev '#|\$|@|!|/|\\|\*'| sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' |sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d'| grep -v '^#' | grep -v 'local' | sort -n | uniq | awk '!a[$0]++' > abp-hosts.txt  #Hosts规则转ABP规则
 
-cat allow-damain*.txt | sed "s/^/@@||&/g" | sed "s/$/&^/g" >> pre-allow.txt  #将允许域名转换为ABP规则
+cat allow-damain*.txt | sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n | uniq | awk '!a[$0]++' >> pre-allow.txt  #将允许域名转换为ABP规则
 
 # Start Merge and Duplicate Removal
 
 cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
-cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | awk '!a[$0]++' >> tmp1-adblock+adguard.txt #处理Plus规则
+cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' >> tmp1-adblock+adguard.txt #处理Plus规则
 cat adguard*.txt | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
 cat .././mod/rules/dns-rules.txt dns*.txt abp-hosts.txt | grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
 cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
