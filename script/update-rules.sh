@@ -1,5 +1,5 @@
 #!/bin/sh
-
+rm *.txt
 # Create temporary folder
 echo '新建TMP文件夹...'
 mkdir -p ./tmp/
