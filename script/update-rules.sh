@@ -135,7 +135,7 @@ cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #�
 echo '规则去重处理完成'
 
 #特殊规则处理
-awk '!a[$0]++' tmp1-adblock+adguard.txt > tmp-adblock+adguard.txt
+gawk '!a[$0]++' tmp1-adblock+adguard.txt > tmp-adblock+adguard.txt
 # Move to Pre Filter
 echo '移动规则到Pre目录'
 cd ../
