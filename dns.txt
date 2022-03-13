@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-13 16:15:23（北京时间） 
-! Total count: 63527
+! Version: 2022-03-13 17:32:41（北京时间） 
+! Total count: 63530
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -5910,6 +5910,7 @@
 ||aftjohnanodes.com^
 ||afuiw.com^
 ||afvcugqaulh.co^
+||afx001.pw^
 ||afy11.net^
 ||afyonturkreklam.com^
 ||ag.gbc.criteo.com^
@@ -28385,6 +28386,7 @@
 ||iqiyi.pub^
 ||iqkbi.top^
 ||iqm.com^
+||iqn.world^
 ||iqok.ru^
 ||iqsns.top^
 ||iqsoh.ru^
@@ -39882,6 +39884,7 @@
 ||pcdnlt.com^
 ||pcdodues.com^
 ||pcejsc.hellomolly.com^
+||pcfdgc.cn^
 ||pcfvnp.undercovertourist.com^
 ||pci.pornclipsxxx.com^
 ||pciidk.shopee.vn^

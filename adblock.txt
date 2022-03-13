@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-13 16:15:23（北京时间） 
-! Total count: 126570
+! Version: 2022-03-13 17:32:41（北京时间） 
+! Total count: 126584
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -45966,6 +45966,7 @@ affyun.com##.text
 affyun.com##.text ~ a
 afl.com.au##.c-accordion__item-officialpartners
 afr.com###stickyLeaderboard
+afraid.fydckl.com
 africanadvice.com,pspad.com,sudantribune.com,thehackernews.com##.google
 africanews.com##.right-legend
 afrivibes.net,airplaydirect.com,bigeye.ug,cryptomining-blog.com,cryptoreporter.info,dotsauce.com,espnrichmond.com,forexmt4indicators.com,freedomhacker.net,gamblingnewsmagazine.com,gameplayinside.com,goodcarbadcar.net,kiwiblog.co.nz,mkvcage.com,movin100.com,mycolumbuspower.com,naijaloaded.com.ng,onislandtimes.com,punchng.com,radiobiz.co.za,reviewparking.com,robhasawebsite.com,sacobserver.com,seguintoday.com,themediaonline.co.za,theolivepress.es,therep.co.za,thewillnigeria.com,wantedinafrica.com,wantedinrome.com##img[width="300"]
@@ -50440,6 +50441,7 @@ fjjmnh.com
 fjlyfdc.com.cn##div[id^="hxhad"],img[src^="/Files/Xw/201"],img[height="80"][width="950"]
 fjsen.com,nuomi.com#@#.right-ad
 fk.wanyitianxia.com
+fks.ifdvlh.cn
 flashback.org###top-banner-container
 flashgot.net###head a[target="_blаnk"]
 flashscore.co.uk##.boxOverContent__banner
@@ -51677,6 +51679,7 @@ haote.com##.ztFocus
 haowj.com.cn##DIV.ad_top,DIV[id^="ad_pc_"]
 haoxxoo.com##.nrad1
 haoxxoo.com##.nrad2
+haoyundmtaotao.com
 happy.new.year.kanwby.com
 happymh.com##[src="https://c.nationaltcm.com/ad/tm1111dd.png"]
 happytogether2015.com##img[src^="http://p5.urrpic.com/2015/upload/image/"],img[width="760"][height="75"]
@@ -53093,6 +53096,7 @@ izmailov.tv##.popupBlock
 j.aishangdaike.com
 j.dailiqing.net
 j.guotaotaoci.net
+j.gxlsjt.com
 j.iklda.cn
 j.jixiangniutanrou.net
 j.sdqoi2d.com
@@ -53469,6 +53473,7 @@ jq.131458.com##.soso_02
 jq22.com##.fdad
 jq65pd47n1.jcheys.com
 jqzb.com.cn##.zk_xf
+jr.captivias.site
 jr.jd.com###app-jr
 jr.jd.com##.app.ui-sidebar-block
 jrj.com.cn###comment > a:first-child
@@ -53688,6 +53693,7 @@ k.ttzhongbao.com
 k.wudejia.com
 k.xww360.com
 k2.dancihu.com
+k5ggua.xyz
 k618.cn##[id^="adcon"]
 k8sj.com##.portal_block_summary
 ka.xgzdys.com
@@ -55208,6 +55214,7 @@ mgtv.com##[class$="app-download"]
 mh160.com###jusha1
 mhgui.com##.mt10[style="width: 300px; height: 250px;"]
 mhktricks.org##[href="https://www.deepbrid.com/"]
+mhy.wdpkx.cn
 mi.com###J_siteDownloadApp
 mi.com##.item-image.item
 mi.com##div.download
@@ -57791,6 +57798,7 @@ runative-syndicate.com
 runbt.cc##[href="http://uikkaj.koreatorrent.com/ "]
 runningmanzx.com##.guangao
 runoob.com###sidebar-right-re
+runoob.com#?#.sidebar-box:-abp-has(.re-600160)
 runsky.com##[height="80"],[class^="adv_"],[id^="adv_"],[class="mt8"][style]:not([id]),[style*="height:90px;"],iframe[height="220"]
 runtastic.com##.halfpage
 rupors.com#@#.advertSlider
@@ -58830,6 +58838,7 @@ structurae.net##.advertisements
 studio55.fi#@#.column-ad
 study.163.com###j-newpeople
 studyfinds.org##.sfspot
+studygolang.com###ad-right1
 stuff.co.nz##.sics-component__app__top-leaderboard-ads-container
 stuff.co.nz##.sics-component__widget--neighbourlyShowcasePlus
 stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
@@ -61191,6 +61200,7 @@ www.google.com###tads,.ads-ad
 www.google.com##.ads-ad
 www.google.com$@$div[class="_ad"]
 www.govchengdu.cn
+www.govchongqing.cn
 www.govguangxi.cn
 www.govguilin.cn
 www.govhangzhou.cn
@@ -62210,6 +62220,7 @@ ym.yinmofun.com
 ymm17.cc
 ymm19.cc
 ymoxuan.com##table[style="width:770px;height:260px"],.adsbygoogle
+ymr.gqcxbm.cn
 yms7.com##[href^="https://s.click.taobao.com/t?"],#divtaobaogou,#divclxt,.bannerad,[id^="tk_box_"]
 yn-dove.cn##div[style="margin-top: 10px; padding: 10px; "]
 ynet.com###ynetG_B1
@@ -68972,6 +68983,7 @@ zzpzero.com
 ||aftonbladet.se/cnp-assets/glimr-sdk.js
 ||aftonbladet.se/trafikfonden/
 ||aftrk1.com^$popup
+||afx001.pw^
 ||afy11.net^$third-party
 ||afzhan.com/JavaScript/ad_Couplet.js
 ||ag.qq.com^
@@ -90974,6 +90986,7 @@ zzpzero.com
 ||iqiyi.com^$removeparam=vfrmrst
 ||iqiyipic.com/image/20*_100000$image
 ||iqm.com^$third-party
+||iqn.world^
 ||iqoption.com/land/$popup
 ||iqshw.com/d/js/m/thea
 ||iqtfy.com/upload/vod/620.gif
@@ -102222,6 +102235,7 @@ zzpzero.com
 ||pcdnlt.com^
 ||pcdodues.com^
 ||pcejsc.hellomolly.com^
+||pcfdgc.cn^
 ||pcfvnp.undercovertourist.com^
 ||pcgames.com.cn*/index.js
 ||pcgames.com.cn/g/
