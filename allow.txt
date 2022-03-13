@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-13 20:07:56（北京时间） 
-! Total count: 16401
+! Version: 2022-03-13 20:11:52（北京时间） 
+! Total count: 16316
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -185,91 +185,6 @@
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|partners.adsterra.com^|
 @@|publishers.adsterra.com^|
-@@||#                   ------^
-@@||#                  ------^
-@@||#               energized.pro^
-@@||#             reputable sources.^
-@@||#          ad.porn.malware blocking.^
-@@||#        Let's make an annoyance free^
-@@||#      Merged collection of hosts from^
-@@||#      better open internet. Altogether.^
-@@||#    P   R   O   T   E   C   T   I   O   N^
-@@||#    _____  _________  _____________  _______^
-@@||#    github.com/EnergizedProtection/block^
-@@||#   / __/ |/ / __/ _ \/ ___/  _/_  / / __/ _ \ ^
-@@||#  / _// ,  / _// , _/ (_ // /  / /_/ _// // /^
-@@||# - - - -  S T A Y  E N E R G I Z E D  - - - -^
-@@||# --------------------------------------------^
-@@||# /___/_/|_/___/_/|_|\___/___/ /___/___/____/^
-@@||# @AdroitAdorKhan - Head Developer & Maintainer^
-@@||# @AvinashReddy3108 - Developer^
-@@||# @badmojr - Maintainer^
-@@||# Adobe licence verification endpoints^
-@@||# Adult Swim Videos on Amazon Firestick^
-@@||# Amazon AWS (???) - whitelist to make Kryptonite work^
-@@||# Amazon Alexa and Amazon Shopping app^
-@@||# Amazon Kindle^
-@@||# Bild.de^
-@@||# Contributed by Anudeep <anudeep@protonmail.com>^
-@@||# Description: Basic list of whitelisted domains.^
-@@||# DirectTV Now^
-@@||# E N E R G I Z E D  B E G I N S^
-@@||# E N E R G I Z E D  E N D S^
-@@||# Entries: 10,846^
-@@||# F E A T U R E S^
-@@||# Facebook^
-@@||# Fix - Images not loading on www.thecut.com^
-@@||# Format: domain list^
-@@||# GTA Online telemetry. Whitelist this domain to prevent the game from crashing.^
-@@||# GeForce Experience^
-@@||# Host files^
-@@||# Images not loading on aliexpress.com^
-@@||# Jackbox.tv^
-@@||# Licence: https://github.com/anudeepND/whitelist/blob/master/LICENSE^
-@@||# License: MIT, https://energized.pro/license^
-@@||# Lotus talk^
-@@||# National Express, UK (nationalexpress.com/en) - Unable to book journey^
-@@||# Netflix - Domains needed for netlix to work correctly^
-@@||# Note: ads before videos may appear after whitelisting this domain^
-@@||# NowTV UK - AppleTV^
-@@||# Nvidia updates^
-@@||# P A C K  D E T A I L S^
-@@||# Pack Code: E84S1C-W^
-@@||# Pluto.tv^
-@@||# Project home page: https://github.com/anudeepND/whitelist^
-@@||# RAW: https://github.com/EnergizedProtection/unblock/raw/master/basic/formats/domains.txt^
-@@||# Refersion.com (affiliate marketing)^
-@@||# Release: 196^
-@@||# Roku HGTV app: Failed to play previous episodes^
-@@||# Roku TNT app: Failed to play videos^
-@@||# Roku TV CW and NBC app^
-@@||# SBS Online videos not playing^
-@@||# Samsung TV's Amazon Prime Video app^
-@@||# Samsung smart TV's network issue^
-@@||# Share buttons on websites^
-@@||# Sky Go (skygo.sky.de)^
-@@||# Spotify premium with Denon Heos speakers^
-@@||# T E A M  B O L T Z - meet the team^
-@@||# Target's Weekly Ads^
-@@||# Title: Energized Basic Protection - Whitelist^
-@@||# UK University application website^
-@@||# URL shorteners^
-@@||# Updated: Thu, 15 Jul 21 17:46:07^
-@@||# Version: 21.07.196^
-@@||# Videos not playing on  arstechnica/wired/vogue/newyorker^
-@@||# Videos not playing on www.jacquielawson.com^
-@@||# WatchESPN^
-@@||# Xbox Achievements and game stats sync^
-@@||# _any device: compatible with all devices, regardless of OS.^
-@@||# _clean: no extra abracadabra!^
-@@||# _hassle free: apply once and never worry about getting blocked again!^
-@@||# _multiple formats: different variants for different devices & extensions.^
-@@||# _support: user friendly chat group got your back!^
-@@||# _unblockings: simply unblocks legit, common, cdn, api & safe-to-unblock domains.^
-@@||# https://github.com/anudeepND/whitelist/issues/30^
-@@||# https://github.com/anudeepND/whitelist/issues/93^
-@@||# streamelements.com (Blocked by Pi-hole regex)^
-@@||#^
 @@||*/assets/js/common/juqery/
 @@||*cacharel*/UPLOAD/BANNER/$domain=cacharel.com.tr
 @@||0-edge-chat.facebook.com^
@@ -11250,6 +11165,7 @@
 @@||public.sandbox.exchange.coinbase.com^
 @@||public.sandbox.pro.coinbase.com^
 @@||publicsuffix.org^
+@@||publicwww.com^$generichide
 @@||publish.adobe.com^
 @@||publisher-assets.spot.im^
 @@||publisher.adservice.com^$domain=publisher.adservice.com
@@ -14785,7 +14701,6 @@
 @@||www.airtable.com^
 @@||www.alcohol-soft.com^
 @@||www.alexa.com^
-@@||www.algolia.com #codepen^
 @@||www.algolia.com^
 @@||www.alibaba.com^
 @@||www.alicdn.com^

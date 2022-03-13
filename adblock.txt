@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-13 20:07:56（北京时间） 
-! Total count: 126592
+! Version: 2022-03-13 20:11:52（北京时间） 
+! Total count: 126593
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -39247,6 +39247,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /tagx.js
 /tailtarget.js
 /talkads/*
+/talpa-analytics/*
 /tan.js
 /tan1.js
 /tanad.js
