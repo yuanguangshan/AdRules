@@ -15,6 +15,7 @@ make
 make check
 sudo make install
 cd ../../
+
 # Start Download Filter File
 echo '开始下载规则...'
 easylist=(
