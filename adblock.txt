@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-13 17:32:41（北京时间） 
-! Total count: 126584
+! Version: 2022-03-13 20:07:56（北京时间） 
+! Total count: 126592
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -2478,6 +2478,7 @@
 ###ad_tile_home
 ###ad_top
 ###ad_topBanner
+###ad_topScroller
 ###ad_top_728x90
 ###ad_top_banner
 ###ad_top_bar
@@ -2933,6 +2934,7 @@
 ###ads-bg
 ###ads-bg-mobile
 ###ads-bigbox-no1
+###ads-billboard
 ###ads-block
 ###ads-block-frame
 ###ads-blocked
@@ -3014,6 +3016,7 @@
 ###ads-sponsored-boxes
 ###ads-sticky
 ###ads-submit
+###ads-superBanner
 ###ads-text
 ###ads-top
 ###ads-top-728
@@ -10787,6 +10790,7 @@
 ##.ad-link-right
 ##.ad-links
 ##.ad-links-text
+##.ad-list-desktop
 ##.ad-list-item
 ##.ad-loaded
 ##.ad-loader
@@ -15217,6 +15221,7 @@
 ##.adwrappercls1
 ##.adx-300x250-container
 ##.adx-300x600-container
+##.adx-ads
 ##.adx-wrapper
 ##.adx-wrapper-middle
 ##.adx_center
@@ -22928,6 +22933,7 @@
 ##.u-ad-leaderboard__bg
 ##.u-ads
 ##.u-lazy-ad-wrapper
+##.udn-ads
 ##.uds-ad
 ##.uds-ads
 ##.ui-ad
@@ -43985,6 +43991,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||pubads.g.doubleclick.net^$object-subrequest,domain=cbsnews.com
 @@||pubads.g.doubleclick.net^$object-subrequest,domain=vercanalestv.com
 @@||pubdirecte.com/script/banniere.php?$domain=skiplimite.tv
+@@||publicwww.com^$generichide
 @@||publisher.adservice.com^$domain=publisher.adservice.com
 @@||publisher.adservice.com^$generichide
 @@||puch-ersatzteile.at^*/google-analytics.min.js
@@ -77005,6 +77012,7 @@ zzpzero.com
 ||coinminingonline.com^$third-party
 ||coinnebula.com^$third-party
 ||coinpot.co^$third-party
+||coins4days.com/*_ext_iframe/
 ||coinsicmp.com^
 ||cointraffic.io^$third-party
 ||coinurl.com/get.php?id=
