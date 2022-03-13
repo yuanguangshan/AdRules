@@ -175,7 +175,7 @@ cd ../
 diffFile="$(ls pre |sort -u)"
 for i in $diffFile; do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
- cat ./mod/title/$titleName ./pre/$i > ./$i
+ cat ./mod/title/$titleName ./pre/$i | awk '!a[$0]++'> ./$i
  sed -i '/^$/d' $i
  echo "合并${i}的标题中"
 done
