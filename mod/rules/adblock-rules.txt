@@ -59,6 +59,12 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ||sf6-be-pack.pglstatp-toutiao.com^
 ||in-addr.arpa^
 
+! 大海影视
+||uty.micocc.com
+||lanm.huliyinzi.com
+||ns.adobe.com^
+||swimg2.tsderen.cn^
+||st.huliyinzi.com/ads_app_pic/^
 ！ 移除某大佬修改idm的弹窗
 ||dev.rubaoo.com/TimeDiaryV2^$app=idm.internet.download.manager.plus
 ! -------加强屏蔽End------- !
