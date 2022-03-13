@@ -8,13 +8,13 @@ cd tmp
 echo '新建TMP文件夹完成'
 
 # Install GAWK
-wget http://ftp.gnu.org/gnu/gawk/gawk-5.0.0.tar.xz
+wget -q http://ftp.gnu.org/gnu/gawk/gawk-5.0.0.tar.xz
 tar xvf gawk-5.0.0.tar.xz
-./configure
+./gawk-5.0.0/configure
 make
 make check
 sudo make install
-cd ../
+cd ../../
 # Start Download Filter File
 echo '开始下载规则...'
 easylist=(
