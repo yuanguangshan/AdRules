@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-13 20:11:52（北京时间） 
-! Total count: 63557
+! Version: 2022-03-14 00:14:50（北京时间） 
+! Total count: 63561
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -25593,6 +25593,7 @@
 ||henanlvyi.com^
 ||henanzhulongjx.com^
 ||henduoqian.com^
+||hengtengds.com^
 ||hengyisoft.vip^
 ||henharat.ru^
 ||hentaibiz.com^
@@ -43383,6 +43384,7 @@
 ||r9i8ud.cn^
 ||r9ljguu1k4.ru^
 ||ra.rockcontent.com^
+||raac33.net^
 ||raaliforniaat.biz^
 ||rabbitbreath.com^
 ||rabbithole.top^
@@ -46957,6 +46959,7 @@
 ||sf6-be-pack.pglstatp-toutiao.com^
 ||sf9yvla26s5t.com^
 ||sfanf.com^
+||sfceco.cn^
 ||sfdecpromwjj.com^
 ||sffsdvc.com^
 ||sfg8mbh.cn^
@@ -59706,6 +59709,7 @@
 ||widget.wickedreports.com^
 ||widget.zenback.jp^
 ||widgetadvertising.biz^
+||widgetbe.com^
 ||widgetbucks.com^
 ||widgetly.com^
 ||widgetmonitor.outbrain.com^
