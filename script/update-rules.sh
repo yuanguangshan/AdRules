@@ -191,5 +191,4 @@ done
 echo '规则处理完成'
 gawk '!a[$0]++' adblock+adguard.txt > all.txt
 rm -rf pre tmp
-gawk -V
 exit
