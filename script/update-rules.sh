@@ -141,8 +141,11 @@ cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-a
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
 
-#特殊规则处理
-gawk '!a[$0]++' tmp1-adblock+adguard.txt > tmp-adblock+adguard.txt
+#特殊大规则处理
+iconv -f UTF-8 -t GBK -c tmp1-adblock+adguard.txt > tmp2-adblock+adguard.txt
+gawk '!a[$0]++' tmp3-adblock+adguard.txt > tmp-4adblock+adguard.txt
+iconv -f GBK -t UTF-8 -c tmp4-adblock+adguard.txt > tmp-adblock+adguard.txt
+
 # Move to Pre Filter
 echo '移动规则到Pre目录'
 cd ../
@@ -190,6 +193,5 @@ for i in $diffFile; do
  echo "合并${i}的标题中"
 done
 echo '规则处理完成'
-gawk '!a[$0]++' adblock+adguard.txt > all.txt
 rm -rf pre tmp
 exit

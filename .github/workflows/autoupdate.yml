@@ -36,7 +36,6 @@ jobs:
         run: |
           rm *.txt
           bash ./script/update-rules.sh
-          gawk '!a[$0]++' all.txt > adp-plus.txt
       - name: Update other rules
         run: |
           cd rules
