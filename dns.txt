@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-14 18:21:34（北京时间） 
-! Total count: 63598
+! Version: 2022-03-14 20:07:54（北京时间） 
+! Total count: 63610
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -1081,6 +1081,7 @@
 ||44q.com^
 ||4572.api.swrve.com^
 ||4572.content.swrve.com^
+||45d2bbfb2a.com^
 ||466128.com^
 ||468.vologdainfo.ru^
 ||4690y10pvpq8.com^
@@ -3436,7 +3437,6 @@
 ||ad.autorace.jp^
 ||ad.batanga.com^
 ||ad.bestsportstream.com^
-||ad.bilgin.pro^
 ||ad.bitbay.net^
 ||ad.bitmedia.io^
 ||ad.bluepartner.eu^
@@ -3837,6 +3837,7 @@
 ||adconity.com^
 ||adconjure.com^
 ||adconscious.com^
+||adcontroll.com^
 ||adcrax.com^
 ||adcron.com^
 ||adcrowd.com^
@@ -5424,6 +5425,7 @@
 ||adverd.ru^
 ||adverdata.net^
 ||adverpub.com^
+||advers.info^
 ||adversal.com^
 ||adversaldisplay.com^
 ||adversalservers.com^
@@ -13445,6 +13447,7 @@
 ||chtoumenja.biz^
 ||chuang-yi.com.cn^
 ||chuangjulm.cn^
+||chuangmeiteyi.net^
 ||chuanjiae.cn^
 ||chuchoas.net^
 ||chucity.com^
@@ -17971,6 +17974,7 @@
 ||directrix.ru^
 ||directtrack.com^
 ||directuklye.co^
+||diresozines.com^
 ||diressources.carte-gr.total.fr^
 ||dirkino-traff.ru^
 ||dirt.dennis.co.uk^
@@ -22296,6 +22300,7 @@
 ||folderbunch.com^
 ||foldingfileartist.com^
 ||foldupbriningjeanne.com^
+||folicgare.com^
 ||folksattunewig.com^
 ||follow.vnay.vn^
 ||followan.xyz^
@@ -35298,6 +35303,7 @@
 ||mipengine.baidu.com^
 ||mipwm.com^
 ||miqiks.com^
+||miracslubs.com^
 ||mirafaren.pw^
 ||mirago.com^
 ||mirando.de^
@@ -36265,6 +36271,7 @@
 ||murkymouse.online^
 ||murpic.com^
 ||murqyi.com^
+||musakelep.com^
 ||musclespuffyextraordinary.com^
 ||musculahq.appspot.com^
 ||muscularstraight.com^
@@ -38719,6 +38726,7 @@
 ||oorui.cn^
 ||oorunsey.com^
 ||oos4l.com^
+||ooscaaming.com^
 ||oostotsu.com^
 ||ootchoft.com^
 ||oowelamdgta.com^
@@ -39159,6 +39167,7 @@
 ||overprotectivewidth.com^
 ||overratedchalk.com^
 ||overreactscout.com^
+||overridevertical.com^
 ||oversightbullet.com^
 ||overstat.com^
 ||overture.com^
@@ -45146,6 +45155,7 @@
 ||runative.com^
 ||runbornto.com^
 ||rundsp.com^
+||runecrispin.com^
 ||runetki.co^
 ||runetki.tv^
 ||runewslenta.com^
@@ -50302,6 +50312,7 @@
 ||stalluva.pro^
 ||stampseizeidly.com^
 ||stampshire.info^
+||stampsmindlessscrap.com^
 ||stan.xing.com^
 ||standadv.com^
 ||standinglover.com^
@@ -53066,6 +53077,7 @@
 ||teenyvolcano.com^
 ||teethfan.com^
 ||tegkshovrtwuyg.xyz^
+||teindsrangier.com^
 ||tejia.gaibang.fun^
 ||tekaners.com^
 ||tel-tel-fie.com^
