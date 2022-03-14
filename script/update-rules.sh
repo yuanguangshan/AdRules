@@ -1,4 +1,5 @@
 #!/bin/sh
+set LC_ALL='C'
 rm *.txt
 
 # Create temporary folder
