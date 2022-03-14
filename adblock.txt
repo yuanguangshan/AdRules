@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-14 18:18:37（北京时间） 
-! Total count: 126668
+! Version: 2022-03-14 18:21:34（北京时间） 
+! Total count: 126669
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -51576,6 +51576,7 @@ hanime.tv##.smart-banner-content,.golden-saucer
 hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
 hanmidy.com,bimiacg4.net##+js(acis,Object.defineProperty,location.href)
+hanyu.baidu.com##DIV#fengchao_els.c-container.card.fengchao-els
 hanzify.org##iframe[allowtransparency="true"],[height="50"],[class="mirror-adr"]
 hao.360.cn###background.festival
 hao.360.cn###daily-hotword
