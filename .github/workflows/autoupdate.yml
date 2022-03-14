@@ -30,12 +30,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install gawk
-          
+
       - name: Update Rules
+        continue-on-error: true
         run: |
           rm *.txt
           bash ./script/update-rules.sh
-          
+          gawk '!a[$0]++' all.txt > adp-plus.txt
       - name: Update other rules
         run: |
           cd rules
