@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-14 08:54:23（北京时间） 
-! Total count: 63580
+! Version: 2022-03-14 10:48:22（北京时间） 
+! Total count: 63581
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -15135,6 +15135,7 @@
 ||cookie.aerostatonet.it^
 ||cookie.amerigas.com^
 ||cookie.brealtime.com^
+||cookie.consents.app^
 ||cookie.cynch.com^
 ||cookie.gazeta.pl^
 ||cookie.myamerigas.com^
