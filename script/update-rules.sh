@@ -1,5 +1,6 @@
 #!/bin/sh
-set LC_ALL='C'
+LC_ALL="zh_CN.GBK"
+export LANG="zh_CN.GBK"
 rm *.txt
 
 # Create temporary folder
@@ -140,11 +141,6 @@ cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '.\
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt #处理广告域名
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
-
-#特殊大规则处理
-iconv -f UTF-8 -t GBK -c tmp1-adblock+adguard.txt > tmp2-adblock+adguard.txt
-gawk '!a[$0]++' tmp2-adblock+adguard.txt > tmp3-adblock+adguard.txt
-iconv -f GBK -t UTF-8 -c tmp3-adblock+adguard.txt > tmp-adblock+adguard.txt
 
 # Move to Pre Filter
 echo '移动规则到Pre目录'
