@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-14 10:48:22（北京时间） 
-! Total count: 63302
+! Version: 2022-03-14 16:16:27（北京时间） 
+! Total count: 63309
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 00-gov.cn
@@ -24677,6 +24677,7 @@
 0.0.0.0 gumk.pro
 0.0.0.0 gungpurre.com
 0.0.0.0 gunpartners.com
+0.0.0.0 guntang.me
 0.0.0.0 gunvn.cn
 0.0.0.0 gunyangseamus.cam
 0.0.0.0 gunzblazingpromo.com
@@ -30401,6 +30402,7 @@
 0.0.0.0 kuaishang.com.cn
 0.0.0.0 kuaiyan.com
 0.0.0.0 kuaiyunbd.com
+0.0.0.0 kuaiyunidc.site
 0.0.0.0 kuajingtao.cc
 0.0.0.0 kuamei.cloud
 0.0.0.0 kuangbang.ltd
@@ -31737,6 +31739,7 @@
 0.0.0.0 lizardslaugh.com
 0.0.0.0 lizautie.net
 0.0.0.0 lizehuandian.top
+0.0.0.0 lizuorl.cn
 0.0.0.0 ljb0.assuronline.com
 0.0.0.0 ljecur.com
 0.0.0.0 ljg79.work
@@ -37110,6 +37113,7 @@
 0.0.0.0 njih.net
 0.0.0.0 njinmobirtb.lfstmedia.com
 0.0.0.0 njjrlf.com
+0.0.0.0 njmbgc.cn
 0.0.0.0 njmpacc.com
 0.0.0.0 njohvxs.cn
 0.0.0.0 njq.net
@@ -49894,6 +49898,7 @@
 0.0.0.0 ssraju3n.com
 0.0.0.0 ssrj.net
 0.0.0.0 ssrlot.lotoquebec.com
+0.0.0.0 sssasw3.top
 0.0.0.0 sssgao999.com
 0.0.0.0 ssso.ru
 0.0.0.0 sssvd.china.com
@@ -60642,6 +60647,7 @@
 0.0.0.0 wyhzzy.com
 0.0.0.0 wyliswbimeotllt.xyz
 0.0.0.0 wynather.com
+0.0.0.0 wyovhzs.cn
 0.0.0.0 wypovuwu.pro
 0.0.0.0 wyrtaxbhappt.com
 0.0.0.0 wysasys.com
@@ -60821,6 +60827,7 @@
 0.0.0.0 xcho.top
 0.0.0.0 xcjy876.com
 0.0.0.0 xclaimwords.net
+0.0.0.0 xcli.xyz
 0.0.0.0 xclicks.net
 0.0.0.0 xclk-integracion.com
 0.0.0.0 xclofrfa.com

@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-14 10:48:22（北京时间） 
-! Total count: 126636
+! Version: 2022-03-14 16:16:27（北京时间） 
+! Total count: 126643
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -25970,7 +25970,6 @@ $removeparam=ignoreNavigationBar
 $removeparam=igshid
 $removeparam=igshid,domain=instagram.com
 $removeparam=iid,domain=cnn.com
-$removeparam=iid,domain=ebay.*
 $removeparam=im_company
 $removeparam=im_edp
 $removeparam=imp_id
@@ -48555,6 +48554,7 @@ co188.com##.suspen
 cocoimage.com##.inner_right
 cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
 cocomanga.com#@#.gg_728
+cocomanga.com#@#.gg_950
 cocomanga.com,cocomanhua.com##iframe[style*="important"]
 cocomanga.com,cocomanhua.com#@#.gg430
 cocomanga.com,cocomanhua.com#@#.gg_300
@@ -87207,6 +87207,7 @@ zzpzero.com
 ||gungpurre.com^
 ||gunmi.cn^$third-party
 ||gunpartners.com^$third-party
+||guntang.me^
 ||gunvn.cn^
 ||gunyangseamus.cam^
 ||gunzblazingpromo.com^
@@ -93403,6 +93404,7 @@ zzpzero.com
 ||kuaishang.com.cn^
 ||kuaishouba.com/themes/default/images/*.gif
 ||kuaiyunbd.com^
+||kuaiyunidc.site^
 ||kuaizhan.com^$domain=yaoshe67.com|yuese46.com
 ||kuaizitech.com^$third-party
 ||kuajingtao.cc^
@@ -94819,6 +94821,7 @@ zzpzero.com
 ||lizardslaugh.com^$third-party
 ||lizautie.net^
 ||lizehuandian.top^
+||lizuorl.cn^
 ||ljb0.assuronline.com^
 ||ljecur.com^
 ||ljg79.work^
@@ -99934,6 +99937,7 @@ zzpzero.com
 ||njjuntong.com/static/www/edu/tools/common.js
 ||njmaq.com^$popup
 ||njmaq.com^$third-party
+||njmbgc.cn^
 ||njmpacc.com^
 ||njohvxs.cn^
 ||njq.net^
@@ -112003,6 +112007,7 @@ zzpzero.com
 ||ssrj.net^
 ||ssrlot.lotoquebec.com^
 ||sss777.net/Alove-A/
+||sssasw3.top^
 ||sssgao999.com^
 ||sssvd.china.com^
 ||sssyao.cn^
@@ -121736,6 +121741,7 @@ zzpzero.com
 ||wyliswbimeotllt.xyz^
 ||wymiana.org/stat/
 ||wynather.com^
+||wyovhzs.cn^
 ||wypovuwu.pro^
 ||wyrtaxbhappt.com^
 ||wysasys.com^
@@ -121907,6 +121913,7 @@ zzpzero.com
 ||xcity.org/tc2ca02c24c5.js
 ||xcjy876.com^
 ||xclaimwords.net^$third-party
+||xcli.xyz^
 ||xclicks.net^
 ||xclicks.net^$popup
 ||xclofrfa.com^

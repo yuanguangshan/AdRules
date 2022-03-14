@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-14 10:48:22（北京时间） 
-! Total count: 63581
+! Version: 2022-03-14 16:16:27（北京时间） 
+! Total count: 63588
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -24887,6 +24887,7 @@
 ||gumk.pro^
 ||gungpurre.com^
 ||gunpartners.com^
+||guntang.me^
 ||gunvn.cn^
 ||gunyangseamus.cam^
 ||gunzblazingpromo.com^
@@ -30620,6 +30621,7 @@
 ||kuaishang.com.cn^
 ||kuaiyan.com^
 ||kuaiyunbd.com^
+||kuaiyunidc.site^
 ||kuajingtao.cc^
 ||kuamei.cloud^
 ||kuangbang.ltd^
@@ -31958,6 +31960,7 @@
 ||lizardslaugh.com^
 ||lizautie.net^
 ||lizehuandian.top^
+||lizuorl.cn^
 ||ljb0.assuronline.com^
 ||ljecur.com^
 ||ljg79.work^
@@ -37345,6 +37348,7 @@
 ||njih.net^
 ||njinmobirtb.lfstmedia.com^
 ||njjrlf.com^
+||njmbgc.cn^
 ||njmpacc.com^
 ||njohvxs.cn^
 ||njq.net^
@@ -50156,6 +50160,7 @@
 ||ssraju3n.com^
 ||ssrj.net^
 ||ssrlot.lotoquebec.com^
+||sssasw3.top^
 ||sssgao999.com^
 ||ssso.ru^
 ||sssvd.china.com^
@@ -60921,6 +60926,7 @@
 ||wyhzzy.com^
 ||wyliswbimeotllt.xyz^
 ||wynather.com^
+||wyovhzs.cn^
 ||wypovuwu.pro^
 ||wyrtaxbhappt.com^
 ||wysasys.com^
@@ -61100,6 +61106,7 @@
 ||xcho.top^
 ||xcjy876.com^
 ||xclaimwords.net^
+||xcli.xyz^
 ||xclicks.net^
 ||xclk-integracion.com^
 ||xclofrfa.com^
