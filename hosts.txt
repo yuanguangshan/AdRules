@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-14 16:16:27（北京时间） 
-! Total count: 63309
+! Version: 2022-03-14 18:18:37（北京时间） 
+! Total count: 63319
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 00-gov.cn
@@ -8017,6 +8017,7 @@
 0.0.0.0 aqi.wd.amberweather.com
 0.0.0.0 aqjdigkqvmakz.com
 0.0.0.0 aqjlgsv7cvkzocg.ru
+0.0.0.0 aqmgnoik.com
 0.0.0.0 aqouep.aquaphor.ru
 0.0.0.0 aqqfntqejiva.top
 0.0.0.0 aqt.adalliance.io
@@ -21657,6 +21658,7 @@
 0.0.0.0 fgafkk.com
 0.0.0.0 fgaqwtr.com
 0.0.0.0 fgbgtt.cian.ru
+0.0.0.0 fgbsrtolbscjy.com
 0.0.0.0 fgcash.com.br
 0.0.0.0 fgddl9szdof7.com
 0.0.0.0 fgddrrr.com
@@ -22718,6 +22720,7 @@
 0.0.0.0 fxhfxhf.cc
 0.0.0.0 fxhoog.com
 0.0.0.0 fxhpaoxqyajvmdg.
+0.0.0.0 fxhpaoxqyajvmdg.com
 0.0.0.0 fxipreferral.americanexpress.com
 0.0.0.0 fxjbosijndirva.xyz
 0.0.0.0 fxjs.2541.com
@@ -23696,6 +23699,7 @@
 0.0.0.0 glbgcl.logsss.com
 0.0.0.0 glbtracker.com
 0.0.0.0 glbtrk.com
+0.0.0.0 glcqfurkygcrni.com
 0.0.0.0 gld35wndkn.com
 0.0.0.0 gldad.com
 0.0.0.0 gldlwt.com
@@ -35205,6 +35209,7 @@
 0.0.0.0 mlmswk.janpara.co.jp
 0.0.0.0 mlnadvertising.com
 0.0.0.0 mlno6.com
+0.0.0.0 mlnyndkde.com
 0.0.0.0 mlog.aipai.com
 0.0.0.0 mlog.hiido.com
 0.0.0.0 mlovem.pw
@@ -43056,6 +43061,7 @@
 0.0.0.0 qyctj.com
 0.0.0.0 qydhjirz.com
 0.0.0.0 qygzbxpt.com
+0.0.0.0 qyhshcrwqvaft.com
 0.0.0.0 qyjzleh.cn
 0.0.0.0 qymjpg.star-tex.ru
 0.0.0.0 qyqc4s.com
@@ -44191,6 +44197,7 @@
 0.0.0.0 rg.yottos.com
 0.0.0.0 rgadvert.com
 0.0.0.0 rgfftupf.
+0.0.0.0 rgfftupf.com
 0.0.0.0 rggtysyp.com
 0.0.0.0 rgiixp.sperry.com
 0.0.0.0 rgitc.xyz
@@ -47519,6 +47526,7 @@
 0.0.0.0 slayerhideoustiptoe.com
 0.0.0.0 slaysweater.com
 0.0.0.0 slb.gedawang.com
+0.0.0.0 slbtwnuj.com
 0.0.0.0 slc.stats.paypal.com
 0.0.0.0 slckg-4znyf.ads.tremorhub.com
 0.0.0.0 slckg-kqe2e.ads.tremorhub.com
@@ -57180,6 +57188,7 @@
 0.0.0.0 uw.srv.stackadapt.com
 0.0.0.0 uw88vnd.com
 0.0.0.0 uw88vnd1.com
+0.0.0.0 uwbcefluof.com
 0.0.0.0 uwdtibwk.com
 0.0.0.0 uwdvcn.com
 0.0.0.0 uweyuqyc.xyz
@@ -63089,6 +63098,7 @@
 0.0.0.0 zpxalcnnafyy.com
 0.0.0.0 zpxw.vip
 0.0.0.0 zpyfsj.cn
+0.0.0.0 zq.lansedir.com
 0.0.0.0 zq84.com
 0.0.0.0 zqcfdwd.cn
 0.0.0.0 zqduqpirbn.com
