@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-14 18:21:34（北京时间） 
-! Total count: 126669
+! Version: 2022-03-14 20:07:54（北京时间） 
+! Total count: 126693
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -10947,6 +10947,7 @@
 ##.ad-position-1
 ##.ad-position-2
 ##.ad-position-especial
+##.ad-poss
 ##.ad-post
 ##.ad-post-footer
 ##.ad-post-top
@@ -23730,6 +23731,7 @@
 ##[href^="http://join.ts-dominopresley.com/"]
 ##[href^="http://ldy.fanlimanhua.cn/"]
 ##[href^="http://trafficare.net/"]
+##[href^="http://www.pingperfect.com/aff.php"]
 ##[href^="https://affect3dnetwork.com/track/"]
 ##[href^="https://awbbjmp.com/"]
 ##[href^="https://bulletprofitsmartlink.com/"]
@@ -47542,6 +47544,7 @@ bleedingcool.com###bottom_medium_rectangle
 bleedingcool.com###middle_medium_rectangle
 bleedingcool.com###top_medium_rectangle
 bleedingcool.com##.pw-in-article
+bleedingcool.com,indy100.com,jamaicaobserver.com,pastemagazine.com###top_leaderboard
 bleedingcool.com,jamaicaobserver.com###bottom_leaderboard
 bleedingcool.com,jamaicaobserver.com,pastemagazine.com###top_leaderboard
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
@@ -60133,6 +60136,7 @@ unsplash.com##.eziW_.DjoTo
 unsplash.com##.kG7WW > .vNWg5
 uo.9k0p01l.cn
 uoso.net##DIV.adtopbox.block,H3 + DL.list
+uotan.cn###fuck-ads
 up.woozooo.com##.ves
 up01.cc###popad
 up01.cc##.ads,.pagead,#popad,iframe[height="90"],iframe[height="60"]
@@ -60331,6 +60335,10 @@ vice.com##.adph
 vice.com##.vice-ad__container
 vidbem.com,upload4earn.org,uploadbyte.com#$#abort-on-property-read localStorage
 vide-greniers.org##A[class^="replacement_"]
+video.laxd.com###owDmcIsUc
+video.laxd.com##.ads-container
+video.laxd.com##.c-ad-103
+video.laxd.com##.side_banner
 video.new-eve.com
 video.tv-tokyo.co.jp#@##adspace
 video231.oss-cn-beijing.aliyuncs.com
@@ -64589,6 +64597,7 @@ zzpzero.com
 ||44q.com^
 ||45.32.105.134^
 ||4567.org^$third-party
+||45d2bbfb2a.com^
 ||45f2373b26b8e2.com^
 ||46186911.vtt^
 ||466128.com^
@@ -68662,6 +68671,7 @@ zzpzero.com
 ||adverdirect.com^$popup
 ||adverkeyz.com^$popup
 ||adverpub.com^
+||advers.info^$third-party
 ||adversal.com^$third-party
 ||adversaldisplay.com^
 ||adversalservers.com^
@@ -76024,6 +76034,7 @@ zzpzero.com
 ||chtntr.com^
 ||chuang-yi.com.cn^
 ||chuangjulm.cn^
+||chuangmeiteyi.net^
 ||chuanjiae.cn^
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
 ||chuantu.biz^$domain=7mav2.com|thztv.cc
@@ -76246,6 +76257,7 @@ zzpzero.com
 ||cldom.com^
 ||cldrck.com^
 ||cldrck.com^$popup
+||cldup.com^$domain=androidadult.com
 ||cleafs.com^$third-party
 ||clean.gg^
 ||cleananalytics.com^$third-party
@@ -80289,6 +80301,7 @@ zzpzero.com
 ||directtrack.com^
 ||directtrk.com/js/pop.js$third-party
 ||directuklye.co^
+||diresozines.com^
 ||diressources.carte-gr.total.fr^
 ||diritalia.com^*/seosensor.js
 ||dirt.dennis.co.uk^
@@ -84585,6 +84598,7 @@ zzpzero.com
 ||folha.uol.com.br/folha/furniture/paywall/$xmlhttprequest
 ||folha.uol.com.br/folha/furniture/paywall/loader.js$script
 ||folha.uol.com.br/paywall/js/$script
+||folicgare.com^
 ||folksattunewig.com^
 ||followan.xyz^
 ||followercounter.com^$third-party
@@ -97930,6 +97944,7 @@ zzpzero.com
 ||mipujia.com^$third-party
 ||miqiks.com^
 ||mir300.com/88a/
+||miracslubs.com^
 ||mirafaren.pw^
 ||mirago.com^$third-party
 ||mirtesen.ru/js/ms.js
@@ -98802,6 +98817,7 @@ zzpzero.com
 ||murkymeeting.com^
 ||murkymouse.online^
 ||murpic.com^
+||musakelep.com^
 ||musclespuffyextraordinary.com^
 ||muscularstraight.com^
 ||musculeapatan.cam^
@@ -101215,6 +101231,7 @@ zzpzero.com
 ||oorui.cn^
 ||oorunsey.com^
 ||oos4l.com^$third-party
+||ooscaaming.com^
 ||ootchoft.com^
 ||oowelamdgta.com^
 ||ooxoatse.com^
@@ -101633,6 +101650,7 @@ zzpzero.com
 ||overratedchalk.com^
 ||overreactscout.com^
 ||overreare.co^$third-party
+||overridevertical.com^
 ||oversightbullet.com^
 ||overstat.com^$third-party
 ||overstock.com/analytics/
@@ -107226,6 +107244,7 @@ zzpzero.com
 ||runative-syndicate.com^
 ||runative.com^
 ||runbornto.com^
+||runecrispin.com^
 ||runetki.co^
 ||runetki.com^$third-party
 ||rungginlout.com^
@@ -112130,6 +112149,7 @@ zzpzero.com
 ||stalesummer.com^$third-party
 ||stalihuwi.com^
 ||stampseizeidly.com^
+||stampsmindlessscrap.com^
 ||stan.xing.com^
 ||standinglover.com^
 ||standingnest.com^
@@ -114465,6 +114485,7 @@ zzpzero.com
 ||teenyvolcano.com^
 ||teethfan.com^
 ||tegkshovrtwuyg.xyz^
+||teindsrangier.com^
 ||tekproxy.com/$popup,domain=turkdown.com
 ||tel-tel-fie.com^
 ||telegramspun.com^
@@ -115303,6 +115324,7 @@ zzpzero.com
 ||tlwl1.cn^
 ||tlwl2.cn^
 ||tm-awx.com/pageview
+||tm-banners.gamingadult.com^
 ||tm-core.net^$third-party
 ||tm-offers.gamingadult.com^
 ||tm-offers.gamingadult.com^$popup
@@ -123525,6 +123547,7 @@ zzpzero.com
 ||yousee.com^
 ||youshouge513.cn^
 ||yousuode.cn^
+||youteenporn.net/ssczei/
 ||youth.cn/hezuo/index.js
 ||youth.cn/images/adyun.js
 ||youth.cn/images/c.js
@@ -125166,6 +125189,7 @@ zzpzero.com
 3movs.com##.spot-header
 3movs.com,fapality.com##.cs
 3movs.com,tnaflix.com##iframe[width="300"]
+3movs.xxx,analpornpix.com,babesmachine.com,chaturbate.com,fboomporn.com,fetishshrine.com,freepornpicss.com,imagezog.com,milffox.com,oldies.name,paradisehill.cc,playvids.com,porngames.com,private.com,video.laxd.com,vidxnet.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,yourdailygirls.com,youx.xxx##.banner
 3movs.xxx,analpornpix.com,babesmachine.com,chaturbate.com,fboomporn.com,fetishshrine.com,freepornpicss.com,imagezog.com,milffox.com,oldies.name,paradisehill.cc,playvids.com,porngames.com,private.com,vidxnet.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,yourdailygirls.com,youx.xxx##.banner
 3movs.xxx,bravotube.net,camvideos.tv,dixyporn.com,fetishshrine.com,hello.porn,katestube.com,videocelebs.net,vjav.com##.spot
 3oloum.com,7olm.org,ahladalil.com,syriaforums.net,ahlamontada.com,alamontada.com,arabepro.com,banouta.net,gid3an.com,jordanforum.net,yoo7.com,forumalgerie.net,own0.com##a[onclick^="this.href=atob"]

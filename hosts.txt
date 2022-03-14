@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-14 18:21:34（北京时间） 
-! Total count: 63319
+! Version: 2022-03-14 20:07:54（北京时间） 
+! Total count: 63331
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 00-gov.cn
@@ -913,6 +913,7 @@
 0.0.0.0 44q.com
 0.0.0.0 4572.api.swrve.com
 0.0.0.0 4572.content.swrve.com
+0.0.0.0 45d2bbfb2a.com
 0.0.0.0 466128.com
 0.0.0.0 468.vologdainfo.ru
 0.0.0.0 4690y10pvpq8.com
@@ -3264,7 +3265,6 @@
 0.0.0.0 ad.autorace.jp
 0.0.0.0 ad.batanga.com
 0.0.0.0 ad.bestsportstream.com
-0.0.0.0 ad.bilgin.pro
 0.0.0.0 ad.bitbay.net
 0.0.0.0 ad.bitmedia.io
 0.0.0.0 ad.bluepartner.eu
@@ -3665,6 +3665,7 @@
 0.0.0.0 adconity.com
 0.0.0.0 adconjure.com
 0.0.0.0 adconscious.com
+0.0.0.0 adcontroll.com
 0.0.0.0 adcrax.com
 0.0.0.0 adcron.com
 0.0.0.0 adcrowd.com
@@ -5246,6 +5247,7 @@
 0.0.0.0 adverd.ru
 0.0.0.0 adverdata.net
 0.0.0.0 adverpub.com
+0.0.0.0 advers.info
 0.0.0.0 adversal.com
 0.0.0.0 adversaldisplay.com
 0.0.0.0 adversalservers.com
@@ -13254,6 +13256,7 @@
 0.0.0.0 chtoumenja.biz
 0.0.0.0 chuang-yi.com.cn
 0.0.0.0 chuangjulm.cn
+0.0.0.0 chuangmeiteyi.net
 0.0.0.0 chuanjiae.cn
 0.0.0.0 chuchoas.net
 0.0.0.0 chucity.com
@@ -17770,6 +17773,7 @@
 0.0.0.0 directrix.ru
 0.0.0.0 directtrack.com
 0.0.0.0 directuklye.co
+0.0.0.0 diresozines.com
 0.0.0.0 diressources.carte-gr.total.fr
 0.0.0.0 dirkino-traff.ru
 0.0.0.0 dirt.dennis.co.uk
@@ -22089,6 +22093,7 @@
 0.0.0.0 folderbunch.com
 0.0.0.0 foldingfileartist.com
 0.0.0.0 foldupbriningjeanne.com
+0.0.0.0 folicgare.com
 0.0.0.0 folksattunewig.com
 0.0.0.0 follow.vnay.vn
 0.0.0.0 followan.xyz
@@ -35066,6 +35071,7 @@
 0.0.0.0 mipengine.baidu.com
 0.0.0.0 mipwm.com
 0.0.0.0 miqiks.com
+0.0.0.0 miracslubs.com
 0.0.0.0 mirafaren.pw
 0.0.0.0 mirago.com
 0.0.0.0 mirando.de
@@ -36031,6 +36037,7 @@
 0.0.0.0 murkymouse.online
 0.0.0.0 murpic.com
 0.0.0.0 murqyi.com
+0.0.0.0 musakelep.com
 0.0.0.0 musclespuffyextraordinary.com
 0.0.0.0 musculahq.appspot.com
 0.0.0.0 muscularstraight.com
@@ -38482,6 +38489,7 @@
 0.0.0.0 oorui.cn
 0.0.0.0 oorunsey.com
 0.0.0.0 oos4l.com
+0.0.0.0 ooscaaming.com
 0.0.0.0 oostotsu.com
 0.0.0.0 ootchoft.com
 0.0.0.0 oowelamdgta.com
@@ -38919,6 +38927,7 @@
 0.0.0.0 overprotectivewidth.com
 0.0.0.0 overratedchalk.com
 0.0.0.0 overreactscout.com
+0.0.0.0 overridevertical.com
 0.0.0.0 oversightbullet.com
 0.0.0.0 overstat.com
 0.0.0.0 overture.com
@@ -44900,6 +44909,7 @@
 0.0.0.0 runative.com
 0.0.0.0 runbornto.com
 0.0.0.0 rundsp.com
+0.0.0.0 runecrispin.com
 0.0.0.0 runetki.co
 0.0.0.0 runetki.tv
 0.0.0.0 runewslenta.com
@@ -50040,6 +50050,7 @@
 0.0.0.0 stalluva.pro
 0.0.0.0 stampseizeidly.com
 0.0.0.0 stampshire.info
+0.0.0.0 stampsmindlessscrap.com
 0.0.0.0 stan.xing.com
 0.0.0.0 standadv.com
 0.0.0.0 standinglover.com
@@ -52801,6 +52812,7 @@
 0.0.0.0 teenyvolcano.com
 0.0.0.0 teethfan.com
 0.0.0.0 tegkshovrtwuyg.xyz
+0.0.0.0 teindsrangier.com
 0.0.0.0 tejia.gaibang.fun
 0.0.0.0 tekaners.com
 0.0.0.0 tel-tel-fie.com
