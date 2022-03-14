@@ -25,6 +25,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
+      - name: Update APT GET
+        continue-on-error: true
+        run: |
+          sudo apt-get update
+          sudo apt-get install gawk
+          
       - name: Update Rules
         run: |
           rm *.txt
