@@ -106,7 +106,6 @@ allow_damain=(
   "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt"
   "https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/whitelist/master/domains.list"
   "https://raw.githubusercontent.com/neodevpro/neodevhost/master/customallowlist"
-  "https://raw.githubusercontent.com/EnergizedProtection/unblock/master/basic/formats/domains.txt"
 )
 
 for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_damain[@]}"  "${!allow_damain[@]}"
