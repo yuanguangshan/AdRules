@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-14 00:25:57（北京时间） 
-! Total count: 63572
+! Version: 2022-03-14 08:54:23（北京时间） 
+! Total count: 63580
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -5857,6 +5857,7 @@
 ||afftrackr.com^
 ||afftrk.online^
 ||affvantage.com^
+||afgfjdivrf.com^
 ||afgmyvid.com^
 ||afgr1.com^
 ||afgr10.com^
@@ -7312,6 +7313,7 @@
 ||ann5.net^
 ||anncmq.com^
 ||annesuspense.com^
+||anni141224.club^
 ||announcement.ru^
 ||annoyedairport.com^
 ||annoyedfifth.com^
@@ -17667,7 +17669,6 @@
 ||df.mic.mob.com^
 ||df.mmo001.info^
 ||df.mob.com^
-||df.pmweb.com.br^
 ||df.tanx.com^
 ||df0pmigc8xs70.cloudfront.net^
 ||df3n43m.com^
@@ -20407,6 +20408,7 @@
 ||enumerateenvironment.com^
 ||envelopeheadache.com^
 ||enviablewaistwhereabouts.com^
+||enviou.com.br^
 ||enviousfundraiserbelonged.com^
 ||enviousshape.com^
 ||enviousthread.com^
@@ -31187,6 +31189,7 @@
 ||leadsleader.ru^
 ||leadsleap.com^
 ||leadsmonitor.io^
+||leadspace.com^
 ||leadsrx.com^
 ||leadtopays.com^
 ||leadtracking.plumvoice.com^
@@ -34239,6 +34242,7 @@
 ||me.networkandfaces.com^
 ||me.xdrig.com^
 ||me390.life^
+||me511.win^
 ||me99.club^
 ||meadigital.com^
 ||meadowleader.com^
@@ -41029,6 +41033,7 @@
 ||pmssrv.mercadolibre.com.ve^
 ||pmssrv.mercadolivre.com.br^
 ||pmtdatarow.pro^
+||pmweb.com.br^
 ||pmxsvdb.pro^
 ||pmzer.com^
 ||pnapi.invoca.net^
@@ -41309,6 +41314,7 @@
 ||portfold.com^
 ||portionlilacrig.com^
 ||portkingric.net^
+||portoteamo.com^
 ||portoutsid.xyz^
 ||portprintingchecking.com^
 ||portscalculateappease.com^
@@ -61466,6 +61472,7 @@
 ||xmyejun.cn^
 ||xmysinter.com^
 ||xmzwdgm.com^
+||xn--2hvw21e.online^
 ||xn--2qu96gouvko1a.com^
 ||xn--2qux23confgml.club^
 ||xn--3bs795g.chat^
@@ -61688,6 +61695,7 @@
 ||xwpoxv.birdies.com^
 ||xwuad.com^
 ||xww360.com^
+||xwwj.ink^
 ||xwxmfubxzc.com^
 ||xx.c.appier.net^
 ||xx123.top^

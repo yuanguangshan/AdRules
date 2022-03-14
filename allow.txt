@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-14 00:25:57（北京时间） 
-! Total count: 16316
+! Version: 2022-03-14 08:54:23（北京时间） 
+! Total count: 16317
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -12106,6 +12106,7 @@
 @@||servebbs.net^
 @@||servebeer.com^
 @@||servebom.com/tmn*.js$script,domain=tomsguide.com|tomshardware.co.uk|tomshardware.com|wonderhowto.com
+@@||served-by.pixfuture.com/www/delivery/gcws.php$xmlhttprequest,domain=premiumtimesng.com
 @@||servepics.com^
 @@||server-54-230-93-120.fra2.r.cloudfront.net^
 @@||server.cpmstar.com/view.aspx?poolid=$domain=newgrounds.com
