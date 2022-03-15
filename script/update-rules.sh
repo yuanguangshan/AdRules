@@ -1,4 +1,9 @@
 #!/bin/sh
+export LC_CTYPE=zh_CN.UTF-8
+export LC_ALL=zh_CN.UTF-8
+LANG=zh_CN.UTF-8
+LC_ALL=zh_CN.UTF-8
+
 rm *.txt
 
 # Create temporary folder
@@ -130,7 +135,7 @@ cat hosts*.txt| grep -Ev '#|\$|@|!|/|\\|\*'| sed 's/127.0.0.1 //' | sed 's/0.0.0
 cat allow-damain*.txt | grep -v '#' |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n | uniq | awk '!a[$0]++' >> pre-allow.txt  #将允许域名转换为ABP规则
 
 # Start Merge and Duplicate Removal
-set LC_ALL='C'
+#set LC_ALL='C'
 cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
 cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' >> tmp-tmp-adblock+adguard.txt #处理Plus规则
 cat adguard*.txt | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
@@ -140,7 +145,7 @@ cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-a
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
 
-set LC_ALL='C'
+#set LC_ALL='C'
 gawk '!a[$0]++' tmp-tmp-adblock+adguard.txt > tmp-adblock+adguard.txt
 
 # Move to Pre Filter
