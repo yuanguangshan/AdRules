@@ -1,6 +1,6 @@
 <div align="center">
-<h1 align="center">AdRules</h1>
-<h2 align="center">一个强力去广告的规则</h2>
+<h1 align="center">AdRules<br>一个强力去广告的规则</h1>
+
 <img src="https://img.shields.io/github/stars/Cats-Team/AdRules?color=yellow">
 <img src="https://img.shields.io/github/forks/Cats-Team/AdRules?color=orange">
 <img src="https://img.shields.io/github/issues/Cats-Team/AdRules?color=green">
@@ -32,17 +32,17 @@
 ## 规则总数
 ```
 
-更新时间: 2022-03-14 20:36:15 （北京时间） 
+更新时间: 2022-03-15 19:51:23 （北京时间） 
 
-AdRules（For Adblock）规则数量: 126687 
+AdRules（For Adblock）规则数量: 126303 
 
-AdRules（For AdGuard）规则数量: 106606 
+AdRules（For AdGuard）规则数量: 106715 
 
-AdRules（For DNS）规则数量: 63610 
+AdRules（For DNS）规则数量: 63124 
 
 AdRules（For Adaway）规则数量: 64335 
 
-Allowlist规则数量: 6460 
+Allowlist规则数量: 6468 
 
 AD Damian数量: 64362 
 ``` 
