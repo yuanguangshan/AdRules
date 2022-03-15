@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-15 19:32:36（北京时间） 
-! Total count: 126199
+! Version: 2022-03-15 19:40:49（北京时间） 
+! Total count: 126200
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -52398,6 +52398,7 @@ ifanr.com##DIV.page-body:first-child > DIV.c-goto-top:nth-child(8) > DIV.c-goto-
 ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-navbar:first-child > DIV.c-header-navbar__content > DIV.c-header-navbar－content__right:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
 ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-sns:first-child > DIV.c-header-sns__wrapper > DIV.c-header-sns__about:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
 ifanr.com##div.ifanr-text-content,div.banner_post_bottom,.c-jiong__image
+ifdvlh.cn
 ifeng.com###CA_left
 ifeng.com###CA_right
 ifeng.com###a_code
