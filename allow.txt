@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-15 08:55:21（北京时间） 
-! Total count: 6470
+! Version: 2022-03-15 16:16:32（北京时间） 
+! Total count: 6472
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2962,6 +2962,7 @@
 @@||googletagmanager.com/gtm.js$domain=amd.com
 @@||googletagmanager.com/gtm.js$domain=anond.hatelabo.jp
 @@||googletagmanager.com/gtm.js$domain=argeweb.nl
+@@||googletagmanager.com/gtm.js$domain=arzum.com.tr
 @@||googletagmanager.com/gtm.js$domain=asicstr.com
 @@||googletagmanager.com/gtm.js$domain=ask.com
 @@||googletagmanager.com/gtm.js$domain=askona.ru
@@ -3721,6 +3722,7 @@
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
 @@||jsonip.com/?callback=jQuery$domain=pagtel.com.br
 @@||jspassport.ssl.qhimg.com^
+@@||jsqsjn.com^$script,domain=yssm.info
 @@||jsr9.com^$domain=jsr9.com
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=cwseed.com
