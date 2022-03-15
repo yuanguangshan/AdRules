@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-15 22:46:00（北京时间） 
-! Total count: 126300
+! Version: 2022-03-16 00:19:08（北京时间） 
+! Total count: 126304
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -42217,6 +42217,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.exp.qq.com/img/
 @@||cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js$script
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
 @@||cdn.jsdelivr.net^$script,domain=yemancomic.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
@@ -67325,6 +67326,7 @@ zzpzero.com
 ||acbp0020171456.page.tl^
 ||acc-hd.de^$third-party
 ||accdab.net^$third-party
+||accedednews.com^
 ||accedenonre.club^
 ||accelacomm.com^$third-party
 ||accelerationirreproachabledonation.com^
@@ -96881,6 +96883,7 @@ zzpzero.com
 ||med.viibryd.com^
 ||med.viibrydhcp.com^
 ||med66.com/lamu/
+||medalhobits.com^
 ||medals.bizrate.com^$third-party
 ||medfoodspace.com^
 ||medgoodfood.com^
@@ -106186,6 +106189,7 @@ zzpzero.com
 ||res.ythouse.com/image/index/2012/
 ||res3.feedsportal.com^
 ||resalag.com^
+||resawsmas.com^
 ||reschedulewizards.com^
 ||rescuephrase.com^
 ||research-artisan.com^$third-party

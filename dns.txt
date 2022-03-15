@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-15 22:46:00（北京时间） 
-! Total count: 63126
+! Version: 2022-03-16 00:19:08（北京时间） 
+! Total count: 63129
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -3123,6 +3123,7 @@
 ||acc-hd.de^
 ||accaii.com^
 ||accdab.net^
+||accedednews.com^
 ||accedenonre.club^
 ||accelacomm.com^
 ||accelerationirreproachabledonation.com^
@@ -34075,6 +34076,7 @@
 ||med.viibryd.com^
 ||med.viibrydhcp.com^
 ||medads.ru^
+||medalhobits.com^
 ||medfoodspace.com^
 ||medgoodfood.com^
 ||media-active.contextweb.com^
@@ -43865,6 +43867,7 @@
 ||res3.feedsportal.com^
 ||resad.mediaid.click^
 ||resalag.com^
+||resawsmas.com^
 ||reschedulewizards.com^
 ||rescuephrase.com^
 ||research-artisan.com^
