@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-15 19:40:49（北京时间） 
-! Total count: 126200
+! Version: 2022-03-15 19:51:22（北京时间） 
+! Total count: 126304
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -45807,6 +45807,7 @@ _yahooads/
 _your_ad.
 _zedo.
 _zhike.htm
+a-m-s.adnonstop.com
 a.9game.cn##.DownBox
 a.9game.cn##.JS_xlyx_down.down-app
 a.9game.cn##.JS_xlyx_down.zq-down-box
@@ -46259,7 +46260,16 @@ analpornpix.com##[src^="https://analpornpix.com/t/153"]
 analpornpix.com##a[href^="/go/"]
 analsexstars.com##.sppc
 analsexstars.com,porn.com,pussy.org##.rmedia
+analy.tuniu.cn
+analyse.weather.com.cn
+analysis.chinaiiss.com
+analytics-union.sandai.net
+analytics-union.xunlei.com
 analytics.163.com
+analytics.21cn.com
+analytics.oneplus.cn
+analytics.techweb.com.cn
+analytics.tv189.cn
 analyticsindiamag.com##[href^="https://business.louisville.edu/"]
 ananvod.com##.rbPicAll
 ancient-origins.net,catholicculture.org,deadspin.com,electrek.co,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lewrockwell.com,lifehacker.com,ssbcrack.com,thetakeout.com##a[href^="https://www.amazon."][href*="tag="]
@@ -46396,6 +46406,8 @@ apic.in##.ad,.adsbygoogle,[src="http://www.apic.in/dyd.png"]
 apiref.com###navbarRightAd
 apiref.com,iodraw.com,matools.com###popAd
 apisgame.iqiyi.com
+apistat.gao7.com
+apistat.wasu.cn
 apk.tw###confirmOverla
 apk.tw###favatarRight
 apk.tw###focus
@@ -47242,6 +47254,7 @@ bbs.zhongsou.com##div.lt_gg960,div.gg1p6p6,div.marketingad01,div.lt_ggao_wei
 bbs.zol.com.cn##div#bbsAd
 bbs99.club##[class="wp a2_h"],.a_2mu,.ad,.a_pb
 bbsyl.cn###ggwehaoyi,table[style="width:100%;height:10%;"],[width="980"][height="90"],[src^="/ads/"]
+bc.qunar.com
 bcbay.com##.ad_txt_box
 bcbay.com##.discuss + table
 bcbay.com##table[id] + table[style="margin:3px auto;"]
@@ -47272,6 +47285,7 @@ bdmbase.ru##html > .q1
 bdp.cn#@#.adv-list
 bdq.yikan2019.com
 bdsmlr.com#@#.ads-container
+bdstatic.eastmoney.com
 bdwmhzfl.120askimages.com
 bea-s.dinghuoche.com
 beanfun.com#@#.ad-slider
@@ -47953,6 +47967,7 @@ carrotchou.blog,landiannews.com,xingkbjm.com##.widget_media_image
 cars.mitula.ae#@#.adsList
 carsales.com.au,technobuffalo.com##.page-header
 carsdirect.com###TopBanner
+carstat.bitauto.com
 cartoomad.com##td[height^="10"],[height="90"],td[height="92"]
 cartoon18.com#?#.row:-abp-has(.badge:-abp-contains(ad))
 cartoon18.com,pornbest.org,ptt.sex###links
@@ -47983,6 +47998,7 @@ cbber.com,you85.net###diy2
 cbg.cn##[class^="erweima"]
 cbg.cn##div[class^="erweima"]
 cbhours.com##.footer-section
+cbjg.cqnews.net
 cbjs.baidu.com
 cbmay.com##.widget
 cbmd.cn##.tong_addver,.header_top_ad,[id^="Advertices"]
@@ -48041,6 +48057,7 @@ cdn0.weinin99.cn
 cdn1.yeyushe.cn
 cdn3.mancdn88.com
 cdnfile.cryy.vip
+cdnlog.zhenai.com
 cdns.mbxt.net
 cdromance.com##.game-container[style="grid-column: span 2;"]
 cdromance.com##.support-us
@@ -48377,6 +48394,7 @@ classifiedads.com##.resultmarg
 classy-online.jp,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
 click.abi.run
+click.tianyaui.com
 click.ynxjf.com
 click108.com.tw##.AD_300250
 click108.com.tw##.AD_730280
@@ -48530,6 +48548,7 @@ cnool.net##.meilai_box
 cnool.net##.second-banner
 cnool.net##.third-banner
 cnool.net##div[class^="banner-ad"],div[id^="banner_ad"],div[class^="kjad"],div#guoqing_bannerDiv,DIV.third-banner,DIV.second-banner,.meilai_box,.tb_box
+cnpc.infzm.com
 cnpingpang.com###diycity1103
 cnpingpang.com###forum_rules_1
 cnpingpang.com###new-flash
@@ -48716,8 +48735,16 @@ cosxcos.com##.mya
 cosxcos.org##.xxabc
 cotton.pink##.adsbyfalcon
 coub.com##.timeline-banner
+count.candou.com
+count.enet.com.cn
+count.iyaxin.com
 count.nuanyuehanxing.com
+count.pcauto.com.cn
+count.pcgames.com.cn
 counter.dev,lindaikejisblog.com##.da
+counter.pcauto.com.cn
+counter.tianjimedia.com
+countpage.sznews.com
 cowcotland.com,wamiz.com###adblocker
 cowtransfer.com#@#.socialButton
 cp-g.net###adblock_layer
@@ -48728,6 +48755,7 @@ cpd.com.cn###right_ad1
 cpd.com.cn###right_ad2
 cpd.com.cn###right_adt
 cpd.com.cn##[id^="right_ad"],#left_bdad
+cpms.now.com
 cpnn.com.cn###myimg
 cpnn.com.cn##.adverd-top
 cpnn.com.cn##.duilianop
@@ -49082,6 +49110,7 @@ dat.yl-zipper.com
 dat1.jzjxmj.com
 dat8.cc
 data.lichenqx.com
+data.xici.net
 data.zhongquanjy.com
 datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
 dataguru.cn###bg
@@ -49250,6 +49279,7 @@ diediao.com###buffer
 diediao123.com##[class$="_ad"]
 dieka888.com
 dietsinreview.com##.r_content_300x250
+dig.qbao.com
 digit.in##.center-add
 digitalartsonline.co.uk###topLeaderContainer
 digitalcitizen.life###dont-block-our-ads-popup
@@ -49922,6 +49952,7 @@ eic.org.cn##.lx-btm-box
 eightieskids.com##.break
 eitb.eus##.publicidad_robapaginas
 ejie.me/cn##[width="300"][height="250"]
+ejieban.com
 ejzr.golden1.sogou.com
 eladies.23taoke.xyz
 eladies.zhmyq.cn
@@ -50293,6 +50324,7 @@ fc.tiepan.cn
 fc.zuixinchao.com
 fc2.com##div.ad_head_wide,div.side_menu_block
 fcbarcelona.dk#@##article_ad
+fcm.baidu.com
 fczym.xyz###fl
 fczym.xyz##.v
 fdc.com.cn##.yifangbanner
@@ -50872,6 +50904,7 @@ g.huya.com
 g.pconline.com.cn##DIV#pc-aptgA,div[class="m-header-top"],#JucLogin,#pTit-5,DIV.m-more + UL.news
 g.pconline.com.cn##div.pc-client
 g.rain8.com
+g.yccdn.com
 g.youshishop.com
 g1.tagtic.cn
 g1c5.com
@@ -52689,10 +52722,12 @@ imgburn.com##font[face="Arial"][size="1"]
 imgnova.xyz###boxes
 imgnova.xyz###mask
 imgo.tv##[id^="ac-"]
+imgstat.baidu.com
 imgtaxi.com##.bottom_abs
 imgur.com,pushsquare.com,songlyrics.com##.masthead
 imomoe.*###adl,#adr
 imooc.com##.redrain-bg-shade
+imp.zol.com.cn
 in-page-push.com
 in-trend.biz##body > [id][style^="z-index"]
 in.18gg.net##Table
@@ -52802,6 +52837,7 @@ ip-address.org##td[style="padding-top:0.3em"]
 ip.cn##.well > p > a
 ip.cn##[href^="https://s.click.taobao.com"],[width="360"]
 ip.ta.wangkx.xyz
+ip.tianqiapi.com
 ip.ws.126.net
 ipc.me##[style^="height:280px;width:336px;"],[id^="BAIDU_SSP__"],[id^="tanxssp-outer-conmm_"],.adsbygoogle,.d300
 ipcfun.com###crumb_r
@@ -52995,6 +53031,7 @@ irishtimes.com##.cs-teaser
 irk.ru##.b-adblock-message
 isaidubb.net,orutamil.com##a[href*="/ucdownloader.php?"]
 isaidubb.net,orutamil.com##a[href*="/ucmini.php?"]
+isdspeed.qq.com
 isearchfiles.com,filescroptube.com##A[href^="http://66.55.151.22/download.php?ref="]
 isekaiscan.com##[href="https://comichub.net/"]
 isekaiscan.com,miloserdov.org###custom_html-11
@@ -53921,6 +53958,7 @@ kkbox.com##.google-ad-manager
 kkj.cn,mydrivers.com##div[style*="width:1"][style*="height:90px;"]
 kknews.cc,read01.com##.axslot
 kkpan.com,qqtn.com,smzy.com,yxdj.com.cn##.u-gs-btn
+kkpgv2.xunlei.com
 kkr.realwanghao.com
 kkw360.com##a[href^="https://sourl.cn/"]
 kl.mieyisi.com
@@ -54055,6 +54093,7 @@ l.dalemax.cn
 l.glrcy.cn
 l.kscmt.cn
 l.ksxcxb.cn
+l.ykimg.com
 l23kdkghsldrj.tj-cyhg.com
 l2top.ru#$#abort-current-inline-script $ cleanAndEval
 la-cosa.it#@#div[id^="div-gpt-ad"]
@@ -54375,6 +54414,7 @@ lkjk8jdk2.jnwpzq.com
 lkm.bangyuandianzi.top
 lkong.com##.lkong-ads
 lkr.autotrading.com.cn
+ll.hudong.com
 llduang.com##[class$="cokitaobao1"]
 lls.mblai.com
 llsdkfjkls.cnlouissegur.com
@@ -54391,7 +54431,13 @@ localtiger.com##.a9gy_lt
 locklab.com##.picwrap
 lofter.com##.js-promote-itm
 log-api.pangolin-sdk-toutiao.com
+log.daqi.com
 log.lon22.com
+log.mtime.cn
+log.music.baidu.com
+log.vdisk.cn
+log.zongheng.com
+log2.mtime.cn
 logo160.com##script + a[href="/"]
 logupdateafrica.com###rotating-item-wrapper
 lohas.pixnet.net###box785805
@@ -55356,6 +55402,7 @@ miui.com##.single-poster-out__img
 miv.ububyiw6655.xyz
 mix.dj###maskads
 mix.dj##.classAds
+mixer.sina.cn
 mjg0310.com
 mjr.zqslg.cn
 mjzj.com##div[id^="sidebar-top-carouse"]
@@ -55364,6 +55411,7 @@ mkt.mcfarland.cn
 mkt.xhtlw.cn
 mkvcage.com,pastehere.xyz,vidshare.tv,govid.me,hdvid.tv,ovid.pro#$#abort-on-property-read adcashMacros
 mkzhan.com##.ad_50
+mlog.aipai.com
 mlsbd.shop##.notice-board
 mm-cg.com###ioshowAD
 mm-cg.com##[src^="http://18av.mm-cg.com/"],div.CN_qmvtoy,div#Dfrom,span.di_img,span#partner,span#friendLink,img[src="http://18av.mm-cg.com/jizzad.jpg"]
@@ -55537,6 +55585,9 @@ msdn.hk##[class^="gg"],.adsbygoogle
 mse.360.cn###banner0
 mse.360.cn###banner_2
 mse.360.cn##a[id^="banner"]
+msg.ettoday.net
+msg.iqiyi.com
+msg.video.qiyi.com
 msite.baidu.com
 msn.cn##.nativeadserversidecontentmodule
 msn.cn##.rc > a[href^="https://sp.booking.com/"]
@@ -56191,6 +56242,7 @@ nowwatchtvlive.me##DIV[style="padding-top:5px;float:left;width:100%;font-size:13
 nplusonemag.com##.nurble
 ns1.chinayms.com
 ns2.chinayms.com
+nsclick.baidu.com
 nsfwalbum.com#$#abort-current-inline-script document.getElementsByTagName body
 nsfwyoutube.com##img[src*="data"]
 nta.ng##img[alt="Online Ads WeConnect Platform"]
@@ -56292,6 +56344,7 @@ olevod.com##div.box
 olgame.tw##.nex_floor_banner
 olgame.tw##.nex_index_ads
 olgame.tw##.nex_mid_ads
+olpv.onlylady.com
 olympics.com##.\-partners
 omk13.f4hn9v.com
 omlube.com/O/1000970O3001405O1O.js
@@ -56404,6 +56457,7 @@ osobnosti.cz##.hide-screenbot
 ostatic.com###media_partner_gallery
 ostroh.info###modal.modal-bg
 ot-boutique.fr#@##publicite
+other.v.duowan.com
 ottawazine.com##div[id^="text-"]
 ottverse.com##.livevideostack-ad
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
@@ -56442,6 +56496,7 @@ p.bswsmlp.cn
 p.motuopj.cn
 p.yingxiao678.com
 p.yw800.com.cn
+p0y.cn
 p1-feedback.byteimg.com
 p2pcast.tv#@##adblock
 p2peye.com###article_content a[ref="nofollow"]
@@ -56830,6 +56885,7 @@ playonlinux.com###menu_droite > .login > div
 playonlinux.com##div[style="text-align:center;  border-radius:7px; width:160px;  border:1px solid #666666;  margin-left:5px;padding-right:5px;color:#FFF;  background-color:#666;font-family:Maven Pro,century gothic, arial, helvetica, sans serif;padding-top:94px;  height:600px;  padding-left:5px; font-size:18px; "]
 plays01.com##.adbox-bg
 playstationtrophies.org###vnt-lb-a
+playstats.v.duowan.com
 playtv.com.cn###table6
 playtv.com.cn##a[href="http://www.sdhanrui.cn/"]
 playtv.com.cn##table[id] > tbody > tr > td[colspan="2"][width^="32"]
@@ -57180,10 +57236,14 @@ pussyspace.com###bhcr
 putclub.com##.ad_vipabc,.add_ad,.areaAd,.adsbygoogle,.gtest,.the_ad,.ad_fastReading,.ad_top
 putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
 puzzlegarage.com##.banner--inside
+pv.cheshi.com
 pv.dakawm.cc
+pv.ltn.com.tw
 pv.quw1234.icu
 pv.vipwm.cc
+pv.zhiding.cn
 pvcalc.ru##div[style^="position:fixed; top:0px; left:0px; opacity: 0.9;"]
+pvtest.zol.com.cn
 pwinsider.com##.content-left
 pwinsider.com##.content-right
 px.eiasia.ltd
@@ -57219,6 +57279,7 @@ qdff.zxwstong.com
 qdmm.com##DIV[id^="down_3g_201"],DIV[id^="down2_3g_201"],div#div_10029118,div.show_ggpic_990X60,div.show_ggpic_770X60,div.show_tjimg,.qd_sms_pop,#spanADHead,#ADClientLtop0609_Div
 qdmm.com,qidian.com##.qdRead_client
 qdmm.com,qidian.com##.qdRead_redscan
+qdp.qidian.com
 qdt.lxksalary.com
 qdt.zjzh2019.com
 qdwght.com
@@ -57635,6 +57696,7 @@ rebelnews.com##.rn-sidebar-ad
 rebooo.com###gong
 reboyc.com##DIV.ad96090
 recombu.com##.takeover-right
+record.kuai.xunlei.com
 record.xl.pt###BannerINQ
 record.xl.pt##A[href^="http://partner.sbaffiliates.com/"]
 recruit.com.hk###bottomBar
@@ -57694,6 +57756,7 @@ rentixuewei.com##.list_main_R_ad,.show_dy,.ad
 renwai.ren##div.context_t,div.ad,div.textwidget div[class^="forum-201"]:first-child
 repaik.com##div.a_cn,DIV.a_mu,.a_pt,.a_pr
 repeatmyvids.com,w3newspapers.com###topads
+reportlog.dftoutiao.com
 republicbroadcasting.org##.left-sidebar-padder > #text-8
 republicworld.com##.bg-f0f0f0
 republicworld.com##.pad3010.txtcenter
@@ -57893,6 +57956,7 @@ rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DE
 rychlost.cz###cpcbsd9z1
 rznews.cn###img
 rznews.cn##DIV[class^="ad"],.guanggao
+s.btime.com
 s.cchvc.net
 s.csalsylqx.com
 s.fengmishop.cn
@@ -57902,6 +57966,8 @@ s.m2pub.com###adk2_img
 s.parentNode.insertBefore(hm, s);
 s.qiangger.pw
 s.shufapeixun.shop
+s.so.360.cn
+s.union.360.cn
 s1.m.ikkdm.com/mg/show2.js
 s11.zhangyumo.top
 s2.m.ikkdm.com/mg/show2.js
@@ -58828,10 +58894,34 @@ start.firefoxchina.cn##.wrap > div[style]:last-child
 startos.com##div.test-240
 startup.ch##.smallbanner
 startups.co.uk##.dc-leaderboard
+stat.baike.com
+stat.cnmo.com
+stat.cqwb.com.cn
+stat.cutv.com
+stat.download.xunlei.com
+stat.ea3w.com
+stat.game.yy.com
+stat.hebnews.cn
+stat.hkwb.net
+stat.house365.com
+stat.ijinshan.com
+stat.img-space.com
+stat.jc001.cn
+stat.mql5.com
+stat.pchome.net
+stat.timedg.com
+stat.ts.cn
+stat.v.17173.com
+stat.xgo.com.cn
+stat.yunfan.com
 static.g.iqiyi.com
+static.gridsumdissector.com
 staticice.com.au##[href^="https://kogan.sjv.io/"]
 statics.weiyuedu.cc/skin/v3/js/dibu.js
 statics.woozooo.com
+statis1.mama.cn
+stats.766.com
+stats.v.duowan.com
 stc.gov.cn###mov
 steachs.com##.adsense,[id^="div-gpt-ad-"],.adsbygoogle
 steachs.com##.sidebar:first-child
@@ -59013,6 +59103,7 @@ systutorials.com###block-4
 systutorials.com###block-5
 systutorials.com###block-7
 systutorials.com###st-in-post-1
+syzjxz2018.cn
 sz.net.cn##[class^="duilian_"],DIV[class^="ad_"],div.A54,DIV.ad,DIV.ad66,DIV.banner_bar,DIV.gg_border,DIV[class^="c_ad"],DIV[class^="content c_ad"],DIV.MainR_ad3,DIV[style="width:420px; height:90px; float:left"],DIV[style=" height:90px; width:536px; float:left; padding-left:4px;"]
 sz1001.net##SPAN#soft_top_900
 szhk.com###div01
@@ -59075,6 +59166,7 @@ taiwan123.cn,qimila.info##iframe[id="imageurl87"],[width="300"],[height="90px"]
 taiwandaily.net##.gofollow[data-track] > img
 taizhou.com.cn##.duilian
 taizhou.com.cn##.duilian2
+tajs.qq.com
 takeover_background.
 takeover_banner_
 talkfx.com##.slidebox
@@ -59140,6 +59232,7 @@ tbtdg.com##.s11text
 tbxt.com###headad2
 tbxt.com##[id^="headad"]
 tci.oss-ap-southeast-1.aliyuncs.com
+tcss.qq.com
 tdbeta.cn##.a_mu,.adsbygoogle,#sitefocus
 te5.com##.t_toplong,.t_allright,#cwdbgg
 teachinghand.com##.actions__wrapper
@@ -59643,8 +59736,10 @@ titlovi.com#@#.text_ad
 titlovi.com#@#.text_ads
 tivi.fi#$#hide-if-matches-xpath '//div[contains(text(),"Kaupallinen yhteistyö")]/../../..'
 tj-yijiajing.com
+tj.21ic.com
 tj.tianwenhu.com
 tj.xinhuanet.com##.xhdf_num1_col3
+tjj.com
 tkl.meizhebao.cn
 tkl.unilz588.com
 tkplayer.com###banner
@@ -59695,6 +59790,7 @@ tom.com##div#popupDivgame,.modad
 tompda.com##A.tsxb,div.shop_right_news2,embed[width="980px"][height="60px"],div[pageid],iframe[src^="http://www.tompda.com/adv/"],iframe#tsdxb_frame
 tomsguide.com##.hawk-main-editorialised
 tomwans.com#@#.adright
+tongji.xinmin.cn
 tongren.gov.cn###tanchukuang
 tongxiang.net##.mmver.w-1200
 tongxiang.net##.x15sdv.display_3_3
@@ -59778,7 +59874,10 @@ tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
 tpy888.cn##.f_ad1
 tr.thallus.net
 tr.xiaosunxin.cn
+track.hujiang.com
 track.sohu.com
+track.uc.cn
+tracking.kdnet.net
 trackingthepros.com###mini-containerr
 trackr.fr##.alert-dashed
 tradekey.com##.float_left
@@ -60445,6 +60544,7 @@ vjmedia.com.hk##.code-block
 vk.barkov.net##.alert-danger
 vk.com###system_msg
 vk922.com##a[href^="/ad/"]
+vm.aty.sohu.com
 vm5.i7akpd1.xyz
 vmall.com##div[id^="ad_"]
 vmall.com#@#.iframeAd
@@ -61907,6 +62007,7 @@ xkb.com.cn##.xwAd
 xkcpw.cn##[height="65"],.a_pb,[href^="http://888.yiding444.com:8088/Register/"],.a_pt > pr > div > :not(.pcb)
 xlfans.com##div[class$="banner"],div.banner
 xlpe.husky.sogou.com
+xls.go.sohu.com
 xlyy100.com##.nicegame,.dw_propt
 xm.gzwxdq.cn
 xm.lyszsz.cn
@@ -62468,6 +62569,7 @@ yse1234.com/template/phone/imagess/sdfwe.js
 yshw1.com###diynews_ad1
 yshw1.com##[id^="diynews_ad"]
 ysjkbk.com
+ysont.cn
 ysts8.com##[class^="ads_"]
 ysw191.com###fix
 ysxs8.com##.ysxs8_w960_1
@@ -124831,6 +124933,7 @@ zzpzero.com
 7zhan.com##.banner
 8bo.com##.mad
 8btc.com##.ad,.header-prices,.adv_element
+8cnd.com
 8comic.se##[id^="ad_bar"],#ggad
 8drama.com##.masonry,.sitemajid2s,[id^="ad_bar"],#ggad
 8dushu.com##[class^="yd_ad"]
@@ -125383,6 +125486,7 @@ zzpzero.com
 111os.com###topBox
 111os.com,ahah3.com,qhyy8.com###couplet
 111ttt.com##.ad250,#g_250,#tid1
+113.105.248.169
 114la.com###Gamepng
 114la.com###dlAD1
 114la.com###dlAD2
