@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-15 00:19:07（北京时间） 
-! Total count: 6465
+! Version: 2022-03-15 08:55:21（北京时间） 
+! Total count: 6470
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -862,6 +862,7 @@
 @@||apiservices.krxd.net/click_tracker^
 @@||apiwz.midukanshu.com^
 @@||apk.tw^*/ads.js$script,~third-party
+@@||apkmirror.com^$generichide
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||app-advertise.zhihuishu.com^
@@ -2001,6 +2002,7 @@
 @@||dmhy.b168.net^$generichide
 @@||dmm.com/p/general/$image,~third-party
 @@||dmm.com^*/display_ad.js$~third-party
+@@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
 @@||dn.se^
 @@||dnbus.com.tw/AD/tab_route.html
 @@||dns.msftncsi.com^
@@ -2495,6 +2497,7 @@
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||get.adobe.com^
 @@||get.cervell.io/api/$domain=cildimveben.com
+@@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||get3.adobe.com^
 @@||getclicky.com/ajax/marketshare?$script
 @@||getgoods.de^*/emstrack.js
@@ -3161,6 +3164,7 @@
 @@||googletagmanager.com/gtm.js$domain=ymobile.jp
 @@||googletagmanager.com/gtm.js$domain=youfoodz.com
 @@||googletagmanager.com/gtm.js$domain=yourstory.com
+@@||googletagmanager.com/gtm.js$domain=zakzak.co.jp
 @@||googletagmanager.com/gtm.js$domain=zeelandnet.nl
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|inside-games.jp|mycar-life.com|newscafe.ne.jp|reanimal.jp|resemom.jp|response.jp|scan.netsecurity.ne.jp|spyder7.com
@@ -5623,6 +5627,7 @@
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tag.perfectaudience.com/serve/*.js$domain=asana.com
 @@||tagcommander.com^*/tc_$script
+@@||tagger.opecloud.com/mediaconsortium/*/tagger.js$domain=zakzak.co.jp
 @@||tags.bkrtx.com/js/$domain=cnet.com
 @@||tags.bkrtx.com/js/bk-coretag.js$domain=mobile.pcmag.com
 @@||tags.bkrtx.com/js/bk-coretag.js$domain=tmz.com
