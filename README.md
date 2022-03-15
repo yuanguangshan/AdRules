@@ -1,6 +1,6 @@
 <div align="center">
-<h1 align="center">AdRules</h1>
-<h2 align="center">一个强力去广告的规则</h2>
+<h1 align="center">AdRules<br>一个强力去广告的规则</h1>
+
 <img src="https://img.shields.io/github/stars/Cats-Team/AdRules?color=yellow">
 <img src="https://img.shields.io/github/forks/Cats-Team/AdRules?color=orange">
 <img src="https://img.shields.io/github/issues/Cats-Team/AdRules?color=green">
