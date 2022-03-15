@@ -2,7 +2,7 @@
 export LC_CTYPE=zh_CN.UTF-8
 export LC_ALL=zh_CN.UTF-8
 LANG=zh_CN.UTF-8
-LC_ALL=zh_CN.UTF-8
+LC_ALL='zh_CN.UTF-8'
 
 rm *.txt
 
