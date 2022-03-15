@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-15 20:27:25（北京时间） 
-! Total count: 126298
+! Version: 2022-03-15 22:13:08（北京时间） 
+! Total count: 126300
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -50125,6 +50125,7 @@ etr.fr##.no_block
 ets2.lt,miloserdov.org###custom_html-2
 etsy.com##a.listing-link[href*="&ref=listing_page_ad_"]
 etsy.com##a.listing-link[href*="&ref=sc_gallery-"]
+etsy.com#?#.js-merch-stash-check-listing:-abp-has(a.listing-link[href*="&ref=sc_gallery-"])
 etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="&plkey="])
 etsy.com#?#li.wt-grid__item-xs-6:-abp-has(a[href*="?plkey="])
 ettoday.net###for-ec
@@ -113809,6 +113810,7 @@ zzpzero.com
 ||tangibleteam.com^$third-party
 ||tangozebra.com^$third-party
 ||tangxue.me^
+||tangyaols.com^
 ||tanjs.com^
 ||tankeuro.com^$third-party
 ||tanks.lv/top/stats.php

@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-15 20:27:25（北京时间） 
-! Total count: 63125
+! Version: 2022-03-15 22:13:08（北京时间） 
+! Total count: 63126
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -52289,6 +52289,7 @@
 ||tangozebra.com^
 ||tangsoc.com^
 ||tangxue.me^
+||tangyaols.com^
 ||tanidigital.com^
 ||tanjs.com^
 ||tankeuro.com^
