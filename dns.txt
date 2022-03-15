@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-15 16:16:32（北京时间） 
-! Total count: 63122
+! Version: 2022-03-15 19:32:36（北京时间） 
+! Total count: 63124
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -6122,6 +6122,7 @@
 ||airairgu.com^
 ||airartapt.site^
 ||airconditiondescendent.com^
+||aircraftmighty.com^
 ||airefcoinc.actonservice.com^
 ||airlead.ru^
 ||airlytics.airlock.twcmobile.weather.com^
@@ -45741,6 +45742,7 @@
 ||sdgmyj.cn^
 ||sdgreg.cn^
 ||sdhfbvd.com^
+||sdhongjia.com^
 ||sdhuiqian.cn^
 ||sdhzstone.net^
 ||sdjjr.com^
