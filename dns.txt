@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-15 19:51:22（北京时间） 
-! Total count: 63124
+! Version: 2022-03-15 20:27:25（北京时间） 
+! Total count: 63125
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -6517,6 +6517,7 @@
 ||am.adlooxtracking.com^
 ||am.belambra.com^
 ||am.szhome.com^
+||am.titsx.com^
 ||am10.ru^
 ||am11.ru^
 ||am15.net^
