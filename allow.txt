@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-03-16 22:11:44（北京时间） 
+! Version: 2022-03-16 22:17:03（北京时间） 
 ! Total count: 6473
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
