@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-16 10:56:50（北京时间） 
-! Total count: 63157
+! Version: 2022-03-16 16:19:54（北京时间） 
+! Total count: 63169
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -893,6 +893,7 @@
 ||3285.content.swrve.com^
 ||329329.com^
 ||32fd7f438cb.com^
+||32jiang.com^
 ||33.pcpop.com^
 ||333wan.com^
 ||3347.wolf-gordon.com^
@@ -15685,6 +15686,7 @@
 ||crs-hometab-event.line.me^
 ||crs.actonservice.com^
 ||crs.baidu.com^
+||crsgd.xyz^
 ||crsspxl.com^
 ||crta.dailymail.co.uk^
 ||crta.metro.co.uk^
@@ -26193,6 +26195,7 @@
 ||hs-scripts.com^
 ||hsadspixel.net^
 ||hsbkr.com^
+||hsc.ink^
 ||hscpbysqsepnyw.com^
 ||hscta.net^
 ||hsdianqi.vip^
@@ -28783,6 +28786,7 @@
 ||jfqkj.com^
 ||jfqzwsczsf.com^
 ||jfsdiwmnbsk003.top^
+||jfsldq.top^
 ||jfsm5.top^
 ||jfy-stone.cn^
 ||jg.wensixuetang.com^
@@ -28911,6 +28915,7 @@
 ||jingyazhuangshi.com^
 ||jingyixuanstore.cn^
 ||jingyuan0820.com^
+||jingyue.co^
 ||jingyuzuo.top^
 ||jingzekeji.com^
 ||jinhaitun888.xyz^
@@ -31664,6 +31669,7 @@
 ||liulanliang.cn^
 ||liuliguo.com^
 ||liulu888.com^
+||liusuqin.fun^
 ||liuwangmin.top^
 ||liuwenyan.xyz^
 ||liuyansha.vip^
@@ -31772,6 +31778,7 @@
 ||lknqfn.furla.com^
 ||lkoovwlmpueaom.xyz^
 ||lkqd.net^
+||lksw1.top^
 ||lktxelg.cn^
 ||lkvkgk.levis.com.tr^
 ||ll.gxsky.com^
@@ -37256,6 +37263,7 @@
 ||nolrougn.com^
 ||nomadpertexcess.com^
 ||nomalleadzuaff.com^
+||nomcyk.cn^
 ||nominalexperimentdaybreak.com^
 ||nominalpowerlessunable.com^
 ||nomorepecans.com^
@@ -43551,6 +43559,7 @@
 ||redirectvoluum.com^
 ||redistats.com^
 ||redlele.com^
+||redmix.me^
 ||rednews.me^
 ||redonetype.com^
 ||redresseducatedage.com^
@@ -58544,6 +58553,7 @@
 ||wangzibo.top^
 ||waninusty.com^
 ||wannuochongkong.com^
+||wansan66.top^
 ||wantaico.com^
 ||wantaiss.com^
 ||wantezy.cn^
@@ -61085,6 +61095,7 @@
 ||xn--xhq9mt12cf5v.top^
 ||xn--xhq9mt12cf5v.website^
 ||xn--xhq9mt12cf5v.xn--io0a7i^
+||xn--xkry73b.online^
 ||xn-2qux23confgml.club^
 ||xnbwsp.c-and-a.com^
 ||xncgroup.cn^
@@ -61747,6 +61758,7 @@
 ||yinoo.cn^
 ||yinooo.com^
 ||yinvmh.com^
+||yinyating.top^
 ||yinyouapp.com^
 ||yinyuehu.cn^
 ||yinzantouzi.com^

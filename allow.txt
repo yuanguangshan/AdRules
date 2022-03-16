@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-03-16 10:56:50（北京时间） 
+! Version: 2022-03-16 16:19:54（北京时间） 
 ! Total count: 6471
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -5939,6 +5939,7 @@
 @@||unibytes.com^
 @@||unifi.me/mootools/classes/*-tracking
 @@||union.bokecc.com/player
+@@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||union.video.qq.com/fcgi-bin/data?$script
 @@||union2.50bang.org^$third-party
 @@||uniqlo.com^*/trackingservice/$~third-party
@@ -6029,7 +6030,6 @@
 @@||video.google.com^
 @@||video.oms.eu/crossdomain.xml$domain=badische-zeitung.de
 @@||video.oms.eu/projekt/download/OMSComponent.swf$domain=badische-zeitung.de
-@@||video.qq.com/fcgi-bin/
 @@||video.repubblica.it^*/nielsen.js
 @@||videocdn-sbs.akamaized.net^
 @@||videocopilot.net^

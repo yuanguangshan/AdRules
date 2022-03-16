@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-16 10:56:50（北京时间） 
-! Total count: 126352
+! Version: 2022-03-16 16:19:54（北京时间） 
+! Total count: 126366
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -37774,6 +37774,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /prod-client-js-logger/*
 /prod/ads-
 /prod/log_preprocess
+/prod/ping?
 /prodprebidheader-
 /prodtracker?
 /product-ad/*
@@ -44686,7 +44687,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||videacesky.cz/getbanner.cfm$script
 @@||video.520cc.cc/ad.php|
 @@||video.520cc.cc^$generichide
-@@||video.qq.com/fcgi-bin/
 @@||video.repubblica.it^*/nielsen.js
 @@||videoo.info/show_ads.js$script,domain=videoo.info
 @@||videoplaza.tv^$object-subrequest,domain=canalplus.fr
@@ -47488,12 +47488,12 @@ bing.com##.ra_car_block
 bing.com##DIV.sb_adsNv2,li.b_ad,div.OpInNwWndw
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
-bing.com#?##b_results > li:has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
+bing.com#?##b_results > li:-adp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
 bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
-bing.com#?#li[class="b_algo"]:has(> h2 + div[class="b_caption"] > p[class])
+bing.com#?#li[class="b_algo"]:-adp-has(> h2 + div[class="b_caption"] > p[class])
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
@@ -57429,9 +57429,7 @@ qq.com###qqadv
 qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,ad,vinfo)
 qq.com##+js(json-prune,adList.item)
-qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(set, Beacon.prototype.fail, null)
@@ -57811,6 +57809,7 @@ ria.ru##.c_banners
 riaway.com##.info_message_container
 richardvigilantebooks.com##a[href^="https://rebrand.ly/"]
 right.com.cn##.a_t
+right.com.cn##A[href^="https://jd.dangbei.com/"]
 right.com.cn##div#diy1.area,div.a_p,div.a_pr,DIV.column.frame-1-c,div.wp.a_f,div.a_cn,.a_mu,.a_pt,.a_pb
 rijutv.co###JU
 rijutv.co##.container > div[style="height: 128px;"]
@@ -60395,9 +60394,7 @@ v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.top_banner,.mod_ads_play,#jimu-module-10,#jimu-module-11,.tvp_open_btns,[class^="txp_ad_"],.txp_ad,.figures_ad
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, RTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, mozRTCPeerConnection, undefined)
-v.qq.com,bilibili.com,huya.com,le.com,mgtv.com,dandanzan10.top,nunuyy10.top##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 v.qufengo.com
 v.sogou.com##[uigs^="adv_pc_adv"]
 v.wsnew.cn
@@ -63161,6 +63158,11 @@ zzpzero.com
 |https://r.i.ua^
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
+|ws://p2p.$websocket
+|ws://tracker.$websocket
+|wss://$websocket,domain=dandanzan10.top|nunuyy10.top
+|wss://p2p.$websocket
+|wss://tracker.$websocket
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
 ||*.amazonaws.com/js/adblock.min.js$script,domain=motorsport-total.com
 ||*.apk$domain=gulingge.com
@@ -64385,6 +64387,7 @@ zzpzero.com
 ||329329.com^
 ||32a79e2833309ebe.com^
 ||32fd7f438cb.com^
+||32jiang.com^
 ||32xp.com/upimg/
 ||33.autohome.com.cn^$script
 ||33.pcpop.com^
@@ -78296,6 +78299,7 @@ zzpzero.com
 ||crs.actonservice.com^
 ||crs.baidu.com/
 ||crs.baidu.com^
+||crsgd.xyz^
 ||crsspxl.com^
 ||crt.livejasmin.com^$popup
 ||crta.dailymail.co.uk^
@@ -88809,6 +88813,7 @@ zzpzero.com
 ||hsbianma.com/Ad/
 ||hsbianma.com/content/images/*-ad-
 ||hsbkr.com^
+||hsc.ink^
 ||hscpbysqsepnyw.com^
 ||hscta.net^$third-party
 ||hsdianqi.vip^
@@ -91591,6 +91596,7 @@ zzpzero.com
 ||jfqkj.com^
 ||jfqzwsczsf.com^
 ||jfsdiwmnbsk003.top^
+||jfsldq.top^
 ||jfsm5.top^
 ||jfy-stone.cn^
 ||jfzx.tv/js/sb/
@@ -91758,6 +91764,7 @@ zzpzero.com
 ||jingyazhuangshi.com^
 ||jingyixuanstore.cn^
 ||jingyuan0820.com^
+||jingyue.co^
 ||jingyuzuo.top^
 ||jingzekeji.com^
 ||jinhaitun888.xyz^
@@ -94632,6 +94639,7 @@ zzpzero.com
 ||liulanliang.cn^
 ||liuliguo.com^
 ||liulu888.com^
+||liusuqin.fun^
 ||liuwangmin.top^
 ||liuwenyan.xyz^
 ||liuxue86.com/css/liuxue_output.js
@@ -94766,6 +94774,7 @@ zzpzero.com
 ||lknqfn.furla.com^
 ||lkoovwlmpueaom.xyz^
 ||lkqd.net^
+||lksw1.top^
 ||lktxelg.cn^
 ||lkvkgk.levis.com.tr^
 ||ll.gxsky.com^
@@ -99972,6 +99981,7 @@ zzpzero.com
 ||nol.yahoo.com^
 ||nolrougn.com^
 ||nomadpertexcess.com^
+||nomcyk.cn^
 ||nominalexperimentdaybreak.com^
 ||nominalpowerlessunable.com^
 ||nomorepecans.com^
@@ -105940,6 +105950,7 @@ zzpzero.com
 ||redistats.com^$third-party
 ||redlele.com^
 ||redlightcenter.com^$third-party
+||redmix.me^
 ||redmx.cn^$third-party
 ||redpineapplemedia.com^$third-party
 ||redresseducatedage.com^
@@ -119435,6 +119446,7 @@ zzpzero.com
 ||waninusty.com^
 ||wanmei.com/public/js/stat.js
 ||wannuochongkong.com^
+||wansan66.top^
 ||wantaico.com^
 ||wantaiss.com^
 ||wantatop.com^$third-party
@@ -122129,6 +122141,7 @@ zzpzero.com
 ||xn--xhq9mt12cf5v.site^
 ||xn--xhq9mt12cf5v.top^
 ||xn--xhq9mt12cf5v.website^
+||xn--xkry73b.online^
 ||xn01.xyz^$third-party
 ||xnbwsp.c-and-a.com^
 ||xncgroup.cn^
@@ -122931,6 +122944,7 @@ zzpzero.com
 ||yinoo.cn^$third-party
 ||yinooo.com^
 ||yinvmh.com^
+||yinyating.top^
 ||yinyuehu.cn^
 ||yinyuetai.com/others/admin/*_1200x100.
 ||yinyuetai.com/proment/get-play-medias?*&position=overlay
