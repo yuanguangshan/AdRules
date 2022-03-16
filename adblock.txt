@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-16 08:56:55（北京时间） 
-! Total count: 126349
+! Version: 2022-03-16 10:56:50（北京时间） 
+! Total count: 126352
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -44633,6 +44633,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||ultrafiles.net/intermission/loadTargetUrl$xmlhttprequest
 @@||union.bokecc.com/player
+@@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||union.video.qq.com/fcgi-bin/data?$script
 @@||union2.50bang.org^$third-party
 @@||uniqlo.com^*/trackingservice/$~third-party
@@ -47460,6 +47461,7 @@ bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#@#.btn-ctnr
+bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 bimiacg4.net,bimiacg5.net,dodoge.me##.ssr1
 bimibimi.cc##[src^='https://dd-static.jd.com']
 binaries4all.com###payserver
@@ -57428,6 +57430,7 @@ qq.com###qqmail_AD_container
 qq.com###r_ad
 qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune,ad,vinfo)
+qq.com##+js(json-prune,adList.item)
 qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(no-xhr-if, trace.)

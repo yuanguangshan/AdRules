@@ -4,7 +4,7 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-16 08:56:55（北京时间） 
+! Version: 2022-03-16 10:56:50（北京时间） 
 ! Total count: 63157
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
