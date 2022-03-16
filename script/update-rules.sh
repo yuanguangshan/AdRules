@@ -112,14 +112,14 @@ allow_damain=(
 
 for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_damain[@]}"  "${!allow_damain[@]}"
 do
-  curl --parallel --parallel-immediate -k -L -C - -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}"
-  curl --parallel --parallel-immediate -k -L -C - -o "plus-easylist${i}.txt" --connect-timeout 60 -s "${easylist_plus[$i]}"
-  curl --parallel --parallel-immediate -k -L -C - -o "adguard${i}.txt" --connect-timeout 60 -s "${adguard[$i]}"
-  curl --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}"
-  curl --parallel --parallel-immediate -k -L -C - -o "dns${i}.txt" --connect-timeout 60 -s "${dns[$i]}"
-  curl --parallel --parallel-immediate -k -L -C - -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}"
-  curl --parallel --parallel-immediate -k -L -C - -o "ad-damain${i}.txt" --connect-timeout 60 -s "${ad_damain[$i]}"
-  curl --parallel --parallel-immediate -k -L -C - -o "allow-damain${i}.txt" --connect-timeout 60 -s "${allow_damain[$i]}"
+  curl --parallel --parallel-immediate -k -L -C - -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}" | iconv -f
+  curl --parallel --parallel-immediate -k -L -C - -o "plus-easylist${i}.txt" --connect-timeout 60 -s "${easylist_plus[$i]}" | iconv -f
+  curl --parallel --parallel-immediate -k -L -C - -o "adguard${i}.txt" --connect-timeout 60 -s "${adguard[$i]}" | iconv -f
+  curl --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}" | iconv -f
+  curl --parallel --parallel-immediate -k -L -C - -o "dns${i}.txt" --connect-timeout 60 -s "${dns[$i]}" | iconv -f
+  curl --parallel --parallel-immediate -k -L -C - -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}" | iconv -f
+  curl --parallel --parallel-immediate -k -L -C - -o "ad-damain${i}.txt" --connect-timeout 60 -s "${ad_damain[$i]}" | iconv -f
+  curl --parallel --parallel-immediate -k -L -C - -o "allow-damain${i}.txt" --connect-timeout 60 -s "${allow_damain[$i]}" | iconv -f
   # shellcheck disable=SC2181
 done
 
