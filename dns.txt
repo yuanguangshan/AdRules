@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-16 00:19:08（北京时间） 
-! Total count: 63129
+! Version: 2022-03-16 08:56:55（北京时间） 
+! Total count: 63157
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -6397,6 +6397,7 @@
 ||allinsurance.allinsure.ca^
 ||allittledprevi.info^
 ||allluck.cn^
+||allmediadesk.com^
 ||allmt.com
 ||allmt.com^
 ||allmygoodlife.com^
@@ -7728,6 +7729,7 @@
 ||api.target2sell.com^
 ||api.telemetry.watchabc.go.com^
 ||api.theadex.com^
+||api.tomi.ai^
 ||api.trueaudience.io^
 ||api.tusdk.com^
 ||api.tv.sohu.com^
@@ -7875,7 +7877,6 @@
 ||app-clicks-corporate.firstrepublic.com^
 ||app-clicks.firstrepublic.com^
 ||app-config.enhance.co^
-||app-department.report^
 ||app-e.marketo.com^
 ||app-icons.apptentive.com^
 ||app-log.adpushup.com^
@@ -8312,7 +8313,6 @@
 ||artsai.com^
 ||artsmalle.pro^
 ||aruhdx.com^
-||arysignificc.fun^
 ||as-eb2.3lift.com^
 ||as-farm.com^
 ||as-sec.casalemedia.com.edgekey.net^
@@ -10207,6 +10207,7 @@
 ||bento.agoda.com^
 ||bentonow.com^
 ||benureko.xyz^
+||benwang.love^
 ||benwfw.cn^
 ||benwtw.cn^
 ||benwzw.cn^
@@ -13196,7 +13197,6 @@
 ||checkeffect.at^
 ||checkhit.com^
 ||checkifyouarealive.me^
-||checkingnotifications.org^
 ||checkm8.com^
 ||checkmygeo.com^
 ||checkoutfree.com^
@@ -13424,6 +13424,7 @@
 ||ciattedrof.ru^
 ||cibleclick.com^
 ||cicero-mit.com^
+||cigade.com^
 ||cigaretteprovenaffected.com^
 ||ciimg.com^
 ||cijexuthi.com^
@@ -14765,6 +14766,7 @@
 ||congressaffrayghosts.com^
 ||congtad.com^
 ||conimicutlighthouse.viessmann-us.com^
+||conjectwatson.com^
 ||conjeller-chikemon.com^
 ||conjunctionbanner.com^
 ||connatix-supply-partners.tremorhub.com^
@@ -18738,6 +18740,7 @@
 ||dtscout.com^
 ||dtsedge.com^
 ||dtto8zfzskfoa.cloudfront.net^
+||dttrk.com^
 ||dtv5loup63fac.cloudfront.net^
 ||dtvc.adsafeprotected.com^
 ||dtxdwl.cn^
@@ -19532,6 +19535,7 @@
 ||eengaums.com^
 ||eensoans.com^
 ||eeoylmkd.com^
+||eeree.top^
 ||eererg.com^
 ||eergaroa.com^
 ||eergithi.com^
@@ -20046,6 +20050,7 @@
 ||encouragingwilderness.com^
 ||encumberbloom.com
 ||encyclopaediaapplaudawfully.com^
+||encyclopaediaknackfold.com^
 ||encyclopediabritannica.blueconic.net^
 ||end.scorecardresearch.com^
 ||endljp.abv.bg^
@@ -20925,6 +20930,7 @@
 ||evsvyqi.cn^
 ||evt.bfmio.com^
 ||evt.houzz.com^
+||evt.mxplay.com^
 ||evt.undertone.com^
 ||evtvpaid.bfmio.com^
 ||evzimlox.cn^
@@ -22092,6 +22098,7 @@
 ||fmebili.info^
 ||fmei.wang^
 ||fmketang.cn^
+||fmlodpskbybfu.xyz^
 ||fmnetwork.nl^
 ||fmnybwjmkfpoqdm.xyz^
 ||fmpannkmn.xyz^
@@ -22262,6 +22269,7 @@
 ||forzslodge.com^
 ||forzubatr.com^
 ||fosiecajeta.com^
+||fossilreservoirincorrect.com^
 ||fosterhindtalent.com^
 ||fota.advmob.cn^
 ||fota4.adups.cn^
@@ -22296,6 +22304,7 @@
 ||fourmtagservices.appspot.com^
 ||fourthchoseark.com^
 ||fout.jp^
+||fovccjwc.com^
 ||fovs.qkvipgloy.xyz^
 ||fowft.cn^
 ||fowink.com^
@@ -25564,6 +25573,7 @@
 ||hhrhl.vip^
 ||hhslbz.cn^
 ||hhsoftinfo.com^
+||hhtpcsgl.com^
 ||hhunvu.com^
 ||hhvip86.com^
 ||hhvip87.com^
@@ -28445,6 +28455,7 @@
 ||ivsdajtjh.com^
 ||ivstracker.net^
 ||ivtcdnhshx.com^
+||ivuuyvajp.com^
 ||ivwbox.de^
 ||ivwvvtr.cn^
 ||ivy.pconline.com.cn^
@@ -30511,6 +30522,7 @@
 ||kxmvoppmbtzdi.com^
 ||kxqvnfcg.xyz^
 ||kxrxh.com^
+||kxvsldtf.com^
 ||kyad88.com^
 ||kydcwp.landwirt.com^
 ||kyefakwa.com^
@@ -31996,6 +32008,7 @@
 ||log.flight.qunar.com^
 ||log.g-enews.com^
 ||log.gds.mmstat.com^
+||log.geetest.com^
 ||log.genyt.net^
 ||log.giaoduc.net.vn^
 ||log.go.com^
@@ -34334,6 +34347,7 @@
 ||mengpr.com^
 ||mengyang.info^
 ||mengyuanwei.com^
+||menlithium.com^
 ||mentad.com^
 ||mentalks.ru^
 ||mentalsweatextent.com^
@@ -35454,6 +35468,7 @@
 ||modularmental.com^
 ||modulepush.com^
 ||moe.video^
+||moekyepkd.com^
 ||moengage.com^
 ||moengagewebsdk.imgix.net^
 ||moevideo.biz^
@@ -35554,6 +35569,7 @@
 ||montafp.top^
 ||montangop.top^
 ||monthlyindirectelsewhere.com^
+||montikolti.com^
 ||montkpl.top^
 ||montpalatin.handicap.fr^
 ||montpdp.top^
@@ -35709,6 +35725,7 @@
 ||mozefakt.com^
 ||mozgvya.com^
 ||mozist.com^
+||mozoo.com^
 ||mozqca.cn^
 ||mozuoshop.net^
 ||mp-a.info^
@@ -40472,6 +40489,7 @@
 ||plaicecapacious.com^
 ||plaicecaught.com^
 ||plaicenaive.com^
+||plaims.com^
 ||plainplayground.com^
 ||plainrequest.com^
 ||plaintfarrel.com^
@@ -41450,6 +41468,7 @@
 ||prod-a.applovin.com^
 ||prod-ads.aerserv.com^
 ||prod-bid.applovin.com^
+||prod-clientlog.fastly.newssuite.sinfony.ne.jp^
 ||prod-collecticon.outlookmobile.com^
 ||prod-collector.bigbasket.com^
 ||prod-customfeeds.flashtalking.com^
@@ -44550,6 +44569,7 @@
 ||rptxjrygvkmnl.xyz^
 ||rqbmritxfcfefsp.xyz^
 ||rqd.qq.com^
+||rqgigsrdnomuhmq.com^
 ||rqgsf.com^
 ||rqhere.com^
 ||rqhere2.com^
@@ -45539,6 +45559,7 @@
 ||scadxrtb.lfstmedia.com^
 ||scafer.ru^
 ||scaledb.com^
+||scalesmothforget.com^
 ||scallionfib.com^
 ||scallionlaziness.com^
 ||scambiobanner.it^
@@ -47147,7 +47168,6 @@
 ||simplereach.com^
 ||simplesharebuttons.com^
 ||simplesidewalk.com^
-||simpletexting.com^
 ||simpletraffic.co^
 ||simpleview.it^
 ||simpli.fi^
@@ -49473,6 +49493,7 @@
 ||sprint.asapp.com^
 ||sprintrade.com^
 ||sprkl.io^
+||sprngmnews.name^
 ||sprocket-ping.s3.amazonaws.com^
 ||sproose.com^
 ||sprout-ad.com^
@@ -52339,6 +52360,7 @@
 ||tapfiliate.com^
 ||tapiche.cn^
 ||tapinfluence.com^
+||tapioni.com^
 ||tapit.com^
 ||tapixesa.pro^
 ||tapjoy.cn^
@@ -53562,6 +53584,7 @@
 ||tobaltoyon.com^
 ||tobapplog.ctobsnssdk.com^
 ||tobestaly.com^
+||tobleronchiko.com^
 ||toblog.ctobsnssdk.com^
 ||toblog.snssdk.com^
 ||toboads.com^
@@ -54451,6 +54474,7 @@
 ||track.ft.com^
 ||track.fxstreet.com^
 ||track.gawker.com^
+||track.hk01.com^
 ||track.hubspot.com^
 ||track.hujiang.com^
 ||track.icheck.com.vn^
@@ -57612,6 +57636,7 @@
 ||videoamp.com^
 ||videobaba.xyz^
 ||videoburner2015.com^
+||videocampaign.co^
 ||videocap.org^
 ||videocdn.name^
 ||videoclick.
@@ -59050,6 +59075,7 @@
 ||wepthandbook.com^
 ||wer.glib-cough.fun^
 ||werbeflut.net^
+||werelateral.com^
 ||wererxrzmp.com^
 ||wergad.com^
 ||werpig.com^
@@ -59254,6 +59280,7 @@
 ||whyzipsiwho.com^
 ||whzxpm.cn^
 ||wi3brxwr2b3v.com^
+||wickedlongingbelfry.com^
 ||wickedreports.com^
 ||wicktrown.co^
 ||widebanner.com^
@@ -61817,6 +61844,7 @@
 ||ymdxxkj.icu^
 ||ymetrica.com^
 ||ymetrica1.com^
+||ymggnrsnrlf.com^
 ||ymjfhg.com^
 ||ymonetize.com^
 ||ymprove.web.de^
