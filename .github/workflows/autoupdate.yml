@@ -36,6 +36,11 @@ jobs:
         run: |
           rm *.txt
           bash ./script/update-rules.sh
+
+      - name: Test
+        continue-on-error: true
+        run: |
+          sort -u adblock+adguard.txt
       - name: Update other rules
         run: |
           cd rules
