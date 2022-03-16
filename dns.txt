@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-16 23:02:19（北京时间） 
-! Total count: 63172
+! Version: 2022-03-17 00:21:24（北京时间） 
+! Total count: 63180
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -14762,6 +14762,7 @@
 ||confusionfowlsomen.com^
 ||congestdiscreditwithdrew.com^
 ||congestit.com^
+||congoesld.com^
 ||congrab.com^
 ||congratulatedreside.com^
 ||congressaffrayghosts.com^
@@ -17475,6 +17476,7 @@
 ||desky.xyz^
 ||deslncsiq.com^
 ||desolatethings.com^
+||desolatewreck.com^
 ||despicablereporthusband.com^
 ||desr.fkapi.net^
 ||destineddominant.com^
@@ -21866,6 +21868,7 @@
 ||firstadsolution.com^
 ||firstfirst.net^
 ||firstfrogs.com^
+||firsthanddisagree.com^
 ||firstimpression.io^
 ||firstlightera.com^
 ||firstlychivw.com^
@@ -32711,6 +32714,7 @@
 ||lx2rv.com^
 ||lx52168.online^
 ||lxanimation.cn^
+||lxdrddeomww.com^
 ||lxgerdcitg.com^
 ||lxgmgalmrxqlj.xyz^
 ||lxhjaq.cn^
@@ -35998,6 +36002,7 @@
 ||mukipol.com^
 ||mulanphone.cn^
 ||muligov.com^
+||mulleysnutmeg.com^
 ||multi-cluster.directservices.it^
 ||multibux.org^
 ||multicounter.de^
@@ -56480,6 +56485,7 @@
 ||unattractivefrigilityfrigility.com^
 ||unavailablebackedwaved.com^
 ||unbecominghall.com^
+||unblestrustic.com^
 ||unblockia.com^
 ||unbodypestis.com^
 ||uncerneda.work^
@@ -59620,6 +59626,7 @@
 ||wo685.com^
 ||woafujoa.com^
 ||woaifl.com^
+||woaijiba.com^
 ||woaiseo.com.cn^
 ||woawouru.net^
 ||woazowup.net^
@@ -59965,6 +59972,7 @@
 ||wudang05.com^
 ||wudejia.com^
 ||wudr.net^
+||wueihlouuw.com^
 ||wufel.ml^
 ||wuidtl.com^
 ||wulian.in^

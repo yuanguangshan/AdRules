@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-16 23:02:19（北京时间） 
-! Total count: 62893
+! Version: 2022-03-17 00:21:24（北京时间） 
+! Total count: 62901
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 00-gov.cn
@@ -14568,6 +14568,7 @@
 0.0.0.0 confusionfowlsomen.com
 0.0.0.0 congestdiscreditwithdrew.com
 0.0.0.0 congestit.com
+0.0.0.0 congoesld.com
 0.0.0.0 congrab.com
 0.0.0.0 congratulatedreside.com
 0.0.0.0 congressaffrayghosts.com
@@ -17279,6 +17280,7 @@
 0.0.0.0 desky.xyz
 0.0.0.0 deslncsiq.com
 0.0.0.0 desolatethings.com
+0.0.0.0 desolatewreck.com
 0.0.0.0 despicablereporthusband.com
 0.0.0.0 desr.fkapi.net
 0.0.0.0 destineddominant.com
@@ -21659,6 +21661,7 @@
 0.0.0.0 firstadsolution.com
 0.0.0.0 firstfirst.net
 0.0.0.0 firstfrogs.com
+0.0.0.0 firsthanddisagree.com
 0.0.0.0 firstimpression.io
 0.0.0.0 firstlightera.com
 0.0.0.0 firstlychivw.com
@@ -32488,6 +32491,7 @@
 0.0.0.0 lx2rv.com
 0.0.0.0 lx52168.online
 0.0.0.0 lxanimation.cn
+0.0.0.0 lxdrddeomww.com
 0.0.0.0 lxgerdcitg.com
 0.0.0.0 lxgmgalmrxqlj.xyz
 0.0.0.0 lxhjaq.cn
@@ -35764,6 +35768,7 @@
 0.0.0.0 mukipol.com
 0.0.0.0 mulanphone.cn
 0.0.0.0 muligov.com
+0.0.0.0 mulleysnutmeg.com
 0.0.0.0 multi-cluster.directservices.it
 0.0.0.0 multibux.org
 0.0.0.0 multicounter.de
@@ -56210,6 +56215,7 @@
 0.0.0.0 unattractivefrigilityfrigility.com
 0.0.0.0 unavailablebackedwaved.com
 0.0.0.0 unbecominghall.com
+0.0.0.0 unblestrustic.com
 0.0.0.0 unblockia.com
 0.0.0.0 unbodypestis.com
 0.0.0.0 uncerneda.work
@@ -59343,6 +59349,7 @@
 0.0.0.0 wo685.com
 0.0.0.0 woafujoa.com
 0.0.0.0 woaifl.com
+0.0.0.0 woaijiba.com
 0.0.0.0 woaiseo.com.cn
 0.0.0.0 woawouru.net
 0.0.0.0 woazowup.net
@@ -59688,6 +59695,7 @@
 0.0.0.0 wudang05.com
 0.0.0.0 wudejia.com
 0.0.0.0 wudr.net
+0.0.0.0 wueihlouuw.com
 0.0.0.0 wufel.ml
 0.0.0.0 wuidtl.com
 0.0.0.0 wulian.in

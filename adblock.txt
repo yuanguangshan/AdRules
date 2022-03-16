@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-16 23:02:19（北京时间） 
-! Total count: 126372
+! Version: 2022-03-17 00:21:24（北京时间） 
+! Total count: 126380
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -77482,6 +77482,7 @@ zzpzero.com
 ||confusionfowlsomen.com^
 ||congestdiscreditwithdrew.com^
 ||congestit.com^
+||congoesld.com^
 ||congratulatedreside.com^
 ||congratulatedreside.com^$popup
 ||congressaffrayghosts.com^
@@ -79919,6 +79920,7 @@ zzpzero.com
 ||desky.xyz^
 ||deslncsiq.com^
 ||desolatethings.com^
+||desolatewreck.com^
 ||despegar.$removeparam=/^clt_/
 ||despegar.$removeparam=mktdata
 ||desperateseller.co.uk/affiliates/
@@ -84274,6 +84276,7 @@ zzpzero.com
 ||firstadsolution.com^
 ||firstclass-download.com^$popup
 ||firstfrogs.com^$third-party
+||firsthanddisagree.com^
 ||firstimpression.io^$third-party
 ||firstlightera.com^
 ||firstload.com^$popup
@@ -95521,6 +95524,7 @@ zzpzero.com
 ||lx52168.online^
 ||lxanimation.cn^
 ||lxbjs.baidu.com^$third-party
+||lxdrddeomww.com^
 ||lxgerdcitg.com^
 ||lxgmgalmrxqlj.xyz^
 ||lxhjaq.cn^
@@ -98670,6 +98674,7 @@ zzpzero.com
 ||mujilora.com^
 ||mujnmhmfhrubzq.com^
 ||mulanphone.cn^
+||mulleysnutmeg.com^
 ||multicounter.de^$third-party
 ||multifarewell.com^
 ||multileaguebookstore.com^
@@ -117696,6 +117701,7 @@ zzpzero.com
 ||unattractivefrigilityfrigility.com^
 ||unavailablebackedwaved.com^
 ||unbecominghall.com^$third-party
+||unblestrustic.com^
 ||unblockedapi.com^$popup
 ||unblockia.com^$third-party
 ||unblog.fr/cu.js
@@ -120539,6 +120545,7 @@ zzpzero.com
 ||wo685.com^$third-party
 ||woafujoa.com^
 ||woaidu.org/images/20180802/3.jpg
+||woaijiba.com^
 ||woaiseo.com.cn^
 ||woawouru.net^
 ||wobo888.cc
@@ -120851,6 +120858,7 @@ zzpzero.com
 ||wudizuqiu.com/fy
 ||wudizuqiu.com/img/dasai8/ybbj.png
 ||wudr.net^
+||wueihlouuw.com^
 ||wufel.ml^
 ||wuhaozhan.net/img/sponsors-
 ||wulian.in^
