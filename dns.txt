@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-17 00:21:24（北京时间） 
-! Total count: 63180
+! Version: 2022-03-17 06:53:07（北京时间） 
+! Total count: 63200
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -6872,6 +6872,7 @@
 ||analytics.footballdb.com^
 ||analytics.foresee.com^
 ||analytics.forgetwp.com^
+||analytics.formstack.com^
 ||analytics.fosrv.com^
 ||analytics.freespee.com^
 ||analytics.fs-bdash.com^
@@ -12653,6 +12654,7 @@
 ||cdn.cpiera.com^
 ||cdn.cxense.com.edgekey.net^
 ||cdn.cxense.com^
+||cdn.ddmanager.ru^
 ||cdn.decibelinsight.net^
 ||cdn.deepintent.com^
 ||cdn.destinilocators.com^
@@ -13709,6 +13711,8 @@
 ||click2.email.ticketmaster.com^
 ||click2.hd.sohu.com^
 ||click2sell.eu^
+||click360.io^
+||click360v2-ingest.azurewebsites.net^
 ||click4assistance.co.uk^
 ||click4free.info^
 ||click4girlz.pw^
@@ -14255,6 +14259,7 @@
 ||coachquartz.com^
 ||coadvertise.com^
 ||coaphauk.net^
+||coarsewary.com^
 ||coatfood.com^
 ||coatoctopus.com^
 ||coatsanguine.com^
@@ -19203,6 +19208,7 @@
 ||earnmore.su^
 ||earpailton.com^
 ||earphonesvehicleexploded.com^
+||earplugmolka.com^
 ||earthahedda.com^
 ||earthquakeend.com^
 ||earthquakescarf.com^
@@ -19610,6 +19616,7 @@
 ||eggglove.com^
 ||eggplant.cloud^
 ||eggyey.com^
+||eggytiptops.com^
 ||egnatius-ear.com^
 ||egocefabus.com^
 ||egoisc.com^
@@ -20388,6 +20395,7 @@
 ||equuleus.iad.appboy.com^
 ||eqx-secure.smartadserver.com^
 ||eqx.smartadserver.com^
+||eqy.link^
 ||er.5ykj.cn^
 ||er.5ykj.com^
 ||er.search.naver.com^
@@ -26309,7 +26317,6 @@
 ||hudb.pl^
 ||hudong.pl.youku.com^
 ||hududushy.com^
-||huerty.site^
 ||huffson-delivery.com^
 ||hufwitew.com^
 ||hugedomains.com^
@@ -26864,6 +26871,7 @@
 ||idvd.su^
 ||idwq.info^
 ||idwrx.com^
+||idx.lat^
 ||idy666.com^
 ||ie.5500w.com^
 ||ie8eamus.com^
@@ -27360,7 +27368,6 @@
 ||inclinationwitchcraftafresh.com^
 ||inclk.com^
 ||incloak.com^
-||include.canale.live^
 ||includemodal.com^
 ||includepurple.com^
 ||income88.com^
@@ -27416,6 +27423,7 @@
 ||indofad.com^
 ||indofreeads.com^
 ||indoleads.com^
+||induis.com^
 ||indus.iad-01.braze.com^
 ||industrybrains.com^
 ||inedibleproductiveunbelievable.com^
@@ -31785,6 +31793,7 @@
 ||lkoovwlmpueaom.xyz^
 ||lkqd.net^
 ||lksw1.top^
+||lksw3.top^
 ||lktxelg.cn^
 ||lkvkgk.levis.com.tr^
 ||ll.gxsky.com^
@@ -35727,6 +35736,7 @@
 ||movies-flix.club^
 ||moviesflix4k.info^
 ||moviesflix4k.work^
+||moviesflix4k.xyz^
 ||moviesprofit.com^
 ||moviestreamingonline.club^
 ||movii-loft.cn^
@@ -38559,6 +38569,7 @@
 ||oppositehometowndrunken.com^
 ||oppositeoperation.com^
 ||opps.taboola.com^
+||oppuz.com^
 ||opqsr.com^
 ||oproi.com^
 ||opromo.com^
@@ -40147,6 +40158,7 @@
 ||pigtisetdilqsi.com^
 ||pigtre.com^
 ||pijiagui.cn^
+||pijper.io^
 ||pikeletkiyi.com^
 ||pikzor.com^
 ||piledarriving.com^
@@ -49193,6 +49205,7 @@
 ||sp.dnqc.com^
 ||sp.dpgmedia.net^
 ||sp.fdlreporter.com^
+||sp.flocktory.com^
 ||sp.floridatoday.com^
 ||sp.freep.com^
 ||sp.fsunews.com^
@@ -49397,6 +49410,7 @@
 ||spillsackterrified.com^
 ||spinachtighten.com^
 ||spinbox.net^
+||spinnaker-js.com^
 ||spinyla.ru^
 ||spiralstab.com^
 ||spire.aarki.net^
@@ -54428,6 +54442,7 @@
 ||track.adition.com^
 ||track.adnetwork.vn^
 ||track.adsfast.com^
+||track.adspire.io^
 ||track.adsplay.in^
 ||track.adspruce.com^
 ||track.adthrive.com^
@@ -55925,6 +55940,7 @@
 ||turn.com^
 ||turnefo.ru^
 ||turngrind.com^
+||turnhub.net^
 ||turnipcontentmentlegalize.com^
 ||turnipsoft.pubfinity.com^
 ||turnsocial.com^
@@ -56650,6 +56666,7 @@
 ||untruecitycheater.com^
 ||untruehypothesiseconomy.com^
 ||untruewring.com^
+||untsqltqqmtxg.com^
 ||untvwqvrk.com^
 ||unumbonum.com^
 ||unurbs.com^
@@ -57986,6 +58003,7 @@
 ||vkmessage01.net^
 ||vknrfwwxhxaxupqp.pro^
 ||vkuay.com^
+||vkwaeo.com^
 ||vl665.cn^
 ||vlbvgtj.cn^
 ||vlclptmgxmijbyf.com^
@@ -59813,6 +59831,7 @@
 ||wpyjkfcucjpuwh.com^
 ||wpyvue.idealwine.com^
 ||wqdwork.com^
+||wqennyectdnvx.com^
 ||wqlkp.com^
 ||wqmfbqpbnmgyi.com^
 ||wqnmbecaugfpl.com^
@@ -61356,6 +61375,7 @@
 ||xxxxxxxx.jp^
 ||xxyolk.com^
 ||xxyxmdq.cn^
+||xxzj.pro^
 ||xxzzsj.xyz^
 ||xy.nullrefexcep.com^
 ||xy33.smallable.com^
