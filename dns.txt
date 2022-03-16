@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-16 16:19:54（北京时间） 
-! Total count: 63169
+! Version: 2022-03-16 20:38:22（北京时间） 
+! Total count: 63171
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -15179,6 +15179,7 @@
 ||corycj.top^
 ||cosdkaa.pro^
 ||coseik.com^
+||cosherymudejar.com^
 ||cosimotable.pro^
 ||cosmeticsgenerosity.com^
 ||cosmi.io^
@@ -18770,6 +18771,7 @@
 ||dubshub.com^
 ||dubvacasept.com^
 ||duchoono.com^
+||ducina.com^
 ||duck.wings-dark.services^
 ||ducmissy.com^
 ||ducubchooa.com^
@@ -31823,6 +31825,7 @@
 ||lm663.com^
 ||lm665.com^
 ||lm685.com^
+||lm779.com^
 ||lm789456.com^
 ||lm811.com^
 ||lm832.com^
@@ -40280,7 +40283,6 @@
 ||pix.telekom.com^
 ||pix.telekom.de^
 ||pix.us.criteo.net^
-||pix2.services.tvn.pl^
 ||pixanalytics.com^
 ||pixanalytics.pixnet.net^
 ||pixanalytics2.pixnet.net^
@@ -55799,6 +55801,7 @@
 ||ttarget.ru^
 ||ttauri.laptopmag.com^
 ||ttauri.livescience.com^
+||ttayy.cn^
 ||ttbc.cc^
 ||ttbc33.com^
 ||ttdbj.com^
@@ -56747,7 +56750,6 @@
 ||uptime.monitorus.ru^
 ||uptimecdn.com^
 ||uptmaovwrj.com^
-||uptolike.com^
 ||uptopop.com^
 ||uptracs.com^
 ||uptrendsdata.com^

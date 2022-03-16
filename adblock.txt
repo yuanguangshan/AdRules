@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-16 16:19:54（北京时间） 
-! Total count: 126366
+! Version: 2022-03-16 20:38:22（北京时间） 
+! Total count: 126370
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -35451,9 +35451,10 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /images/content/1436/*$domain=chineseinla.com
 /images/gads_
 /images/livejasmin/*
-/images/masha*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|summer-plus.net|white-plus.net
+/images/masha*.png
 /images/mxl.gif?
-/images/sgcrwj*.$domain=imoutolove.me|level-plus.net|snow-plus.net|south-plus.org|spring-plus.net|summer-plus.net|white-plus.net
+/images/sgcrwj*.gif
+/images/sgcrwj*.jpg
 /images/sponsored.
 /images/sponsored/*
 /images/ta1234.js
@@ -47488,12 +47489,11 @@ bing.com##.ra_car_block
 bing.com##DIV.sb_adsNv2,li.b_ad,div.OpInNwWndw
 bing.com##[id$="adsMvCarousel"]
 bing.com##a[href*="/aclick?ld="]
-bing.com#?##b_results > li:-adp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
+bing.com#?##b_results > li:-abp-has(> h2 + .b_caption > div.b_attribution:not([u]) + p[class])
 bing.com#?#li[class="b_algo"]:-abp-has(> h2 + div[class="b_caption"] > p[class])
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "])
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
-bing.com#?#li[class="b_algo"]:-adp-has(> h2 + div[class="b_caption"] > p[class])
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
@@ -48423,6 +48423,7 @@ clubedohardware.com.br#@##banner
 clubedohardware.com.br#@#.ipsAd
 clubedohardware.com.br#@#.nexusad
 cm.bilibili.com
+cm.l.qq.com
 cm868.com###diy1,#diy3
 cmbc.com.cn#@#.adBox
 cmhello.com##.gpost-above
@@ -52044,7 +52045,7 @@ hitime5.com###gg250
 hitime5.com###gg730
 hitime5.com,zdzdm.com###gg
 hitline.org.ua##.bantop
-hitomi.la#$#override-property-read popsource null; override-property-read adsdir null; override-property-read ad_cookieconsent false; override-property-read D4zz undefined; abort-on-property-read _pop; abort-on-property-read hitomi; abort-on-property-read open
+hitomi.la#$#override-property-read popsource null; override-property-read adsdir null; override-property-read ad_cookieconsent false; override-property-read D4zz undefined; abort-on-property-read _pop; abort-on-property-read hitomi; abort-on-property-read open; override-property-read ad_idzone null
 hj.sygsyq.com
 hj.xinbo-lora.cn
 hjenglish.com###regscrollcontainer
@@ -58106,8 +58107,6 @@ search.genieo.com##.promoted_right
 search.smzdm.com###elevator > LI:first-child
 search.smzdm.com###elevator > LI:first-child > SPAN:first-child
 search.snapdo.com###AfloatingD
-search.yahoo.com##.va-mid
-search.yahoo.com##.va-mid + a
 searchcommander.com##.footer-widget
 searchcommander.com##[href^="https://www.searchcommander.com/rec/"]
 searchenginejournal.com###spcat_ifr
@@ -77829,6 +77828,7 @@ zzpzero.com
 ||coryarcangel.com/images/banners/
 ||corycj.top^
 ||coseik.com^
+||cosherymudejar.com^
 ||cosimotable.pro^
 ||cosmeticsgenerosity.com^
 ||cosmi.io^$third-party
@@ -81240,6 +81240,7 @@ zzpzero.com
 ||dubshub.com^
 ||dubvacasept.com^
 ||duchoono.com^
+||ducina.com^
 ||duckdns.org^$third-party,websocket
 ||duckduckgo.com/t/
 ||ducmissy.com^
@@ -94817,6 +94818,7 @@ zzpzero.com
 ||lm663.com^
 ||lm665.com^
 ||lm685.com^
+||lm779.com^
 ||lm789456.com^
 ||lm811.com^
 ||lm832.com^
@@ -116982,6 +116984,7 @@ zzpzero.com
 ||ttahsdu.top^
 ||ttaj.cn^
 ||ttavav6.com/zz/
+||ttayy.cn^
 ||ttbaods.com$script
 ||ttbc.cc^
 ||ttbc33.com^
@@ -117944,7 +117947,7 @@ zzpzero.com
 ||uptimecdn.com^
 ||uptmaovwrj.com^
 ||uptolike.com/widgets/*/imp?
-||uptolike.com^$third-party
+||uptolike.com^$third-party,domain=~uptolike.ru
 ||uptopopunder.com^$popup
 ||uptracs.com^$third-party
 ||uptrendsdata.com^$third-party
@@ -124559,6 +124562,7 @@ zzpzero.com
 ||zxyonlybelongstolym.xyz^
 ||zxzj.fun/slade
 ||zxzj.fun/t.js
+||zxzjtv.com/upload/vod/yuyua.png
 ||zy16eoat1w.com^
 ||zy8.org
 ||zyam.club^

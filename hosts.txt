@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-16 16:19:54（北京时间） 
-! Total count: 62890
+! Version: 2022-03-16 20:38:22（北京时间） 
+! Total count: 62892
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 00-gov.cn
@@ -14984,6 +14984,7 @@
 0.0.0.0 corycj.top
 0.0.0.0 cosdkaa.pro
 0.0.0.0 coseik.com
+0.0.0.0 cosherymudejar.com
 0.0.0.0 cosimotable.pro
 0.0.0.0 cosmeticsgenerosity.com
 0.0.0.0 cosmi.io
@@ -18568,6 +18569,7 @@
 0.0.0.0 dubshub.com
 0.0.0.0 dubvacasept.com
 0.0.0.0 duchoono.com
+0.0.0.0 ducina.com
 0.0.0.0 duck.wings-dark.services
 0.0.0.0 ducmissy.com
 0.0.0.0 ducubchooa.com
@@ -31601,6 +31603,7 @@
 0.0.0.0 lm663.com
 0.0.0.0 lm665.com
 0.0.0.0 lm685.com
+0.0.0.0 lm779.com
 0.0.0.0 lm789456.com
 0.0.0.0 lm811.com
 0.0.0.0 lm832.com
@@ -40039,7 +40042,6 @@
 0.0.0.0 pix.telekom.com
 0.0.0.0 pix.telekom.de
 0.0.0.0 pix.us.criteo.net
-0.0.0.0 pix2.services.tvn.pl
 0.0.0.0 pixanalytics.com
 0.0.0.0 pixanalytics.pixnet.net
 0.0.0.0 pixanalytics2.pixnet.net
@@ -55529,6 +55531,7 @@
 0.0.0.0 ttarget.ru
 0.0.0.0 ttauri.laptopmag.com
 0.0.0.0 ttauri.livescience.com
+0.0.0.0 ttayy.cn
 0.0.0.0 ttbc.cc
 0.0.0.0 ttbc33.com
 0.0.0.0 ttdbj.com
@@ -56477,7 +56480,6 @@
 0.0.0.0 uptime.monitorus.ru
 0.0.0.0 uptimecdn.com
 0.0.0.0 uptmaovwrj.com
-0.0.0.0 uptolike.com
 0.0.0.0 uptopop.com
 0.0.0.0 uptracs.com
 0.0.0.0 uptrendsdata.com
