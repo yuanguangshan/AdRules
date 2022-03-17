@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-17 17:32:03（北京时间） 
-! Total count: 63214
+! Version: 2022-03-17 19:57:39（北京时间） 
+! Total count: 63219
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -13963,6 +13963,7 @@
 ||cloud.roistat.com^
 ||cloud.setupad.com^
 ||cloud.xdrig.com^
+||cloudaaaa.com^
 ||cloudad.asia
 ||cloudapi.imrworldwide.com^
 ||cloudapp-s.store^
@@ -29967,6 +29968,7 @@
 ||kglmkkejuu.com^
 ||kgmwgccdkpy.com^
 ||kgnpwdf.cn^
+||kgq.ink^
 ||kgthputeelbyp.com^
 ||kgua0o66bcw8.com^
 ||kguke.com^
@@ -32883,6 +32885,7 @@
 ||m.mixadvert.com^
 ||m.muyuge.com^
 ||m.mxguan.com^
+||m.nanyangqiaoxiang.cn^
 ||m.nkjfzq43034.cn^
 ||m.photoshelter.com^
 ||m.premier.info.shutterstock.com^
@@ -37347,6 +37350,7 @@
 ||northstartravelmedia.com^
 ||northwestlegendary.com^
 ||norvalur.xyz^
+||noscvgma.xyz^
 ||nosensor.cn^
 ||nossl.policeone.com^
 ||nostalgia.onego.ru^
@@ -40035,7 +40039,6 @@
 ||phekrimp.com^
 ||phengung.net^
 ||phenomenonattorney.com^
-||phenompeople.com^
 ||phenver.com^
 ||pheselta.net^
 ||phethikapso.pro^
@@ -46861,6 +46864,7 @@
 ||sheerprotocol.com^
 ||sheeta.nrj-play.fr^
 ||shemale.house^
+||shen.zgfszs.com^
 ||shenbabao.com^
 ||shenbianlaoshi.com^
 ||shence.hupu.com^
@@ -61906,6 +61910,7 @@
 ||ymprove.web.de^
 ||ymrseiueff.com^
 ||ymtracking.com^
+||ymtrqt.cn^
 ||ymxlm.cc^
 ||ymzrrizntbhde.com^
 ||ynagqs.vidaxl.pl^
