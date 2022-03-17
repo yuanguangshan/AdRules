@@ -2,7 +2,7 @@
 import os
 result = []
 ffo = open("adblock+adguard.txt", "rb+")
-fo = open("adblock+adguard.txt", "wb+")
+fo = open("adblock+adguard-test.txt", "wb+")
 result=list(set(ffo))
 result.sort()
 #ist=str(result)
