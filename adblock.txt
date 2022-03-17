@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-17 16:16:23（北京时间） 
-! Total count: 126469
+! Version: 2022-03-17 17:32:03（北京时间） 
+! Total count: 126474
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -52393,6 +52393,7 @@ i.maxthon.cn##.site-ad-container
 i.qq.com##.linwei-logo
 i.qq.com##.linwei-txt
 i04.ipc08dt.com
+ia.51.la
 iadctest.qwapi.com^
 iamdisappoint.com,shitbrix.com,tattoofailure.com##a[href^="http://goo.gl/"]
 iamgujarat.com##.esi_ads_widget
@@ -55476,6 +55477,7 @@ mmweibo.net##[href="/thread-8457589-1-1.html"],[class^="lt-"],.zoom,.a_pr,.a_sxp
 mmybt.com##.a_mu,.a_pt
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
 mnr.gaojiaju.net
+mnr.jajjo.cn
 mnw.cn##.ads,.ad2,.ad1,.left_300_250,iframe[src^="http://g.mnw.cn/"],.mnw_top_ads,.h65,.mnw_265,[style*="height:140px;width:1000px;"]
 mnw.cn##.mnw_685
 mnw.cn##.mnw_960
@@ -57198,6 +57200,7 @@ privateinternetaccess.com#@#a[href^="https://www.privateinternetaccess.com/"]
 privatestream.tv###timer1
 privatestream.tv###timer2
 privatestream.tv###timer3
+prmovies.bz,123movies.bike,w-123movies.com,123freemovies.net,123movies.ai,adblockstreamtape.art,adblockstreamtape.site,strcloud.club,strcloud.link,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,rlslog.net,hclips.com,pornhat.com,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.ws,doodstream.co,doodstream.com,vidstreaming.io,vidstreamz.online,mstream.fun,xnxxvideo.pro,xvideosxporn.com,porndollz.com,hd-analporn.com,bigtitsxxxfree.com,perfectgirls.net,realgfporn.com,porn.com,hotmovs.com,rule34hentai.net,govid.me,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,iframe-secured.com,pandamovies.pw,configspc.com,onetouchtv.me,hxfile.co,mixdrop.co,fastream.to#$#abort-on-property-read open
 pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
 proboards.com###gravity-stories-1
 proboards.com,freeforums.net,boards.net###support-message
@@ -95777,6 +95780,7 @@ zzpzero.com
 ||m.qu.la/jsa/p.js
 ||m.qu.la/ll/
 ||m.sfscooter.cn^
+||m.sfw5.me/wx^
 ||m.smb.info.shutterstock.com^
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
 ||m.univision.com^
@@ -120309,6 +120313,7 @@ zzpzero.com
 ||whusebsu.com^
 ||whusihgq.cn^
 ||whuxeposta.com^
+||whwdzgykybnfg.com^
 ||whwfcm.cn^
 ||whxhhjx.com^
 ||whxjnwzhs.com^

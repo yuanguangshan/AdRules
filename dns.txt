@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-17 16:16:23（北京时间） 
-! Total count: 63213
+! Version: 2022-03-17 17:32:03（北京时间） 
+! Total count: 63214
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -59317,6 +59317,7 @@
 ||whusebsu.com^
 ||whusihgq.cn^
 ||whuxeposta.com^
+||whwdzgykybnfg.com^
 ||whwfcm.cn^
 ||whxhhjx.com^
 ||whxjnwzhs.com^
