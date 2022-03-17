@@ -2,7 +2,7 @@
 import os
 result = []
 ffo = open("adblock+adguard.txt", "rb+")
-fo = open("adblock+adguard-test.txt", "wb+")
+fo = open("adblock+adguard-test.txt", "w+")
 result=list(set(ffo))
 result.sort()
 #ist=str(result)
@@ -11,3 +11,4 @@ result.sort()
 for line in result:
     fo.write(line+'\n')
 fo.close()
+ffo.close()
