@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-17 06:53:07（北京时间） 
-! Total count: 63200
+! Version: 2022-03-17 08:53:45（北京时间） 
+! Total count: 63210
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -12308,6 +12308,7 @@
 ||carte.fleet-page.total.fr^
 ||cartponi.tk^
 ||carts.guru^
+||cartstack.com^
 ||cartstick.com^
 ||carutinv.com^
 ||carveac.com^
@@ -13952,6 +13953,7 @@
 ||clothingsphere.com^
 ||cloud-emea.analytics-egain.com^
 ||cloud-exploration.com^
+||cloud-iq.com.au^
 ||cloud-iq.com^
 ||cloud-miner.de^
 ||cloud-miner.eu^
@@ -13976,6 +13978,7 @@
 ||cloudimagesa.com^
 ||cloudimagesb.com^
 ||cloudioo.net^
+||cloudiq.com^
 ||cloudlogobox.com^
 ||cloudmade.com^
 ||cloudmobi.net^
@@ -18379,6 +18382,7 @@
 ||donghua.asia^
 ||donglogs.com^
 ||dongsiping.xyz^
+||dongzhixia1688.com^
 ||donkeyleaf.com^
 ||donreach.com^
 ||dontbeevils.de^
@@ -19505,6 +19509,7 @@
 ||education.greatbatch.com^
 ||education.moodybible.org^
 ||education.seek.intel.com^
+||educationdynamics.com^
 ||educedsteeped.com^
 ||educivesakti.com^
 ||edugrampromo.com^
@@ -31683,6 +31688,7 @@
 ||liuliguo.com^
 ||liulu888.com^
 ||liunxgroup.top^
+||liupan.asia^
 ||liusuqin.fun^
 ||liuwangmin.top^
 ||liuwenyan.xyz^
@@ -37036,6 +37042,7 @@
 ||nicksstevmark.com^
 ||nicmoomp.net^
 ||nicoug.com^
+||nidelove.club^
 ||niecefootagefastest.com^
 ||niegg.com^
 ||nielofficieshandl.info^
@@ -38460,6 +38467,7 @@
 ||oohingjap.com^
 ||oojexulr.net^
 ||ookris.oferty-kredytowe.pl^
+||oomll.cn^
 ||oomsoapt.net^
 ||oomtexoa.com^
 ||oomyv.com^
@@ -46170,6 +46178,7 @@
 ||secure.mill8grip.com^
 ||secure.misc1bulk.com^
 ||secure.mon-com-01.com^
+||secure.money.com^
 ||secure.mown5gaze.com^
 ||secure.mycalcas.com^
 ||secure.navy9gear.com^
@@ -53194,6 +53203,7 @@
 ||thump-night-stand.com^
 ||thumpssleys.com^
 ||thunder.adnxs.com^
+||thunderhead.com^
 ||thunderingrose.com^
 ||thurag.com^
 ||thurnflfant.com^
