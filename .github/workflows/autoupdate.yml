@@ -24,19 +24,18 @@ jobs:
   update-rules:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
-      - name: Update APT GET
-        continue-on-error: true
-        run: |
-          sudo apt-get update
-          sudo apt-get install gawk
+      - uses: actions/checkout@main      
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
       - name: Update Rules
         continue-on-error: true
         run: |
           rm *.txt
           bash ./script/update-rules.sh
-
+          python ./script/rules.py
       - name: Test
         continue-on-error: true
         run: |
