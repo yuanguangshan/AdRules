@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-17 11:45:33（北京时间） 
-! Total count: 63211
+! Version: 2022-03-17 16:16:23（北京时间） 
+! Total count: 63213
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -42776,6 +42776,7 @@
 ||qpxohp.com^
 ||qpzsh.cn^
 ||qq0010.xyz^
+||qq0017.xyz^
 ||qq163com.cn^
 ||qq167.com^
 ||qq288.com^
@@ -62344,6 +62345,7 @@
 ||yzjy.pro^
 ||yzlwuuzzehjh.com^
 ||yzmklm.com^
+||yzqjcmy.top^
 ||yzt001.com^
 ||yzus09by.com^
 ||yzwr588.com^
