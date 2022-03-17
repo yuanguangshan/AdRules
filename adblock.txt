@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-18 06:30:03（北京时间） 
-! Total count: 125892
+! Version: 2022-03-18 06:57:14（北京时间） 
+! Total count: 125893
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -55516,6 +55516,7 @@ monacomatin.mc,nicematin.com,varmatin.com##.modalRhoo
 mondebrideur.com##.plugbarremozi
 mondoweiss.net##.block-head-c
 mondoweiss.net##.notrack
+money.com##.ca-widget-inline
 money.pl#$#abort-current-inline-script document.querySelector querySelector
 money.pl#?#div:-abp-has(> div > script:-abp-contains(registerPlaceholder))
 money.pl#?#div:-abp-has(> img[src$="/bg.png"])
