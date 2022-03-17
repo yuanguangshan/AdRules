@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-17 21:53:19（北京时间） 
-! Total count: 126041
+! Version: 2022-03-18 00:18:19（北京时间） 
+! Total count: 126043
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -3618,6 +3618,7 @@
 ###adv-gpt-masthead-leaderboard-container1
 ###adv-gpt-masthead-skin-container1
 ###adv-halfpage
+###adv-header
 ###adv-leaderboard
 ###adv-left
 ###adv-masthead
@@ -47464,6 +47465,7 @@ bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#@#.btn-ctnr
+bilibili.com,huya.com,v.qq.com##+js(set, RTCPeerConnection, trueFunc)
 bimiacg*.net/template/JOELEO/asset/js/jquery.leeleo.js
 bimiacg4.net,bimiacg5.net,dodoge.me##.ssr1
 bimibimi.cc##[src^='https://dd-static.jd.com']
@@ -60403,7 +60405,6 @@ v.ifeng.com##div.topAdBox,div.vAdbox,div.v-adbox,div.w_code,.vPlayerAdbox
 v.njcengpianwang.cn
 v.pps.tv##div.pgbox-content
 v.qq.com###pc_client > .quick_link
-v.qq.com##+js(aeld,ratechange,context.dataset)
 v.qq.com##.module-image[style*="width:1100px;"]
 v.qq.com##.module-image[style*="width:1240px;"]
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
@@ -95909,6 +95910,7 @@ zzpzero.com
 ||marisappear.pro^$third-party
 ||maritalglancing.com^
 ||mark.isbank.com.tr^
+||mark.l.qq.com/fcgi-bin/get_video_mark_all?
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?idlist=
 ||markbookto.com^
 ||markedcrayon.com^
