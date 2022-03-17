@@ -143,9 +143,9 @@ cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #�
 echo '规则去重处理完成'
 
 set LC_ALL='C'
-iconv -t gbk tmp-tmp-adblock+adguard.txt > tmp1-tmp-adblock+adguard.txt
+iconv -c -t gbk tmp-tmp-adblock+adguard.txt > tmp1-tmp-adblock+adguard.txt
 gawk '!a[$0]++' tmp1-tmp-adblock+adguard.txt > tmp2-tmp-adblock+adguard.txt
-sort -n tmp2-tmp-adblock+adguard.txt > tmp-adblock+adguard.txt
+sort -n tmp2-tmp-adblock+adguard.txt |uniq > tmp-adblock+adguard.txt
 
 # Move to Pre Filter
 echo '移动规则到Pre目录'
