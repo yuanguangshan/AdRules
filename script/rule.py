@@ -9,5 +9,5 @@ result.sort()
 #ist=ist.encode('utf-8')
 #fo.writelines(result)
 for line in result:
-    f.write(line+'\n')
+    fo.write(line+'\n')
 fo.close()
