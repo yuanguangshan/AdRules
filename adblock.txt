@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-18 00:18:19（北京时间） 
-! Total count: 126043
+! Version: 2022-03-18 00:46:30（北京时间） 
+! Total count: 126066
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -56823,6 +56823,16 @@ pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pintere
 pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorisée par"])
 pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorizzato da"])
 pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Рекламодатель:"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Anzeige von"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Gesponsord door"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promocionado por"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promoted by"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promowane przez"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Publicidade de"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsor:"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorisée par"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorizzato da"])
+pinterest.ca,pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Рекламодатель:"])
 pipeflare.io##.section-promo-banner
 pipi.cn#@#.ad-root
 pipipan.com##[id^="ad-"],[class^="ad-"],[id^="a_z_"]
@@ -57183,6 +57193,7 @@ privatestream.tv###timer2
 privatestream.tv###timer3
 prmovies.bz,123movies.bike,w-123movies.com,123freemovies.net,123movies.ai,adblockstreamtape.art,adblockstreamtape.site,strcloud.club,strcloud.link,streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,rlslog.net,hclips.com,pornhat.com,dood.so,dood.to,dood.video,dood.watch,dood.la,dood.ws,doodstream.co,doodstream.com,vidstreaming.io,vidstreamz.online,mstream.fun,xnxxvideo.pro,xvideosxporn.com,porndollz.com,hd-analporn.com,bigtitsxxxfree.com,perfectgirls.net,realgfporn.com,porn.com,hotmovs.com,rule34hentai.net,govid.me,mstream.best,mstream.fun,mstream.icu,mstream.press,mstream.space,mstream.tech,mstream.website,mstream.xyz,mystream.io,mystream.to,iframe-secured.com,pandamovies.pw,configspc.com,onetouchtv.me,hxfile.co,mixdrop.co,fastream.to#$#abort-on-property-read open
 pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
+pro100hobbi.ru,samelectric.ru,facenews.ua,molitvy.guru,nizhny.ru,svadba.expert#$#abort-on-property-read XMLHttpRequest
 proboards.com###gravity-stories-1
 proboards.com,freeforums.net,boards.net###support-message
 probuilds.net##.welcome-bnr
@@ -60416,6 +60427,7 @@ v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.top_banner,.mod_ads_play,#jimu-module-10,#jimu-module-11,.tvp_open_btns,[class^="txp_ad_"],.txp_ad,.figures_ad
+v.qq.com#@#+js(nowebrtc)
 v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 v.qufengo.com
 v.sogou.com##[uigs^="adv_pc_adv"]
@@ -61360,6 +61372,7 @@ www.dnpz.net##[id^="dnpz_ad"]
 www.dodo8.com##td[height="82"]
 www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 www.douyu.com##+js(set, RTCPeerConnection.prototype.addStream, noopFunc)
+www.douyu.com##+js(set, RTCPeerConnection.prototype.createDataChannel, noopFunc)
 www.douyu.com##+js(set, webkitRTCPeerConnection.prototype.addStream, noopFunc)
 www.douyu.com##.giftbatter-box
 www.down.cc##div.article_ad,div.test-240,div.search-test,div.test-60,div#ad_phone1,div#ad_phone2,div.img-220.md10,.dl-test,.test_80_href
@@ -67320,6 +67333,7 @@ zzpzero.com
 ||acbp0020171456.page.tl^
 ||acc-hd.de^$third-party
 ||accdab.net^$third-party
+||accedebuzz.com^
 ||accedednews.com^
 ||accedenonre.club^
 ||accelacomm.com^$third-party
@@ -75745,6 +75759,7 @@ zzpzero.com
 ||chatinator.com^$third-party
 ||chatmilkprude.casa^
 ||chatroll.com/t.gif
+||chattertasty.com^
 ||chaturbate.com/affiliates/
 ||chaturbate.com/affiliates/$popup
 ||chaturbate.com/creative/
@@ -78062,6 +78077,7 @@ zzpzero.com
 ||cqpmvc.geo.fr^
 ||cqpmvc.programme-tv.net^
 ||cqpmvc.voici.fr^
+||cqqc3.com^
 ||cqrvwq.com^
 ||cqshaseng.com^
 ||cqtnfs.com^$domain=~agefans.tv
@@ -85668,6 +85684,7 @@ zzpzero.com
 ||genecute.com^
 ||generalebad.xyz^
 ||generalebad.xyz^$popup
+||generalizationtrifling.com^
 ||generaltracking.de^$third-party
 ||generatecompassionphotocopy.com^
 ||generatedough.com^
@@ -92939,6 +92956,7 @@ zzpzero.com
 ||kmaa45.com^
 ||kmacon.com^
 ||kmbyktnb.com^
+||kmeukiygmr.com^
 ||kmf.com/da/do
 ||kmgfjc.cn^
 ||kmib.co.kr/ref/
@@ -104199,6 +104217,7 @@ zzpzero.com
 ||puppetgrow.com^
 ||pups.bdimg.com/
 ||pupsotdub.com^
+||puptyvocho.com^
 ||pupudy.com/images/wxrj.gif
 ||pupulodsects.cam^
 ||puqer.cn^
@@ -105892,6 +105911,7 @@ zzpzero.com
 ||reliantatomtradition.com^
 ||relivesovereign.com^
 ||relmaxtop.com^$third-party
+||reluctanceearplumb.com^
 ||relytec.com^$third-party
 ||rem-track.bild.de^
 ||remailtarget.com^$third-party
@@ -107719,6 +107739,7 @@ zzpzero.com
 ||secretspiders.com^
 ||secretturtle.com^$third-party
 ||secrr.cn^
+||sectsenior.com^
 ||secure-12.com^
 ||secure-anzgo.arrow.com^
 ||secure-e.healthiq.com^
@@ -111308,6 +111329,7 @@ zzpzero.com
 ||sprinklecontent.com^$third-party
 ||sprintrade.com^$third-party
 ||sprkl.io^
+||sprngmnews.com^
 ||sprngmnews.name^
 ||sproose.com^
 ||sprout-ad.com^$third-party
@@ -120607,6 +120629,7 @@ zzpzero.com
 ||wuxinb.com^$third-party
 ||wuxiqiangheng.com^
 ||wuygmdi.cn^
+||wuyizhqrappxeq.com^
 ||wuyou.com/0000/$image
 ||wuyou.la
 ||wuyoudan.cn^

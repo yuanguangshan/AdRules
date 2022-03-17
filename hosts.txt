@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-18 00:18:19（北京时间） 
-! Total count: 62542
+! Version: 2022-03-18 00:46:30（北京时间） 
+! Total count: 62551
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 00-gov.cn
@@ -2916,6 +2916,7 @@
 0.0.0.0 acc-hd.de
 0.0.0.0 accaii.com
 0.0.0.0 accdab.net
+0.0.0.0 accedebuzz.com
 0.0.0.0 accedednews.com
 0.0.0.0 accedenonre.club
 0.0.0.0 accelacomm.com
@@ -12908,6 +12909,7 @@
 0.0.0.0 chatintr.com
 0.0.0.0 chatmilkprude.casa
 0.0.0.0 chatntr.com
+0.0.0.0 chattertasty.com
 0.0.0.0 chauksoa.net
 0.0.0.0 chaumsee.net
 0.0.0.0 chaussew.net
@@ -15228,6 +15230,7 @@
 0.0.0.0 cqpmvc.geo.fr
 0.0.0.0 cqpmvc.programme-tv.net
 0.0.0.0 cqpmvc.voici.fr
+0.0.0.0 cqqc3.com
 0.0.0.0 cqrvwq.com
 0.0.0.0 cqshaseng.com
 0.0.0.0 cquotient.com
@@ -22947,6 +22950,7 @@
 0.0.0.0 genelajans.com
 0.0.0.0 generalebad.xyz
 0.0.0.0 generalizationdisputelesser.com
+0.0.0.0 generalizationtrifling.com
 0.0.0.0 generaltracking.de
 0.0.0.0 generatecompassionphotocopy.com
 0.0.0.0 generatedough.com
@@ -29771,6 +29775,7 @@
 0.0.0.0 kmaa45.com
 0.0.0.0 kmacon.com
 0.0.0.0 kmbyktnb.com
+0.0.0.0 kmeukiygmr.com
 0.0.0.0 kmgfjc.cn
 0.0.0.0 kmindex.ru
 0.0.0.0 kmndj.top
@@ -41598,6 +41603,7 @@
 0.0.0.0 punyvamos.com
 0.0.0.0 puppetgrow.com
 0.0.0.0 pupsotdub.com
+0.0.0.0 puptyvocho.com
 0.0.0.0 pupulodsects.cam
 0.0.0.0 puqer.cn
 0.0.0.0 purch-sync.go.sonobi.com
@@ -43282,6 +43288,7 @@
 0.0.0.0 reliantatomtradition.com
 0.0.0.0 relivesovereign.com
 0.0.0.0 relmaxtop.com
+0.0.0.0 reluctanceearplumb.com
 0.0.0.0 reluctanceleatheroptional.com
 0.0.0.0 relytec.com
 0.0.0.0 rem-track.bild.de
@@ -48990,6 +48997,7 @@
 0.0.0.0 sprint.asapp.com
 0.0.0.0 sprintrade.com
 0.0.0.0 sprkl.io
+0.0.0.0 sprngmnews.com
 0.0.0.0 sprngmnews.name
 0.0.0.0 sprocket-ping.s3.amazonaws.com
 0.0.0.0 sproose.com
@@ -59415,6 +59423,7 @@
 0.0.0.0 wuxiap.xyz
 0.0.0.0 wuxiqiangheng.com
 0.0.0.0 wuygmdi.cn
+0.0.0.0 wuyizhqrappxeq.com
 0.0.0.0 wuyou.la
 0.0.0.0 wuyoudan.cn
 0.0.0.0 wuzefei.top

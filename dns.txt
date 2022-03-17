@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-18 00:18:19（北京时间） 
-! Total count: 62821
+! Version: 2022-03-18 00:46:30（北京时间） 
+! Total count: 62830
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -3086,6 +3086,7 @@
 ||acc-hd.de^
 ||accaii.com^
 ||accdab.net^
+||accedebuzz.com^
 ||accedednews.com^
 ||accedenonre.club^
 ||accelacomm.com^
@@ -13098,6 +13099,7 @@
 ||chatintr.com^
 ||chatmilkprude.casa^
 ||chatntr.com^
+||chattertasty.com^
 ||chauksoa.net^
 ||chaumsee.net^
 ||chaussew.net^
@@ -15423,6 +15425,7 @@
 ||cqpmvc.geo.fr^
 ||cqpmvc.programme-tv.net^
 ||cqpmvc.voici.fr^
+||cqqc3.com^
 ||cqrvwq.com^
 ||cqshaseng.com^
 ||cquotient.com^
@@ -23156,6 +23159,7 @@
 ||genelajans.com^
 ||generalebad.xyz^
 ||generalizationdisputelesser.com^
+||generalizationtrifling.com^
 ||generaltracking.de^
 ||generatecompassionphotocopy.com^
 ||generatedough.com^
@@ -29990,6 +29994,7 @@
 ||kmaa45.com^
 ||kmacon.com^
 ||kmbyktnb.com^
+||kmeukiygmr.com^
 ||kmgfjc.cn^
 ||kmindex.ru^
 ||kmndj.top^
@@ -41843,6 +41848,7 @@
 ||punyvamos.com^
 ||puppetgrow.com^
 ||pupsotdub.com^
+||puptyvocho.com^
 ||pupulodsects.cam^
 ||puqer.cn^
 ||purch-sync.go.sonobi.com^
@@ -43528,6 +43534,7 @@
 ||reliantatomtradition.com^
 ||relivesovereign.com^
 ||relmaxtop.com^
+||reluctanceearplumb.com^
 ||reluctanceleatheroptional.com^
 ||relytec.com^
 ||rem-track.bild.de^
@@ -49250,6 +49257,7 @@
 ||sprint.asapp.com^
 ||sprintrade.com^
 ||sprkl.io^
+||sprngmnews.com^
 ||sprngmnews.name^
 ||sprocket-ping.s3.amazonaws.com^
 ||sproose.com^
@@ -59692,6 +59700,7 @@
 ||wuxiap.xyz^
 ||wuxiqiangheng.com^
 ||wuygmdi.cn^
+||wuyizhqrappxeq.com^
 ||wuyou.la
 ||wuyoudan.cn^
 ||wuzefei.top^
