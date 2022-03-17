@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-17 19:57:39（北京时间） 
-! Total count: 126479
+! Version: 2022-03-17 20:01:01（北京时间） 
+! Total count: 126456
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -26986,28 +26986,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 ,adb=*&referer=
 ,e8o,$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 -*-*-*-*.panda^$script,third-party
---.+/statics/js/hth1111.html
---.com/gg.js
---/360mse/360mse_.+.apk?
---/api/ad/
---/app/.+/%E6%B5%8F%E8%A7%88%E5%99%A8.apk
---/app/market/.+/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8.apk
---126.net/.+analysis
---163.com/wap/special/article_cooper_piapia/
---163487\.+\.qmgmw.com
---567\w?\.xyz
---baidu.com/api/wapui/getrelatedbusiness
---baidu.com/newspage/api/getmobads?
---bing.com/fd/ls/l?IG=
---bing.com/fd/ls/lsp.aspx
---chen-xing/figure_bed
---download.2345.cn/2345yd1/apk/
---g.163.com/.+&affiliate=
---nex.163.com/q?
---templates_pc/default/scripts/chapter_bottom.js
---tplv-noop.gif
---uf.haoyu666.top/uploads.+%E7%B2%BE%E5%93%81%E5%BD%B1%E8%A7%86.apk?
---www.xxmh.+.com
 -Ad-360.
 -Ad-Large_
 -Ad-Space-
@@ -55208,7 +55186,6 @@ mbd.baidu.com##DIV[class='horizontal']
 mbd.baidu.com##DIV[class='openall3']
 mbd.baidu.com##SPAN[class='openText']
 mbd.baidu.com##div[class^="_"][style="visibility: visible;"]
-mbdp02.bdstatic.com
 mbl.is##.augl
 mbx.tt3edd.com
 mc-market.org##.p-body-sidebar center [href]
