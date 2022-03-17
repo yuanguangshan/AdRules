@@ -35,7 +35,7 @@ jobs:
         run: |
           rm *.txt
           bash ./script/update-rules.sh
-          python ./script/rules.py
+          python ./script/rule.py
       - name: Test
         continue-on-error: true
         run: |
