@@ -24,6 +24,7 @@ easylist=(
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt"
   "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
   "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt"
+  "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt"
 )
 
 easylist_plus=(
@@ -134,13 +135,14 @@ cat allow-damain*.txt | grep -v '#' |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -
 # Start Merge and Duplicate Removal
 #set LC_ALL='C'
 cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
-cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
+cat .././mod/rules/adblock-rules.txt plus-easylist*.txt easylist*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
 cat adguard*.txt | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
-cat .././mod/rules/*-rules.txt dns*.txt abp-hosts.txt | grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
+cat .././mod/rules/*-rules.txt dns*.txt abp-hosts.txt *easylist*.txt| grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
 cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt #处理广告域名
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
+
 # Python 处理重复规则
 python .././script/rule.py
 # Move to Pre Filter
@@ -150,7 +152,9 @@ mkdir -p ./pre/
 mv ./tmp/tmp-*.txt ./pre
 cd ./pre
 echo '移动完成'
+
 # Start Count Rules
+
 echo '正在计算规则总数..'
 adblock_num=`cat tmp-adblock.txt | wc -l`
 adblock_plus_num=`cat tmp-adblock+adguard.txt | wc -l`
@@ -160,6 +164,7 @@ hosts_num=`cat tmp-hosts.txt | wc -l`
 ad_damain_num=`cat tmp-ad-damain.txt | wc -l`
 allow_num=`cat tmp-allow.txt | wc -l`
 echo '规则计算完毕'
+
 # Start Add title and date
 echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
 echo "! Total count: $adblock_num" >> adblock-tpdate.txt
