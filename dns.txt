@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-18 22:49:35（北京时间） 
-! Total count: 62746
+! Version: 2022-03-18 23:35:23（北京时间） 
+! Total count: 62747
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -28642,6 +28642,7 @@
 ||jgl.microad.net^
 ||jgnxty.revivalrugs.com^
 ||jgrkjp.cn^
+||jgsqfkj.com^
 ||jgstny.com^
 ||jgwsmqx.com^
 ||jgxotftsrfux.xyz^
