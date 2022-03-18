@@ -142,7 +142,7 @@ cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-a
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
 # Python 处理重复规则
-#python .././script/rule.py
+python .././script/rule.py
 # Move to Pre Filter
 echo '移动规则到Pre目录'
 cd ../
