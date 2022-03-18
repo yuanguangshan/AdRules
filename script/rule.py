@@ -1,5 +1,6 @@
 # -*- coding:gbk -*-
 import os
+'''
 result = []
 ffo = open("adblock+adguard.txt", "rb+")
 fo = open("adblock+adguard-test.txt", "wb+")
@@ -14,10 +15,10 @@ fo.close()
 ffo.close()
 '''
 list01 = []
-for i in open('test.txt'):
+for i in open('adblock+adguard.txt'):
     if i in list01:
         continue
     list01.append(i)
-with open('test01.txt', 'w') as handle:
+with open('adblock+adguard-test.txt', 'w') as handle:
     handle.writelines(list01)
-'''
+
