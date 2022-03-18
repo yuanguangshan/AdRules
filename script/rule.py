@@ -1,9 +1,9 @@
 # -*- coding:gbk -*-
 import os
-'''
+
 result = []
-ffo = open("adblock+adguard.txt", "rb+")
-fo = open("adblock+adguard-test.txt", "wb+")
+ffo = open("adblock+adguard.txt")
+fo = open("adblock+adguard-test.txt", "w")
 result=list(set(ffo.readlines()))
 result.sort()
 #ist=str(result)
@@ -21,4 +21,4 @@ for i in open('adblock+adguard.txt'):
     list01.append(i)
 with open('adblock+adguard-test.txt', 'w') as handle:
     handle.writelines(list01)
-
+'''
