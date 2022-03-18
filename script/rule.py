@@ -1,4 +1,4 @@
-# -*- coding:gbk -*-
+# -*- coding:utf-8 -*-
 import os
 #去重开始
 print("去重中...")
