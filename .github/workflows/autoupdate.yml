@@ -35,7 +35,7 @@ jobs:
         run: |
           #rm *.txt
           bash ./script/update-rules.sh
-          python ./script/rule.py
+          #python ./script/rule.py
       - name: Update other rules
         run: |
           cd rules
