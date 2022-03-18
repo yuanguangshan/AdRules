@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-18 07:11:42（北京时间） 
-! Total count: 125893
+! Version: 2022-03-18 09:14:01（北京时间） 
+! Total count: 125895
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -49553,7 +49553,6 @@ douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
 douyu.com,huya.com##a[href^="https://g.wan."]
-douyu.com,huya.com,yy.com,le.com,dandanzan10.top,nunuyy10.top##+js(nowebrtc)
 douyu.com,oschina.net#@#.follow-btn
 douyutv.com,douyu.com,douyutv.wasu.cn##div.dy_bottom_gg,div.chat-right-ad,div#chat-top-ad,a.ad_shadow,div.lol_ad,div.lol-ad,div.offi_ad,div.other_ad,div.dy_top_gg,[class$=" sign_posid"],div.lyzm-prevent,div.bglink,#downwrapper,[class^="room-ad-"],.no-login,.chat-top-ad,.tab-content.promote,.vcode9-sign,[class="row row-3"],[class="super-rmd-bg tggcontrol"],[class^="hot-sign-"],[class^="theatre-"],[data-type="dyrec"],[data-dysign-adid]
 dova-s.jp,pch.com#@#.ads-area
@@ -56546,7 +56545,6 @@ pan.baidu.com##.phone-banner
 pan.baidu.com##.upload-bar.global-clearfix
 pan.baidu.com,music.baidu.com,yun.baidu.com##[class|=ad]
 pan.baidu.com,www.bilibili.com,qq.com##+js(aeld,ratechange)
-pan.baidu.com,www.bilibili.com,v.qq.com##+js(aeld,ratechange)
 pan.baidu.com,yun.baidu.com##[id^="share-ad-"],A#share_ad_info_panl,div[id^="cpro_"],img.share-center,.ad-platform-tips,.banner-active
 pan666.cn##.footer > .containerNarrow
 panarmenian.net##.panner_2
@@ -69820,6 +69818,7 @@ zzpzero.com
 ||alrincon.com/nbk/
 ||als-svc.nytimes.com^
 ||als.baidu.com^
+||alsedu.tech^
 ||alsgaj.chosun.com^
 ||alstrome9riya10.com^
 ||altabold1.com^$third-party
@@ -94403,6 +94402,7 @@ zzpzero.com
 ||liuliguo.com^
 ||liunxgroup.top^
 ||liupan.asia^
+||liushuaib.xyz^
 ||liusuqin.fun^
 ||liuwangmin.top^
 ||liuwenyan.xyz^
@@ -121395,6 +121395,7 @@ zzpzero.com
 ||xhxnkyy.com^
 ||xhydrs.cn^
 ||xhymsq.com/data/attachment/portal/
+||xhz1.me^
 ||xhzmjs.com^
 ||xhzugaqnqo.com^
 ||xi666.com^
@@ -121424,6 +121425,7 @@ zzpzero.com
 ||xianliao.me/assets/js/lib/ne3u3.js
 ||xianliao.me/etoron/get?
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
+||xianwei.tech^
 ||xianweidang.cc^
 ||xianxhwy.com^
 ||xiaoangel.com^

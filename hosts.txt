@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-18 07:11:42（北京时间） 
-! Total count: 62452
+! Version: 2022-03-18 09:14:01（北京时间） 
+! Total count: 62457
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 00-gov.cn
@@ -3159,6 +3159,7 @@
 0.0.0.0 ad-us.24hstatic.com
 0.0.0.0 ad-vice.biz
 0.0.0.0 ad-vortex.com
+0.0.0.0 ad-web-ad.com
 0.0.0.0 ad-wheel.com
 0.0.0.0 ad-x.co.uk
 0.0.0.0 ad.
@@ -6239,6 +6240,7 @@
 0.0.0.0 alreat.com
 0.0.0.0 als-svc.nytimes.com
 0.0.0.0 als.baidu.com
+0.0.0.0 alsedu.tech
 0.0.0.0 alsgaj.chosun.com
 0.0.0.0 alslz.top
 0.0.0.0 alstrome9riya10.com
@@ -31232,6 +31234,7 @@
 0.0.0.0 liuliguo.com
 0.0.0.0 liunxgroup.top
 0.0.0.0 liupan.asia
+0.0.0.0 liushuaib.xyz
 0.0.0.0 liusuqin.fun
 0.0.0.0 liuwangmin.top
 0.0.0.0 liuwenyan.xyz
@@ -60176,6 +60179,7 @@
 0.0.0.0 xhxmhs.ounass.ae
 0.0.0.0 xhxnkyy.com
 0.0.0.0 xhydrs.cn
+0.0.0.0 xhz1.me
 0.0.0.0 xhzmjs.com
 0.0.0.0 xhzspi.com
 0.0.0.0 xhzugaqnqo.com
@@ -60192,6 +60196,7 @@
 0.0.0.0 xiangzhengjinshu.com
 0.0.0.0 xianka.cloud
 0.0.0.0 xiankandy.com
+0.0.0.0 xianwei.tech
 0.0.0.0 xianweidang.cc
 0.0.0.0 xianxhwy.com
 0.0.0.0 xiaoangel.com
