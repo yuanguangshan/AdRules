@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-18 16:36:32（北京时间） 
-! Total count: 125892
+! Version: 2022-03-18 19:03:01（北京时间） 
+! Total count: 125900
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -2619,6 +2619,7 @@
 ###adblockermessage
 ###adblockerwarnung
 ###adblockinfo
+###adblockpopup
 ###adblockrighta
 ###adblocktop
 ###adblocktwo
@@ -5319,6 +5320,7 @@
 ###desktop_middle_ad_fixed
 ###desktop_top_ad_fixed
 ###detail_page_vid_topads
+###detectAdblock
 ###detectadblock
 ###detection-block
 ###detection-block-overlay
@@ -10423,6 +10425,8 @@
 ##.ad-block__inner
 ##.ad-block__overlay
 ##.ad-blocked
+##.ad-blocked-container
+##.ad-blocked-wrapper
 ##.ad-blocker-warning
 ##.ad-blocking-advisor-wrapper
 ##.ad-blog2biz
@@ -19786,6 +19790,7 @@
 ##.mod_r_ad
 ##.mod_r_ad1
 ##.modal-ad
+##.modal__body-adblock
 ##.mods-box--ad-blocking-criteo
 ##.module--ad
 ##.module-ad
@@ -72643,6 +72648,7 @@ zzpzero.com
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
+||bcrdyev.cn^
 ||bcrealm.com^
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||bcsjcj.nasdaq.com^
@@ -116643,6 +116649,7 @@ zzpzero.com
 ||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tttxx.cn^$third-party
 ||ttxknb.com^
+||ttylmex.cn^
 ||ttyvdilxsuorg.com^
 ||ttyyuuoo.com^
 ||ttz.com^$third-party
@@ -119048,6 +119055,7 @@ zzpzero.com
 ||wangxiankang.top^
 ||wangxiaowei.ink^
 ||wangxingkui.online^
+||wangxuan.pw^
 ||wangyao.pro^
 ||wangyasen.link^
 ||wangyeshij.top^
