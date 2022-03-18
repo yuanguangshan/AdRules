@@ -3,10 +3,7 @@ import os
 result = []
 ffo = open("adblock+adguard.txt", "rb+")
 fo = open("adblock+adguard-test.txt", "wb+")
-for fffo in ffo.readlines():
- str(fffo)
- fffoo=str(fffo)
-result=list(set(fffoo))
+result=list(set(ffo.readlines()))
 result.sort()
 #ist=str(result)
 #ist=ist.encode('utf-8')
