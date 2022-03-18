@@ -137,7 +137,7 @@ cat allow-damain*.txt | grep -v '#' |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -
 cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
 cat .././mod/rules/adblock-rules.txt plus-easylist*.txt easylist*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
 cat adguard*.txt | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
-cat .././mod/rules/*-rules.txt dns*.txt abp-hosts.txt *easylist*.txt| grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
+cat .././mod/rules/*-rules.txt dns*.txt abp-hosts.txt *easylist*.txt| grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
 cat dns*.txt abp-hosts.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt #处理广告域名
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
