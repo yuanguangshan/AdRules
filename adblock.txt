@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-18 20:35:24（北京时间） 
-! Total count: 125890
+! Version: 2022-03-18 21:08:59（北京时间） 
+! Total count: 125892
 -1688-wp-media/ads/
 -988x60.
 -980x60-
@@ -48266,6 +48266,7 @@ chinatimes.com#@#.page_ad
 chinatp.com.cn###FloatL_2
 chinatp.com.cn###FloatLa
 chinatp.com.cn###FloatRb
+chinavoa.com###Content_VOA
 chinawutong.com##.adflash,div.logo_r.fr,div[class^="ad"],div.badbot,div.cboad1,div#focus001,img[width="130"][height="300"],img[width="980"][height="80"]
 chinaxinge.com##.sy05
 chinaxinge.com##.sy07
@@ -71894,6 +71895,7 @@ zzpzero.com
 ||b1.baomihua.com^
 ||b1.c1km4.com^
 ||b1.cdn.mh3666.com/html/
+||b1.engdvd.com^
 ||b1.puxuewang.cn^
 ||b1.qqjay.com^
 ||b1.tubexo.tv^$subdocument
