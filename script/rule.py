@@ -12,3 +12,12 @@ fo.writelines(result)
 #    fo.write(line+'\n')
 fo.close()
 ffo.close()
+'''
+list01 = []
+for i in open('test.txt'):
+    if i in list01:
+        continue
+    list01.append(i)
+with open('test01.txt', 'w') as handle:
+    handle.writelines(list01)
+'''
