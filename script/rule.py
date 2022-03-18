@@ -13,8 +13,8 @@ fo.writelines(result)
 #    fo.write(line+'\n')
 fo.close()
 ffo.close()
-os.remove(adblock+adguard.txt)
-os.rename('adblock+adguard-test.txt','adblock+adguard.txt')
+os.remove("adblock+adguard.txt")
+os.rename("adblock+adguard-test.txt","adblock+adguard.txt")
 '''
 list01 = []
 for i in open('adblock+adguard.txt'):
