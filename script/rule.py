@@ -4,7 +4,7 @@ result = []
 ffo = open("adblock+adguard.txt", "rb+")
 fo = open("adblock+adguard-test.txt", "wb+")
 #fffo=str(ffo)
-result=list(set(ffo))
+result=list(set(ffo.readlines()))
 result.sort()
 #ist=str(result)
 #ist=ist.encode('utf-8')
