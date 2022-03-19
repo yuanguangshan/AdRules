@@ -17,6 +17,7 @@ sed -i "s/^更新时间:.*/更新时间: $time （北京时间） /g" README.md
 sed -i 's/^AdRules（For Adblock）规则数量:.*/AdRules（For Adblock）规则数量: '$count_adb' /g' README.md
 sed -i 's/^AdRules（For AdGuard）规则数量:.*/AdRules（For AdGuard）规则数量: '$count_adg' /g' README.md
 sed -i 's/^AdRules（For DNS）规则数量:.*/AdRules（For DNS）规则数量: '$count_dns' /g' README.md
-sed -i 's/^AdRules（For adaway）规则数量:.*/AdRules（For adaway）规则数量: '$count_hosts' /g' README.md
+sed -i 's/^AdRules（For Adaway）规则数量:.*/AdRules（For Adaway）规则数量: '$count_hosts' /g' README.md
 sed -i 's/^Allowlist规则数量:.*/Allowlist规则数量: '$count_al' /g' README.md
-sed -i 's/^Damian数量:.*/Damian数量: '$count_damian' /g' README.md
+sed -i 's/^AD Damian数量:.*/AD Damian数量: '$count_damian' /g' README.md
+echo $count_damian
