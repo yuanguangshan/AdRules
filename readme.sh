@@ -1,3 +1,4 @@
+#!/bin/sh
 num_adg=`cat adguard.txt | wc -l`
 num_al=`cat allow.txt | wc -l`
 num_adb=`cat adblock.txt | wc -l`

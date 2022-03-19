@@ -43,7 +43,7 @@ jobs:
           wget -O ADgk.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
           wget -O kill-baidu-ad.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
           wget -O fasthosts.txt https://raw.githubusercontent.com/hacamer/filtering/master/hosts
-
+          cd ../
       - name: Update ReadMe
         run: |
           bash ./readme.sh
