@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-19 09:39:27（北京时间） 
-! Total count: 90253
+! Version: 2022-03-19 10:08:30（北京时间） 
+! Total count: 90248
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^
 @@|adsterra.com^
@@ -59044,9 +59044,6 @@
 ||pipeschannels.com^
 ||pipfire.com^
 ||pipilida.com^
-||pipipan.com##A[class='btn btn-yellow btn-block']
-||pipipan.com##DIV[class='alert alert-block ']
-||pipipan.com##IMG[style='width: 100%; margin: 5px 0;']
 ||pipki.r.worldssl.net^
 ||piplep.com^
 ||pippio.com^
@@ -81128,7 +81125,6 @@
 ||tv-facility.com^
 ||tv.muslimconnectiontv.org^
 ||tv.rlcdn.com^
-||tv.sohu.com##[width="640"][height="100"],.adv
 ||tv1s4d6klh4n.com^
 ||tv2.hb-api.omtrdc.net^
 ||tv2.hb.omtrdc.net^
@@ -90258,4 +90254,3 @@
 ||zzyonghao.com^
 ||zzz.pissrip.net^
 ||zzznews.ru^
-||zzznews.ru^[Adblock Plus 2.0]
