@@ -49,7 +49,7 @@
  - **AD Rules (for DNS) and Ad Rules (for adaway):** - 
  Combine from the top of the top, more matching DNS level filtering 
  - **ALLOWLIST:** - 
- Have a misunderstanding
+Only a Allowlist
 - **AdRules AdBlock Full List** -
 Combined from AdRules (For AdBlock) and AdRules (For AdGuard) And some additional rules
 - **AdRules AdGuard Full List** -
