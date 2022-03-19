@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-19 20:32:21（北京时间） 
-! Total count: 89897
+! Version: 2022-03-20 00:17:38（北京时间） 
+! Total count: 89899
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -22642,6 +22642,7 @@
 0.0.0.0 collector-cdn.github.com
 0.0.0.0 collector-dev.cdp-dev.cnn.com
 0.0.0.0 collector-hpn.cliqz.com
+0.0.0.0 collector-hpn.ghostery.net
 0.0.0.0 collector-main.trafficmanager.net
 0.0.0.0 collector-medium.lightstep.com
 0.0.0.0 collector-px0py5pczn.octopart.com
@@ -76673,6 +76674,7 @@
 0.0.0.0 tguomcq.cn
 0.0.0.0 tguxiijalpaoggr.xyz
 0.0.0.0 tgvbwjbnxz.com
+0.0.0.0 tgvtlpi.cn
 0.0.0.0 tgw-masdk.3g.qq.com
 0.0.0.0 tgw-sasdk.3g.qq.com
 0.0.0.0 tgwopez.cn

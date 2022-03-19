@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-19 20:32:21（北京时间） 
-! Total count: 90248
+! Version: 2022-03-20 00:17:38（北京时间） 
+! Total count: 90250
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^
 @@|adsterra.com^
@@ -22893,6 +22893,7 @@
 ||collector-cdn.github.com^
 ||collector-dev.cdp-dev.cnn.com^
 ||collector-hpn.cliqz.com^
+||collector-hpn.ghostery.net^
 ||collector-main.trafficmanager.net^
 ||collector-medium.lightstep.com^
 ||collector-px0py5pczn.octopart.com^
@@ -77003,6 +77004,7 @@
 ||tguomcq.cn^
 ||tguxiijalpaoggr.xyz^
 ||tgvbwjbnxz.com^
+||tgvtlpi.cn^
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
 ||tgwopez.cn^
