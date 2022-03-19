@@ -1,5 +1,6 @@
 #!/bin/sh
 num_adg=`cat adguard.txt | wc -l`
+num_adgf=`cat adguard-full.txt | wc -l`
 num_al=`cat allow.txt | wc -l`
 num_adb=`cat adblock.txt | wc -l`
 num_adp=`cat adblock+adguard.txt | wc -l`
@@ -8,6 +9,7 @@ num_hosts=`cat hosts.txt | wc -l`
 num_damian=`cat ad-damain.txt | wc -l`
 num=8
 declare -i count_adg=$num_adg-$num
+declare -i count_adg=$num_adgf-$num
 declare -i count_al=$num_al-3
 declare -i count_adb=$num_adb-$num
 declare -i count_adp=$num_adp-$num
@@ -23,4 +25,5 @@ sed -i 's/^AdRules（For Adaway）规则数量:.*/AdRules（For Adaway）规则�
 sed -i 's/^Allowlist规则数量:.*/Allowlist规则数量: '$count_al' /g' README.md
 sed -i 's/^AdRules AD Damian数量:.*/AdRules AD Damian数量: '$count_damian' /g' README.md
 sed -i 's/^AdRules AdBlock Full List规则数量:.*/AdRules AdBlock Full List规则数量: '$count_adp' /g' README.md
-echo $count_damian
+sed -i 's/^AdRules AdGuard Full List规则数量:.*/AdRules AdGuard Full List规则数量: '$count_adgf' /g' README.md
+exit

@@ -32,7 +32,6 @@
 * DNS过滤器请使用AdRules (For DNS)
 ## 规则总数
 ```
-
 更新时间: 2022-03-19 14:59:27 （北京时间） 
 
 AdRules（For AdBlock）规则数量: 127572 
@@ -43,11 +42,13 @@ AdRules（For DNS）规则数量: 90248
 
 AdRules（For Adaway）规则数量: 89897 
 
-AdRules Allowlist规则数量: 6469 
+AdRules Allowlist 规则数量: 6469 
 
-AdRules AD Damian List数量: 89896 
+AdRules AD Damian List 数量: 89896 
 
-AdRules AdBlock Full List规则数量: 224150 
+AdRules AdBlock Full List 规则数量: 224150 
+
+AdRules AdGuard Full List 规则数量:
 ``` 
 ## 说明
 
@@ -57,6 +58,8 @@ AdRules AdBlock Full List规则数量: 224150
 
 ### 📃 规则列表
 
+**如果你在中国，请使用Coding链接，反之使用Raw链接**
+
 |   规则名称   | 🚀Raw | 🚀 Coding  | 🚀 一键订阅  |
 |  :----:  | :----:  | :----:  | :----:  |
 | AdRules (For AdBlock) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock.txt) |[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock.txt) |
@@ -64,7 +67,13 @@ AdRules AdBlock Full List规则数量: 224150
 | AdRules (For DNS) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt) |
 | AdRules (For Adaway) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) |
 | AdRules Allowlist | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/allow.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt) |
+
+<br>
+
+|   Full规则   | 🚀Raw | 🚀 Coding  | 🚀 一键订阅  |
+|  :----:  | :----:  | :----:  | :----:  |
 | AdRules AdBlock Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock+adguard.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock+adguard.txt) |[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock+adguard.txt) |
+| AdRules AdGuard Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard-full.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt) |
 
 #### 规则说明：
 - **AdRules (For AdBlock):** -
@@ -75,7 +84,10 @@ AdRules AdBlock Full List规则数量: 224150
 合并自上游列表，更加匹配DNS层面过滤
 - **Allowlist:** -
 有误杀时使用
-
+- **AdRules AdBlock Full List** -
+合并自AdRules (For AdBlock)和AdRules (For AdGuard)
+- **AdRules AdGuard Full List** -
+AdRules (For AdGuard)的全量版，一般来说订阅AdRules AdBlock Full List后不需要订阅这个
 ## 🚛 完善项目
 
 希望大家可以提交 Issue 或者 Request 来帮助我完善规则 🔍 我审核之后会加入到规则

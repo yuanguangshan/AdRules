@@ -30,6 +30,7 @@
  Our principles are: **Remove Advertising!**
 ### 📃 Rule list
 
+**If you are in China, please use the Coding link, and use the RAW link.**
 |   Rule name   | 🚀Raw | 🚀 Coding  | 
 |  :----:  | :----:  | :----:  | 
 | AdRules (For AdBlock) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock.txt) |
@@ -38,6 +39,7 @@
 | AdRules (For Adaway) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) |
 | AdRules Allowlist | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/allow.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt)|
 | AdRules AdBlock Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock+adguard.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock+adguard.txt) |
+| AdRules AdGuard Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard-full.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt)|
 
 #### rule Description: 
  - **Ad Rules (for ad bar):** - 
@@ -48,7 +50,10 @@
  Combine from the top of the top, more matching DNS level filtering 
  - **ALLOWLIST:** - 
  Have a misunderstanding
-
+- **AdRules AdBlock Full List** -
+Combined from AdRules (For AdBlock) and AdRules (For AdGuard) And some additional rules
+- **AdRules AdGuard Full List** -
+The full version of AdRules (For AdGuard), it is generally necessary to subscribe to the AdRules AdBlock Full List.
 ## 🚛 Perfect project 
 
  I hope everyone can submit ISSUE or Request to help me improve the rules. I will join the rules after I review it. 
