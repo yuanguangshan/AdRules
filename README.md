@@ -44,7 +44,7 @@ AdRules（For Adaway）规则数量: 89895
 
 AdRules Allowlist 规则数量: 6475 
 
-AdRules AD Damian List 数量: 89896 
+AdRules Ad Domains List 数量: 89896 
 
 AdRules AdBlock Full List 规则数量: 224156 
 
