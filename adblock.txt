@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-19 16:15:16（北京时间） 
-! Total count: 127573
+! Version: 2022-03-19 19:52:33（北京时间） 
+! Total count: 127582
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -32414,6 +32414,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /api/v1/track/*
 /api/v2/collector
 /api/v2/jsonlogger
+/api_ip_info.
 /apilog?
 /apis/cpt.php?
 /apis/facebook_conversion
@@ -44972,6 +44973,8 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||humaninterest.com/api/analytics/$script,~third-party
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
+@@||hvemder.no/api/hitcount/$~third-party
+@@||hvemder.no/js/hitcount.min.js$script,~third-party
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||hwcdn.net^$domain=canyoublockit.com
 @@||hwcdn.net^$script,domain=mp4upload.com
@@ -53282,6 +53285,7 @@ gaoqingkong.com##[src^="http://img.gaoqingkong.com/uploads"],a[href^="http://www
 gaoqingw.com###searchform > label > span
 gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 gaoqingw.com##.search + .widget
+gaoqingw.com##b > div[style="text-align:center"]
 gaoxiaobar.com##.player-pictureAd-countdown
 gas.goodlife.tw###leaderboard_banner
 gas.goodlife.tw###widgets
@@ -65403,6 +65407,7 @@ yystv.cn##.fixed-container
 yystv.cn##.flex-box.flex.top-nav-download
 yystv.cn##li:nth-of-type(7) > [href="/app/download"]
 yyt.heshun365.cn
+yywenxuan.com##a[href*=".xxmh"]
 yzl333.com##a[href^="https://jump.9118ads.com/"]
 yzl333.com#?#.row > div.col-sm-6:has(> div.well > a[href^="https://jump.9118ads.com/"])
 yzmg.com##.article-bottom-ads
@@ -73458,6 +73463,7 @@ zzpzero.com
 ||aoyou2.top^
 ||aoyou3.top^
 ||aoyou4.top^
+||aoyuegc.cn^
 ||ap*.jj20.com^
 ||ap*.pl520.com^
 ||ap-srv.net^
@@ -93548,6 +93554,7 @@ zzpzero.com
 ||interferingwittymovements.com^
 ||intergi.com^$third-party
 ||intergid.ru^$third-party
+||intergient.com^
 ||intergient.com^$third-party
 ||interhits.de^$third-party
 ||interia.pl^*/hit.
@@ -96857,6 +96864,7 @@ zzpzero.com
 ||lepaidaren.com^
 ||leparisien.fr/espace-securise/shield/read-article/*?fingerprint=
 ||leparking-moto.fr/jsV155/Tracker.js
+||leparking.fr/*/Tracker.js
 ||leparking.fr/jsV155/Tracker.js
 ||lepinsar.com^
 ||lepsogoso.com^
@@ -125324,6 +125332,7 @@ zzpzero.com
 ||xxltr.com^
 ||xxmfwjlreder.com^
 ||xxooos.com/mm/
+||xxsjsp.com^
 ||xxssyndic.com^
 ||xxw777.cn^
 ||xxx55tp.com^*.gif
