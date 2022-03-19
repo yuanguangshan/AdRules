@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-19 12:40:23（北京时间） 
-! Total count: 89897
+! Version: 2022-03-19 13:24:34（北京时间） 
+! Total count: 89898
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -39275,6 +39275,7 @@
 0.0.0.0 hzucji.com
 0.0.0.0 hzuok.com
 0.0.0.0 hzxfmc.com
+0.0.0.0 hzylhk.com
 0.0.0.0 hzymxd.nocibe.fr
 0.0.0.0 hzyouhejia.com
 0.0.0.0 hzyyhz.cn
