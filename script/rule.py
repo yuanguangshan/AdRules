@@ -10,6 +10,8 @@ resultd = []
 resulte = []
 resultf = []
 resultg = []
+resulth = []
+
 #读取文件
 ffo = open("tmp-adblock+adguard.txt")
 fo = open("tmp-adblock+adguard-test.txt", "w")
@@ -25,6 +27,9 @@ ffof = open("tmp-ad-damain.txt")
 fof = open("tmp-ad-damain-test.txt", "w")
 ffog = open("tmp-allow.txt")
 fog = open("tmp-allow-test.txt", "w")
+ffoh = open("tmp-adguard-full.txt")
+foh = open("tmp-adguard-full-test.txt", "w")
+
 #开始处理规则
 result=list(set(ffo.readlines()))
 result.sort()
@@ -81,5 +86,13 @@ fog.close()
 ffog.close()
 os.remove("tmp-allow.txt")
 os.rename("tmp-allow-test.txt","tmp-allow.txt")
+
+resulth=list(set(ffoh.readlines()))
+resulth.sort()
+foh.writelines(resulth)
+foh.close()
+ffoh.close()
+os.remove("tmp-adguard-full.txt")
+os.rename("tmp-adguard-full-test.txt","tmp-adguard-full.txt")
 #处理完毕
 print("去重完毕")
