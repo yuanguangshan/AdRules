@@ -19,14 +19,13 @@ easylist=(
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt"
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"
   "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt"
-  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt"
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt"
   "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
   "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt"
   "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt"
 )
-
+#  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt"
 easylist_plus=(
 "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
 "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt"
