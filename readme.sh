@@ -23,7 +23,7 @@ sed -i 's/^AdRules（For AdGuard）规则数量:.*/AdRules（For AdGuard）规�
 sed -i 's/^AdRules（For DNS）规则数量:.*/AdRules（For DNS）规则数量: '$count_dns' /g' README.md
 sed -i 's/^AdRules（For Adaway）规则数量:.*/AdRules（For Adaway）规则数量: '$count_hosts' /g' README.md
 sed -i 's/^AdRules Allowlist 规则数量:.*/AdRules Allowlist 规则数量: '$count_al' /g' README.md
-sed -i 's/^AdRules Ad Domains 数量:.*/AdRules Ad Domians 数量: '$count_domains' /g' README.md
+sed -i 's/^AdRules Ad Domains List 数量:.*/AdRules Ad Domians List 数量: '$count_domains' /g' README.md
 sed -i 's/^AdRules AdBlock Full List 规则数量:.*/AdRules AdBlock Full List 规则数量: '$count_adp' /g' README.md
 sed -i 's/^AdRules AdGuard Full List 规则数量:.*/AdRules AdGuard Full List 规则数量: '$count_adgf' /g' README.md
 exit
