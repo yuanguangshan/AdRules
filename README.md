@@ -31,12 +31,7 @@
 * DNS过滤器请使用AdRules (For DNS)
 ## 规则总数
 ```
-
-<<<<<<< HEAD
 更新时间: 2022-03-19 10:25:42 （北京时间） 
-=======
-更新时间: 2022-03-19 10:25:42 （北京时间） 
->>>>>>> 043a778d8bf1cfa7bfaddf3bfe23adeec88c1943
 
 AdRules（For AdBlock）规则数量: 127573 
 
@@ -46,9 +41,9 @@ AdRules（For DNS）规则数量: 90248
 
 AdRules（For Adaway）规则数量: 89897 
 
-Allowlist规则数量: 6469 
+AdRules Allowlist规则数量: 6469 
 
-AdRules AD Damian数量: 89896 
+AdRules AD Damian List数量: 89896 
 
 AdRules AdBlock Full List规则数量:
 ``` 
@@ -66,7 +61,7 @@ AdRules AdBlock Full List规则数量:
 | AdRules (For AdGuard) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard.txt) |
 | AdRules (For DNS) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt) |
 | AdRules (For Adaway) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) |
-| Allowlist| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/allow.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt) |
+| AdRules Allowlist | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/allow.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt) |
 | AdRules AdBlock Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock+adguard.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock+adguard.txt) |[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock+adguard.txt) |
 
 #### 规则说明：
