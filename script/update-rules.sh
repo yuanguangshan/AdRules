@@ -109,11 +109,11 @@ hosts=(
   "https://adaway.org/hosts.txt"
 )
 
-ad_damain=(
+ad_domains=(
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
 )
 
-allow_damain=(
+allow_domains=(
   "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt"
   "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt"
   "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt"
@@ -121,7 +121,7 @@ allow_damain=(
   "https://raw.githubusercontent.com/neodevpro/neodevhost/master/customallowlist"
 )
 
-for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard_full[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_damain[@]}"  "${!allow_damain[@]}"
+for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard_full[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_domains[@]}"  "${!allow_domains[@]}"
 do
   curl --parallel --parallel-immediate -k -L -C - -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "plus-easylist${i}.txt" --connect-timeout 60 -s "${easylist_plus[$i]}" | iconv -t UTF-8 -c
@@ -130,8 +130,8 @@ do
   curl --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "dns${i}.txt" --connect-timeout 60 -s "${dns[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}" | iconv -t UTF-8 -c
-  curl --parallel --parallel-immediate -k -L -C - -o "ad-damain${i}.txt" --connect-timeout 60 -s "${ad_damain[$i]}" | iconv -t UTF-8 -c
-  curl --parallel --parallel-immediate -k -L -C - -o "allow-damain${i}.txt" --connect-timeout 60 -s "${allow_damain[$i]}" |iconv -t UTF-8 -c
+  curl --parallel --parallel-immediate -k -L -C - -o "ad-domains${i}.txt" --connect-timeout 60 -s "${ad_domains[$i]}" | iconv -t UTF-8 -c
+  curl --parallel --parallel-immediate -k -L -C - -o "allow-domains${i}.txt" --connect-timeout 60 -s "${allow_domains[$i]}" |iconv -t UTF-8 -c
   # shellcheck disable=SC2181
 done
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list \
@@ -145,7 +145,7 @@ echo '规则下载完成'
 echo '处理规则中...'
 cat hosts*.txt| grep -Ev '#|\$|@|!|/|\\|\*'| sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' |sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d'| grep -v '^#' | grep -v 'local' | sort -n | uniq | awk '!a[$0]++' > abp-hosts.txt  #Hosts规则转ABP规则
 
-cat allow-damain*.txt | grep -v '#' |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n | uniq | awk '!a[$0]++' >> pre-allow.txt  #将允许域名转换为ABP规则
+cat allow-domains*.txt | grep -v '#' |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n | uniq | awk '!a[$0]++' >> pre-allow.txt  #将允许域名转换为ABP规则
 
 # Start Merge and Duplicate Removal
 #set LC_ALL='C'
@@ -155,7 +155,7 @@ cat adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' |
 cat full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full.txt #处理AdGuard的规则
 cat .././mod/rules/*-rules.txt dns*.txt abp-hosts.txt *easylist*.txt| grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '^\[' | grep -v '.\[' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
 cat dns*.txt abp-hosts.txt tmp-dns.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '^\[' | grep -v '.!' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
-cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-damain.txt #处理广告域名
+cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-domains.txt #处理广告域名
 cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
 
@@ -178,7 +178,7 @@ adguard_num=`cat tmp-adguard.txt | wc -l`
 full_adguard_num=`cat tmp-adguard-full.txt | wc -l`
 dns_num=`cat tmp-dns.txt | wc -l`
 hosts_num=`cat tmp-hosts.txt | wc -l`
-ad_damain_num=`cat tmp-ad-damain.txt | wc -l`
+ad_domains_num=`cat tmp-ad-domains.txt | wc -l`
 allow_num=`cat tmp-allow.txt | wc -l`
 echo '规则计算完毕'
 
@@ -190,7 +190,7 @@ echo "! Total count: $adguard_num" >> adguard-tpdate.txt
 echo "! Total count: $dns_num" >> dns-tpdate.txt
 echo "! Total count: $hosts_num" >> hosts-tpdate.txt
 echo "! Total count: $allow_num" >> allow-tpdate.txt
-echo "! Total count: $ad_damain_num" >> ad-damain-tpdate.txt
+echo "! Total count: $ad_domains_num" >> ad-damoins-tpdate.txt
 echo "! Total count: $full_adguard_num" >> full-adguard-tpdate.txt
 # Start Marge Rules
 cat tpdate.txt adblock-tpdate.txt tmp-adblock.txt > adblock.txt
@@ -200,7 +200,7 @@ cat tpdate.txt full-adguard-tpdate.txt tmp-adguard-full.txt > adguard-full.txt
 cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
 cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
-cat tpdate.txt ad-damain-tpdate.txt tmp-ad-damain.txt > ad-damain.txt
+cat tpdate.txt ad-domains-tpdate.txt tmp-ad-domains.txt > ad-domains.txt
 rm tmp*.txt *tpdate.txt
 
 # Add Title
