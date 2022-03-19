@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-19 20:20:28（北京时间） 
-! Total count: 89896
+! Version: 2022-03-19 20:29:53（北京时间） 
+! Total count: 89897
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -17335,6 +17335,7 @@
 0.0.0.0 blisspoint.us-east-1.stinger-ad.bidr.io
 0.0.0.0 blisspoint.us-west-2.stinger-ad.bidr.io
 0.0.0.0 blit.co.za
+0.0.0.0 blitz-analytics-batch-server.blitz.gg
 0.0.0.0 blizzard.blueoxtech.com
 0.0.0.0 blizzrubier.com
 0.0.0.0 blkget8.com

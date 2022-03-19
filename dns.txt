@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-19 20:20:28（北京时间） 
-! Total count: 90247
+! Version: 2022-03-19 20:29:53（北京时间） 
+! Total count: 90248
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^
 @@|adsterra.com^
@@ -17575,6 +17575,7 @@
 ||blisspoint.us-east-1.stinger-ad.bidr.io^
 ||blisspoint.us-west-2.stinger-ad.bidr.io^
 ||blit.co.za^
+||blitz-analytics-batch-server.blitz.gg^
 ||blizzard.blueoxtech.com^
 ||blizzrubier.com^
 ||blkget8.com^
