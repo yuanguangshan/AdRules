@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-19 10:15:53（北京时间） 
-! Total count: 6473
+! Version: 2022-03-19 10:25:41（北京时间） 
+! Total count: 6474
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1257,6 +1257,7 @@
 @@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
 @@||canadiantire.ca^*/analytics.sitecatalyst.js
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
+@@||canyoublockit.com^
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
 @@||captcha.360.cn^
 @@||captcha.qq.com^*&refer=http
