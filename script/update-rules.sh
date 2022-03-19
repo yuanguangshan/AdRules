@@ -24,12 +24,12 @@ easylist=(
   "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
   "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt"
   "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt"
+  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt"
 )
-#  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt"
+#  
 easylist_plus=(
 "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
 "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt"
-"https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
 "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt"
 "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt"
 "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt"
@@ -139,7 +139,7 @@ cat allow-damain*.txt | grep -v '#' |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -
 # Start Merge and Duplicate Removal
 #set LC_ALL='C'
 cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '.!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
-cat .././mod/rules/adblock-rules.txt plus-easylist*.txt easylist*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' | grep -v '.!' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
+cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' | grep -v '.!' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
 cat adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
 cat .././mod/rules/*-rules.txt dns*.txt abp-hosts.txt *easylist*.txt| grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '^\[' | grep -v '.\[' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
 cat dns*.txt abp-hosts.txt tmp-dns.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '^\[' | grep -v '.!' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
