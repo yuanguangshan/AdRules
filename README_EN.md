@@ -21,7 +21,7 @@
 - English description For ReadME May be updated slower than Chinese readme and inaccurate translation
 
 * This list rules apply to content filters
-* DNS filter, please use AdRules (For DNS)
+* for DNS filter, please use AdRules (For DNS)
 
 ## illustrate 
 
@@ -56,12 +56,12 @@ Combined from AdRules (For AdBlock) and AdRules (For AdGuard) And some additiona
 The full version of AdRules (For AdGuard), it is generally necessary to subscribe to the AdRules AdBlock Full List.
 ## 🚛 Perfect project 
 
- I hope everyone can submit ISSUE or Request to help me improve the rules. I will join the rules after I review it. 
+ I hope everyone can submit ISSUE or Request to help me improve the rules. I will update the rules after I review it. 
 
  **Submit range** 
 
- - Leakage interception advertisement 
- - misunderstanding website
+ - Escaping advertisements
+ - mistakenly blocked website
 
 ### **Coding Link：[Link](https://cats-team.coding.net/public/adguard/AdRules/git/files)**
 ## Special thanks
