@@ -22,11 +22,13 @@ def iter_count(file_name):
         return sum(buf.count('\n') for buf in buf_gen)
 
 count_a = iter_count("adguard.txt") -8
+count_af = iter_count("adguard-full.txt") -8
+count_ab = iter_count("adblock+adguard.txt") -8
 count_al = iter_count("allow.txt") -8
 count_A = iter_count("adblock.txt") -8
 count_d = iter_count("dns.txt") -8
 count_ad = iter_count("hosts.txt") -6
-count_damian = iter_count("ad-damain.txt") -2
+count_domians = iter_count("ad-domains.txt") -2
 
 #设置时区
 #tz_utc_8 = timezone(timedelta(hours=8))
@@ -47,7 +49,7 @@ png = requests.get(png_url)
 #图片转base64
 #pngb6 = base64.b64encode(BytesIO(png.content).read())
 
-CONTENT = 'AdRules规则更新完毕！ 来自Github~<br>更新时间 ' + str(time) + '（北京时间）<br><br>AdRules (For AdBlock)共计' + str(count_A) + '条规则，<br>AdRules (For AdGuard)共计' + str(count_a) + '条规则，<br>AdRules (For DNS)共计' + str(count_d) + '条规则，<br>AdRules (For Adaway)共计' + str(count_ad) + '条规则，<br>Allowlist共计' + str(count_al) + '条规则，<br>广告damian共计' + str(count_damian) + '个。<br><br>一言：' + str(one.text) +' <img style="max-width:100%;overflow:hidden;" src="' + str(png.url) + '"/>' 
+CONTENT = 'AdRules规则更新完毕！ 来自Github~<br>更新时间 ' + str(time) + '（北京时间）<br><br>AdRules (For AdBlock)共计' + str(count_A) + '条规则，<br>AdRules (For AdGuard)共计' + str(count_a) + '条规则，<br>AdRules (For DNS)共计' + str(count_d) + '条规则，<br>AdRules (For Adaway)共计' + str(count_ad) + '条规则，<br>Allowlist共计' + str(count_al) + '条规则，<br>广告domians共计' + str(count_domians) + '个。<br>AdRules AdBlock Full List 共计' + str(count_ab) + '条规则<br>AdRules AdGuard Full List 共计' + str(count_af) +'条规则<br><br>一言：' + str(one.text) +' <img style="max-width:100%;overflow:hidden;" src="' + str(png.url) + '"/>' 
 
 #def post_tg(message):
 #    telegram_message = f"{message}"
