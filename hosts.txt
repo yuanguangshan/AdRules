@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-19 19:55:17（北京时间） 
-! Total count: 89895
+! Version: 2022-03-19 20:04:17（北京时间） 
+! Total count: 89896
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -18836,6 +18836,7 @@
 0.0.0.0 bzklw.cn
 0.0.0.0 bzlpa.cn
 0.0.0.0 bzlwe.com
+0.0.0.0 bznxc6721.xyz
 0.0.0.0 bzoxa.cn
 0.0.0.0 bzqxze.remixshop.com
 0.0.0.0 bzrmxfxu.com

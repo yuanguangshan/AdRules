@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-19 19:55:17（北京时间） 
-! Total count: 90246
+! Version: 2022-03-19 20:04:17（北京时间） 
+! Total count: 90247
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^
 @@|adsterra.com^
@@ -19080,6 +19080,7 @@
 ||bzklw.cn^
 ||bzlpa.cn^
 ||bzlwe.com^
+||bznxc6721.xyz^
 ||bzoxa.cn^
 ||bzqxze.remixshop.com^
 ||bzrmxfxu.com^
