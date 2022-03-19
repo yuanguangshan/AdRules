@@ -93,6 +93,7 @@ dns=(
   "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
   "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
   "https://adaway.org/hosts.txt"
+  "https://abp.oisd.nl/basic/"
 )
 
 hosts=(
