@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-19 13:24:34（北京时间） 
-! Total count: 6474
+! Version: 2022-03-19 14:51:42（北京时间） 
+! Total count: 6475
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2089,6 +2089,7 @@
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
 @@||dynatrace.com^
 @@||dynupdate.no-ip.com^
+@@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||e.cn.miaozhen.com/r/k=*=http
 @@||e.cquotient.com/recs/*?callback=$domain=karstadt.de

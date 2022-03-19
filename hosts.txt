@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-19 13:24:34（北京时间） 
-! Total count: 89898
+! Version: 2022-03-19 14:51:42（北京时间） 
+! Total count: 89897
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -55164,7 +55164,6 @@
 0.0.0.0 oas.villagevoice.com
 0.0.0.0 oas.vtsgonline.com
 0.0.0.0 oasazedy.com
-0.0.0.0 oasc04.247.realmedia.com
 0.0.0.0 oascentral.123greetings.com
 0.0.0.0 oascentral.abclocal.go.com
 0.0.0.0 oascentral.adage.com
