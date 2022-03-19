@@ -190,7 +190,7 @@ echo "! Total count: $adguard_num" >> adguard-tpdate.txt
 echo "! Total count: $dns_num" >> dns-tpdate.txt
 echo "! Total count: $hosts_num" >> hosts-tpdate.txt
 echo "! Total count: $allow_num" >> allow-tpdate.txt
-echo "! Total count: $ad_domains_num" >> ad-damoins-tpdate.txt
+echo "! Total count: $ad_domains_num" >> ad-domains-tpdate.txt
 echo "! Total count: $full_adguard_num" >> full-adguard-tpdate.txt
 # Start Marge Rules
 cat tpdate.txt adblock-tpdate.txt tmp-adblock.txt > adblock.txt
