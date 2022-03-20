@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-20 12:13:56（北京时间） 
-! Total count: 89894
+! Version: 2022-03-20 16:16:15（北京时间） 
+! Total count: 89888
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -266,7 +266,6 @@
 0.0.0.0 10-marketing.net.daraz.com
 0.0.0.0 10.afs.googleadservices.com
 0.0.0.0 10.im.cz
-0.0.0.0 10.rasif.xyz
 0.0.0.0 100.admin5.com
 0.0.0.0 100.pncdn.cn
 0.0.0.0 10000hai.com
@@ -9989,7 +9988,6 @@
 0.0.0.0 ajarsubscriber.com
 0.0.0.0 ajaxbig.ru
 0.0.0.0 ajaxcdn.org
-0.0.0.0 ajaxmatters.com
 0.0.0.0 ajbeqy.delfi.lt
 0.0.0.0 ajcclassifieds.com
 0.0.0.0 ajcryptominer.com
@@ -12670,7 +12668,6 @@
 0.0.0.0 apoolcondo.com
 0.0.0.0 aporasal.net
 0.0.0.0 apostlelinger.com
-0.0.0.0 apothecare.eitdev.com
 0.0.0.0 app-03c19ea7c9fd0c57.mobileapi.usebutton.com
 0.0.0.0 app-67a1a4bb9dffba86.mobileapi.usebutton.com
 0.0.0.0 app-ab01.marketo.com
@@ -42667,6 +42664,7 @@
 0.0.0.0 jltzknvw.com
 0.0.0.0 jlvqhftliz.com
 0.0.0.0 jlwljym.com
+0.0.0.0 jlwsw.top
 0.0.0.0 jlxzt.com
 0.0.0.0 jly24aw29n5m-a.akamaihd.net
 0.0.0.0 jlyayxz.cn
@@ -74300,7 +74298,6 @@
 0.0.0.0 subemania.com
 0.0.0.0 subendorse.com
 0.0.0.0 subhagruha.in
-0.0.0.0 subidhabazar.in
 0.0.0.0 subiz-cdn.com
 0.0.0.0 subiz.com
 0.0.0.0 subiz.com.vn
@@ -76302,7 +76299,6 @@
 0.0.0.0 technodesolutions.com
 0.0.0.0 technoland.ae
 0.0.0.0 technologia.com.pk
-0.0.0.0 technologiamoderna.club
 0.0.0.0 technology.informaengage.com
 0.0.0.0 technologyhumanity.org
 0.0.0.0 technoratimedia.com
@@ -76358,7 +76354,6 @@
 0.0.0.0 tekbaz.com
 0.0.0.0 teknoarge.com
 0.0.0.0 tel-tel-fie.com
-0.0.0.0 tel9e.xyz
 0.0.0.0 telaria.adhaven.com
 0.0.0.0 telaria.com
 0.0.0.0 telariaeventsbidder-east.extend.tv
@@ -81892,7 +81887,6 @@
 0.0.0.0 urlbrief.com
 0.0.0.0 urlcash.net
 0.0.0.0 urlconnection.net
-0.0.0.0 urlcut.net
 0.0.0.0 urldata.net
 0.0.0.0 urldelivery.com
 0.0.0.0 urlet.cn
