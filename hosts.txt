@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-20 09:59:21（北京时间） 
-! Total count: 89903
+! Version: 2022-03-20 12:07:58（北京时间） 
+! Total count: 89894
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -7787,7 +7787,6 @@
 0.0.0.0 ads4.virtual-nights.com
 0.0.0.0 ads4cheap.com
 0.0.0.0 ads4homes.com
-0.0.0.0 ads4xxx.com
 0.0.0.0 ads5-adnow.com
 0.0.0.0 ads5-eu.truecaller.com
 0.0.0.0 ads5-noneu.truecaller.com
@@ -13680,7 +13679,6 @@
 0.0.0.0 asnetworks.de
 0.0.0.0 aso1.net
 0.0.0.0 asofcfxmvg.com
-0.0.0.0 asolmart.com
 0.0.0.0 asoperdo.com
 0.0.0.0 asoulrox.com
 0.0.0.0 asowp.com
@@ -21587,7 +21585,6 @@
 0.0.0.0 click.mail.thecarousell.com
 0.0.0.0 click.marketing.carousell.com
 0.0.0.0 click.mmosite.com
-0.0.0.0 click.negociosdigitaisnapratica.com.br
 0.0.0.0 click.official.nike.com
 0.0.0.0 click.oneplus.cn
 0.0.0.0 click.oneplus.com
@@ -35666,7 +35663,6 @@
 0.0.0.0 gloxeept.com
 0.0.0.0 glpen08.com
 0.0.0.0 glpl4qp99ny4.com
-0.0.0.0 glqicmazu.com
 0.0.0.0 glrcy.cn
 0.0.0.0 glsdk.logsss.com
 0.0.0.0 glssp.jp
@@ -47987,7 +47983,6 @@
 0.0.0.0 mainadv.com
 0.0.0.0 mainauko.net
 0.0.0.0 mainbx.com
-0.0.0.0 maincert.com
 0.0.0.0 mainclc.com
 0.0.0.0 mainmainsaiboard.xyz
 0.0.0.0 mainredirecter.com
@@ -49112,7 +49107,6 @@
 0.0.0.0 mcgi.v.qq.com
 0.0.0.0 mci1.co.kr
 0.0.0.0 mcix.cn
-0.0.0.0 mcjalandhar.in
 0.0.0.0 mcleanvahomes.com
 0.0.0.0 mclick.mobi
 0.0.0.0 mcljm.top
@@ -51338,7 +51332,6 @@
 0.0.0.0 misrepush.com
 0.0.0.0 missiondues.com
 0.0.0.0 missionnyc.org
-0.0.0.0 missionsection.com
 0.0.0.0 mississippi.tims.se
 0.0.0.0 misslk.com
 0.0.0.0 misspkl.com
@@ -53045,7 +53038,6 @@
 0.0.0.0 myvisitors.se
 0.0.0.0 myvisualiq.net
 0.0.0.0 myvpn.pro
-0.0.0.0 mywaterology.eitdev.com
 0.0.0.0 mywebclick.net
 0.0.0.0 mywebsearch.com
 0.0.0.0 mywebstats.com.au
@@ -64167,7 +64159,6 @@
 0.0.0.0 rjr-rs.com.br
 0.0.0.0 rjras.com
 0.0.0.0 rjsouj.clubd.co.jp
-0.0.0.0 rjssjharkhand.com
 0.0.0.0 rjtgbjxfyslvdst.com
 0.0.0.0 rjtpos.cn
 0.0.0.0 rjw4obbw.com
@@ -82816,7 +82807,6 @@
 0.0.0.0 vervemobile.com
 0.0.0.0 vervewireless.com
 0.0.0.0 verwvy.com
-0.0.0.0 very-koi.com
 0.0.0.0 very.big-sword.ga
 0.0.0.0 verycastle.com
 0.0.0.0 verycleaner.cn
@@ -85845,6 +85835,7 @@
 0.0.0.0 wowreality.info
 0.0.0.0 wowssipworld.com
 0.0.0.0 woxts.cn
+0.0.0.0 woydyd343.com
 0.0.0.0 woymebsi.com
 0.0.0.0 wp-club.net
 0.0.0.0 wp-dev.wellcode.io

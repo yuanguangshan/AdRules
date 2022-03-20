@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-20 09:59:21（北京时间） 
-! Total count: 16593
+! Version: 2022-03-20 12:07:58（北京时间） 
+! Total count: 16596
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -5574,6 +5574,7 @@
 @@||expertvn.com^$ghide
 @@||explainxkcd.com/wiki/images/$image,~third-party
 @@||explosm.net/js/adsense.js
+@@||exponential.com/tags/FilmoFiliacom/CelebMafia/tags.js$domain=celebmafia.com
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||express-cut.ovh^$ghide
 @@||express.de^$ghide
@@ -7000,7 +7001,6 @@
 @@||googledrive.com$document
 @@||googledrivelinks.com^$ghide
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
-@@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||googleoptimize.com/optimize.js$script,domain=wallapop.com
 @@||googlesyndication.com/pagead/$script,domain=a2zupload.com
 @@||googlesyndication.com/pagead/$script,domain=dausel.co
@@ -8979,7 +8979,6 @@
 @@||jsonip.com/?callback=jQuery$domain=pagtel.com.br
 @@||jspassport.ssl.qhimg.com^
 @@||jsqsjn.com^$script,domain=fyxfcw.com|yssm.info
-@@||jsqsjn.com^$script,domain=yssm.info
 @@||jsr9.com^$domain=jsr9.com
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=cwseed.com
@@ -10599,6 +10598,7 @@
 @@||nibbits.com^$ghide
 @@||nice.fr/bundles/manacc/librairies/cookiecuttr/$~third-party
 @@||nicematin.com/assets/*/ads.js$script
+@@||nid.naver.com^$document
 @@||nihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
@@ -12607,8 +12607,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: aaGUqkE+Zu64e/ARQofioA
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: jNObd8L1HdmopwZTVp7cVQ
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: 1Mv0RL1THzxKXiCnncNvHw
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: sVUA+Bfc48OHcW5exZwhNA
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14273,6 +14273,7 @@
 @@||summitracing.com/global/images/bannerads/
 @@||sumologic.com^$domain=sumologic.com
 @@||sunbtc.space^$ghide
+@@||sunbtc.space^$jsinject
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||sundaysky.com/sundaysky.js?$domain=lenovo.com
 @@||sundaysky.com^*/default/sundaysky.js$domain=lenovo.com
@@ -14490,6 +14491,7 @@
 @@||target.my.com^$~third-party,document
 @@||tawk.to^
 @@||tawk.to^$stealth
+@@||taxes.hrblock.com^$extension
 @@||taximaxim.com/assets/*/fingerprint2.min.js
 @@||tb.mgtv.com/sdk/*/ad-sdk.
 @@||tb1.bdstatic.com/??/tb/_/*/ad_$script
@@ -15298,6 +15300,7 @@
 @@||urlgalleries.net^$generichide
 @@||urlgalleries.net^$generichide! Checksum: FuGgU7mO49LIwiPg9oj1LQ
 @@||urlgalleries.net^$generichide! Checksum: HmDqiYrf9W+mZMZZy5O7tQ
+@@||urlgalleries.net^$generichide! Checksum: hsSW8+Tk+QjavtTJAouBJA
 @@||urlpay.net/wp-content/plugins/*/assets/fuckadblock.js
 @@||us-east-1.amazonaws.com^
 @@||usaa.com^$document

@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-20 09:59:21（北京时间） 
-! Total count: 92153
+! Version: 2022-03-20 12:07:58（北京时间） 
+! Total count: 92144
 /aaddright.
 /abm.aspx
 /abmw.asp
@@ -9906,7 +9906,6 @@
 ||ads4.virtual-nights.com^
 ||ads4cheap.com^
 ||ads4homes.com^
-||ads4xxx.com^
 ||ads5-adnow.com^
 ||ads5-eu.truecaller.com^
 ||ads5-noneu.truecaller.com^
@@ -15813,7 +15812,6 @@
 ||asnetworks.de^
 ||aso1.net^
 ||asofcfxmvg.com^
-||asolmart.com^
 ||asoperdo.com^
 ||asoulrox.com^
 ||asowp.com^
@@ -23733,7 +23731,6 @@
 ||click.mail.thecarousell.com^
 ||click.marketing.carousell.com^
 ||click.mmosite.com^
-||click.negociosdigitaisnapratica.com.br^
 ||click.official.nike.com^
 ||click.oneplus.cn^
 ||click.oneplus.com^
@@ -37840,7 +37837,6 @@
 ||gloxeept.com^
 ||glpen08.com^
 ||glpl4qp99ny4.com^
-||glqicmazu.com^
 ||glrcy.cn^
 ||glsdk.logsss.com^
 ||glssp.jp^
@@ -50181,7 +50177,6 @@
 ||mainadv.com^
 ||mainauko.net^
 ||mainbx.com^
-||maincert.com^
 ||mainclc.com^
 ||mainmainsaiboard.xyz^
 ||mainredirecter.com^
@@ -51306,7 +51301,6 @@
 ||mcgi.v.qq.com^
 ||mci1.co.kr^
 ||mcix.cn^
-||mcjalandhar.in^
 ||mcleanvahomes.com^
 ||mclick.mobi^
 ||mcljm.top^
@@ -53533,7 +53527,6 @@
 ||misrepush.com^
 ||missiondues.com^
 ||missionnyc.org^
-||missionsection.com^
 ||mississippi.tims.se^
 ||misslk.com^
 ||misspkl.com^
@@ -55251,7 +55244,6 @@
 ||myvisitors.se^
 ||myvisualiq.net^
 ||myvpn.pro^
-||mywaterology.eitdev.com^
 ||mywebclick.net^
 ||mywebsearch.com^
 ||mywebstats.com.au^
@@ -66387,7 +66379,6 @@
 ||rjr-rs.com.br^
 ||rjras.com^
 ||rjsouj.clubd.co.jp^
-||rjssjharkhand.com^
 ||rjtgbjxfyslvdst.com^
 ||rjtpos.cn^
 ||rjw4obbw.com^
@@ -85056,7 +85047,6 @@
 ||vervemobile.com^
 ||vervewireless.com^
 ||verwvy.com^
-||very-koi.com^
 ||very.big-sword.ga^
 ||verycastle.com^
 ||verycleaner.cn^
@@ -88089,6 +88079,7 @@
 ||wowreality.info^
 ||wowssipworld.com^
 ||woxts.cn^
+||woydyd343.com^
 ||woymebsi.com^
 ||wp-club.net^
 ||wp-dev.wellcode.io^
