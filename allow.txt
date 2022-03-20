@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-20 09:32:04（北京时间） 
-! Total count: 16603
+! Version: 2022-03-20 09:43:20（北京时间） 
+! Total count: 16593
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -526,22 +526,14 @@
 @@www.any.gs$urlblock
 @@|*ads.$script,domain=wstream.video
 @@|about:blank|$popup,domain=vipbox.*
-@@|ads.adsterra.com^
 @@|ads.adsterra.com^|
-@@|adsterra.com^
 @@|adsterra.com^|
-@@|affiliates.adsterra.com^
 @@|affiliates.adsterra.com^|
-@@|beta.affiliates.adsterra.com^
 @@|beta.affiliates.adsterra.com^|
-@@|beta.partners.adsterra.com^
 @@|beta.partners.adsterra.com^|
-@@|beta.publishers.adsterra.com^
 @@|beta.publishers.adsterra.com^|
 @@|blob:$domain=hdeuropix.cc
-@@|ftp.bmp.ovh^
 @@|ftp.bmp.ovh^|
-@@|help-advertisers.adsterra.com^
 @@|help-advertisers.adsterra.com^|
 @@|http$script,~third-party,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@|http$stealth,xmlhttprequest,other,media,domain=123tv.live
@@ -568,9 +560,7 @@
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://media.amazon.map.fastly.net^$script
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
-@@|partners.adsterra.com^
 @@|partners.adsterra.com^|
-@@|publishers.adsterra.com^
 @@|publishers.adsterra.com^|
 @@|steamgamesales.com^$urlblock
 @@|ws://*$websocket,domain=flirt4free.com
@@ -12617,8 +12607,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: 42r4GE2VI6h49faKAEGUEg
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: iwBJH886DhV8tMJboep/kQ
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: aaGUqkE+Zu64e/ARQofioA
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: jNObd8L1HdmopwZTVp7cVQ
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
