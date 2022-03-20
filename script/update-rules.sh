@@ -88,15 +88,15 @@ adguard_full_ubo=(
   "https://filters.adtidy.org/extension/ublock/filters/17.txt"  #adgURL过滤器
 )
 
-adguard_full_ubo=(
-  "https://filters.adtidy.org/extension/ublock/2_optimized.txt" #adg基础过滤器
-  "https://filters.adtidy.org/extension/ublock/11_optimized.txt" #adg移动设备过滤器
-  "https://filters.adtidy.org/extension/ublock/17_optimized.txt"  #adgURL过滤器
-  "https://filters.adtidy.org/extension/ublock/3_optimized.txt" #adg防跟踪
-  "https://filters.adtidy.org/extension/ublock/224_optimized.txt" #adg中文过滤器
-  "https://filters.adtidy.org/extension/ublock/14_optimized.txt" #adg烦人过滤器
-  "https://filters.adtidy.org/extension/ublock/5_optimized.txt" #adg实验过滤器
-  "https://filters.adtidy.org/extension/ublock/4_optimized.txt" #adg社交过滤器
+adguard_ubo=(
+  "https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt" #adg基础过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt" #adg移动设备过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/17_optimized.txt"  #adgURL过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/3_optimized.txt" #adg防跟踪
+  "https://filters.adtidy.org/extension/ublock/filters/224_optimized.txt" #adg中文过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt" #adg烦人过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/5_optimized.txt" #adg实验过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt" #adg社交过滤器
 )
 
 allow=(
