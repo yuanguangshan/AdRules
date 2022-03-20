@@ -67,14 +67,36 @@ adguard=(
 )
 
 adguard_full=(
-  "https://filters.adtidy.org/android/filters/2.txt" #adg基础过滤器
-  "https://filters.adtidy.org/android/filters/11.txt" #adg移动设备过滤器
-  "https://filters.adtidy.org/android/filters/3.txt" #adg防跟踪
-  "https://filters.adtidy.org/android/filters/224.txt" #adg中文过滤器
-  "https://filters.adtidy.org/android/filters/14.txt" #adg烦人过滤器
-  "https://filters.adtidy.org/android/filters/5.txt" #adg实验过滤器
-  "https://filters.adtidy.org/android/filters/4.txt" #adg社交过滤器
-  "https://filters.adtidy.org/android/filters/17.txt"  #adgURL过滤器
+  "https://filters.adtidy.org/windows/filters/2.txt" #adg基础过滤器
+  "https://filters.adtidy.org/windows/filters/11.txt" #adg移动设备过滤器
+  "https://filters.adtidy.org/windows/filters/3.txt" #adg防跟踪
+  "https://filters.adtidy.org/windows/filters/224.txt" #adg中文过滤器
+  "https://filters.adtidy.org/windows/filters/14.txt" #adg烦人过滤器
+  "https://filters.adtidy.org/windows/filters/5.txt" #adg实验过滤器
+  "https://filters.adtidy.org/windows/filters/4.txt" #adg社交过滤器
+  "https://filters.adtidy.org/windows/filters/17.txt"  #adgURL过滤器
+)
+
+adguard_full_ubo=(
+  "https://filters.adtidy.org/extension/ublock/filters/2.txt" #adg基础过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/11.txt" #adg移动设备过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/3.txt" #adg防跟踪
+  "https://filters.adtidy.org/extension/ublock/filters/224.txt" #adg中文过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/14.txt" #adg烦人过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/5.txt" #adg实验过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/4.txt" #adg社交过滤器
+  "https://filters.adtidy.org/extension/ublock/filters/17.txt"  #adgURL过滤器
+)
+
+adguard_full_ubo=(
+  "https://filters.adtidy.org/extension/ublock/2_optimized.txt" #adg基础过滤器
+  "https://filters.adtidy.org/extension/ublock/11_optimized.txt" #adg移动设备过滤器
+  "https://filters.adtidy.org/extension/ublock/17_optimized.txt"  #adgURL过滤器
+  "https://filters.adtidy.org/extension/ublock/3_optimized.txt" #adg防跟踪
+  "https://filters.adtidy.org/extension/ublock/224_optimized.txt" #adg中文过滤器
+  "https://filters.adtidy.org/extension/ublock/14_optimized.txt" #adg烦人过滤器
+  "https://filters.adtidy.org/extension/ublock/5_optimized.txt" #adg实验过滤器
+  "https://filters.adtidy.org/extension/ublock/4_optimized.txt" #adg社交过滤器
 )
 
 allow=(
@@ -126,12 +148,14 @@ allow_domains=(
   #"https://raw.githubusercontent.com/neodevpro/neodevhost/master/customallowlist"
 )
 
-for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard_full[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_domains[@]}"  "${!allow_domains[@]}"
+for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard_full[@]}" "${!adguard[@]}" "${!adguard_full_ubo[@]}" "${!adguard_ubo[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_domains[@]}"  "${!allow_domains[@]}"
 do
   curl --parallel --parallel-immediate -k -L -C - -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "plus-easylist${i}.txt" --connect-timeout 60 -s "${easylist_plus[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "full-adguard${i}.txt" --connect-timeout 60 -s "${adguard_full[$i]}" | iconv -t UTF-8 -c
+  curl --parallel --parallel-immediate -k -L -C - -o "ubo-full-adguard${i}.txt" --connect-timeout 60 -s "${adguard_full_ubo[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "adguard${i}.txt" --connect-timeout 60 -s "${adguard[$i]}" | iconv -t UTF-8 -c
+  curl --parallel --parallel-immediate -k -L -C - -o "ubo-adguard${i}.txt" --connect-timeout 60 -s "${adguard_ubo[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "dns${i}.txt" --connect-timeout 60 -s "${dns[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}" | iconv -t UTF-8 -c
@@ -160,7 +184,10 @@ cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '.!'
 cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' | grep -v '.!' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
 cat adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
 cat full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full.txt #处理AdGuard的规则
-cat .././mod/rules/*-rules.txt dns*.txt abp-hosts.txt *easylist*.txt l.txt | grep '^||\|^@@||' | grep -v './' | grep -v '\*' | grep -v '^\[' | grep -v '.\[' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > ll.txt 
+cat ubo-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-ubo.txt #处理AdGuard的规则
+cat ubo-full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full-ubo.txt #处理AdGuard的规则
+
+cat .././mod/rules/*-rules.txt dns*.txt *hosts*.txt plus*easylist*.txt | grep '^||\|^@@||' | grep -v './' | grep -v '\*' | grep -v '^\[' | grep -v '.\[' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > ll.txt 
 cat ll.txt l.txt |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
 cat dns*.txt abp-hosts.txt tmp-dns.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '^\[' | grep -v '.!' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-domains.txt #处理广告域名
@@ -183,6 +210,8 @@ echo '正在计算规则总数..'
 adblock_num=`cat tmp-adblock.txt | wc -l`
 adblock_plus_num=`cat tmp-adblock+adguard.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
+ubo_adguard_num=`cat tmp-adguard-ubo.txt | wc -l`
+ubo_full_adguard_num=`cat tmp-adguard-full-ubo.txt | wc -l`
 full_adguard_num=`cat tmp-adguard-full.txt | wc -l`
 dns_num=`cat tmp-dns.txt | wc -l`
 hosts_num=`cat tmp-hosts.txt | wc -l`
@@ -200,6 +229,8 @@ echo "! Total count: $hosts_num" >> hosts-tpdate.txt
 echo "! Total count: $allow_num" >> allow-tpdate.txt
 echo "! Total count: $ad_domains_num" >> ad-domains-tpdate.txt
 echo "! Total count: $full_adguard_num" >> full-adguard-tpdate.txt
+echo "! Total count: $ubo_full_adguard_num" >> ubo-full-adguard-tpdate.txt
+echo "! Total count: $ubo_adguard_num" >> ubo-adguard-tpdate.txt
 # Start Marge Rules
 cat tpdate.txt adblock-tpdate.txt tmp-adblock.txt > adblock.txt
 cat tpdate.txt adblock+adguard-tpdate.txt tmp-adblock+adguard.txt > adblock+adguard.txt
@@ -209,6 +240,8 @@ cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
 cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
 cat tpdate.txt ad-domains-tpdate.txt tmp-ad-domains.txt > ad-domains.txt
+cat tpdate.txt ubo-adguard-tpdate.txt tmp-adguard-ubo.txt > adguard-ubo.txt
+cat tpdate.txt ubo-full-adguard-tpdate.txt tmp-adguard-full-ubo.txt > adguard-full-ubo.txt
 rm tmp*.txt *tpdate.txt
 
 # Add Title
