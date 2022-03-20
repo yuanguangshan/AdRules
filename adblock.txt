@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-20 08:53:35（北京时间） 
-! Total count: 127592
+! Version: 2022-03-20 09:05:08（北京时间） 
+! Total count: 127595
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -12740,6 +12740,7 @@
 ##.adblock728x90
 ##.adblockInfo
 ##.adblockOverlay
+##.adblock__banner
 ##.adblock_detector
 ##.adblock_enabled
 ##.adblock_floating_message
@@ -12913,6 +12914,7 @@
 ##.adfoot
 ##.adfootbox
 ##.adfooter
+##.adform__topbanner
 ##.adformobile
 ##.adframe
 ##.adframe2
@@ -15425,6 +15427,7 @@
 ##.articleTopAd
 ##.article__ad-holder
 ##.article__ad-ir
+##.article__adblock
 ##.article__adv
 ##.article__inset--margin-ad
 ##.article__leaderboard-ad
