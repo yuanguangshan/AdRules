@@ -32,10 +32,6 @@ easylist_plus=(
 "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" 
 "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #净化百度
 "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt" #乘风规则
-"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt" #uniartisan 基础
-"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt" #uniartisan lite
-"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt" #uniartisan plus
-"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt" #uniartisan隐私
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt" #ubo烦人过滤器
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt" #
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt" #ubo基础过滤器
