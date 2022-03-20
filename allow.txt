@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-20 16:16:15（北京时间） 
-! Total count: 17215
+! Version: 2022-03-20 16:19:20（北京时间） 
+! Total count: 17212
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -7951,7 +7951,6 @@
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
 @@||hinet.net^
 @@||hinta.fi/lib/$removeparam=v
-@@||histats.com^$domain=debridnet.com
 @@||histock.tw/JScript/AD/
 @@||history.com^$generichide
 @@||history.com^*_SocialMedia_$image
@@ -12360,8 +12359,6 @@
 @@||pool.admedo.com/yoc^$domain=youronlinechoices.com
 @@||pool.supportxmr.com^
 @@||poontown.net/intermission/loadTargetUrl$xmlhttprequest
-@@||popads.net/pop.js$domain=debridnet.com,important
-@@||popads.net/pop.js$script,important,domain=shinden.pl
 @@||popads.net^$domain=popads.net
 @@||popart.hk/newweb/$generichide
 @@||popcash.net/|$xmlhttprequest,domain=tnaket.xyz|videoloca.xyz|makaveli.xyz|oupvideo.xyz
