@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-20 16:42:33（北京时间） 
-! Total count: 92138
+! Version: 2022-03-21 00:18:02（北京时间） 
+! Total count: 92105
 /aaddright.
 /abm.aspx
 /abmw.asp
@@ -3068,7 +3068,6 @@
 ||2fk0iss45c.ru^
 ||2g2h.com^
 ||2g6gj3aojcrj.com^
-||2gay.net^
 ||2giga.link^
 ||2girls1cumshot.com^
 ||2girls1cup-free.com^
@@ -3345,7 +3344,6 @@
 ||3fakaixi.xyz^
 ||3file.info^
 ||3fish.store^
-||3fns.com^
 ||3g.990.net^
 ||3gl.net^
 ||3gmimo.com^
@@ -11925,7 +11923,6 @@
 ||aiclk.com^
 ||aicontents.net^
 ||aid-ad.jp^
-||aid-golf-golfdust-training.tabrays.com^
 ||aidaghana.com^
 ||aidaicn.com^
 ||aidaigry.com^
@@ -12062,7 +12059,6 @@
 ||aiyyu.com^
 ||aizz.co.uk^
 ||aj1010.online^
-||aj1015.online^
 ||aj1047.online^
 ||aj1052.online^
 ||aj1058.online^
@@ -12865,7 +12861,6 @@
 ||amir-api-station.net.daraz.com^
 ||amir-api.net.daraz.com^
 ||amirteeg.com^
-||amitytotalbodycare.eitdev.com^
 ||amjoltiktor.com^
 ||amkltd.co.uk^
 ||ammankeyan.com^
@@ -14074,7 +14069,6 @@
 ||aotetu.cn^
 ||aovtutorial.com^
 ||aoyinn.com^
-||aoyou.idealads.net^
 ||aoyou2.top^
 ||aoyou3.top^
 ||aoyou4.top^
@@ -16179,7 +16173,6 @@
 ||attenhance.com
 ||attenhance.com^
 ||attentionsauditoriummall.com^
-||atters.net^
 ||atti.com^
 ||atticwicket.com^
 ||attirerpage.com^
@@ -17248,7 +17241,6 @@
 ||baiadosol.com^
 ||baiapk.com^
 ||baibiigcfdjgdgacig.ru^
-||baicc-ct.org^
 ||baichuan-sdk.alicdn.com^
 ||baichuan.baidu.com^
 ||baid1.okooo.com^
@@ -17690,6 +17682,7 @@
 ||banners.videosecrets.com^
 ||banners.videosz.com^
 ||banners.webcams.com^
+||banners.webmasterplan.com^
 ||banners.weboverdrive.com^
 ||banners.wunderground.com^
 ||banners.zbs.ru^
@@ -25737,7 +25730,6 @@
 ||coretalk.co^
 ||corkery.biz^
 ||corkycrazy.com^
-||cormast.com^
 ||cornerbut.com^
 ||cornerstoneadvisory.com.au^
 ||cornplus.cn^
@@ -25788,7 +25780,6 @@
 ||costaction.com^
 ||costco-adbutler.com^
 ||cotads.adscale.de^
-||cotc.net^
 ||cotchaug.com^
 ||cotdrollback.com^
 ||coterybulrush.com^
@@ -26829,7 +26820,6 @@
 ||cumbersomecar.com^
 ||cumbersomecloud.com^
 ||cumc-hmb.com^
-||cuminside.club^
 ||cumydixy.com^
 ||cunderdr.net^
 ||cuneytkocas.com^
@@ -32916,7 +32906,6 @@
 ||ericandrobin.com^
 ||ericanteeho.com^
 ||ericantpas.com^
-||ericfatima.beget.tech^
 ||erihj.com^
 ||erileni.ru^
 ||eriniquep.club^
@@ -38948,7 +38937,6 @@
 ||gudja.iad-02.braze.com^
 ||guduopu.com^
 ||guelvp.1111.com.tw^
-||guerria-skateboard-tommy.tabrays.com^
 ||guerrilla-links.com^
 ||guess.h.qhimg.com^
 ||guess.mediav.com^
@@ -43819,7 +43807,6 @@
 ||iq.sixaxisllc.com^
 ||iq001.adtech.fr^
 ||iq001.adtech.us^
-||iq5media.com^
 ||iqbkkhhsgk.com^
 ||iqcontentplatform.de^
 ||iqdata.ai^
@@ -46724,7 +46711,6 @@
 ||kuntzenyt.club^
 ||kunyu.csdn.net^
 ||kuoxing.mobi^
-||kuphela.com.mx^
 ||kupona.de^
 ||kuponyua.ru^
 ||kuprvs.cn^
@@ -48394,7 +48380,6 @@
 ||lixuanbaojie.com^
 ||lixudong.top^
 ||liyelaowu.cn^
-||lizads.com^
 ||lizard.utropia.es^
 ||lizardslaugh.com^
 ||lizautie.net^
@@ -51130,7 +51115,6 @@
 ||mautic.easygroup.vn^
 ||mautic.educa.vn^
 ||mautic.educe.vn^
-||mautic.emso.vn^
 ||mautic.haproinfo.vn^
 ||mautic.hicity.vn^
 ||mautic.icsc.vn^
@@ -53473,7 +53457,6 @@
 ||mintake.com^
 ||mintegral.com^
 ||mintme.cf^
-||mintme.ga^
 ||mintme.gq^
 ||mintme.ml^
 ||mintrace.com^
@@ -55948,7 +55931,6 @@
 ||neuronales.xyz^
 ||neuroticthinner.com^
 ||neurotrack.neurolake.io^
-||neutralpages.com^
 ||neverthelessdepression.com^
 ||neverythin.club^
 ||new-adtest.pages.dev^
@@ -57142,7 +57124,6 @@
 ||nuvest.sarasolutions.in^
 ||nuwayinternational.com^
 ||nuxipsahe.com^
-||nuxues.com^
 ||nuyujp.barstoolsports.com^
 ||nv-ad.24hstatic.com^
 ||nv-sdk.jumio.com^
@@ -58191,7 +58172,6 @@
 ||oncustomer.asia^
 ||ondapro.me^
 ||onderlea.info
-||onderlea.info^
 ||ondermaat.nl^
 ||ondotwebsolutions.com^
 ||ondu.ru^
@@ -58324,7 +58304,6 @@
 ||onlinedownloads.org^
 ||onlinefitnessanalysis.com^
 ||onlineformfinder.com^
-||onlinekey.biz^
 ||onlinekids.ir^
 ||onlinemedicin.com^
 ||onlineporno.fun^
@@ -61914,7 +61893,6 @@
 ||popmonetizer.com^
 ||popmonetizer.net^
 ||popmyads.com^
-||popmycash.com^
 ||popnc.com^
 ||popnet.xyz^
 ||poponclick.com^
@@ -62984,7 +62962,6 @@
 ||protection.jmpolice.com^
 ||protection.kypolice.com^
 ||protection.lapolice.com^
-||protection.lbpolice.com^
 ||protection.lcpolice.com^
 ||protection.lipolice.com^
 ||protection.lrpolice.com^
@@ -63018,7 +62995,6 @@
 ||protizer.ru^
 ||protoawe.com^
 ||protocolgroupgroups.com^
-||protokol.mx^
 ||proton-tm.com^
 ||proton.flurry.com^
 ||protonix.shengen.ru^
@@ -65361,7 +65337,6 @@
 ||redistats.com^
 ||redlele.com^
 ||redlightcenter.com^
-||redlini.ga^
 ||redmas.com^
 ||redmix.me^
 ||rednews.me^
@@ -65838,7 +65813,6 @@
 ||resanium.com^
 ||resawsmas.com^
 ||reschedulewizards.com^
-||rescueanimaldiplomats.com^
 ||rescuephrase.com^
 ||research-artisan.com^
 ||research-int.se^
@@ -66018,7 +65992,6 @@
 ||returso.com^
 ||retyphuho.pro^
 ||reu5uut0.top^
-||reumatismclinic.com^
 ||reundcwkqvctq.com^
 ||reunionesdecabales.com^
 ||reusenproject-n.nl^
@@ -68910,7 +68883,6 @@
 ||searchmulty.com^
 ||searchnet.com^
 ||searchnigeria.net^
-||searchpeack.com^
 ||searchplow.com^
 ||searchramp.com^
 ||searchremagnified.com^
@@ -71187,6 +71159,7 @@
 ||sltcp.cn^
 ||sluicejell.com^
 ||sluxur.com^
+||slview.psne.jp^
 ||slychicks.com^
 ||slymagical.com^
 ||sm-epsilon.com^
@@ -76808,7 +76781,6 @@
 ||supremish.club^
 ||suprinsa.net^
 ||suptaibo.com^
-||suptullog.com^
 ||supuv2.com^
 ||supuv3.com^
 ||surbis.ru^
@@ -78753,7 +78725,6 @@
 ||test.ott.youku.com^
 ||test.p.12cpm.com^
 ||test.reachhealth.asia^
-||test.teashop.mn^
 ||test.thespraytanwarehouse.com^
 ||test.typoten.com^
 ||test.ugbswebakenyaltd.com^
@@ -78785,7 +78756,6 @@
 ||testingmgmt.control.docker.net.zooplus.de^
 ||testingwww.applications.net.daraz.com^
 ||testlink1.kanto.co^
-||testmp.dune.ru^
 ||testnet.nl^
 ||tests.aviscom.tech^
 ||testsbox.ru^
@@ -78913,7 +78883,6 @@
 ||thaiexcel.net.daraz.com^
 ||thaihary.link^
 ||thaiksee.com^
-||thailand-rocco.com^
 ||thailandtravel.live^
 ||thailandwoods.com^
 ||thaililyrestaurant.com^
@@ -82347,7 +82316,6 @@
 ||trends.mobile.sina.cn^
 ||trends.newsmaxwidget.com^
 ||trends.revcontent.com^
-||trendsonline.biz^
 ||trendytomato.in^
 ||trenews.ru^
 ||trenhdg.com^
@@ -88920,13 +88888,11 @@
 ||www25a.glam.com^
 ||www2s.automd.com^
 ||www3.addthis.com^
-||www3.bloomingdales.com^
 ||www3.doubleclick.net^
 ||www3.haberturk.com^
 ||www3.macys.com^
 ||www3.nationalgeographic.com^
 ||www3.telus.net^
-||www3.webhostingtalk.com^
 ||www30.glam.com^
 ||www30a1-orig.glam.com^
 ||www30a1.glam.com^
@@ -91237,7 +91203,6 @@
 ||zatexta.com^
 ||zathytycho.com^
 ||zatong.icaniwill.se^
-||zatythygre.pro^
 ||zauglomo.net^
 ||zaugroaw.net^
 ||zaushegi.net^
@@ -91272,6 +91237,7 @@
 ||zbyynuew9g.ru^
 ||zbzbzzz.top^
 ||zc.adswizz.com^
+||zc1.zeroredirect11.com^
 ||zc710956.top^
 ||zcand.com^
 ||zcao.vip^
@@ -91394,7 +91360,6 @@
 ||zeronethree.xyz^
 ||zeropark.com^
 ||zeroredirect1.com^
-||zeroredirect11.com^
 ||zeroredirect2.com^
 ||zeroredirect5.com^
 ||zeroredirect8.com^
@@ -91470,6 +91435,7 @@
 ||zgzrmh.mobi^
 ||zgzxs.weathercn.com^
 ||zh.tiredduck.com^
+||zh1.zeroredirect11.com^
 ||zhads.com^
 ||zhaibei112.top^
 ||zhaiqichao.top^
@@ -91912,6 +91878,7 @@
 ||zqwlkj.cn^
 ||zqzxz.com^
 ||zr0.net^
+||zr1.zeroredirect11.com^
 ||zrav2wkbrs.com^
 ||zrbl21.cn^
 ||zrbn.ltd^

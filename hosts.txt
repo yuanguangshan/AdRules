@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-20 16:42:33（北京时间） 
-! Total count: 89888
+! Version: 2022-03-21 00:18:02（北京时间） 
+! Total count: 89856
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -956,7 +956,6 @@
 0.0.0.0 2fk0iss45c.ru
 0.0.0.0 2g2h.com
 0.0.0.0 2g6gj3aojcrj.com
-0.0.0.0 2gay.net
 0.0.0.0 2giga.link
 0.0.0.0 2girls1cumshot.com
 0.0.0.0 2girls1cup-free.com
@@ -1232,7 +1231,6 @@
 0.0.0.0 3fakaixi.xyz
 0.0.0.0 3file.info
 0.0.0.0 3fish.store
-0.0.0.0 3fns.com
 0.0.0.0 3g.990.net
 0.0.0.0 3gl.net
 0.0.0.0 3gmimo.com
@@ -9801,7 +9799,6 @@
 0.0.0.0 aiclk.com
 0.0.0.0 aicontents.net
 0.0.0.0 aid-ad.jp
-0.0.0.0 aid-golf-golfdust-training.tabrays.com
 0.0.0.0 aidaghana.com
 0.0.0.0 aidaicn.com
 0.0.0.0 aidaigry.com
@@ -9938,7 +9935,6 @@
 0.0.0.0 aiyyu.com
 0.0.0.0 aizz.co.uk
 0.0.0.0 aj1010.online
-0.0.0.0 aj1015.online
 0.0.0.0 aj1047.online
 0.0.0.0 aj1052.online
 0.0.0.0 aj1058.online
@@ -10738,7 +10734,6 @@
 0.0.0.0 amir-api-station.net.daraz.com
 0.0.0.0 amir-api.net.daraz.com
 0.0.0.0 amirteeg.com
-0.0.0.0 amitytotalbodycare.eitdev.com
 0.0.0.0 amjoltiktor.com
 0.0.0.0 amkltd.co.uk
 0.0.0.0 ammankeyan.com
@@ -11943,7 +11938,6 @@
 0.0.0.0 aotetu.cn
 0.0.0.0 aovtutorial.com
 0.0.0.0 aoyinn.com
-0.0.0.0 aoyou.idealads.net
 0.0.0.0 aoyou2.top
 0.0.0.0 aoyou3.top
 0.0.0.0 aoyou4.top
@@ -14044,7 +14038,6 @@
 0.0.0.0 attendantsteakfax.com
 0.0.0.0 attenhance.com
 0.0.0.0 attentionsauditoriummall.com
-0.0.0.0 atters.net
 0.0.0.0 atti.com
 0.0.0.0 atticwicket.com
 0.0.0.0 attirerpage.com
@@ -15112,7 +15105,6 @@
 0.0.0.0 baiadosol.com
 0.0.0.0 baiapk.com
 0.0.0.0 baibiigcfdjgdgacig.ru
-0.0.0.0 baicc-ct.org
 0.0.0.0 baichuan-sdk.alicdn.com
 0.0.0.0 baichuan.baidu.com
 0.0.0.0 baid1.okooo.com
@@ -15553,6 +15545,7 @@
 0.0.0.0 banners.videosecrets.com
 0.0.0.0 banners.videosz.com
 0.0.0.0 banners.webcams.com
+0.0.0.0 banners.webmasterplan.com
 0.0.0.0 banners.weboverdrive.com
 0.0.0.0 banners.wunderground.com
 0.0.0.0 banners.zbs.ru
@@ -23586,7 +23579,6 @@
 0.0.0.0 coretalk.co
 0.0.0.0 corkery.biz
 0.0.0.0 corkycrazy.com
-0.0.0.0 cormast.com
 0.0.0.0 cornerbut.com
 0.0.0.0 cornerstoneadvisory.com.au
 0.0.0.0 cornplus.cn
@@ -23637,7 +23629,6 @@
 0.0.0.0 costaction.com
 0.0.0.0 costco-adbutler.com
 0.0.0.0 cotads.adscale.de
-0.0.0.0 cotc.net
 0.0.0.0 cotchaug.com
 0.0.0.0 cotdrollback.com
 0.0.0.0 coterybulrush.com
@@ -24675,7 +24666,6 @@
 0.0.0.0 cumbersomecar.com
 0.0.0.0 cumbersomecloud.com
 0.0.0.0 cumc-hmb.com
-0.0.0.0 cuminside.club
 0.0.0.0 cumydixy.com
 0.0.0.0 cunderdr.net
 0.0.0.0 cuneytkocas.com
@@ -30751,7 +30741,6 @@
 0.0.0.0 ericandrobin.com
 0.0.0.0 ericanteeho.com
 0.0.0.0 ericantpas.com
-0.0.0.0 ericfatima.beget.tech
 0.0.0.0 erihj.com
 0.0.0.0 erileni.ru
 0.0.0.0 eriniquep.club
@@ -36772,7 +36761,6 @@
 0.0.0.0 gudja.iad-02.braze.com
 0.0.0.0 guduopu.com
 0.0.0.0 guelvp.1111.com.tw
-0.0.0.0 guerria-skateboard-tommy.tabrays.com
 0.0.0.0 guerrilla-links.com
 0.0.0.0 guess.h.qhimg.com
 0.0.0.0 guess.mediav.com
@@ -41636,7 +41624,6 @@
 0.0.0.0 iq.sixaxisllc.com
 0.0.0.0 iq001.adtech.fr
 0.0.0.0 iq001.adtech.us
-0.0.0.0 iq5media.com
 0.0.0.0 iqbkkhhsgk.com
 0.0.0.0 iqcontentplatform.de
 0.0.0.0 iqdata.ai
@@ -44536,7 +44523,6 @@
 0.0.0.0 kuntzenyt.club
 0.0.0.0 kunyu.csdn.net
 0.0.0.0 kuoxing.mobi
-0.0.0.0 kuphela.com.mx
 0.0.0.0 kupona.de
 0.0.0.0 kuponyua.ru
 0.0.0.0 kuprvs.cn
@@ -46204,7 +46190,6 @@
 0.0.0.0 lixuanbaojie.com
 0.0.0.0 lixudong.top
 0.0.0.0 liyelaowu.cn
-0.0.0.0 lizads.com
 0.0.0.0 lizard.utropia.es
 0.0.0.0 lizardslaugh.com
 0.0.0.0 lizautie.net
@@ -48936,7 +48921,6 @@
 0.0.0.0 mautic.easygroup.vn
 0.0.0.0 mautic.educa.vn
 0.0.0.0 mautic.educe.vn
-0.0.0.0 mautic.emso.vn
 0.0.0.0 mautic.haproinfo.vn
 0.0.0.0 mautic.hicity.vn
 0.0.0.0 mautic.icsc.vn
@@ -51278,7 +51262,6 @@
 0.0.0.0 mintake.com
 0.0.0.0 mintegral.com
 0.0.0.0 mintme.cf
-0.0.0.0 mintme.ga
 0.0.0.0 mintme.gq
 0.0.0.0 mintme.ml
 0.0.0.0 mintrace.com
@@ -53742,7 +53725,6 @@
 0.0.0.0 neuronales.xyz
 0.0.0.0 neuroticthinner.com
 0.0.0.0 neurotrack.neurolake.io
-0.0.0.0 neutralpages.com
 0.0.0.0 neverthelessdepression.com
 0.0.0.0 neverythin.club
 0.0.0.0 new-adtest.pages.dev
@@ -54934,7 +54916,6 @@
 0.0.0.0 nuvest.sarasolutions.in
 0.0.0.0 nuwayinternational.com
 0.0.0.0 nuxipsahe.com
-0.0.0.0 nuxues.com
 0.0.0.0 nuyujp.barstoolsports.com
 0.0.0.0 nv-ad.24hstatic.com
 0.0.0.0 nv-sdk.jumio.com
@@ -56115,7 +56096,6 @@
 0.0.0.0 onlinedownloads.org
 0.0.0.0 onlinefitnessanalysis.com
 0.0.0.0 onlineformfinder.com
-0.0.0.0 onlinekey.biz
 0.0.0.0 onlinekids.ir
 0.0.0.0 onlinemedicin.com
 0.0.0.0 onlineporno.fun
@@ -59700,7 +59680,6 @@
 0.0.0.0 popmonetizer.com
 0.0.0.0 popmonetizer.net
 0.0.0.0 popmyads.com
-0.0.0.0 popmycash.com
 0.0.0.0 popnc.com
 0.0.0.0 popnet.xyz
 0.0.0.0 poponclick.com
@@ -60768,7 +60747,6 @@
 0.0.0.0 protection.jmpolice.com
 0.0.0.0 protection.kypolice.com
 0.0.0.0 protection.lapolice.com
-0.0.0.0 protection.lbpolice.com
 0.0.0.0 protection.lcpolice.com
 0.0.0.0 protection.lipolice.com
 0.0.0.0 protection.lrpolice.com
@@ -60802,7 +60780,6 @@
 0.0.0.0 protizer.ru
 0.0.0.0 protoawe.com
 0.0.0.0 protocolgroupgroups.com
-0.0.0.0 protokol.mx
 0.0.0.0 proton-tm.com
 0.0.0.0 proton.flurry.com
 0.0.0.0 protonix.shengen.ru
@@ -63141,7 +63118,6 @@
 0.0.0.0 redistats.com
 0.0.0.0 redlele.com
 0.0.0.0 redlightcenter.com
-0.0.0.0 redlini.ga
 0.0.0.0 redmas.com
 0.0.0.0 redmix.me
 0.0.0.0 rednews.me
@@ -63618,7 +63594,6 @@
 0.0.0.0 resanium.com
 0.0.0.0 resawsmas.com
 0.0.0.0 reschedulewizards.com
-0.0.0.0 rescueanimaldiplomats.com
 0.0.0.0 rescuephrase.com
 0.0.0.0 research-artisan.com
 0.0.0.0 research-int.se
@@ -63798,7 +63773,6 @@
 0.0.0.0 returso.com
 0.0.0.0 retyphuho.pro
 0.0.0.0 reu5uut0.top
-0.0.0.0 reumatismclinic.com
 0.0.0.0 reundcwkqvctq.com
 0.0.0.0 reunionesdecabales.com
 0.0.0.0 reusenproject-n.nl
@@ -66689,7 +66663,6 @@
 0.0.0.0 searchmulty.com
 0.0.0.0 searchnet.com
 0.0.0.0 searchnigeria.net
-0.0.0.0 searchpeack.com
 0.0.0.0 searchplow.com
 0.0.0.0 searchramp.com
 0.0.0.0 searchremagnified.com
@@ -68965,6 +68938,7 @@
 0.0.0.0 sltcp.cn
 0.0.0.0 sluicejell.com
 0.0.0.0 sluxur.com
+0.0.0.0 slview.psne.jp
 0.0.0.0 slychicks.com
 0.0.0.0 slymagical.com
 0.0.0.0 sm-epsilon.com
@@ -74581,7 +74555,6 @@
 0.0.0.0 supremish.club
 0.0.0.0 suprinsa.net
 0.0.0.0 suptaibo.com
-0.0.0.0 suptullog.com
 0.0.0.0 supuv2.com
 0.0.0.0 supuv3.com
 0.0.0.0 surbis.ru
@@ -76524,7 +76497,6 @@
 0.0.0.0 test.ott.youku.com
 0.0.0.0 test.p.12cpm.com
 0.0.0.0 test.reachhealth.asia
-0.0.0.0 test.teashop.mn
 0.0.0.0 test.thespraytanwarehouse.com
 0.0.0.0 test.typoten.com
 0.0.0.0 test.ugbswebakenyaltd.com
@@ -76556,7 +76528,6 @@
 0.0.0.0 testingmgmt.control.docker.net.zooplus.de
 0.0.0.0 testingwww.applications.net.daraz.com
 0.0.0.0 testlink1.kanto.co
-0.0.0.0 testmp.dune.ru
 0.0.0.0 testnet.nl
 0.0.0.0 tests.aviscom.tech
 0.0.0.0 testsbox.ru
@@ -76684,7 +76655,6 @@
 0.0.0.0 thaiexcel.net.daraz.com
 0.0.0.0 thaihary.link
 0.0.0.0 thaiksee.com
-0.0.0.0 thailand-rocco.com
 0.0.0.0 thailandtravel.live
 0.0.0.0 thailandwoods.com
 0.0.0.0 thaililyrestaurant.com
@@ -80110,7 +80080,6 @@
 0.0.0.0 trends.mobile.sina.cn
 0.0.0.0 trends.newsmaxwidget.com
 0.0.0.0 trends.revcontent.com
-0.0.0.0 trendsonline.biz
 0.0.0.0 trendytomato.in
 0.0.0.0 trenews.ru
 0.0.0.0 trenhdg.com
@@ -86676,13 +86645,11 @@
 0.0.0.0 www25a.glam.com
 0.0.0.0 www2s.automd.com
 0.0.0.0 www3.addthis.com
-0.0.0.0 www3.bloomingdales.com
 0.0.0.0 www3.doubleclick.net
 0.0.0.0 www3.haberturk.com
 0.0.0.0 www3.macys.com
 0.0.0.0 www3.nationalgeographic.com
 0.0.0.0 www3.telus.net
-0.0.0.0 www3.webhostingtalk.com
 0.0.0.0 www30.glam.com
 0.0.0.0 www30a1-orig.glam.com
 0.0.0.0 www30a1.glam.com
@@ -88989,7 +88956,6 @@
 0.0.0.0 zatexta.com
 0.0.0.0 zathytycho.com
 0.0.0.0 zatong.icaniwill.se
-0.0.0.0 zatythygre.pro
 0.0.0.0 zauglomo.net
 0.0.0.0 zaugroaw.net
 0.0.0.0 zaushegi.net
@@ -89024,6 +88990,7 @@
 0.0.0.0 zbyynuew9g.ru
 0.0.0.0 zbzbzzz.top
 0.0.0.0 zc.adswizz.com
+0.0.0.0 zc1.zeroredirect11.com
 0.0.0.0 zc710956.top
 0.0.0.0 zcand.com
 0.0.0.0 zcao.vip
@@ -89146,7 +89113,6 @@
 0.0.0.0 zeronethree.xyz
 0.0.0.0 zeropark.com
 0.0.0.0 zeroredirect1.com
-0.0.0.0 zeroredirect11.com
 0.0.0.0 zeroredirect2.com
 0.0.0.0 zeroredirect5.com
 0.0.0.0 zeroredirect8.com
@@ -89222,6 +89188,7 @@
 0.0.0.0 zgzrmh.mobi
 0.0.0.0 zgzxs.weathercn.com
 0.0.0.0 zh.tiredduck.com
+0.0.0.0 zh1.zeroredirect11.com
 0.0.0.0 zhads.com
 0.0.0.0 zhaibei112.top
 0.0.0.0 zhaiqichao.top
@@ -89661,6 +89628,7 @@
 0.0.0.0 zqwlkj.cn
 0.0.0.0 zqzxz.com
 0.0.0.0 zr0.net
+0.0.0.0 zr1.zeroredirect11.com
 0.0.0.0 zrav2wkbrs.com
 0.0.0.0 zrbl21.cn
 0.0.0.0 zrbn.ltd

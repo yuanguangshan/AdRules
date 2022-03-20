@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Description: AdRules (For AdGuard)对于Ublock! Version: 2022-03-20 16:42:33（北京时间） 
-! Total count: 100421
+! Description: AdRules (For AdGuard)对于Ublock! Version: 2022-03-21 00:18:02（北京时间） 
+! Total count: 100425
 -1688-wp-media/ads/
 -880-80-4.jpg
 -780x90-
@@ -24044,7 +24044,6 @@ consumerfinance.gov##.m-social-media__share
 consumerist.com#@#.after-post-ad
 cont.ws##.iziToast-wrapper
 contactmonkey.com/api/v1/tracker$image
-contacts.google.com###google-hats-survey
 content.techgig.com##.tg-clients-banners
 content.wisestep.com##.td-ss-main-sidebar
 contentkingapp.com##div[data-testid="action-sidebar-box"]
@@ -24770,7 +24769,7 @@ dastereo.ru,community.bitwarden.com,forum.hifiguides.com##.quote-sharing
 data.gov.uk##.govuk-cookie-banner
 data.morsodifame.com##+js(nano-setInterval-booster, waktu--, , 0.02)
 data.wingarc.com##.new-entry-social
-datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
+datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,news18.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
 datagroup.ua,e-bebek.com,luluhypermarket.com,teknosa.com###js-cookie-notification
 dataguru.cn###bg
 dataguru.cn###popDiv
@@ -29736,6 +29735,7 @@ goodyfeed.com##.td-post-sharing-visible
 googirl.jp##.newentry_in > li.“cf”
 google.*###app > div.visible > div[role="dialog"][jsaction^="focusout:promotion.dismiss;"]
 google.*###bottomads > div[id^="tads"]
+google.*###google-hats-survey
 google.*###gws-product_ads__plalightbox
 google.*###rso > div.sh-sr__shop-result-group[data-hveid]
 google.*###search div[jscontroller][jsaction] > div[class] > div[jscontroller] div[jscontroller] > div[jscontroller] > div[jsname][jscontroller][jsaction][data-record-click-time][class]
@@ -38632,7 +38632,6 @@ news12.com##.banner-midContent-area
 news12.com,pwinsider.com,usahealthcareguide.com##.banner-top
 news18.com###twitter-share-btn
 news18.com##.ad-cntainer
-news18.com##.add_section
 news18.com##.article_mad
 news18.com##.article_main > div[class^="jsx-"] > span[style*="width:100%;text-align:center;"]
 news18.com##.article_socials
@@ -38655,6 +38654,8 @@ news18.com##div[style*="background:#F0F0F0"][style*="height:300px"]
 news18.com##div[style*="min-height: 250px"]
 news18.com##div[style*="min-height: 527px"]
 news18.com##div[style*="min-height:250px"]
+news18.com##div[style*="min-height:527px"]
+news18.com##div[style*="width: 300px"]
 news18.com##div[style="min-height:527px"]
 news18.com##div[style^="min-height:260px;"][style*="background:#dbdde3;"]
 news18.com##div[style^="width: 300px;"][style*="height: 250px;"][style*="background: rgb(206, 206, 206);"]
@@ -81179,6 +81180,7 @@ zznews.cn##.ad:not([style])
 ||partnerzyapi.ceneo.pl^$third-party
 ||partplanes.com^$third-party
 ||partridge.unfamiliar.land^
+||parts.akibablog.net^$subdocument
 ||partypoker.com^$third-party
 ||pasco.actonservice.com^
 ||paslsa.com^
@@ -83640,6 +83642,7 @@ zznews.cn##.ad:not([style])
 ||ready.nerdery.com^
 ||readymoon.com^$third-party
 ||readysnails.com^$third-party
+||reajyu.net^
 ||real-fitness2019.real-fitness.jp^
 ||real-user-monitoring.a.autoscout24.com^
 ||realbig.media^$third-party
@@ -86394,6 +86397,7 @@ zznews.cn##.ad:not([style])
 ||slshiye.cn^
 ||sltcp.cn^
 ||slutdump.com/flat-butterfly-c5e3/
+||slview.psne.jp^
 ||sm.batuu.pl/collect?
 ||sm.dell.com^
 ||sm.edweek.org^
