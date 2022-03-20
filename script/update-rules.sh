@@ -48,6 +48,7 @@ easylist_plus=(
 "https://filters.adtidy.org/android/filters/17.txt"  #adgURL过滤器
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
+"https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
  # "https://easylist.to/easylist/fanboy-annoyance.txt" #烦人规则
 )
 
