@@ -43,35 +43,38 @@ easylist_plus=(
 "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载
 "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主的规则
 "https://filters.adtidy.org/android/filters/2.txt" #adg基础过滤器
-"https://filters.adtidy.org/android/filters/11.txt"
-"https://filters.adtidy.org/android/filters/3.txt"
+"https://filters.adtidy.org/android/filters/11.txt" #adg移动设备过滤器
+"https://filters.adtidy.org/android/filters/3.txt" #adg防跟踪
 "https://filters.adtidy.org/android/filters/224.txt" #adg中文过滤器
-"https://filters.adtidy.org/android/filters/14.txt"
-"https://filters.adtidy.org/android/filters/5.txt"
-"https://filters.adtidy.org/android/filters/4.txt"
+"https://filters.adtidy.org/android/filters/14.txt" #adg烦人过滤器
+"https://filters.adtidy.org/android/filters/5.txt" #adg实验过滤器
+"https://filters.adtidy.org/android/filters/4.txt" #adg社交过滤器
+"https://filters.adtidy.org/android/filters/17.txt"  #adgURL过滤器
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
   "https://easylist.to/easylist/fanboy-annoyance.txt" #烦人规则
 )
 
 adguard=(
-  "https://filters.adtidy.org/android/filters/2_optimized.txt"
-  "https://filters.adtidy.org/android/filters/11_optimized.txt"
-  "https://filters.adtidy.org/android/filters/3_optimized.txt"
-  "https://filters.adtidy.org/android/filters/224_optimized.txt"
-  "https://filters.adtidy.org/android/filters/14_optimized.txt"
-  "https://filters.adtidy.org/android/filters/5_optimized.txt"
-  "https://filters.adtidy.org/android/filters/4_optimized.txt"
+  "https://filters.adtidy.org/android/filters/2_optimized.txt" #adg基础过滤器
+  "https://filters.adtidy.org/android/filters/11_optimized.txt" #adg移动设备过滤器
+  "https://filters.adtidy.org/android/filters/17_optimized.txt"  #adgURL过滤器
+  "https://filters.adtidy.org/android/filters/3_optimized.txt" #adg防跟踪
+  "https://filters.adtidy.org/android/filters/224_optimized.txt" #adg中文过滤器
+  "https://filters.adtidy.org/android/filters/14_optimized.txt" #adg烦人过滤器
+  "https://filters.adtidy.org/android/filters/5_optimized.txt" #adg实验过滤器
+  "https://filters.adtidy.org/android/filters/4_optimized.txt" #adg社交过滤器
 )
 
 adguard_full=(
-  "https://filters.adtidy.org/android/filters/2.txt"
-  "https://filters.adtidy.org/android/filters/11.txt"
-  "https://filters.adtidy.org/android/filters/3.txt"
-  "https://filters.adtidy.org/android/filters/224.txt"
-  "https://filters.adtidy.org/android/filters/14.txt"
-  "https://filters.adtidy.org/android/filters/5.txt"
-  "https://filters.adtidy.org/android/filters/4.txt"
+  "https://filters.adtidy.org/android/filters/2.txt" #adg基础过滤器
+  "https://filters.adtidy.org/android/filters/11.txt" #adg移动设备过滤器
+  "https://filters.adtidy.org/android/filters/3.txt" #adg防跟踪
+  "https://filters.adtidy.org/android/filters/224.txt" #adg中文过滤器
+  "https://filters.adtidy.org/android/filters/14.txt" #adg烦人过滤器
+  "https://filters.adtidy.org/android/filters/5.txt" #adg实验过滤器
+  "https://filters.adtidy.org/android/filters/4.txt" #adg社交过滤器
+  "https://filters.adtidy.org/android/filters/17.txt"  #adgURL过滤器
 )
 
 allow=(
@@ -85,6 +88,7 @@ allow=(
 )
 
 dns=(
+  #以下规则不做阐述
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt"
@@ -157,7 +161,7 @@ cat full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^
 cat .././mod/rules/*-rules.txt dns*.txt abp-hosts.txt *easylist*.txt| grep '^|\|^@' | grep -v './' | grep -v '\*' | grep -v '^\[' | grep -v '.\[' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > tmp-dns.txt  #处理DNS规则
 cat dns*.txt abp-hosts.txt tmp-dns.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '^\[' | grep -v '.!' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-domains.txt #处理广告域名
-cat *allow*.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
+cat *.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
 
 # Python 处理重复规则
