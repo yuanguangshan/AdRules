@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-20 12:13:56（北京时间） 
-! Total count: 92144
+! Version: 2022-03-20 16:05:06（北京时间） 
+! Total count: 92138
 /aaddright.
 /abm.aspx
 /abmw.asp
@@ -2377,7 +2377,6 @@
 ||10-marketing.net.daraz.com^
 ||10.afs.googleadservices.com^
 ||10.im.cz^
-||10.rasif.xyz^
 ||100.admin5.com^
 ||100.pncdn.cn^
 ||10000hai.com^
@@ -12113,7 +12112,6 @@
 ||ajarsubscriber.com^
 ||ajaxbig.ru^
 ||ajaxcdn.org^
-||ajaxmatters.com^
 ||ajbeqy.delfi.lt^
 ||ajcclassifieds.com^
 ||ajcryptominer.com^
@@ -14803,7 +14801,6 @@
 ||apoolcondo.com^
 ||aporasal.net^
 ||apostlelinger.com^
-||apothecare.eitdev.com^
 ||app-03c19ea7c9fd0c57.mobileapi.usebutton.com^
 ||app-67a1a4bb9dffba86.mobileapi.usebutton.com^
 ||app-ab01.marketo.com^
@@ -44853,6 +44850,7 @@
 ||jltzknvw.com^
 ||jlvqhftliz.com^
 ||jlwljym.com^
+||jlwsw.top^
 ||jlxzt.com^
 ||jly24aw29n5m-a.akamaihd.net^
 ||jlyayxz.cn^
@@ -76525,7 +76523,6 @@
 ||subemania.com^
 ||subendorse.com^
 ||subhagruha.in^
-||subidhabazar.in^
 ||subiz-cdn.com^
 ||subiz.com.vn^
 ||subiz.com^
@@ -78530,7 +78527,6 @@
 ||technodesolutions.com^
 ||technoland.ae^
 ||technologia.com.pk^
-||technologiamoderna.club^
 ||technology.informaengage.com^
 ||technologyhumanity.org^
 ||technoratimedia.com^
@@ -78586,7 +78582,6 @@
 ||tekbaz.com^
 ||teknoarge.com^
 ||tel-tel-fie.com^
-||tel9e.xyz^
 ||telaria.adhaven.com^
 ||telaria.com^
 ||telariaeventsbidder-east.extend.tv^
@@ -84132,7 +84127,6 @@
 ||urlbrief.com^
 ||urlcash.net^
 ||urlconnection.net^
-||urlcut.net^
 ||urldata.net^
 ||urldelivery.com^
 ||urlet.cn^
