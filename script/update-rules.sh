@@ -12,45 +12,46 @@ echo '新建TMP文件夹完成'
 # Start Download Filter File
 echo '开始下载规则...'
 easylist=(
-  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
-  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
-  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
-  "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
-  "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt"
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"
-  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt"
-  "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt"
-  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
-  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt"
-  "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt"
-  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt"
+  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" #反广告屏蔽规则
+  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #反广告屏蔽规则
+  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt" #EasyChina和Easylist 基础规则
+  "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
+  "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #百度超级净化 @坂本大佬
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt" #一个URL过滤器
+  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt" #乘风视频广告规则
+  "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主针的盗版网站的规则
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt" #Clean Url 扩展的规则
+  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt" #My AdFilter (For PC)
+  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" #反广告拦截规则合集
+  "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt" #杏梢的全量规则
+  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载按钮
 )
-#  
+
 easylist_plus=(
 "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
-"https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt"
-"https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt"
-"https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt"
-"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt"
-"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt"
-"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt"
-"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt"
-"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt"
-"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt"
-"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt"
-"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt"
-"https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt"
-"https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
-"https://filters.adtidy.org/android/filters/2.txt"
+"https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" 
+"https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #净化百度
+"https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt" #乘风规则
+"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt" #uniartisan 基础
+"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt" #uniartisan lite
+"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt" #uniartisan plus
+"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt" #uniartisan隐私
+"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt" #ubo烦人过滤器
+"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt" #
+"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt" #ubo基础过滤器
+"https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt" #ubo隐私保护
+"https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载
+"https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主的规则
+"https://filters.adtidy.org/android/filters/2.txt" #adg基础过滤器
 "https://filters.adtidy.org/android/filters/11.txt"
 "https://filters.adtidy.org/android/filters/3.txt"
-"https://filters.adtidy.org/android/filters/224.txt"
+"https://filters.adtidy.org/android/filters/224.txt" #adg中文过滤器
 "https://filters.adtidy.org/android/filters/14.txt"
 "https://filters.adtidy.org/android/filters/5.txt"
 "https://filters.adtidy.org/android/filters/4.txt"
-"https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt"
-"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt"
+"https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
+"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
+  "https://easylist.to/easylist/fanboy-annoyance.txt" #烦人规则
 )
 
 adguard=(
@@ -101,7 +102,7 @@ dns=(
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt"
   "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
   "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
-  "https://adaway.org/hosts.txt"
+  "https://adaway.org/hosts.txt" #adaway规则
   "https://abp.oisd.nl/basic/"
 )
 
@@ -118,7 +119,7 @@ allow_domains=(
   "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt"
   "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt"
   "https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/whitelist/master/domains.list"
-  "https://raw.githubusercontent.com/neodevpro/neodevhost/master/customallowlist"
+  #"https://raw.githubusercontent.com/neodevpro/neodevhost/master/customallowlist"
 )
 
 for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard_full[@]}" "${!adguard[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_domains[@]}"  "${!allow_domains[@]}"
