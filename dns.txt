@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-20 00:17:38（北京时间） 
-! Total count: 90250
+! Version: 2022-03-20 08:37:51（北京时间） 
+! Total count: 90254
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^
 @@|adsterra.com^
@@ -269,6 +269,7 @@
 ||029qz3xam2qq.xyz^
 ||033.com^
 ||0351dvd.cn^
+||0371app.wang^
 ||0377shujuhuifu.top^
 ||037info1-astrologie.net.daraz.com^
 ||037nginxnfo.net.daraz.com^
@@ -9104,6 +9105,7 @@
 ||adverterenzeeland.nl^
 ||adverti.io^
 ||advertica-cdn.com^
+||advertica-cdn2.com^
 ||advertica.ae^
 ||advertica.eu^
 ||adverticum.com^
@@ -20081,6 +20083,7 @@
 ||cc.conforama.es^
 ||cc.hb.omtrdc.net^
 ||cc.iwon.com^
+||cc.labu24.de^
 ||cc.lbesec.com^
 ||cc.m.jd.com^
 ||cc.pennstatehealth.org^
@@ -20762,7 +20765,6 @@
 ||ceippoetamiguelhernandez.es^
 ||ceit.top^
 ||ceiyo.com^
-||cekornapred.org^
 ||cekyryfagyhy.ga^
 ||celeb-ads.com^
 ||celeb-trending.com^
@@ -21035,6 +21037,7 @@
 ||changhehengqi.com^
 ||chango.com^
 ||changs.pw^
+||changxu.cool^
 ||changyan.sohu.com^
 ||chanicut.com^
 ||chanmao.online^
@@ -22698,6 +22701,7 @@
 ||codeotel.com^
 ||coderexception.com^
 ||coderformylife.info^
+||coderjim.ltd^
 ||coderturk.com^
 ||codes.royalad.pl^
 ||codes.wai.it^
@@ -23744,6 +23748,7 @@
 ||cookies.livepartners.com^
 ||cookies.lmt.lv^
 ||cookies.nos.nl^
+||cookies.ptj.de^
 ||cookies.reedbusiness.nl^
 ||cookies.siemens-advanta.com^
 ||cookies.siemens-energy.com^
@@ -28430,6 +28435,7 @@
 ||download-file.ml^
 ||download-readynow.com^
 ||download-shares.com^
+||download-stats.mozilla.org^
 ||download.2345.cn^
 ||download.350.com^
 ||download.56.com^
@@ -31756,7 +31762,6 @@
 ||exaccess.ru^
 ||exactadvertising.com^
 ||exactag.com^
-||exactbridge.com^
 ||exactdrive.com^
 ||exacttarget.api.mashery.com^
 ||exacttarget.com^
@@ -33003,7 +33008,6 @@
 ||fiona.ai.net^
 ||fiorenetwork.com^
 ||fioressence.com^
-||fiorewlkfix.gq^
 ||fioricet-online.blogspot.com^
 ||fioricet.1.p2l.info^
 ||fioricet.3.p2l.info^
@@ -34080,7 +34084,6 @@
 ||frolvid.ru^
 ||fromjoytohappiness.com^
 ||fromru.su^
-||fromtofor.ca^
 ||front-logs.voodoo-ads.io^
 ||front.optimonk.com^
 ||frontier.musical.ly^
@@ -43043,6 +43046,7 @@
 ||johnsitsi.pro^
 ||johnston.grapeshot.co.uk^
 ||johtzj.com^
+||joiakit.com^
 ||joicky.com^
 ||join.opencare.com^
 ||join.pro-gaming-world.com^
@@ -43621,7 +43625,6 @@
 ||jxirpyci.com^
 ||jxiwdw.ufret.jp^
 ||jxjzny.com^
-||jxjzzy.com^
 ||jxliu.com^
 ||jxlqgs.com^
 ||jxmzyg.com^
@@ -44942,6 +44945,7 @@
 ||kzsicw.tvtoday.de^
 ||kzvhgpqvmle.com^
 ||kzxsrxf.cn^
+||kzzs.shop^
 ||l-kingmall.com^
 ||l.a.mobimagic.com^
 ||l.admedo.com^
@@ -47725,6 +47729,7 @@
 ||ly2si17.cn^
 ||ly5200.cn^
 ||ly8c.caci-online.fr^
+||lyabjy.cn^
 ||lyadu.com^
 ||lyaeccn.com^
 ||lyatblkpblca.com^
@@ -52673,7 +52678,6 @@
 ||ms-ads.presage.io^
 ||ms-ads.prod.cloud.ogury.io^
 ||ms-auction.presage.io^
-||ms-home-live.com^
 ||ms-mvp.org^
 ||ms-pipes-service.com^
 ||ms-shopzone.su^
@@ -52937,6 +52941,7 @@
 ||munero.me^
 ||munnin.hicsuntdra.co^
 ||munori.com^
+||muoo.xyz^
 ||mupads.de^
 ||muposa.com^
 ||mupsytyzu.com^
@@ -54643,6 +54648,7 @@
 ||nmiodk.promiflash.de^
 ||nmkonline.com^
 ||nmlhkj.com^
+||nmlysc.wang^
 ||nmmgp.cn^
 ||nmo1.orpi.com^
 ||nmpcdn.com^
@@ -58999,6 +59005,7 @@
 ||pingma.qq.com^
 ||pingmedia.ru^
 ||pingmeter.com^
+||pingmianshejishi.com^
 ||pingmid.qq.com^
 ||pingomatic.com^
 ||pings.blip.tv^
@@ -61636,7 +61643,6 @@
 ||push-free.com^
 ||push-house.net^
 ||push-me-up.com^
-||push-notification.tools^
 ||push-notifications.top^
 ||push-parking.inzhener-info.ru^
 ||push-tools-system.com^
@@ -74231,7 +74237,6 @@
 ||steepsquirrel.com^
 ||steepto.com^
 ||stehly.justfashionnow.com^
-||stehmanis.me^
 ||steinbackhaus.viessmann.com^
 ||steinernehaus.viessmann.at^
 ||steinfqwe6782beck.com^
@@ -78350,7 +78355,6 @@
 ||tournhatrang.asia^
 ||touroumu.com^
 ||toursbooking.mu^
-||toursinfez.com^
 ||toushibao.com^
 ||touted.marketo.com^
 ||toutiao.xn--fiqs8s^
@@ -78376,7 +78380,6 @@
 ||townsidewalkotter.com^
 ||townsquareinteractive.actonservice.com^
 ||toxy9ikenenxtf0f.com^
-||toyota-used-pickups.com^
 ||toyota.demdex.net^
 ||toywafdduceezo.com^
 ||tozovulozi.com^
@@ -81646,6 +81649,7 @@
 ||ujvilagtudat.blogspot.hu^
 ||ujvpma.infinitytools.com^
 ||uk-script.dotmetrics.net^
+||uk-tracking.nextdoor.com^
 ||uk.activeshopper.com^
 ||uk.ads.hexus.net^
 ||uk.ads.justpremium.com^
@@ -83546,7 +83550,6 @@
 ||vinov24.com^
 ||vinregle.com^
 ||vinsight.de^
-||vintagegarage.xyz^
 ||vinub.com^
 ||vinuxhome.com^
 ||vinylcoshery.com^
@@ -89298,6 +89301,7 @@
 ||zagxgmzmiledvh.com^
 ||zahirroyhan.com^
 ||zahrasudani.com^
+||zailaigou.top^
 ||zaintrillet.com^
 ||zaitouwang.com^
 ||zaivikuk.com^

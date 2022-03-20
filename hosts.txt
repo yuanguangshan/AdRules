@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-20 00:17:38（北京时间） 
-! Total count: 89899
+! Version: 2022-03-20 08:37:51（北京时间） 
+! Total count: 89903
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -57,6 +57,7 @@
 0.0.0.0 029qz3xam2qq.xyz
 0.0.0.0 033.com
 0.0.0.0 0351dvd.cn
+0.0.0.0 0371app.wang
 0.0.0.0 0377shujuhuifu.top
 0.0.0.0 037info1-astrologie.net.daraz.com
 0.0.0.0 037nginxnfo.net.daraz.com
@@ -8880,6 +8881,7 @@
 0.0.0.0 adverterenzeeland.nl
 0.0.0.0 adverti.io
 0.0.0.0 advertica-cdn.com
+0.0.0.0 advertica-cdn2.com
 0.0.0.0 advertica.ae
 0.0.0.0 advertica.eu
 0.0.0.0 adverticum.com
@@ -19836,6 +19838,7 @@
 0.0.0.0 cc.conforama.es
 0.0.0.0 cc.hb.omtrdc.net
 0.0.0.0 cc.iwon.com
+0.0.0.0 cc.labu24.de
 0.0.0.0 cc.lbesec.com
 0.0.0.0 cc.m.jd.com
 0.0.0.0 cc.pennstatehealth.org
@@ -20516,7 +20519,6 @@
 0.0.0.0 ceippoetamiguelhernandez.es
 0.0.0.0 ceit.top
 0.0.0.0 ceiyo.com
-0.0.0.0 cekornapred.org
 0.0.0.0 cekyryfagyhy.ga
 0.0.0.0 celeb-ads.com
 0.0.0.0 celeb-trending.com
@@ -20788,6 +20790,7 @@
 0.0.0.0 changhehengqi.com
 0.0.0.0 chango.com
 0.0.0.0 changs.pw
+0.0.0.0 changxu.cool
 0.0.0.0 changyan.sohu.com
 0.0.0.0 chanicut.com
 0.0.0.0 chanmao.online
@@ -22449,6 +22452,7 @@
 0.0.0.0 codeotel.com
 0.0.0.0 coderexception.com
 0.0.0.0 coderformylife.info
+0.0.0.0 coderjim.ltd
 0.0.0.0 coderturk.com
 0.0.0.0 codes.royalad.pl
 0.0.0.0 codes.wai.it
@@ -23492,6 +23496,7 @@
 0.0.0.0 cookies.livepartners.com
 0.0.0.0 cookies.lmt.lv
 0.0.0.0 cookies.nos.nl
+0.0.0.0 cookies.ptj.de
 0.0.0.0 cookies.reedbusiness.nl
 0.0.0.0 cookies.siemens-advanta.com
 0.0.0.0 cookies.siemens-energy.com
@@ -28168,6 +28173,7 @@
 0.0.0.0 download-file.ml
 0.0.0.0 download-readynow.com
 0.0.0.0 download-shares.com
+0.0.0.0 download-stats.mozilla.org
 0.0.0.0 download.2345.cn
 0.0.0.0 download.350.com
 0.0.0.0 download.56.com
@@ -31488,7 +31494,6 @@
 0.0.0.0 exaccess.ru
 0.0.0.0 exactadvertising.com
 0.0.0.0 exactag.com
-0.0.0.0 exactbridge.com
 0.0.0.0 exactdrive.com
 0.0.0.0 exacttarget.api.mashery.com
 0.0.0.0 exacttarget.com
@@ -32735,7 +32740,6 @@
 0.0.0.0 fiona.ai.net
 0.0.0.0 fiorenetwork.com
 0.0.0.0 fioressence.com
-0.0.0.0 fiorewlkfix.gq
 0.0.0.0 fioricet-online.blogspot.com
 0.0.0.0 fioricet.1.p2l.info
 0.0.0.0 fioricet.3.p2l.info
@@ -33809,7 +33813,6 @@
 0.0.0.0 frolvid.ru
 0.0.0.0 fromjoytohappiness.com
 0.0.0.0 fromru.su
-0.0.0.0 fromtofor.ca
 0.0.0.0 front-logs.voodoo-ads.io
 0.0.0.0 front.optimonk.com
 0.0.0.0 frontier.musical.ly
@@ -42756,6 +42759,7 @@
 0.0.0.0 johnsitsi.pro
 0.0.0.0 johnston.grapeshot.co.uk
 0.0.0.0 johtzj.com
+0.0.0.0 joiakit.com
 0.0.0.0 joicky.com
 0.0.0.0 join.opencare.com
 0.0.0.0 join.pro-gaming-world.com
@@ -43333,7 +43337,6 @@
 0.0.0.0 jxirpyci.com
 0.0.0.0 jxiwdw.ufret.jp
 0.0.0.0 jxjzny.com
-0.0.0.0 jxjzzy.com
 0.0.0.0 jxliu.com
 0.0.0.0 jxlqgs.com
 0.0.0.0 jxmzyg.com
@@ -44653,6 +44656,7 @@
 0.0.0.0 kzsicw.tvtoday.de
 0.0.0.0 kzvhgpqvmle.com
 0.0.0.0 kzxsrxf.cn
+0.0.0.0 kzzs.shop
 0.0.0.0 l-kingmall.com
 0.0.0.0 l.a.mobimagic.com
 0.0.0.0 l.admedo.com
@@ -47431,6 +47435,7 @@
 0.0.0.0 ly2si17.cn
 0.0.0.0 ly5200.cn
 0.0.0.0 ly8c.caci-online.fr
+0.0.0.0 lyabjy.cn
 0.0.0.0 lyadu.com
 0.0.0.0 lyaeccn.com
 0.0.0.0 lyatblkpblca.com
@@ -52368,7 +52373,6 @@
 0.0.0.0 ms-ads.presage.io
 0.0.0.0 ms-ads.prod.cloud.ogury.io
 0.0.0.0 ms-auction.presage.io
-0.0.0.0 ms-home-live.com
 0.0.0.0 ms-mvp.org
 0.0.0.0 ms-pipes-service.com
 0.0.0.0 ms-shopzone.su
@@ -52631,6 +52635,7 @@
 0.0.0.0 munero.me
 0.0.0.0 munnin.hicsuntdra.co
 0.0.0.0 munori.com
+0.0.0.0 muoo.xyz
 0.0.0.0 mupads.de
 0.0.0.0 muposa.com
 0.0.0.0 mupsytyzu.com
@@ -54335,6 +54340,7 @@
 0.0.0.0 nmiodk.promiflash.de
 0.0.0.0 nmkonline.com
 0.0.0.0 nmlhkj.com
+0.0.0.0 nmlysc.wang
 0.0.0.0 nmmgp.cn
 0.0.0.0 nmo1.orpi.com
 0.0.0.0 nmpcdn.com
@@ -58685,6 +58691,7 @@
 0.0.0.0 pingma.qq.com
 0.0.0.0 pingmedia.ru
 0.0.0.0 pingmeter.com
+0.0.0.0 pingmianshejishi.com
 0.0.0.0 pingmid.qq.com
 0.0.0.0 pingomatic.com
 0.0.0.0 pings.blip.tv
@@ -61316,7 +61323,6 @@
 0.0.0.0 push-free.com
 0.0.0.0 push-house.net
 0.0.0.0 push-me-up.com
-0.0.0.0 push-notification.tools
 0.0.0.0 push-notifications.top
 0.0.0.0 push-parking.inzhener-info.ru
 0.0.0.0 push-tools-system.com
@@ -73906,7 +73912,6 @@
 0.0.0.0 steepsquirrel.com
 0.0.0.0 steepto.com
 0.0.0.0 stehly.justfashionnow.com
-0.0.0.0 stehmanis.me
 0.0.0.0 steinbackhaus.viessmann.com
 0.0.0.0 steinernehaus.viessmann.at
 0.0.0.0 steinfqwe6782beck.com
@@ -78013,7 +78018,6 @@
 0.0.0.0 tournhatrang.asia
 0.0.0.0 touroumu.com
 0.0.0.0 toursbooking.mu
-0.0.0.0 toursinfez.com
 0.0.0.0 toushibao.com
 0.0.0.0 touted.marketo.com
 0.0.0.0 toutiao.xn--fiqs8s
@@ -78039,7 +78043,6 @@
 0.0.0.0 townsidewalkotter.com
 0.0.0.0 townsquareinteractive.actonservice.com
 0.0.0.0 toxy9ikenenxtf0f.com
-0.0.0.0 toyota-used-pickups.com
 0.0.0.0 toyota.demdex.net
 0.0.0.0 toywafdduceezo.com
 0.0.0.0 tozovulozi.com
@@ -81307,6 +81310,7 @@
 0.0.0.0 ujvilagtudat.blogspot.hu
 0.0.0.0 ujvpma.infinitytools.com
 0.0.0.0 uk-script.dotmetrics.net
+0.0.0.0 uk-tracking.nextdoor.com
 0.0.0.0 uk.activeshopper.com
 0.0.0.0 uk.ads.hexus.net
 0.0.0.0 uk.ads.justpremium.com
@@ -83205,7 +83209,6 @@
 0.0.0.0 vinov24.com
 0.0.0.0 vinregle.com
 0.0.0.0 vinsight.de
-0.0.0.0 vintagegarage.xyz
 0.0.0.0 vinub.com
 0.0.0.0 vinuxhome.com
 0.0.0.0 vinylcoshery.com
@@ -88949,6 +88952,7 @@
 0.0.0.0 zagxgmzmiledvh.com
 0.0.0.0 zahirroyhan.com
 0.0.0.0 zahrasudani.com
+0.0.0.0 zailaigou.top
 0.0.0.0 zaintrillet.com
 0.0.0.0 zaitouwang.com
 0.0.0.0 zaivikuk.com
