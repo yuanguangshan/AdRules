@@ -152,7 +152,7 @@ cat hosts*.txt| grep -Ev '#|\$|@|!|/|\\|\*'| sed 's/127.0.0.1 //' | sed 's/0.0.0
 
 cat allow-domains*.txt | grep -v '#' |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n | uniq | awk '!a[$0]++' >> pre-allow.txt  #将允许域名转换为ABP规则
 
-cat *.txt |grep '^/' |grep -v './\|.?\|.\$\|.js\|._\|.\*\|.(php|png)\|.[0-9]\|.\^\|.=\|.~' |sort -u > l.txt
+cat *.txt |grep '^/' |grep -v './\|.?\|.\$\|.js\|._\|.\*\|.(php|png)\|.[0-9]\|.\^\|.=\|.~\|.[A-Z]\|.-' |sort -u > l.txt
 #cat l.txt
 # Start Merge and Duplicate Removal
 #set LC_ALL='C'
