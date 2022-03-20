@@ -3,8 +3,8 @@
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Description: AdRules (For AdGuard)对于Ublock! Version: 2022-03-20 16:25:40（北京时间） 
-! Total count: 100420
+! Description: AdRules (For AdGuard)对于Ublock! Version: 2022-03-20 16:42:33（北京时间） 
+! Total count: 100421
 -1688-wp-media/ads/
 -880-80-4.jpg
 -780x90-
@@ -217,6 +217,7 @@
 ###ad-300x250
 ###ad-300x250-1
 ###ad-300x250-2
+###ad-300x250_mobile
 ###ad-32
 ###ad-4
 ###ad-5
