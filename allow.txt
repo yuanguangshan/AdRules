@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-21 16:18:33（北京时间） 
-! Total count: 17211
+! Version: 2022-03-21 23:19:43（北京时间） 
+! Total count: 17207
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -25,6 +25,7 @@
 @@*$app=com.cinemark.mobile
 @@*$css,1p,domain=acortalo.*|acortar.*|megadescarga.net
 @@*$ghide,domain=acortalo.*|acortar.*|megadescarga.net
+@@*$ghide,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
 @@*$ghide,domain=bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|designbump.com|grammarist.com|madworldnews.com|reviveusa.com|sonsoflibertymedia.com|thedesigninspiration.com|themattwalshblog.com|videogamesblogger.com
 @@*$ghide,domain=brainly.*|eodev.com
 @@*$ghide,domain=deinesexfilme.com|einfachtitten.com|halloporno.com|herzporno.com|hd-pornos.net|lesbenhd.com|milffabrik.com|porn-monkey.com|porndrake.com|pornhubdeutsch.net|pornoaffe.com|pornodavid.com|pornoente.tv|pornofisch.com|pornofelix.com|pornohammer.com|pornohelm.com|pornoklinge.com|pornotom.com|pornotommy.com|pornovideos-hd.com|pornozebra.com|xhamsterdeutsch.xyz|xnxx-sexfilme.com
@@ -111,6 +112,7 @@
 @@/OutbrainWidgetConnector.js$domain=foxnews.com
 @@/RealMedia/ads^$domain=aeroplan.com
 @@/Resources/Public/JavaScript/CookieBar.js$~third-party
+@@/Status/ping$stealth,domain=status.bigant.com
 @@/Tag.rb$domain=github.com
 @@/Themes/SamsungShop/Scripts/shop/cookie-notice.js$domain=shop.samsung.com
 @@/WebAd/*$domain=yongyoujia.com
@@ -5424,7 +5426,6 @@
 @@||ecard.shenzhentong.com^
 @@||eceplayground.com^*/plugins/sociable/
 @@||ecestaticos.com/build/js/common/statistics/engines/deepbieventadapter.$domain=elconfidencial.com
-@@||echo-online.de^$ghide
 @@||ecitic.com/source/*/pop
 @@||ecitic.com^
 @@||ecma.bdimg.com/holmes/*.svg
@@ -6496,7 +6497,6 @@
 @@||geekdrop.com^$ghide
 @@||geekrar.com/wp-content/*/js/ads-*.js
 @@||geekzone.co.nz^$generichide
-@@||geekzone.co.nz^$ghide
 @@||gelbeseiten.de/*/js/components/*.js
 @@||gelbeseiten.de^$script,1p
 @@||gelbooru.com//images/ad/$image,~third-party
@@ -7430,6 +7430,7 @@
 @@||googletagmanager.com/gtm.js$domain=nunnbush.com
 @@||googletagmanager.com/gtm.js$domain=nykaa.com
 @@||googletagmanager.com/gtm.js$domain=oresundsbron.com
+@@||googletagmanager.com/gtm.js$domain=otomotoklik.pl
 @@||googletagmanager.com/gtm.js$domain=overwatchleague.com
 @@||googletagmanager.com/gtm.js$domain=packtpub.com
 @@||googletagmanager.com/gtm.js$domain=pcjisaku.com
@@ -10815,8 +10816,6 @@
 @@||nba.com^$ghide
 @@||nbaapi.neulion.com/api_nba/$stealth,domain=nba.com
 @@||nbc.com/generetic/scripts/ads.js
-@@||nbcnews.com/videoplayer$jsinject
-@@||nbcnews.com/widget/pdkplayer$jsinject
 @@||nbcolympics.com/profiles/olympics/*$domain=nbcolympics.com
 @@||nbcudigitaladops.com/hosted/pubads.js$script,domain=nbc.com
 @@||nbcume.sc.omtrdc.net/id?d_visid_ver=$domain=nbcdfw.com,important
@@ -11250,7 +11249,7 @@
 @@||onesignal.com/sdks/OneSignalSDK.js$domain=wowbiz.ro
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
-@@||onet.pl/?utm_source=$removeparam! Checksum: oBGkeTPnIZlWyQtdVnBIYg
+@@||onet.pl/?utm_source=$removeparam! Checksum: +LHcVYsy14kOvqyNk3dexg
 @@||onet.pl/?utm_source=$removeparam![Adblock Plus 2.0]
 @@||onet.pl/?utm_source=$removeparam# AdAway default blocklist
 @@||onet.pl/?utm_source=$removeparam[Adblock Plus 2.0]
@@ -12257,7 +12256,6 @@
 @@||player.snacktv.de/js/ads.js$script
 @@||player.starlight.digital^$stealth
 @@||player.sundaysky.com^$subdocument
-@@||player.theplatform.com^$jsinject
 @@||player.vgtrk.com/js/stat.js?
 @@||player.vimeo.com/video^$stealth
 @@||player.vimeo.com^$domain=hexlet.io,stealth
@@ -13043,8 +13041,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: B0tAnNWlNVmHzJDeGX8HgQ
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: zBRpLNF7/G658YQ7bOxLfg
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: 8j8u1fjrxoKbiON39jJsBA
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: 9C9Xvegr3IB4RbdlnTQrog
 @@||reseguiden.se^*.siteCatalyst.js![Adblock Plus 2.0]
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
@@ -14048,7 +14046,7 @@
 @@||sledujserialy.io/theme/js/popunder.js
 @@||sledujserialy.to/theme/js/popunder.js
 @@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net
-@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net! Checksum: DWGmyrKfZgt+6oPOpFNeTg
+@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net! Checksum: 7/wgHHpCh8dR1UlINGEgqA
 @@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net![Adblock Plus 2.0]
 @@||slidesharecdn.com^*/linkedin-$image,domain=slideshare.net
 @@||slike.indiatimes.com/feed/$domain=idiva.com
@@ -15848,9 +15846,9 @@
 @@||urlex.org^$generichide
 @@||urlex.org^$ghide
 @@||urlgalleries.net^$generichide
-@@||urlgalleries.net^$generichide! Checksum: FuGgU7mO49LIwiPg9oj1LQ
-@@||urlgalleries.net^$generichide! Checksum: HmDqiYrf9W+mZMZZy5O7tQ
-@@||urlgalleries.net^$generichide! Checksum: hsSW8+Tk+QjavtTJAouBJA
+@@||urlgalleries.net^$generichide! Checksum: 0Et3DmIezvGbqwbFOQgckw
+@@||urlgalleries.net^$generichide! Checksum: 4koWSSPsMxH9bHMh1Ixjfg
+@@||urlgalleries.net^$generichide! Checksum: kHwb9u/HmkntvHlULxJCmg
 @@||urlgalleries.net^$generichide![Adblock Plus 2.0]
 @@||urlpay.net/wp-content/plugins/*/assets/fuckadblock.js
 @@||us-east-1.amazonaws.com^
@@ -16263,8 +16261,6 @@
 @@||voyeurhit.com/related_videos.php
 @@||vp.videoplaza.tv/resources/pulse-sdk-html5/$script,domain=lalibre.be
 @@||vplayer.ilsemedia.nl/swf/im_player.swf?
-@@||vplayer.nbcolympics.com^$jsinject
-@@||vplayer.nbcsports.com^$jsinject
 @@||vpnjantit.com^$generichide
 @@||vpnsplit.com/ads/advertisement.js
 @@||vpnssh.net^$ghide
