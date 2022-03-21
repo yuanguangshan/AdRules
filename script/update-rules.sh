@@ -47,7 +47,7 @@ easylist_plus=(
 "https://filters.adtidy.org/android/filters/4.txt" #adg社交过滤器
 "https://filters.adtidy.org/android/filters/17.txt"  #adgURL过滤器
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
-"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
+#"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
 "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
  # "https://easylist.to/easylist/fanboy-annoyance.txt" #烦人规则
 )
@@ -131,6 +131,7 @@ dns=(
 
 hosts=(
   "https://adaway.org/hosts.txt"
+https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt
 )
 
 ad_domains=(
@@ -164,7 +165,8 @@ curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts999.txt
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list \
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts998.txt
-
+curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt \
+ | grep -v '^#' > plus-hosts1.txt
 echo '规则下载完成'
 
 # Pre Fix rules
@@ -186,7 +188,7 @@ cat full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^
 
 cat .././mod/rules/*-rules.txt dns*.txt *hosts*.txt plus*easylist*.txt | grep '^||\|^@@||' | grep -v './' | grep -v '\*' | grep -v '^\[' | grep -v '.\[' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > ll.txt 
 cat ll.txt l.txt |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
-cat dns*.txt abp-hosts.txt tmp-dns.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '^\[' | grep -v '.!' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
+cat dns*.txt abp-hosts.txt tmp-dns.txt  plus-hosts*.txt | grep '^|' | grep -v '\*'| grep -v './'| grep -v '^\[' | grep -v '.!' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-domains.txt #处理广告域名
 cat *.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
