@@ -251,5 +251,12 @@ for i in $diffFile; do
  echo "合并${i}的标题中"
 done
 echo '规则处理完成'
+
+# Add MD5
+mkdir -p ./md5/
+for i in $diffFile; do
+ md5sum $i | sed "s/$i//" > ./md5/$i.md5
+ echo "生成${i}的md5中"
+done
 rm -rf pre tmp
 exit
