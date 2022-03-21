@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-21 00:18:02（北京时间） 
-! Total count: 17209
+! Version: 2022-03-21 08:54:46（北京时间） 
+! Total count: 17210
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -10282,6 +10282,7 @@
 @@||megaleech.us^$ghide
 @@||megaline.co/intermission/loadTargetUrl$xmlhttprequest
 @@||megapolisonline.ru/wp-content/plugins/easy-vkontakte-connect/js/social-likes.min.js
+@@||megatube.xxx/atrm/s/s/js/m/pr-before.js$script,1p
 @@||megaup.net/ads.js
 @@||megaup.net^$generichide
 @@||megaup.net^$ghide
@@ -13041,8 +13042,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: krn89lxgT2qDYGWNeAQTdg
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: o5jIVf7Sp1m5Yzzkj13b4g
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: /w19wrXtRME/zSMf2JVbAg
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: Gm0T7nllVAsyYPN+WS8sAg
 @@||reseguiden.se^*.siteCatalyst.js![Adblock Plus 2.0]
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^

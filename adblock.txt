@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-21 00:18:02（北京时间） 
-! Total count: 127600
+! Version: 2022-03-21 08:54:46（北京时间） 
+! Total count: 127613
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -7399,6 +7399,7 @@
 ###pb_adbanner
 ###pb_report_ad
 ###pc-billboard-ad
+###pc-div-gpt-ad_728-3
 ###pcworldAdBottom
 ###pcworldAdTop
 ###pencil-ad
@@ -15289,6 +15290,7 @@
 ##.amp-ads
 ##.amp-ads-container
 ##.amp-adv-container
+##.amp-flying-carpet-text-border
 ##.amp-sticky-ad-custom
 ##.amp-sticky-ads
 ##.amp-unresolved
@@ -24821,6 +24823,7 @@
 ##adblocker
 ##amp-ad-custom
 ##amp-embed[type="taboola"]
+##amp-fx-flying-carpet
 ##app-advertisement
 ##app-large-ad
 ##aside[id^="adrotate_widgets-"]
@@ -48179,6 +48182,7 @@ amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id*="_ad-placements-"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="desktop-dp-sims_sb-dp-id"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
+amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sims-mobile-consolidated-4_csm_instrumentation_wrapper"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-rhf-desktop-carousel_desktop-rhf_0"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp_phone_detail_thematic"]
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id^="LEFT-SAFE_FRAME-"]
@@ -77522,6 +77526,7 @@ zzpzero.com
 ||bxgz.cc^
 ||bxkhoyrl.xyz^
 ||bxkxzjdjxeexi.com^
+||bxly.xyz^
 ||bxmns.com^
 ||bxmuvw.cn^
 ||bxqgxnechpwojfo.com^
@@ -91749,6 +91754,7 @@ zzpzero.com
 ||huaren.us/banners/
 ||huaren.us/bbs_ads/
 ||huarenjie.com/attachment/myfiles/
+||huasheng.love^
 ||huasuihz.top^
 ||huataisangao.cn^
 ||huatakj.com^
@@ -94541,6 +94547,7 @@ zzpzero.com
 ||jiaoben.webkaka.com^
 ||jiaodong.net/a/js/
 ||jiaofulin.cn^
+||jiaoyiwang.fun^
 ||jiaoyou8.com^$domain=mitbbs.ca|mitbbs.com
 ||jiaoyu.baidu.com/tieba/
 ||jiaruntian.com^
@@ -103600,6 +103607,7 @@ zzpzero.com
 ||oilofasia.com/images/banners/
 ||oimg.nbcsports.com^
 ||oiniao.com^
+||oioiio.top^
 ||oiqpgawl.com^
 ||oirmwitmrfpl.com^
 ||oivxuct.cn^
@@ -109900,6 +109908,7 @@ zzpzero.com
 ||ruian.com/img/2016/a1-6-1.gif
 ||ruian.com/img/y13/
 ||ruibokeji.cn^
+||ruide168.pw^
 ||ruif.xyz^
 ||ruigezx.com^
 ||ruishungp.com/assetscms2019/js/get_content.js
@@ -115165,6 +115174,7 @@ zzpzero.com
 ||stats.big-boards.com^
 ||stats.bimbase.nl^
 ||stats.birgun.net^
+||stats.bitban.com^
 ||stats.bitgravity.com^
 ||stats.bitpost.app^
 ||stats.blockleviton.com^
@@ -117773,6 +117783,7 @@ zzpzero.com
 ||timesofindia.com^*/defaultinterstitial_js_react/$script,~third-party
 ||timeterritory.com^
 ||timetwig.com^
+||timi.pro^
 ||timingaskew.com^
 ||timinternet.it/timmobilestatic/img/*.gif?
 ||timinternet.it/timmobilestatic/jsPrivacy/gdl_function_cookie.js
@@ -119947,6 +119958,7 @@ zzpzero.com
 ||ttspikbeglki.com^
 ||tttppp.oss-cn-guangzhou.aliyuncs.com^
 ||tttxx.cn^$third-party
+||ttwrhns.cn^
 ||ttxknb.com^
 ||ttylmex.cn^
 ||ttyvdilxsuorg.com^
@@ -125598,6 +125610,7 @@ zzpzero.com
 ||yclmw.com^
 ||yclxrj.top^$third-party
 ||ycmedia.cn$third-party
+||ycooh.group^
 ||ycurrentjobis.biz^
 ||ycych.com^
 ||yczbb.*/ggimg/
