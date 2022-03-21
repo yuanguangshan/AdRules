@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-21 09:39:43（北京时间） 
-! Total count: 90385
+! Version: 2022-03-21 16:18:33（北京时间） 
+! Total count: 90386
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -2964,7 +2964,6 @@
 0.0.0.0 a2sex.com
 0.0.0.0 a2tw6yoodsag.com
 0.0.0.0 a2uu36g43l.download
-0.0.0.0 a2zapk.com
 0.0.0.0 a2zgroup.in
 0.0.0.0 a3.ikafan.com
 0.0.0.0 a3.jandan.net
@@ -16680,6 +16679,7 @@
 0.0.0.0 bestfoods.co
 0.0.0.0 bestforexpartners.com
 0.0.0.0 bestgameads.com
+0.0.0.0 bestgong.top
 0.0.0.0 bestgore.fun
 0.0.0.0 bestheadphones4u.com
 0.0.0.0 besthitsnow.com
@@ -53744,6 +53744,7 @@
 0.0.0.0 nbslx.mobi
 0.0.0.0 nbstatic.com
 0.0.0.0 nbtree.cn
+0.0.0.0 nby360.com
 0.0.0.0 nbzq.net
 0.0.0.0 nc.5.p2l.info
 0.0.0.0 nc0.co
