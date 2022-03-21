@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-03-21 23:44:43（北京时间） 
+! Version: 2022-03-21 23:50:57（北京时间） 
 ! Total count: 17202
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
