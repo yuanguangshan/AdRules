@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-03-22 00:29:26（北京时间） 
+! Version: 2022-03-22 00:38:33（北京时间） 
 ! Total count: 17202
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -3861,7 +3861,7 @@
 @@||cdndx.clouddata8g.xyz^$script,domain=www.cocomanhua.com
 @@||cdne-st.redtubefiles.com/css/*$domain=redtube.com|redtube.net
 @@||cdnfile.info/*/stream/$stealth,domain=vidcloud9.com
-@@||cdninstagram.com^$stealth,domain=instagram.com
+@@||cdninstagram.com^$stealth,domain=instagram.com|cursorinfo.co.il
 @@||cdnjs.cloudflare.com/ajax/$script,domain=pch.com
 @@||cdnjs.cloudflare.com/ajax/libs/$domain=fmovies.to
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -11245,7 +11245,7 @@
 @@||onesignal.com/sdks/OneSignalSDK.js$domain=wowbiz.ro
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
-@@||onet.pl/?utm_source=$removeparam! Checksum: +LHcVYsy14kOvqyNk3dexg
+@@||onet.pl/?utm_source=$removeparam! Checksum: NK7m1AOsCTlX4tk4IAK0ZQ
 @@||onet.pl/?utm_source=$removeparam![Adblock Plus 2.0]
 @@||onet.pl/?utm_source=$removeparam# AdAway default blocklist
 @@||onet.pl/?utm_source=$removeparam[Adblock Plus 2.0]
@@ -15843,9 +15843,9 @@
 @@||urlex.org^$generichide
 @@||urlex.org^$ghide
 @@||urlgalleries.net^$generichide
-@@||urlgalleries.net^$generichide! Checksum: 0Et3DmIezvGbqwbFOQgckw
-@@||urlgalleries.net^$generichide! Checksum: 4koWSSPsMxH9bHMh1Ixjfg
-@@||urlgalleries.net^$generichide! Checksum: kHwb9u/HmkntvHlULxJCmg
+@@||urlgalleries.net^$generichide! Checksum: Gqe5jTIpTKW0oryJ+fNpig
+@@||urlgalleries.net^$generichide! Checksum: ZX+xLhIbjV3T5PfVGp9X9Q
+@@||urlgalleries.net^$generichide! Checksum: iNVkOYbhBvAunKRkLlWu6g
 @@||urlgalleries.net^$generichide![Adblock Plus 2.0]
 @@||urlpay.net/wp-content/plugins/*/assets/fuckadblock.js
 @@||us-east-1.amazonaws.com^
