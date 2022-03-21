@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-21 23:34:04（北京时间） 
-! Total count: 17207
+! Version: 2022-03-21 23:44:43（北京时间） 
+! Total count: 17202
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -3221,7 +3221,6 @@
 @@||carandclassic.co.uk/images/free_advert/$image,~third-party
 @@||carbu.com^*templates/media/js/ads.js
 @@||cardgames.io^$ghide
-@@||cards.iqiyi.com^$app=com.qiyi.video
 @@||care2.com/assets/scripts/cookies/care2/NitroCookies.js
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
 @@||cargocollective.com/designs/$document
@@ -4167,7 +4166,6 @@
 @@||cloud.roistat.com/dist/module.*$script,stylesheet,domain=britvabarber.ru
 @@||cloud.roistat.com/dist/module.*$script,stylesheet,domain=britvabarber.ru|tickets.bckhimki.ru
 @@||cloud.roistat.com/dist/module.js$domain=pandashop.md
-@@||cloud.rongxingvr.cc^
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
 @@||cloud.typography.com/*/css/fonts.css$stealth
 @@||cloudflare.com/*/fingerprint2.min.js$domain=saavn.com
@@ -4878,7 +4876,6 @@
 @@||daumcdn.net/tistory/*/skin/images/fuckadblock.js$domain=tistory.com
 @@||daumcdn.net^*/socialshare-*.min.js$domain=daum.net
 @@||dausel.co^$ghide
-@@||dav.jianguoyun.com^$important
 @@||davidsilverspares.co.uk/graphics/*_ad.gif$~third-party
 @@||daxab.com/player/$stealth
 @@||dayanzai.me/image/ad/$image
@@ -9142,7 +9139,6 @@
 @@||jg-werbegeschenke.de/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js
 @@||jheberg.net/js/*_advertisement.js$script
 @@||jhub.pw^$generichide
-@@||jianghu.live2008.com^$domain=m.imomoe.*
 @@||jianshu.com/asimov/ab_test/info
 @@||jiathis.com^
 @@||jiav000.com^$generichide
@@ -11659,6 +11655,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tsviewer.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tutcourse.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=udemydownload.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=unlimitdownloads.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=unlockapk.com|newsjizz.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=up-4ever.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=updato.com
@@ -16842,7 +16839,6 @@
 @@||www.voici.fr/ads.js|$xmlhttprequest
 @@||www.youtube-nocookie.com^
 @@||www.zee5.com^$stealth,domain=zee5.com
-@@||www.zhihu.com/api/v4^$app=com.zhihu.android
 @@||www3.doubleclick.net/|$xmlhttprequest,domain=shaalaa.com
 @@||www3.doubleclick.net/|$xmlhttprequest,domain=vn.trueid.net
 @@||www3.doubleclick.net^|$domain=mac2sell.net
@@ -17171,7 +17167,6 @@
 @@||zhaopin.cn/js/app/popShow.
 @@||zhaopin.cn^*/adbox_
 @@||zhengdongwuye.cn/upload/$image,stealth
-@@||zhihu-web-analytics.zhihu.com/api/v2/za/payload-verification
 @@||zidiplay.com/v/$stealth,domain=watchhowimetyourmother.online
 @@||zidiplay.com^$stealth
 @@||ziffdavis.com/edaa^$domain=youronlinechoices.com
