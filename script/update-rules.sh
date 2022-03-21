@@ -2,7 +2,7 @@
 LC_ALL='C'
 
 rm *.txt
-
+rm -rf md5
 # Create temporary folder
 echo '新建TMP文件夹...'
 mkdir -p ./tmp/
@@ -181,8 +181,8 @@ cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '.!'
 cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' | grep -v '.!' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
 cat adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
 cat full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full.txt #处理AdGuard的规则
-cat ubo-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-ubo.txt #处理AdGuard的规则
-cat ubo-full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full-ubo.txt #处理AdGuard的规则
+#cat ubo-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-ubo.txt #处理AdGuard的规则
+#cat ubo-full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full-ubo.txt #处理AdGuard的规则
 
 cat .././mod/rules/*-rules.txt dns*.txt *hosts*.txt plus*easylist*.txt | grep '^||\|^@@||' | grep -v './' | grep -v '\*' | grep -v '^\[' | grep -v '.\[' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > ll.txt 
 cat ll.txt l.txt |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
@@ -193,6 +193,7 @@ echo '规则去重处理完成'
 
 # Python 处理重复规则
 python .././script/rule.py
+
 # Move to Pre Filter
 echo '移动规则到Pre目录'
 cd ../
@@ -207,8 +208,8 @@ echo '正在计算规则总数..'
 adblock_num=`cat tmp-adblock.txt | wc -l`
 adblock_plus_num=`cat tmp-adblock+adguard.txt | wc -l`
 adguard_num=`cat tmp-adguard.txt | wc -l`
-ubo_adguard_num=`cat tmp-adguard-ubo.txt | wc -l`
-ubo_full_adguard_num=`cat tmp-adguard-full-ubo.txt | wc -l`
+#ubo_adguard_num=`cat tmp-adguard-ubo.txt | wc -l`
+#ubo_full_adguard_num=`cat tmp-adguard-full-ubo.txt | wc -l`
 full_adguard_num=`cat tmp-adguard-full.txt | wc -l`
 dns_num=`cat tmp-dns.txt | wc -l`
 hosts_num=`cat tmp-hosts.txt | wc -l`
@@ -237,8 +238,8 @@ cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
 cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
 cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
 cat tpdate.txt ad-domains-tpdate.txt tmp-ad-domains.txt > ad-domains.txt
-cat tpdate.txt ubo-adguard-tpdate.txt tmp-adguard-ubo.txt > adguard-ubo.txt
-cat tpdate.txt ubo-full-adguard-tpdate.txt tmp-adguard-full-ubo.txt > adguard-full-ubo.txt
+#cat tpdate.txt ubo-adguard-tpdate.txt tmp-adguard-ubo.txt > adguard-ubo.txt
+#cat tpdate.txt ubo-full-adguard-tpdate.txt tmp-adguard-full-ubo.txt > adguard-full-ubo.txt
 rm tmp*.txt *tpdate.txt
 
 # Add Title
@@ -258,5 +259,6 @@ for i in $diffFile; do
  md5sum $i | sed "s/$i//" > ./md5/$i.md5
  echo "生成${i}的md5中"
 done
+echo '完成'
 rm -rf pre tmp
 exit
