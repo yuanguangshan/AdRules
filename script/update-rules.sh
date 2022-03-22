@@ -101,6 +101,7 @@ dns=(
   "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
   "https://adaway.org/hosts.txt" #adaway规则
   "https://abp.oisd.nl/basic/"
+  "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt"
 )
 
 hosts=(
