@@ -21,14 +21,14 @@ def iter_count(file_name):
         buf_gen = takewhile(lambda x: x, (f.read(buffer) for _ in repeat(None)))
         return sum(buf.count('\n') for buf in buf_gen)
 
-count_a = iter_count("adguard.txt") -8
-count_af = iter_count("adguard-full.txt") -8
-count_ab = iter_count("adblock+adguard.txt") -8
-count_al = iter_count("allow.txt") -8
-count_A = iter_count("adblock.txt") -8
-count_d = iter_count("dns.txt") -8
-count_ad = iter_count("hosts.txt") -6
-count_domians = iter_count("ad-domains.txt") -2
+count_a = iter_count("adguard.txt") -9
+count_af = iter_count("adguard-full.txt") -9
+count_ab = iter_count("adblock+adguard.txt") -9
+count_al = iter_count("allow.txt") -9
+count_A = iter_count("adblock.txt") -9
+count_d = iter_count("dns.txt") -9
+count_ad = iter_count("hosts.txt") -9
+count_domians = iter_count("ad-domains.txt") -3
 
 #设置时区
 #tz_utc_8 = timezone(timedelta(hours=8))
