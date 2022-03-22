@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-22 08:56:21（北京时间） 
-! Total count: 102664
+! Version: 2022-03-22 16:17:39（北京时间） 
+! Total count: 102669
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -1651,6 +1651,7 @@
 0.0.0.0 51la.net
 0.0.0.0 51link.com
 0.0.0.0 51lx.ink
+0.0.0.0 51mw.club
 0.0.0.0 51network.com
 0.0.0.0 51niu.pro
 0.0.0.0 51posuiji.org.cn
@@ -36351,6 +36352,7 @@
 0.0.0.0 eymiwj.cancan.ro
 0.0.0.0 eyouv.cn
 0.0.0.0 eypdcpzrvk.com
+0.0.0.0 eywvmnf.cn
 0.0.0.0 eyzu80g9xcxa.com
 0.0.0.0 eyzubm.gooutdoors.co.uk
 0.0.0.0 ezaktak.ru
@@ -37508,6 +37510,7 @@
 0.0.0.0 fishermanmartial.com
 0.0.0.0 fishhoo.com
 0.0.0.0 fishpassportvocational.com
+0.0.0.0 fishsalt.top
 0.0.0.0 fishyscalpelweight.com
 0.0.0.0 fisintegrateds.com
 0.0.0.0 fisioterapiaweb.com.br
@@ -41123,7 +41126,6 @@
 0.0.0.0 googfle.com
 0.0.0.0 google-analyticals.com
 0.0.0.0 google-analytics.com
-0.0.0.0 google-docs.org
 0.0.0.0 google-pagerank.net
 0.0.0.0 google-rank.org
 0.0.0.0 google-shopping.sapoapps.vn
@@ -51724,6 +51726,7 @@
 0.0.0.0 lignumagnatic.cam
 0.0.0.0 ligxyv.hackers.co.kr
 0.0.0.0 lihailin.vip
+0.0.0.0 lihong.ltd
 0.0.0.0 lijie1010.top
 0.0.0.0 lijit.com
 0.0.0.0 lijit.pixel.invitemedia.com
@@ -67598,6 +67601,7 @@
 0.0.0.0 ppscdnqkgj.com
 0.0.0.0 ppslsa.com
 0.0.0.0 ppssav.formal-message.com
+0.0.0.0 ppt100.site
 0.0.0.0 pptchecker.club
 0.0.0.0 pptte.com
 0.0.0.0 ppunion.com
@@ -67974,7 +67978,6 @@
 0.0.0.0 privacy-api.9gag.com
 0.0.0.0 privacy-cdn.sixfifty.com
 0.0.0.0 privacy-policy.truste.com
-0.0.0.0 privacy-tools-for-you-792.com
 0.0.0.0 privacy.as.criteo.com
 0.0.0.0 privacy.claytonhomes.com
 0.0.0.0 privacy.commander1.com
@@ -90824,6 +90827,7 @@
 0.0.0.0 txcsudkymdq.com
 0.0.0.0 txdwc.cn
 0.0.0.0 txgakrasgns.com
+0.0.0.0 txgg2022bisheng.com
 0.0.0.0 txingame.com
 0.0.0.0 txmboigodejgj.xyz
 0.0.0.0 txn.ingest.crittercism.com
@@ -98604,6 +98608,7 @@
 0.0.0.0 xpayperinstx2.com
 0.0.0.0 xpays.com
 0.0.0.0 xpbbyiqbcawamy.com
+0.0.0.0 xpchfwl.cn
 0.0.0.0 xpctraffic.com
 0.0.0.0 xpe.cxaerp.com
 0.0.0.0 xpedime.top
@@ -101593,7 +101598,7 @@
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xgroovy.com,xxxshake.com##.table
 18qiang.com##.imgbanner,.bottom_khdxz
-18virginsex.com,altervista.org,anglianwater.co.uk,ask.fm,awesomic.io,callcredit.co.uk,calvertjournal.com,cbeci.org,clubtshe.com,coolblue.be,crazydomains.co.uk,derwaldhof.com,dw.com,farecompare.com,firefox-usb.com,forever21.com,forgeworld.co.uk,gha.org.uk,gheed.com,global.abb,gooddollar.org,hempel.co.uk,hempelyacht.com,here.com,hud.ac.uk,idemitsu.com,investcapital.com.mt,jaguarlandrover.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,mclaren.com,mik.eu,modecom.com,modhoster.com,moneywise.co.uk,mydraw.com,mysteriumvpn.com,mysurveylab.com,nationalcircus.org.uk,natwest.com,netbiter.com,nornickel.com,npl.co.uk,octotree.io,oldgoesyoung.com,openmailbox.org,pepperl-fuchs.com,postoffice.co.uk,prodir.com,purnatur.eu,rbs.co.uk,redditinc.com,roalddahl.com,rowenta.com,safedns.com,samsunghealthcare.com,secapital.lu,sense.org.uk,sheldrickwildlifetrust.org,silverlake.com,sleek-mag.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,togetherall.com,top-electronics.com,trailfinders.com,tubidy.news,twitchstrike.com,unicheck.com,unicreditgroup.eu,virgin-atlantic.com,wannawork.com,yachtclubgames.com,ytddownloader.com##.cookie
+18virginsex.com,altervista.org,anglianwater.co.uk,ask.fm,awesomic.io,callcredit.co.uk,calvertjournal.com,castleton.edu,cbeci.org,clubtshe.com,coolblue.be,crazydomains.co.uk,derwaldhof.com,dw.com,farecompare.com,firefox-usb.com,forever21.com,forgeworld.co.uk,gha.org.uk,gheed.com,global.abb,gooddollar.org,hempel.co.uk,hempelyacht.com,here.com,hud.ac.uk,idemitsu.com,investcapital.com.mt,jaguarlandrover.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,mclaren.com,mik.eu,modecom.com,modhoster.com,moneywise.co.uk,mydraw.com,mysteriumvpn.com,mysurveylab.com,nationalcircus.org.uk,natwest.com,netbiter.com,nornickel.com,npl.co.uk,octotree.io,oldgoesyoung.com,openmailbox.org,pepperl-fuchs.com,postoffice.co.uk,prodir.com,purnatur.eu,rbs.co.uk,redditinc.com,roalddahl.com,rowenta.com,safedns.com,samsunghealthcare.com,secapital.lu,sense.org.uk,sheldrickwildlifetrust.org,silverlake.com,sleek-mag.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,togetherall.com,top-electronics.com,trailfinders.com,tubidy.news,twitchstrike.com,unicheck.com,unicreditgroup.eu,virgin-atlantic.com,wannawork.com,yachtclubgames.com,ytddownloader.com##.cookie
 1905.com###mobileAdPromote,.adlogo-flash,.ad-content
 1905.com##.ad-couplet,#hd-tab-label4,div.bd-tab.video-list:last-child
 1905.com##.mobile_ad_promote
@@ -101668,7 +101673,7 @@
 20minutes.fr,20min.fr##.ab-container
 20minutes.fr,africa1.com,buyindz.com,courrierinternational.com,europages.fr,europe1.fr,formulatv.com,gamergen.com,gmx.fr,grostracteurspassion.com,jeu.video,journaldugeek.com,korben.info,ladepeche.fr,leboncoin.fr,ledevoir.com,lemondeinformatique.fr,lorientlejour.com,medisite.fr,methodelafayfemme.fr,misk.tn,monacomatin.mc,petitfute.com,radioorient.com,renaultsport.com,rustica.fr,sudouest.fr##.social
 20minutos.es,clarin.com,diarioti.com,estrellatv.com,europages.es,europapress.es,informador.mx,paginasamarillas.es,publico.es,todomercadoweb.es##.social
-21buttons.com,amnesty.org,aoc.com,arbiton.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,bemob.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,diahelp.net,dorotheum.com,dur.ac.uk,edifier.com,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,fortressbp.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hopdoddy.com,hotel-spider.com,hse.ru,huntshowdown.com,inagrm.com,indepth.dev,intergameonline.com,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,martinrandall.com,mcc.live,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,modirum.com,nedbank.co.za,o-ma-god.com,onwelo.com,orientalmart.co.uk,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sellix.io,sharafdg.com,spiderfoot.net,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com,wyylde.com,yookur.com##.cookies
+21buttons.com,amnesty.org,aoc.com,arbiton.com,asda.com,ashridge.org.uk,auto1.fi,auto10.com,belivehotels.com,bemob.com,chemistdirect.co.uk,cineworld.co.uk,coinbase.com,consumeraffairs.org.uk,crytek.com,custplace.com,diahelp.net,dorotheum.com,dur.ac.uk,edifier.com,egyptair.com,eirsport.ie,enable-javascript.com,eurozine.com,feelunique.com,forsettlement.com,fortressbp.com,gartic.io,grandvision.com,graspop.be,guggenheim-bilbao.eus,hmv.com,hopdoddy.com,hotel-spider.com,hse.ru,huntshowdown.com,inagrm.com,indepth.dev,intergameonline.com,luxottica.com,mabanque.bnpparibas,macpaw.com,mailjet.com,mannheimerswartling.se,martinrandall.com,mcc.live,medela.co.uk,media-sense.com,mindshareworld.com,mindswarms.com,modirum.com,nedbank.co.za,o-ma-god.com,onwelo.com,orientalmart.co.uk,ostrog.com,perfumesclub.co.uk,perfumesclub.com,pics.io,pjon.org,playgwent.com,proton.com,proxyparts.com,radeon-pro.github.io,renaultbryanston.co.za,renaultfourways.co.za,royalparks.org.uk,rusvpn.com,scamner.com,sellix.io,sharafdg.com,spiderfoot.net,stuttafordvanlines.co.za,tescomobile.ie,testeri.fi,thenottingham.com,threadreaderapp.com,topographic-map.com,twinings.co.uk,ukcisa.org.uk,ukmail.com,umicore.com,unian.info,unknownphone.com,uptodown.com,urtekram.com,visolit.net,vizologi.com,volvocars.com,warhammerchampions.com,wilko.com,winamp.com,wizards.com,wyylde.com,yookur.com##.cookies
 21cn.com###embed_hzh_div
 21cn.com##.h-gg
 21cn.com##.xuantu
@@ -102471,7 +102476,7 @@
 78dm.net##div[class="couple-"]
 7958.com.cn##.xzdz_16,IFRAME#cproIframe1,IFRAME#cproIframe3,IFRAME#cproIframe4,DIV[id="BAIDU_DUP_wrapper_"]
 7b2.com,thh521.com,ygodl.com,zhujib.com#@#.social-top:not(html):not(body)
-7d.ru,bisexual.ru,datingspace.ru,friend4travel.ru,idating.ru,love-tomsk.ru,lovegio.ru,mamba.ru,missingheart.ru,vsebudetzae.biz,znakomstvagood.ru,znakomstve.ru##.fTqTJk
+7d.ru,bisexual.ru,datingspace.ru,friend4travel.ru,idating.ru,love-tomsk.ru,love.am,lovegio.ru,lubovmorkov.net,mamba.ru,missingheart.ru,vsebudetzae.biz,znakomstvagood.ru,znakomstve.ru##.fTqTJk
 7hcn.com##.rCont
 7hcn.com##div[ac],.outside
 7ifun.com##div.ad

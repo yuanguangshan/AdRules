@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-22 08:56:21（北京时间） 
-! Total count: 103718
+! Version: 2022-03-22 16:17:39（北京时间） 
+! Total count: 103723
 /aaddright.
 /abm.aspx
 /abmw.asp
@@ -4142,6 +4142,7 @@
 ||51la.net^
 ||51link.com^
 ||51lx.ink^
+||51mw.club^
 ||51network.com^
 ||51niu.pro^
 ||51posuiji.org.cn^
@@ -38896,6 +38897,7 @@
 ||eymiwj.cancan.ro^
 ||eyouv.cn^
 ||eypdcpzrvk.com^
+||eywvmnf.cn^
 ||eyzu80g9xcxa.com^
 ||eyzubm.gooutdoors.co.uk^
 ||ezaktak.ru^
@@ -40053,6 +40055,7 @@
 ||fishermanmartial.com^
 ||fishhoo.com^
 ||fishpassportvocational.com^
+||fishsalt.top^
 ||fishyscalpelweight.com^
 ||fisintegrateds.com^
 ||fisioterapiaweb.com.br^
@@ -43677,7 +43680,6 @@
 ||google-analyticals.com^
 ||google-analytics.com
 ||google-analytics.com^
-||google-docs.org^
 ||google-pagerank.net^
 ||google-rank.org^
 ||google-shopping.sapoapps.vn^
@@ -54296,6 +54298,7 @@
 ||lignumagnatic.cam^
 ||ligxyv.hackers.co.kr^
 ||lihailin.vip^
+||lihong.ltd^
 ||lijie1010.top^
 ||lijit.com^
 ||lijit.pixel.invitemedia.com^
@@ -70192,6 +70195,7 @@
 ||ppscdnqkgj.com^
 ||ppslsa.com^
 ||ppssav.formal-message.com^
+||ppt100.site^
 ||pptchecker.club^
 ||pptte.com^
 ||ppunion.com^
@@ -70568,7 +70572,6 @@
 ||privacy-api.9gag.com^
 ||privacy-cdn.sixfifty.com^
 ||privacy-policy.truste.com^
-||privacy-tools-for-you-792.com^
 ||privacy.as.criteo.com^
 ||privacy.claytonhomes.com^
 ||privacy.commander1.com^
@@ -93440,6 +93443,7 @@
 ||txcsudkymdq.com^
 ||txdwc.cn^
 ||txgakrasgns.com^
+||txgg2022bisheng.com^
 ||txingame.com^
 ||txmboigodejgj.xyz^
 ||txn.ingest.crittercism.com^
@@ -101226,6 +101230,7 @@
 ||xpayperinstx2.com^
 ||xpays.com^
 ||xpbbyiqbcawamy.com^
+||xpchfwl.cn^
 ||xpctraffic.com^
 ||xpe.cxaerp.com^
 ||xpedime.top^

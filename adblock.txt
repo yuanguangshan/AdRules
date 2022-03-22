@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-22 08:56:21（北京时间） 
-! Total count: 127726
+! Version: 2022-03-22 16:17:39（北京时间） 
+! Total count: 127742
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -25001,7 +25001,7 @@
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
-##div[style=" max-width:980px;  margin:0 auto;"] > a > img[height="60px"]
+##div[style=" max-width:985px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 ##div[style="display: flex;flex-wrap: wrap;margin-right: 5px;margin-left: 5px;"] + style + .container
@@ -27963,6 +27963,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .me/ads-
 .me/ads/
 .me/geoip/
+.me/gg.js
 .me/l.gif?
 .me/s.php?id=$script,third-party
 .members.babbel.com/mo/
@@ -38744,6 +38745,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /skin/ad3/*
 /skin/adv/*
 /skin/common.htm
+/skin/ecms082/images/kf-
 /skin/footer.$domain=iimanhua.cc|iimh.net
 /skin/header.$domain=iimanhua.cc|iimh.net
 /skin/iymbl-$domain=iimanhua.cc|iimh.net
@@ -43177,7 +43179,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@/fingerprint2.$domain=nfmovies.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|pop-fashion.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|pop-fashion.com
-@@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com
+@@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/frosmo.easy.js$domain=sklep.pl.canalplus.com
@@ -43909,7 +43911,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||baidu.com/cse/search?$domain=16xx8.com
 @@||baidu.com/customer_search/api/
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
-@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn
+@@||baidu.com/hm.js$domain=cainiao.com|dwz.cn|ramboplay.com
 @@||baidu.com/location/ip?$domain=dominos.com.cn|saicmg.com|tanmizhi.com|tianqi.qq.com
 @@||baidu.com/location/ip?$domain=dominos.com.cn|tanmizhi.com
 @@||baidu.com/share/count?
@@ -44122,11 +44124,10 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cdn.popcash.net/pop.js,$popup,domain=hentaistream.com
 @@||cdn.rawgit.com/*/lazyload.js$domain=javmost.com
 @@||cdn.runative-syndicate.com/sdk/*/n.js$domain=onemanhua.com
-@@||cdn.segment.com/analytics-next/$domain=app.cryptotrader.tax|givingassistant.org
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|givingassistant.org|my.foxnews.com
-@@||cdn.segment.com/next-integrations/integrations/intercom/*/intercom.dynamic.js.gz$script,domain=app.cryptotrader.tax
-@@||cdn.segment.com/next-integrations/integrations/vendor/commons.$script,domain=app.cryptotrader.tax
-@@||cdn.segment.com/v1/projects/$domain=app.cryptotrader.tax|benchling.com|givingassistant.org
+@@||cdn.segment.com/analytics-next/
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com
+@@||cdn.segment.com/next-integrations/integrations/
+@@||cdn.segment.com/v1/projects/
 @@||cdn.sssam.com/static/js/*.js
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xsw.com|31xiaoshuo.com|biququ.info|feisucn.net|tsxsw.la|yushubo.com|ziyouge.top
@@ -48126,6 +48127,7 @@ alientube.co###adblockContainer
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alipay.com###J-cooperant-banner
+alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,irishtimes.com,israelnationalnews.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,powerboat.world,reversephonesearch.com.au,roblox.com,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
 alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,ca-flyers.com,caixinglobal.com,caribvision.tv,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,filmmakermagazine.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,irishpost.com,irishtimes.com,israelnationalnews.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,powerboat.world,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sputniknews.com,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,timeslive.co.za,timesofisrael.com,tmi.me,unblockstreaming.com,vloot.io,weatheronline.co.uk,weekly-ads.us,worldtimeserver.com,xbiz.com,ynetnews.com##.banner
 aliyun.cdn.chengzilte.top
 aliyun.com###yq-a-r-bottom
@@ -57836,6 +57838,8 @@ milffox.com###advertising
 milimili.tv/js/loadjs/jquery10.4.js
 milimili.tv/js/loadjs/jquery10.7.js
 military.com##.page__top
+militarywatchmagazine.com##.theme--light.v-card--link
+militarywatchmagazine.com##.v-size--x-small.theme--light
 miloserdov.org###custom_html-16
 miloserdov.org,wpneon.com###custom_html-10
 mimg.meihu56.cn
@@ -60454,7 +60458,10 @@ road.cc###Footer-Billboard
 road.cc###Top-Billboard
 roadtester.com.au##table[cellpadding="9"][border="0"]
 roadtests.com##.topad
+roblox.com###Skyscraper-Abp-Left
+roblox.com###Skyscraper-Abp-Right
 roblox.com##.abp
+roblox.com##.leaderboard-abp
 roblox.com##.roblox-skyscraper
 robloxhackscripts.com###custom_html-23
 roboo.com##.footer-ads,.img-info01
@@ -67741,6 +67748,7 @@ zzpzero.com
 ||51liucheng.com/js/dialogLogin.js
 ||51lx.ink^
 ||51mmm.info/template/1/js/gg.js
+||51mw.club^
 ||51network.com^
 ||51network.com^$third-party
 ||51niu.pro^
@@ -76510,6 +76518,7 @@ zzpzero.com
 ||bjhmdy.vip^
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjhuhangjy.com^
+||bjjabc.com^
 ||bjjabc.com^$third-party
 ||bjjdboai.cn^
 ||bjjkmxrwvba.com^
@@ -86437,6 +86446,7 @@ zzpzero.com
 ||eypdcpzrvk.com^
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
+||eywvmnf.cn^
 ||eyzu80g9xcxa.com^
 ||eyzubm.gooutdoors.co.uk^
 ||ez33.com^$third-party
@@ -87197,6 +87207,7 @@ zzpzero.com
 ||fishki.net/code?
 ||fishki.net/counter/
 ||fishpassportvocational.com^
+||fishsalt.top^
 ||fishyscalpelweight.com^
 ||fisoes.com^
 ||fistofzeus.com^
@@ -94862,6 +94873,7 @@ zzpzero.com
 ||jlvqhftliz.com^
 ||jlwljym.com^
 ||jlwsw.top^
+||jlwz.cn/js/xf*.js
 ||jlxzt.com^
 ||jly24aw29n5m-a.akamaihd.net^
 ||jlyayxz.cn^
@@ -97211,6 +97223,7 @@ zzpzero.com
 ||lignumagnatic.cam^
 ||ligxyv.hackers.co.kr^
 ||lihailin.vip^
+||lihong.ltd^
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
 ||lijie1010.top^
@@ -106638,6 +106651,7 @@ zzpzero.com
 ||ppslsa.com^
 ||ppssav.formal-message.com^
 ||ppstatic.pl^*/track.js
+||ppt100.site^
 ||pptte.com^
 ||pptv.com/game/aplus/client/gamedetail.html
 ||pptv.com/stg/add?
@@ -120325,6 +120339,7 @@ zzpzero.com
 ||txcsudkymdq.com^
 ||txdwc.cn^
 ||txgakrasgns.com^
+||txgg2022bisheng.com^
 ||txmboigodejgj.xyz^
 ||txpbnm.sevellia.com^
 ||txpodqjhabos.com^
@@ -125255,6 +125270,7 @@ zzpzero.com
 ||xp85.com/common/js/allpage.js
 ||xpbbyiqbcawamy.com^
 ||xpcha.com/js/notice.js
+||xpchfwl.cn^
 ||xpctraffic.com^
 ||xpeeps.com^$popup,third-party
 ||xpgod.com/statics/skin_js/xpgod/
