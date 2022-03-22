@@ -2,6 +2,7 @@
 import os
 #去重开始
 print("去重中...")
+'''
 #初始化
 result = []
 resultb = []
@@ -94,5 +95,26 @@ foh.close()
 ffoh.close()
 os.remove("tmp-adguard-full.txt")
 os.rename("tmp-adguard-full-test.txt","tmp-adguard-full.txt")
+'''
+
+files= os.listdir() #得到文件夹下的所有文件名称
+result = []
+for file in files: #遍历文件夹
+     if not os.path.isdir(file): #判断是否是文件夹，不是文件夹才打开
+          print('开始去重'+(file))
+          f = open(file); #打开文件
+          result=list(set(f.readlines()))
+          result.sort()
+          fo = open('test'+ (file) , "w")
+          fo.writelines(result)
+          f.close()
+          fo.close()
+          os.remove(file)
+          os.rename('test'+ (file),(file))
+          print((file) + '去重完成')
+          
+print("操作完成")
 #处理完毕
+
 print("去重完毕")
+
