@@ -253,7 +253,7 @@ for i in $diffFile; do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
  cat ./mod/title/$titleName ./pre/$i | awk '!a[$0]++'> ./$i
  sed -i '/^$/d' $i
- echo "合并${i}的标题中"
+ #echo "合并${i}的标题中"
 done
 echo '规则处理完成'
 
@@ -261,7 +261,7 @@ echo '规则处理完成'
 mkdir -p ./md5/
 for i in $diffFile; do
  md5sum $i | sed "s/$i//" > ./md5/$i.md5
- echo "生成${i}的md5中"
+ #echo "生成${i}的md5中"
 done
 echo '完成'
 rm -rf pre tmp
