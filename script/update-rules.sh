@@ -28,8 +28,6 @@ easylist=(
 )
 
 easylist_plus=(
-"https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
-"https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" 
 "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #净化百度
 "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt" #乘风规则
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt" #ubo烦人过滤器
@@ -37,15 +35,6 @@ easylist_plus=(
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt" #ubo基础过滤器
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt" #ubo隐私保护
 "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载
-"https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主的规则
-"https://filters.adtidy.org/android/filters/2.txt" #adg基础过滤器
-"https://filters.adtidy.org/android/filters/11.txt" #adg移动设备过滤器
-"https://filters.adtidy.org/android/filters/3.txt" #adg防跟踪
-"https://filters.adtidy.org/android/filters/224.txt" #adg中文过滤器
-"https://filters.adtidy.org/android/filters/14.txt" #adg烦人过滤器
-"https://filters.adtidy.org/android/filters/5.txt" #adg实验过滤器
-"https://filters.adtidy.org/android/filters/4.txt" #adg社交过滤器
-"https://filters.adtidy.org/android/filters/17.txt"  #adgURL过滤器
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
 #"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
 "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
@@ -108,23 +97,8 @@ allow=(
 
 dns=(
   #以下规则不做阐述
-  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt"
   "https://easylist.to/easylist/fanboy-annoyance.txt"
-  "https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt"
-  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
-  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt"
-  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
-  "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
-  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
-  "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
-  "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt"
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"
-  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt"
-  "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt"
-  "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt"
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt"
   "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
   "https://adaway.org/hosts.txt" #adaway规则
   "https://abp.oisd.nl/basic/"
 )
@@ -182,7 +156,7 @@ cat *.txt |grep '^/' |grep -v './\|.?\|.\$\|.js\|._\|.\*\|.(php|png)\|.[0-9]\|.\
 # Start Merge and Duplicate Removal
 #set LC_ALL='C'
 cat .././mod/rules/adblock-rules.txt easylist*.txt | grep -v '^!' | grep -v '.!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org' | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
-cat .././mod/rules/adblock-rules.txt plus-easylist*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' | grep -v '.!' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
+cat .././mod/rules/adblock-rules.txt *easylist*.txt full-adg*.txt | sort -u | sort -n | uniq | awk '!a[$0]++' | grep -v '.!' |grep -v '^!' | grep -v '^！' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | grep -v 'local.adguard.org'  >> tmp-adblock+adguard.txt #处理Plus规则
 cat adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
 cat full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full.txt #处理AdGuard的规则
 #cat ubo-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-ubo.txt #处理AdGuard的规则
@@ -190,7 +164,7 @@ cat full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^
 
 cat .././mod/rules/*-rules.txt dns*.txt *hosts*.txt plus*easylist*.txt | grep '^||\|^@@||' | grep -v './' | grep -v '\*' | grep -v '^\[' | grep -v '.\[' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > ll.txt 
 cat ll.txt l.txt pre-allow1.txt|sort -n |uniq >> tmp-dns.txt  #处理DNS规则
-cat dns*.txt abp-hosts.txt tmp-dns.txt  plus-hosts*.txt | grep '^|\|^[0-9]' | grep -v '\*'| grep -v './'| grep -v '^\[' | grep -v '.!' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
+cat dns*.txt abp-hosts.txt tmp-dns.txt *easylist*.txt plus-hosts*.txt | grep '^|\|^[0-9]' | grep -v '\*'| grep -v './'| grep -v '^\[' | grep -v '.!' | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
 cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-ad-domains.txt #处理广告域名
 cat *.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
