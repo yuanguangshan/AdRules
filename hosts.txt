@@ -4,8 +4,8 @@
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-22 20:01:06（北京时间） 
-! Total count: 102670
+! Version: 2022-03-22 20:06:39（北京时间） 
+! Total count: 102676
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -6264,6 +6264,7 @@
 0.0.0.0 adfly.vn
 0.0.0.0 adfonic.net
 0.0.0.0 adfootprints.com
+0.0.0.0 adfor.io
 0.0.0.0 adforce.adtech.fr
 0.0.0.0 adforce.adtech.us
 0.0.0.0 adforce.com
@@ -7655,6 +7656,7 @@
 0.0.0.0 ads.cnixon.com
 0.0.0.0 ads.co.com
 0.0.0.0 ads.cobrad.com
+0.0.0.0 ads.code.com.tr
 0.0.0.0 ads.collegclub.com
 0.0.0.0 ads.collegemix.com
 0.0.0.0 ads.colombiaonline.com
@@ -69153,6 +69155,7 @@
 0.0.0.0 pushad.metajoy.services
 0.0.0.0 pushads.biz
 0.0.0.0 pushads.popcash.net
+0.0.0.0 pushadv.biz
 0.0.0.0 pushagim.com
 0.0.0.0 pushalert.co
 0.0.0.0 pushame.com
@@ -91243,6 +91246,7 @@
 0.0.0.0 uguhpfo.cn
 0.0.0.0 ugvip.com
 0.0.0.0 ugyplysh.com
+0.0.0.0 ugyyod.com
 0.0.0.0 ugzbsu.klimaworld.com
 0.0.0.0 uh9qulew9rjj.com
 0.0.0.0 uharded.com
@@ -91409,6 +91413,7 @@
 0.0.0.0 ulusalofis.com
 0.0.0.0 uluswozzel.info
 0.0.0.0 ulxypyg.cn
+0.0.0.0 ulyvjty4rd.com
 0.0.0.0 um-public-panel-prod.s3.amazonaws.com
 0.0.0.0 um.hd.sohu.com
 0.0.0.0 um.simpli.fi
@@ -93705,6 +93710,7 @@
 0.0.0.0 vj.quanjingpay.com
 0.0.0.0 vjafttweylg.xyz
 0.0.0.0 vjcbm.com
+0.0.0.0 vjdciu.com
 0.0.0.0 vjgenkfqjqng.com
 0.0.0.0 vjkjjhbi.com
 0.0.0.0 vjmqdx.nozhikov.ru
