@@ -131,7 +131,7 @@ dns=(
 
 hosts=(
   "https://adaway.org/hosts.txt"
-https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt
+"https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt"
 )
 
 ad_domains=(
@@ -151,9 +151,9 @@ do
   curl --parallel --parallel-immediate -k -L -C - -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "plus-easylist${i}.txt" --connect-timeout 60 -s "${easylist_plus[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "full-adguard${i}.txt" --connect-timeout 60 -s "${adguard_full[$i]}" | iconv -t UTF-8 -c
-  curl --parallel --parallel-immediate -k -L -C - -o "ubo-full-adguard${i}.txt" --connect-timeout 60 -s "${adguard_full_ubo[$i]}" | iconv -t UTF-8 -c
+  #curl --parallel --parallel-immediate -k -L -C - -o "ubo-full-adguard${i}.txt" --connect-timeout 60 -s "${adguard_full_ubo[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "adguard${i}.txt" --connect-timeout 60 -s "${adguard[$i]}" | iconv -t UTF-8 -c
-  curl --parallel --parallel-immediate -k -L -C - -o "ubo-adguard${i}.txt" --connect-timeout 60 -s "${adguard_ubo[$i]}" | iconv -t UTF-8 -c
+  #curl --parallel --parallel-immediate -k -L -C - -o "ubo-adguard${i}.txt" --connect-timeout 60 -s "${adguard_ubo[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "dns${i}.txt" --connect-timeout 60 -s "${dns[$i]}" | iconv -t UTF-8 -c
   curl --parallel --parallel-immediate -k -L -C - -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}" | iconv -t UTF-8 -c
@@ -246,23 +246,19 @@ cat tpdate.txt ad-domains-tpdate.txt tmp-ad-domains.txt > ad-domains.txt
 #cat tpdate.txt ubo-full-adguard-tpdate.txt tmp-adguard-full-ubo.txt > adguard-full-ubo.txt
 rm tmp*.txt *tpdate.txt
 
-# Add Title
+# Add Title and MD5
 cd ../
+mkdir -p ./md5/
 diffFile="$(ls pre |sort -u)"
 for i in $diffFile; do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#')
  cat ./mod/title/$titleName ./pre/$i | awk '!a[$0]++'> ./$i
  sed -i '/^$/d' $i
+ md5sum $i | sed "s/$i//" > ./md5/$i.md5
+ perl ./script/addchecksum.pl ./$i
  #echo "合并${i}的标题中"
 done
 echo '规则处理完成'
 
-# Add MD5
-mkdir -p ./md5/
-for i in $diffFile; do
- md5sum $i | sed "s/$i//" > ./md5/$i.md5
- #echo "生成${i}的md5中"
-done
-echo '完成'
 rm -rf pre tmp
 exit
