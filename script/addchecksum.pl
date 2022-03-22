@@ -33,11 +33,11 @@ foreach my $file (@ARGV) {
   my $checksum = md5_base64($checksumData);
 
   # If the old checksum matches the new one bail.
-  if ($checksum eq $oldchecksum)
-  {
-    $data = ();
-    next;
-  }
+  #if ($checksum eq $oldchecksum)
+  #{
+  #  $data = ();
+  #  next;
+  #}
 
   # Update the date.
   my @months = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec);
