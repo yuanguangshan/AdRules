@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-22 20:06:39（北京时间） 
-! Total count: 17206
+! Version: 2022-03-22 20:12:24（北京时间） 
+! Total count: 17205
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -4761,7 +4761,6 @@
 @@||d2r1yp2w7bby2u.cloudfront.net^
 @@||d2ty8gaf6rmowa.cloudfront.net/ad/ads.js
 @@||d2ujtyf7wfmq6y.cloudfront.net/ads/ads.html$domain=reisefrage.net|motorradfrage.net|autofrage.net|sportlerfrage.net|gesundheitsfrage.net|finanzfrage.net|computerfrage.net|gutefrage.net
-@@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv
 @@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv|tlk.io
 @@||d2wy8f7a9ursnm.cloudfront.net^
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
