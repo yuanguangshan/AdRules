@@ -7,15 +7,15 @@ num_adp=`cat adblock+adguard.txt | wc -l`
 num_dns=`cat dns.txt | wc -l`
 num_hosts=`cat hosts.txt | wc -l`
 num_domains=`cat ad-domains.txt | wc -l`
-num=8
+num=9
 declare -i count_adg=$num_adg-$num
 declare -i count_adgf=$num_adgf-$num
-declare -i count_al=$num_al-3
+declare -i count_al=$num_al-4
 declare -i count_adb=$num_adb-$num
 declare -i count_adp=$num_adp-$num
 declare -i count_dns=$num_dns-$num
 declare -i count_hosts=$num_hosts-$num
-declare -i count_domains=$num_domains-2
+declare -i count_domains=$num_domains-3
 time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
 sed -i "s/^更新时间:.*/更新时间: $time （北京时间） /g" README.md
 sed -i 's/^AdRules（For AdBlock）规则数量:.*/AdRules（For AdBlock）规则数量: '$count_adb' /g' README.md
