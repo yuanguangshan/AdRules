@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-22 16:17:39（北京时间） 
-! Total count: 17201
+! Version: 2022-03-22 18:50:33（北京时间） 
+! Total count: 17206
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -995,6 +995,7 @@
 @@||acid2.acidtests.org^$document
 @@||acid3.acidtests.org^$document
 @@||acidcow.com^$csp=script-src 'self' * blob: data:
+@@||acorta-enlace.com^$ghide
 @@||acs.m.taobao.com
 @@||acs.m.taobao.com^
 @@||act2.mediafour.com^
@@ -2781,6 +2782,7 @@
 @@||bettycrocker.com/Shared/Javascript/UnicaTag.js
 @@||bettycrocker.com/Shared/Javascript/ntpagetag.js
 @@||beyondsoft.com/dataservice/img/ad_
+@@||bfn.today/min/*/js/jquery.smartbanner.js
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
 @@||bham.pl/templates/bham_res/js/adsbygoogle.js
 @@||bhaskar.com/adblock/*.js^
@@ -3861,7 +3863,6 @@
 @@||cdndx.clouddata8g.xyz^$script,domain=www.cocomanhua.com
 @@||cdne-st.redtubefiles.com/css/*$domain=redtube.com|redtube.net
 @@||cdnfile.info/*/stream/$stealth,domain=vidcloud9.com
-@@||cdninstagram.com^$stealth,domain=instagram.com|cursorinfo.co.il
 @@||cdnjs.cloudflare.com/ajax/$script,domain=pch.com
 @@||cdnjs.cloudflare.com/ajax/libs/$domain=fmovies.to
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -4761,6 +4762,7 @@
 @@||d2ty8gaf6rmowa.cloudfront.net/ad/ads.js
 @@||d2ujtyf7wfmq6y.cloudfront.net/ads/ads.html$domain=reisefrage.net|motorradfrage.net|autofrage.net|sportlerfrage.net|gesundheitsfrage.net|finanzfrage.net|computerfrage.net|gutefrage.net
 @@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv
+@@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv|tlk.io
 @@||d2wy8f7a9ursnm.cloudfront.net^
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||d2zl2n5iz2c0l7.cloudfront.net/ad/ads.js|
@@ -5580,6 +5582,8 @@
 @@||empic.dfcfw.com^
 @@||emu-games.com^$ghide
 @@||emulasyonturkiye.org^$ghide
+@@||en.bongacash.com/js/videojs/video.js$domain=pornsocket.com
+@@||en.bongacash.com/js/videojs/videojs_*.vast.vpaid.min.js$domain=pornsocket.com
 @@||ename.com.cn^
 @@||ename.net^
 @@||enamora.de/css-combined.css
@@ -11244,7 +11248,7 @@
 @@||onesignal.com/sdks/OneSignalSDK.js$domain=wowbiz.ro
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
-@@||onet.pl/?utm_source=$removeparam! Checksum: NK7m1AOsCTlX4tk4IAK0ZQ
+@@||onet.pl/?utm_source=$removeparam! Checksum: HqTJaSMc6LBWSktZhPV1tA
 @@||onet.pl/?utm_source=$removeparam![Adblock Plus 2.0]
 @@||onet.pl/?utm_source=$removeparam# AdAway default blocklist
 @@||onet.pl/?utm_source=$removeparam[Adblock Plus 2.0]
@@ -13037,8 +13041,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: CjSHcZdoVOGZyyjz5RGVMg
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: o+7TI5MOgp4myJZjU0r0BQ
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: hoUcFjOrlEcDLtvs2TUpYQ
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: qBHWVj5RjL29CJYwNF8XSA
 @@||reseguiden.se^*.siteCatalyst.js![Adblock Plus 2.0]
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
@@ -13411,6 +13415,7 @@
 @@||schwalbe.com/system/modules/cookiebar/assets/dist/cookiebar.min.
 @@||sciencechannel.com^$generichide
 @@||scity.tv^$stealth
+@@||scontent*.cdninstagram.com^$stealth
 @@||scontent-*.cdninstagram.com^$stealth,domain=bella.tw
 @@||scontent-*.cdninstagram.com^$stealth,domain=wp.pl
 @@||scontent-arn*.cdninstagram.com/v/$stealth,image,domain=afisha.ru
@@ -14042,7 +14047,7 @@
 @@||sledujserialy.io/theme/js/popunder.js
 @@||sledujserialy.to/theme/js/popunder.js
 @@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net
-@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net! Checksum: PBmTyvBxRoKM3GMTQaDdGg
+@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net! Checksum: pXIoEAG3Np/sa0dlyIMBlg
 @@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net![Adblock Plus 2.0]
 @@||slidesharecdn.com^*/linkedin-$image,domain=slideshare.net
 @@||slike.indiatimes.com/feed/$domain=idiva.com
@@ -15842,9 +15847,9 @@
 @@||urlex.org^$generichide
 @@||urlex.org^$ghide
 @@||urlgalleries.net^$generichide
-@@||urlgalleries.net^$generichide! Checksum: Gqe5jTIpTKW0oryJ+fNpig
-@@||urlgalleries.net^$generichide! Checksum: ZX+xLhIbjV3T5PfVGp9X9Q
-@@||urlgalleries.net^$generichide! Checksum: iNVkOYbhBvAunKRkLlWu6g
+@@||urlgalleries.net^$generichide! Checksum: IsJCWeluBKgbbH1jJf2c0g
+@@||urlgalleries.net^$generichide! Checksum: hIp4ZB0qaDZ9lrXmz6T2pQ
+@@||urlgalleries.net^$generichide! Checksum: xle5KgRH840UCOSrxDV68Q
 @@||urlgalleries.net^$generichide![Adblock Plus 2.0]
 @@||urlpay.net/wp-content/plugins/*/assets/fuckadblock.js
 @@||us-east-1.amazonaws.com^
