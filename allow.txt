@@ -1,7 +1,7 @@
 ! Title: Allowlist
-! Checksum: rCFTiLUcMQrW7q1/xIIE5Q
-! Version: 2022-03-22 20:41:30（北京时间） 
-! Total count: 16477
+! Checksum: Db0BUkuWwjp68UubZjnocQ
+! Version: 2022-03-22 22:11:34（北京时间） 
+! Total count: 16475
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -9103,7 +9103,6 @@
 @@||kitsune-subs.anime-odcinki.pl/wp-content/themes/fanstrap/lib/js/advertisement.js
 @@||kiwihousesitters.co.nz/members$urlblock
 @@||kizi.com/assets/*advertisement-*.js
-@@||kizzboy.com^$ghide
 @@||kjellmann.no^*/cookielaw/css/cookielaw.css$stylesheet
 @@||kk665403.pixnet.net^$generichide
 @@||klaviyo.com/ajax/subscriptions/subscribe$domain=productionmusiclive.com
@@ -15851,7 +15850,6 @@
 @@||wholecloud.net/banner.php$script
 @@||wholecloud.net^$stealth
 @@||wholehk.com^$generichide
-@@||wholehk.com^$ghide
 @@||whoson.com/include.js$domain=oneplus.net|hotelchocolat.com
 @@||widget-cdn.rpxnow.com^
 @@||widget.beesender.com/*/chunk-vendors.js$domain=cab.meest.cn

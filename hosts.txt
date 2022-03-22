@@ -1,12 +1,12 @@
 # Title: AdRules（For adaway）
-! Checksum: 21MdBEy2i19ZhpFRZr6A6Q
+! Checksum: YPUOh4lGRStNvOki8y9Heg
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-22 20:41:30（北京时间） 
-! Total count: 95618
+! Version: 2022-03-22 22:11:34（北京时间） 
+! Total count: 95623
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -3813,6 +3813,7 @@
 0.0.0.0 abrahackbugs.xyz
 0.0.0.0 abrahamschildren.com
 0.0.0.0 abraj-re.com
+0.0.0.0 abrashteresa.com
 0.0.0.0 abreastpollutionsticking.com
 0.0.0.0 abreshamcollection.com
 0.0.0.0 abridgeinputcontraceptive.com
@@ -15163,6 +15164,7 @@
 0.0.0.0 b5h7.com
 0.0.0.0 b5mc3.life
 0.0.0.0 b5media.us.intellitxt.com
+0.0.0.0 b6852c8ea5.com
 0.0.0.0 b6c6k88qe1.ru
 0.0.0.0 b6ft.zone-turf.fr
 0.0.0.0 b6roqgi.com
@@ -26070,6 +26072,7 @@
 0.0.0.0 cytxt.com
 0.0.0.0 cyulewkqz.com
 0.0.0.0 cyveillance.com
+0.0.0.0 cyvxvpipawyhz.com
 0.0.0.0 cyxvtitmydfg.com
 0.0.0.0 cyzdyiccpwx.com
 0.0.0.0 cyzyyv.com
@@ -35744,6 +35747,7 @@
 0.0.0.0 fujincenter.com
 0.0.0.0 fuklvbuuronj.com
 0.0.0.0 fukpgbwf.com
+0.0.0.0 fulhamsthroaty.com
 0.0.0.0 fulhudhoo.com
 0.0.0.0 fuligrs.cn
 0.0.0.0 fullcdn.ga
@@ -49862,6 +49866,7 @@
 0.0.0.0 ltv.tapjoy.com
 0.0.0.0 ltvapi.tapjoy.com
 0.0.0.0 ltyonej.cn
+0.0.0.0 ltziyuyjoq.com
 0.0.0.0 ltzpth.sephora.fr
 0.0.0.0 lu.sogou.com
 0.0.0.0 lu.sogoucdn.com
