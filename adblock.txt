@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-22 18:50:33（北京时间） 
-! Total count: 127747
+! Version: 2022-03-22 20:01:06（北京时间） 
+! Total count: 127752
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -48126,6 +48126,7 @@ ali213.net#@#.subscribe-container
 alibaba.com##.is-creative
 alibaba.com##a[campaignid][target="_blank"]
 alientube.co###adblockContainer
+aliexpress.com##a[href^="/item/"][href*="&aem_p4p_detail="]
 aliez.tv,aliez.me###adbtm
 aliez.tv,aliez.me###ads
 alipay.com###J-cooperant-banner
@@ -52991,6 +52992,7 @@ freepik.com###layer_coupon,.ad
 freepik.com##.adobe-detail
 freepik.com##.spr-plc
 freerutor.com,imgrutor.com,playtor.tv##div[class^="adblock-warning"]
+freescreens.ru,imgbase.ru,imgcach.ru,imgclick.ru,payforpic.ru,picclick.ru,picclock.ru,picforall.ru#$#abort-current-inline-script JSON.parse
 freeseotoolbox.net##.sideXd
 freeskier.com###adb-enabled
 freeskier.com#@##adb-not-enabled
@@ -54938,6 +54940,7 @@ igg-games.com##.adstg
 igg-games.com##.taxonomy-description
 igg-games.com##[href^="http://s2.igg-games.com/"]
 igg-games.com#$#abort-current-inline-script $ CreateBanner
+igg-games.com#$#abort-current-inline-script $ php
 igg-games.com#$#abort-on-property-write btoa
 ign.com##.deals-block
 ign.com##.wiki-bobble
@@ -58150,6 +58153,7 @@ muchong.com##a[href^="http://muchong.com/bbs/a"] > img
 muchong.com##div[id^="paper"]
 muchong.com##p[onclick="view_ok();"]
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
+mult34.com,remaxhd.one#$#abort-current-inline-script decodeURI; abort-on-property-read decodeURIComponent
 multicanais.tv#$#abort-current-inline-script document.createElement _whvbtwzo
 multiup.eu,multiup.org#?#.alert:-abp-contains(VPN)
 multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
@@ -65996,6 +66000,7 @@ zzpzero.com
 ||*.apk$domain=gulingge.com
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 ||*.com*.z*.glb.qiniucdn.com/tdata*
+||*.com/*b8121.js^$script,domain=mult34.com
 ||*.feipukeplus.com^$domain=m.qqm4.com
 ||*.gif$domain=6161bb.com
 ||*.gif$domain=8824hh.com

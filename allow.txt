@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-03-22 18:50:33（北京时间） 
+! Version: 2022-03-22 20:01:06（北京时间） 
 ! Total count: 17206
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -11248,7 +11248,7 @@
 @@||onesignal.com/sdks/OneSignalSDK.js$domain=wowbiz.ro
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
-@@||onet.pl/?utm_source=$removeparam! Checksum: HqTJaSMc6LBWSktZhPV1tA
+@@||onet.pl/?utm_source=$removeparam! Checksum: ljcMjsmAoAQ3Oqz8mEIoGg
 @@||onet.pl/?utm_source=$removeparam![Adblock Plus 2.0]
 @@||onet.pl/?utm_source=$removeparam# AdAway default blocklist
 @@||onet.pl/?utm_source=$removeparam[Adblock Plus 2.0]
@@ -13041,8 +13041,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: hoUcFjOrlEcDLtvs2TUpYQ
-@@||reseguiden.se^*.siteCatalyst.js! Checksum: qBHWVj5RjL29CJYwNF8XSA
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: ObpRP4GGIL0g8Wd/YCc84A
+@@||reseguiden.se^*.siteCatalyst.js! Checksum: lwzw6wgOxcQo9McJ2wuroA
 @@||reseguiden.se^*.siteCatalyst.js![Adblock Plus 2.0]
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
@@ -14047,7 +14047,7 @@
 @@||sledujserialy.io/theme/js/popunder.js
 @@||sledujserialy.to/theme/js/popunder.js
 @@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net
-@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net! Checksum: pXIoEAG3Np/sa0dlyIMBlg
+@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net! Checksum: ch5on5BxlTr1wtoIoAJ+pQ
 @@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net![Adblock Plus 2.0]
 @@||slidesharecdn.com^*/linkedin-$image,domain=slideshare.net
 @@||slike.indiatimes.com/feed/$domain=idiva.com
