@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Checksum: zCr6rJxQWl5q3DBVrdwNeA
-! Version: 2022-03-23 00:25:45（北京时间） 
+! Checksum: nQ6DhaOw0o4LTI8U0Pi0JQ
+! Version: 2022-03-23 06:26:14（北京时间） 
 ! Total count: 16758
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -373,6 +373,7 @@
 @@/owa/service.svc$document
 @@/pagead2.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodale.tv|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/pdc_s_code.js$domain=adobe.com
+@@/peel.js$script,domain=leechpremium.link
 @@/pic/ad/*$domain=ybjk.com
 @@/piwik-$domain=github.com
 @@/plugins/ad-blocking-detector/assets/js/*$script
@@ -2550,6 +2551,7 @@
 @@||azerty.nl/_azerty/data/marketing/banners/
 @@||azgeek01.*^$ghide
 @@||azlink.xyz^$ghide
+@@||azmath.info/peel.js$domain=leechpremium.link
 @@||azulyblanco.co^$generichide
 @@||azulyblanco.co^$stealth
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
@@ -9417,8 +9419,6 @@
 @@||leechall.download^$script,1p
 @@||leecher.xyz/adi/advertisement.js
 @@||leechking.com^$ghide
-@@||leechpremium.link/peel.js
-@@||leechpremium.link/peel.js$script
 @@||leffatykki.com/media/banners/tykkibanneri-728x90.png$image,~third-party
 @@||lefile.cn/??*,
 @@||legendstracking.com/js/legends-tracking.js$~third-party
