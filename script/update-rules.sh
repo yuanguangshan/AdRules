@@ -195,9 +195,6 @@ cat tmp-hosts.txt | sed 's/0.0.0.0 //' | sort -n | uniq | awk '!a[$0]++' > tmp-a
 cat *.txt | grep '^@' | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 echo '规则去重处理完成'
 
-# Python 处理重复规则
-python .././script/rule.py
-
 # Move to Pre Filter
 echo '移动规则到Pre目录'
 cd ../
@@ -205,6 +202,9 @@ mkdir -p ./pre/
 mv ./tmp/tmp-*.txt ./pre
 cd ./pre
 echo '移动完成'
+
+# Python 处理重复规则
+python .././script/rule.py
 
 # Start Count Rules
 
