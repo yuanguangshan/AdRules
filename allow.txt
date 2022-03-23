@@ -1,7 +1,7 @@
 ! Title: Allowlist
-! Checksum: +NUpSkMbBWkIohm/dlXKRg
-! Version: 2022-03-23 22:00:07（北京时间） 
-! Total count: 16762
+! Checksum: uI+hnsr9HdtWydd9H7MiqA
+! Version: 2022-03-23 22:11:03（北京时间） 
+! Total count: 16763
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -8134,6 +8134,7 @@
 @@||ikea.com/cdn/googleanalytics/$~third-party,xmlhttprequest
 @@||ilan.memurlar.net/common/job/advert/images/$domain=memurlar.net
 @@||ilan.memurlar.net/common/job/advert/images/*/headline.jpg|
+@@||ilce.alicdn.com^
 @@||ilfattoquotidiano.it^$extension
 @@||ilpuntotecnico.com/forum/RealPopup/blockadblock.js
 @@||ilpuntotecnico.com^$generichide

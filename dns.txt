@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 1vmGfg77aDGTQKWaHfnRAw
+! Checksum: dlCMZOImLFKddEx2oGVouA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-23 22:00:07（北京时间） 
-! Total count: 102591
+! Version: 2022-03-23 22:11:03（北京时间） 
+! Total count: 102592
 /aaddright.
 /abstat.
 /ad.ams.
@@ -2017,6 +2017,7 @@
 @@||idqqimg.com^
 @@||iface2.iqiyi.com^
 @@||iflow.uczzd.cn^
+@@||ilce.alicdn.com^
 @@||image.box.xiaomi.com^
 @@||image.coolapk.com^
 @@||image.uczzd.cn^
