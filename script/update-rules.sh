@@ -224,12 +224,12 @@ rm tmp*.txt *tpdate.txt
 )
 
 
-diffFile="$(ls pre |sort -u)"
+diffFile="$(ls|sort -u)"
 for i in $diffFile; do
  n=`cat $i | wc -l`
  new=$(echo "$i" |sed 's/tmp-//g')
  echo "! Total count: $n" > $i-tpdate.txt
- cat ./tpdate.txt ./$i-tpdate.txt ./$i > ./$new
+ cat ./tpdate.txt ./$i-tpdate.txt ./$i > ../$new
 done
 
 # Add Title and MD5
