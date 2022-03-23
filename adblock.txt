@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Rft6PoFcjcftsYdA0vKmpg
+! Checksum: k+K4Sd6LlyaGpC3RQQIk+Q
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-23 16:17:23（北京时间） 
-! Total count: 127785
+! Version: 2022-03-23 19:47:47（北京时间） 
+! Total count: 127797
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -10711,6 +10711,7 @@
 ##.ad-label
 ##.ad-lable
 ##.ad-landscape
+##.ad-large-1
 ##.ad-large-game
 ##.ad-last
 ##.ad-layer
@@ -11090,6 +11091,7 @@
 ##.ad-slot__oas
 ##.ad-slug
 ##.ad-small
+##.ad-small-1
 ##.ad-small-2
 ##.ad-smallBP
 ##.ad-source
@@ -19764,6 +19766,7 @@
 ##.moduleAdvert
 ##.moduleAdvertContent
 ##.moduleBannerAd
+##.module__ad-wide
 ##.module_ad
 ##.module_ad_disclaimer
 ##.module_box_ad
@@ -42707,6 +42710,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 ://adcl.$domain=~adcl.co.nz|~adcl.com|~adcl.screenconnect.com
 ://adn.*/zone/$popup
 ://adn.*/zone/$subdocument
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads.$popup
 ://ads2.
@@ -43010,6 +43014,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 ?eventtype=request&pid=
 ?format=js|$script,domain=iprima.cz
 ?framId=ad_
+?frm=*&ct=*&dit=$third-party
 ?guci=$subdocument,domain=iprima.cz
 ?handler=ads&
 ?impr?pageid=
@@ -58212,6 +58217,8 @@ my0538.com###adSlideCont1,#adSlideCont2,[width="1000"][height="70"]
 my0832.com##.fixediv,[class="wrap s_clear"]
 my0832.com##.xx_div
 myabandonware.com##div[class^="m1"]
+myanimelist.net###M_300x250_1_iframe
+myanimelist.net###M_320x50_1_iframe
 myanimelist.net##._unit
 myanimelist.net##.koukoku-sticky-wrapper
 myanimelist.net##.pda_top
@@ -65076,8 +65083,11 @@ yaolan.com##div[id*="underHdAd"]
 yaolan.com##div[id^="bot_ad"]
 yaoshe67.com##.container > .top
 yar7faf2a8cadf.zjlanbikm.xinray.net
+yardbarker.com###right_top_sticky
 yardbarker.com###yb_recirc
+yardbarker.com##.mb_promo_responsive_right
 yardbarker.com##.yb-card-ad
+yardbarker.com##.yb-card-out
 yarik-sat.com##.noadb
 yaseg2.com,yaseg3.com##.player > div[id][style^="width: 100%; height: 100%; background:"][style*="position: absolute; z-index:"]
 yaseg2.com,yaseg3.com##.wp > div[class] > div[id] > a[data-num][style*=".yaseok.com/uploads/20"][style$=".gif');"][href*=".yaseg3.com/go?id="]
@@ -72537,7 +72547,6 @@ zzpzero.com
 ||aliexpress.$removeparam=gps-id
 ||aliexpress.$removeparam=terminal_id
 ||aliexpress.$removeparam=tt
-||aliexpress.*^$removeparam=aem_p4p_detail
 ||aliexpress.*^$removeparam=gatewayAdapt
 ||aliexpress.*^$removeparam=pdp_pi
 ||aliexpress.com/item/$removeparam=pvid
@@ -76257,6 +76266,7 @@ zzpzero.com
 ||biemedia.com^
 ||biepa.net/mm2019/sy_
 ||biepa.net/vjs/hf.js
+||biexsite.net^
 ||bigappboi.com^
 ||bigasfactive.com^
 ||bigbolz.com^
@@ -91959,6 +91969,7 @@ zzpzero.com
 ||hujiang.com/ciku/getDetailSoftText/
 ||hujiang.com/ciku/getLesson
 ||hujiang.com/v2/log
+||hulai0323166.space^
 ||hulauf.cn^
 ||hulemedia.com^
 ||hulewangsi.cn^
@@ -102138,6 +102149,7 @@ zzpzero.com
 ||nakedfulfilhairy.com^
 ||nakedswordcashcontent.com/videobanners/
 ||nakirfettle.com^
+||nalapop.com^
 ||nalook.com^$third-party
 ||nameads.com^
 ||namecheap.com/graphics/linkus/

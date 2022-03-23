@@ -1,7 +1,7 @@
 ! Title: Allowlist
-! Checksum: gPOLsVY9nkrlyCZCsz1MKg
-! Version: 2022-03-23 16:17:23（北京时间） 
-! Total count: 16759
+! Checksum: 85JPb7HVSkCslITMHYdkNQ
+! Version: 2022-03-23 19:47:47（北京时间） 
+! Total count: 16760
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -8100,6 +8100,7 @@
 @@||idol.sankakucomplex.com/post/index.content?next=*&page=$elemhide,jsinject,extension
 @@||idol.sankakucomplex.com/post/index.content?next=*&page=$other
 @@||idos.idnes.cz^$csp
+@@||idqqimg.com^
 @@||idsly.com^$generichide
 @@||iejima.org/ad-banner/$image,~third-party
 @@||ievaphone.com/public/javascripts/ads.js
