@@ -1,12 +1,12 @@
 # Title: AdRules（For adaway）
-! Checksum: QiLdM/y5gWrExNNb2gjSsw
+! Checksum: d+GBHkU6Lcxhl/uF3+q/wQ
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-23 06:26:14（北京时间） 
-! Total count: 101884
+! Version: 2022-03-23 09:00:50（北京时间） 
+! Total count: 101889
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -7894,6 +7894,7 @@
 0.0.0.0 ads.pipaffiliates.com
 0.0.0.0 ads.pitchforkmedia.com
 0.0.0.0 ads.pittsburghlive.com
+0.0.0.0 ads.pivol.net
 0.0.0.0 ads.pixiq.com
 0.0.0.0 ads.placeiq.com
 0.0.0.0 ads.planet.nl
@@ -10920,6 +10921,7 @@
 0.0.0.0 akirkpatrick.com
 0.0.0.0 akita.kz
 0.0.0.0 akku.mondo.trium.mitsubishi.sms13.de
+0.0.0.0 aklamator.com
 0.0.0.0 aklglpwljiv.com
 0.0.0.0 akmhw.com
 0.0.0.0 akmqmypoqyn.com
@@ -11392,6 +11394,7 @@
 0.0.0.0 alshamselectrodxb.com
 0.0.0.0 alshirawirealestate.com
 0.0.0.0 alslz.top
+0.0.0.0 alsmdb.com
 0.0.0.0 also.greatsecuritydebate.net
 0.0.0.0 alstrome9riya10.com
 0.0.0.0 alt.gsecom.ch
@@ -75558,6 +75561,7 @@
 0.0.0.0 shareitpp.com
 0.0.0.0 sharele.cn
 0.0.0.0 shareman.xyz
+0.0.0.0 sharemedia.rs
 0.0.0.0 sharemedia.top
 0.0.0.0 sharepoint.sonobi.com
 0.0.0.0 sharepointads.com
@@ -101744,6 +101748,7 @@
 8ziyuan.com##.deanadsside
 900.la##.banner_ad1
 900.la##.font-ad
+908devices.com,comrex.com,pbsinternational.org###mcb-wrap
 90bifen.com###live > table[cellspacing="0"][cellpadding="0"]
 90bifen.com##div[id="ShowTopAds_"]
 90bifen.com##td[bgcolor="#FFFEE0"][height="22"]

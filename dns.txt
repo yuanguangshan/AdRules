@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: NlIm3ePZkfNRnLFs/mlxzw
+! Checksum: THZV0Hwn5ZN2GTXKRcW49A
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-23 06:26:14（北京时间） 
-! Total count: 102566
+! Version: 2022-03-23 09:00:50（北京时间） 
+! Total count: 102570
 /aaddright.
 /abstat.
 /ad.ams.
@@ -10244,6 +10244,7 @@
 ||ads.pipaffiliates.com^
 ||ads.pitchforkmedia.com^
 ||ads.pittsburghlive.com^
+||ads.pivol.net^
 ||ads.pixiq.com^
 ||ads.placeiq.com^
 ||ads.planet.nl^
@@ -13275,6 +13276,7 @@
 ||akirkpatrick.com^
 ||akita.kz^
 ||akku.mondo.trium.mitsubishi.sms13.de^
+||aklamator.com^
 ||aklglpwljiv.com^
 ||akmhw.com^
 ||akmqmypoqyn.com^
@@ -13750,6 +13752,7 @@
 ||alshamselectrodxb.com^
 ||alshirawirealestate.com^
 ||alslz.top^
+||alsmdb.com^
 ||also.greatsecuritydebate.net^
 ||alstrome9riya10.com^
 ||alt.gsecom.ch^
@@ -78013,6 +78016,7 @@
 ||shareitpp.com^
 ||sharele.cn^
 ||shareman.xyz^
+||sharemedia.rs^
 ||sharemedia.top^
 ||sharepoint.sonobi.com^
 ||sharepointads.com^
