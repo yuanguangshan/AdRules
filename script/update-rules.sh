@@ -191,7 +191,7 @@ for i in $diffFile; do
  new=$(echo "$i" |sed 's/tmp-//g')
  echo "! Total count: $n" > $i-tpdate.txt
  cat ./tpdate.txt ./$i-tpdate.txt ./$i > ./$new
- rm $i.txt *tpdate.txt
+ rm $i *tpdate.txt
 done
 
 # Add Title and MD5
