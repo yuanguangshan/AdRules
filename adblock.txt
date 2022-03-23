@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: fVSkH597PEe0AEEqfgXz+w
+! Checksum: Rft6PoFcjcftsYdA0vKmpg
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-23 12:56:56（北京时间） 
-! Total count: 127786
+! Version: 2022-03-23 16:17:23（北京时间） 
+! Total count: 127785
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -23662,7 +23662,6 @@
 ##[href*=".engine.adglare.net/"]
 ##[href*=".zlinkm.com/"]
 ##[href*="/entry/register/?i_code="]
-##[href*="https://www.jmbullion.com/gold/"]
 ##[href*='taobao.com/'][target='_blank']
 ##[href="/js/c-7-16.html"][title="2021"]
 ##[href="http://dx106.live"]
@@ -43858,9 +43857,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||astyle.alicdn.com/??
 @@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
-@@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
-@@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|metacritic.com
 @@||atanx.alicdn.com/t/tanxssp.js$domain=alimarket.tmall.com|www.taobao.com|www.tmall.com
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taojinbi.taobao.com
 @@||aternos.org^$generichide
@@ -74628,6 +74625,7 @@ zzpzero.com
 ||awestat.com^*/banner/
 ||awestatic.com^
 ||awestc.com^
+||awfonts.com^$script,third-party
 ||awfzfs.kwantum.nl^
 ||awhootoa.net^
 ||awhoufob.com^
@@ -84296,6 +84294,7 @@ zzpzero.com
 ||dx.thermofisher.com^
 ||dx00.live^
 ||dxbwukm.cn^
+||dxdx.shop^
 ||dxe2.heip.fr^
 ||dxfzasn.com^$script
 ||dxg*.com/img/A*.js

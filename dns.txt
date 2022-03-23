@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 5Qw5UrODHLQqnSewYjljhA
+! Checksum: 8reuTQUSd6KntveEPYCffA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-23 12:56:56（北京时间） 
-! Total count: 102576
+! Version: 2022-03-23 16:17:23（北京时间） 
+! Total count: 102580
 /aaddright.
 /abstat.
 /ad.ams.
@@ -34283,6 +34283,7 @@
 ||dx00.live^
 ||dx7.in^
 ||dxbwukm.cn^
+||dxdx.shop^
 ||dxe2.heip.fr^
 ||dxeldq.madeindesign.com^
 ||dxgo95ahe73e8.cloudfront.net^
@@ -71235,6 +71236,7 @@
 ||qpl9.destinia.dk^
 ||qpmue.xyz^
 ||qppdqcid.com^
+||qprskl.com^
 ||qps.cint.com^
 ||qpwiyfmlkhbxop.com^
 ||qpxohp.com^
@@ -101163,6 +101165,7 @@
 ||yourrecovery.net^
 ||yourrewardzone.com^
 ||yourservice.live^
+||yoursitestatstube.ru^
 ||yoursmartrewards.com^
 ||yourstats.net^
 ||yourtango.us.intellitxt.com^
@@ -102368,6 +102371,7 @@
 ||zsdqemzzzbtn.com^
 ||zsh-work.com^
 ||zsi7.destinia.do^
+||zslhmw.com^
 ||zsmmflxvkgvmcf.com^
 ||zsmyzg.cn^
 ||zsshlsh.cn^
