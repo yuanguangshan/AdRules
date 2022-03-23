@@ -1,12 +1,12 @@
 # Title: AdRules（For adaway）
-! Checksum: k2L2rgRJeYjN7hN/CXDvHQ
+! Checksum: 8XHTapy6jgVr1rQeW63qFQ
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-23 09:44:31（北京时间） 
-! Total count: 101889
+! Version: 2022-03-23 12:56:56（北京时间） 
+! Total count: 101895
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -27147,6 +27147,7 @@
 0.0.0.0 ctmibd.com
 0.0.0.0 ctnetwork.hu
 0.0.0.0 ctnsnet.com
+0.0.0.0 ctoabc.xyz
 0.0.0.0 ctoairtx.com
 0.0.0.0 ctobsnssdk.com
 0.0.0.0 ctologger01.analytics.go.com
@@ -34355,6 +34356,7 @@
 0.0.0.0 eruvpdymynpjw.xyz
 0.0.0.0 ervicoren.online
 0.0.0.0 ervladdep.xyz
+0.0.0.0 erweiblog.xyz
 0.0.0.0 erxalim.xyz
 0.0.0.0 es-business.vodafone.com
 0.0.0.0 es-gmtdmp.mookie1.com
@@ -55353,6 +55355,7 @@
 0.0.0.0 mercury-int.marketo.com
 0.0.0.0 mercury-sdk.snssdk.com
 0.0.0.0 mercury.bravenet.com
+0.0.0.0 mercurymage.top
 0.0.0.0 mercy.ga
 0.0.0.0 mercythirty.com
 0.0.0.0 merdpspl.com
@@ -57695,6 +57698,7 @@
 0.0.0.0 moonbit.co.in
 0.0.0.0 moonicorn.network
 0.0.0.0 moonify.io
+0.0.0.0 moonight.ltd
 0.0.0.0 moonlightingapi-ads.com
 0.0.0.0 moonmedias.biz
 0.0.0.0 moonsade.com
@@ -83707,6 +83711,7 @@
 0.0.0.0 sztbjs.com
 0.0.0.0 sztpmc.branshes.com
 0.0.0.0 szupertanacsok.blog.hu
+0.0.0.0 szvxwqp.cn
 0.0.0.0 szwjzl.cn
 0.0.0.0 szwyyl.com
 0.0.0.0 szxhybj.com
@@ -99851,6 +99856,7 @@
 0.0.0.0 zqqifh.cn
 0.0.0.0 zqsbnfh.top
 0.0.0.0 zqscript.com
+0.0.0.0 zqsj.xyz
 0.0.0.0 zqslg.cn
 0.0.0.0 zqtizs.bonprix.ru
 0.0.0.0 zqtk.net
@@ -101748,7 +101754,7 @@
 8ziyuan.com##.deanadsside
 900.la##.banner_ad1
 900.la##.font-ad
-908devices.com,comrex.com,pbsinternational.org###mcb-wrap
+908devices.com,comrex.com,pbsinternational.org,pendar.com###mcb-wrap
 90bifen.com###live > table[cellspacing="0"][cellpadding="0"]
 90bifen.com##div[id="ShowTopAds_"]
 90bifen.com##td[bgcolor="#FFFEE0"][height="22"]

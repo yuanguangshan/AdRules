@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: L7Fppoh7buUgrjQjMaruAQ
+! Checksum: 5Qw5UrODHLQqnSewYjljhA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-23 09:44:31（北京时间） 
-! Total count: 102570
+! Version: 2022-03-23 12:56:56（北京时间） 
+! Total count: 102576
 /aaddright.
 /abstat.
 /ad.ams.
@@ -29530,6 +29530,7 @@
 ||ctmibd.com^
 ||ctnetwork.hu^
 ||ctnsnet.com^
+||ctoabc.xyz^
 ||ctoairtx.com^
 ||ctobsnssdk.com^
 ||ctologger01.analytics.go.com^
@@ -36753,6 +36754,7 @@
 ||eruvpdymynpjw.xyz^
 ||ervicoren.online^
 ||ervladdep.xyz^
+||erweiblog.xyz^
 ||erxalim.xyz^
 ||es-business.vodafone.com^
 ||es-gmtdmp.mookie1.com^
@@ -57784,6 +57786,7 @@
 ||mercury-int.marketo.com^
 ||mercury-sdk.snssdk.com^
 ||mercury.bravenet.com^
+||mercurymage.top^
 ||mercy.ga^
 ||mercythirty.com^
 ||merdpspl.com^
@@ -60133,6 +60136,7 @@
 ||moonbit.co.in^
 ||moonicorn.network^
 ||moonify.io^
+||moonight.ltd^
 ||moonlightingapi-ads.com^
 ||moonmedias.biz^
 ||moonsade.com^
@@ -86169,6 +86173,7 @@
 ||sztbjs.com^
 ||sztpmc.branshes.com^
 ||szupertanacsok.blog.hu^
+||szvxwqp.cn^
 ||szwjzl.cn^
 ||szwyyl.com^
 ||szxhybj.com^
@@ -102334,6 +102339,7 @@
 ||zqqifh.cn^
 ||zqsbnfh.top^
 ||zqscript.com^
+||zqsj.xyz^
 ||zqslg.cn^
 ||zqtizs.bonprix.ru^
 ||zqtk.net^

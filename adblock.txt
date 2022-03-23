@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: VY0GPTkckgSpHjGztxO2Rg
+! Checksum: fVSkH597PEe0AEEqfgXz+w
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-23 09:44:31（北京时间） 
-! Total count: 127774
+! Version: 2022-03-23 12:56:56（北京时间） 
+! Total count: 127786
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -23626,6 +23626,7 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
+##DIV[style=" max-width:1000px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##FBS-AD
 ##IFRAME[src*="//pos.baidu.com/"]
 ##LEADERBOARD-AD
@@ -43856,7 +43857,9 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||astyle.alicdn.com/??
+@@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|metacritic.com
+@@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|metacritic.com
 @@||atanx.alicdn.com/t/tanxssp.js$domain=alimarket.tmall.com|www.taobao.com|www.tmall.com
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taojinbi.taobao.com
@@ -48485,6 +48488,7 @@ askapache.com##.GAD
 askdfjkls.moxiaoqihuoguo.com
 askdifference.com##div[style="color: #aaa"]
 askdifference.com##div[style="min-height:280px;"]
+askdjfsl.alictibet.com
 asksiirleri.org#$#abort-current-inline-script Math zfgloaded
 aslkdjfkdls.lzljhs.com
 asmag.com.cn###adRightFix
@@ -51277,6 +51281,7 @@ daz3d.ru,portfel.info##body > div[id][style="display: block;"]
 dbkdwe1.com
 dbw.cn##.Jutop,.Jushang,[src^="http://tg.7477.com/adiframe/"],[style*="width:640px;height:345px;"],[class^="ad"],[style^=" width:630px; height:160px;"]
 dbz-fantasy.com#@##adTeaser
+dc.emilyz.top
 dcard.tw#?##comment-anchor > section > div[style] > div[data-index]:has(> div[class] > div > div[id^="div-gpt-ad"])
 dcard.tw#?#div[data-index] > article:contains(贊助活動)
 dcast.tv###hideall
@@ -56914,6 +56919,7 @@ lpl.qq.com##.ost_gg,.seeking-gg
 lqz.cn###ad_index
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
 lrshare.com##.item,.asb-post,div#g-nav,aside#text-11,aside#text-12,.wp-image-2587,#g-single
+lsdkfjks.fvsymbol.net
 lsdkjfslkdf.jiumai88.com
 lsj.ac##div[class="col-12"] > div[class="poster"]
 lsj2.5aer.com
@@ -81318,6 +81324,7 @@ zzpzero.com
 ||ctjvkaqiekquag.com^
 ||ctm-media.com^
 ||ctnsnet.com^$third-party
+||ctoabc.xyz^
 ||ctoairtx.com^
 ||ctobsnssdk.com^
 ||ctp1.bforbank.com^
@@ -85914,6 +85921,7 @@ zzpzero.com
 ||eruvpdymynpjw.xyz^
 ||ervicoren.online^
 ||ervladdep.xyz^
+||erweiblog.xyz^
 ||es.secure.sonosite.com^
 ||es3984.review/02_cn_ad/
 ||es54i9g7p7xh.com^
@@ -100191,6 +100199,7 @@ zzpzero.com
 ||merciselyancies.site^
 ||mercuras.com^
 ||mercury-sdk.snssdk.com^
+||mercurymage.top^
 ||mercy.ga^$third-party
 ||mercythirty.com^
 ||merdpspl.com^
@@ -101280,6 +101289,7 @@ zzpzero.com
 ||moonads.net^
 ||moonbbs.com/data/attachment/portal/
 ||moonicorn.network^
+||moonight.ltd^
 ||moonlightingapi-ads.com^
 ||moonmedias.biz^
 ||moontuftboy.com^
@@ -116617,6 +116627,7 @@ zzpzero.com
 ||szshss.com^
 ||sztbjs.com^
 ||szvr.com^$third-party
+||szvxwqp.cn^
 ||szwjzl.cn^$third-party
 ||szwyyl.com^
 ||szxhybj.com^
@@ -127526,6 +127537,7 @@ zzpzero.com
 ||zqqifh.cn^
 ||zqsbnfh.top^
 ||zqscript.com^
+||zqsj.xyz^
 ||zqslg.cn^
 ||zqsx.net/bbs/kehu/
 ||zqtizs.bonprix.ru^
