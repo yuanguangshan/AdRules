@@ -1,7 +1,7 @@
 ! Title: Allowlist
-! Checksum: 85JPb7HVSkCslITMHYdkNQ
-! Version: 2022-03-23 19:47:47（北京时间） 
-! Total count: 16760
+! Checksum: r83MvDv6S61ti6OfDvqxUQ
+! Version: 2022-03-23 21:28:12（北京时间） 
+! Total count: 16762
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -4268,6 +4268,7 @@
 @@||codeconvey.com^$ghide
 @@||codehelppro.com^$ghide
 @@||codelist.cc/advertisement.js
+@@||codepen.io^$generichide
 @@||codesandbox.io^$generichide
 @@||codesoom.com/assets/js/google-analytics.js
 @@||codicebusiness.shinystat.com/cgi-bin/getcod.cgi?$script,domain=grazia.it|panorama-auto.it|panorama.it
@@ -11186,6 +11187,7 @@
 @@||p.jwpcdn.com/player/plugins/vast/$xhr,domain=doramasmp4.com
 @@||p.jwpcdn.com/player/plugins/vast/v*/vast.js$domain=player.cartoonth12.com
 @@||p.jwpcdn.com/player/v/*/jw-icons.woff$domain=9anime.to
+@@||p.qlogo.cn^
 @@||p.typekit.net/*.css$domain=cfr.org
 @@||p.typekit.net/*.css$domain=store.steampowered.com|nejm.org
 @@||p2.2elotoaraba.com/Advert/*$domain=2elotoaraba.com

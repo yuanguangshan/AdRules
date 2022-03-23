@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: k+K4Sd6LlyaGpC3RQQIk+Q
+! Checksum: 7rOcDB4F1KFyPr5xuSJb3w
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-23 19:47:47（北京时间） 
-! Total count: 127797
+! Version: 2022-03-23 21:28:12（北京时间） 
+! Total count: 127805
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -37394,7 +37394,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /pc_common/static/*
 /pcad.
 /pcad.js?
-/pcbeta\.com\/data\/cache\/(?:common|home)_*[a-zA-Z]{1,5}.*.js\?/$domain=pcbeta.com,match-case
 /pcclick.
 /pcgg/*.js
 /pch_ad/*
@@ -39428,6 +39427,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /template/hei/js/1.php
 /template/jiejiesao/aaaa/*
 /template/js/adsData.js
+/template/m1938-*/static/js/dao_
 /template/m1938pc/bd/*.js
 /template/paody/aaaa/all-top.js
 /template/shoujigg/*
@@ -40620,7 +40620,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /wmgbeaconcode.
 /wmps_tracker.
 /wmxtracker.js
-/wob*?frm=0&url=
 /woopra.js
 /wordpress-ads-plug-in/*
 /worldwide_analytics/*
@@ -41726,6 +41725,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 28188.com##.couplet_ad,img[src^="http://59.36.101.209"]
 28188.com,28188.net,yxad.com###nav
 28hse.com###floating_left_div
+2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
 2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,timeslive.co.za##.sponsored
 2btu.com##.adgr
 2c2.website,2p8.space,adultgao.com,caopop.com,caoporn.com,caouoo.com,caox.cc,gao1.cc,h3e.pw,h3y.pw,k88.club,me88.pw,p5p.space,se88.space,t2p.space,tb001.xyz,te88.pw,vwan.xyz,xhao1.com##div[style="margin-top:5px;margin-bottom:5px;"]:first-child
@@ -42711,7 +42711,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 ://adn.*/zone/$popup
 ://adn.*/zone/$subdocument
 ://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads.$popup
 ://ads2.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
@@ -44236,6 +44235,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cocomanga.com/js/ad*/*.js
 @@||cocomanga.com/js/ad_/$image
 @@||code.jquery.com^$domain=mixdrop.co
+@@||codepen.io^$generichide
 @@||codesandbox.io^$generichide
 @@||codicebusiness.shinystat.com/cgi-bin/getcod.cgi?$script,domain=grazia.it|panorama-auto.it|panorama.it
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net|radioitalia.it
@@ -61642,6 +61642,8 @@ stock.qq.com##.ad,.phone_ad_1000
 stock87.com##a[href^="http"]:not([href*="stock87."]) > img[src*="uploadfiles/image/"]
 stock87.com##div[id^="Javascript"]
 stock87.com##div[style^="position:relative;width:1000px;height:90px;"]
+stocksnap.io##.info-col
+stocksnap.io##.inline-carbon
 stockstar.com###dhwzl
 stockstar.com##.much_ad
 stockstar.com##.siteAd_l
@@ -73393,6 +73395,7 @@ zzpzero.com
 ||animatedpopular.com^
 ||anime4fun.com/js/newanime.js$script
 ||animesuge.to/?$popup
+||animesuge.to/E/aircraftmighty.com/
 ||animits.com^
 ||aniview.com^$third-party
 ||anivisual.net/mim*.js|$script,domain=anivisual.net
@@ -89719,6 +89722,7 @@ zzpzero.com
 ||govguilin.cn^
 ||govhebie.cn^
 ||govhechi.cn^
+||govheyuan.cn^
 ||goviral-content.com^$third-party
 ||govjieyang.cn^
 ||govkunming.cn^
@@ -101022,6 +101026,7 @@ zzpzero.com
 ||mm.jbzj.com^
 ||mm.melia.com^
 ||mm.nwell.net^
+||mm.paizi.net^
 ||mm111.net/api.php?mod=ad&
 ||mm387.com/images/*.gif
 ||mm7.net^$third-party
@@ -108723,6 +108728,7 @@ zzpzero.com
 ||raresummer.com^$third-party
 ||rarseene.com^
 ||raspberryareaurge.com^
+||raspberrybenefactor.com^
 ||rat.rakuten.co.jp^
 ||rat.xxx/rpi/
 ||rat.xxx/xdman/
@@ -111415,6 +111421,7 @@ zzpzero.com
 ||seniorliving.johnknox.com^
 ||seniorliving.maryswoods.org^
 ||seniorliving.mrcaff.org^
+||senmu123.com^
 ||senogh.com^
 ||sensationaleducate.com^
 ||sensationdetermined.com^
@@ -118539,6 +118546,7 @@ zzpzero.com
 ||tourism.visitorlando.com^
 ||tourmake.it^*/stat/
 ||tourmake.it^*/stats?
+||tournamentplot.com^
 ||touroumu.com^
 ||touroumu.com^$popup
 ||tourradar.com/def/partner?$third-party

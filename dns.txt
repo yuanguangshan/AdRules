@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: HWxUj03YpQy8cdAPnFdO8Q
+! Checksum: 8J0udHQSwjThfppUbvAEiw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-23 19:47:47（北京时间） 
-! Total count: 102583
+! Version: 2022-03-23 21:28:12（北京时间） 
+! Total count: 102591
 /aaddright.
 /abstat.
 /ad.ams.
@@ -2131,6 +2131,7 @@
 @@||orbit.jd.com^
 @@||ozone.10jqka.com.cn^
 @@||p-l.play.aiseet.atianqi.com^
+@@||p.qlogo.cn^
 @@||pacaio.match.qq.com^
 @@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
 @@||pagead.l.doubleclick.net^
@@ -42733,6 +42734,7 @@
 ||govguilin.cn^
 ||govhebie.cn^
 ||govhechi.cn^
+||govheyuan.cn^
 ||goviral-content.com^
 ||govjieyang.cn^
 ||govkunming.cn^
@@ -55525,6 +55527,7 @@
 ||mabc.gr^
 ||mabila.ua^
 ||mabipa.com^
+||mableyable.com^
 ||mabping.chartbeat.net^
 ||macads.net^
 ||macatawa.org^
@@ -55855,6 +55858,7 @@
 ||mamabearcoffee.com^
 ||mamamia.au.intellitxt.com^
 ||mamanagementandconsulting.com^
+||mambkooocango.com^
 ||mambo.kiev.ua^
 ||mamihlapinatana.xyz^
 ||mamilade.oewabox.at^
@@ -59531,6 +59535,7 @@
 ||mm.melia.com^
 ||mm.n3w1d0ma1n^
 ||mm.nwell.net^
+||mm.paizi.net^
 ||mm.welt.de^
 ||mm26.com^
 ||mm7.net^
@@ -71932,6 +71937,7 @@
 ||raskrutka.ucoz.com^
 ||rasmas.inmar.com^
 ||raspberryareaurge.com^
+||raspberrybenefactor.com^
 ||rassegnavermentino.it^
 ||rasskaju.ru^
 ||rasuridin.online^
@@ -77326,6 +77332,7 @@
 ||senkevich-sl.net^
 ||senkevich-vk.net^
 ||senlvg.secretsdujeu.com^
+||senmu123.com^
 ||senogh.com^
 ||senolati.com^
 ||sensationaleducate.com^
@@ -89251,6 +89258,7 @@
 ||tour.sweetdiscreet.com^
 ||tourism.visitorlando.com^
 ||tourismnz.hb.omtrdc.net^
+||tournamentplot.com^
 ||tournhatrang.asia^
 ||touroumu.com^
 ||toursbooking.mu^
