@@ -1,12 +1,12 @@
 # Title: AdRules（For adaway）
-! Checksum: NdknbEMZwhgweZMge0/yvw
+! Checksum: I0s9a66Yf686E2pFxZUxrw
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Total count: 101910
-! Version: 2022-03-23 23:11:21（北京时间） 
+! Version: 2022-03-23 23:18:00（北京时间） 
+! Total count: 101911
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -74038,6 +74038,7 @@
 0.0.0.0 sea1b-ls.naiadsystems.com
 0.0.0.0 sea2.authcaptcha.com
 0.0.0.0 sea2.directprimal.com
+0.0.0.0 seabedchita.com
 0.0.0.0 seaboblit.com
 0.0.0.0 seacupps.com
 0.0.0.0 seadform.net

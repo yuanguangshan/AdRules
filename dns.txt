@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: yOpvrIg893d09R0KFfJkpg
+! Checksum: X7PkcL/moCyEAa0E019yqA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Total count: 102593
-! Version: 2022-03-23 23:11:21（北京时间） 
+! Version: 2022-03-23 23:18:00（北京时间） 
+! Total count: 102594
 /aaddright.
 /abstat.
 /ad.ams.
@@ -76496,6 +76496,7 @@
 ||sea1b-ls.naiadsystems.com^
 ||sea2.authcaptcha.com^
 ||sea2.directprimal.com^
+||seabedchita.com^
 ||seaboblit.com^
 ||seacupps.com^
 ||seadform.net^

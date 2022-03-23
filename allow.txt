@@ -1,7 +1,7 @@
 ! Title: Allowlist
-! Checksum: E8zGzrymXH2i791iOAXukQ
+! Checksum: EJX+IE45dmoqfW3ps1yIQQ
+! Version: 2022-03-23 23:18:00（北京时间） 
 ! Total count: 16764
-! Version: 2022-03-23 23:11:21（北京时间） 
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
