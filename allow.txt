@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Checksum: EJX+IE45dmoqfW3ps1yIQQ
-! Version: 2022-03-23 23:18:00（北京时间） 
+! Checksum: qxN5LUyhpaxUiSd9iuZg6Q
+! Version: 2022-03-23 23:22:26（北京时间） 
 ! Total count: 16764
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -3519,7 +3519,7 @@
 @@||cdn.jsdelivr.net/npm/jquery@
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|! AakList (Anti-Adblock Killer)
-@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|etect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=meucdn.vip
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=waaw.tv|waaw1.tv|waaws.tk
