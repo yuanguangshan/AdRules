@@ -1,12 +1,12 @@
 # Title: AdRules（For adaway）
-! Checksum: 70SZ8nC07qdIYFMmKQvYgw
+! Checksum: 16STecLId8Bv99VR4YTeQg
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-23 23:22:26（北京时间） 
-! Total count: 101911
+! Version: 2022-03-23 23:26:00（北京时间） 
+! Total count: 101912
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -57563,6 +57563,7 @@
 0.0.0.0 mond.post.ch
 0.0.0.0 mond.postauto.ch
 0.0.0.0 mondaymornings.co
+0.0.0.0 mondaysdoris.com
 0.0.0.0 mondayunauthorized.com
 0.0.0.0 mondiad.net
 0.0.0.0 mondialwering.com
