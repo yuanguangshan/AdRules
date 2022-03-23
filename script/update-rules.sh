@@ -198,6 +198,7 @@ echo '规则计算完毕'
 
 # Start Add title and date
 echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
+title=(
 echo "! Total count: $adblock_num" >> adblock-tpdate.txt
 echo "! Total count: $adblock_plus_num" >> adblock+adguard-tpdate.txt
 echo "! Total count: $adguard_num" >> adguard-tpdate.txt
@@ -220,6 +221,16 @@ cat tpdate.txt ad-domains-tpdate.txt tmp-ad-domains.txt > ad-domains.txt
 #cat tpdate.txt ubo-adguard-tpdate.txt tmp-adguard-ubo.txt > adguard-ubo.txt
 #cat tpdate.txt ubo-full-adguard-tpdate.txt tmp-adguard-full-ubo.txt > adguard-full-ubo.txt
 rm tmp*.txt *tpdate.txt
+)
+
+
+diffFile="$(ls pre |sort -u)"
+for i in $diffFile; do
+ n=`cat $i | wc -l`
+ new=$(echo "$i" |sed 's/tmp-//g')
+ echo "! Total count: $n" > $i-tpdate.txt
+ cat ./tpdate.txt ./$i-tpdate.txt ./$i > ./$new
+done
 
 # Add Title and MD5
 cd ../
