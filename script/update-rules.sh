@@ -182,16 +182,18 @@ echo '移动完成'
 python .././script/rule.py
 
 # Start Add title and date
-echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
+
 
 diffFile="$(ls|sort -u)"
 for i in $diffFile; do
  n=`cat $i | wc -l`
+ echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
  new=$(echo "$i" |sed 's/tmp-//g')
  echo "! Total count: $n" > $i-tpdate.txt
  cat ./tpdate.txt ./$i-tpdate.txt ./$i > ./$new
+ rm $i.txt *tpdate.txt
 done
-rm tmp*.txt *tpdate.txt
+
 # Add Title and MD5
 cd ../
 mkdir -p ./md5/
