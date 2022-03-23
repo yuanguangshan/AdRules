@@ -181,48 +181,8 @@ echo '移动完成'
 # Python 处理重复规则
 python .././script/rule.py
 
-# Start Count Rules
-
-echo '正在计算规则总数..'
-adblock_num=`cat tmp-adblock.txt | wc -l`
-adblock_plus_num=`cat tmp-adblock+adguard.txt | wc -l`
-adguard_num=`cat tmp-adguard.txt | wc -l`
-#ubo_adguard_num=`cat tmp-adguard-ubo.txt | wc -l`
-#ubo_full_adguard_num=`cat tmp-adguard-full-ubo.txt | wc -l`
-full_adguard_num=`cat tmp-adguard-full.txt | wc -l`
-dns_num=`cat tmp-dns.txt | wc -l`
-hosts_num=`cat tmp-hosts.txt | wc -l`
-ad_domains_num=`cat tmp-ad-domains.txt | wc -l`
-allow_num=`cat tmp-allow.txt | wc -l`
-echo '规则计算完毕'
-
 # Start Add title and date
 echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
-title=(
-echo "! Total count: $adblock_num" >> adblock-tpdate.txt
-echo "! Total count: $adblock_plus_num" >> adblock+adguard-tpdate.txt
-echo "! Total count: $adguard_num" >> adguard-tpdate.txt
-echo "! Total count: $dns_num" >> dns-tpdate.txt
-echo "! Total count: $hosts_num" >> hosts-tpdate.txt
-echo "! Total count: $allow_num" >> allow-tpdate.txt
-echo "! Total count: $ad_domains_num" >> ad-domains-tpdate.txt
-echo "! Total count: $full_adguard_num" >> full-adguard-tpdate.txt
-echo "! Total count: $ubo_full_adguard_num" >> ubo-full-adguard-tpdate.txt
-echo "! Total count: $ubo_adguard_num" >> ubo-adguard-tpdate.txt
-# Start Marge Rules
-cat tpdate.txt adblock-tpdate.txt tmp-adblock.txt > adblock.txt
-cat tpdate.txt adblock+adguard-tpdate.txt tmp-adblock+adguard.txt > adblock+adguard.txt
-cat tpdate.txt adguard-tpdate.txt tmp-adguard.txt > adguard.txt
-cat tpdate.txt full-adguard-tpdate.txt tmp-adguard-full.txt > adguard-full.txt
-cat tpdate.txt dns-tpdate.txt tmp-dns.txt > dns.txt
-cat tpdate.txt hosts-tpdate.txt tmp-hosts.txt > hosts.txt
-cat tpdate.txt allow-tpdate.txt tmp-allow.txt > allow.txt
-cat tpdate.txt ad-domains-tpdate.txt tmp-ad-domains.txt > ad-domains.txt
-#cat tpdate.txt ubo-adguard-tpdate.txt tmp-adguard-ubo.txt > adguard-ubo.txt
-#cat tpdate.txt ubo-full-adguard-tpdate.txt tmp-adguard-full-ubo.txt > adguard-full-ubo.txt
-rm tmp*.txt *tpdate.txt
-)
-
 
 diffFile="$(ls|sort -u)"
 for i in $diffFile; do
