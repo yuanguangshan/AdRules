@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: WzZyFR9+mziulHW2VCbljg
+! Checksum: ALVrEoPC+MWs/oDfJqjapg
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-23 23:26:00（北京时间） 
-! Total count: 127819
+! Version: 2022-03-24 00:18:30（北京时间） 
+! Total count: 127822
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -61789,6 +61789,7 @@ sxrom.com##.tmk
 sxyprn.com##.cbd
 sxyprn.com##.tbd
 sxyprn.com##[href*="/re/"]
+sxyprn.com#$#abort-current-inline-script vast_urls; override-property-read D4zz undefined
 sxyprn.com,sxyprn.net,strikeout.cc#$#abort-current-inline-script document.createElement script
 sydneytoday.com##.mygad
 sydneytoday.com##.news-list > .row > .col-xs-12
@@ -97891,6 +97892,7 @@ zzpzero.com
 ||loamauji.com^
 ||loanonionbidding.com^
 ||loaphour.com^
+||loatis.com^
 ||lobby-x.eu^
 ||lobhtwevnmgpxby.xyz^
 ||loboclick.com^
@@ -109120,6 +109122,7 @@ zzpzero.com
 ||refraintupaiid.com^
 ||refunsiy.net^
 ||refutationexcessiveglamour.com^
+||refutationoverwhelming.com^
 ||refwkk.cas.sk^
 ||refwkk.topky.sk^
 ||refytq.camp-fire.jp^
