@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: H6u1AsDFzbHjdxjy8oEJKA
+! Checksum: Jp+3yzVGSVx4SJqnpY7hRQ
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-24 00:18:30（北京时间） 
-! Total count: 102700
+! Version: 2022-03-24 08:56:18（北京时间） 
+! Total count: 102724
 /aaddright.
 /abstat.
 /ad.ams.
@@ -3683,6 +3683,7 @@
 ||426g.com^
 ||42791bdc2481f6c.com^
 ||429999d.com^
+||42fd278b95.com^
 ||42qnuym6jsvn.www.cefirates.com^
 ||42ye.com^
 ||4336wang.cn^
@@ -3727,6 +3728,7 @@
 ||480.zaloapp.ads.zdn.vn^
 ||485d0bd3f4.com^
 ||48d58df525.com^
+||493b0eda03.com^
 ||493b98cce8bc1a2dd.com^
 ||49oa3o49b6.com^
 ||4adtf.com.^
@@ -6502,6 +6504,7 @@
 ||abtrcking.com^
 ||abtshield.com^
 ||abuajs.e-monsite.com^
+||abundantshells.com^
 ||abundled.club^
 ||abusedbabysitters.com^
 ||abuseewarlock.com^
@@ -22548,6 +22551,7 @@
 ||bzrmxfxu.com^
 ||bzrpvk.com^
 ||bzsxlaw.com^
+||bzwcgscqnf.com^
 ||bzyunding.com^
 ||c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com^
 ||c-adash.m.taobao.com^
@@ -23070,6 +23074,7 @@
 ||cafegraha.com^
 ||cafemom.us.intellitxt.com^
 ||cafepharma.adblade.com^
+||cagadgfihecfiigbgbc.ru^
 ||cagataygunes.com.tr^
 ||cagelrib.net^
 ||caglaikr.net^
@@ -24279,6 +24284,7 @@
 ||cdn.hiperadverts.com^
 ||cdn.histats.com^
 ||cdn.hot-mob.com^
+||cdn.house^
 ||cdn.hunteryvely.com^
 ||cdn.iasrv.com^
 ||cdn.id5-sync.com^
@@ -25706,6 +25712,7 @@
 ||cjbmanagement.com^
 ||cjcqls.onbuy.com^
 ||cjde.xyz^
+||cjenxpjxxhdwtp.xyz^
 ||cjezgbjbltos.com^
 ||cjf25jklrwqt.com^
 ||cjgcedu.com^
@@ -26134,7 +26141,6 @@
 ||clickathere.com^
 ||clickauditor.net^
 ||clickbangpop.com^
-||clickbank.net^
 ||clickbaza.com^
 ||clickbet88.com^
 ||clickbigo.com^
@@ -30157,6 +30163,7 @@
 ||d17m68fovwmgxj.cloudfront.net^
 ||d188elxamt3utn.cloudfront.net^
 ||d188m5xxcpvuue.cloudfront.net^
+||d18e74vjvmvza1.cloudfront.net^
 ||d18g6t7whf8ejf.cloudfront.net^
 ||d18mealirgdbbz.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
@@ -33413,6 +33420,7 @@
 ||dollarrentcar.com^
 ||dollarsponsor.com^
 ||dolldetail.com^
+||dolleddhaman.com^
 ||doller.softtechnoit.com^
 ||dolliplingsyllenesliopa.com^
 ||dollsdeclare.com^
@@ -37534,6 +37542,7 @@
 ||ewgkjq.deercase.com^
 ||ewgroup.com.br^
 ||ewithjam.club^
+||ewmpvsajrhxbuev.xyz^
 ||ewooe6df.com^
 ||ewr-rtb1.rfihub.com^
 ||ewrerew29w09.com^
@@ -39265,7 +39274,6 @@
 ||flower.bg^
 ||flowerdevon.idps.co.uk^
 ||floweryoperation.com^
-||flowgo.com^
 ||flowln.com^
 ||flowmaster.com.pk^
 ||flownabbot.com^
@@ -42935,6 +42943,7 @@
 ||grassrootsunwired.actonservice.com^
 ||gratecowgram.com^
 ||graterpartnership.com^
+||graths.com^
 ||gratificationposture.com^
 ||gratifymecorrect.com^
 ||gratingtode.com^
@@ -46568,7 +46577,6 @@
 ||iegwze.goldcar.es^
 ||iehtzdq.cn^
 ||iendoo.com^
-||ientrymail.com^
 ||ieplugin.com^
 ||ieroohhcytpar.xyz^
 ||iesb.us.intellitxt.com^
@@ -46800,6 +46808,7 @@
 ||ilkmawgod.site^
 ||ilkrileashes.com^
 ||illallwoe.com^
+||illegalprotected.com^
 ||illfatedsnail.com^
 ||illicitdandily.cam^
 ||illicium.web.money^
@@ -47313,6 +47322,7 @@
 ||impala.creativeclass.co^
 ||impala.vnv.nl^
 ||impat.tradedoubler.com^
+||impatientlyastonishing.com^
 ||impbe.tradedoubler.com^
 ||impch.tradedoubler.com^
 ||impcz.tradedoubler.com^
@@ -61319,6 +61329,7 @@
 ||myzk1.com^
 ||myzwqwe12.com^
 ||mzbcdn.net^
+||mzcd.xyz^
 ||mzenze.linio.com.co^
 ||mzjruy.yocoyoco.com^
 ||mzlit.com^
@@ -65752,6 +65763,7 @@
 ||p01.notifa.info^
 ||p02.notifa.info^
 ||p03.notifa.info^
+||p03try-c4t3g0ry.xyz^
 ||p04.notifa.info^
 ||p05.notifa.info^
 ||p09diw3.cn^
@@ -67348,7 +67360,6 @@
 ||pianistprodigy.com^
 ||pianistrefutationgoose.com^
 ||piano_log.kingsoft.jp^
-||pianomedia.eu^
 ||piar-m.ru^
 ||pic.0597kk.com^
 ||pic.casee.cn^
@@ -68574,6 +68585,7 @@
 ||pon-prairie.com^
 ||pon.ewtuyytdf45.com^
 ||ponchowafesargb.com^
+||ponderouscentigradecredit.com^
 ||pondokiklan.com^
 ||poneridcreels.com^
 ||ponizinny.nl^
@@ -70146,6 +70158,7 @@
 ||psugeglapha.com^
 ||psughooy.com^
 ||psuglymave.com^
+||psuhexitu.pro^
 ||psuhuchize.com^
 ||psulsobi.net^
 ||psupaids.com^
@@ -71265,6 +71278,7 @@
 ||qling.com^
 ||qlitics.com^
 ||qljiop.allabout.co.jp^
+||qljwkthllpjsi.com^
 ||qlkms.ga^
 ||qlmqzznfcb.com^
 ||qlnomb.com^
@@ -73680,6 +73694,7 @@
 ||rkl.draugas.lt^
 ||rkllcrwtftx.com^
 ||rklmstr.com^
+||rkoepfotesi.com^
 ||rkomf.com^
 ||rktch.com^
 ||rktu.com^
@@ -79093,6 +79108,7 @@
 ||slickaffiliate.com^
 ||slickjump.net^
 ||slicktext.com^
+||slicktrulyuptown.com^
 ||slideff.com^
 ||slidertech.net^
 ||slightcareconditions.com^
@@ -81848,6 +81864,7 @@
 ||sp.mansfieldnewsjournal.com^
 ||sp.marionstar.com^
 ||sp.marshfieldnewsherald.com^
+||sp.minds.com^
 ||sp.mongoso.com^
 ||sp.montgomeryadvertiser.com^
 ||sp.mycentraljersey.com^
@@ -92332,6 +92349,7 @@
 ||tve.hb-api.omtrdc.net^
 ||tveta.naver.net^
 ||tvfanatic.us.intellitxt.com^
+||tvgvlpnpetxysl.com^
 ||tvigle.yadro.ru^
 ||tvlipevrj.com^
 ||tvmtracker.com^
@@ -95156,6 +95174,7 @@
 ||vipwatchpay.com^
 ||vipwm.cc^
 ||vipysknik.by^
+||vipytyl.ltd^
 ||viqxlggexukmnjf.com^
 ||viqyxamy.xyz^
 ||vir70n.news^
@@ -97923,6 +97942,7 @@
 ||woowjy.desa.com.tr^
 ||wooyehnunmi.com^
 ||woqcfy.sony.ru^
+||woqi.shop^
 ||woqkhzpu.com^
 ||woquwaimai.vip^
 ||word168.cn^
@@ -99597,6 +99617,7 @@
 ||xaqdf.com^
 ||xariatowing.co.za^
 ||xarisma.ru^
+||xarqnuelxtvajgp.xyz^
 ||xatczs.cn^
 ||xatech.com^
 ||xauthorous.club^
@@ -99972,6 +99993,7 @@
 ||xjmrl.xyz^
 ||xjngxaij.com^
 ||xjnwqdospderqtk.ru^
+||xjpnycwqr.com^
 ||xjq.jxmqkj.com^
 ||xjq5.belambra.be^
 ||xjqha.com^
@@ -100571,6 +100593,7 @@
 ||yaaci.cn^
 ||yab-adimages.s3.amazonaws.com^
 ||yaba.org.cn^
+||yabloomambloo.com^
 ||yabo816.com^
 ||yaboshadi.com^
 ||yabqg.cn^
@@ -100586,6 +100609,7 @@
 ||yads.yjtag.yahoo.co.jp^
 ||yads.zedo.com^
 ||yafa-coach.co.il^
+||yahblemable.com^
 ||yahekby.cn^
 ||yahoo.adclixx.net^
 ||yahoo.adnetasia.com^

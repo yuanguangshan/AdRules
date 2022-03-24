@@ -1,12 +1,12 @@
 # Title: AdRules（For adaway）
-! Checksum: gMljy9vtKmMDKy9eHLmeMw
+! Checksum: Rhnm7QVyP5/aAvmPa1HXuQ
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-24 00:18:30（北京时间） 
-! Total count: 102017
+! Version: 2022-03-24 08:56:18（北京时间） 
+! Total count: 102040
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -1335,6 +1335,7 @@
 0.0.0.0 426g.com
 0.0.0.0 42791bdc2481f6c.com
 0.0.0.0 429999d.com
+0.0.0.0 42fd278b95.com
 0.0.0.0 42qnuym6jsvn.www.cefirates.com
 0.0.0.0 42ye.com
 0.0.0.0 4336wang.cn
@@ -1379,6 +1380,7 @@
 0.0.0.0 480.zaloapp.ads.zdn.vn
 0.0.0.0 485d0bd3f4.com
 0.0.0.0 48d58df525.com
+0.0.0.0 493b0eda03.com
 0.0.0.0 493b98cce8bc1a2dd.com
 0.0.0.0 49oa3o49b6.com
 0.0.0.0 4adtf.com
@@ -4152,6 +4154,7 @@
 0.0.0.0 abtrcking.com
 0.0.0.0 abtshield.com
 0.0.0.0 abuajs.e-monsite.com
+0.0.0.0 abundantshells.com
 0.0.0.0 abundled.club
 0.0.0.0 abusedbabysitters.com
 0.0.0.0 abuseewarlock.com
@@ -20172,6 +20175,7 @@
 0.0.0.0 bzrmxfxu.com
 0.0.0.0 bzrpvk.com
 0.0.0.0 bzsxlaw.com
+0.0.0.0 bzwcgscqnf.com
 0.0.0.0 bzyunding.com
 0.0.0.0 c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com
 0.0.0.0 c-adash.m.taobao.com
@@ -20693,6 +20697,7 @@
 0.0.0.0 cafegraha.com
 0.0.0.0 cafemom.us.intellitxt.com
 0.0.0.0 cafepharma.adblade.com
+0.0.0.0 cagadgfihecfiigbgbc.ru
 0.0.0.0 cagataygunes.com.tr
 0.0.0.0 cagelrib.net
 0.0.0.0 caglaikr.net
@@ -21902,6 +21907,7 @@
 0.0.0.0 cdn.hiperadverts.com
 0.0.0.0 cdn.histats.com
 0.0.0.0 cdn.hot-mob.com
+0.0.0.0 cdn.house
 0.0.0.0 cdn.hunteryvely.com
 0.0.0.0 cdn.iasrv.com
 0.0.0.0 cdn.id5-sync.com
@@ -23327,6 +23333,7 @@
 0.0.0.0 cjbmanagement.com
 0.0.0.0 cjcqls.onbuy.com
 0.0.0.0 cjde.xyz
+0.0.0.0 cjenxpjxxhdwtp.xyz
 0.0.0.0 cjezgbjbltos.com
 0.0.0.0 cjf25jklrwqt.com
 0.0.0.0 cjgcedu.com
@@ -23755,7 +23762,6 @@
 0.0.0.0 clickathere.com
 0.0.0.0 clickauditor.net
 0.0.0.0 clickbangpop.com
-0.0.0.0 clickbank.net
 0.0.0.0 clickbaza.com
 0.0.0.0 clickbet88.com
 0.0.0.0 clickbigo.com
@@ -27770,6 +27776,7 @@
 0.0.0.0 d17m68fovwmgxj.cloudfront.net
 0.0.0.0 d188elxamt3utn.cloudfront.net
 0.0.0.0 d188m5xxcpvuue.cloudfront.net
+0.0.0.0 d18e74vjvmvza1.cloudfront.net
 0.0.0.0 d18g6t7whf8ejf.cloudfront.net
 0.0.0.0 d18mealirgdbbz.cloudfront.net
 0.0.0.0 d18p8z0ptb8qab.cloudfront.net
@@ -31019,6 +31026,7 @@
 0.0.0.0 dollarrentcar.com
 0.0.0.0 dollarsponsor.com
 0.0.0.0 dolldetail.com
+0.0.0.0 dolleddhaman.com
 0.0.0.0 doller.softtechnoit.com
 0.0.0.0 dolliplingsyllenesliopa.com
 0.0.0.0 dollsdeclare.com
@@ -35131,6 +35139,7 @@
 0.0.0.0 ewgkjq.deercase.com
 0.0.0.0 ewgroup.com.br
 0.0.0.0 ewithjam.club
+0.0.0.0 ewmpvsajrhxbuev.xyz
 0.0.0.0 ewooe6df.com
 0.0.0.0 ewr-rtb1.rfihub.com
 0.0.0.0 ewrerew29w09.com
@@ -36861,7 +36870,6 @@
 0.0.0.0 flower.bg
 0.0.0.0 flowerdevon.idps.co.uk
 0.0.0.0 floweryoperation.com
-0.0.0.0 flowgo.com
 0.0.0.0 flowln.com
 0.0.0.0 flowmaster.com.pk
 0.0.0.0 flownabbot.com
@@ -40522,6 +40530,7 @@
 0.0.0.0 grassrootsunwired.actonservice.com
 0.0.0.0 gratecowgram.com
 0.0.0.0 graterpartnership.com
+0.0.0.0 graths.com
 0.0.0.0 gratificationposture.com
 0.0.0.0 gratifymecorrect.com
 0.0.0.0 gratingtode.com
@@ -44150,7 +44159,6 @@
 0.0.0.0 iegwze.goldcar.es
 0.0.0.0 iehtzdq.cn
 0.0.0.0 iendoo.com
-0.0.0.0 ientrymail.com
 0.0.0.0 ieplugin.com
 0.0.0.0 ieroohhcytpar.xyz
 0.0.0.0 iesb.us.intellitxt.com
@@ -44382,6 +44390,7 @@
 0.0.0.0 ilkmawgod.site
 0.0.0.0 ilkrileashes.com
 0.0.0.0 illallwoe.com
+0.0.0.0 illegalprotected.com
 0.0.0.0 illfatedsnail.com
 0.0.0.0 illicitdandily.cam
 0.0.0.0 illicium.web.money
@@ -44892,6 +44901,7 @@
 0.0.0.0 impala.creativeclass.co
 0.0.0.0 impala.vnv.nl
 0.0.0.0 impat.tradedoubler.com
+0.0.0.0 impatientlyastonishing.com
 0.0.0.0 impbe.tradedoubler.com
 0.0.0.0 impch.tradedoubler.com
 0.0.0.0 impcz.tradedoubler.com
@@ -58875,6 +58885,7 @@
 0.0.0.0 myzk1.com
 0.0.0.0 myzwqwe12.com
 0.0.0.0 mzbcdn.net
+0.0.0.0 mzcd.xyz
 0.0.0.0 mzenze.linio.com.co
 0.0.0.0 mzjruy.yocoyoco.com
 0.0.0.0 mzlit.com
@@ -63305,6 +63316,7 @@
 0.0.0.0 p01.notifa.info
 0.0.0.0 p02.notifa.info
 0.0.0.0 p03.notifa.info
+0.0.0.0 p03try-c4t3g0ry.xyz
 0.0.0.0 p04.notifa.info
 0.0.0.0 p05.notifa.info
 0.0.0.0 p09diw3.cn
@@ -64900,7 +64912,6 @@
 0.0.0.0 pianistprodigy.com
 0.0.0.0 pianistrefutationgoose.com
 0.0.0.0 piano_log.kingsoft.jp
-0.0.0.0 pianomedia.eu
 0.0.0.0 piar-m.ru
 0.0.0.0 pic.0597kk.com
 0.0.0.0 pic.casee.cn
@@ -66123,6 +66134,7 @@
 0.0.0.0 pon-prairie.com
 0.0.0.0 pon.ewtuyytdf45.com
 0.0.0.0 ponchowafesargb.com
+0.0.0.0 ponderouscentigradecredit.com
 0.0.0.0 pondokiklan.com
 0.0.0.0 poneridcreels.com
 0.0.0.0 ponizinny.nl
@@ -67690,6 +67702,7 @@
 0.0.0.0 psugeglapha.com
 0.0.0.0 psughooy.com
 0.0.0.0 psuglymave.com
+0.0.0.0 psuhexitu.pro
 0.0.0.0 psuhuchize.com
 0.0.0.0 psulsobi.net
 0.0.0.0 psupaids.com
@@ -68809,6 +68822,7 @@
 0.0.0.0 qling.com
 0.0.0.0 qlitics.com
 0.0.0.0 qljiop.allabout.co.jp
+0.0.0.0 qljwkthllpjsi.com
 0.0.0.0 qlkms.ga
 0.0.0.0 qlmqzznfcb.com
 0.0.0.0 qlnomb.com
@@ -71223,6 +71237,7 @@
 0.0.0.0 rkl.draugas.lt
 0.0.0.0 rkllcrwtftx.com
 0.0.0.0 rklmstr.com
+0.0.0.0 rkoepfotesi.com
 0.0.0.0 rkomf.com
 0.0.0.0 rktch.com
 0.0.0.0 rktu.com
@@ -76634,6 +76649,7 @@
 0.0.0.0 slickaffiliate.com
 0.0.0.0 slickjump.net
 0.0.0.0 slicktext.com
+0.0.0.0 slicktrulyuptown.com
 0.0.0.0 slideff.com
 0.0.0.0 slidertech.net
 0.0.0.0 slightcareconditions.com
@@ -79387,6 +79403,7 @@
 0.0.0.0 sp.mansfieldnewsjournal.com
 0.0.0.0 sp.marionstar.com
 0.0.0.0 sp.marshfieldnewsherald.com
+0.0.0.0 sp.minds.com
 0.0.0.0 sp.mongoso.com
 0.0.0.0 sp.montgomeryadvertiser.com
 0.0.0.0 sp.mycentraljersey.com
@@ -89858,6 +89875,7 @@
 0.0.0.0 tve.hb-api.omtrdc.net
 0.0.0.0 tveta.naver.net
 0.0.0.0 tvfanatic.us.intellitxt.com
+0.0.0.0 tvgvlpnpetxysl.com
 0.0.0.0 tvigle.yadro.ru
 0.0.0.0 tvlipevrj.com
 0.0.0.0 tvmtracker.com
@@ -92680,6 +92698,7 @@
 0.0.0.0 vipwatchpay.com
 0.0.0.0 vipwm.cc
 0.0.0.0 vipysknik.by
+0.0.0.0 vipytyl.ltd
 0.0.0.0 viqxlggexukmnjf.com
 0.0.0.0 viqyxamy.xyz
 0.0.0.0 vir70n.news
@@ -95443,6 +95462,7 @@
 0.0.0.0 woowjy.desa.com.tr
 0.0.0.0 wooyehnunmi.com
 0.0.0.0 woqcfy.sony.ru
+0.0.0.0 woqi.shop
 0.0.0.0 woqkhzpu.com
 0.0.0.0 woquwaimai.vip
 0.0.0.0 word168.cn
@@ -97117,6 +97137,7 @@
 0.0.0.0 xaqdf.com
 0.0.0.0 xariatowing.co.za
 0.0.0.0 xarisma.ru
+0.0.0.0 xarqnuelxtvajgp.xyz
 0.0.0.0 xatczs.cn
 0.0.0.0 xatech.com
 0.0.0.0 xauthorous.club
@@ -97492,6 +97513,7 @@
 0.0.0.0 xjmrl.xyz
 0.0.0.0 xjngxaij.com
 0.0.0.0 xjnwqdospderqtk.ru
+0.0.0.0 xjpnycwqr.com
 0.0.0.0 xjq.jxmqkj.com
 0.0.0.0 xjq5.belambra.be
 0.0.0.0 xjqha.com
@@ -98091,6 +98113,7 @@
 0.0.0.0 yaaci.cn
 0.0.0.0 yab-adimages.s3.amazonaws.com
 0.0.0.0 yaba.org.cn
+0.0.0.0 yabloomambloo.com
 0.0.0.0 yabo816.com
 0.0.0.0 yaboshadi.com
 0.0.0.0 yabqg.cn
@@ -98106,6 +98129,7 @@
 0.0.0.0 yads.yjtag.yahoo.co.jp
 0.0.0.0 yads.zedo.com
 0.0.0.0 yafa-coach.co.il
+0.0.0.0 yahblemable.com
 0.0.0.0 yahekby.cn
 0.0.0.0 yahoo.adclixx.net
 0.0.0.0 yahoo.adnetasia.com
@@ -101018,7 +101042,6 @@
 28188.com,28188.net,yxad.com###nav
 28hse.com###floating_left_div
 2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,stocksnap.io,timeslive.co.za##.sponsored
-2b2t.online,caixinglobal.com,chicagobusiness.com,chronicle.co.zw,duckduckgo.com,fifplay.com,herald.co.zw,libhunt.com,motherjones.com,msn.com,reviewjournal.com,timeslive.co.za##.sponsored
 2bit.win##+js(aopw, adBlockDetected)
 2br.co.uk,deviantart.com,dw.com,eurosport.com,nzherald.co.nz,photobucket.com,spiegel.de,tvnz.co.nz###smartbanner
 2btu.com##.adgr
