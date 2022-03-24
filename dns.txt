@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Ix5PP8PriOaIo4EVhYrStg
+! Checksum: FFvbn42UppyWnM36emrWEA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-24 19:06:07（北京时间） 
-! Total count: 102731
+! Version: 2022-03-24 19:43:05（北京时间） 
+! Total count: 102733
 /aaddright.
 /abstat.
 /ad.ams.
@@ -2333,6 +2333,7 @@
 @@||www.supportxmr.com.cdn.cloudflare.net^
 @@||www.supportxmr.com^
 @@||www.youtube-nocookie.com
+@@||wx.qlogo.cn^
 @@||wxapp.lvyadx.cn^
 @@||wxsnsdy.wxs.qq.com^
 @@||x6img.com^
@@ -68020,6 +68021,7 @@
 ||plasfan.ind.br^
 ||plashcashierbleach.com^
 ||plasmatv4free.com^
+||plastic-wood.cn^
 ||platado.com^
 ||platesworked.com^
 ||platform-api.sharethis.com^

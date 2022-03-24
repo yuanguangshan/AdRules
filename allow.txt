@@ -1,7 +1,7 @@
 ! Title: Allowlist
-! Checksum: ipAtcEH4wU2AvJfG8fCGPw
-! Version: 2022-03-24 19:06:07（北京时间） 
-! Total count: 16770
+! Checksum: N987CUj2ajuJz9VqhEN24g
+! Version: 2022-03-24 19:43:05（北京时间） 
+! Total count: 16771
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -16409,6 +16409,7 @@
 @@||www3.doubleclick.net^|$domain=soccerstreams-100.tv
 @@||www3.doubleclick.net^|$xmlhttprequest,other,domain=thingiverse.com
 @@||wwwshooter.com/js/adblockdetect/_advertisement.js$script
+@@||wx.qlogo.cn^
 @@||wx.qq.com/*/ad_$script
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.

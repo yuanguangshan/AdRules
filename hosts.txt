@@ -1,12 +1,12 @@
 # Title: AdRules（For adaway）
-! Checksum: 9qO3Aszc8g92onXYK7O7oQ
+! Checksum: 8+tiNfpi49iUoyfx258PXw
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 8 Hours
 # 该规则合并自AdGuardDNS过滤器，Adaway等
 #
-! Version: 2022-03-24 19:06:07（北京时间） 
-! Total count: 102047
+! Version: 2022-03-24 19:43:05（北京时间） 
+! Total count: 102048
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -65570,6 +65570,7 @@
 0.0.0.0 plasfan.ind.br
 0.0.0.0 plashcashierbleach.com
 0.0.0.0 plasmatv4free.com
+0.0.0.0 plastic-wood.cn
 0.0.0.0 platado.com
 0.0.0.0 platesworked.com
 0.0.0.0 platform-api.sharethis.com
