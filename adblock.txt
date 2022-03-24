@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: aUjXTE2Ks04WVodOwjvEDw
+! Checksum: EQ8ealopVHVIdkfGdMawDQ
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-24 16:41:13（北京时间） 
+! Version: 2022-03-24 16:46:01（北京时间） 
 ! Total count: 127862
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
@@ -48989,7 +48989,6 @@ baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
-baidu.com#@##page-pre
 baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
 baidu.com#@#.share-line
 baidu.com$$article[rl-link-data-url="mbd.baidu.com"]
@@ -57048,6 +57047,7 @@ m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 m.baidu.com##a[href*="m.lecai.com"]
+m.baidu.com#@##page-pre
 m.baidu.com,www.baidu.com###provider,div[class$="fixed"],SECTION#middle_banner,.ec_ad_results,.shopping-item,#bottomOperate
 m.baidu.com,www.baidu.com##ARTICLE[class='c-container aladdin__10uYO']
 m.baidu.com,www.baidu.com##A[class='hint-qnaire-bar']

@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Checksum: G4RV2h4Xl2eJiCFy5z3nBA
-! Version: 2022-03-24 16:41:13（北京时间） 
+! Checksum: xppRTE5552hi6arGdQbDgg
+! Version: 2022-03-24 16:46:01（北京时间） 
 ! Total count: 16769
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
