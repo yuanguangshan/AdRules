@@ -49,7 +49,7 @@ jobs:
           cd ../
       - name: Update ReadMe
         run: |
-          bash ./readme.sh
+          bash ./script/readme.sh
 
       - name: Git push assets to Github
         run: |
@@ -74,7 +74,7 @@ jobs:
       - name: Push Message
         run: |
           pip3 install requests
-          python3 ./pusher.py
+          python3 ./script/pusher.py
       - name: Manual-Update Other Repository
         run: |
           bash ./script/manual-update.sh
