@@ -32,7 +32,7 @@
 * DNS过滤器请使用AdRules (For DNS)
 ## 规则总数
 ```
-更新时间: 2022-03-24 19:52:33 （北京时间） 
+更新时间: 2022-03-24 20:43:14 （北京时间） 
 
 AdRules（For AdBlock）规则数量: 127865 
 
@@ -76,9 +76,9 @@ AdRules AdGuard Full List 规则数量: 182888
 | AdRules AdGuard Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard-full.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt) |
 
 #### 规则说明：
-- **AdRules (For AdBlock):** -
+- **AdRules (For AdBlock) 规则数量：127866
 源自上游列表规则合并而成，并添加了一些补充规则  
-- **AdRules (For AdGuard):** -
+- **AdRules (For AdGuard) 规则数量：103163
 合并自AdGuard过滤器，无任何修改，仅适用于AdGuard  
 - **AdRules (For DNS)与AdRules (For Adaway):** -
 合并自上游列表，更加匹配DNS层面过滤

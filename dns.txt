@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Oo22GrIlbsD/zpdyLyYx5A
+! Checksum: XAr77iW43srNU/vU95lRNw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-24 19:52:27（北京时间） 
-! Total count: 102733
+! Version: 2022-03-24 20:43:01（北京时间） 
+! Total count: 102737
 /aaddright.
 /abstat.
 /ad.ams.
@@ -34848,6 +34848,7 @@
 ||early-birds.fr^
 ||early-birds.io^
 ||earlyaccess.arborcrowd.com^
+||earn-bitcoins.net^
 ||earnbigo.com^
 ||earnco.in^
 ||earncoins.club^
@@ -40406,6 +40407,7 @@
 ||fuzhang.xyz^
 ||fuzhuyuan1688.xyz^
 ||fuziontech.net^
+||fuzvjy.com^
 ||fuzzybasketball.com^
 ||fuzzyflavor.com^
 ||fuzzyweather.com^
@@ -55924,6 +55926,7 @@
 ||makipsuki.pro^
 ||makisk.com^
 ||makroads.net^
+||makroo.com^
 ||maksi.feb.unib.ac.id^
 ||makspeedtech.com^
 ||makumva.all-usanomination.com^
@@ -72665,6 +72668,7 @@
 ||refinance.shengen.ru^
 ||refinedads.com^
 ||reflatepsoai.casa^
+||reflectedcockbegan.com^
 ||reflectedenhanced.com^
 ||reflectivereward.com^
 ||reflethenfortoft.info^

@@ -1,12 +1,12 @@
-# Title: AdRules（For adaway）
-! Checksum: vglDplCXuDYwe1ZdVd7u4w
-# Homepage: https://github.com/Cats-Team/AdRules
-# Powerd by CatsTeam
-# Expires: 8 Hours
-# 该规则合并自AdGuardDNS过滤器，Adaway等
-#
-! Version: 2022-03-24 19:52:27（北京时间） 
-! Total count: 102048
+! Title: AdRules（For adaway）
+! Checksum: GQ5l8xevkPjyUegJcFQ9NA
+! Homepage: https://github.com/Cats-Team/AdRules
+! Powerd by CatsTeam
+! Expires: 8 Hours
+! 该规则合并自AdGuardDNS过滤器，Adaway等
+!
+! Version: 2022-03-24 20:43:01（北京时间） 
+! Total count: 102052
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -32450,6 +32450,7 @@
 0.0.0.0 early-birds.fr
 0.0.0.0 early-birds.io
 0.0.0.0 earlyaccess.arborcrowd.com
+0.0.0.0 earn-bitcoins.net
 0.0.0.0 earnbigo.com
 0.0.0.0 earnco.in
 0.0.0.0 earncoins.club
@@ -37998,6 +37999,7 @@
 0.0.0.0 fuzhang.xyz
 0.0.0.0 fuzhuyuan1688.xyz
 0.0.0.0 fuziontech.net
+0.0.0.0 fuzvjy.com
 0.0.0.0 fuzzybasketball.com
 0.0.0.0 fuzzyflavor.com
 0.0.0.0 fuzzyweather.com
@@ -53489,6 +53491,7 @@
 0.0.0.0 makipsuki.pro
 0.0.0.0 makisk.com
 0.0.0.0 makroads.net
+0.0.0.0 makroo.com
 0.0.0.0 maksi.feb.unib.ac.id
 0.0.0.0 makspeedtech.com
 0.0.0.0 makumva.all-usanomination.com
@@ -70207,6 +70210,7 @@
 0.0.0.0 refinance.shengen.ru
 0.0.0.0 refinedads.com
 0.0.0.0 reflatepsoai.casa
+0.0.0.0 reflectedcockbegan.com
 0.0.0.0 reflectedenhanced.com
 0.0.0.0 reflectivereward.com
 0.0.0.0 reflethenfortoft.info
