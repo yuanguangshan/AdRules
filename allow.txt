@@ -1,7 +1,7 @@
 ! Title: Allowlist
-! Checksum: qLCBr83Tu90Q4PKCiojBCA
-! Version: 2022-03-24 08:56:18（北京时间） 
-! Total count: 16767
+! Checksum: qgO59HIDL9p6p7S8QByafw
+! Version: 2022-03-24 12:49:59（北京时间） 
+! Total count: 16768
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -543,6 +543,7 @@
 @@verify.sec.xiaomi.com
 @@weather.gov/xml/$document
 @@www.any.gs$urlblock
+@@www.cocomanga.com/js/ad_/ad2.js
 @@|*ads.$script,domain=wstream.video
 @@|about:blank|$popup,domain=vipbox.*
 @@|ads.adsterra.com^|
@@ -7098,7 +7099,6 @@
 @@||googlesyndication.com/pagead/$script,domain=ebb.io
 @@||googlesyndication.com/pagead/$script,domain=onle.co
 @@||googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=adshrink.it
-@@||googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=searchftps.net
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=adshrink.it
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=finobe.com
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=gigaleecher.com|leechking.com|xuxon.com
@@ -7109,6 +7109,7 @@
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=unlockapk.com
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=rte.ie
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=trackr.fr
+@@||googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$domain=searchftps.net
 @@||googlesyndication.com/pagead/show_ads.js$script,domain=searchftps.net
 @@||googlesyndication.com/pageadimg/$domain=adwords.google.com
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com

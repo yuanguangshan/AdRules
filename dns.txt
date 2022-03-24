@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Jp+3yzVGSVx4SJqnpY7hRQ
+! Checksum: GuLQzrFXrIsYn7cigJ84dg
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-24 08:56:18（北京时间） 
-! Total count: 102724
+! Version: 2022-03-24 12:49:59（北京时间） 
+! Total count: 102726
 /aaddright.
 /abstat.
 /ad.ams.
@@ -2464,6 +2464,7 @@
 ||08d7882dfc.94bc29639b.com^
 ||0900-telefonerotik.de^
 ||0916video.ru^
+||09mk.cn^
 ||09zyy.com^
 ||0a4bcef12091ce7.com^
 ||0aqpqdju.me^
@@ -35706,6 +35707,7 @@
 ||ejimtl.costway.com^
 ||ejktj.com^
 ||ejmovec.ru^
+||ejnjapw.cn^
 ||ejoonsoo.net^
 ||ejpcuw.mitsubishilaval.com^
 ||ejs.hitbox.com^
@@ -66056,6 +66058,7 @@
 ||paishuiban.ltd^
 ||paishuno.net^
 ||pajigkcel.work^
+||pajinse.top^
 ||pakbanners.com^
 ||pakcommunications.net^
 ||pakdru.altrarunning.com^
@@ -66750,6 +66753,7 @@
 ||pds-midea.com^
 ||pdsjycm.com^
 ||pdss.xyz^
+||pdsvrtb.cn^
 ||pdvacde.com^
 ||pdx-col.eum-appdynamics.com^
 ||pdxgfnnoan.com^
@@ -71670,6 +71674,7 @@
 ||qwtomdpb.com^
 ||qwvv.com^
 ||qwxcs.com^
+||qwzpslp.cn^
 ||qx568.com^
 ||qxfly.com^
 ||qxhydkz8.hmjdaw.ntt.com^
@@ -75573,7 +75578,6 @@
 ||salesdoubler.com.ua^
 ||salesgenius.com^
 ||salesiq.zoho.com^
-||salesloft.com^
 ||salesmanago.pl^
 ||salesviewer.com^
 ||salesviewer.org^
@@ -102728,6 +102732,4 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru09mk.cn^
 ||zzznews.ru^
-||zzznews.ru^! Title: LWJ's white list

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: R8im5Hher6f0+23BSfjlfQ
+! Checksum: dwlslbbb5jslSg8Fty6MLA
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-24 08:56:18（北京时间） 
-! Total count: 127852
+! Version: 2022-03-24 12:49:59（北京时间） 
+! Total count: 127860
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -23629,6 +23629,7 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
+##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##FBS-AD
 ##IFRAME[src*="//pos.baidu.com/"]
 ##LEADERBOARD-AD
@@ -43258,6 +43259,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@playtv.fr$object-subrequest,domain=play.tv|playtv.fr
 @@plugins/blockalyzer-adblock-counter/img/ads/$image
 @@u-ads.adap.tv*youku.$domain=youku.com
+@@www.cocomanga.com/js/ad_/ad2.js
 @@|http*/crossdomain.xml$object-subrequest,domain=vercanalestv.com
 @@|http://$image,domain=socketloop.com
 @@|http://$script,domain=sport1.de
@@ -66748,6 +66750,7 @@ zzpzero.com
 ||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
 ||194007.com/4058.gif
 ||195315.com/storage/tpl/tj.js
+||19811231.me^
 ||198game.com^
 ||199.116.177.156^$domain=~fc2.jp.ip
 ||199.180.100.185/love44^
@@ -85188,6 +85191,7 @@ zzpzero.com
 ||ejimtl.costway.com^
 ||ejin56.com^$third-party
 ||ejktj.com^
+||ejnjapw.cn^
 ||ejoonsoo.net^
 ||ejpcuw.mitsubishilaval.com^
 ||ejunshi.com^
@@ -104918,6 +104922,7 @@ zzpzero.com
 ||pair.com/itero/tracker_ftc/
 ||paishuiban.ltd^
 ||paishuno.net^
+||pajinse.top^
 ||pakbanners.com^$third-party
 ||pakdru.altrarunning.com^
 ||pakistant.club^
@@ -105315,6 +105320,7 @@ zzpzero.com
 ||pdsjycm.com^
 ||pdss.xyz^
 ||pdst.fm^$script,third-party
+||pdsvrtb.cn^
 ||pdvacde.com^
 ||pdxgfnnoan.com^
 ||pdzutf.sftworks.jp^
@@ -106585,6 +106591,7 @@ zzpzero.com
 ||porntop.com/magic/*.js^$script,domain=porntop.com
 ||porntrack.com^$third-party
 ||porntry.com^$third-party
+||pornvas.com/lively
 ||pornvibe.org/banners/
 ||porojo.net^
 ||porpoise.azettl.net^
@@ -108517,6 +108524,7 @@ zzpzero.com
 ||qwvv.com^
 ||qwxcs.com^
 ||qwxcs.com^$third-party
+||qwzpslp.cn^
 ||qx568.com^$popup
 ||qxfly.com^
 ||qxhydkz8.hmjdaw.ntt.com^
