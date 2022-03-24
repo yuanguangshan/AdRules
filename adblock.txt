@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: KnY/x17saI+n1Skvm5tl1A
+! Checksum: aUjXTE2Ks04WVodOwjvEDw
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-24 16:16:36（北京时间） 
-! Total count: 127861
+! Version: 2022-03-24 16:41:13（北京时间） 
+! Total count: 127862
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -48989,6 +48989,7 @@ baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
+baidu.com#@##page-pre
 baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
 baidu.com#@#.share-line
 baidu.com$$article[rl-link-data-url="mbd.baidu.com"]
