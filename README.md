@@ -32,7 +32,7 @@
 * DNS过滤器请使用AdRules (For DNS) 规则数量：102737
 ## 规则总数
 ```
-更新时间: 2022-03-24 20:48:03 （北京时间） 
+更新时间: 2022-03-24 21:03:13 （北京时间） 
 
 AdRules（For AdBlock）规则数量: 127865 
 
@@ -42,11 +42,11 @@ AdRules（For DNS）规则数量: 102733
 
 AdRules（For Adaway）规则数量: 102048 
 
-AdRules Allowlist 规则数量：16771
+AdRules Allowlist 规则数量：16770
 
 AdRules Ad Domains List 规则数量：102036
 
-AdRules AdBlock Full List 规则数量：235064
+AdRules AdBlock Full List 规则数量：235061
 
 AdRules AdGuard Full List 规则数量：182894
 ``` 
@@ -66,13 +66,13 @@ AdRules AdGuard Full List 规则数量：182894
 | AdRules (For AdGuard) 规则数量：103163
 | AdRules (For DNS) 规则数量：102737
 | AdRules (For Adaway) | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) |
-| AdRules Allowlist 规则数量：16771
+| AdRules Allowlist 规则数量：16770
 
 <br>
 
 |   Full规则   | 🚀Raw | 🚀 Coding  | 🚀 一键订阅  |
 |  :----:  | :----:  | :----:  | :----:  |
-| AdRules AdBlock Full List 规则数量：235064
+| AdRules AdBlock Full List 规则数量：235061
 | AdRules AdGuard Full List 规则数量：182894
 
 #### 规则说明：
@@ -84,7 +84,7 @@ AdRules AdGuard Full List 规则数量：182894
 合并自上游列表，更加匹配DNS层面过滤
 - **Allowlist** -
 有误杀时使用
-- **AdRules AdBlock Full List 规则数量：235064
+- **AdRules AdBlock Full List 规则数量：235061
 合并自AdRules (For AdBlock) 规则数量：127866
 - **AdRules AdGuard Full List 规则数量：182894
 AdRules (For AdGuard) 规则数量：103163
