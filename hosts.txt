@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: Qv9sBHP2KrAwcwdjgaFPZQ
+! Checksum: oJ19WGfgNG2/Ra3+Gk+X+Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-24 22:12:11（北京时间） 
-! Total count: 102051
+! Version: 2022-03-24 22:51:42（北京时间） 
+! Total count: 102053
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -2056,6 +2056,7 @@
 0.0.0.0 8341.store
 0.0.0.0 835551.com
 0.0.0.0 83net.jp
+0.0.0.0 840df00e08.com
 0.0.0.0 84232.com
 0.0.0.0 8456.xyz
 0.0.0.0 85103.hittail.com
@@ -18725,6 +18726,7 @@
 0.0.0.0 bluekai.com.edgekey.net
 0.0.0.0 bluelithium.com
 0.0.0.0 bluemarblepayroll.actonservice.com
+0.0.0.0 bluematrixs.com
 0.0.0.0 bluemaulpuffs.com
 0.0.0.0 bluemountain1.com
 0.0.0.0 bluemug-coffee.com
@@ -65437,7 +65439,6 @@
 0.0.0.0 pjtxmd.epool.ru
 0.0.0.0 pjtymy.cn
 0.0.0.0 pjx1ky4xhwip.com
-0.0.0.0 pjxdnxeymx.xyz
 0.0.0.0 pk-cdn.effectivemeasure.net
 0.0.0.0 pk-consult.hr
 0.0.0.0 pk-kanavit.co.th
@@ -68719,6 +68720,7 @@
 0.0.0.0 qhmrasvwzbwjpz.com
 0.0.0.0 qhnwj.com
 0.0.0.0 qhqofqeivtno.com
+0.0.0.0 qhres2.com
 0.0.0.0 qhrtkr.murrano.pl
 0.0.0.0 qhupdate.com
 0.0.0.0 qhvdop.shoppinglive.ru
@@ -82937,7 +82939,6 @@
 0.0.0.0 sugoicounter.com
 0.0.0.0 sugs.m.sm.cn
 0.0.0.0 suhalyxi.com
-0.0.0.0 suhunsoo.uk
 0.0.0.0 suhusushi.com
 0.0.0.0 suigeng.shop
 0.0.0.0 suite6ixty6ix.com
@@ -89617,6 +89618,7 @@
 0.0.0.0 ttbc33.com
 0.0.0.0 ttdbj.com
 0.0.0.0 tteasr.com
+0.0.0.0 ttevkibicgcetv.com
 0.0.0.0 ttffhe.top
 0.0.0.0 ttge42.fr
 0.0.0.0 ttgmjfgldgv9ed10.com

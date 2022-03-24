@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: kofRSz8ZNAyhsFXCByWLgg
+! Checksum: hHg5efxX7B4jEuXb8pE64Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-24 22:12:11（北京时间） 
-! Total count: 16776
+! Version: 2022-03-24 22:51:42（北京时间） 
+! Total count: 16775
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -15863,7 +15863,6 @@
 @@||vp.videoplaza.tv/resources/pulse-sdk-html5/$script,domain=lalibre.be
 @@||vplayer.ilsemedia.nl/swf/im_player.swf?
 @@||vpnsplit.com/ads/advertisement.js
-@@||vpnssh.net^$ghide
 @@||vpobede.ru/assets/images/footer-social/$~third-party,xmlhttprequest
 @@||vpornoonlain.tv^*/share/$image,~third-party
 @@||vpro.nl/vpro/htmlplayer/0.3-snapshot/statcounter.js?

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 7JHYemY5kpgq82SZf4jJzw
+! Checksum: 61TPqTztjoLOI9Is7rqCDQ
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-24 22:12:11（北京时间） 
-! Total count: 127873
+! Version: 2022-03-24 22:51:42（北京时间） 
+! Total count: 127876
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -23796,6 +23796,7 @@
 ##[href^='https://www.hiweha.com/']
 ##[href^='https://www.hthty601.com:']
 ##[href^='https://www.lyty648.com']
+##[href^='https://www.uerlqe.com']
 ##[href^='https://www.visvn.cn/c.php']
 ##[href^='https://www.vofcr2a.com']
 ##[href^='https://www.xdh0808.com/']
@@ -76764,6 +76765,7 @@ zzpzero.com
 ||bluekai.com^
 ||bluekai.com^$domain=disqus.com|widgets.outbrain.com
 ||bluemarblepayroll.actonservice.com^
+||bluematrixs.com^
 ||blueoyster.click^
 ||blueparrot.media^
 ||blueparrot.media^$popup
@@ -107989,6 +107991,7 @@ zzpzero.com
 ||qhres.com/static/4b6ab193405b6ca3.js
 ||qhres.com/static/b4f92ac067a4768b/v4/modules/footer.js
 ||qhres.com^*/baidu_
+||qhres2.com^
 ||qhupdate.com^$third-party
 ||qhvdop.shoppinglive.ru^
 ||qhxcdmfj.cn^
