@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: o5dwKx4tpGIpB2EmYtK9aQ
+! Checksum: dSyDGxDY0KAJbLgnDQ9leg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-25 00:26:38（北京时间） 
-! Total count: 16775
+! Version: 2022-03-25 06:42:21（北京时间） 
+! Total count: 16772
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -8881,7 +8881,6 @@
 @@||ipstatp.com/business_center/dist/img/ad-$domain=tiktok.com
 @@||iptvcanales.com^$generichide
 @@||iptvforever.com/js/adsbygoogle.js$script
-@@||iptvliste.com^$ghide
 @@||iptvsale.info^$stealth
 @@||ipv4.google.com/sorry^$stealth
 @@||iqiyi.com/show2?
@@ -10230,7 +10229,6 @@
 @@||mije.net^$generichide
 @@||mijn.kpn.com^$stealth
 @@||mijn.ou.nl/web/ou/$stealth
-@@||mikubox.com^$ghide
 @@||milb.com/shared/scripts/bam.tracking.js
 @@||milfnut.net/pop.js
 @@||milfzr.com^$generichide
@@ -11746,7 +11744,6 @@
 @@||peterboroughtoday.co.uk^$ghide
 @@||petrochina.com.cn/advertisement_
 @@||peugeotclub.eu^$ghide
-@@||peyton-list.net^$ghide
 @@||peytonlist.ru^$ghide
 @@||pg-wuming.com^$generichide
 @@||pg3dhacks.com^$ghide
