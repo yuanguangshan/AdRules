@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: oJ19WGfgNG2/Ra3+Gk+X+Q
+! Checksum: PtaDfqKupydEmIPHJ4yBrA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-24 22:51:42（北京时间） 
-! Total count: 102053
+! Version: 2022-03-25 00:26:38（北京时间） 
+! Total count: 102057
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -14333,6 +14333,7 @@
 0.0.0.0 armame.info
 0.0.0.0 armandotechnology.com.br
 0.0.0.0 armashair.site
+0.0.0.0 armaturepaletteopenminded.com
 0.0.0.0 armedgroin.com
 0.0.0.0 armi.media
 0.0.0.0 armiesgaspclue.com
@@ -18542,6 +18543,7 @@
 0.0.0.0 bleinu.com
 0.0.0.0 blekko.com
 0.0.0.0 blender3d.fr
+0.0.0.0 blendorbraker.com
 0.0.0.0 blenkbenched.casa
 0.0.0.0 bleopi.com
 0.0.0.0 bleskoindustries.com
@@ -40098,6 +40100,7 @@
 0.0.0.0 godvwcft.com
 0.0.0.0 goeloqua.sse.co.uk
 0.0.0.0 goember.com
+0.0.0.0 goercoshes.com
 0.0.0.0 goergleeds.com
 0.0.0.0 gofem.oewabox.at
 0.0.0.0 goforexvps.com
@@ -85221,6 +85224,7 @@
 0.0.0.0 tendersugar.com
 0.0.0.0 tendertest.com
 0.0.0.0 tenderunderstatement.com
+0.0.0.0 tenezratio.com
 0.0.0.0 tengmoneron.com
 0.0.0.0 tengo.popunder.ru
 0.0.0.0 tengxunwang.top

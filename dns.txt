@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: givQ3TsRn1wrxjEb6b0RjQ
+! Checksum: r1UiTvK4O6KElKqGcaJt7Q
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-24 22:51:42（北京时间） 
-! Total count: 102742
+! Version: 2022-03-25 00:26:38（北京时间） 
+! Total count: 102746
 /aaddright.
 /abstat.
 /ad.ams.
@@ -16702,6 +16702,7 @@
 ||armame.info^
 ||armandotechnology.com.br^
 ||armashair.site^
+||armaturepaletteopenminded.com^
 ||armedgroin.com^
 ||armi.media^
 ||armiesgaspclue.com^
@@ -20918,6 +20919,7 @@
 ||bleinu.com^
 ||blekko.com^
 ||blender3d.fr^
+||blendorbraker.com^
 ||blenkbenched.casa^
 ||bleopi.com^
 ||bleskoindustries.com^
@@ -42513,6 +42515,7 @@
 ||godvwcft.com^
 ||goeloqua.sse.co.uk^
 ||goember.com^
+||goercoshes.com^
 ||goergleeds.com^
 ||gofem.oewabox.at^
 ||goforexvps.com^
@@ -87692,6 +87695,7 @@
 ||tendersugar.com^
 ||tendertest.com^
 ||tenderunderstatement.com^
+||tenezratio.com^
 ||tengmoneron.com^
 ||tengo.popunder.ru^
 ||tengxunwang.top^
