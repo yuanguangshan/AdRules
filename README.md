@@ -76,13 +76,13 @@ AdRules AdGuard Full List 规则数量: 182888
 | AdRules AdGuard Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard-full.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt) |
 
 #### 规则说明：
-- **AdRules (For AdBlock) 规则数量：127866
+- **AdRules (For AdBlock)** -
 源自上游列表规则合并而成，并添加了一些补充规则  
 - **AdRules (For AdGuard) 规则数量：103163
 合并自AdGuard过滤器，无任何修改，仅适用于AdGuard  
 - **AdRules (For DNS)与AdRules (For Adaway):** -
 合并自上游列表，更加匹配DNS层面过滤
-- **Allowlist:** -
+- **Allowlist** -
 有误杀时使用
 - **AdRules AdBlock Full List** -
 合并自AdRules (For AdBlock)和AdRules (For AdGuard)

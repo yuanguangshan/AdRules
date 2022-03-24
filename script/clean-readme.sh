@@ -7,5 +7,5 @@ for i in $diffFile; do
  c=`sed -n 's/^! Total count: //p' $i `
  #
  n=`echo $x 规则数量：$c`
- sed -i "s/$x:.*/$n/g" README.md
+ sed -i "s/$x.*/$n/g" README.md
 done
