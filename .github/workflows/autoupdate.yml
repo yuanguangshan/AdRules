@@ -49,7 +49,7 @@ jobs:
           cd ../
       - name: Update ReadMe
         run: |
-          bash ./script/readme.sh
+          bash ./script/clean-readme.sh
 
       - name: Git push assets to Github
         run: |

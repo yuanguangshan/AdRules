@@ -1,13 +1,11 @@
 #!/bin/sh
-sed -i '/^```/','/^```/'d README.md
-sed -i '/^## 规则总数/a\```' README.md
+time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
+sed -i "s/^更新时间:.*/更新时间: $time （北京时间） /g" README.md
 diffFile="$(ls|sort -u| grep ".txt")"
 for i in $diffFile; do
  x=`sed -n 's/^! Title: //p' $i `
  c=`sed -n 's/^! Total count: //p' $i `
  #
  n=`echo $x 规则数量：$c`
- sed -i "/^```/a\ $n" README.md
+ sed -i "s/$x:.*/$n/g" README.md
 done
-
-sed -i '/^## 说明/i\ ```' README.md
