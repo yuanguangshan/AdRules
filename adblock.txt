@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: EQ8ealopVHVIdkfGdMawDQ
+! Checksum: /HQT+Brj5aCZe/nG4KjDIw
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-24 16:46:01（北京时间） 
-! Total count: 127862
+! Version: 2022-03-24 18:01:21（北京时间） 
+! Total count: 127865
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -45379,6 +45379,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||maskinteknik.dk/assets/templates/maskinteknik/gfx/ads.png
 @@||masterkong.com.cn/adimages/
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
+@@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matrix.org/_matrix/$removeparam
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=shink.me|shon.xyz
@@ -48989,6 +48990,7 @@ baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
+baidu.com#@##page-pre
 baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
 baidu.com#@#.share-line
 baidu.com$$article[rl-link-data-url="mbd.baidu.com"]
@@ -57047,7 +57049,7 @@ m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 m.baidu.com##a[href*="m.lecai.com"]
-m.baidu.com#@##page-pre
+m.baidu.com#@#div[class*="ads"]
 m.baidu.com,www.baidu.com###provider,div[class$="fixed"],SECTION#middle_banner,.ec_ad_results,.shopping-item,#bottomOperate
 m.baidu.com,www.baidu.com##ARTICLE[class='c-container aladdin__10uYO']
 m.baidu.com,www.baidu.com##A[class='hint-qnaire-bar']
@@ -64065,6 +64067,7 @@ www.aoyou4.top
 www.aoyou5.top
 www.avtbo.com$$img[style="padding-bottom"]
 www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"][id="1"][tpl="se_com_default"][data-click="{"]
+www.baidu.com#@#div[class*="ads"]
 www.baidu.com$@$div[class="ad_"]
 www.baidu.com,m.baidu.com##.listbox
 www.baidu.com,m.baidu.com##DIV[class='qrcode call']

@@ -1,7 +1,7 @@
 ! Title: Allowlist
-! Checksum: xppRTE5552hi6arGdQbDgg
-! Version: 2022-03-24 16:46:01（北京时间） 
-! Total count: 16769
+! Checksum: nVZcPYEEQyJGRig/o1sIcQ
+! Version: 2022-03-24 18:01:21（北京时间） 
+! Total count: 16770
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -2717,6 +2717,7 @@
 @@||bea4.v.fwmrm.net/ad/u$domain=nbcsports.com
 @@||bea4.v.fwmrm.net^$domain=mylifetime.com
 @@||beacon.guim.co.uk/accept-beacon?
+@@||beacons.ai/images/social_icons/$image,~third-party
 @@||beaconx.com/index.html$elemhide,jsinject,content,extension
 @@||beanfun.com/ADClient/
 @@||beatricedailysun.com^$ghide
@@ -4341,6 +4342,7 @@
 @@||compass.pressekompass.net/compasses^$domain=spiegel.de
 @@||complexmedianetwork.com/js/cmnUNT.js
 @@||component-vvs.glomex.com/embed^$popup
+@@||components2.corriereobjects.it/rcs_data-tracking/*/distro/openx/corriere/openx_async.js
 @@||components2.rcsobjects.it/rcs_cpmt/v1/distro/youreporter_ct.js$domain=youreporter.it
 @@||compressnow.com^$ghide
 @@||compriso.speedtestcustom.com/api/js/servers$stealth
@@ -9929,6 +9931,7 @@
 @@||material.angular.io^$generichide
 @@||material.cmiscm.com/images/share.png
 @@||mathworks.com^$stealth
+@@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matrix.org/_matrix/$removeparam
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||matzoo.pl/*/adsbygoogle.js
@@ -11528,7 +11531,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=autobild.de
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=cmacapps.com
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=kadinlarkulubu.com
-@@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=searchftps.net
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=updato.com
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=utmn.gnomio.com
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=vorsprung-online.de
@@ -11555,7 +11557,6 @@
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=mojevideo.sk
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=nlfreevpn.com|oldapps.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=panoramaviewer.1bestlink.net
-@@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=searchftps.net
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=thebrickfan.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=zippygo.org|zippymp3.org
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=downloads.codefi.re
