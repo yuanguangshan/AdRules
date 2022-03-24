@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: 2PXvIRFoZvEkFVCOw9a+1A
+! Checksum: c0951AClf9PLPitRdT0/Tg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-24 21:52:45（北京时间） 
+! Version: 2022-03-24 22:01:41（北京时间） 
 ! Total count: 16775
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
