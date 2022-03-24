@@ -6,6 +6,7 @@ files= os.listdir() #得到文件夹下的所有文件名称
 result = []
 for file in files: #遍历文件夹
      if not os.path.isdir(file): #判断是否是文件夹，不是文件夹才打开
+     if os.path.splitext(file)[1] == '.txt':
           #print('开始去重'+(file))
           f = open(file); #打开文件
           result=list(set(f.readlines()))
