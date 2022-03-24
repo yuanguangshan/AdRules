@@ -5,7 +5,7 @@ diffFile="$(ls|sort -u| grep ".txt")"
 for i in $diffFile; do
  x=`sed -n 's/^! Title: //p' $i `
  c=`sed -n 's/^! Total count: //p' $i `
- #
+ nn=`echo $x 规则数量`
  n=`echo $x 规则数量：$c`
- sed -i "s/$x.*/$n/g" README.md
+ sed -i "s/$nn.*/$n/g" README.md
 done
