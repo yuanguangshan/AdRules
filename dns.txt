@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: DhCI+R8K0xKgCqwt0Wyqhg
+! Checksum: MAcj2HKU0dhKYaWC8dfPrg
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-25 16:16:40（北京时间） 
-! Total count: 102713
+! Version: 2022-03-25 20:38:40（北京时间） 
+! Total count: 102723
 /aaddright.
 /abstat.
 /ad.ams.
@@ -12963,6 +12963,7 @@
 ||ahstrelgnh.com^
 ||ahszgog.com^
 ||ahtate.ru^
+||ahtj365.com^
 ||ahuac.com^
 ||ahuang.site^
 ||ahuano.com^
@@ -28610,6 +28611,7 @@
 ||counter.mediastealer.com^
 ||counter.megaindex.ru^
 ||counter.mgid.com^
+||counter.mgronline.com^
 ||counter.mirohost.net^
 ||counter.mojgorod.ru^
 ||counter.monkeybanana2.com^
@@ -47286,6 +47288,7 @@
 ||imp.go.sohu.com^
 ||imp.m.ambient-platform.com^
 ||imp.m.ambientplatform.vn^
+||imp.mgronline.com^
 ||imp.optaim.com^
 ||imp.outbrain.com^
 ||imp.pvnsolutions.com^
@@ -48645,6 +48648,7 @@
 ||iogous.com^
 ||ioheiy.com^
 ||ioiylgyf.com^
+||iojgo.com^
 ||iol.io^
 ||ioladv.it^
 ||ioms.bfmio.com^
@@ -49575,7 +49579,6 @@
 ||jemmgroup.com^
 ||jendelabook.pinusdev.com^
 ||jenicdntc.com^
-||jeniusplay.com^
 ||jenkins-staging.leanplum.com^
 ||jenkins.appboy.com^
 ||jenkins.bam-x.com^
@@ -50251,6 +50254,7 @@
 ||js-sec.indexww.com^
 ||js-ssl.aaddcount.com^
 ||js-staging.ad-score.com^
+||js-tencent.com^
 ||js-tianqilm.com^
 ||js.133u.com^
 ||js.23yy.com^
@@ -50465,6 +50469,7 @@
 ||jsiwjgnq.com^
 ||jsjs.jbzj.com^
 ||jskang.cn^
+||jslmtdgf.xyz^
 ||jslog.krxd.net^
 ||jslog.post.cz^
 ||jslog.zapps.vn^
@@ -50917,6 +50922,7 @@
 ||kaiphapt.net^
 ||kaiseki-website.com^
 ||kaiu-marketing.com^
+||kaivtv.cn^
 ||kaiyiluye.com^
 ||kaizenplatform.net^
 ||kaizentraffic.com^
@@ -53566,7 +53572,6 @@
 ||links.sexlist.com^
 ||links.sextracker.com^
 ||links.sheroes.in^
-||links.strava.com^
 ||links.t.blueapron.com^
 ||links.t.wine.com^
 ||links.thedyrt.com^
@@ -55011,6 +55016,7 @@
 ||ltcp.beeppool.org^
 ||ltcprtc.com^
 ||ltcraft.ru^
+||ltdjifang.xyz^
 ||ltecrf.dhgate.com^
 ||ltg69t.com^
 ||lthbdc.become.co.jp^
@@ -70034,6 +70040,7 @@
 ||prsaln.com^
 ||prscripts.com^
 ||prsitecheck.com^
+||prssifu.cn^
 ||prstats.postrelease.com^
 ||prt-stsdk.vivo.com.cn^
 ||prt.stsdk.vivo.com.cn^
@@ -99754,6 +99761,7 @@
 ||xffiyaucxebto.com^
 ||xfileload.com^
 ||xfkkvjabbogciwl.top^
+||xflsj.com^
 ||xflz.xyz^
 ||xfnkds.com^
 ||xfobuc.serenaandlily.com^
@@ -99896,6 +99904,7 @@
 ||xinerdact.com^
 ||xingchenweb.top^
 ||xingdengyun.com^
+||xinghaidianshang.top^
 ||xinghao89.com^
 ||xinghualinghang.com^
 ||xinghuolm.top^
@@ -101593,6 +101602,7 @@
 ||yxcpm.com^
 ||yxgcfb.petit-bateau.co.jp^
 ||yxgfcj.com^
+||yxhjt.com^
 ||yxhstwzjbu.info
 ||yxhstwzjbu.info^
 ||yxhxs.com^

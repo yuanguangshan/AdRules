@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: qA/shWxeqI/sFTSGtTWjUA
+! Checksum: 8SVcc1XMgeri2uNboGvq9g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-25 16:16:40（北京时间） 
-! Total count: 102022
+! Version: 2022-03-25 20:38:40（北京时间） 
+! Total count: 102032
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -10599,6 +10599,7 @@
 0.0.0.0 ahstrelgnh.com
 0.0.0.0 ahszgog.com
 0.0.0.0 ahtate.ru
+0.0.0.0 ahtj365.com
 0.0.0.0 ahuac.com
 0.0.0.0 ahuang.site
 0.0.0.0 ahuano.com
@@ -26220,6 +26221,7 @@
 0.0.0.0 counter.mediastealer.com
 0.0.0.0 counter.megaindex.ru
 0.0.0.0 counter.mgid.com
+0.0.0.0 counter.mgronline.com
 0.0.0.0 counter.mirohost.net
 0.0.0.0 counter.mojgorod.ru
 0.0.0.0 counter.monkeybanana2.com
@@ -44859,6 +44861,7 @@
 0.0.0.0 imp.go.sohu.com
 0.0.0.0 imp.m.ambient-platform.com
 0.0.0.0 imp.m.ambientplatform.vn
+0.0.0.0 imp.mgronline.com
 0.0.0.0 imp.optaim.com
 0.0.0.0 imp.outbrain.com
 0.0.0.0 imp.pvnsolutions.com
@@ -46217,6 +46220,7 @@
 0.0.0.0 iogous.com
 0.0.0.0 ioheiy.com
 0.0.0.0 ioiylgyf.com
+0.0.0.0 iojgo.com
 0.0.0.0 iol.io
 0.0.0.0 ioladv.it
 0.0.0.0 ioms.bfmio.com
@@ -47145,7 +47149,6 @@
 0.0.0.0 jemmgroup.com
 0.0.0.0 jendelabook.pinusdev.com
 0.0.0.0 jenicdntc.com
-0.0.0.0 jeniusplay.com
 0.0.0.0 jenkins-staging.leanplum.com
 0.0.0.0 jenkins.appboy.com
 0.0.0.0 jenkins.bam-x.com
@@ -47820,6 +47823,7 @@
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 js-ssl.aaddcount.com
 0.0.0.0 js-staging.ad-score.com
+0.0.0.0 js-tencent.com
 0.0.0.0 js-tianqilm.com
 0.0.0.0 js.133u.com
 0.0.0.0 js.23yy.com
@@ -48032,6 +48036,7 @@
 0.0.0.0 jsiwjgnq.com
 0.0.0.0 jsjs.jbzj.com
 0.0.0.0 jskang.cn
+0.0.0.0 jslmtdgf.xyz
 0.0.0.0 jslog.krxd.net
 0.0.0.0 jslog.post.cz
 0.0.0.0 jslog.zapps.vn
@@ -48484,6 +48489,7 @@
 0.0.0.0 kaiphapt.net
 0.0.0.0 kaiseki-website.com
 0.0.0.0 kaiu-marketing.com
+0.0.0.0 kaivtv.cn
 0.0.0.0 kaiyiluye.com
 0.0.0.0 kaizenplatform.net
 0.0.0.0 kaizentraffic.com
@@ -51130,7 +51136,6 @@
 0.0.0.0 links.sexlist.com
 0.0.0.0 links.sextracker.com
 0.0.0.0 links.sheroes.in
-0.0.0.0 links.strava.com
 0.0.0.0 links.t.blueapron.com
 0.0.0.0 links.t.wine.com
 0.0.0.0 links.thedyrt.com
@@ -52572,6 +52577,7 @@
 0.0.0.0 ltcp.beeppool.org
 0.0.0.0 ltcprtc.com
 0.0.0.0 ltcraft.ru
+0.0.0.0 ltdjifang.xyz
 0.0.0.0 ltecrf.dhgate.com
 0.0.0.0 ltg69t.com
 0.0.0.0 lthbdc.become.co.jp
@@ -67575,6 +67581,7 @@
 0.0.0.0 prsaln.com
 0.0.0.0 prscripts.com
 0.0.0.0 prsitecheck.com
+0.0.0.0 prssifu.cn
 0.0.0.0 prstats.postrelease.com
 0.0.0.0 prt-stsdk.vivo.com.cn
 0.0.0.0 prt.stsdk.vivo.com.cn
@@ -97268,6 +97275,7 @@
 0.0.0.0 xffiyaucxebto.com
 0.0.0.0 xfileload.com
 0.0.0.0 xfkkvjabbogciwl.top
+0.0.0.0 xflsj.com
 0.0.0.0 xflz.xyz
 0.0.0.0 xfnkds.com
 0.0.0.0 xfobuc.serenaandlily.com
@@ -97410,6 +97418,7 @@
 0.0.0.0 xinerdact.com
 0.0.0.0 xingchenweb.top
 0.0.0.0 xingdengyun.com
+0.0.0.0 xinghaidianshang.top
 0.0.0.0 xinghao89.com
 0.0.0.0 xinghualinghang.com
 0.0.0.0 xinghuolm.top
@@ -99104,6 +99113,7 @@
 0.0.0.0 yxcpm.com
 0.0.0.0 yxgcfb.petit-bateau.co.jp
 0.0.0.0 yxgfcj.com
+0.0.0.0 yxhjt.com
 0.0.0.0 yxhstwzjbu.info
 0.0.0.0 yxhxs.com
 0.0.0.0 yximgdpivguxke.com
@@ -100773,7 +100783,7 @@
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xgroovy.com,xxxshake.com##.table
 18qiang.com##.imgbanner,.bottom_khdxz
-18virginsex.com,altervista.org,anglianwater.co.uk,ask.fm,awesomic.io,callcredit.co.uk,calvertjournal.com,castleton.edu,cbeci.org,clubtshe.com,coolblue.be,crazydomains.co.uk,derwaldhof.com,dw.com,farecompare.com,firefox-usb.com,forever21.com,forgeworld.co.uk,gha.org.uk,gheed.com,global.abb,gooddollar.org,hempel.co.uk,hempelyacht.com,here.com,hud.ac.uk,idemitsu.com,investcapital.com.mt,jaguarlandrover.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,mclaren.com,mik.eu,modecom.com,modhoster.com,moneywise.co.uk,mydraw.com,mysteriumvpn.com,mysurveylab.com,nationalcircus.org.uk,natwest.com,netbiter.com,nornickel.com,npl.co.uk,octotree.io,oldgoesyoung.com,openmailbox.org,pepperl-fuchs.com,postoffice.co.uk,prodir.com,purnatur.eu,rbs.co.uk,redditinc.com,roalddahl.com,rowenta.com,safedns.com,samsunghealthcare.com,secapital.lu,sense.org.uk,sheldrickwildlifetrust.org,silverlake.com,sleek-mag.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,togetherall.com,top-electronics.com,trailfinders.com,tubidy.news,twitchstrike.com,unicheck.com,unicreditgroup.eu,virgin-atlantic.com,wannawork.com,yachtclubgames.com,ytddownloader.com##.cookie
+18virginsex.com,altervista.org,anglianwater.co.uk,ask.fm,awesomic.io,callcredit.co.uk,calvertjournal.com,castleton.edu,cbeci.org,cibeg.com,clubtshe.com,coolblue.be,crazydomains.co.uk,derwaldhof.com,dw.com,farecompare.com,firefox-usb.com,forever21.com,forgeworld.co.uk,gha.org.uk,gheed.com,global.abb,gooddollar.org,hempel.co.uk,hempelyacht.com,here.com,hud.ac.uk,idemitsu.com,investcapital.com.mt,jaguarlandrover.com,leonorgreyl.com,liptonicetea.com,ludwig.guru,m64.info,mandarinoriental.com,mclaren.com,mik.eu,modecom.com,modhoster.com,moneywise.co.uk,mydraw.com,mysteriumvpn.com,mysurveylab.com,nationalcircus.org.uk,natwest.com,netbiter.com,nornickel.com,npl.co.uk,octotree.io,oldgoesyoung.com,openmailbox.org,pepperl-fuchs.com,postoffice.co.uk,prodir.com,purnatur.eu,rbs.co.uk,redditinc.com,roalddahl.com,rowenta.com,safedns.com,samsunghealthcare.com,secapital.lu,sense.org.uk,sheldrickwildlifetrust.org,silverlake.com,sleek-mag.com,squirt.org,statusbrew.com,syntevo.com,team-mediaportal.com,togetherall.com,top-electronics.com,trailfinders.com,tubidy.news,twitchstrike.com,unicheck.com,unicreditgroup.eu,virgin-atlantic.com,wannawork.com,yachtclubgames.com,ytddownloader.com##.cookie
 1905.com###mobileAdPromote,.adlogo-flash,.ad-content
 1905.com##.ad-couplet,#hd-tab-label4,div.bd-tab.video-list:last-child
 1905.com##.mobile_ad_promote
