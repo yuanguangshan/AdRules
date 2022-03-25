@@ -143,5 +143,6 @@ bilibili.com#@#.btn-ctnr
 ! Phone Youku
 @@||vali.cp*.ott.cibntv.net^$domain=m.youku.com,third-party
 
-
+! 皮皮虾评论区误杀
+@@||i.snssdk.com/bds^$app=com.sup.android.superb
 ! --------白名单End-------- !
