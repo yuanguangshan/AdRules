@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: XiDlj7ZM3kgrLDD4xjBSGw
+! Checksum: TNRf3WpkEG0AtUSd3GT7xw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-25 13:34:54（北京时间） 
-! Total count: 16774
+! Version: 2022-03-25 16:16:40（北京时间） 
+! Total count: 16775
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -7129,7 +7129,7 @@
 @@||googletagmanager.com/gtag/js$domain=av01.tv
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bizimtoptan.com.tr
-@@||googletagmanager.com/gtag/js$domain=coin-free.com|kienthucrangmieng.com
+@@||googletagmanager.com/gtag/js$domain=coin-free.com|kienthucrangmieng.com|clickscoin.com|madshiba.fun
 @@||googletagmanager.com/gtag/js$domain=dholic.co.jp
 @@||googletagmanager.com/gtag/js$domain=filmomaniak.pl
 @@||googletagmanager.com/gtag/js$domain=go.epageview.com
@@ -10472,6 +10472,7 @@
 @@||mts.ru^$stealth
 @@||mtvnetworks.tt.omtrdc.net^$script,domain=mtv.com
 @@||muhendisimaaslari.com^$ghide
+@@||mui.com^$generichide
 @@||multi.idocdn.com^$domain=hydrax.net,stealth
 @@||multics.eu/comunidad/js/*.js
 @@||multifaucet.org^$ghide
