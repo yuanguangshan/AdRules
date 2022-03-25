@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: L5l2geWTtIyUiFulAF95mw
+! Checksum: MuZAxXdb1R7EKnZF0Pvchw
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-25 08:54:25（北京时间） 
-! Total count: 127917
+! Version: 2022-03-25 13:34:54（北京时间） 
+! Total count: 127924
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -26759,6 +26759,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 $script,subdocument,third-party,xmlhttprequest,domain=alicili.me|alicili8.com|alicilibt.com|bittorrentsearchweb.com|btdiggba.me|btdiggba.ws|btdiggcn.xyz|btdiggs.co|btkitty.com|btkitty.pet|btkittyba.cc|btkittyba.me|btkittyba.net|btkittyba.pw|btkittyla.me|btkittyla.org|btkittyon.co|btkittyplus.cc|btlibrary.xyz|btlibrarys.cc|btlibrarys.net|btspread.cc|cilidaquan.co|cilidaquan.top|cilidaquancn.pw|cilidb.net|cilifanhao.ws|cilifanhaobt.xyz|cnbtdigg.pw|cnbtkitty.xyz|cncilidb.pw|cntorrentkitty.co|cnzhongzicili.net|diggbts.cc|diggbts.xyz|feifeibt.pw|godiggbt.org|godiggbts.cc|kikibt.me|kikibts.org|mybtlibrary.cc|nanrenbt.cc|newbtkitty.me|newbtkitty.pw|newbtspread.ws|okbtkitty.me|renrencili.pw|renrencili.xyz|savebt.pw|sousoucili.com|storebt.net|storetorrents.com|torrentkitty.app|torrentsearchweb.xyz|zhainanbt.me|zhongzicilibt.org|zhongzicilicn.com|zhongzicilicn.ws|zhongzicilicn.xyz|zhongzicilila.cc|zhongzicilila.co|zhongziciliso.net|zhongzifuli.cc|zhongzishenqi.ws
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.ajnnan.com|m.biqugee.com|m.biqusa.com|m.bqg99.cc|m.bswtan.com|m.xbiquwx.la
+$script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.ajnnan.com|m.biqugee.com|m.biqusa.com|m.bqg99.cc|m.bswtan.com|m.xbiquwx.la|wodexiaoshuoh.com|m.jmshuwu.net|m.wx-book.com|m.666wx.cc
 $script,third-party,domain=512539700c.top|ahri-hentai.com
 $script,third-party,domain=52movieba.com|66s.cc|ab126.com|audio699.com|dm530.net|kan-tv.com|m.supfree.net|wltmv.com|xiepp.com
 $script,third-party,domain=cilimao.co|cilimao.one
@@ -58311,6 +58312,7 @@ mypillow.com#@#[href^="https://www.mypillow.com/"] > img
 myptt.cc##+js(set-constant, adsbygoogle.loaded, true)
 myptt.cc##p[style="padding:0;margin: 5px 0;color:#ff0000;"] > a[href][target="_blank"][style^="display:inline-block;"] > img
 myqqjd.com###advert_widget
+myqqjd.com##.adsbygoogle
 myqqjd.com##.qz-box
 myqqjd.com$$script[tag-content="mdpDeBlocker"]
 myrealgames.com##.block_adv_mix_top2
@@ -78992,6 +78994,7 @@ zzpzero.com
 ||chordeez.net^
 ||chosensoothespeechless.com^
 ||chosun.com/hitlog/
+||choujiang1.top^
 ||choujimai.top^
 ||choujue.net/one/down.js
 ||choujue.net/script/
@@ -96306,6 +96309,7 @@ zzpzero.com
 ||koukomol.com^
 ||koukou7.com^
 ||kouraija.net^
+||koushen.xyz^
 ||koutobey.net^
 ||kovla.com/?$popup,domain=rapidgator.net
 ||kovla.com^$third-party
@@ -99838,6 +99842,7 @@ zzpzero.com
 ||mdhv.io^
 ||mdialog.com^$third-party
 ||mdiyay.vseinstrumenti.ru^
+||mdjxa.com^
 ||mdkjefq.cn^
 ||mdmpix.com/js/connector.php?
 ||mdn2015x1.com^
@@ -102867,6 +102872,7 @@ zzpzero.com
 ||nightfallroad.com^
 ||nihao987654.top^
 ||nihaovcd.com/js/neirong
+||nihiliroom.xyz^
 ||niholaev.com^
 ||nijegwiyiqc.xyz^
 ||nijiua.com^
@@ -117044,6 +117050,7 @@ zzpzero.com
 ||taiquandao1.cn^
 ||taisha.org/statics/js/pc2.0/common/form.bottom.
 ||taishijian.com^
+||taishu.shop^
 ||taisi666.top^
 ||taisowhu.com^
 ||taiwandaily.net/wp-content/uploads*_600x100.

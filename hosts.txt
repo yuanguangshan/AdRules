@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: 9IMwZL9fOT3B8H4GElPMgQ
+! Checksum: TAqluAfbcBkcejKwkR2xOg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-25 08:54:25（北京时间） 
-! Total count: 102014
+! Version: 2022-03-25 13:34:54（北京时间） 
+! Total count: 102019
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -118,6 +118,7 @@
 0.0.0.0 08d7882dfc.94bc29639b.com
 0.0.0.0 0900-telefonerotik.de
 0.0.0.0 0916video.ru
+0.0.0.0 09mk.cn
 0.0.0.0 09zyy.com
 0.0.0.0 0a4bcef12091ce7.com
 0.0.0.0 0aqpqdju.me
@@ -23116,6 +23117,7 @@
 0.0.0.0 chosensoothespeechless.com
 0.0.0.0 chothuemayphotohcm.com
 0.0.0.0 chouftak.net
+0.0.0.0 choujiang1.top
 0.0.0.0 choujimai.top
 0.0.0.0 choupsee.com
 0.0.0.0 chpfgx.com
@@ -49358,6 +49360,7 @@
 0.0.0.0 kouraija.net
 0.0.0.0 kourier-tpat.eks-prod-1b.vungle.com
 0.0.0.0 kourier-tpat.eks-prod-1c.vungle.com
+0.0.0.0 koushen.xyz
 0.0.0.0 koutobey.net
 0.0.0.0 koviovius.com
 0.0.0.0 kovla.com
@@ -54630,6 +54633,7 @@
 0.0.0.0 mdialog.com
 0.0.0.0 mdiyay.vseinstrumenti.ru
 0.0.0.0 mdjdg.girlssohorny.net
+0.0.0.0 mdjxa.com
 0.0.0.0 mdkjefq.cn
 0.0.0.0 mdmserver.mobidia.com
 0.0.0.0 mdn2015x1.com
@@ -60074,6 +60078,7 @@
 0.0.0.0 nigvbyd.net
 0.0.0.0 nihao987654.top
 0.0.0.0 nihewfi.net
+0.0.0.0 nihiliroom.xyz
 0.0.0.0 niholaev.com
 0.0.0.0 nihoncar.us.intellitxt.com
 0.0.0.0 nijegwiyiqc.xyz
@@ -84446,6 +84451,7 @@
 0.0.0.0 tairiku.net
 0.0.0.0 tairjrqmdkjjb.xyz
 0.0.0.0 taishijian.com
+0.0.0.0 taishu.shop
 0.0.0.0 taisi666.top
 0.0.0.0 taisowhu.com
 0.0.0.0 taiv8.com
@@ -100218,7 +100224,6 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.ru09mk.cn
 000webhost.com###bottom-banner-with-counter-holder-desktop
 000webhost.com,aarp.org,al-monitor.com,animax-asia.com,apkcombo.com,apkforpc.com,araratadvertiser.com.au,areanews.com.au,armidaleexpress.com.au,audioxpress.com,axn-asia.com,batemansbaypost.com.au,begadistrictnews.com.au,bendigoadvertiser.com.au,benfergusonshow.com,blayneychronicle.com.au,bluemountainsgazette.com.au,boorowanewsonline.com.au,bordermail.com.au,braidwoodtimes.com.au,bravotv.com,bunburymail.com.au,busseltonmail.com.au,camdenadvertiser.com.au,camdencourier.com.au,canowindranews.com.au,centralwesterndaily.com.au,cessnockadvertiser.com.au,cnbctv18.com,conservativeradio.com,controleng.com,cootamundraherald.com.au,cowraguardian.com.au,dailyadvertiser.com.au,dailyliberal.com.au,dungogchronicle.com.au,easternriverinachronicle.com.au,edenmagnet.com.au,esperanceexpress.com.au,examiner.com.au,fairfieldchampion.com.au,forbesadvocate.com.au,gemtvasia.com,gleninnesexaminer.com.au,gloucesteradvocate.com.au,goondiwindiargus.com.au,goulburnpost.com.au,greatlakesadvocate.com.au,grenfellrecord.com.au,hardenexpress.com.au,hawkesburygazette.com.au,hcn.org,hepburnadvocate.com.au,huffingtonpost.co.uk,huntervalleynews.net.au,inqld.com.au,inverelltimes.com.au,jewishworldreview.com,juneesoutherncross.com.au,katherinetimes.com.au,legion.org,lifezette.com,lithgowmercury.com.au,liverpoolchampion.com.au,macarthuradvertiser.com.au,macleayargus.com.au,magtheweekly.com,mailtimes.com.au,maitlandmercury.com.au,mandurahmail.com.au,manningrivertimes.com.au,margaretrivermail.com.au,martechadvisor.com,moreechampion.com.au,mudgeeguardian.com.au,murrayvalleystandard.com.au,muswellbrookchronicle.com.au,naroomanewsonline.com.au,narrominenewsonline.com.au,northerndailyleader.com.au,northweststar.com.au,nvi.com.au,oann.com,oberonreview.com.au,onetvasia.com,oxygen.com,parkeschampionpost.com.au,pch.com,portlincolntimes.com.au,portnews.com.au,portpirierecorder.com.au,portstephensexaminer.com.au,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,redvoicemedia.com,revolver.news,salife.com.au,sconeadvocate.com.au,sify.com,singletonargus.com.au,smithsonianmag.com,southcoastregister.com.au,southernhighlandnews.com.au,standard.net.au,stawelltimes.com.au,stockandland.com.au,streamingmedia.com,tenterfieldstar.com.au,the-scientist.com,theadvocate.com.au,thecatholicthing.org,thecourier.com.au,thecurrent.org,thedirect.com,theflindersnews.com.au,theislanderonline.com.au,theland.com.au,theleader.com.au,therural.com.au,townandcountrymagazine.com.au,transcontinental.com.au,ulladullatimes.com.au,victorharbortimes.com.au,wellingtontimes.com.au,westernadvocate.com.au,westernmagazine.com.au,whyallanewsonline.com.au,wollondillyadvertiser.com.au,woot.com,yasstribune.com.au,youngwitness.com.au##.advertisement
 00kxs.com##.gg
@@ -100983,7 +100988,7 @@
 247wallst.com,e-reader-info.com,foreignpolicy.com,hotklix.com,searchengineland.com,seatguru.com,theblaze.com,theweek.com,variety.com###TB_window
 247wallst.com,theweek.com###TB_load
 24en.com##.article_part_top
-24h-pflege-check.de,baden-wuerttemberg.de,discounto.de,eichendorff21.de,elektroaktivisten.de,fotocommunity.de,hallo-minden.de,mantel.com,newhome.ch,schulportal.hessen.de,stylevamp.de,tchncs.de##.alert
+24h-pflege-check.de,eichendorff21.de,hallo-minden.de,newhome.ch,stylevamp.de,tchncs.de##.alert
 24h.com.vn,dailymail.co.uk,eva.vn,mogaznews.com,stationgossip.com,thisismoney.co.uk#@#.img-share
 24k99.com##.jy_24k99_suspended_ad
 24k99.com,fx168.com##.ny2018_txtLink

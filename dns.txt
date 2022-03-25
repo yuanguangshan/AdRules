@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jRIyNvnWSJv25d/9Ez8I4Q
+! Checksum: CJlD7PwPiVUHFr4tfAF/wQ
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-25 08:54:25（北京时间） 
-! Total count: 102703
+! Version: 2022-03-25 13:34:54（北京时间） 
+! Total count: 102709
 /aaddright.
 /abstat.
 /ad.ams.
@@ -1900,6 +1900,7 @@
 @@||csi.gstatic.com^
 @@||cutcaptcha.com^
 @@||cyberlink.com^
+@@||d.getpocket.com^
 @@||d10lpsik1i8c69.cloudfront.net^
 @@||d1z2jf7jlzjs58.cloudfront.net^
 @@||d1zgderxoe1a.cloudfront.net^
@@ -2144,6 +2145,7 @@
 @@||pass.yandex.ru^
 @@||passets-cdn.pinterest.com^
 @@||pdc.micloud.xiaomi.net^
+@@||pdst.fm^
 @@||pepsico.com.cn^
 @@||perfops.net^
 @@||pgpartner.com^
@@ -2468,6 +2470,7 @@
 ||08d7882dfc.94bc29639b.com^
 ||0900-telefonerotik.de^
 ||0916video.ru^
+||09mk.cn^
 ||09zyy.com^
 ||0a4bcef12091ce7.com^
 ||0aqpqdju.me^
@@ -25499,6 +25502,7 @@
 ||chosensoothespeechless.com^
 ||chothuemayphotohcm.com^
 ||chouftak.net^
+||choujiang1.top^
 ||choujimai.top^
 ||choupsee.com^
 ||chpfgx.com^
@@ -51790,6 +51794,7 @@
 ||kouraija.net^
 ||kourier-tpat.eks-prod-1b.vungle.com^
 ||kourier-tpat.eks-prod-1c.vungle.com^
+||koushen.xyz^
 ||koutobey.net^
 ||koviovius.com^
 ||kovla.com^
@@ -57068,6 +57073,7 @@
 ||mdialog.com^
 ||mdiyay.vseinstrumenti.ru^
 ||mdjdg.girlssohorny.net^
+||mdjxa.com^
 ||mdkjefq.cn^
 ||mdmserver.mobidia.com^
 ||mdn2015x1.com^
@@ -62523,6 +62529,7 @@
 ||nigvbyd.net^
 ||nihao987654.top^
 ||nihewfi.net^
+||nihiliroom.xyz^
 ||niholaev.com^
 ||nihoncar.us.intellitxt.com^
 ||nijegwiyiqc.xyz^
@@ -86915,6 +86922,7 @@
 ||tairiku.net^
 ||tairjrqmdkjjb.xyz^
 ||taishijian.com^
+||taishu.shop^
 ||taisi666.top^
 ||taisowhu.com^
 ||taiv8.com^
@@ -102707,6 +102715,4 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru09mk.cn^
 ||zzznews.ru^
-||zzznews.ru^! Title: LWJ's white list

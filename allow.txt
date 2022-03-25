@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: J9mFQx4na44ssmzgjpGeIg
+! Checksum: XiDlj7ZM3kgrLDD4xjBSGw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-25 08:54:25（北京时间） 
-! Total count: 16772
+! Version: 2022-03-25 13:34:54（北京时间） 
+! Total count: 16774
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -4700,6 +4700,7 @@
 @@||czajnikowy.com.pl/wp-content/plugins/creare-eu-cookie-law-banner/js/eu-cookie-law.js
 @@||cztv.com/player/*.swf?ad=
 @@||d-cache.microad.jp/js/td_iw_access.js$domain=watch.impress.co.jp
+@@||d.getpocket.com^
 @@||d.ibtimes.co.uk/imasdk/ads.js^
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 @@||d1-dm.com^$generichide
@@ -11722,6 +11723,7 @@
 @@||pdk.theplatform.com^$domain=vplayer.nbcolympics.com
 @@||pdk.video.snidigital.com/*/AdManager.swf$domain=hgtv.com
 @@||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/
+@@||pdst.fm^
 @@||peacocktv.com^$generichide
 @@||peimg.fr/js/ads.js$script,domain=pubeco.fr
 @@||pekalongan-cits.blogspot.co.id^$generichide
