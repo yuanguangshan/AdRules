@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: hLb5qiZYdjQex+sqxC44uQ
+! Checksum: PjbcdpKqCUbxf/HRrdEvyg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-26 00:19:40（北京时间） 
-! Total count: 102041
+! Version: 2022-03-26 01:26:42（北京时间） 
+! Total count: 102047
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -23163,6 +23163,7 @@
 0.0.0.0 chughtai.xyz
 0.0.0.0 chukalapopi.com
 0.0.0.0 chukalorqa.com
+0.0.0.0 chukarsconteur.com
 0.0.0.0 chuknu.sokrati.com
 0.0.0.0 chukysonewca.vn
 0.0.0.0 chultoux.com
@@ -27543,6 +27544,7 @@
 0.0.0.0 cykynethe.com
 0.0.0.0 cymaisefacsim.com
 0.0.0.0 cyneburg-yam.com
+0.0.0.0 cynicaugural.com
 0.0.0.0 cynkon.kairoscs.net
 0.0.0.0 cynorworld.com
 0.0.0.0 cynthet.com
@@ -30443,6 +30445,7 @@
 0.0.0.0 dispatchunique.com
 0.0.0.0 dispatchvegasplus.com
 0.0.0.0 dispbaktun.com
+0.0.0.0 dispelsbashara.com
 0.0.0.0 dispensablestranger.com
 0.0.0.0 displacepepperyadvertisement.com
 0.0.0.0 display-apps-ui-soak.iad.apple.com
@@ -33399,6 +33402,7 @@
 0.0.0.0 electronista.us.intellitxt.com
 0.0.0.0 electusdigital.com
 0.0.0.0 elefantsearch.com
+0.0.0.0 elegynybble.com
 0.0.0.0 elekted.com
 0.0.0.0 elementalantecedent.com
 0.0.0.0 elementdeserts.com
@@ -42718,6 +42722,7 @@
 0.0.0.0 homenick.biz
 0.0.0.0 homeoffun.com
 0.0.0.0 homepageking.de
+0.0.0.0 homesickheron.com
 0.0.0.0 homespotaudience.com
 0.0.0.0 hometheaterhifi.us.intellitxt.com
 0.0.0.0 hometownlow.com
@@ -95159,6 +95164,7 @@
 0.0.0.0 winvideo.org
 0.0.0.0 winvideo.xyz
 0.0.0.0 winworker.club
+0.0.0.0 winzevrocht.com
 0.0.0.0 wip-edge.ad1x.com
 0.0.0.0 wip3.adobe.com
 0.0.0.0 wipedhypocrite.com

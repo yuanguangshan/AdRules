@@ -33,35 +33,35 @@
 ## 规则总数
 ```
 <<<<<<< HEAD
-更新时间: 2022-03-26 00:19:47 （北京时间） 
+更新时间: 2022-03-26 01:26:49 （北京时间） 
 =======
-更新时间: 2022-03-26 00:19:47 （北京时间） 
+更新时间: 2022-03-26 01:26:49 （北京时间） 
 >>>>>>> 859efe441dd970545f3e645635e18965b737b405
 
-AdRules（For AdBlock）规则数量: 127953 
+AdRules（For AdBlock）规则数量: 127961 
 
-AdRules（For AdGuard）规则数量: 103187 
+AdRules（For AdGuard）规则数量: 103211 
 
-AdRules（For DNS）规则数量: 102733 
+AdRules（For DNS）规则数量: 102739 
 
-AdRules（For Adaway）规则数量: 102042 
+AdRules（For Adaway）规则数量: 102048 
 
 <<<<<<< HEAD
-AdRules Allowlist 规则数量: 16774 
+AdRules Allowlist 规则数量: 16775 
 
 AdRules Ad Domans List 数量: 102019 
 
-AdRules AdBlock Full List 规则数量: 235212 
+AdRules AdBlock Full List 规则数量: 235229 
 
-AdRules AdGuard Full List 规则数量: 183036 
+AdRules AdGuard Full List 规则数量: 183060 
 =======
-AdRules Allowlist 规则数量: 16774 
+AdRules Allowlist 规则数量: 16775 
 
 AdRules Ad Domans List 数量: 102001 
 
-AdRules AdBlock Full List 规则数量: 235212 
+AdRules AdBlock Full List 规则数量: 235229 
 
-AdRules AdGuard Full List 规则数量: 183036 
+AdRules AdGuard Full List 规则数量: 183060 
 >>>>>>> 859efe441dd970545f3e645635e18965b737b405
 ``` 
 ## 说明

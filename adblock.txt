@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: TC/GvVlvTqcdSQHGg20Y7g
+! Checksum: RReR5Y4nm2tN548anwD/5g
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-26 00:19:40（北京时间） 
-! Total count: 127953
+! Version: 2022-03-26 01:26:42（北京时间） 
+! Total count: 127961
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -45015,6 +45015,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||hwcdn.net^$script,domain=mp4upload.com
 @@||hypixel.net^$generichide
 @@||i-scmp.com/production/mixpanel.$domain=scmp.com
+@@||i.snssdk.com/bds^$app=com.sup.android.superb
 @@||i2.bahamut.com.tw/JS/ad/animeLogo.js^$domain=ani.gamer.com.tw
 @@||i2.bahamut.com.tw/JS/ad/animeVideo.js^$domain=ani.gamer.com.tw
 @@||i2.bahamut.com.tw/JS/ad/animeVideo2.js^$domain=ani.gamer.com.tw
@@ -79050,6 +79051,7 @@ zzpzero.com
 ||chufw.com/_lpfile_*.swf
 ||chugagre.com^
 ||chuiyao.com/static/js$script
+||chukarsconteur.com^
 ||chultoux.com^
 ||chultoux.com^$popup
 ||chumanduo.com^
@@ -81601,6 +81603,7 @@ zzpzero.com
 ||cymaisefacsim.com^
 ||cymetaphy.xyz^$popup
 ||cyneburg-yam.com^
+||cynicaugural.com^
 ||cynthet.com^
 ||cyperjs.cn^
 ||cypressattacksgenial.com^
@@ -83368,6 +83371,7 @@ zzpzero.com
 ||dispatchunique.com^
 ||dispatchvegasplus.com^
 ||dispbaktun.com^
+||dispelsbashara.com^
 ||dispensablestranger.com^
 ||displacepepperyadvertisement.com^
 ||display.intdmp.com^$popup
@@ -85281,6 +85285,7 @@ zzpzero.com
 ||electricitylaxative.com^
 ||electrifai.actonservice.com^
 ||elefantsearch.com^$third-party
+||elegynybble.com^
 ||elekted.com^$third-party
 ||elementalantecedent.com^
 ||elementdeserts.com^
@@ -91542,6 +91547,7 @@ zzpzero.com
 ||homepage-gw.jd.com/npromotion^$third-party
 ||homeprivatevids.com/js/580eka426.js
 ||homeschoolmath.net/a/
+||homesickheron.com^
 ||homestore.com/srv/
 ||hometownlow.com^
 ||homeyloanedmes.work^
@@ -101285,6 +101291,7 @@ zzpzero.com
 ||moe.la/images/banner/$image
 ||moe123.net/static/img/1200x200_
 ||moedao.com/js/top.js
+||moedgapers.com^
 ||moekyepkd.com^
 ||moengage.com^$third-party
 ||moerats.com/usr/ad/
@@ -123658,6 +123665,7 @@ zzpzero.com
 ||winternewsnow.name^
 ||winvvv.com^$subdocument
 ||winwin7.com/statics/js/pos_js/
+||winzevrocht.com^
 ||wipe.de^$~script,third-party
 ||wipedhypocrite.com^
 ||wipedstuffed.com^
