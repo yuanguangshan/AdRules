@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: SoyMIZ0/6nGo/jqHm/toag
+! Checksum: TC/GvVlvTqcdSQHGg20Y7g
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-25 20:54:26（北京时间） 
-! Total count: 127942
+! Version: 2022-03-26 00:19:40（北京时间） 
+! Total count: 127953
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -52586,6 +52586,7 @@ feebee.com.tw###bottom-ad-after-search-result
 feebee.com.tw##div[id^="afsh_"]
 feed.baidu.com##a[data-type="ec_ad"]
 feedicons.com###footerboard
+feeds.qq.com##.game
 fei3d.com##div#aktuals_field,div.content-wrapper
 feiwan.net##div[id*="_"][style]
 feixiaohao.com##.TopHomeLink
@@ -62645,6 +62646,7 @@ tribuna.com##.footer-helper__min-height-after-header
 tribunnews.com###div-Inside-MediumRectangle
 tribunnews.com###wideskyscraper
 tribunnews.com##.box__reserved
+tripadvisor.at,tripadvisor.be,tripadvisor.ca,tripadvisor.ch,tripadvisor.cl,tripadvisor.cn,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.il,tripadvisor.co.kr,tripadvisor.co.nz,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.com.ar,tripadvisor.com.au,tripadvisor.com.br,tripadvisor.com.eg,tripadvisor.com.gr,tripadvisor.com.hk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
 tripadvisor.com##.iab_leaBoa
 tripadvisor.com##.iab_medRec
 tripstodiscover.com##.fs-dynamic
@@ -66256,6 +66258,7 @@ zzpzero.com
 ||1.01fy.cn^
 ||1.07swz.com^
 ||1.1010pic.com^
+||1.11130.com.cn^
 ||1.11467.com^
 ||1.15lu.com^
 ||1.201980.com^
@@ -78593,6 +78596,7 @@ zzpzero.com
 ||centurys.net/promo_
 ||centwrite.com^
 ||ceo8000.net^
+||ceorlsrajasic.com^
 ||cepailru.com^
 ||cephalanthuseoccidu4entalis.com^
 ||ceraitoa.com^
@@ -91517,6 +91521,8 @@ zzpzero.com
 ||holder.com.ua^$third-party
 ||holdierpriv.club^
 ||holidayhappy.online^
+||holiestcoseys.com^
+||hollekeamboina.com^
 ||hollowafterthought.com^
 ||hollydeal.club^
 ||holydelicatessen.com^
@@ -101471,6 +101477,7 @@ zzpzero.com
 ||motosal.net^
 ||motrixi.com^$third-party
 ||mouaa.com^
+||moudmarauds.com^
 ||mountain.zhidao.baidu.com^
 ||mountainouspear.com^
 ||mountries.xyz^
@@ -103288,6 +103295,7 @@ zzpzero.com
 ||nqcbgz.cocopanda.se^
 ||nqfwx.cn^
 ||nqrkzcd7ixwr.com^
+||nqsc567.com^
 ||nqslmtuswqdz.com^
 ||nquhxlfbuis.com^
 ||nr-data.net^$third-party
@@ -103860,6 +103868,7 @@ zzpzero.com
 ||oilofasia.com/images/banners/
 ||oimg.nbcsports.com^
 ||oiniao.com^
+||ointmentaloofpincers.com^
 ||oioiio.top^
 ||oiqpgawl.com^
 ||oirmwitmrfpl.com^
@@ -105565,6 +105574,7 @@ zzpzero.com
 ||pervclips.com/tube/contents/images-banners/
 ||pesaea.autoesa.cz^
 ||peskyexecutionyouthful.com^
+||pesshooting.com^
 ||pestilentdarwinuphill.com^
 ||pestilenttidefilth.org^
 ||petalonpeery.com^
@@ -109278,6 +109288,7 @@ zzpzero.com
 ||rekuyy.com^
 ||rel.nextinpact.com^
 ||rel2.nextinpact.com^
+||relaissynced.com^
 ||relann.com^
 ||relap.io^$third-party
 ||relappro.com^

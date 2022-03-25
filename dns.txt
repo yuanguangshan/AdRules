@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ELeQAmIPTIVnGhDJIX6H5Q
+! Checksum: jA5LhNqJpLFkR38yyqc/+g
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-25 20:54:26（北京时间） 
-! Total count: 102723
+! Version: 2022-03-26 00:19:40（北京时间） 
+! Total count: 102732
 /aaddright.
 /abstat.
 /ad.ams.
@@ -23676,6 +23676,7 @@
 ||causticpunctum.casa^
 ||caustouy.net^
 ||cauthuny.net^
+||cautiouscooperativegentlemen.com^
 ||cautiouscrate.com^
 ||cautiouscredit.com^
 ||cavelyamun.com^
@@ -24957,6 +24958,7 @@
 ||centuriesactionperfectly.com^
 ||centwrite.com^
 ||ceo8000.net^
+||ceorlsrajasic.com^
 ||cepailru.com^
 ||cepbeju.edu.mx^
 ||cepereh.ru^
@@ -31857,6 +31859,7 @@
 ||demetnagement.com^
 ||demizhe.com^
 ||demkc32bq01ah.cloudfront.net^
+||demnan.com^
 ||demnip.com^
 ||demo-mockups.showheroes.com^
 ||demo.abmauto.kg^
@@ -45088,7 +45091,9 @@
 ||holexknw.loan^
 ||holiday.exponential.com^
 ||holidayhappy.online^
+||holiestcoseys.com^
 ||holika.com^
+||hollekeamboina.com^
 ||hollowafterthought.com^
 ||hollydeal.club^
 ||hollyrude.us.intellitxt.com^
@@ -63111,6 +63116,7 @@
 ||nqfwx.cn^
 ||nqozgp.botland.com.pl^
 ||nqrkzcd7ixwr.com^
+||nqsc567.com^
 ||nqslmtuswqdz.com^
 ||nqtxg.xyz^
 ||nquhxlfbuis.com^
@@ -64122,6 +64128,7 @@
 ||oimg.universalorlandovacations.com^
 ||oimsgad.qq.com^
 ||oiniao.com^
+||ointmentaloofpincers.com^
 ||oioiio.top^
 ||oiokewfkjnvq.com^
 ||oiotravel.com^
@@ -67019,6 +67026,7 @@
 ||pesoaniz.com^
 ||pespn.chartbeat.net^
 ||pesquisas.lp.deloittecomunicacao.com.br^
+||pesshooting.com^
 ||pestilentdarwinuphill.com^
 ||pestilenttidefilth.org^
 ||petalonpeery.com^
@@ -72853,6 +72861,7 @@
 ||rel.nextinpact.com^
 ||rel2.nextinpact.com^
 ||relaido.jp^
+||relaissynced.com^
 ||relann.com^
 ||relap.io^
 ||relapayssia.xyz^

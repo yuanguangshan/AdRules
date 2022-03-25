@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: cwyMQuG9YvZA3Ps6f06lUw
+! Checksum: hLb5qiZYdjQex+sqxC44uQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-25 20:54:26（北京时间） 
-! Total count: 102032
+! Version: 2022-03-26 00:19:40（北京时间） 
+! Total count: 102041
 0.0.0.0 
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
@@ -21293,6 +21293,7 @@
 0.0.0.0 causticpunctum.casa
 0.0.0.0 caustouy.net
 0.0.0.0 cauthuny.net
+0.0.0.0 cautiouscooperativegentlemen.com
 0.0.0.0 cautiouscrate.com
 0.0.0.0 cautiouscredit.com
 0.0.0.0 cavelyamun.com
@@ -22573,6 +22574,7 @@
 0.0.0.0 centuriesactionperfectly.com
 0.0.0.0 centwrite.com
 0.0.0.0 ceo8000.net
+0.0.0.0 ceorlsrajasic.com
 0.0.0.0 cepailru.com
 0.0.0.0 cepbeju.edu.mx
 0.0.0.0 cepereh.ru
@@ -29461,6 +29463,7 @@
 0.0.0.0 demetnagement.com
 0.0.0.0 demizhe.com
 0.0.0.0 demkc32bq01ah.cloudfront.net
+0.0.0.0 demnan.com
 0.0.0.0 demnip.com
 0.0.0.0 demo-mockups.showheroes.com
 0.0.0.0 demo.abmauto.kg
@@ -42667,7 +42670,9 @@
 0.0.0.0 holexknw.loan
 0.0.0.0 holiday.exponential.com
 0.0.0.0 holidayhappy.online
+0.0.0.0 holiestcoseys.com
 0.0.0.0 holika.com
+0.0.0.0 hollekeamboina.com
 0.0.0.0 hollowafterthought.com
 0.0.0.0 hollydeal.club
 0.0.0.0 hollyrude.us.intellitxt.com
@@ -60659,6 +60664,7 @@
 0.0.0.0 nqfwx.cn
 0.0.0.0 nqozgp.botland.com.pl
 0.0.0.0 nqrkzcd7ixwr.com
+0.0.0.0 nqsc567.com
 0.0.0.0 nqslmtuswqdz.com
 0.0.0.0 nqtxg.xyz
 0.0.0.0 nquhxlfbuis.com
@@ -61670,6 +61676,7 @@
 0.0.0.0 oimg.universalorlandovacations.com
 0.0.0.0 oimsgad.qq.com
 0.0.0.0 oiniao.com
+0.0.0.0 ointmentaloofpincers.com
 0.0.0.0 oioiio.top
 0.0.0.0 oiokewfkjnvq.com
 0.0.0.0 oiotravel.com
@@ -64565,6 +64572,7 @@
 0.0.0.0 pesoaniz.com
 0.0.0.0 pespn.chartbeat.net
 0.0.0.0 pesquisas.lp.deloittecomunicacao.com.br
+0.0.0.0 pesshooting.com
 0.0.0.0 pestilentdarwinuphill.com
 0.0.0.0 pestilenttidefilth.org
 0.0.0.0 petalonpeery.com
@@ -70390,6 +70398,7 @@
 0.0.0.0 rel.nextinpact.com
 0.0.0.0 rel2.nextinpact.com
 0.0.0.0 relaido.jp
+0.0.0.0 relaissynced.com
 0.0.0.0 relann.com
 0.0.0.0 relap.io
 0.0.0.0 relapayssia.xyz
