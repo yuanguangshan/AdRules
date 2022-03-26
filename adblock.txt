@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 1q0ZiF7blG3tZasF/yyyyQ
+! Checksum: hVgQK7+okIpCLysPilYTfQ
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-26 08:54:05（北京时间） 
-! Total count: 128012
+! Version: 2022-03-26 09:39:37（北京时间） 
+! Total count: 128013
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -37945,6 +37945,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /public/ads_
 /public/adv/*
 /public/analytics.js
+/public/imgbed/gg/*
 /public/js/ad/*
 /public/statsd
 /public/visitor.json?
