@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: dbqdpwwwmGEPsW/BBbafXg
+! Checksum: 1+d72GKcESFU4kUvS4smiw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-26 15:20:18（北京时间） 
-! Total count: 16767
+! Version: 2022-03-26 15:36:36（北京时间） 
+! Total count: 16769
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -10714,6 +10714,7 @@
 @@||nextstream.org^$stealth,domain=animepahe.com|kwik.cx
 @@||nexusmods.com/contents/Scripts/ad*.js
 @@||nexusrules.officeapps.live.com^
+@@||nf.pl/js/libs/cookiesDirective.js$script
 @@||nfhost.me^$ghide
 @@||nfl.com^$ghide
 @@||nflcdn.com/static/site/$script,domain=nfl.com
@@ -16052,6 +16053,7 @@
 @@||webnews.bg/assets/js/ads.js$script,domain=topsport.bg|news.bg
 @@||webnews.bg/assets/js/min/dfp.js$script,domain=topsport.bg|news.bg
 @@||webpush.jp/js/browserpushv3.js$domain=zakzak.co.jp
+@@||webpush.jp/js/browserpushv3.js$domain=zakzak.co.jp[Adblock Plus 2.0]
 @@||webserver.one^$ghide
 @@||websetnet.com^$generichide
 @@||webshark.pl/adserver/*/main_script.js?advertise_check=1$script,domain=freedisc.pl
