@@ -26,8 +26,8 @@ easylist=(
   "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt" #杏梢的全量规则
 #  "https://filters.adtidy.org/extension/ublock/filters/104_optimized.txt"
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载按钮
-  "https://easylist-downloads.adblockplus.org/fanboy-notifications.txt"
-  "https://easylist-downloads.adblockplus.org/i_dont_care_about_cookies.txt"
+#  "https://easylist-downloads.adblockplus.org/fanboy-notifications.txt"
+#  "https://easylist-downloads.adblockplus.org/i_dont_care_about_cookies.txt"
 )
 
 easylist_plus=(
