@@ -1,19 +1,11 @@
 ! Title: AdRules（For adaway）
-<<<<<<< HEAD
-! Checksum: vneM76Kg4NjiYR82YdFsQA
-=======
-! Checksum: gdyNzIkzVGeulnAyPSLCzg
->>>>>>> eaf166e9a2d3ae2a1cecb4f2ddc6860ec7759c37
+! Checksum: sWG1G7xUHchMOKL4o2FoRg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-<<<<<<< HEAD
-! Version: 2022-03-26 15:55:43（北京时间） 
-=======
-! Version: 2022-03-26 16:02:45（北京时间） 
->>>>>>> eaf166e9a2d3ae2a1cecb4f2ddc6860ec7759c37
+! Version: 2022-03-26 16:10:46（北京时间） 
 ! Total count: 97173
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
