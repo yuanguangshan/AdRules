@@ -221,8 +221,7 @@ cat tmp-hosts.txt \
  | sed 's/0.0.0.0 //' \
  | sort -n | uniq | awk '!a[$0]++' > tmp-ad-domains.txt #处理广告域名
 echo 8
-cat *.txt \ 
- | grep '^@' \
+cat *.txt | grep '^@' \
  | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
 
 echo '规则去重处理完成'
