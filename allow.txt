@@ -1,12 +1,13 @@
 ! Title: AdRules Allowlist
-! Checksum: fpqHuG9xZVdjZhor0io2sg
+! Checksum: krsw3cKF4djQ+209aw6TSg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-26 15:38:47（北京时间） 
-! Total count: 16769
+! Version: 2022-03-26 15:55:43（北京时间） 
+! Total count: 16775
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
+@@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$removeparam,domain=agenciatributaria.gob.es
 @@$removeparam,domain=api.bilibili.com
@@ -576,7 +577,6 @@
 @@|http://*adv$image,domain=naasongs.com|nsongs.com
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2327,6 +2327,7 @@
 @@||argep.hu/googleanalytics.js
 @@||arhn.eu/wp-content/themes/socialize/$~third-party
 @@||ariva.de^$ghide
+@@||ark.letv.com/adx?adzone=
 @@||ark.letv.com^
 @@||arkadiumhosted.com/API/$generichide
 @@||arkadiumhosted.com^$script,domain=arkadium.com|arkadiumarena.com|games.baltimoresun.com|games.charlotteobserver.com|games.chicagotribune.com|games.dailypress.com|games.express.co.uk|games.mcall.com|games.nydailynews.com|games.orlandosentinel.com|games.sun-sentinel.com|puzzles.bestforpuzzles.com|puzzles.independent.co.uk|puzzles.standard.co.uk
@@ -3241,6 +3242,7 @@
 @@||ccmp.eu^
 @@||ccom-cdn.com/assets/img/clear.gif?ccom_md5=$domain=credit.com
 @@||ccoo.es/cms/css/cookieconsent.css$domain=ccoo.es
+@@||cctv.com/js/cntv_Advertise.js
 @@||cd.bendibao.com^
 @@||cd.connatix.com/connatix.player.js$domain=loot.tv
 @@||cd.connatix.com/connatix.playspace.js$domain=inc.com
@@ -3522,7 +3524,6 @@
 @@||cdn.jsdelivr.net/npm/jquery*/dist/jquery.min.js$domain=strikeout.nu
 @@||cdn.jsdelivr.net/npm/jquery@
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
-@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|! AakList (Anti-Adblock Killer)
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=meucdn.vip
@@ -13647,6 +13648,8 @@
 @@||sinaimg.cn/cj/deco/$script,domain=finance.sina.com.cn
 @@||sinaimg.cn/dy/deco/*/js/base.js
 @@||sinaimg.cn/dy/deco/*/js/require.js
+@@||sinaimg.cn/large^$domain=xclient.info[Adblock Plus 2.1]
+@@||sinaimg.cn/large^$domain=xclient.info||yinyouapp.com^
 @@||sinaimg.cn/tech/https_index/share.
 @@||sinaimg.cn/unipro/pub/suda_m_v629.js$domain=video.sina.com.cn
 @@||sinaimg.cn^$stealth,domain=weibo.com
@@ -14055,6 +14058,7 @@
 @@||startseite.to^$ghide
 @@||stat-rock.com/player.js$domain=4shared.com
 @@||stat.10jqka.com.cn^
+@@||stat.letv.com/$script
 @@||stat.pc.music.qq.com/fcgi-bin/player_
 @@||stat.prsmedia.fr/tag/stat.js$domain=bienpublic.com
 @@||stat.safeway.com/b/ss/$image
@@ -14635,6 +14639,7 @@
 @@||taxes.hrblock.com^$extension
 @@||taximaxim.com/assets/*/fingerprint2.min.js
 @@||tb.mgtv.com/sdk/*/ad-sdk.
+@@||tb.mgtv.com/sdk/*/ad-sdk.js$script
 @@||tb1.bdstatic.com/??/tb/_/*/ad_$script
 @@||tbcdn.cn^*/click_track.js
 @@||tbs.com/ajax/$stealth,domain=tbs.com
@@ -15666,6 +15671,7 @@
 @@||video.oms.eu/crossdomain.xml$domain=badische-zeitung.de
 @@||video.oms.eu/projekt/download/OMSComponent.swf$domain=badische-zeitung.de
 @@||video.onnetwork.tv/adblock_notify.js
+@@||video.qq.com/fcgi-bin/
 @@||video.repubblica.it^$generichide
 @@||video.repubblica.it^*/nielsen.js
 @@||video.snidigital.com/*/AdManager.swf$domain=video.snidigital.com
