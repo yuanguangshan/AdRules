@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ZLm+vEXtQSA+qd6K7d8fLg
+! Checksum: H0WNs9ezZRtX3iUaWrjDvw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-26 09:39:37（北京时间） 
-! Total count: 16770
+! Version: 2022-03-26 09:43:13（北京时间） 
+! Total count: 16766
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -1133,7 +1133,6 @@
 @@||adamas.ru^$jsinject,elemhide,extension
 @@||adap.tv/redir/javascript/vpaid.js
 @@||adapi.zcool.com.cn/api/adstrategy/realtime/get_ad_info?location_id=$domain=zcool.com.cn
-@@||adashx.m.taobao.com^
 @@||adb.arcadeitalia.net/core/include_3rd/jquery.cookiesdirective.min.js
 @@||adbeat.com^$domain=adbeat.com
 @@||adbilty.me/js/ads.js
@@ -1720,7 +1719,6 @@
 @@||aliyun.com/nocaptcha/analyze.js
 @@||aliyun.com/scratchCardSlide/analyze.jsonp?
 @@||aliyun.com^$important
-@@||aliyuncs.com^
 @@||aliyundrive.com^*/share_link/$xmlhttprequest
 @@||alkoblog.de/wp-content/plugins/StickySocialBar/js/sharefront.js?
 @@||alkosto.cdn.adglare.net^$image,xmlhttprequest,domain=alkosto.com|ktronix.com
@@ -2719,7 +2717,6 @@
 @@||bdv.bidvertiser.com/BidVertiser.dbm?$domain=vanhut.tk
 @@||bea4.v.fwmrm.net/ad/u$domain=nbcsports.com
 @@||bea4.v.fwmrm.net^$domain=mylifetime.com
-@@||beacon-api.aliyuncs.com^
 @@||beacon.guim.co.uk/accept-beacon?
 @@||beacons.ai/images/social_icons/$image,~third-party
 @@||beaconx.com/index.html$elemhide,jsinject,content,extension
@@ -7650,7 +7647,6 @@
 @@||gvt1.com^$important
 @@||gvt2.com^
 @@||gw.m.163.com^
-@@||h-adashx.ut.taobao.com^
 @@||h-sdk.online-metrix.net^
 @@||h-sdk.online-metrix.net^$app=com.ebay.mobile
 @@||h-sdk.online-metrix.net^|
