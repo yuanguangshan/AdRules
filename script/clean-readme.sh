@@ -1,12 +1,12 @@
 #!/bin/sh
-num_adg=`sed -n 's/^! Title: //p' adguard.txt`
-num_adgf=`sed -n 's/^! Title: //p' adguard-full.txt`
-num_al=`sed -n 's/^! Title: //p' allow.txt`
-num_adb=`sed -n 's/^! Title: //p' adblock.txt`
-num_adp=`sed -n 's/^! Title: //p' adblock+adguard.txt`
-num_dns=`sed -n 's/^! Title: //p' dns.txt`
-num_hosts=`sed -n 's/^! Title: //p' hosts.txt`
-num_domains=`sed -n 's/^! Title: //p' ad-domains.txt`
+num_adg=`sed -n 's/^! Total count: //p' adguard.txt`
+num_adgf=`sed -n 's/^! Total count: //p' adguard-full.txt`
+num_al=`sed -n 's/^! Total count: //p' allow.txt`
+num_adb=`sed -n 's/^! Total count: //p' adblock.txt`
+num_adp=`sed -n 's/^! Total count: //p' adblock+adguard.txt`
+num_dns=`sed -n 's/^! Total count: //p' dns.txt`
+num_hosts=`sed -n 's/^! Total count: //p' hosts.txt`
+num_domains=`sed -n 's/^! Total count: //p' ad-domains.txt`
 
 time=$(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')
 sed -i "s/^更新时间:.*/更新时间: $time （北京时间） /g" README.md
