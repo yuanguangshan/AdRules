@@ -238,8 +238,6 @@ echo '移动完成'
 python .././script/rule.py
 
 # Start Add title and date
-
-
 diffFile="$(ls|sort -u)"
 for i in $diffFile; do
  n=`cat $i | wc -l`
