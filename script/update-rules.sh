@@ -174,23 +174,25 @@ cat *.txt |grep '^/' |grep '.\.$' \
 #cat l.txt
 # Start Merge and Duplicate Removal
 #set LC_ALL='C'
+
+echo 开始合并
 cat .././mod/rules/adblock-rules.txt easylist*.txt \
  | grep -v '^!' | grep -v '.!' | grep -v '^！' \
  | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' \
  | grep -v '^\【' | grep -v 'local.adguard.org' \
  | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
-
+echo 1
 cat .././mod/rules/adblock-rules.txt *easylist*.txt full-adg*.txt \
  | grep -v '.!' |grep -v '^!' | grep -v '^！' \
  | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' \
  | grep -v '^\【' | grep -v 'local.adguard.org' \
  | sort -u | sort -n | uniq | awk '!a[$0]++' >> tmp-adblock+adguard.txt #处理Plus规则
-
+echo 2
 cat adguard*.txt \
  | grep -v '.!' | grep -v '^!' | grep -v '^# ' \
  | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' \
  | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
-
+echo 3
 cat full-adguard*.txt \
  | grep -v '.!' | grep -v '^!' | grep -v '^# ' \
  | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' \
@@ -198,27 +200,27 @@ cat full-adguard*.txt \
 
 #cat ubo-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-ubo.txt #处理AdGuard的规则
 #cat ubo-full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full-ubo.txt #处理AdGuard的规则
-
+echo 4
 cat .././mod/rules/*-rules.txt dns*.txt *hosts*.txt *easylist*.txt full-adg*.txt \
  | grep '^||\|^@@||' | grep -v './' | grep -v '\*' \
  | grep -v '^\[' | grep -v '.\[' | grep -v ".\$" | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' \
- | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > ll.txt 
-
+ | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' >> ll.txt 
+echo 5
 cat ll.txt l.txt pre-allow1.txt \
  |grep -v '^!' \
  |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
-
+echo 6
 cat base-src-hosts.txt tmp-dns.txt \
  | sed '/^$/d' |grep '^||\|^[0-9]' | grep -v '\*'\
  | grep -v './'| grep -v '^\[' | grep -v '.!' \
  | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
  |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" \
  | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
-
+echo 7
 cat tmp-hosts.txt \
  | sed 's/0.0.0.0 //' \
  | sort -n | uniq | awk '!a[$0]++' > tmp-ad-domains.txt #处理广告域名
-
+echo 8
 cat *.txt \ 
  | grep '^@' \
  | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
