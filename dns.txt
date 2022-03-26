@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: CQuz324IIrOABbGN6vQTlg
+! Checksum: XjPLC+KzmLmsGZkG9r48DA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，adgk等
-! Version: 2022-03-26 11:24:14（北京时间） 
-! Total count: 102776
+! Version: 2022-03-26 12:07:42（北京时间） 
+! Total count: 102774
 /aaddright.
 /abstat.
 /ad.ams.
@@ -4737,7 +4737,6 @@
 ||9xwk68.cn^
 ||9y88.com^
 ||9yad.com^
-||^
 ||a-5.info^
 ||a-ads.com^
 ||a-affiliate.net^
@@ -102780,6 +102779,5 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru09mk.cn^
 ||zzznews.ru^
 ||zzznews.ru^! Title: LWJ's white list
