@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: bYuMPm1pdmld7kggZ+BClw
+! Checksum: r2o48puM3Px0IG8KpG428Q
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-26 21:05:45（北京时间） 
-! Total count: 97215
+! Version: 2022-03-27 00:16:34（北京时间） 
+! Total count: 97221
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -14149,6 +14149,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /js/perimeter-x
 /js/pfad.js
 /js/piao1.js
+/js/ppndr.$domain=analdin.com|xozilla.*|xhand.com
 /js/prebid-
 /js/profit.js$~third-party
 /js/pwltjutj@67_b.js
@@ -21281,7 +21282,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
-@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|aminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
 @@||cdn.jsdelivr.net^$script,domain=yemancomic.com
@@ -32372,6 +32373,7 @@ flaticon.com###campaign-head
 flaticon.com###soul-p
 flaticon.com###unicorn
 flaticon.com##.adobe404-banner
+flaticon.com##a[href^="//www.flaticon.com/edge/redirect?"]
 flaticon.com##li[id^="bn-icon-list"]
 flickr.com##+js(nano-setTimeout-booster, adTimerStartCount, 1000)
 flickr.com##.moola-search-div
@@ -49304,7 +49306,8 @@ zzpzero.com
 ||1314sss.top^
 ||1328f.com/js/jquery.js
 ||13322.com/newIndex/ad/
-||1337x.to/images/x28.jpg
+||1337x.*/images/x28.jpg
+||1337x.*/images/x2x8.jpg
 ||1337x.to/ip3.php
 ||1337x.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:
 ||1337x.unblockit.cam/images/x28.jpg
@@ -77749,6 +77752,7 @@ zzpzero.com
 ||nmbtedu.com^$third-party
 ||nmctm.cn^
 ||nmetrics.samsungmobile.com^
+||nmgch.top^
 ||nmgk.com/Runtime/Js/
 ||nmgk.com/Uploads/dp/
 ||nmgk.com/Uploads/nmgkgif/bfq.
@@ -89004,6 +89008,7 @@ zzpzero.com
 ||thecounter.com^$third-party
 ||thedailybeast.com/static/js/thirdparty.
 ||thedailybeast.com^$removeparam=via
+||thedevs.cyou/hh/script-manager.js
 ||thefatherofsalmon.com^
 ||thefifthera.com^$domain=jianshu.com
 ||thefifthera.com^$third-party
@@ -94711,6 +94716,7 @@ zzpzero.com
 ||xgsnjl.com^
 ||xgxq518.com^
 ||xgzdys.com^
+||xhand.com/player/html.php?aid=*_html&video_id=*&*&referer
 ||xhbqczl.com$third-party
 ||xhbqczl.com^
 ||xhcdn.com/js/track.

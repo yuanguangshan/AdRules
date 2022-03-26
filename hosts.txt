@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: mjCOiNu2pHlgxXgJ+jx8BQ
+! Checksum: VdeNYdasiVeHu1xWV8jczg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-26 21:05:45（北京时间） 
-! Total count: 100275
+! Version: 2022-03-27 00:16:34（北京时间） 
+! Total count: 100276
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -60308,6 +60308,7 @@
 0.0.0.0 nmetrics.boostmobile.com
 0.0.0.0 nmetrics.samsung.com
 0.0.0.0 nmetrics.samsungmobile.com
+0.0.0.0 nmgch.top
 0.0.0.0 nmgpd.com
 0.0.0.0 nmiodk.promiflash.de
 0.0.0.0 nmkonline.com
