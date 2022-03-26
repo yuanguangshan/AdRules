@@ -38,7 +38,7 @@ easylist_plus=(
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt" #ubo隐私保护
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
 #"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
-"https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
+#"https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
  # "https://easylist.to/easylist/fanboy-annoyance.txt" #烦人规则
  "https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt" #fanboy-annoyance
 )
@@ -98,7 +98,7 @@ dns=(
   #以下规则不做阐述
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-  "https://adaway.org/hosts.txt" #adaway规则
+ # "https://adaway.org/hosts.txt" #adaway规则
   "https://abp.oisd.nl/basic/"
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt"
 )
