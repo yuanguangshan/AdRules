@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: P1vJmuZFleyFjhQfbwTyqQ
+! Checksum: K2WpCwOL3m0p0QXQR+jzNA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-26 16:30:37（北京时间） 
-! Total count: 17446
+! Version: 2022-03-26 16:57:43（北京时间） 
+! Total count: 17476
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -101,6 +101,7 @@
 @@.png#$domain=majesy.org|majesy.com|magesy.eu|magesy.blog|magesy.pw
 @@.png#$domain=readrawmanga.com
 @@.porntube.com^$stealth
+@@.qq.com/*.mp4?
 @@.strmrdrpx.xyz^$stealth
 @@.tv/javascript/adwords.js$domain=cc-fan.tv|cn-fan.tv|fox-fan.tv|nf-fan.tv
 @@.vaughnsoft.net/abvs.php?a=
@@ -172,6 +173,7 @@
 @@/adframe.js$script
 @@/adgear.js$script,domain=vtele.ca
 @@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
+@@/adguard.$domain=llq.dml.ink
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
 @@/adimg/*$domain=laniqu.com|veryeast.cn
@@ -809,6 +811,7 @@
 @@||50.7.161.20:8081/*.m3u8?$stealth
 @@||50.7.161.20:8081/*.ts?$stealth
 @@||50.7.92.82^$stealth
+@@||50zera.com^$domain=1905.com
 @@||51.15.*/videoplayback?vid=$stealth
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
@@ -1230,6 +1233,7 @@
 @@||adf.ly^
 @@||adf.ly^$generichide
 @@||adfoc.us/*/interstitial.js$~third-party
+@@||adfox.ru^$~third-party
 @@||adgaterewards.com/assets/js/vc/advertisement.js|$~third-party
 @@||adguard.com/public/Adguard/Blog/Android/comparison/*_ads_$image,domain=adguard.com
 @@||adguard.com/public/Adguard/Blog/Android/comparison/facebook_$image,domain=adguard.com
@@ -1451,6 +1455,7 @@
 @@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
+@@||ads.twitter.com^$popup,~third-party
 @@||ads.viralize.tv/display/$domain=ilrestodelcarlino.it
 @@||ads.viralize.tv/display/$domain=quotidiano.net
 @@||ads.viralize.tv/display/$stealth,domain=ilrestodelcarlino.it
@@ -1605,6 +1610,7 @@
 @@||aflac.com/js/wt_capi.js
 @@||aflamtalk.com^$ghide
 @@||aflrm.com/$subdocument,domain=dayt.se
+@@||afpssp.alimama.com^$domain=1905.com
 @@||afreecatv.com/js/plugin/ad/preroll.js$script,domain=afreecatv.com
 @@||afreesms.com/advertisement.js$script,xmlhttprequest
 @@||afterglowplayer.com/img/feat_youtube.jpg
@@ -2394,6 +2400,7 @@
 @@||arhn.eu/wp-content/themes/socialize/$~third-party
 @@||arianatoday.net^$generichide
 @@||ariva.de^$ghide
+@@||ark.letv.com^
 @@||arkadiumhosted.com/API/$generichide
 @@||arkadiumhosted.com^$script,domain=arkadium.com|arkadiumarena.com|games.baltimoresun.com|games.charlotteobserver.com|games.chicagotribune.com|games.dailypress.com|games.express.co.uk|games.mcall.com|games.nydailynews.com|games.orlandosentinel.com|games.sun-sentinel.com|puzzles.bestforpuzzles.com|puzzles.independent.co.uk|puzzles.standard.co.uk
 @@||arkadiumhosted.com^$script,domain=games.metro.us
@@ -2438,6 +2445,8 @@
 @@||asianovel.com^$generichide
 @@||asianovel.com^$ghide
 @@||asianrun.com/ads.js
+@@||asimgs.pplive.cn^*.flv
+@@||asimgs.pplive.cn^*.mp4
 @@||ask.qcloudimg.com^$stealth,domain=cloud.tencent.com
 @@||ask4movie.io^$generichide
 @@||asmwall.com/js/ads.js|$~third-party
@@ -3625,6 +3634,7 @@
 @@||cdn.jsdelivr.net/npm/jquery@
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|! AakList (Anti-Adblock Killer)
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|aminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=meucdn.vip
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=waaw.tv|waaw1.tv|waaws.tk
@@ -4142,6 +4152,7 @@
 @@||ci.phncdn.com/www-static/js/vmobile/flipbook.js
 @@||ciaopeople.it^*/remote-gdpr.$script,domain=cookist.com|cookist.it|fanpage.it|ohga.it
 @@||ciaopeople.it^*/sdk-gdpr.$script,domain=cookist.com|cookist.it|fanpage.it|ohga.it
+@@||cibntv.net/youku/*.mp4?
 @@||cibntv.net/youku/*.mp4?$domain=v.youku.com
 @@||cicero.de/themes/cicero/javascripts/advertisement.js
 @@||cinafoniaci.com^$ghide
@@ -4714,6 +4725,7 @@
 @@||credio.com/ad?
 @@||creditonebank.com^$ghide
 @@||cricketndtv.com/*adv$script
+@@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||crm-daily.com/share/*ad*.js$domain=crm-daily.com
 @@||crococoin.com/static/js/Controller/Advertise.js$script
@@ -4873,6 +4885,7 @@
 @@||d8rk54i4mohrb.cloudfront.net/js/video.js$domain=forbes.com
 @@||da.mgtv.com/m/player?
 @@||da.mgtv.com/m5/page?
+@@||da.mgtv.com^
 @@||da.mmarket.com^
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||daciaclub.cz^$ghide
@@ -5001,6 +5014,8 @@
 @@||ddtorun.pl/pl/js/show_ads.js$script
 @@||ddwloclawek.pl/pl/js/show_ads.js$script
 @@||de-api.eco.astro.com.my/feed/api/$stealth,domain=astroawani.com
+@@||de.as.pptv.com/crossdomain.xml
+@@||de.as.pptv.com/ikandelivery/
 @@||deadtoonsindia.*^$ghide
 @@||deals-italy.com/application/files/3515/8928/2566/advertising-and-communication.jpg
 @@||deals.cheapovegas.com^$domain=cheapovegas.com
@@ -7859,6 +7874,7 @@
 @@||gsurl.be/advertisement.js
 @@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
 @@||gtimg.cn/qz-proj/wy-pc-v3/static/img/svg/icon-share-
+@@||gtimg.com/adplugin/js/adplayer.js
 @@||gtimg.com/adplugin/swf/MediaPlugin.swf$domain=qq.com
 @@||gtimg.com/libs/$domain=18xs.org
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
@@ -8366,6 +8382,7 @@
 @@||iface2.iqiyi.com^
 @@||iface2.iqiyi.com^$important
 @@||ifc.com^$ghide
+@@||ifeng.com/mfp/mfpMultipleDelivery.do
 @@||ifeng.com^*?new=*?new=$domain=i.ifeng.com
 @@||ifengimg.com/a/201*Player
 @@||ifengimg.com/fe/shank/content/mobile_view.*_modern.js
@@ -9134,6 +9151,7 @@
 @@||iptvforever.com/js/adsbygoogle.js$script
 @@||iptvsale.info^$stealth
 @@||ipv4.google.com/sorry^$stealth
+@@||iqiyi.com/show2?
 @@||irisbuddies.blogspot.com^$generichide
 @@||irr.ru/mobile_api^$app=com.umojo.irr.android
 @@||irsr.games.pitforest.de^$elemhide
@@ -9156,6 +9174,8 @@
 @@||itavisen.no^$generichide
 @@||itavisen.no^$ghide
 @@||itavisen.no^*/components/$image
+@@||itc.*^prod=ad&
+@@||itc.cn/?prod=rtb&
 @@||itc.cn/site/share/
 @@||itdmusic.com^$generichide
 @@||itechpost.com/common/js/common/ads.js
@@ -9245,6 +9265,7 @@
 @@||jbzdy.com.pl^$ghide
 @@||jcbtechno.com^$ghide
 @@||jccsmart.com^$stealth
+@@||jd.com/adclick?$popup,~third-party
 @@||jd.com/adclick?$~third-party
 @@||jd.com/setCookie?
 @@||jd.com^*&refer=http$script
@@ -9628,6 +9649,7 @@
 @@||kxcdn.com/js/wutime_adblock/ads.js$domain=enxf.net
 @@||kyaru-concat.now.sh^$important
 @@||kym-cdn.com/entries/icons/$image
+@@||l.qq.com/lview?
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||l.qq.com^
 @@||l.yimg.com/g/combo/*/comscore.$script
@@ -9908,6 +9930,7 @@
 @@||livesports.pw/*adblock.js
 @@||livestream.com/accounts/*/events/*/player?$domain=strikeout.nu
 @@||livew.l.qq.com/crossdomain.xml
+@@||livew.l.qq.com/livemsg?
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||livew.l.qq.com/livemsg?ty=web&ad_type=$domain=v.qq.com
 @@||lk-subscr.tricolor.tv^$document
@@ -10012,6 +10035,7 @@
 @@||lr-ingest.io/logger.min.js$script,domain=pumpkin.care
 @@||lsi.com^*/google-analytics.js
 @@||lswcdn.net^$stealth
+@@||lts*.qq.com^*.ts?index=
 @@||ltzn.9377.com^
 @@||lublin112.pl/wp-content/uploads/$image
 @@||luccisan.com^$ghide
@@ -10036,6 +10060,7 @@
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
 @@||m.1234567.com.cn^
 @@||m.addthisedge.com/live/boost/*/_ate.track.config_resp
+@@||m.aty.sohu.com^
 @@||m.azonline.de/var/storage/images/*_image_300_250.jpg$~third-party
 @@||m.beautypageants.in^$elemhide
 @@||m.beautypageants.in^$generichide
@@ -10503,6 +10528,7 @@
 @@||mexashare.com/advertisements.js
 @@||mf.advantage.as/if/imcreat.php$domain=mobilmania.cz
 @@||mf.advantage.as/if/imshow.php$domain=f1sport.autorevue.cz
+@@||mf.atm.youku.com^
 @@||mfbcdn.net/scripts/ads.js$domain=myfxbook.com
 @@||mfstatic.cz/js/advantage.min.js$domain=mobilmania.cz
 @@||mgame.us^$ghide
@@ -14433,6 +14459,7 @@
 @@||spiceworks.com/assets/community/join/$image
 @@||spiegel.de/*?targetUrl=
 @@||spiegel.de/layout/js/http/netmind-$script
+@@||spiegel.de^$genericblock,generichide
 @@||spiele.heise.de^$ghide
 @@||spiele.rtl.de/landingpage/index/$document
 @@||spieletipps.de/js/smb-tracking.js
@@ -16053,6 +16080,7 @@
 @@||urlest.site/advertisement.js
 @@||urlex.org^$generichide
 @@||urlex.org^$ghide
+@@||urlgalleries.net^$generichide
 @@||urlgalleries.net^$generichide! EasyList China
 @@||urlpay.net/wp-content/plugins/*/assets/fuckadblock.js
 @@||us-east-1.amazonaws.com^
@@ -16105,6 +16133,7 @@
 @@||v*-dc-ad.ixigua.com^$important
 @@||v.17173.com/advideo/*.mp4
 @@||v.17173.com/advideo/20*.flv
+@@||v.aty.sohu.com/v?
 @@||v.firebog.net^
 @@||v.fwmrm.net/ad/$script,domain=fxnetworks.com
 @@||v.fwmrm.net/ad/$xhr,domain=telemundodeportes.com
@@ -16177,6 +16206,7 @@
 @@||vaillant.de/inc/assets/js/webtrekk_$script
 @@||valf.atm.cp31.ott.cibntv.net^
 @@||valf.atm.youku.com/vf?site=1&rst=mp4&
+@@||valf.atm.youku.com^
 @@||vali.cp*.ott.cibntv.net^$domain=m.youku.com,third-party
 @@||validate.perfdrive.com^
 @@||validate.perfdrive.com^|
