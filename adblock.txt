@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: vo8tz5h/UKKzh/9ssZheMg
+! Checksum: vIgBIoItNRHF0iMEUlosFg
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自My AdFilters（for PC）、EdentwCustom、adgk、ClearUrl等，并补充了一些规则
-! Version: 2022-03-26 09:43:13（北京时间） 
-! Total count: 128013
+! Version: 2022-03-26 11:24:14（北京时间） 
+! Total count: 128026
 ###A9AdsMiddleBoxTop
 ###A9AdsOutOfStockWidgetTop
 ###A9AdsServicesWidgetTop
@@ -866,6 +866,7 @@
 ###ad-blade
 ###ad-block
 ###ad-block-125
+###ad-block-2
 ###ad-block-aa
 ###ad-block-bottom
 ###ad-block-container
@@ -15647,6 +15648,7 @@
 ##.banner300
 ##.banner300_250
 ##.banner300by250
+##.banner300x250
 ##.banner300x84
 ##.banner336
 ##.banner336x280
@@ -23748,6 +23750,7 @@
 ##[href^="https://shrugartisticelder.com"]
 ##[href^="https://stvkr.com/"]
 ##[href^="https://t.ajrkm.link/"]
+##[href^="https://totlnkcl.com/"]
 ##[href^="https://track.fiverr.com/visit/"] > img
 ##[href^="https://traffserve.com/"]
 ##[href^="https://v.investologic.co.uk/"]
@@ -44529,6 +44532,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||em.hk/wp-content/uploads/*_300_250.
 @@||emome.net/files/advertising/
 @@||energy.de^*/ivw.js?$domain=energy.de
+@@||engine.presearch.org^$generichide
 @@||english-subtitles.club/assets/$image,~third-party
 @@||enrondev.net/ads/server/www/delivery/$domain=filecore.co.nz,subdocument
 @@||ens.nzz.ch^$~third-party
@@ -48766,6 +48770,8 @@ babeshows.co.uk,boobieblog.com,fapnado.com,foxhq.com,iseekgirls.com,small-breast
 babeshows.co.uk,jessie-rogers.com##img[width="728"]
 babesmachine.com##.topline
 babesmachine.com##.tradepic
+babestare.com##.block
+babestare.com##.single-zone
 baby-kingdom.com##.right5
 babyhome.com.tw##[id^="ad"],[class^="ad"],[id^="div-gpt-ad-"],[class="mar_10"],[href^="http://front.adsnew.babyhome.com.tw/"],#ad_m_peacock
 babylonbee.com##.sticky-footer-image
@@ -52997,6 +53003,10 @@ freedidi.com#@#.adsBanner
 freedla.com##.sidebox
 freedom-ip.com#@#.pub_vertical div
 freedom-ip.com#@#.pub_vertical ins
+freedomfirstnetwork.com##.freed-1
+freedomfirstnetwork.com##.freed-content_4
+freedomfirstnetwork.com##.freed-content_7
+freedomfirstnetwork.com##[href="https://freedomfirstcoffee.com"]
 freegames.org###gla
 freehat.cc#$#abort-on-property-read advFirstClickOpenNewTab
 freehat.cc,tt-cup.com,zerno-ua.com,oxax.tv,prostoporno.help,vmusi.ru,xittv.net,potokcdn.com,buzday.ru,nsday.ru,orenday.ru,perevolockday.ru,saltday.ru,sorochinskday.ru,lostpix.com,uploadimagex.com,volynpost.com,wowskill.ru,hlamer.ru,wseries.ru#$#abort-on-property-read open
@@ -59765,6 +59775,7 @@ premiumtimesng.com##.wpb_raw_code > .wpb_wrapper
 premiumtimesng.com##img[alt$=" Ad"]
 preroll$xmlhttprequest,domain=iprima.cz
 presearch.org##.pr-4.max-w-2xl.mb-4.mt-4.md\:mt-0.md\:mb-6.ml-4
+presearch.org##[x-data*="{ keywordAdFirst:"]
 presskitaquat.com##.e3lan-top
 pretoria.co.za##.banner-bg
 price.com.hk###ad0
@@ -60876,6 +60887,8 @@ sexvid.xxx##.spots_field
 sexvid.xxx##.top-cube
 sexyandfunny.com###best-friends
 sexyandfunny.com###sexy-links
+sexyandfunny.com##.content-source
+sexyandfunny.com##.firstblock
 sezhan8.com##div.topAdv,div#s8-friendlinks,TABLE.read_form:first-child + * + * > TABLE.read_form
 seznam.cz#@#.adMiddle
 seznamzpravy.cz##iframe[width^="30"][style],iframe[width^="30"][class],iframe[width^="30"][id],iframe[height^="60"][id],[class*="adform"i],div[style*="width: 2560"i],a[href*="branding"i],a[href*="clickth"],a[href*="destination"],a[title*="Rеklama"],[data-e2e*="branding-advert"]
