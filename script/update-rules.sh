@@ -14,7 +14,7 @@ echo '开始下载规则...'
 easylist=(
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" #反广告屏蔽规则
   "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #反广告屏蔽规则
-  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt" #EasyChina和Easylist 基础规则
+#  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt" #EasyChina和Easylist 基础规则
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #百度超级净化 @坂本大佬
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt" #一个URL过滤器
