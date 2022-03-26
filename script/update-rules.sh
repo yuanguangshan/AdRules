@@ -41,6 +41,7 @@ easylist_plus=(
 #"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
 "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
  # "https://easylist.to/easylist/fanboy-annoyance.txt" #烦人规则
+ "https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt" #fanboy-annoyance
 )
 
 adguard=(
