@@ -14,7 +14,7 @@ echo '开始下载规则...'
 easylist=(
   "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" #反广告屏蔽规则
   "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #反广告屏蔽规则
-  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt" #EasyChina和Easylist 基础规则
+#  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt" #EasyChina和Easylist 基础规则
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #百度超级净化 @坂本大佬
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt" #一个URL过滤器
@@ -22,22 +22,20 @@ easylist=(
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主针的盗版网站的规则
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt" #Clean Url 扩展的规则
 #  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt" #My AdFilter (For PC)
-  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" #反广告拦截规则合集
-  "https://raw.githubusercontent.com/hacamer/Adblist/master/adp.txt" #杏梢的全量规则
-  "https://filters.adtidy.org/extension/ublock/filters/104_optimized.txt"
+#  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" #反广告拦截规则合集
+  "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt" #杏梢的全量规则
+#  "https://filters.adtidy.org/extension/ublock/filters/104_optimized.txt"
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载按钮
   "https://easylist-downloads.adblockplus.org/fanboy-notifications.txt"
   "https://easylist-downloads.adblockplus.org/i_dont_care_about_cookies.txt"
 )
 
 easylist_plus=(
-"https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #净化百度
 "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt" #乘风规则
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt" #ubo烦人过滤器
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt" #
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt" #ubo基础过滤器
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt" #ubo隐私保护
-"https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
 #"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
 "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
@@ -90,9 +88,6 @@ adguard_ubo=(
 )
 
 allow=(
-  "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-  "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
-  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/whitelist.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/whitelist.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/whitelist.txt"
