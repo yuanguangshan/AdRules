@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: fBcmgUhjDAyMqKz3iuBiBA
+! Checksum: bYuMPm1pdmld7kggZ+BClw
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-26 17:24:34（北京时间） 
-! Total count: 97211
+! Version: 2022-03-26 21:05:45（北京时间） 
+! Total count: 97215
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -16144,7 +16144,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /sophus3_logging.js
 /sophusThree-
 /soralink.js
-/soralink/*
+/soralink/*$~stylesheet
 /source/plugin/drk_ledadv/*
 /source/plugin/mama_tips/*
 /source/plugin/yw_alertlogin/*
@@ -21281,7 +21281,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
-@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|bort-on-property-write prerole_length
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
@@ -21662,6 +21661,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||decision.taplytics.com^$domain=royalbank.com
 @@||deepbrid.com/backend-dl/app/views/site/default/ads/advertisement.js
 @@||delet.jhi.pl/bower_components/angular-google-analytics/$script,~third-party
+@@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delivery.vidible.tv/jsonp/$script,domain=delivery.vidible.tv
 @@||delivery.wasu.cn/crossdomain.xml
 @@||demo.hongkiat.com/jquery-detect-ads-block/images/ads.jpg$image
@@ -24834,6 +24834,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snesfun.com/js/ads.js$script
 @@||snowfl.com/ads/*.js$~third-party
+@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||so-magazyn.pl^$generichide
 @@||socks24.org^$generichide
 @@||soft98.ir^$generichide
@@ -26321,6 +26322,7 @@ acgzone.us##DIV#page > DIV[style^="width:960px;height:"],a[href^="http://www.S99
 ackcdn.net
 acn.vin##+js(window.open-defuser)
 acomics.ru##div[style*="/design/common/pic/please"]
+actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,rotana.video#$#abort-on-property-read decodeURIComponent
 activity.hnhnmg.com
 activity.tuigorilla.com
@@ -28969,6 +28971,7 @@ careerindia.com#@#.os-header-ad
 careonline.com.tw##.wrapper > script + a[href][onclick]
 cargurus.com##.cg-siteHeader-leaderBoardWrap
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
+carls-sims-4-guide.com##hr.post_separator + .windowbg
 carousell.com#@#.fb-b
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 carrotchou.blog,landiannews.com,woniuyulew.com,xingkbjm.com,zhain8.com##.widget_media_image
@@ -29789,7 +29792,6 @@ coinurl.net##+js(window.open-defuser)
 coinxfaucet.com##+js(set-constant, popunder_ads, true)
 cokemine.com,eveaz.com,jubuzz.com,skyarea.cn,tianfateng.cn#@#.category-share
 cokemine.com,eveaz.com,jubuzz.com,tianfateng.cn#@#.category-share
-cole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|newbalance.com|nexo.io|okdo.com|raspipc.es|reichelt.*|thepihut.com|thunderbird.net|tiendatec.es|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
 coll.v00yvd.xyz
 collect-v6.51.la
 collectionofbestporn.com##+js(abort-on-property-read, __ads)
@@ -30912,7 +30914,7 @@ douyu.com##.PcDiversion
 douyu.com##.PrivilegeGiftModalDialog
 douyu.com##.SuperFansGuideTips
 douyu.com##.TaskIcon
-douyu.com##.Title-ad
+douyu.com##.Title-ad, .DropMenuList-ad, .DropPane-ad
 douyu.com##.ToolbarActivityArea
 douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
 douyu.com##.XinghaiAd
@@ -39090,7 +39092,6 @@ mtrend.cn##a[href*="taomoubao.com"]
 mtrend.cn##a[href^="http://tao.mtrend.cn/"]
 mtrend.cn##div[style="float:left; width:100%; margin-bottom:25px; text-align:center;"]
 mtv-ktv.net###aShow
-mtvuutiset.fi##+js(set, gsSkyId, noopFunc)
 mtvuutiset.fi##.leaderboard
 muchong.com###creditegg
 muchong.com###mask
@@ -50515,6 +50516,7 @@ zzpzero.com
 ||51yes.com^
 ||51yes.com^$third-party
 ||51yhzp.com^$third-party
+||51yusi.xyz^
 ||51zdwy.cn^
 ||51zrtx.com^
 ||51ztzj.com/js/you.js
@@ -68625,6 +68627,7 @@ zzpzero.com
 ||hnqhdnryukqko.com^
 ||hnrhyy.com/vip/$script
 ||hnruisheng.cn^
+||hnsyjaeger.site^
 ||hnsykly.cn^
 ||hnthink.vip^
 ||hntiantai.cn^
@@ -74286,7 +74289,7 @@ zzpzero.com
 ||lypn.net^$third-party
 ||lyraik.cn^
 ||lyricslocusvaried.com^
-||lyricsmint.red^
+||lyricsmint.red^$third-party
 ||lysq.com/data/attachment/portal/
 ||lytics.io^$third-party
 ||lytiks.com^$third-party
@@ -95719,6 +95722,7 @@ zzpzero.com
 ||yinooo.com^
 ||yinvmh.com^
 ||yinyating.top^
+||yinyouapp.com^
 ||yinyuehu.cn^
 ||yinyuetai.com/others/admin/*_1200x100.
 ||yinyuetai.com/proment/get-play-medias?*&position=overlay

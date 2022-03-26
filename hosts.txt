@@ -1,13 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: BVppEJu5ob1X5j6H7KJkXA
+! Checksum: mjCOiNu2pHlgxXgJ+jx8BQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-26 17:24:34（北京时间） 
-! Total count: 100274
-0.0.0.0  gem.gbc.criteo.com
+! Version: 2022-03-26 21:05:45（北京时间） 
+! Total count: 100275
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -1552,6 +1551,7 @@
 0.0.0.0 51xumei.com
 0.0.0.0 51y5.net
 0.0.0.0 51yes.com
+0.0.0.0 51yusi.xyz
 0.0.0.0 51zdwy.cn
 0.0.0.0 51zrtx.com
 0.0.0.0 520886.xyz
@@ -42633,6 +42633,7 @@
 0.0.0.0 hnqhdnryukqko.com
 0.0.0.0 hnruisheng.cn
 0.0.0.0 hnskorea.co.kr
+0.0.0.0 hnsyjaeger.site
 0.0.0.0 hnsykly.cn
 0.0.0.0 hnthink.vip
 0.0.0.0 hntiantai.cn

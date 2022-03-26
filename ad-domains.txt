@@ -1,10 +1,9 @@
 ! Title: AdRules Ad Domains List
-! Checksum: jgZjg0ouJKuBp0DPwBqYww
+! Checksum: U6hBzU2IrRNk3XoAO7S/Aw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
-! Expires: 8 Hours! Version: 2022-03-26 17:24:34（北京时间） 
-! Total count: 100274
- gem.gbc.criteo.com
+! Expires: 8 Hours! Version: 2022-03-26 21:05:45（北京时间） 
+! Total count: 100275
 .weixingshexiangji.net
 0--e.info
 0.nextyourcontent.com
@@ -1549,6 +1548,7 @@
 51xumei.com
 51y5.net
 51yes.com
+51yusi.xyz
 51zdwy.cn
 51zrtx.com
 520886.xyz
@@ -42630,6 +42630,7 @@ hnpxsm.com.cn
 hnqhdnryukqko.com
 hnruisheng.cn
 hnskorea.co.kr
+hnsyjaeger.site
 hnsykly.cn
 hnthink.vip
 hntiantai.cn
