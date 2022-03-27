@@ -4,7 +4,7 @@ UA='Mozilla/5.0 (Windows NT 10; Trident/7.0; rv:11.0) like Gecko'
 LC_ALL='C'
 
 rm *.txt
-rm -rf md5
+rm -rf md5 tmp
 # Create temporary folder
 echo '新建TMP文件夹...'
 mkdir -p ./tmp/
@@ -267,5 +267,5 @@ for i in $diffFile; do
 done
 echo '规则处理完成'
 
-rm -rf pre tmp
+rm -rf pre
 exit
