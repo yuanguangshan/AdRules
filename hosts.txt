@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: VdeNYdasiVeHu1xWV8jczg
+! Checksum: eFhWDeorRDA7iPSi4DKdIw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-27 00:16:34（北京时间） 
-! Total count: 100276
+! Version: 2022-03-27 08:57:58（北京时间） 
+! Total count: 100282
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -21272,6 +21272,7 @@
 0.0.0.0 catshark.spur.design
 0.0.0.0 catsnbootsncats2020.com
 0.0.0.0 catsnetwork.ru
+0.0.0.0 catsys.jp
 0.0.0.0 cattle.ajyd.org.au
 0.0.0.0 cattle.apisyouwonthate.com
 0.0.0.0 cattle.domaincomet.com
@@ -27724,6 +27725,7 @@
 0.0.0.0 d.ziyuanm.com
 0.0.0.0 d0.xcar.com.cn
 0.0.0.0 d01.notifa.info
+0.0.0.0 d03.xyz
 0.0.0.0 d03165aacb.com
 0.0.0.0 d077aa.r.axf8.net
 0.0.0.0 d0efb7d9aeb478d.com
@@ -35229,6 +35231,7 @@
 0.0.0.0 exclusiveclicks.com
 0.0.0.0 exclusivegiftcards.com
 0.0.0.0 excpm.com
+0.0.0.0 excsyrv.cn
 0.0.0.0 excursiimila23.ro
 0.0.0.0 excuseearthquake.com
 0.0.0.0 excuseparen.com
@@ -43935,6 +43938,7 @@
 0.0.0.0 iboard.com
 0.0.0.0 ibonecare.info
 0.0.0.0 ibooking.campaignhub.net
+0.0.0.0 iboxs.xyz
 0.0.0.0 ibpxl.com
 0.0.0.0 ibpxl.net
 0.0.0.0 ibrand-peru.com
@@ -90896,6 +90900,7 @@
 0.0.0.0 unsuccessfulpensive.com
 0.0.0.0 unta.cn
 0.0.0.0 untaryes.online
+0.0.0.0 untenable.wang
 0.0.0.0 unthem.com
 0.0.0.0 untidyquestion.com
 0.0.0.0 untidyrice.com
@@ -100283,3 +100288,4 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
+0.0.0.0 zzznews.ru.googleadservices.com

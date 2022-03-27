@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: r2o48puM3Px0IG8KpG428Q
+! Checksum: AWrAq3i1QAaboaGLymQLlw
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-27 00:16:34（北京时间） 
-! Total count: 97221
+! Version: 2022-03-27 08:57:58（北京时间） 
+! Total count: 97228
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -6155,6 +6155,8 @@
 ##DIV.sptable_do_not_remove f_one
 ##DIV.tpc_icon
 ##DIV[id*="BAIDU_SSP__wrapper_"]
+##DIV[style=" max-width:998px;  margin:0 auto;"] > A > IMG[height="120px"]
+##DIV[style=" max-width:999px;  margin:0 auto;"] > A > IMG[height="60px"]
 ##FBS-AD
 ##IFRAME[src*="//pos.baidu.com/"]
 ##LEADERBOARD-AD
@@ -21282,7 +21284,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
-@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|aminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
 @@||cdn.jsdelivr.net^$script,domain=yemancomic.com
@@ -24866,6 +24868,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||sourcebincc.com^$generichide
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
+@@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||sozi.cn/images/ad/tj
 @@||spanishdict.com^$generichide
 @@||sparkylinux.org/images/ad/$image
@@ -57319,7 +57322,6 @@ zzpzero.com
 ||bing.com^$removeparam=crslsl
 ||bing.com^$removeparam=ecount
 ||bing.com^$removeparam=efirst
-||bing.com^$removeparam=filters
 ||bing.com^$removeparam=go
 ||bing.com^$removeparam=mkt
 ||bing.com^$removeparam=nclid
@@ -58623,6 +58625,7 @@ zzpzero.com
 ||catracking.finning.com^
 ||cats.d20.rs^
 ||catschickens.com^
+||catsys.jp^$third-party
 ||caunuscoagel.com^
 ||caupdcloud.cn^
 ||causecherry.com^$third-party
@@ -61356,6 +61359,7 @@ zzpzero.com
 ||d.wi-fi.ru^
 ||d.ziyuanm.com^
 ||d0.xcar.com.cn^
+||d03.xyz^
 ||d1.1ppt.com^
 ||d1.3158.cn^
 ||d1.5h.com^
@@ -64871,6 +64875,7 @@ zzpzero.com
 ||excited.me^$third-party
 ||exclusivebrass.com^
 ||exclusiveclicks.com^$third-party
+||excsyrv.cn^
 ||excuseparen.com^
 ||exd4.destinia.com.au^
 ||exdmarketing.smu.edu.sg^
@@ -69317,6 +69322,7 @@ zzpzero.com
 ||ibillboard.com^$third-party
 ||ibjlweoqb.com^
 ||ibmcloud.com/collector/
+||iboxs.xyz^
 ||ibpxl.com^$third-party
 ||ibpxl.net^$third-party
 ||ibt.com/front/js/counter.js
@@ -91670,6 +91676,7 @@ zzpzero.com
 ||unsplash.com/nmetrics
 ||unta.cn^
 ||untaryes.online^
+||untenable.wang^
 ||untidyquestion.com^
 ||untidyrice.com^$third-party
 ||untimburra.com^
