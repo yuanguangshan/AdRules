@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 2O/trXJ1ASavYhx+fh0gbA
+! Checksum: djCX67JiXtbHE9ECuYpMNw
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-27 20:01:56（北京时间） 
-! Total count: 97123
+! Version: 2022-03-27 23:15:57（北京时间） 
+! Total count: 97133
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -272,6 +272,9 @@
 ###ad-top-wrapper
 ###ad-tower1
 ###ad-unit
+###ad-unit-right-bottom-160-600
+###ad-unit-right-middle-300-250
+###ad-unit-top-banner
 ###ad-video
 ###ad-vip-article
 ###ad-wrap
@@ -886,6 +889,8 @@
 ###anAdScGame300x250
 ###anchor-ad
 ###anti_adblock
+###ao-article-outbrain
+###ao-sidebar-outbrain
 ###app > .publicAllContentBg > .bigBannerBg
 ###appBottomIn
 ###appIn
@@ -1648,6 +1653,7 @@
 ###sticky-ad-bottom
 ###sticky-ad-container
 ###sticky-ad-header
+###sticky-add-side-block
 ###sticky-ads-top
 ###sticky-custom-ads
 ###sticky-footer-ad
@@ -9374,6 +9380,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .com:2516/code/
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
+.com^
 .content_tracking.
 .ct.sendgrid.net/$image
 .cz/*,,*,|$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
@@ -17758,7 +17765,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 1001tracklists.com#$?#div[class*="adngin"].exNet { remove: true; }
 1001tracklists.com#@##adframe:not(frameset)
 1001tracklists.com#@#[id][width]
-1001tracklists.com,himovies.to,home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
 10086.cn###bottomBigBanner
 10086.cn##.advertisingOther_img
 100bt.com##.aolasidebar__ad1
@@ -19515,7 +19521,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 9ht.com##a[href*=".360.cn/"]
 9ht.com,cesafe.com,downcc.com,downyi.com,paopaoche.net,pc0359.cn,pc6.com,xfdown.com###gaosuxiazai
 9ht.com,pc0359.cn,pc6.com,ucbug.com##.downnow
-9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
+9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,cryptoslate.com,digitallydownloaded.net,dotesports.com,downturk.net,forum.ragezone.com,fresherslive.com,gizmochina.com,glodls.to,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,litecoin-faucet.com,mbauniverse.com,mediaite.com,myreadingmanga.info,nexter.org,owaahh.com,parkablogs.com,pastemytxt.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,wccftech.com,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
 9k9k.com##.n9_ban
 9kld.com##iframe[src^="http://www.9kld.com/ad"]
 9kld.com##table[width="990"] img[width="990"]
@@ -21205,7 +21211,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
-@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|aminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
@@ -26402,7 +26407,7 @@ agar.io###mainui-ads
 agar.red#@#.ad-placement
 agarserv.com#@##adsense
 agathaedith.com
-agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thestar.com.my,titantv.com,where.ca,yoimaletyoufinish.com##.leaderboard
+agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,edmunds.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
 agedbeauty.net,data18.com,pornpics.com,vipergirls.to##a[href*="/go/"]
 aggeliestanea.gr,infotel.ca#@#.adResult
@@ -27019,6 +27024,7 @@ apps2app.com##+js(no-setTimeout-if, xdBlockEnabled, 100)
 apps2app.com#@#.banner_ad
 apps2app.com,nbd-media.tk,dynamicpapers.com,myreadingmanga.info,galaxylifereborn.com,linnk.info,tpaste.net,f1fanklub.pl,arenavision.in##+js(abort-current-script, document.addEventListener, |kcolbdakcolb|)
 apptrigger.com,fansided.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,winteriscoming.net##.header-billboard
+appuals.com##.wp-timed-p
 aptoide.com##div[class*="__AdsContainer-"]
 aqours.today
 ar.waterserver.cn
@@ -34207,6 +34213,7 @@ hihbt.com##.single-content > p > a[target="_blank"]:not([href^="/ac"])
 hihbt.com##aside[id^="advert-"]
 hihbt.com#?#.theiaStickySidebar > .widget_custom_html:has(> .textwidget > p a[target="_blank"][rel="noopener"]:not([href^="/ac"]):not([href^="/asian"]):not([href^="/category"]))
 hikin.online
+himovies.to,home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
 himovies.to,musichq.net##[href="https://zoro.to"]
 hinative.com#@#.banner_header
 hindi.business-standard.com##+js(abort-current-script, document.addEventListener, displayMessage:)
@@ -44798,6 +44805,7 @@ ttmeiju.com##A[href^="http://lnk8.cn/"],#bottomad,div.super_notice,ul.headad,div
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ttmeiju.vip##.duilian,#miaov_float_layer,[title$=".jpg"]
 ttpp.xsbooktxt.com
+ttps://www.discoveryplus.dk/programmer/fk-ikke-med-piger?idp=Facebook&responseCode=212 (18/06/2021)
 ttrar.com##.new_xzq
 ttshow.tw##div[id^="ad_article_"]
 ttshow.tw##div[id^="ad_index_"]
@@ -46078,6 +46086,7 @@ webofcomics.ru##.reklandvipinfo
 webpornblog.com##+js(abort-current-script, doMyStuff)
 webshort.in##+js(window.open-defuser)
 website.informer.com##div[id^="div-gpt-ad"]
+webtools.fineaty.com#?#div[class*=" hidden-"]:-abp-has(.adsbygoogle)
 webtoon69.com##+js(addEventListener-defuser, mousedown, )]){return)
 webtv.dothome.co.kr#@#.adsbygoogle
 webvoyeur.com,uiporn.com##iframe[src*="/player/html.php?aid=start_htm"]
@@ -79175,6 +79184,7 @@ zzpzero.com
 ||passwordscompound.com^
 ||passwordslayoutvest.com^$third-party
 ||pastemagazine.com/common/js/ads-
+||pastemytxt.com/download_ad.jpg
 ||pastepot.com^
 ||pastoralcorn.com^
 ||pastoralroad.com^$third-party
