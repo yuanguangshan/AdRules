@@ -3513,15 +3513,12 @@ chronologia.pl##+js(set, document.oncontextmenu, null)
 gamegame.kr##+js(aopw, document.oncontextmenu)
 gamegame.kr##div:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-! cracxpro.com WP-CP annoyance
-cracxpro.com##+js(aopr, disableSelection)
-cracxpro.com##+js(aopw, nocontext)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56209
-money-sense.club##+js(ra, oncontextmenu|onMouseDown|style, div#nocopy)
+money-sense.club##+js(ra, oncontextmenu|onMouseDown|style)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7470
 festival-cannes.com##+js(aeld, contextmenu)
+festival-cannes.com##*::selection:style(background-color:#338FFF!important)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3963
 moving2canada.com##.ad-blocker-notice
@@ -3540,7 +3537,7 @@ jootc.com##+js(aopw, document.oncontextmenu)
 jootc.com##+js(set, document.onkeyup, null)
 jootc.com##+js(set, document.ondragstart, null)
 jootc.com##+js(aeld, keydown)
-jootc.com##body, div, p, span, a, h1, h2, h3, h4, h5, h6:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+jootc.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56425
 cepmendili.com##+js(acis, jQuery, ai_adb)

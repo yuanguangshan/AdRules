@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: tmx37c97EfCAHLl1uBnmng
+! Checksum: 2O/trXJ1ASavYhx+fh0gbA
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-27 17:55:01（北京时间） 
-! Total count: 97120
+! Version: 2022-03-27 20:01:56（北京时间） 
+! Total count: 97123
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -48518,6 +48518,7 @@ zj.com##.adnav2
 zj.com##.rt-banner
 zj.qq.com##.mod-side + div[style="width:300px;height:257px;"]
 zjhlcp.com##.middle_list
+zjjbtl.com
 zjjzx.cn##img[src^="http://www.zjjzx.cn/img/zt/yd/"],[id^="Rightgg_banner_"]
 zjk169.net##.ConImg
 zjk169.net##.iContentLeft
@@ -62848,6 +62849,7 @@ zzpzero.com
 ||dotandad.com^
 ||dotardberet.com^
 ||dotaudiences.com^$third-party
+||dotchaudou.com^$all
 ||dotesports.com/sp.js
 ||dotjs.com^$third-party
 ||dotmetrics.net^$third-party
@@ -71415,6 +71417,7 @@ zzpzero.com
 ||jpg.cm^$domain=ataoju.com
 ||jpg1.oss-cn-beijing.aliyuncs.com^
 ||jpjmpqaupc.com^
+||jpjrkdtbnwc.com^
 ||jpm.cn/images/a/
 ||jpmpuxglivupwy.com^
 ||jponmlkj.carte-gr.total.fr^
