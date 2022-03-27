@@ -269,9 +269,9 @@ a=`cat dns.txt |wc -l`
 b=1000
 if [ "$a" -lt "$b" ]
 then
- exit 1314520
+ ./script/update-rules.sh
 else
- i=PASS
+ echo Check PASS
 fi
 
 rm -rf pre
