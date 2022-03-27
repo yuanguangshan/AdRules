@@ -1,10 +1,20 @@
 ! Title: AdRules Allowlist
+<<<<<<< HEAD
 ! Checksum: VXZ/pzMBnQRr06+ahejZnA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Version: 2022-03-27 08:38:40（北京时间） 
 ! Total count: 11578
+=======
+! Checksum: jaS+gA/1/vcP7JndZQwfdw
+! Homepage: https://github.com/Cats-Team/AdRules
+! Powerd by CatsTeam
+! Expires: 8 Hours
+! Version: 2022-03-27 08:57:58（北京时间） 
+! Total count: 17447
+@@$app=com.x.addon.cast
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$webrtc,domain=sourceforge.net
@@ -2488,6 +2498,13 @@
 @@||cdn.jsdelivr.net/npm/jquery*/dist/jquery.min.js$domain=strikeout.nu
 @@||cdn.jsdelivr.net/npm/jquery@
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
+<<<<<<< HEAD
+=======
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
+@@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
+@@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=meucdn.vip
+@@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=waaw.tv|waaw1.tv|waaws.tk
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.css$domain=yandexcdn.com
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=yandexcdn.com
@@ -9549,6 +9566,13 @@
 @@||snippets.studybreakmedia.com/doubleclick/ads.js
 @@||snowfl.com/ads/*.js$~third-party
 @@||snssdk.com/video/drm/v*/play_licenses
+<<<<<<< HEAD
+=======
+@@||snssdk.com^$important
+@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
+@@||so-abnehmen.info^$ghide
+@@||so-magazyn.pl^$generichide
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 @@||soccer.ru/sites/all/themes/mytheme/advert.js
 @@||soccer24hd.com/adblock/advertisement.js
 @@||social.krunker.io^$~third-party
@@ -9604,6 +9628,11 @@
 @@||sourcepoint.mgr.consensu.org^$domain=macworld.com
 @@||sourcepoint.mgr.consensu.org^$domain=spiegel.de
 @@||sourcepoint.mgr.consensu.org^$domain=t3n.de
+<<<<<<< HEAD
+=======
+@@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
+@@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?requestUUID=$domain=bloomberg.*
 @@||sozi.cn/images/ad/tj

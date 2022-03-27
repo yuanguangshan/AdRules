@@ -1,14 +1,24 @@
 [Adblock Plus 2.0]
+<<<<<<< HEAD
 ! Checksum: Zzf/W7X8r0OM1+gCZcQGvg
+=======
+! Checksum: N6Qx8WmKdb2vgih9wWVxZw
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
+<<<<<<< HEAD
 ! Version: 2022-03-27 08:38:42（北京时间） 
 ! Total count: 84739
 /aaddright.
 /ad.ams.
+=======
+! Version: 2022-03-27 08:57:58（北京时间） 
+! Total count: 101890
+/abstat.
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 /ad.min.
 /ad.redirect.
 /ad.serve.
@@ -1532,6 +1542,22 @@
 @@||xda-cdn.com
 @@||xmpp.disk.yandex.net^
 @@||yohalabs.com^
+<<<<<<< HEAD
+=======
+@@||youtube-nocookie.com
+@@||yql.yahoo.com^
+@@||yximgs.com^
+@@||zaloapp.com^
+@@||zazhipu.com^
+@@||zbj.com^
+@@||zconfig.alibabausercontent.com^
+@@||zimuku.la^
+@@||ztgame.com^
+@@||zxcs.me^
+||.weixingshexiangji.net^
+||0--e.info^
+||0.nextyourcontent.com^
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 ||0.oldgyhogola.com^
 ||00-gov.cn^
 ||000.gaysexe.free.fr^
@@ -51830,6 +51856,10 @@
 ||nmctm.cn^
 ||nmetrics.boostmobile.com^
 ||nmetrics.samsung.com^
+<<<<<<< HEAD
+=======
+||nmetrics.samsungmobile.com^
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 ||nmgch.top^
 ||nmgpd.com^
 ||nmiodk.promiflash.de^
@@ -84744,5 +84774,6 @@
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
+||zzznews.ru.googleadservices.com^
 ||zzznews.ru^
 ||zzznews.ru^|0ce3c-1fd43.api.pushwoosh.com^

@@ -1,9 +1,20 @@
 ! Title: AdRules Ad Domains List
+<<<<<<< HEAD
 ! Checksum: gFLeDc4tZ1878kV4q5lJaw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours! Version: 2022-03-27 08:38:36（北京时间） 
 ! Total count: 83114
+=======
+! Checksum: oPmZODRDEkmtxXhEVXuS4g
+! Homepage: https://github.com/Cats-Team/AdRules
+! Powerd by CatsTeam
+! Expires: 8 Hours! Version: 2022-03-27 08:57:58（北京时间） 
+! Total count: 100282
+.weixingshexiangji.net
+0--e.info
+0.nextyourcontent.com
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 0.oldgyhogola.com
 00-gov.cn
 000.gaysexe.free.fr
@@ -50238,6 +50249,10 @@ nmcdn.us
 nmctm.cn
 nmetrics.boostmobile.com
 nmetrics.samsung.com
+<<<<<<< HEAD
+=======
+nmetrics.samsungmobile.com
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
 nmgch.top
 nmgpd.com
 nmiodk.promiflash.de
@@ -83117,4 +83132,8 @@ zzxlhwyp.com
 zzyonghao.com
 zzz.pissrip.net
 zzznews.ru
+<<<<<<< HEAD
 zzznews.ru|0ce3c-1fd43.api.pushwoosh.com^
+=======
+zzznews.ru.googleadservices.com
+>>>>>>> c796ca53e4da9d148f1caceb2e285afdf4da0479
