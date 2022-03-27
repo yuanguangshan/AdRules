@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: dKGtA/U+b1+zMp7g/jN59Q
+! Checksum: c55R7sWU6SsKx0pd0tyzwg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-27 15:59:43（北京时间） 
-! Total count: 100285
+! Version: 2022-03-27 16:03:07（北京时间） 
+! Total count: 100284
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
@@ -100291,4 +100291,3 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.rucom
