@@ -64,6 +64,7 @@ jobs:
         run: |
           rm -rf .git/
           git init
+          echo 'tmp/' > .gitignore
           git config --local user.name "hacamer"
           git config --local user.email "hcamer145@gmail.com"
           git branch -m main
