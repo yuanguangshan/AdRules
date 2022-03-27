@@ -1,8 +1,8 @@
-! Checksum: FUvb8+9CRhl/OacNsxmToA
+! Checksum: BMV9FkSRxD8E1yH98UwfNw
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.40
-! TimeUpdated: 2022-03-26T18:30:34+00:00
+! Version: 2.1.13.41
+! TimeUpdated: 2022-03-27T09:02:14+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -15787,6 +15787,7 @@ magazine.skyeng.ru##.tg-banner
 !##############################
 !######### CSS tweaks #########
 !##############################
+shavetape.*,adblockstrtape.link,adblockstrtech.link,adblockstreamtape.*,stape.fun,strcloud.link,streamtape.*#%#//scriptlet("adjust-setTimeout", "counter", "", "0.02")
 loanapply.info#$##showlink { display: block !important; }
 loanapply.info#$#.to:style { display: block !important; }
 loanapply.info#$##pleasewait { display none !important; }
@@ -16057,7 +16058,6 @@ toptechtalk.xyz#%#//scriptlet('adjust-setInterval', 'isTimerCompleted', '', '0.0
 c1ne.co#%#//scriptlet('adjust-setInterval', 'countdown', '', '0.02')
 theicongenerator.com#%#//scriptlet("adjust-setInterval", "timer", "", "0.02")
 gdfreak.xyz#%#//scriptlet("adjust-setInterval", "sec--", "", "0.02")
-streamtape.*#%#//scriptlet("set-constant", "towait", "0")
 gamingforecast.com#%#//scriptlet("adjust-setInterval", "Link()", "", "0.02")
 policiesforyou.com#%#//scriptlet("adjust-setTimeout", "fade", "5000", "0.02")
 multilinkfz.xyz#%#//scriptlet("adjust-setInterval", "timer", "", "0.02")

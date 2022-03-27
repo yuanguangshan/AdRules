@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: cYVw4/fW1SVIhm8SLOH4Hg
+! Checksum: bPwUKA2Gn2b36NKFk+cTLg
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-27 17:05:59（北京时间） 
-! Total count: 101899
+! Version: 2022-03-27 17:09:09（北京时间） 
+! Total count: 101898
 /abstat.
 /ad.min.
 /ad.skin.
@@ -1575,7 +1575,6 @@
 ||08d7882dfc.94bc29639b.com^
 ||0900-telefonerotik.de^
 ||0916video.ru^
-||09mk.cn^
 ||09zyy.com^
 ||0a4bcef12091ce7.com^
 ||0aqpqdju.me^
@@ -16815,7 +16814,6 @@
 ||auto.allewagen.de^
 ||auto.lambolero.com^
 ||auto.monerise.com^
-||auto24.lv^
 ||autoads.asia^
 ||autoaffiliatenetwork.com^
 ||autoat.mx^
@@ -31830,7 +31828,6 @@
 ||directads2.ligatus.com^
 ||directadvert.net^
 ||directadvert.ru^
-||directadvrt.ru^
 ||directcounter.de^
 ||directcrm.ru^
 ||directdexchange.com^
@@ -38914,6 +38911,7 @@
 ||fperefo.ru^
 ||fpiikkttbl.com^
 ||fpjs.io^
+||fpmaypyeegktq.com^
 ||fpmef.com^
 ||fppmnvrubgl.xyz^
 ||fpreld.cn^
@@ -54374,6 +54372,7 @@
 ||lxgjni.lcwaikiki.eg^
 ||lxgmgalmrxqlj.xyz^
 ||lxhjaq.cn^
+||lxiaoxin.com^
 ||lxiu.shop^
 ||lxlx.shop^
 ||lxmnrl.eobuv.sk^
@@ -61003,7 +61002,6 @@
 ||nedstatbasic.net^
 ||nedstatpro.net^
 ||nedukeratio.com^
-||neebourinthrow.com^
 ||neechube.net^
 ||neechuce.net^
 ||neecnuaa.com^
@@ -63410,7 +63408,6 @@
 ||olveddel.xyz^
 ||olxrrxfb.xyz^
 ||olxt.top^
-||olybet.lv^
 ||olympicksmedicare.com^
 ||olypath.com^
 ||om-ssl.consorsbank.de^
@@ -73316,6 +73313,7 @@
 ||rrgapzw.cn^
 ||rrhh.intelsolut.com^
 ||rrimpl.com^
+||rrlafphbrpazu.com^
 ||rrogfhs.cn^
 ||rrolawcats2bsl4b.in.net^
 ||rrrikaco.beget.tech^
@@ -101904,5 +101902,6 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
+||zzznews.ru.0.0 aarbur.com^
 ||zzznews.ru^
 ||zzznews.ru^! Title: LWJ's white list

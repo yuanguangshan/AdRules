@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: U6oB26YQIKu3lbf9TD39QQ
+! Checksum: KFNrNpObZ6EghS9QQWMgWQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-27 17:05:59（北京时间） 
-! Total count: 100295
+! Version: 2022-03-27 17:09:09（北京时间） 
+! Total count: 100294
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
@@ -116,7 +116,6 @@
 0.0.0.0 08d7882dfc.94bc29639b.com
 0.0.0.0 0900-telefonerotik.de
 0.0.0.0 0916video.ru
-0.0.0.0 09mk.cn
 0.0.0.0 09zyy.com
 0.0.0.0 0a4bcef12091ce7.com
 0.0.0.0 0aqpqdju.me
@@ -15334,7 +15333,6 @@
 0.0.0.0 auto.allewagen.de
 0.0.0.0 auto.lambolero.com
 0.0.0.0 auto.monerise.com
-0.0.0.0 auto24.lv
 0.0.0.0 autoads.asia
 0.0.0.0 autoaffiliatenetwork.com
 0.0.0.0 autoat.mx
@@ -30324,7 +30322,6 @@
 0.0.0.0 directads2.ligatus.com
 0.0.0.0 directadvert.net
 0.0.0.0 directadvert.ru
-0.0.0.0 directadvrt.ru
 0.0.0.0 directcounter.de
 0.0.0.0 directcrm.ru
 0.0.0.0 directdexchange.com
@@ -37397,6 +37394,7 @@
 0.0.0.0 fperefo.ru
 0.0.0.0 fpiikkttbl.com
 0.0.0.0 fpjs.io
+0.0.0.0 fpmaypyeegktq.com
 0.0.0.0 fpmef.com
 0.0.0.0 fppmnvrubgl.xyz
 0.0.0.0 fpreld.cn
@@ -52828,6 +52826,7 @@
 0.0.0.0 lxgjni.lcwaikiki.eg
 0.0.0.0 lxgmgalmrxqlj.xyz
 0.0.0.0 lxhjaq.cn
+0.0.0.0 lxiaoxin.com
 0.0.0.0 lxiu.shop
 0.0.0.0 lxlx.shop
 0.0.0.0 lxmnrl.eobuv.sk
@@ -59446,7 +59445,6 @@
 0.0.0.0 nedstatbasic.net
 0.0.0.0 nedstatpro.net
 0.0.0.0 nedukeratio.com
-0.0.0.0 neebourinthrow.com
 0.0.0.0 neechube.net
 0.0.0.0 neechuce.net
 0.0.0.0 neecnuaa.com
@@ -61851,7 +61849,6 @@
 0.0.0.0 olveddel.xyz
 0.0.0.0 olxrrxfb.xyz
 0.0.0.0 olxt.top
-0.0.0.0 olybet.lv
 0.0.0.0 olympicksmedicare.com
 0.0.0.0 olypath.com
 0.0.0.0 om-ssl.consorsbank.de
@@ -71743,6 +71740,7 @@
 0.0.0.0 rrgapzw.cn
 0.0.0.0 rrhh.intelsolut.com
 0.0.0.0 rrimpl.com
+0.0.0.0 rrlafphbrpazu.com
 0.0.0.0 rrogfhs.cn
 0.0.0.0 rrolawcats2bsl4b.in.net
 0.0.0.0 rrrikaco.beget.tech
@@ -100302,3 +100300,4 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
+0.0.0.0 zzznews.ru.0.0 aarbur.com
