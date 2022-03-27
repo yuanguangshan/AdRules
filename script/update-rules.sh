@@ -269,7 +269,7 @@ a=`cat dns.txt |wc -l`
 b=1000
 if [ "$a" -lt "$b" ]
 then
- ./script/update-rules.sh
+ bash ./script/update-rules.sh
 else
  echo Check PASS
 fi
