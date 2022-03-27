@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: I4GRpoDrg/hupHlr0L1A1g
+! Checksum: DrY5pPeefL9sBlqaSf0JxA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-27 17:52:23（北京时间） 
-! Total count: 17447
+! Version: 2022-03-27 17:55:01（北京时间） 
+! Total count: 17457
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -2108,6 +2108,7 @@
 @@||api-secure.solvemedia.com^$stealth
 @@||api-v*.trbo.com/r.php$domain=blau.de
 @@||api-v*.trbo.com/r.php$domain=o2online.de
+@@||api-v*.trbo.com^
 @@||api-v*.trbo.com^|
 @@||api.1plus1.video^$stealth
 @@||api.academia.edu/v0/users/*/stats$script
@@ -3083,6 +3084,7 @@
 @@||britishairways.com/cms/global/scripts/applications/tracking/visualsciences.js
 @@||britishairways.com^*/interstitial.js
 @@||britishtelecom.112.2o7.net^$domain=bt.com
+@@||brm-core-*.brsrvr.com^
 @@||brm-core-*.brsrvr.com^|
 @@||brm-core-0.brsrvr.com/api/*/core$domain=dollargeneral.com
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
@@ -3626,6 +3628,7 @@
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|! AakList (Anti-Adblock Killer)
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|aminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=hqq.*
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=meucdn.vip
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=waaw.tv|waaw1.tv|waaws.tk
@@ -4195,6 +4198,7 @@
 @@||click.trafficguard.ai^|
 @@||click.virt.exacttarget.com^
 @@||click.virt.exacttarget.com^|
+@@||click.virt.s*.exacttarget.com^
 @@||click.virt.s*.exacttarget.com^|
 @@||clickserve.dartsearch.net/link/click?*&gclid=$stealth
 @@||clicktale.net/WRc5.js$domain=telefonkonyv.hu
@@ -4223,6 +4227,7 @@
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||clj.valuecommerce.com^
 @@||clj.valuecommerce.com^|
+@@||clk*.tradedoubler.com^
 @@||clk*.tradedoubler.com^|
 @@||clk.ink^$generichide
 @@||clksite.com/static/advertisement.js
@@ -4578,6 +4583,7 @@
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||contentlockingnetworks.com/gLoader.php?GID=$script,third-party
 @@||contentlockingnetworks.com/gTemplate.php?GID=$subdocument,third-party
+@@||contents*.00110.citi.com^
 @@||contents*.00110.citi.com^|
 @@||contextual.media.net/*/fcmain.js$domain=dropgalaxy.com
 @@||contextual.media.net/dmedianet.js$domain=dropgalaxy.com
@@ -5642,7 +5648,9 @@
 @@||em.hk/wp-content/uploads/*_300_250.
 @@||em.kuntv.pw/embed.min.js$domain=strikeout.nu
 @@||em.realtimetv.me/embed.min.js
+@@||email*.123formbuilder.com^
 @@||email*.123formbuilder.com^|
+@@||email.*.skyeng.ru^
 @@||email.*.skyeng.ru^|
 @@||email.awscloud.com^
 @@||email.awscloud.com^|
@@ -10287,6 +10295,7 @@
 @@||mbe-cdn.fyber.com$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
 @@||mbed.com/static/css/*.cookie_law.*.css
 @@||mc-premium.org/assets/js/fuckadblock.js
+@@||mc.*.exacttarget.com^
 @@||mc.*.exacttarget.com^|
 @@||mc.yandex.ru/metrika/tag.js$domain=7flowers.ru
 @@||mc.yandex.ru/metrika/tag.js$domain=coddyschool.com
@@ -14623,6 +14632,7 @@
 @@||static-redesign.cnbcfm.com/dist/components-PcmModule-Taboola-*.js$domain=cnbc.com
 @@||static-v*.trbo.com/plugin/trbo_*.js$domain=blau.de
 @@||static-v*.trbo.com/plugin/trbo_*.js$domain=o2online.de
+@@||static-v*.trbo.com^
 @@||static-v*.trbo.com^|
 @@||static-videostar2.4vod.tv/assets/js/adcheck.js$script,domain=videostar.pl
 @@||static-videostar2.4vod.tv/assets/js/adcheck.min.js$script,domain=videostar.pl
