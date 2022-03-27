@@ -103,6 +103,8 @@ dns=(
  # "https://adaway.org/hosts.txt" #adaway规则
   "https://abp.oisd.nl/basic/"
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt"
+  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+  "https://raw.githubusercontent.com/DandlionSprout/adfilt/master/AdGuard%20Home%20Compilation%20List/AdGuardHomeCompilationList-Notifications.txt"
 )
 
 hosts=(
