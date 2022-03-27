@@ -266,6 +266,15 @@ for i in $diffFile; do
  #echo "合并${i}的标题中"
 done
 echo '规则处理完成'
+# Check Rules
+a=`cat dns.txt |wc -l`
+b=1000
+if [ "$a" -lt "$b" ]
+then
+ i=ERR
+else
+ i=PASS
+fi
 
 rm -rf pre
 exit
