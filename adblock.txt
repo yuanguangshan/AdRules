@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 3qxfsZyohTzPiCl58HSAog
+! Checksum: ps9f7ySabsVuF6MnyBplsg
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-27 17:01:43（北京时间） 
-! Total count: 97115
+! Version: 2022-03-27 17:05:59（北京时间） 
+! Total count: 97117
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -21205,6 +21205,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|streamtape.to,streamtape.cc,streamtape.net,streamtape.xyz,streamtape.com,streamta.pe,strtapeadblock.me,strtape.cloud,strtape.site,strtape.tech,mixdrop.co#$#abort-on-property-write _pao
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
 @@||cdn.jsdelivr.net^$script,domain=yemancomic.com
@@ -29733,6 +29734,7 @@ colourlovers.com##+js(abort-current-script, EventTarget.prototype.addEventListen
 colourlovers.com#@#[style*="background-image:"]
 colourlovers.com#@#div > iframe:first-child
 com.tw###space > a[target="_blank"] > img[width="160"]
+com/lab-testing/itemlc167015/apolipoprotein-b-blood-test?source=connexity&cnxclid=16357131459502835009610090302008005
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 comic.qq.com###fixed_right > div
 comic.qq.com##.ad-mid,#nqsnqsad02
