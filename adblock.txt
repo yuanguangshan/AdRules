@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: wQXc6P4MTQds9SksbeOkxA
+! Checksum: dbFNIcjXDJpj03sjT3JV8w
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-27 09:51:46（北京时间） 
-! Total count: 97226
+! Version: 2022-03-27 11:54:47（北京时间） 
+! Total count: 97227
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -21284,6 +21284,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cdn.jsdelivr.net/npm/fuckadblock*/fuckadblock.js$domain=shinden.pl
 @@||cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|[Adblock Plus 2.0]
+@@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|aminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
 @@||cdn.jsdelivr.net^$script,domain=yemancomic.com
@@ -25764,7 +25765,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||wx.qq.com/mmbizwap/*/framead.
 @@||wx3.sinaimg.cn/large^$app=com.xiaoyin.love
 @@||wx3.sinaimg.cn/wap720^
-@@||wxsnsdy.wxs.qq.com^
 @@||xboxdvr.com/assets/ads-*.js$~third-party
 @@||xboxforum.pl^$generichide
 @@||xda-cdn.com/css/webfonts/$font
@@ -94481,6 +94481,7 @@ zzpzero.com
 ||wxs.qq.com^
 ||wxs666.cn^
 ||wxskqy.cn^
+||wxsnsdy.wxs.qq.com^
 ||wxsnsdythumb.wxs.qq.com^
 ||wxsohu.com^
 ||wxt999.net/template/*/images/g_js/
