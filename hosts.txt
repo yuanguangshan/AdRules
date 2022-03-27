@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: YwpzAZvgKyoygiGzQ2hGjA
+! Checksum: dKGtA/U+b1+zMp7g/jN59Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-27 11:54:47（北京时间） 
-! Total count: 100281
+! Version: 2022-03-27 15:59:43（北京时间） 
+! Total count: 100285
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
@@ -14916,6 +14916,7 @@
 0.0.0.0 asu.com.vn
 0.0.0.0 asu.msmu.ru
 0.0.0.0 asu05mm.cn
+0.0.0.0 asukahan.xyz
 0.0.0.0 asuler.ru
 0.0.0.0 asumi.shinobi.jp
 0.0.0.0 asundersimultaneously.com
@@ -46876,6 +46877,7 @@
 0.0.0.0 j45.webringporn.com
 0.0.0.0 j5sq8.com
 0.0.0.0 j6rudlybdy.com
+0.0.0.0 j6zh4g0.cn
 0.0.0.0 j7rzxe098g5m.com
 0.0.0.0 j83ad.speedrun.com
 0.0.0.0 j84nvmd.cn
@@ -78577,6 +78579,7 @@
 0.0.0.0 smetricstur.www.svenskaspel.se
 0.0.0.0 smetrix.avon.uk.com
 0.0.0.0 smetrix.youravon.com
+0.0.0.0 smgjupy.cn
 0.0.0.0 smgrouphk.com
 0.0.0.0 smh.ink
 0.0.0.0 smi.today
@@ -85945,6 +85948,7 @@
 0.0.0.0 thunderbird.es
 0.0.0.0 thunderhead.com
 0.0.0.0 thunderingrose.com
+0.0.0.0 thundersoft.top
 0.0.0.0 thuocbongsencainghien.com
 0.0.0.0 thurag.com
 0.0.0.0 thurnflfant.com
@@ -100287,4 +100291,4 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.ru.googleadservices.com
+0.0.0.0 zzznews.rucom

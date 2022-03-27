@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jJ0s+WdpWYhqa9h1t4Fmkg
+! Checksum: k2ZRIBTaqhx4Mj8HjOeLAg
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-27 11:54:47（北京时间） 
-! Total count: 101888
+! Version: 2022-03-27 15:59:43（北京时间） 
+! Total count: 101889
 /abstat.
 /ad.min.
 /ad.skin.
@@ -81,7 +81,6 @@
 /adsnew.
 /adspaces.
 /adsrv.
-/adsservedby.
 /adsservice.
 /adstat.
 /adstats.
@@ -156,7 +155,6 @@
 /bdanalytics.
 /bicomscore.
 /bidiq.
-/bigad.
 /blockblock.jquery.
 /blogads.
 /blogsectiontracking.
@@ -311,7 +309,6 @@
 /ewtrack.
 /exelator.
 /exitpopup.
-/exitsplash.
 /exittracker.
 /exittraffic.
 /eznovacookieconsent.
@@ -16397,6 +16394,7 @@
 ||asu.com.vn^
 ||asu.msmu.ru^
 ||asu05mm.cn^
+||asukahan.xyz^
 ||asuler.ru^
 ||asumi.shinobi.jp^
 ||asundersimultaneously.com^
@@ -48416,6 +48414,7 @@
 ||j45.webringporn.com^
 ||j5sq8.com^
 ||j6rudlybdy.com^
+||j6zh4g0.cn^
 ||j7rzxe098g5m.com^
 ||j83ad.speedrun.com^
 ||j84nvmd.cn^
@@ -80156,6 +80155,7 @@
 ||smetricstur.www.svenskaspel.se^
 ||smetrix.avon.uk.com^
 ||smetrix.youravon.com^
+||smgjupy.cn^
 ||smgrouphk.com^
 ||smh.ink^
 ||smi.today^
@@ -87533,6 +87533,7 @@
 ||thunderbird.es^
 ||thunderhead.com^
 ||thunderingrose.com^
+||thundersoft.top^
 ||thuocbongsencainghien.com^
 ||thurag.com^
 ||thurnflfant.com^
@@ -101892,6 +101893,6 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru.googleadservices.com^
 ||zzznews.ru^
 ||zzznews.ru^! Title: LWJ's white list
+||zzznews.rucom^
