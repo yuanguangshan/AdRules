@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: iBrDFsPTtZi9VJUtzV08bA
+! Checksum: DfLfLxKuBuo2jrr3DytTSw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-27 16:33:54（北京时间） 
-! Total count: 100285
+! Version: 2022-03-27 16:45:19（北京时间） 
+! Total count: 100286
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
@@ -85972,6 +85972,7 @@
 0.0.0.0 tiads.instyle.com
 0.0.0.0 tiads.people.com
 0.0.0.0 tiads.timeinc.net
+0.0.0.0 tiallogical.com
 0.0.0.0 tianangdep.com
 0.0.0.0 tiandi.com
 0.0.0.0 tiandihui9450.top
