@@ -191,7 +191,7 @@ cat .././mod/rules/adblock-rules.txt easylist*.txt \
  | grep -v '^!' | grep -v '.!' | grep -v '^！' \
  | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' \
  | grep -v '^\【' | grep -v 'local.adguard.org' |gerp -E -v "^[\.||]+[com]+[\^]$" \
- | sort -n | uniq > tmp-adblock.txt #处理主规则
+ | sort -n | uniq >> tmp-adblock.txt #处理主规则
 
 cat .././mod/rules/adblock-rules.txt *easylist*.txt full-adg*.txt \
  | grep -v '.!' |grep -v '^!' | grep -v '^！' \
@@ -218,8 +218,8 @@ cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.
  | sed 's/\^|/\^/' |sort -n > ll.txt 
 
 cat l*.txt pre-allow1.txt abp-hosts*.txt \
- |grep -v '^!' |gerp -E -v "^[\.||]+[com]+[\^]$" \
- |sort -n |uniq > tmp-dns.txt  #处理DNS规则
+ |grep -v '^!' | gerp -E -v "^[\.||]+[com]+[\^]$" \
+ |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
 
 cat base-src-hosts.txt tmp-dns.txt \
  | sed '/^$/d' |grep '^||\|^[0-9]' | grep -v '\*'\
