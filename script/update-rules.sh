@@ -190,7 +190,7 @@ cat .././mod/rules/adblock-rules.txt easylist*.txt \
  | grep -v '^!' | grep -v '.!' | grep -v '^！' \
  | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' \
  | grep -v '^\【' | grep -v 'local.adguard.org' \
- | sort -n | uniq | awk '!a[$0]++' > tmp-adblock.txt #处理主规则
+ | sort -n | uniq > tmp-adblock.txt #处理主规则
 
 cat .././mod/rules/adblock-rules.txt *easylist*.txt full-adg*.txt \
  | grep -v '.!' |grep -v '^!' | grep -v '^！' \
@@ -225,14 +225,14 @@ cat base-src-hosts.txt tmp-dns.txt \
  | grep -v './'| grep -v '^\[' | grep -v '.!' \
  | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
  |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" \
- | sort -n | uniq | awk '!a[$0]++' > tmp-hosts.txt  #处理Hosts规则
+ | sort -n | uniq > tmp-hosts.txt  #处理Hosts规则
 
 cat tmp-hosts.txt \
  | sed 's/0.0.0.0 //' \
- | sort -n | uniq | awk '!a[$0]++' > tmp-ad-domains.txt #处理广告域名
+ | sort -n | uniq > tmp-ad-domains.txt #处理广告域名
 
 cat *.txt | grep '^@' \
- | sort -n | uniq | awk '!a[$0]++' > tmp-allow.txt #允许清单处理
+ | sort -n | uniq > tmp-allow.txt #允许清单处理
 
 
 echo 规则合并完成
