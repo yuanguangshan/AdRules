@@ -217,7 +217,7 @@ cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.
  | grep -v '^\[' | grep -v '.\[' | grep -v '.\$' | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' \
  | sed 's/\^|/\^/' |sort -n > ll.txt 
 
-cat ll.txt l.txt pre-allow1.txt abp-hosts*.txt \
+cat l*.txt pre-allow1.txt abp-hosts*.txt \
  |grep -v '^!' \
  |sort -n |uniq > tmp-dns.txt  #处理DNS规则
 
@@ -241,7 +241,7 @@ echo 规则合并完成
 echo '移动规则到Pre目录'
 cd ../
 mkdir -p ./pre/
-mv ./tmp/tmp-*.txt ./pre
+cp ./tmp/tmp-*.txt ./pre
 cd ./pre
 echo '移动完成'
 
