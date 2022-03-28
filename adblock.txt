@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 4LQDgv4SBHBZzpnCKDJo2A
+! Checksum: PI8SzJ3Lwo/A2nW6WlHE4Q
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-28 22:29:59（北京时间） 
-! Total count: 97132
+! Version: 2022-03-28 22:39:41（北京时间） 
+! Total count: 97130
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -25767,7 +25767,6 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @||crunchyroll.com/*/ads_enabled_flag*.js$script
 Banner468x60
-Intr="],[src*="/img/"],#index_tan,[href="http://www.xzg008.com/"],.block.spots,[src*="/ads/"]
 MRelateFeedAd
 MoBi*.baidu.js$script,third-party
 \:[0-9]{4,5}\/sogou\/
@@ -36929,7 +36928,6 @@ ld0766.com###diy4
 ld0766.com###portal_ad3
 ld0766.com##.rsf_pull_screen_adv
 ldmnq.com##.dialog-game
-ldtimebuddy.com##.block2
 le.com###a_body_11628
 le.com###a_title_11628
 le.com###full_Column_big,#full_Column_small,#newDaoliu,rightBottomPop,[class^="bottom_layer"],.ztm_head,.hv_play_poster
