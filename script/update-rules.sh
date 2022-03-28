@@ -97,9 +97,10 @@ allow=(
 dns=(
   #以下规则不做阐述
   "https://easylist.to/easylist/fanboy-annoyance.txt"
-  "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+  "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/gh-pages/Filters/filter.txt"
  # "https://adaway.org/hosts.txt" #adaway规则
   "https://abp.oisd.nl/basic/"
+  "https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/abp_light.txt"
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt"
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
   "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
