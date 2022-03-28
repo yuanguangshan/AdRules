@@ -1,8 +1,8 @@
-! Checksum: 2GWwtueTKa1N4BTztjjllA
+! Checksum: BXd/sBEe5qgHf9AXnlsN0w
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.23.21
-! TimeUpdated: 2022-03-28T14:31:29+00:00
+! Version: 2.2.23.22
+! TimeUpdated: 2022-03-28T15:31:16+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -8780,7 +8780,7 @@ editpad.org##.adsec
 ||pubgw.yahoo.com/bidRequest
 sbenny.com##div[style*="margin-top:"][style*="margin-bottom:"][style*="20px"]
 darkreader.org##.recommendations-container
-vizcloud.*,mcloud.to,vizcloud2.*,vidstreamz.online##.xad-wrapper
+fmovies.to,vizcloud.*,mcloud.to,vizcloud2.*,vidstreamz.online##.xad-wrapper
 hentaimama.io##.in-between-ad-one-wrapper
 xvideos.com##div[class^="foot"]
 mrsportsgeek.com##div[class="container"] > .row > .col > .jcarousel-chriswrapper
