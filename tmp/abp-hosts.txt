@@ -1,4 +1,3 @@
-|| gem.gbc.criteo.com^
 ||0.nextyourcontent.com^
 ||0.r.msn.com^
 ||00-gov.cn^
@@ -21108,6 +21107,7 @@
 ||content.cdn.targetspot.com^
 ||content.clipster.ws^
 ||content.exoticads.com^
+||content.inhousedsp.com^
 ||content.integral-marketing.com^
 ||content.joinaxxess.com^
 ||content.linkoffers.net^
@@ -25955,6 +25955,7 @@
 ||dsp3.adtelligent.com^
 ||dspapi.bidtellect.com^
 ||dsparking.com^
+||dspbeacons.error.ihasdsp.inmobi.com^
 ||dspcluster.adfarm1.adition.com^
 ||dspdy.cn^
 ||dsply.com^
@@ -35454,6 +35455,7 @@
 ||i.j2j.ru^
 ||i.jads.co^
 ||i.kissmetrics.com^
+||i.l-dsp.inmobicdn.net^
 ||i.l.cnn.net^
 ||i.l.inmobicdn.net^
 ||i.l.networld.hk^
@@ -35642,6 +35644,7 @@
 ||ibv.lijit.com^
 ||ibv.stat-rock.com^
 ||ic-live.com^
+||ic.de.inmobi.com^
 ||ic.ksosoft.com^
 ||ic.snssdk.com^
 ||ic.tynt.com^
@@ -36392,6 +36395,7 @@
 ||imonomy.com^
 ||imounsos.com^
 ||imp-dsp.bidgear.com^
+||imp-lb-us2.jampp.com^
 ||imp-m.ambient-platform.com^
 ||imp-mdsp.avazutracking.net^
 ||imp.accesstra.de^
@@ -36841,6 +36845,7 @@
 ||inheart.ru^
 ||inheritedgeneralrailroad.com^
 ||inheritwalter.com^
+||inhousedsp.com^
 ||inhumenesokia.com^
 ||inigusyou.fun^
 ||inimage.carambo.la^
@@ -57267,6 +57272,7 @@
 ||s.homedy.com^
 ||s.iaudienc.com^
 ||s.idio.co^
+||s.iff.inmobi.com^
 ||s.infogram.com^
 ||s.innovid.com.akadns.net^
 ||s.innovid.com^
@@ -62576,6 +62582,7 @@
 ||static.inviziads.com^
 ||static.iterable.com^
 ||static.itrack.it^
+||static.jampp.com^
 ||static.juicyads.com^
 ||static.kameleoon.com^
 ||static.kibboko.com^
@@ -63796,6 +63803,7 @@
 ||supplierboxermagnet.com^
 ||supply.advangelists.com^
 ||supply.colossusssp.com^
+||supply.inmobicdn.net^
 ||supply.upjers.com^
 ||supply.xapads.com^
 ||supplyframe.com^
@@ -69875,6 +69883,7 @@
 ||uzpmrbek.com^
 ||uzrating.com^
 ||uzttnr.com^
+||v-ak.chartboost.com^
 ||v-collector.dp.aws.charter.com^
 ||v-eu-preprod.amazon-adsystem.com^
 ||v-eu.amazon-adsystem.com^
@@ -70414,6 +70423,9 @@
 ||vftbnl.com^
 ||vfunls.com^
 ||vfvdsati.com^
+||vg-aws-us-east-1a-hb.rayjump.com^
+||vg-aws-us-east-1b-hb.rayjump.com^
+||vg-new-hb.rayjump.com^
 ||vg-setting.rayjump.com^
 ||vg-wolfstein.de^
 ||vg4u8rvq65t6.com^
@@ -76335,4 +76347,5 @@
 ||zzxlhwyp.com^
 ||zzy1.quyaoya.com^
 ||zzyonghao.com^
+||zzznews.ru.0 traktrafficflow.com^
 ||zzznews.ru0.0.0.0 09mk.cn^
