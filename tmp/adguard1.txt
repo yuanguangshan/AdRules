@@ -1,8 +1,8 @@
-! Checksum: B+Yd7LMYNYCnCH1nK/WgDg
+! Checksum: EP6x396qRKxh1hct9yrghQ
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.28.0
-! TimeUpdated: 2022-03-25T14:30:19+00:00
+! Version: 2.0.28.2
+! TimeUpdated: 2022-03-28T07:30:18+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -192,7 +192,7 @@
 ||restartad.com^
 ||appgiftwall.oss-us-west-1.aliyuncs.com^
 ||appgift.sinaapp.com^
-||ad.mail.ru^|
+||ad.mail.ru^
 ||servedby.o2.co.uk^
 ||amillionads.com^
 ||api.mobshark.net^
@@ -1099,11 +1099,13 @@ blogdoiphone.com#@#.header-ad
 blogdoiphone.com#@#.custom-ad
 westseattleblog.com#@#.custom-ad
 westseattleblog.com#@#.header-ad
+news.com.au#?#.news-tops_list > .news-tops_group-rhc > .sticky-wrapper:has(> .sticky-container:only-child > .ad-m-mrec:only-child)
 matomame.jp#?##article_contents > div.uk-text-center:has(> div[id^="div-gpt-ad"])
 jbpress.ismedia.jp#?#.m-backnumber-list-item > div[id^="div-gpt-"]:upward(1)
 eromanga-kong.com#?#.out_single_under > div.img > a[href=""]:upward(2)
 forbesjapan.com#?#.stream-article > div[id^="div-gpt-"]:upward(1)
 trilltrill.jp#?#.articleDetail-RankingList > li.articleDetail-RankingList_Item:has(> div[id^="div-gpt-ad"])
+limia.jp#?#.Section > div.OUTBRAIN:upward(1)
 wetter.com#?#div[id^="somtag-container"]
 news.ntv.co.jp#?#.module-wrapper > div.contentsWrapper:has(> div.title-card-wrapper > div.OB-REACT-WRAPPER)
 gendai.ismedia.jp#?##MG_sp_sponsor_1:upward(1)
@@ -1854,6 +1856,7 @@ interfax.ru##.i_mobile_only
 ponycanyon.co.jp##.ad300sp50
 trilltrill.jp##.articleDetail-GAM
 stolica-s.su##.ad-fullscreen
+limia.jp##.Post > div.u-textCenter[style="min-height: 160px;"]
 washingtonpost.com###mobile-footer-ad-wrapper
 tanoshiiosake.jp##.globalFooter_banner
 arine.jp##.wrapper > div[align="center"][m-section]

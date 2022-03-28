@@ -7,7 +7,6 @@
 /adblockdetection.
 /adblockdetectorwithga.
 /adbot.
-/adbottom.
 /adbox.
 /adbutler.
 /adcdn.
@@ -440,6 +439,7 @@
 /jquery.cookieaccept.
 /jquery.jw.analitycs.
 /jquery.particleground.
+/jquery.peelback.
 /jquery.trackstar.
 /jquery.unica.
 /jw.cookies.

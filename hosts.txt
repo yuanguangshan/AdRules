@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: X/+zRKkNYVXrpoYfR9KDLA
+! Checksum: MMgDgEY7MEY1kYhVqpW6Bg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-28 08:59:16（北京时间） 
-! Total count: 100399
+! Version: 2022-03-28 16:17:44（北京时间） 
+! Total count: 100409
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -9945,6 +9945,7 @@
 0.0.0.0 adx.hasmobi.net
 0.0.0.0 adx.hongtinnhanh.com
 0.0.0.0 adx.ibibo.com
+0.0.0.0 adx.io
 0.0.0.0 adx.kul.vn
 0.0.0.0 adx.lsosad.com
 0.0.0.0 adx.mediaz.asia
@@ -16947,6 +16948,7 @@
 0.0.0.0 bazana.club
 0.0.0.0 bazar.oewabox.at
 0.0.0.0 bazenatuzu.com
+0.0.0.0 bazhangda.shop
 0.0.0.0 bazhigu.com
 0.0.0.0 bazinga12138.online
 0.0.0.0 baztnnews24.com
@@ -18122,6 +18124,7 @@
 0.0.0.0 bigbrandrewards.com
 0.0.0.0 bigcattracks.com
 0.0.0.0 bigchoicegroup.com
+0.0.0.0 bigcity.ink
 0.0.0.0 bigclick.me
 0.0.0.0 bigclicks.com
 0.0.0.0 bigcood.xyz
@@ -56697,6 +56700,7 @@
 0.0.0.0 mg.steepto.com
 0.0.0.0 mg09.zhaopin.com
 0.0.0.0 mg2connext.com
+0.0.0.0 mg4s1.com
 0.0.0.0 mgage.com
 0.0.0.0 mgah.flywheelsites.com
 0.0.0.0 mgbfxr.formongde.com
@@ -67076,6 +67080,7 @@
 0.0.0.0 primusbelgium.com
 0.0.0.0 princedrainclearance.com
 0.0.0.0 princided.club
+0.0.0.0 principles.wang
 0.0.0.0 pringed.space
 0.0.0.0 print-city-shop.nl
 0.0.0.0 print.khingtracking.com
@@ -91550,6 +91555,7 @@
 0.0.0.0 ustausoo.com
 0.0.0.0 ustithoo.net
 0.0.0.0 ustxsntseyhwsx.com
+0.0.0.0 usually.wang
 0.0.0.0 usuallycrummy.com
 0.0.0.0 usuarios-online.com
 0.0.0.0 usuler.com
@@ -95426,6 +95432,7 @@
 0.0.0.0 wlengrclxzypf.com
 0.0.0.0 wlfng.com
 0.0.0.0 wlgszt.com
+0.0.0.0 wljj56.com
 0.0.0.0 wlkojk.orange.ro
 0.0.0.0 wlmarketing.com
 0.0.0.0 wlmconcept.com
@@ -98345,6 +98352,7 @@
 0.0.0.0 yaokuan01.cn
 0.0.0.0 yaonilugg.com
 0.0.0.0 yaoquanshumeiyu.com
+0.0.0.0 yaosahrmncc.top
 0.0.0.0 yaoxing.fun
 0.0.0.0 yaoyee.com
 0.0.0.0 yapfurniture.com
@@ -98685,6 +98693,7 @@
 0.0.0.0 yinyuehu.cn
 0.0.0.0 yinzantouzi.com
 0.0.0.0 yiopse.com
+0.0.0.0 yiotufp.cn
 0.0.0.0 yipanhaocai.com
 0.0.0.0 yiqifa.com
 0.0.0.0 yiqima.xyz
@@ -99158,6 +99167,7 @@
 0.0.0.0 yueduyy.com
 0.0.0.0 yuegepiano.cn
 0.0.0.0 yueleshenghuo.cn
+0.0.0.0 yueli.me
 0.0.0.0 yueli101.xyz
 0.0.0.0 yuesenshangmao.cn
 0.0.0.0 yuetx.cc
@@ -100405,4 +100415,4 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.ru.0 traktrafficflow.com
+0.0.0.0 zzznews.ru.engine.mobileapptracking.com

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: O9/yMnn29Dn3xfkpzP71gA
+! Checksum: awrFWCFj0Pfx12YP7KsLxA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-28 08:59:16（北京时间） 
-! Total count: 104352
+! Version: 2022-03-28 16:17:44（北京时间） 
+! Total count: 104362
 /abstat.
 /ad.min.
 /ad.skin.
@@ -16,7 +16,6 @@
 /adblockdetection.
 /adblockdetectorwithga.
 /adbot.
-/adbottom.
 /adbox.
 /adbutler.
 /adcdn.
@@ -449,6 +448,7 @@
 /jquery.cookieaccept.
 /jquery.jw.analitycs.
 /jquery.particleground.
+/jquery.peelback.
 /jquery.trackstar.
 /jquery.unica.
 /jw.cookies.
@@ -11906,6 +11906,7 @@
 ||adx.hasmobi.net^
 ||adx.hongtinnhanh.com^
 ||adx.ibibo.com^
+||adx.io^
 ||adx.kul.vn^
 ||adx.lsosad.com^
 ||adx.mediaz.asia^
@@ -19085,6 +19086,7 @@
 ||bazana.club^
 ||bazar.oewabox.at^
 ||bazenatuzu.com^
+||bazhangda.shop^
 ||bazhigu.com^
 ||bazinga12138.online^
 ||baztnnews24.com^
@@ -20296,6 +20298,7 @@
 ||bigbrandrewards.com^
 ||bigcattracks.com^
 ||bigchoicegroup.com^
+||bigcity.ink^
 ||bigclick.me^
 ||bigclicks.com^
 ||bigcood.xyz^
@@ -59808,6 +59811,7 @@
 ||mg.steepto.com^
 ||mg09.zhaopin.com^
 ||mg2connext.com^
+||mg4s1.com^
 ||mgage.com^
 ||mgah.flywheelsites.com^
 ||mgbfxr.formongde.com^
@@ -70540,6 +70544,7 @@
 ||primusbelgium.com^
 ||princedrainclearance.com^
 ||princided.club^
+||principles.wang^
 ||pringed.space^
 ||print-city-shop.nl^
 ||print.khingtracking.com^
@@ -95345,6 +95350,7 @@
 ||ustausoo.com^
 ||ustithoo.net^
 ||ustxsntseyhwsx.com^
+||usually.wang^
 ||usuallycrummy.com^
 ||usuarios-online.com^
 ||usuler.com^
@@ -99315,6 +99321,7 @@
 ||wlengrclxzypf.com^
 ||wlfng.com^
 ||wlgszt.com^
+||wljj56.com^
 ||wlkojk.orange.ro^
 ||wlmarketing.com^
 ||wlmconcept.com^
@@ -102262,6 +102269,7 @@
 ||yaokuan01.cn^
 ||yaonilugg.com^
 ||yaoquanshumeiyu.com^
+||yaosahrmncc.top^
 ||yaoxing.fun^
 ||yaoyee.com^
 ||yapfurniture.com^
@@ -102606,6 +102614,7 @@
 ||yinyuehu.cn^
 ||yinzantouzi.com^
 ||yiopse.com^
+||yiotufp.cn^
 ||yipanhaocai.com^
 ||yiqifa.com^
 ||yiqima.xyz^
@@ -103087,6 +103096,7 @@
 ||yueduyy.com^
 ||yuegepiano.cn^
 ||yueleshenghuo.cn^
+||yueli.me^
 ||yueli101.xyz^
 ||yuesenshangmao.cn^
 ||yuetx.cc^
@@ -104355,7 +104365,7 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru.0 traktrafficflow.com^
+||zzznews.ru.engine.mobileapptracking.com^
 ||zzznews.ru0.0.0.0 09mk.cn^
 ||zzznews.ru^
 ||zzznews.ru^! Title: LWJ's white list
