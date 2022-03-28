@@ -171,11 +171,11 @@ cat base-src-hosts.txt | sed '/^$/d' | grep -Ev '#|\$|@|!|/|\\|\*'\
 
 cat allow-domains*.txt | sed '/^$/d' | grep -v '#' \
  | sed "s/^/@@||&/g" | sed "s/$/&^/g"  \
- | sort -n | uniq | awk '!a[$0]++' >> pre-allow.txt  #将允许域名转换为ABP规则
+ | sort -n | uniq | awk '!a[$0]++' > pre-allow.txt  #将允许域名转换为ABP规则
 
 cat allow-domains0.txt | sed '/^$/d' | grep -v "#" \
  |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n \
- | uniq | awk '!a[$0]++' >> pre-allow1.txt  #将允许域名转换为ABP规则
+ | uniq | awk '!a[$0]++' > pre-allow1.txt  #将允许域名转换为ABP规则
 
 cat *.txt | sed '/^$/d' |grep '^/' |grep '.\.$' \
  |grep -v './\|.?\|.\$\|.js\|._\|.\*\|.(php|png)\|.[0-9]\|.\^\|.=\|.~\|.[A-Z]\|.-' \
@@ -196,7 +196,7 @@ cat .././mod/rules/adblock-rules.txt *easylist*.txt full-adg*.txt \
  | grep -v '.!' |grep -v '^!' | grep -v '^！' \
  | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' \
  | grep -v '^\【' | grep -v 'local.adguard.org' \
- | sort -u | sort -n | uniq | awk '!a[$0]++' >> tmp-adblock+adguard.txt #处理Plus规则
+ | sort -u | sort -n | uniq | awk '!a[$0]++' > tmp-adblock+adguard.txt #处理Plus规则
 
 cat adguard*.txt \
  | grep -v '.!' | grep -v '^!' | grep -v '^# ' \
@@ -214,11 +214,11 @@ cat full-adguard*.txt \
 cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.txt \
  | grep '^||\|^@@||' | grep -v './' \
  | grep -v '^\[' | grep -v '.\[' | grep -v '.\$' | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' \
- | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' >> ll.txt 
+ | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > ll.txt 
 
 cat ll.txt l.txt pre-allow1.txt abp-hosts*.txt \
  |grep -v '^!' \
- |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
+ |sort -n |uniq > tmp-dns.txt  #处理DNS规则
 
 cat base-src-hosts.txt tmp-dns.txt \
  | sed '/^$/d' |grep '^||\|^[0-9]' | grep -v '\*'\
