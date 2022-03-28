@@ -1,11 +1,11 @@
 ! Title: AdRules（For adaway）
-! Checksum: IlgkZNj6JCapHu6yaRK2MA
+! Checksum: 8ZVyI7KD+PXUSvLJYvjUtQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-28 23:43:26（北京时间） 
+! Version: 2022-03-28 23:48:22（北京时间） 
 ! Total count: 74779
 0.0.0.0 0.nextyourcontent.com
 0.0.0.0 0.r.msn.com
@@ -74785,4 +74785,4 @@
 0.0.0.0 zzy1.quyaoya.com
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.rudar.uk.intellitxt.com
+0.0.0.0 zzznews.rustatic.startappservice.com
