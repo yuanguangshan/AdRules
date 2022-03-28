@@ -190,7 +190,7 @@ echo 开始合并
 cat .././mod/rules/adblock-rules.txt easylist*.txt \
  | grep -v '^!' | grep -v '.!' | grep -v '^！' \
  | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' \
- | grep -v '^\【' | grep -v 'local.adguard.org' |gerp -Ev '^[\.||]+[com]+[\^]' \
+ | grep -v '^\【' | grep -v 'local.adguard.org' |gerp -Ev "^[\.||]+[com]+[\^]" \
  | sort -n | uniq > tmp-adblock.txt #处理主规则
 
 cat .././mod/rules/adblock-rules.txt *easylist*.txt full-adg*.txt \
@@ -218,7 +218,7 @@ cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.
  | sed 's/\^|/\^/' |sort -n > ll.txt 
 
 cat l*.txt pre-allow1.txt abp-hosts*.txt \
- |grep -v '^!' |gerp -Ev '^[\.||]+[com]+[\^]'\
+ |grep -v '^!' |gerp -Ev "^[\.||]+[com]+[\^]" \
  |sort -n |uniq > tmp-dns.txt  #处理DNS规则
 
 cat base-src-hosts.txt tmp-dns.txt \
@@ -277,7 +277,8 @@ a=`cat dns.txt |wc -l`
 b=1000
 if [ "$a" -lt "$b" ]
 then
- bash ./script/update-rules.sh
+ #bash ./script/update-rules.sh
+ exit
 else
  echo Check PASS
 fi
