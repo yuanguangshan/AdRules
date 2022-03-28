@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: rDP6XH8oftp4IP9O/9rF/g
+! Checksum: sdyvbQQg/R/rB3McmHg5Gg
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-28 21:11:10（北京时间） 
-! Total count: 97121
+! Version: 2022-03-28 21:23:59（北京时间） 
+! Total count: 97125
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -6292,6 +6292,7 @@
 ##a[href*=".aiyou305.com/"]
 ##a[href*=".aiyouxi31.com"]
 ##a[href*=".aiyouxi56.com"]
+##a[href*=".apple1818.net"]
 ##a[href*=".asada-kairyo.com/"]
 ##a[href*=".ayx300.com/"]
 ##a[href*=".bayiyy.com/download."]
@@ -18667,6 +18668,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 3dsiso.com#@##ad_global_above_footer
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,solidworksvideo.ru,wordvideo.ru###prozrachnyi2,#video_window2
 3dsportal.net###rightside > .block > .btl
+3dzip.org#$?#.better-ads-listitemad { remove: true; }
 3g.163.com##.big_boom
 3g.163.com##.bottom.widget-slider-article.widget-slider
 3g.163.com##.comment_bot
@@ -27056,7 +27058,6 @@ asus-zenfone.com##+js(window.open-defuser, 1, ponselkita.com)
 asus.com##.bg_block
 asus.com##div#top_banner,#diy1
 asyadizileri.net,techhelpbd.com,e-sanatatea.ro,therootdroid.com,sevenjournals.com,7apple.net,jorgemoncada.com,hollywoodsmagazine.com,r3ndy.com,anicosplay.net,ewybory.eu,nanoroms.com,egymanga.net,flipreview.com,hiphopa.net,pngtosvg.com,compartilhandobr.com,loksado.com,ecoursefree.com,daemon-hentai.com,yigeplus.xyz,cgchotbox.com,launcherfull.com,cheatbyte.com,techycoder.com,arasindakifark.net,kitguru.net,gsmxt.com,mangaxp.com,technicalatg.com,technicalatg.xyz,freetutorialsdownload.online,asyadrama.com,tutsgalaxys.com,toolss.net,vipmods.net,freetutorialsudemy.com,adonisfansub.com,getfreecourses.org,themovieslab.in,udemycoursesfree.me,bitcoinegypt.news,talkjarvis.com,satcesc.com,dongknows.com,getfreecourses.net,citychilli.com,livenewsof.com,pinayvids.com,hardcoregames.ca,pasend.*,unityassetcollection.com,crypto-fun-faucet.de,fileoops.com,samuraiscan.com,3dmodelshare.org,dailyvideoreports.net,codesnail.com,ma-x.org,sitarchive.com,onlyfanesse.com,codingshiksha.com,graphicux.com,w3layouts.com,musike.net,windowsmatters.com,sonixgvn.net,avoiderrors.com,gatcha.org,sayrodigital.com,justandroid.net,4horlover.com,topnewsshow.com,3dzip.org,ovagames.com,lewdsenpai.com##+js(set-constant, adsbygoogle.length, undefined)
-asyadizileri.net,techhelpbd.com,e-sanatatea.ro,therootdroid.com,sevenjournals.com,7apple.net,jorgemoncada.com,hollywoodsmagazine.com,r3ndy.com,anicosplay.net,ewybory.eu,nanoroms.com,egymanga.net,flipreview.com,hiphopa.net,pngtosvg.com,compartilhandobr.com,loksado.com,ecoursefree.com,daemon-hentai.com,yigeplus.xyz,cgchotbox.com,launcherfull.com,cheatbyte.com,techycoder.com,arasindakifark.net,kitguru.net,gsmxt.com,mangaxp.com,technicalatg.com,technicalatg.xyz,freetutorialsdownload.online,asyadrama.com,tutsgalaxys.com,toolss.net,vipmods.net,freetutorialsudemy.com,adonisfansub.com,getfreecourses.org,yuinime.net,themovieslab.in,udemycoursesfree.me,bitcoinegypt.news,talkjarvis.com,satcesc.com,dongknows.com,getfreecourses.net,citychilli.com,livenewsof.com,pinayvids.com,hardcoregames.ca,pasend.*,unityassetcollection.com,crypto-fun-faucet.de,fileoops.com,samuraiscan.com,3dmodelshare.org,dailyvideoreports.net,codesnail.com,ma-x.org,sitarchive.com,onlyfanesse.com,codingshiksha.com,graphicux.com,w3layouts.com,musike.net,windowsmatters.com,sonixgvn.net,avoiderrors.com,gatcha.org,sayrodigital.com,justandroid.net,4horlover.com,topnewsshow.com,3dzip.org,ovagames.com,lewdsenpai.com,mylivewallpapers.com##+js(addEventListener-defuser, load, daadb_get_data)
 atao.biz,51.lang.pe,51.vlook.xyz,cp001.xyz,tb001.xyz,cp.vwan.xyz,1024.pe,lang00.com,lang51.com,51.vgan.pw,wan1024.com,1024.cao.pe,su1024.xyz,cp.xtao.xyz,vmen.xyz,at.ilovegao.com.2p8.space,at.ilovegao.com.2c2.website,qq88.space##img[width="600"][height="75"],img[width="950"][height="60"],div#textggs,img[width="474"][height="180"],img[width="760"][height="60"],img[width="760"][height="80"],img[width="760"][height="120"],img[width="300"][height="250"],img[width="230"][height="75"],img[width="230"][height="315"],img[width="230"][height="235"],img[width="100"][height="160"],div#middleimg,a[href="/url/vns230.html"],[style="margin-top:5px;margin-bottom:5px;"],[style="margin-top:5px;"],#adx_kppp
 atd.com.cn##[style^="height:100px;"],[style^="height:120px;"]
 atdabb.uk##+js(window.open-defuser)
@@ -28989,6 +28990,7 @@ cfwx.net##div.show
 cgi-bin/counter
 cgown.com##.banner-gg
 cgown.com##.breadcrumb-gg
+cgtips.org,asyadizileri.net,techhelpbd.com,e-sanatatea.ro,therootdroid.com,sevenjournals.com,7apple.net,jorgemoncada.com,hollywoodsmagazine.com,r3ndy.com,anicosplay.net,ewybory.eu,nanoroms.com,egymanga.net,flipreview.com,hiphopa.net,pngtosvg.com,compartilhandobr.com,loksado.com,ecoursefree.com,daemon-hentai.com,yigeplus.xyz,cgchotbox.com,launcherfull.com,cheatbyte.com,techycoder.com,arasindakifark.net,kitguru.net,gsmxt.com,mangaxp.com,technicalatg.com,technicalatg.xyz,freetutorialsdownload.online,asyadrama.com,tutsgalaxys.com,toolss.net,vipmods.net,freetutorialsudemy.com,adonisfansub.com,getfreecourses.org,yuinime.net,themovieslab.in,udemycoursesfree.me,bitcoinegypt.news,talkjarvis.com,satcesc.com,dongknows.com,getfreecourses.net,citychilli.com,livenewsof.com,pinayvids.com,hardcoregames.ca,pasend.*,unityassetcollection.com,crypto-fun-faucet.de,fileoops.com,samuraiscan.com,3dmodelshare.org,dailyvideoreports.net,codesnail.com,ma-x.org,sitarchive.com,onlyfanesse.com,codingshiksha.com,graphicux.com,w3layouts.com,musike.net,windowsmatters.com,sonixgvn.net,avoiderrors.com,gatcha.org,sayrodigital.com,justandroid.net,4horlover.com,topnewsshow.com,3dzip.org,ovagames.com,lewdsenpai.com,mylivewallpapers.com##+js(addEventListener-defuser, load, daadb_get_data)
 cgvoo.com##.a_f,#diy_chart,.a_h,.bm.a_c
 ch-hr12333.com
 chacuo.net###mailtooltipss
@@ -30023,7 +30025,6 @@ cssmoban.com##.page-banner
 cssqt.com###mainbox > a
 csstock.cn##div.mtop10
 ct.999wan.wang#?#.container .card:has(> .card-body > .flex-fill > #ad_text)
-ct.com^
 ctanet.cn##[width="160"],[height="80"],[height="50"]
 ctanet.cn##a[href*="/GoTo.asp?ID="] > img
 ctc.qzs.qq.com##IMG[alt="qboss_ad_image"]
@@ -30199,6 +30200,8 @@ dailytrust.com##div[class^="header_ad_container"]
 dailyuploads.net##input[style*="background-color:"][style*="40px;"][style*="250px;"]
 dailyvoice.com##.b-banner
 dailyweb.pl##+js(set-constant, checkAds, noopFunc)
+dailyweb.pl##.daily-adlabel
+dailyweb.pl#?#.single-post-content > .daily-podstrona-w-tresci:has(> .daily-adlabel)
 daizhuzai.com##.myad_wrap,.adsbygoogle
 dajie.com##.envelop_layer
 dajie.com##.register_layer
@@ -95687,6 +95690,7 @@ zzpzero.com
 ||yjiaj.com^
 ||yjjc.xyz^
 ||yjplpck.cn^
+||yjrjmy.com^
 ||yjsp5.com/pc_
 ||yjspw25.com/pc_
 ||yjtag.jp^$third-party
