@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Y0wgzTRmZes88QrpsV4aGQ
+! Checksum: PTjHVOSX0+Y0/asMSIJHmA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-28 23:20:04（北京时间） 
-! Total count: 104320
+! Version: 2022-03-28 23:26:08（北京时间） 
+! Total count: 104289
 /abstat.
 /ad.min.
 /ad.skin.
@@ -4087,7 +4087,6 @@
 ||9405876.xyz^
 ||941588c880.com^
 ||943.engine.mobileapptracking.com^
-||943.engine.mobileapptrackinration.gimbal.com^
 ||944279.parkingcrew.net^
 ||9446.hittail.com^
 ||944e66f8683ac43c.com^
@@ -5670,7 +5669,6 @@
 ||aashyamayro.com^
 ||aasrs.info^
 ||aasyy.com^
-||aat.com^
 ||aaticd.co.za^
 ||aatkit.com^
 ||aau6.xyz^
@@ -7795,7 +7793,6 @@
 ||addash.co^
 ||addata.exxen.com^
 ||addata.mediacategory.com^
-||adddpc01.ro.me^
 ||adddpc01.ru^
 ||addealing.com^
 ||addefend.com^
@@ -12004,7 +12001,6 @@
 ||adzbaba.com^
 ||adzbazar.com^
 ||adzerk.net^
-||adzerk.net|apparentfib.com^
 ||adzerk.s3.amazonaws.com^
 ||adzestocp.com^
 ||adzfun.info^
@@ -15233,7 +15229,6 @@
 ||api.analytics.omgpop.com^
 ||api.appcloudbox.net^
 ||api.appfireworks.com^
-||api.appfirewureeffe.club^
 ||api.applifier.com^
 ||api.applink.mob.com^
 ||api.applovefrom.com^
@@ -18334,7 +18329,6 @@
 ||baikebcs.bdimg.com^
 ||baileyadopted.com^
 ||baileydoormantdoormantalacrity.com^
-||baileyorphan.^
 ||baileyorphan.com^
 ||bailinghealth.cn^
 ||bailonushe.com^
@@ -22298,7 +22292,6 @@
 ||buzz.logility.com^
 ||buzz.neilsonmarketing.com^
 ||buzzabc.com^
-||buzzabc.m^
 ||buzzad.io^
 ||buzzadexchange.com^
 ||buzzadnetwork.com^
@@ -23348,7 +23341,6 @@
 ||cargas.actonservice.com^
 ||cargonurture.com^
 ||cargurus.actonservice.com^
-||caribedt^
 ||caribedtucana.cam^
 ||caribou.clintgwinter.com^
 ||caribou.color.io^
@@ -26201,7 +26193,6 @@
 ||clickhereforfun.org^
 ||clicki.cn^
 ||clickinc.com^
-||clicking.com^
 ||clickintext.com^
 ||clickintext.net^
 ||clickiocdn.com^
@@ -28208,7 +28199,6 @@
 ||contentfeed.net^
 ||contentinsights.com^
 ||contentiq.com^
-||contentiq.comcom^
 ||contentjs.com^
 ||contentlink.co.kr^
 ||contentr.net^
@@ -29275,7 +29265,6 @@
 ||creara-media.com^
 ||creara-media.ru^
 ||crearechile.cl^
-||creasaperg.com^
 ||creasureeffe.club^
 ||create.leadid.com^
 ||create.lidstatic.com^
@@ -30529,7 +30518,6 @@
 ||d2ghscazvn398x.cloudfront.net^
 ||d2glav2919q4cw.cloudfront.net^
 ||d2ho1n52p59mwv.cloudfront.net^
-||d2ho1n52p59mwv.cloudfront.net||ttoyourteam.biz^
 ||d2hvwfg7vv4mhf.cloudfront.net^
 ||d2i4wzwe8j1np9.cloudfront.net^
 ||d2i55s0cnk529c.cloudfront.net^
@@ -31493,7 +31481,6 @@
 ||dbcdqp72lzmvj.cloudfront.net^
 ||dbclix.com^
 ||dbcwetd5akfpstw.ru^
-||dbeard.com^
 ||dbecreativea.biz^
 ||dbex-tracker-v2.driveback.ru^
 ||dbg52463.moatads.com^
@@ -38770,7 +38757,6 @@
 ||fc-feed.cdn.bcebos.com^
 ||fc.co.mz^
 ||fc.itmedia.co.jp^
-||fc.itmmvphc.elasticbeanstalk.com]^
 ||fc.proyectosonline.xyz^
 ||fc.vodafone.de^
 ||fc.webmasterpro.de^
@@ -39044,7 +39030,6 @@
 ||festivalwalletmuggy.com^
 ||festusthedrag.com^
 ||fesurvivial.club^
-||fesurvivialorks.com^
 ||fetchback.com^
 ||fetchlink.net^
 ||fethungi.com^
@@ -42369,7 +42354,6 @@
 ||glaptevaphy.com^
 ||glareart.com^
 ||glaresling.com^
-||glareslws.notsy.io^
 ||glassboxcdn.com^
 ||glassboxdigital.io^
 ||glasscrewinc.com.br^
@@ -61921,7 +61905,6 @@
 ||mxvp-feature-toggle-prod-1.zenmxapps.com^
 ||mxwezmtyd.com^
 ||mxx.htw.pl^
-||mxxfierq.xyz^
 ||mxxgs.cn^
 ||mxyxgkuexjr.com^
 ||my-adv.ru^
@@ -66012,7 +65995,6 @@
 ||optiker-michelmann.de^
 ||optimaconsulting.com.au^
 ||optimahub.com^
-||optimaladbid.colr.com^
 ||optimaladbid.com^
 ||optimallimit.com^
 ||optimatic.com^
@@ -71611,7 +71593,6 @@
 ||pubwes.com^
 ||pubwise.io^
 ||pubxtag1.com^
-||pucana.cam^
 ||pudalz.gismeteo.by^
 ||puddingreluctantly.com^
 ||puddlebooty.com^
@@ -72909,7 +72890,6 @@
 ||r.browser.miui.com^
 ||r.casalemedia.com.edgekey.net^
 ||r.casalemedia.com^
-||r.casalemhipartners.com]^
 ||r.chitika.net^
 ||r.clicktale.net^
 ||r.cpa6.ru^
@@ -74447,7 +74427,6 @@
 ||retag.xyz^
 ||retagapp.com^
 ||retagro.com^
-||retail-seru^
 ||retail-server.ru^
 ||retailelectricprovider.com^
 ||retailexpertscloud.com^
@@ -77699,7 +77678,6 @@
 ||sdk-cdn.aiactiv.io^
 ||sdk-cdn.optimove.net^
 ||sdk-config.fyber.com^
-||sdk-configu.1 ag.gbc.criteo.com^
 ||sdk-configuration.gimbal.com^
 ||sdk-controller.widespace.com^
 ||sdk-diagnostics.prd.mz.internal.unity3d.com^
@@ -83315,7 +83293,6 @@
 ||spensa.co^
 ||spent.com.pl^
 ||spentforearmprovenance.com^
-||spentforearmprovenanc||vepxl1.net^
 ||spenttabsnail.com^
 ||speop.com^
 ||sperans-beactor.com^
@@ -86172,7 +86149,6 @@
 ||stitchkidney.com^
 ||stizoaph.net^
 ||stizoolr.com^
-||stizoo||burdaffi.burdadigital.pl^
 ||stjjp.msn.com^
 ||stkexcy.cn^
 ||stkhmkpav.xyz^
@@ -86667,7 +86643,6 @@
 ||sundayceremonytitanic.com^
 ||sundaydriver.dijgtal.com^
 ||sundaysky-partners.tremorhub.com^
-||sundaysky-sync-.com]^
 ||sundaysky-sync-us.teads.tv^
 ||sundaysky.com^
 ||sundersetrgh.site^
@@ -91352,7 +91327,6 @@
 ||traceworks.com^
 ||tracing-collector.strava.com^
 ||track-149uew.link^
-||track-a.club^
 ||track-aws.notsy.io^
 ||track-east.mobileadtrading.com^
 ||track-eu.adform.net^
@@ -94496,7 +94470,6 @@
 ||unarmedindustry.com^
 ||unaspajas.com^
 ||unathleticmag.us.intellitxt.com^
-||unattract^
 ||unattractivefrigilityfrigility.com^
 ||unavailablebackedwaved.com^
 ||unawakegaleus.com^
@@ -96672,7 +96645,6 @@
 ||vis5.sexlist.com^
 ||visadd.com^
 ||visagedbeard.com^
-||visageinemytraffic.com^
 ||visam.info^
 ||visariomedia.com^
 ||visiads.com^
@@ -97797,7 +97769,6 @@
 ||warnwing.com^
 ||warp.ly^
 ||warswhitawe.com^
-||wart2mdn.info^
 ||wartat.com^
 ||warten-sie-mal.xyz^
 ||warumbistdusoarm.space^
@@ -100968,7 +100939,6 @@
 ||wyhzzy.com^
 ||wyldfyrearabians.com^
 ||wyliswbimeotllt.xyz^
-||wynathccedenonre.club^
 ||wynather.com^
 ||wyorrmuftjp.com^
 ||wyovhzs.cn^
@@ -102326,7 +102296,6 @@
 ||ydworld.com^
 ||ydxinzuo.cn^
 ||ydysywor.xyz^
-||ydysyw|aellod.com^
 ||ye-n-universitiy.xyz^
 ||ye185hcamw.com^
 ||ye2017.com^
@@ -104325,5 +104294,5 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru0.0 7750o.cn^
+||zzznews.ru212.net^
 ||zzznews.ru^

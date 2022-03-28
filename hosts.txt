@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: oOhcKbBU1FRpPS5sTVikEg
+! Checksum: qvBPjTfGGHdm3rb3yXXGUg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-28 23:20:04（北京时间） 
-! Total count: 100357
+! Version: 2022-03-28 23:26:08（北京时间） 
+! Total count: 100327
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -2241,7 +2241,6 @@
 0.0.0.0 93aihbjs7bv4.com
 0.0.0.0 93ta.cn
 0.0.0.0 943.engine.mobileapptracking.com
-0.0.0.0 943.engine.mobileapptrackinration.gimbal.com
 0.0.0.0 944279.parkingcrew.net
 0.0.0.0 9446.hittail.com
 0.0.0.0 9453hot.com
@@ -3775,7 +3774,6 @@
 0.0.0.0 aashyamayro.com
 0.0.0.0 aasrs.info
 0.0.0.0 aasyy.com
-0.0.0.0 aat.com
 0.0.0.0 aaticd.co.za
 0.0.0.0 aatkit.com
 0.0.0.0 aau6.xyz
@@ -5875,7 +5873,6 @@
 0.0.0.0 addash.co
 0.0.0.0 addata.exxen.com
 0.0.0.0 addata.mediacategory.com
-0.0.0.0 adddpc01.ro.me
 0.0.0.0 adddpc01.ru
 0.0.0.0 addealing.com
 0.0.0.0 addefend.com
@@ -10040,7 +10037,6 @@
 0.0.0.0 adzbaba.com
 0.0.0.0 adzbazar.com
 0.0.0.0 adzerk.net
-0.0.0.0 adzerk.net|apparentfib.com
 0.0.0.0 adzerk.s3.amazonaws.com
 0.0.0.0 adzestocp.com
 0.0.0.0 adzfun.info
@@ -13157,7 +13153,6 @@
 0.0.0.0 api.analytics.omgpop.com
 0.0.0.0 api.appcloudbox.net
 0.0.0.0 api.appfireworks.com
-0.0.0.0 api.appfirewureeffe.club
 0.0.0.0 api.applifier.com
 0.0.0.0 api.applink.mob.com
 0.0.0.0 api.applovefrom.com
@@ -16206,7 +16201,6 @@
 0.0.0.0 baikebcs.bdimg.com
 0.0.0.0 baileyadopted.com
 0.0.0.0 baileydoormantdoormantalacrity.com
-0.0.0.0 baileyorphan.
 0.0.0.0 baileyorphan.com
 0.0.0.0 bailinghealth.cn
 0.0.0.0 bailonushe.com
@@ -20083,7 +20077,6 @@
 0.0.0.0 buzz.logility.com
 0.0.0.0 buzz.neilsonmarketing.com
 0.0.0.0 buzzabc.com
-0.0.0.0 buzzabc.m
 0.0.0.0 buzzad.io
 0.0.0.0 buzzadexchange.com
 0.0.0.0 buzzadnetwork.com
@@ -21093,7 +21086,6 @@
 0.0.0.0 cargas.actonservice.com
 0.0.0.0 cargonurture.com
 0.0.0.0 cargurus.actonservice.com
-0.0.0.0 caribedt
 0.0.0.0 caribedtucana.cam
 0.0.0.0 caribou.clintgwinter.com
 0.0.0.0 caribou.color.io
@@ -23891,7 +23883,6 @@
 0.0.0.0 clickhereforfun.org
 0.0.0.0 clicki.cn
 0.0.0.0 clickinc.com
-0.0.0.0 clicking.com
 0.0.0.0 clickintext.com
 0.0.0.0 clickintext.net
 0.0.0.0 clickiocdn.com
@@ -25839,7 +25830,6 @@
 0.0.0.0 contentfeed.net
 0.0.0.0 contentinsights.com
 0.0.0.0 contentiq.com
-0.0.0.0 contentiq.comcom
 0.0.0.0 contentjs.com
 0.0.0.0 contentlink.co.kr
 0.0.0.0 contentr.net
@@ -26889,7 +26879,6 @@
 0.0.0.0 creara-media.com
 0.0.0.0 creara-media.ru
 0.0.0.0 crearechile.cl
-0.0.0.0 creasaperg.com
 0.0.0.0 creasureeffe.club
 0.0.0.0 create.leadid.com
 0.0.0.0 create.lidstatic.com
@@ -28111,7 +28100,6 @@
 0.0.0.0 d2ghscazvn398x.cloudfront.net
 0.0.0.0 d2glav2919q4cw.cloudfront.net
 0.0.0.0 d2ho1n52p59mwv.cloudfront.net
-0.0.0.0 d2ho1n52p59mwv.cloudfront.net||ttoyourteam.biz
 0.0.0.0 d2hvwfg7vv4mhf.cloudfront.net
 0.0.0.0 d2i4wzwe8j1np9.cloudfront.net
 0.0.0.0 d2i55s0cnk529c.cloudfront.net
@@ -29048,7 +29036,6 @@
 0.0.0.0 dbcdqp72lzmvj.cloudfront.net
 0.0.0.0 dbclix.com
 0.0.0.0 dbcwetd5akfpstw.ru
-0.0.0.0 dbeard.com
 0.0.0.0 dbecreativea.biz
 0.0.0.0 dbex-tracker-v2.driveback.ru
 0.0.0.0 dbg52463.moatads.com
@@ -36112,7 +36099,6 @@
 0.0.0.0 fc-feed.cdn.bcebos.com
 0.0.0.0 fc.co.mz
 0.0.0.0 fc.itmedia.co.jp
-0.0.0.0 fc.itmmvphc.elasticbeanstalk.com]
 0.0.0.0 fc.proyectosonline.xyz
 0.0.0.0 fc.vodafone.de
 0.0.0.0 fc.webmasterpro.de
@@ -36382,7 +36368,6 @@
 0.0.0.0 festivalwalletmuggy.com
 0.0.0.0 festusthedrag.com
 0.0.0.0 fesurvivial.club
-0.0.0.0 fesurvivialorks.com
 0.0.0.0 fetchback.com
 0.0.0.0 fetchlink.net
 0.0.0.0 fethungi.com
@@ -39631,7 +39616,6 @@
 0.0.0.0 glaptevaphy.com
 0.0.0.0 glareart.com
 0.0.0.0 glaresling.com
-0.0.0.0 glareslws.notsy.io
 0.0.0.0 glassboxcdn.com
 0.0.0.0 glassboxdigital.io
 0.0.0.0 glasscrewinc.com.br
@@ -58684,7 +58668,6 @@
 0.0.0.0 mxvp-feature-toggle-prod-1.zenmxapps.com
 0.0.0.0 mxwezmtyd.com
 0.0.0.0 mxx.htw.pl
-0.0.0.0 mxxfierq.xyz
 0.0.0.0 mxxgs.cn
 0.0.0.0 mxyxgkuexjr.com
 0.0.0.0 my-adv.ru
@@ -62627,7 +62610,6 @@
 0.0.0.0 optiker-michelmann.de
 0.0.0.0 optimaconsulting.com.au
 0.0.0.0 optimahub.com
-0.0.0.0 optimaladbid.colr.com
 0.0.0.0 optimaladbid.com
 0.0.0.0 optimallimit.com
 0.0.0.0 optimatic.com
@@ -68127,7 +68109,6 @@
 0.0.0.0 pubwes.com
 0.0.0.0 pubwise.io
 0.0.0.0 pubxtag1.com
-0.0.0.0 pucana.cam
 0.0.0.0 pudalz.gismeteo.by
 0.0.0.0 puddingreluctantly.com
 0.0.0.0 puddlebooty.com
@@ -69406,7 +69387,6 @@
 0.0.0.0 r.browser.miui.com
 0.0.0.0 r.casalemedia.com
 0.0.0.0 r.casalemedia.com.edgekey.net
-0.0.0.0 r.casalemhipartners.com]
 0.0.0.0 r.chitika.net
 0.0.0.0 r.clicktale.net
 0.0.0.0 r.cpa6.ru
@@ -70925,7 +70905,6 @@
 0.0.0.0 retag.xyz
 0.0.0.0 retagapp.com
 0.0.0.0 retagro.com
-0.0.0.0 retail-seru
 0.0.0.0 retail-server.ru
 0.0.0.0 retailelectricprovider.com
 0.0.0.0 retailexpertscloud.com
@@ -74098,7 +74077,6 @@
 0.0.0.0 sdk-cdn.aiactiv.io
 0.0.0.0 sdk-cdn.optimove.net
 0.0.0.0 sdk-config.fyber.com
-0.0.0.0 sdk-configu.1 ag.gbc.criteo.com
 0.0.0.0 sdk-configuration.gimbal.com
 0.0.0.0 sdk-controller.widespace.com
 0.0.0.0 sdk-diagnostics.prd.mz.internal.unity3d.com
@@ -79669,7 +79647,6 @@
 0.0.0.0 spensa.co
 0.0.0.0 spent.com.pl
 0.0.0.0 spentforearmprovenance.com
-0.0.0.0 spentforearmprovenanc||vepxl1.net
 0.0.0.0 spenttabsnail.com
 0.0.0.0 speop.com
 0.0.0.0 sperans-beactor.com
@@ -82512,7 +82489,6 @@
 0.0.0.0 stitchkidney.com
 0.0.0.0 stizoaph.net
 0.0.0.0 stizoolr.com
-0.0.0.0 stizoo||burdaffi.burdadigital.pl
 0.0.0.0 stjjp.msn.com
 0.0.0.0 stkexcy.cn
 0.0.0.0 stkhmkpav.xyz
@@ -82994,7 +82970,6 @@
 0.0.0.0 sundayceremonytitanic.com
 0.0.0.0 sundaydriver.dijgtal.com
 0.0.0.0 sundaysky-partners.tremorhub.com
-0.0.0.0 sundaysky-sync-.com]
 0.0.0.0 sundaysky-sync-us.teads.tv
 0.0.0.0 sundaysky.com
 0.0.0.0 sundersetrgh.site
@@ -87589,7 +87564,6 @@
 0.0.0.0 traceworks.com
 0.0.0.0 tracing-collector.strava.com
 0.0.0.0 track-149uew.link
-0.0.0.0 track-a.club
 0.0.0.0 track-aws.notsy.io
 0.0.0.0 track-east.mobileadtrading.com
 0.0.0.0 track-eu.adform.net
@@ -90701,7 +90675,6 @@
 0.0.0.0 unarmedindustry.com
 0.0.0.0 unaspajas.com
 0.0.0.0 unathleticmag.us.intellitxt.com
-0.0.0.0 unattract
 0.0.0.0 unattractivefrigilityfrigility.com
 0.0.0.0 unavailablebackedwaved.com
 0.0.0.0 unawakegaleus.com
@@ -92812,7 +92785,6 @@
 0.0.0.0 vis5.sexlist.com
 0.0.0.0 visadd.com
 0.0.0.0 visagedbeard.com
-0.0.0.0 visageinemytraffic.com
 0.0.0.0 visam.info
 0.0.0.0 visariomedia.com
 0.0.0.0 visiads.com
@@ -93923,7 +93895,6 @@
 0.0.0.0 warnwing.com
 0.0.0.0 warp.ly
 0.0.0.0 warswhitawe.com
-0.0.0.0 wart2mdn.info
 0.0.0.0 wartat.com
 0.0.0.0 warten-sie-mal.xyz
 0.0.0.0 warumbistdusoarm.space
@@ -97051,7 +97022,6 @@
 0.0.0.0 wyhzzy.com
 0.0.0.0 wyldfyrearabians.com
 0.0.0.0 wyliswbimeotllt.xyz
-0.0.0.0 wynathccedenonre.club
 0.0.0.0 wynather.com
 0.0.0.0 wyorrmuftjp.com
 0.0.0.0 wyovhzs.cn
@@ -98398,7 +98368,6 @@
 0.0.0.0 ydworld.com
 0.0.0.0 ydxinzuo.cn
 0.0.0.0 ydysywor.xyz
-0.0.0.0 ydysyw|aellod.com
 0.0.0.0 ye-n-universitiy.xyz
 0.0.0.0 ye185hcamw.com
 0.0.0.0 ye2017.com
@@ -100364,3 +100333,4 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
+0.0.0.0 zzznews.ru212.net
