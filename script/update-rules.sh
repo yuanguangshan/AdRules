@@ -214,7 +214,7 @@ cat full-adguard*.txt \
 cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.txt \
  | grep '^||\|^@@||' | grep -v './' \
  | grep -v '^\[' | grep -v '.\[' | grep -v '.\$' | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' \
- | sed 's/\^|/\^/' |sort -n | uniq | awk '!a[$0]++' > ll.txt 
+ | sed 's/\^|/\^/' |sort -n > ll.txt 
 
 cat ll.txt l.txt pre-allow1.txt abp-hosts*.txt \
  |grep -v '^!' \
