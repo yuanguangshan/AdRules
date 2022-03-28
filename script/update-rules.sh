@@ -149,7 +149,7 @@ echo '规则下载完成'
 
 # Pre Fix rules
 echo '处理规则中...'
-cat hosts*.txt | sort-n| sed '/^$/d' | grep -v -E "^((#.*)|(\s*))$" \
+cat hosts*.txt | sort -n| sed '/^$/d' | grep -v -E "^((#.*)|(\s*))$" \
  | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
  | sed s/127.0.0.1/0.0.0.0/g | sed s/::/0.0.0.0/g |grep '0.0.0.0' | sort \
  | uniq >base-src-hosts.txt
