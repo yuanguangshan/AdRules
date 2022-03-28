@@ -1,12 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: BuYyKFCKb8LcyFclAVqkmQ
+! Checksum: nLQ4tZxfJ3sR3w3Xp4pK2w
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-28 20:41:41（北京时间） 
-! Total count: 97121
+! Version: 2022-03-28 20:56:18（北京时间） 
+! Total count: 97122
+ https://www.amazon.ca/amazonprime?hvbmt=be&hvexid
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -29673,7 +29674,6 @@ colourlovers.com##+js(abort-current-script, EventTarget.prototype.addEventListen
 colourlovers.com#@#[style*="background-image:"]
 colourlovers.com#@#div > iframe:first-child
 com.tw###space > a[target="_blank"] > img[width="160"]
-com/kf/']
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 comic.qq.com###fixed_right > div
 comic.qq.com##.ad-mid,#nqsnqsad02
@@ -30270,6 +30270,7 @@ dat8.cc
 data.lichenqx.com
 data.xici.net
 data.zhongquanjy.com
+data:"]
 datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,news18.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
 dataguru.cn###bg
 dataguru.cn###popDiv
