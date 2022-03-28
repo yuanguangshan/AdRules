@@ -149,12 +149,12 @@ echo '规则下载完成'
 
 # Pre Fix rules
 echo '处理规则中...'
-cat hosts*.txt | grep -v -E "^((#.*)|(\s*))$" \
+cat hosts*.txt | sort-n| sed '/^$/d' | grep -v -E "^((#.*)|(\s*))$" \
  | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
  | sed s/127.0.0.1/0.0.0.0/g | sed s/::/0.0.0.0/g |grep '0.0.0.0' | sort \
  | uniq >base-src-hosts.txt
 
-cat base-src-hosts.txt | grep -Ev '#|\$|@|!|/|\\|\*'\
+cat base-src-hosts.txt | sed '/^$/d' | grep -Ev '#|\$|@|!|/|\\|\*'\
  | grep -v -E "^((#.*)|(\s*))$" \
  | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
  | sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' \
@@ -162,15 +162,15 @@ cat base-src-hosts.txt | grep -Ev '#|\$|@|!|/|\\|\*'\
  | grep -v '^#' | grep -v 'local' \
  | sort -n | uniq | awk '!a[$0]++' > abp-hosts.txt  #Hosts规则转ABP规则
 
-cat allow-domains*.txt | grep -v '#' \
+cat allow-domains*.txt | sed '/^$/d' | grep -v '#' \
  | sed "s/^/@@||&/g" | sed "s/$/&^/g"  \
  | sort -n | uniq | awk '!a[$0]++' >> pre-allow.txt  #将允许域名转换为ABP规则
 
-cat allow-domains0.txt | grep -v "#" \
+cat allow-domains0.txt | sed '/^$/d' | grep -v "#" \
  |sed "s/^/@@||&/g" | sed "s/$/&^/g" | sort -n \
  | uniq | awk '!a[$0]++' >> pre-allow1.txt  #将允许域名转换为ABP规则
 
-cat *.txt |grep '^/' |grep '.\.$' \
+cat *.txt | sed '/^$/d' |grep '^/' |grep '.\.$' \
  |grep -v './\|.?\|.\$\|.js\|._\|.\*\|.(php|png)\|.[0-9]\|.\^\|.=\|.~\|.[A-Z]\|.-' \
  |sort -u > l.txt
 
