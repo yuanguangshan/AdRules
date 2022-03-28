@@ -1,8 +1,8 @@
-! Checksum: 25cVeWh5EzaX+HPAveNi7g
+! Checksum: oVm6IFYBJc1yxzUqE683Sw
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.47
-! TimeUpdated: 2022-03-28T11:30:37+00:00
+! Version: 2.1.13.48
+! TimeUpdated: 2022-03-28T12:30:37+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7265,6 +7265,9 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+atlatszo.hu###the_popup
+ekoplaza.nl#$#body.modal-open { overflow: auto !important; }
+ekoplaza.nl#$#div[id^="cookie-prompt-modal_"] { display: none !important; }
 javhd.com##.jcookie
 ubs.com##.privacysettings__banner
 ubs.com##.lightbox__container
@@ -16066,6 +16069,8 @@ m.timesofindia.com,m-timesofindia-com.cdn.ampproject.org$$amp-consent
 !+ PLATFORM(windows, mac, android)
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/113845
+ekoplaza.nl#@#.cookie-box:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113730
 @@||cdn.privacy-mgmt.com^$domain=is.fi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113269
@@ -20379,6 +20384,7 @@ sodapdf.com##.be-tooltip
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+przekroj.pl##.welcome.js-modal
 inwepo.co###pwaforwp-add-to-home-click
 smbc-card.com##.floatbnr
 mail.ru###ph-extension-block
@@ -25496,6 +25502,7 @@ abendzeitung-muenchen.de###webpush-app
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||pushpro.co.za^$third-party
 /storefrontmarketing/webpush/webpush.client.
 ||jagevirom.com^
 ||mediaboom.site^
@@ -27677,6 +27684,7 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+price.ua##.top-categories-autoscroll
 ||brandboardapi.yemek.com/ad/getadbyslug
 yemek.com##.masthead
 search.rakuten.co.jp##div[class="dui-container festival"]
@@ -32411,6 +32419,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/111736
+freetp.org#%#//scriptlet('adjust-setTimeout', 'timer', '1000', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113959
 trendyoum.com#%#//scriptlet("adjust-setInterval", "countdown", "", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109099

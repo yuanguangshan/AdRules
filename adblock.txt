@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: E57GywPtJbIbnqgK3J7Cxg
+! Checksum: BuYyKFCKb8LcyFclAVqkmQ
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-28 19:44:15（北京时间） 
+! Version: 2022-03-28 20:41:41（北京时间） 
 ! Total count: 97121
 ###AC_ad
 ###ADCENTER
@@ -29673,6 +29673,7 @@ colourlovers.com##+js(abort-current-script, EventTarget.prototype.addEventListen
 colourlovers.com#@#[style*="background-image:"]
 colourlovers.com#@#div > iframe:first-child
 com.tw###space > a[target="_blank"] > img[width="160"]
+com/kf/']
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
 comic.qq.com###fixed_right > div
 comic.qq.com##.ad-mid,#nqsnqsad02
@@ -48755,7 +48756,6 @@ zzpzero.com
 |https://js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
 |https://r.i.ua^
 |https://undefined/|$script,redirect=noop.js
-|webmasterplan.com^$third-party
 |ws*://$websocket,domain=fullmatchesandshows.com|1337x.to|allkpop.com|auroravid.to|boards2go.com|celebdirtylaundry.com|celebritymozo.com|collectivelyconscious.net|dailycaller.com|destructoid.com|dumpaday.com|firstrowau.eu|firstrowus1.eu|flash-x.tv|flashsx.tv|flashx.me|flashx.run|flashx.tv|flashx1.tv|fmovies.to|free-torrent.org|free-torrents.org|gamenguide.com|gofirstrow.eu|gorillavid.in|gsmarena.com|health-weekly.net|i4u.com|ifirstrow.eu|ifirstrowit.eu|img24.org|instanonymous.com|itechpost.com|izismile.com|jpost.com|lifehacklane.com|livescience.com|mobilenapps.com|mobipicker.com|natureworldnews.com|navbug.com|ncscooper.com|newsarama.com|noslocker.com|nowfeed2all.eu|nowvideo.ag|nowvideo.co|nowvideo.li|nowvideo.to|okceleb.com|omgwhut.com|opensubtitles.org|parentherald.com|pornhub.com|pornhubthbh7ap3u.onion|prnt.sc|putlocker9.com|pwinsider.com|snoopfeed.com|sportsmole.co.uk|stream-tv-series.net|stream-tv2.to|stream2watch.cc|streamgaroo.com|technobuffalo.com|the-watch-series.to|thevideo.me|thinkinghumanity.com|todayshealth.buzz|tomsguide.com|tomshardware.co.uk|tomshardware.com|toptenz.net|torrentino.me|tribune.com.pk|uberhavoc.com|universityherald.com|vidmax.com|vidzi.tv|viewmixed.com|viralands.com|wccftech.com|webfirstrow.eu|whydontyoutrythis.com|wrestlinginc.com|wrestlingnews.co|xilfy.com|yourtango.com
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*.amazonaws.com/js/adblock.min.js$script,domain=motorsport-total.com
