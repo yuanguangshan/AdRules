@@ -278,3 +278,73 @@ rtl.de#@#.rtlde-medium-rectangle
 @@||ad3.adfarm1.adition.com^$domain=servustv.com,other
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3346
 @@||api.ebay-kleinanzeigen.de/api/ads/
+gitalgroup.de/metatag/live/bauer-tvmovie/metaTag.min.js$domain=tvmovie.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/18077
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=20min.ch
+! https://github.com/AdguardTeam/AdguardFilters/issues/18075
+mytoys.de#@#iframe[width="300"][height="250"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/17480
+sueddeutsche.de#@#.ad
+! https://github.com/AdguardTeam/AdguardFilters/issues/10142
+@@||partnerads.ysm.yahoo.com/ypa/?ct=*suchmaschine.com$domain=suchmaschine.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/10479
+spiele-for-free.de#@#a[href^="http://wlx-secure.com/"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/10104
+@@||s.adadapter.netzathleten-media.de/*/naMediaAd.js$domain=wooco.de
+wooco.de#@#.naMediaAd
+! https://github.com/AdguardTeam/AdguardFilters/issues/7638
+@@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=autobild.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/7343
+m.tvtoday.de#@#.banner-container
+! https://github.com/AdguardTeam/AdguardFilters/issues/7214
+@@||smartclip.net/?plc=$domain=energy.de
+@@||smartclip.net/ads?type=$domain=energy.de
+! https://forum.adguard.com/index.php?threads/25203/
+islamische-zeitung.de#@#.sb-widget
+! https://forum.adguard.com/index.php?threads/23770/
+schogetten.de#@#.Werbung
+! werbung.qs-optiker.de - site is broken
+@@||werbung.qs-optiker.de^$domain=werbung.qs-optiker.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/5440
+kachelmannwetter.com#@#iframe[width="300"][height="250"]
+! https://forum.adguard.com/index.php?threads/21931/
+@@||arkadiumhosted.com/API/$generichide
+! https://github.com/AdguardTeam/AdguardFilters/issues/5075
+@@||ww251.smartadserver.com/ac?nwid=*&siteid=$domain=transfermarkt.de
+! https://forum.adguard.com/index.php?threads/browsergames-spielen-de.20358/
+browsergames.spielen.de#@##gameimage
+! https://github.com/AdguardTeam/AdguardFilters/issues/3506
+kostenlose-online-rechner.de#@##advert1
+kostenlose-online-rechner.de#@##advert2
+! https://forum.adguard.com/index.php?threads/14135/
+rtl.de#@#.rtlde-medium-rectangle
+! https://github.com/AdguardTeam/ExperimentalFilter/issues/2081
+@@||gntm.connect.prosieben.de^$generichide
+! https://github.com/AdguardTeam/ExperimentalFilter/issues/1648
+@@||cdn.inside-handy.de/ih/top/
+! http://forum.adguard.com/showthread.php?9165
+@@||google-analytics.com/analytics.js^$domain=freshmilk.tv
+! http://forum.adguard.com/showthread.php?9166
+@@||assets.sport1.de/bundles/
+@@||doubleclick.net^$domain=video.sport1.de
+@@||nuggad.net^$domain=video.sport1.de
+@@||ad.71i.de^$domain=video.sport1.de
+! http://forum.adguard.com/showthread.php?8976
+! for correct blocking ads on tv4play.se
+@@||videoplaza1.tv/proxy/as3_vp_player-ku
+! https://github.com/AdguardTeam/ExperimentalFilter/issues/1395
+@@||lotto-bw.de^$jsinject
+! http://forum.adguard.com/showthread.php?8387
+@@||lustich.de.adadapter.netzathleten-media.de/API-1.0/*/naMediaAd.js$domain=lustich.de
+! http://forum.adguard.com/showthread.php?7970
+@@||toggo.de/module/catchup/admeta.php
+! rtl.de - broken player
+@@||cdn.videoplaza.tv/contrib/de-ipd/svm/homadConfigVideoplaza-rtl.json$domain=rtl.de
+! http://forum.adguard.com/showthread.php?8058
+@@||smartadserver.com/ac?$domain=bildderfrau.de
+! http://forum.adguard.com/showthread.php?8061
+@@||spiele.rtl.de/landingpage/index/$document
+! http://forum.adguard.com/showthread.php?2874-servustv-com-(google-chrome-firefox)
+@@||ad3.adfarm1.adition.com^$domain=servustv.com,other
+! https://github.com/AdguardTeam/AdguardFilters/issues/3346
+@@||api.ebay-kleinanzeigen.de/api/ads/

@@ -1,13 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: nLQ4tZxfJ3sR3w3Xp4pK2w
+! Checksum: rDP6XH8oftp4IP9O/9rF/g
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-28 20:56:18（北京时间） 
-! Total count: 97122
- https://www.amazon.ca/amazonprime?hvbmt=be&hvexid
+! Version: 2022-03-28 21:11:10（北京时间） 
+! Total count: 97121
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -30024,6 +30023,7 @@ cssmoban.com##.page-banner
 cssqt.com###mainbox > a
 csstock.cn##div.mtop10
 ct.999wan.wang#?#.container .card:has(> .card-body > .flex-fill > #ad_text)
+ct.com^
 ctanet.cn##[width="160"],[height="80"],[height="50"]
 ctanet.cn##a[href*="/GoTo.asp?ID="] > img
 ctc.qzs.qq.com##IMG[alt="qboss_ad_image"]
@@ -30270,7 +30270,6 @@ dat8.cc
 data.lichenqx.com
 data.xici.net
 data.zhongquanjy.com
-data:"]
 datacenterdynamics.com,fansshare.com,hairboutique.com,iconarchive.com,imagetwist.com,memecenter.com,news18.com,paultan.org,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
 dataguru.cn###bg
 dataguru.cn###popDiv
@@ -41499,7 +41498,8 @@ qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune,adList.item)
 qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(no-xhr-if, trace.)
-qq.com##+js(set, Beacon.prototype.fail, null)
+qq.com##+js(nosiif,/^/,100)
+qq.com##+js(set, Beacon.prototype.bind, noopFunc)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -45414,7 +45414,6 @@ v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.top_banner,.mod_ads_play,#jimu-module-10,#jimu-module-11,.tvp_open_btns,[class^="txp_ad_"],.txp_ad,.figures_ad
-v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 v.qq.com,sports.qq.com##+js(json-prune,ad,vinfo)
 v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 v.qufengo.com
