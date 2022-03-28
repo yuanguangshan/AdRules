@@ -1,8 +1,8 @@
-! Checksum: cKxMdkyODrAD0VBvaH1zXA
+! Checksum: gC7VevYSe65BQKwPplmMTQ
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.49
-! TimeUpdated: 2022-03-28T13:02:12+00:00
+! Version: 2.1.13.50
+! TimeUpdated: 2022-03-28T13:30:38+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -6164,7 +6164,7 @@ videoder.com,youglish.com###gdprModal
 tapatalk.com###gdpr_b
 segodnya.ua###gdpr_cookies
 itv.com###itv-glob-cookie-policy-holder
-datagroup.ua,e-bebek.com,luluhypermarket.com,teknosa.com###js-cookie-notification
+etna.com.br,datagroup.ua,e-bebek.com,luluhypermarket.com,teknosa.com###js-cookie-notification
 youpornru.com,youporn.*,youporngay.com###js_euCookieModal
 sklep.hard-pc.pl###kqs-cookie
 linkfire.com,lnk.to###lnk-c
@@ -9017,6 +9017,7 @@ therahnuma.com##.post-footer-on-bottom
 ##amp-app-banner
 ###smartbanner.ios
 ###smartbanner.windows
+bbc.com##section[aria-label="Уведомление"]
 beauty.yahoo.co.jp##.Top__bannerList
 partner.yahoo.co.jp##.Rsab
 gyao.yahoo.co.jp##.to-app-banner
@@ -17394,3 +17395,4 @@ samlab.ws##iframe[src^="https://yoomoney.ru/"]
 ||yoomoney.ru/quickpay/shop-widget$domain=ovgorskiy.ru|blog.themarfa.name
 ||funding.webmoney.ru/widgets/$domain=ovgorskiy.ru|demek.ru|скачатьофис.рф
 hromadske.ua#$#body { overflow: visible !important; }
+

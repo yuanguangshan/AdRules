@@ -787,3 +787,4 @@ $removeparam=dclid
 @@||businessinsider.com.pl/*&srcc=ucs$removeparam
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63522
 @@||onet.pl/?utm_source=$removeparam
+

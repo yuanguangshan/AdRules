@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: sdyvbQQg/R/rB3McmHg5Gg
+! Checksum: 4LQDgv4SBHBZzpnCKDJo2A
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-28 21:23:59（北京时间） 
-! Total count: 97125
+! Version: 2022-03-28 22:29:59（北京时间） 
+! Total count: 97132
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -25767,6 +25767,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @||crunchyroll.com/*/ads_enabled_flag*.js$script
 Banner468x60
+Intr="],[src*="/img/"],#index_tan,[href="http://www.xzg008.com/"],.block.spots,[src*="/ads/"]
 MRelateFeedAd
 MoBi*.baidu.js$script,third-party
 \:[0-9]{4,5}\/sogou\/
@@ -36928,6 +36929,7 @@ ld0766.com###diy4
 ld0766.com###portal_ad3
 ld0766.com##.rsf_pull_screen_adv
 ldmnq.com##.dialog-game
+ldtimebuddy.com##.block2
 le.com###a_body_11628
 le.com###a_title_11628
 le.com###full_Column_big,#full_Column_small,#newDaoliu,rightBottomPop,[class^="bottom_layer"],.ztm_head,.hv_play_poster
@@ -41503,6 +41505,7 @@ qq.com##+js(no-fetch-if, trace.)
 qq.com##+js(no-xhr-if, trace.)
 qq.com##+js(nosiif,/^/,100)
 qq.com##+js(set, Beacon.prototype.bind, noopFunc)
+qq.com##+js(set, Beacon.prototype.fail, null)
 qq.com##.AdBox-Article-QQ
 qq.com##.AdTop-Article-QQ
 qq.com##.J_hot_game
@@ -45417,6 +45420,7 @@ v.qq.com##a[href*=".renrendai.com"]
 v.qq.com##a[href*=".vip.com"]
 v.qq.com##a[href*="amway.com.cn"]
 v.qq.com##div.pop_ads_wide,div#QQlive_SP_RM.l_qq_com,DIV[class^="mod_ads mod_ads_main_"],iframe[src="http://games.qq.com/playgame/videoweb/videoweb.htm"],div[class^="mod_float_"],div.mod_ad,div.site_bg.site_bg_variety,.player_bg_ad,.top_banner,.mod_ads_play,#jimu-module-10,#jimu-module-11,.tvp_open_btns,[class^="txp_ad_"],.txp_ad,.figures_ad
+v.qq.com#@#+js(set, Beacon.prototype.fail, null)
 v.qq.com,sports.qq.com##+js(json-prune,ad,vinfo)
 v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 v.qufengo.com
@@ -45970,6 +45974,8 @@ wcoanimesub.tv##+js(set-constant, isAdBlockActive, false)
 wcoanimesub.tv,wcofun.com,wcoforever.net,wcoanimedub.tv,wcoforever.com,wcostream.com,watchcartoononline.io##.anti-ad
 wcoforever.net,wcoforever.com##+js(no-setTimeout-if, AdBlock)
 wcoforever.net,wcoforever.com##+js(set-constant, isAdBlockActive, false)
+wcofun.com###reklam_kapat
+wcofun.com##+js(abort-current-script, document.createElement, cpmstarAPI)
 wcofun.com##+js(no-setTimeout-if, AdBlock)
 wcofun.com##+js(set-constant, isAdBlockActive, false)
 wcofun.com,wcoforever.net,wcoforever.com,thewatchcartoononline.tv###sidebar_r1
@@ -57462,6 +57468,7 @@ zzpzero.com
 ||bloomberg.com/8FCGYgk4/init.js
 ||blossommo.com^
 ||blotburn.com^
+||bloxplay.com^$third-party
 ||blsenpg.cn^
 ||blue-tomato.com^$removeparam=/_[$]ja/
 ||blue-tomato.com^$removeparam=varid
@@ -69584,7 +69591,7 @@ zzpzero.com
 ||imdb.com/api/_ajax/metrics/
 ||imdb.com/tr/
 ||imdns.hpplay.cn^
-||imedia.bokecc.com/[Adblock Plus 2.0]
+||imedia.bokecc.com/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
 ||imeee.cn/DA_HTML/*.js

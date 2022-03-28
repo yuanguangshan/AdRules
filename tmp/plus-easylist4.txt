@@ -338,6 +338,8 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ! https://github.com/uBlockOrigin/uAssets/pull/10610
 ||statwup.huya.com^
 ||va.huya.com^
+||metric.huya.com^
+||e-stat.huya.com^
 
 ! pornocolombiano.net analytics
 ||analytics.tiendaenoferta.com^
@@ -384,3 +386,5 @@ old.reddit.com##+js(ra, data-outbound-url, .outbound)
 
 ! techpowerup.com analytics
 ||techpowerup.com/_log$xhr
+
+
