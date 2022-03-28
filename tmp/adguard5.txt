@@ -1,8 +1,8 @@
-! Checksum: gAKcVc4ms1lXzOpOr8qwIA
+! Checksum: XbcMTWGL9aOh9ZA/VWw0ug
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.52
-! TimeUpdated: 2022-03-28T15:30:35+00:00
+! Version: 2.1.13.55
+! TimeUpdated: 2022-03-28T18:30:38+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3345,6 +3345,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 /wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
+||dimedic.eu/*/cookies/cookies
+exidegroup.com###exide-gtm-scripts-modal
 glencore.com##footer > div.fixed.rounded.overflow-y-auto
 readspeaker.com#$##cc--main { display: none !important; }
 readspeaker.com#$#html.show--consent:not(#style_important) { overflow: auto !important; }
@@ -9019,6 +9021,7 @@ therahnuma.com##.post-footer-on-bottom
 ##amp-app-banner
 ###smartbanner.ios
 ###smartbanner.windows
+blogtag.ameba.jp#?##app > aside[class^="sc-"] > div[class^="sc-"] > a[href^="https://ameblo.page.link"]:upward(2)
 bbc.com##section[aria-label="Уведомление"]
 beauty.yahoo.co.jp##.Top__bannerList
 partner.yahoo.co.jp##.Rsab
@@ -9904,6 +9907,7 @@ smallpdf.com##body > div#app > div[class]:has(> div > div > img[alt="Chrome"])
 ||form.typeform.com^$third-party
 ##a[href^="https://form.typeform.com/"]
 !######### Subscription popups add to subscriptions.txt #########
+buhexpert8.ru###popupvideo
 page.auctions.yahoo.co.jp##.idpfLPOpen
 przekroj.pl##.welcome.js-modal
 inwepo.co###pwaforwp-add-to-home-click
@@ -13715,6 +13719,10 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ||cp.unisender.com/*/form-widget-loader.js$third-party
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
+buhexpert8.ru###exitpopup-modal
+buhexpert8.ru###reg-popup-form-overlay
+buhexpert8.ru##.highlight-form
+wiseadvice-it.ru#%#//scriptlet('set-cookie', 'conversion_action_done', 'true')
 globalaffairs.ru##.dk-newsletter
 theconversation.com###sticky-popup-wrapper
 theconversation.com##.mobile-banner
@@ -15014,7 +15022,7 @@ navbharattimes.indiatimes.com##.wdt_newsLetter
 komyounity.com##.entry-content > p.has-text-align-center.has-vivid-purple-background-color
 komyounity.com##div[style="height:100px"]:empty
 themaclife.com###sidebar_form
-aajtak.in##.subscribe-banner
+wiseadvice-it.ru,aajtak.in##.subscribe-banner
 finextra.com##.module--signup
 elpais.com.uy,ovaciondigital.com.uy,protocol.com##.email-wrapper
 eastbaytimes.com##.newsletter-simple
