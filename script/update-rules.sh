@@ -147,6 +147,12 @@ curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ookangzheng/
  | grep -v '^#' > plus-hosts1.txt
 echo '规则下载完成'
 
+# 添加空格
+file="$(ls|sort -u)"
+for i in $file; do
+  echo -e '\n' >> $i
+done
+
 # Pre Fix rules
 echo '处理规则中...'
 cat hosts*.txt | sort -n| sed '/^$/d' | grep -v -E "^((#.*)|(\s*))$" \
