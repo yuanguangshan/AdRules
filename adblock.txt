@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: BEZ2kPX+1AksaZgw8ZS9jA
+! Checksum: mLna2WZ/tJXOVH1rp0pUCA
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-30 06:39:39（北京时间） 
-! Total count: 97785
+! Version: 2022-03-30 06:48:29（北京时间） 
+! Total count: 97996
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -91,6 +91,7 @@
 ###Tadspacehead
 ###Top1AdWrapper
 ###TopAd
+###TopAdvert
 ###TopBannerAd
 ###Video-Shunt-Box + .container
 ###WarningCodec
@@ -307,6 +308,7 @@
 ###ad728
 ###ad72890
 ###ad728x90
+###ad900
 ###ad97090
 ###adATF300x250
 ###adATF728x90
@@ -325,6 +327,11 @@
 ###adBlockAlertWrap
 ###adBlockDetect
 ###adBlockerModal
+###adBody01
+###adBody02
+###adBody03
+###adBody04
+###adBody06
 ###adBody07
 ###adBottom
 ###adBox
@@ -385,6 +392,9 @@
 ###adTopLarge
 ###adTopYSP
 ###adTower
+###adUn_1
+###adUn_2
+###adUn_3
 ###adUnderArticle
 ###adUnit
 ###adValue
@@ -711,6 +721,7 @@
 ###ads_footer
 ###ads_header
 ###ads_in_video
+###ads_inner
 ###ads_lb
 ###ads_left
 ###ads_line
@@ -730,6 +741,7 @@
 ###adscontainer_banner_new_second_index_1060
 ###adscontainer_banner_new_top_index_1060_2
 ###adsdiv
+###adsense
 ###adsense-2
 ###adsense-bottom
 ###adsense-right
@@ -871,6 +883,7 @@
 ###adverts
 ###adverttop
 ###advetisement_300x250
+###advt
 ###advtcell
 ###advtext
 ###advtop
@@ -1154,9 +1167,12 @@
 ###fixedAdContainer
 ###fk_faiVisitStateAd
 ###fl-ads
+###flashad
 ###floatAD_l
 ###floatAD_r
 ###floatAd
+###floatAd-left
+###floatAd-right
 ###floatad-winpop
 ###floatads
 ###floatingAd
@@ -1236,6 +1252,7 @@
 ###head-ad
 ###headAd
 ###head_ad
+###head_ad_area
 ###head_ads
 ###headad
 ###header > a[target="_blank"] > img[style="width:100%;height:60px;margin-bottom:2px;"]
@@ -1268,6 +1285,7 @@
 ###home-ad
 ###homeSideAd
 ###home_ad
+###homead
 ###homepage_top_ad
 ###hongbao20201217
 ###horizontal-ad
@@ -1563,6 +1581,7 @@
 ###right_top_ad
 ###right_up_float_ad
 ###rightad
+###rightad2
 ###rightads
 ###rightrail-ad
 ###rightrail_pos1_ddb_0
@@ -1746,6 +1765,7 @@
 ###top_AD
 ###top_ad
 ###top_ad_banner
+###top_ad_box
 ###top_ad_container
 ###top_ad_wrapper
 ###top_add
@@ -2039,6 +2059,8 @@
 ##.ad-300x600
 ##.ad-336x280
 ##.ad-4
+##.ad-5
+##.ad-6
 ##.ad-728
 ##.ad-728-90
 ##.ad-728x90
@@ -2506,6 +2528,7 @@
 ##.adAreaNativeDmm
 ##.adAreaTopTitle
 ##.adArticleSidetile
+##.adBanner
 ##.adBanner--outer
 ##.adBillboard
 ##.adBlock
@@ -2531,6 +2554,7 @@
 ##.adContainer[style="margin-top: -5px"]
 ##.adContent
 ##.adDialog
+##.adDingT
 ##.adDiv
 ##.adElement
 ##.adFrame
@@ -2616,12 +2640,14 @@
 ##.adZone
 ##.ad_0
 ##.ad_1
+##.ad_1000x90
 ##.ad_1200
 ##.ad_160x600
 ##.ad_2
 ##.ad_200
 ##.ad_240
 ##.ad_250
+##.ad_250x250
 ##.ad_3
 ##.ad_300
 ##.ad_300250
@@ -2630,14 +2656,17 @@
 ##.ad_300x250
 ##.ad_300x600
 ##.ad_336
+##.ad_336x280
 ##.ad_4
 ##.ad_468
 ##.ad_640
+##.ad_640x90
 ##.ad_728
 ##.ad_72890
 ##.ad_728_90
 ##.ad_728_top
 ##.ad_728x90
+##.ad_90
 ##.ad_960
 ##.ad__caption
 ##.ad__container
@@ -2750,6 +2779,7 @@
 ##.ad_med
 ##.ad_middle
 ##.ad_mobile
+##.ad_mod
 ##.ad_module
 ##.ad_mpu_top
 ##.ad_msg
@@ -2801,6 +2831,7 @@
 ##.ad_top_1
 ##.ad_top_2
 ##.ad_top_left
+##.ad_two
 ##.ad_two_third
 ##.ad_under
 ##.ad_unit
@@ -2848,6 +2879,7 @@
 ##.adblocker-message
 ##.adblocker-root
 ##.adblocker-wrap
+##.adboard
 ##.adbordertop
 ##.adbot
 ##.adbottom
@@ -3090,6 +3122,7 @@
 ##.ads.widget
 ##.ads01
 ##.ads02
+##.ads03
 ##.ads1
 ##.ads10
 ##.ads11
@@ -3346,6 +3379,7 @@
 ##.adunit300x250
 ##.adunitContainer
 ##.adv-300
+##.adv-300-250
 ##.adv-300x250
 ##.adv-300x250-generic
 ##.adv-970
@@ -3375,6 +3409,7 @@
 ##.adv-text
 ##.adv-top
 ##.adv1
+##.adv250
 ##.adv300
 ##.adv300x100
 ##.adv300x250
@@ -4016,6 +4051,7 @@
 ##.crumb-ad
 ##.css-live-widget_googleAdBlock
 ##.csw-ae-wrapper
+##.ct-ad-article-wrapper
 ##.cta-ad
 ##.ctm_ad
 ##.cube-ad
@@ -4190,6 +4226,7 @@
 ##.fixedRightAd
 ##.fixed_ad
 ##.fjs-ad-hide-empty
+##.flash_ad
 ##.flex-ad
 ##.flex-row > #propagandaLeft
 ##.flex-row > #propagandaRight
@@ -4379,6 +4416,7 @@
 ##.has-adslot
 ##.has-fixed-bottom-ad
 ##.hbp > .wp_banner
+##.hd-adv
 ##.head-ad
 ##.head-ads
 ##.headAd
@@ -4467,6 +4505,7 @@
 ##.horizontal_ads
 ##.hotel-ad
 ##.house-ad
+##.house-ads
 ##.hp_textlink_ad
 ##.hr_ad
 ##.hstpnetworkads
@@ -4474,6 +4513,7 @@
 ##.htl-ad-placeholder
 ##.htl-ad-wrapper
 ##.html-advertisement
+##.html5-ad-progress-list
 ##.hyad
 ##.hzxld
 ##.i-amphtml-unresolved
@@ -4691,10 +4731,12 @@
 ##.lol_ad
 ##.long-ads
 ##.longBannerAd
+##.long_ad
 ##.longform-ad
 ##.loop_google_ad
 ##.lower-ad
 ##.lrec-container
+##.lt_ad
 ##.lyad
 ##.lyzm-prevent
 ##.m-ad
@@ -4807,6 +4849,8 @@
 ##.mod-ads
 ##.mod_ad
 ##.mod_ad_container
+##.mod_ad_text
+##.mod_ads
 ##.mod_index_ad
 ##.mod_r_ad
 ##.modal-ad
@@ -5558,6 +5602,7 @@
 ##.td_ad
 ##.teaser-advertisement
 ##.test-adblock-overlay
+##.text-ad
 ##.text-ad-300
 ##.text-ad-links2
 ##.text-ad-top
@@ -5570,6 +5615,7 @@
 ##.text-g-sponsored-ads
 ##.text-g-sponsored-links
 ##.text-sponsor
+##.textAd
 ##.textAd3
 ##.textAdBG
 ##.textAdBlock
@@ -5870,6 +5916,7 @@
 ##.widget_adbox
 ##.widget_adrotate_widgets
 ##.widget_ads
+##.widget_adsensem
 ##.widget_adsensewidget
 ##.widget_adsingle
 ##.widget_adswidget1-quick-adsense
@@ -6566,6 +6613,7 @@
 ##a[href^="http://ads.betfair.com/redirect.aspx?"]
 ##a[href^="http://ads2.williamhill.com/redirect.aspx?"]
 ##a[href^="http://affiliate.coral.co.uk/processing/"]
+##a[href^="http://affiliate.godaddy.com/"]
 ##a[href^="http://affiliates.lifeselector.com/"]
 ##a[href^="http://affiliates.pinnaclesports.com/processing/"]
 ##a[href^="http://amzn.to/"] > img[src^="data"]
@@ -6852,6 +6900,7 @@
 ##div[id^="dfp-slot-"]
 ##div[id^="div-ads-"]
 ##div[id^="div-gpt-"]
+##div[id^="div-gpt-ad"]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="google_ads_iframe_"]
 ##div[id^="google_dfp_"]
@@ -9101,6 +9150,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .adsales.
 .adsby.
 .adsdk.
+.adsense.
 .adserver.
 .adserver01.
 .adsync.
@@ -9141,6 +9191,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .ca/ads/
 .cam/ads/
 .cc/ad/
+.cc/ads/
 .cc/js/ads/
 .cc/s.php?id=$script,third-party
 .cdn-tracking.js
@@ -9169,6 +9220,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .cn/v/*.xmtl?$third-party
 .cn/vs.php?id=$script,third-party
 .cn/z.gif?
+.co/ads/
 .co/js/ads/
 .com*/ps/psCreat.js
 .com.au/HG?hc=
@@ -9196,7 +9248,10 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .com/a_d/
 .com/aaasi/*.js
 .com/ad.$domain=~ad-tuning.de
+.com/ad.$~script,domain=~ad-tuning.de
+.com/ad/$~image,third-party,domain=~mediaplex.com
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com
+.com/ad/$~third-party,domain=~blogs.technet.microsoft.com|~channel4.com|~mediaplex.com
 .com/ad1/
 .com/ad2/
 .com/ad777.js
@@ -9204,7 +9259,9 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .com/ad_js/
 .com/adds/
 .com/adlib/
+.com/ads.
 .com/ads.$~script,~xmlhttprequest
+.com/ads/$image,object,subdocument
 .com/ads/$image,object,subdocument,domain=~developers.google.com|~sabotage-films.com
 .com/ads/ada.js
 .com/ads/adb.js
@@ -9214,6 +9271,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .com/ads/p2.js
 .com/ads?
 .com/ads_
+.com/adv/
 .com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~archiproducts.com|~tritondigital.com
 .com/adv1/?q=
 .com/adv?
@@ -9262,9 +9320,11 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .com/java/xia1.js
 .com/java/youxia.js
 .com/java/zuoxia.js
+.com/js.ng/
 .com/js/LAD.js
 .com/js/a_d/
 .com/js/ad_
+.com/js/ads/
 .com/js/alls_foot.js
 .com/js/alls_top.js
 .com/js/bnr_
@@ -9360,6 +9420,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .emsecure.min.js
 .epicgames.com/O/
 .es/ads/
+.eu/ads/
 .eu/ads/$domain=~scutt.eu
 .eventim.de/op/$image
 .everestengagement.com/$image
@@ -9499,10 +9560,14 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .ne16.com/do/
 .net/?ss=$script,third-party
 .net/HG?hc=&hb=
+.net/ad-
+.net/ad/$~object-subrequest
 .net/ad2/$~xmlhttprequest
 .net/ad_
 .net/ads-
+.net/ads/
 .net/ads_
+.net/adv/
 .net/bnr/
 .net/js/ads/
 .net/l.gif?
@@ -9558,6 +9623,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .php?stats=
 .php?tracking=
 .php?zone_id=
+.php?zoneid=
 .pixel.archive.
 .pixel?*&event_
 .pixel?record_
@@ -9606,6 +9672,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 .stats?action=
 .substack.com/o/$image
 .svc/?tracking_id=
+.swf?clicktag=
 .tealium.$domain=~tealium.co.jp|~tealium.com
 .test15./
 .th/ads/
@@ -9696,6 +9763,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /120x600.
 /120x600_
 /160_600.
+/160_600_
 /160x600-
 /160x600.
 /160x600/*
@@ -9835,6 +9903,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /AdCookies.js
 /AdCount/*
 /AdDownloader
+/AdPreview/*
 /AdPub/*
 /AdS/RAD.
 /Ad_Scripts/*
@@ -9847,6 +9916,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /AdobeAnalyticsEvent.
 /AdobeAnalyticsSDK.
 /AdobeCustomVideoMeasurement.swf
+/AdsShow.
 /AdverJS/*
 /AffiliateClick.
 /AffinoAudit/*
@@ -9968,6 +10038,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /GAInit.js|
 /GAOGAO/*.aspx?id=
 /GARecord^
+/GetAdForCallBack?
 /GetWebTrekkRecoElement?
 /GlanceCobrowseLoader_
 /GlancePresenceVisitor_
@@ -10434,6 +10505,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ad-scroll.
 /ad-server.$~script
 /ad-server/*$~image
+/ad-specs.
 /ad-stub-
 /ad-tags/*$~image
 /ad-top-
@@ -10447,12 +10519,14 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ad.js?slot
 /ad.min.
 /ad.php?
+/ad.php|$popup
 /ad.premium-
 /ad.skin.
 /ad.xml$xmlhttprequest
 /ad/ad2/*
 /ad/ads-
 /ad/api/*
+/ad/article_
 /ad/banner.
 /ad/banner?
 /ad/banner_
@@ -10466,6 +10540,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ad/html/*
 /ad/iframe/*
 /ad/image/*
+/ad/images/*
 /ad/images/*$domain=~studiocalling.it
 /ad/img/*
 /ad/index.
@@ -10485,13 +10560,17 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ad/top_
 /ad0.$domain=~ad0.com|~ad0.dev|~ad0.org|~vereinslinie.de
 /ad01.
+/ad1.
 /ad15.
+/ad1_
+/ad2.
 /ad2.$domain=~vereinslinie.de
 /ad2/*?
 /ad2/*js
 /ad2/*php
 /ad24/*$~image
 /ad2_
+/ad3.
 /ad3.$domain=~ad3.eu|~vereinslinie.de
 /ad4.$domain=~ad4.fr|~ad4.wpengine.com|~vereinslinie.de
 /ad468x60.
@@ -10539,9 +10618,13 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ad_display_
 /ad_fallback/*
 /ad_footer.
+/ad_footer_
 /ad_head_
+/ad_header.
+/ad_home_
 /ad_html/*
 /ad_icons/*
+/ad_iframe.
 /ad_images/*
 /ad_img.
 /ad_img/*
@@ -10556,6 +10639,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ad_page_
 /ad_popup_
 /ad_refresh.
+/ad_right.
 /ad_right_
 /ad_script.
 /ad_show.
@@ -10625,6 +10709,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adblocker_message_
 /adbot.
 /adbox.
+/adbox/*
 /adbox/*$~image
 /adbroker/*$~image
 /adbutler.
@@ -10645,9 +10730,11 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adclick/*$~image
 /adclient*
 /adcms/js/*
+/adcode.
 /adcode.hkddm.com/*
 /adcode/*
 /adcode/*$~image
+/adcomp.
 /adconfig.
 /adcontent*
 /adcontent.$~image,~object
@@ -10697,6 +10784,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adex.js
 /adfeed.
 /adfile*
+/adfile.
 /adfile/*
 /adfiles/*
 /adfit/*
@@ -10719,8 +10807,10 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adfshow?
 /adgear.js
 /adguru.
+/adhads.
 /adhandler.
 /adhelper.
+/adhtml/*
 /adifm_
 /adiframe.
 /adimage.
@@ -10728,6 +10818,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adimage/*
 /adimages/*
 /adimages/*$~subdocument
+/adimg.
 /adimg.$domain=~adimg.ru
 /adimg.163.com/*
 /adimg/*
@@ -10741,19 +10832,24 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adition.
 /adj.php?
 /adjs
+/adjs.
 /adjs.php
 /adjs/*
 /adjs/*$~image
 /adjs_
 /adjson
+/adkingpro-
+/adkingpro/*
 /adleft*
 /adlib.$domain=~adlib.info|~adlib.mu|~catharijneconvent.nl|~rws.nl
 /adline.$domain=~adline.co.il|~adline.com|~adline.si
 /adlink*
 /adlink-$domain=~adlinktech.com
+/adlink.
 /adlink/*$domain=~adlinktech.com
 /adlinks.$domain=~adlinks.to
 /adload.
+/adloader.
 /adloader/*
 /adlog.
 /adlog/*
@@ -10762,6 +10858,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adlogue/*
 /adm_
 /adm_tracking.js
+/adman.
 /adman.$domain=~adman.com|~adman.ee|~adman.press.pl|~adman.studio
 /adman/*
 /adman_
@@ -10782,6 +10879,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /admin/banners/*
 /admiral.js
 /admob/*
+/admonitor.
 /admonitoring.
 /adn-hb/*
 /adnet.$domain=~adnet.agency|~adnet.hr
@@ -10817,6 +10915,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adpfile/*
 /adphoto*
 /adpic*
+/adpic.
 /adpic/*
 /adpixel.
 /adplace/*
@@ -10827,10 +10926,12 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adplugin.
 /adplugin/*$~image
 /adpolestar*
+/adpolestar/*
 /adpopup.
 /adposid/*
 /adpreview?$popup
 /adpro.js
+/adproxy.
 /adpub^
 /adpuba/*
 /adpv/*
@@ -10839,6 +10940,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adready.s
 /adrectanglebanner?
 /adright*
+/adright.
 /adright.$domain=~adright.com
 /adriver_$~object
 /adrotate-
@@ -10851,6 +10953,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ads-
 /ads-04.
 /ads-api.
+/ads-arc.
 /ads-beacon.
 /ads-blocking-detector.
 /ads-loader.
@@ -10863,9 +10966,13 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ads.css
 /ads.gif
 /ads.htm$domain=~games.wkb.jp
+/ads.js?
+/ads.php
 /ads.release.
 /ads.txt
 /ads/*.js^
+/ads/ad_
+/ads/ads.
 /ads/adv/*
 /ads/assets/*
 /ads/async/*
@@ -10950,12 +11057,17 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adscontroller.
 /adscp*
 /adscpc/*
+/adscpv/*
+/adscript.
 /adscripts/*
 /adsct?
 /adsdk/*
 /adsearch.$domain=~adsearch.fr
+/adsence.
 /adsense-
+/adsense.
 /adsense.$~script,domain=~adsense.az|~adsense.googleblog.com
+/adsense/*
 /adsense2.
 /adsense?
 /adsenseClient-
@@ -10991,16 +11103,19 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adsmanager/*$domain=~github.com
 /adsnew.
 /adsp/*
+/adspace.
 /adspace.$~stylesheet,domain=~adspace.pro
 /adspace/*$domain=~adspaceagency.com
 /adspace?
 /adspaces.
 /adspot/*
+/adsrich.
 /adsrv.
 /adsrv/*
 /adsservedby.
 /adsservice.
 /adstat.
+/adstatic/*
 /adstatistics/*
 /adstats.
 /adsterra.$domain=~adsterra.com
@@ -11010,6 +11125,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adsv/*
 /adsview.
 /adswiper|
+/adswrapperintl.
 /adsys.$domain=~adsys.in
 /adsys/*
 /adsystem/*
@@ -11021,6 +11137,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adtech/*
 /adtech;
 /adtech_$domain=~adtech.co.uk
+/adtest/*
 /adtext.
 /adtmp/*
 /adtoniq-
@@ -11069,17 +11186,24 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adver/bannernew/*
 /adver_
 /advert-$domain=~advert-ai-landing.firebaseapp.com|~advert-ai-landing.web.app|~advert-ai.com|~advert-solutions.com|~advert-technology.com|~advert-technology.ru
+/advert.
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.ee|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
+/advert/*
 /advert01.
 /advert2.
 /advert?
 /advert^
+/advert_
 /advert_$domain=~canalplus.com
 /advertise-$~script,domain=~ads.microsoft.com|~advertise-solution.nl|~bingads.microsoft.com
+/advertise/*
 /advertise/*$domain=~legl.co
 /advertise^
 /advertise_
 /advertisement-$~script,domain=~berlin-airport.de
+/advertisement.
+/advertisement/*
+/advertisement_
 /advertisement_$~script
 /advertisements-
 /advertisements?
@@ -11088,6 +11212,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /advertises/*
 /advertising-$image,domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising-stands.com.ua|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.boardgamegeek.com|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.greunenberg.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
+/advertising/*$~xmlhttprequest,domain=~temple.edu
 /advertising/banners/*
 /advertising/traffic-
 /advertising?
@@ -11108,6 +11233,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /advertss/*
 /adverweb.
 /advflash*
+/advideo.$domain=~advideo.pro
 /advideo.$domain=~advideo.pro|~advideo.site
 /adview*
 /adview.$domain=~adview.mu|~adview.online|~adview.su
@@ -11137,6 +11263,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /adwords/*$domain=~google.com
 /adx-exchange.
 /adx.$domain=~adx.business|~adx.co.nz|~adx.cx|~adx.nz|~adx.rs|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
+/adx.$domain=~adx.uk.com|~adx.wowfi.com
 /adx?
 /adx_blacklist.js
 /adx_flash.
@@ -11172,6 +11299,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /afftracking.
 /aflog.gif?
 /afr.php?
+/afr?auid=
 /afrpt.gif?
 /afs/ads/*
 /aftrack.
@@ -11720,6 +11848,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ban.php?
 /banma.
 /banner-ad-
+/banner-ad.
 /banner-ads-
 /banner-ads/*
 /banner-tracker.
@@ -11735,6 +11864,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /banner/ads/*
 /banner/adv_
 /banner/alma2.jpg
+/banner468.
 /banner468x60_live173.
 /banner728x90_
 /banner_468x
@@ -11923,6 +12053,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /botd.gif?
 /bottom-ad-
 /bottom_ad.
+/bottomad/*
 /bounce_user_tracking-
 /bower_components/fp/fp.js
 /bps_sv.gif?
@@ -12034,6 +12165,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /cdn-monitoring-pixel.
 /cdn.ad.
 /cdn.stats2?
+/cdn/adx/*
 /cdn5.js?
 /cdn_cookie_service.$image
 /cdnperf-rum.
@@ -12100,6 +12232,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /checkForAdvertorials.
 /checkstat.asp
 /chicken.gif?*=
+/chinaadclient.
 /ci-capture.
 /cim_tns/spring.js
 /ciso_tracking/*
@@ -12320,6 +12453,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /com_joomlawatch/*
 /common/ad.
 /common/ad/*
+/common/ad_
 /common/ads/*
 /common/analytics.js
 /common/cf/*$image,object,domain=~bingfeng.tw
@@ -12372,6 +12506,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /content/plugins/em_ad/*
 /content/system.html
 /content/system.js
+/contentAd.
 /contentanalytics/*
 /contentiq.js
 /contents/other/player/*
@@ -12517,6 +12652,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /css/ad-$domain=~ad-shield.io
 /css/ad.
 /css/ads-
+/css/ads.
 /css/adsense
 /css/adv.
 /css/adv.css
@@ -12606,6 +12742,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /deliver.jphp?
 /deliverad/*
 /delivery/afr.
+/delivery/al.php
 /delivery/avw.
 /delivery/fl.
 /delivery/jsonp/?zoneid=
@@ -13010,6 +13147,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /fetch_adslot
 /figanalytics.
 /figanalytics/*
+/file/ads/*
 /filejoker.$image
 /files/ad/*
 /files/ads/*
@@ -13336,6 +13474,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /get_tracking_id?
 /get_tracking_url.
 /get_video_info*ad_id=
+/getad.$domain=~getad.pl
 /getad.$domain=~getad.pl|~getad.spd.pt
 /getad/*
 /getad?
@@ -13449,6 +13588,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /googlead/*
 /googlead_
 /googleads-$domain=~github.com|~github.io
+/googleads.
 /googleads.$~script,domain=~github.com|~github.io
 /googleads/*$domain=~github.com|~github.io
 /googleana.
@@ -13616,6 +13756,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /hserver/*
 /hstrck-detect.
 /ht.js?site_
+/html.ng/*
 /html/ad/*
 /html/taobao_focus_
 /htmm/20*.php$popup
@@ -13697,6 +13838,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /images/ad/*
 /images/adds/*
 /images/ads-$domain=~ads.com
+/images/ads/*
 /images/ads/*$domain=~oppdrettstorget.no
 /images/ads_
 /images/adv-
@@ -13733,6 +13875,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /img/ad-
 /img/ad.
 /img/ad/*
+/img/ad_
 /img/ad_$domain=~kazi.co.jp|~rakuten.co.jp
 /img/ads/*$domain=~save.ca
 /img/adv.
@@ -13819,9 +13962,12 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /inc/antiblock.
 /inc/poster.php
 /inc_ad.
+/include/ad/*
+/include/ad_
 /include/ads/*
 /include/js/ga-
 /includes/ads/*
+/includes/adv/*
 /includes/analytics.
 /includes/tracker/*
 /includes/tracking_
@@ -13958,6 +14104,8 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /js/adbuddy.min.js$script
 /js/admiral-
 /js/ads
+/js/ads-
+/js/ads.
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
@@ -13970,6 +14118,8 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /js/ads/youxiajiao.js
 /js/ads/zuoxiajiao.js
 /js/ads888/*
+/js/ads_
+/js/adv.
 /js/an-detect.min.js$script
 /js/an-scripts.js$script
 /js/an-scripts.min.js$script
@@ -14075,6 +14225,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /js/zb.js$script,third-party
 /js/zhong.js
 /js?event=page&
+/js_ad_utf8.
 /js_event_tracking/*
 /js_gpt.
 /js_hotlink.php?
@@ -14588,6 +14739,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /moatanalytics-
 /moatsdk.min.js
 /mobify_ga.gif
+/mobile-ad.
 /mobile.js$third-party
 /mobile/mads.js
 /mobile_ads-
@@ -14965,6 +15117,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /pagead/gen_
 /pagead/html/*
 /pagead/lvz?
+/pagead2.
 /pagead?
 /pagecpv/*
 /pagedot.gif?
@@ -15297,6 +15450,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /popunder.
 /popunder.js
 /popunder/*
+/popunder1000.
 /popunder2.js
 /popunder?
 /popunder_
@@ -15741,6 +15895,8 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /scr/wtixyd.js
 /screencount?vcid=
 /scribd_events?
+/script/ad.
+/script/ads.
 /script/analytics.
 /script/analytics/*
 /script/ga.js
@@ -15758,6 +15914,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /scripts/ad-
 /scripts/ad/*
 /scripts/ad_
+/scripts/ads.
 /scripts/ads/*
 /scripts/analitics.
 /scripts/analytics-
@@ -15895,6 +16052,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /show.js?sp=*&oid=
 /show/count.
 /show_ad?
+/show_ads.js
 /show_ads_
 /showad*
 /showad/*
@@ -15918,6 +16076,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /sideads.
 /sidebar-ad-
 /sidebarAnalytic?
+/sidebar_ad_
 /sidebar_ads/*
 /sidtracker.
 /sikcomscore_
@@ -15971,6 +16130,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /size=*/random=*/viewid=
 /sizes.gif?*=
 /sk1n-async.
+/skin/ad/*
 /skin/common.htm
 /skin/ecms082/images/kf-
 /skin/footer.$domain=iimanhua.cc|iimh.net
@@ -16522,6 +16682,8 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /topad*
 /topad.
 /topad/*
+/topad_
+/topads.
 /topads.$domain=~topads.me
 /topads/*
 /topic_beat_log?
@@ -16994,6 +17156,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /tw-track.js
 /twdc-dtci/prod/servercomponent.php?
 /txtAd1.
+/txtad.
 /tygg/*
 /tynt.js
 /tzr.fcgi?
@@ -17033,11 +17196,13 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /updateBotStatus.do?
 /updateStats.
 /update_hits3/*
+/upload/ads/*
 /upload/ads/*$domain=~ads.ae
 /upload/vod/2018-08-05/201808051533458526.png
 /uploaded/ads/*
 /uploadfile/ad/*
 /uploads/*/*-860x250*.gif$domain=aipa551.com|aipa552.com
+/uploads/ads/*
 /uploads/ads/*$domain=~bayie.com
 /uploads/adv/*
 /uploads/banners/*$domain=goalnepal.com|walletinvestor.com
@@ -17158,6 +17323,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /video_ads.
 /video_ads/*
 /video_count.php?
+/videoad.
 /videoad.$domain=~videoad.in
 /videoad/*
 /videoads.
@@ -17183,6 +17349,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /viewTracking.min.js
 /view_banner.
 /view_stats.js.php
+/viewad.
 /viewcount-service.
 /viewcount.ashx?*&referrer=
 /viewcounterjqueryproxy.
@@ -17492,6 +17659,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /ww-performance-
 /www.eporner.com\/[^xhr][^comment][1-9]{0,3}[a-z]{0,3}/$script,domain=eporner.com
 /www/ad/*
+/www/ads/*
 /www/delivery/*
 /www/if/*
 /www/iframe/*
@@ -17515,6 +17683,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 /xgemius_v2.
 /xgenius.
 /xgrghru981_23.js
+/xhfloatAdv.
 /xhr-ads.
 /xhr/b/c
 /xhr/b/s|
@@ -19235,6 +19404,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 720v8.com##.hidden-xs,[height="60"]
 720yun.com##DIV[class^="Ads_ads_"]
 7282818wednesday.1905715.com
+728x90.jpg|
 72g.com###sfmt,.ad_pic,.ad,[class^="ad-flash"],.ad-bottom,.ad-row
 72g.com##.recommended
 733dm.net##.middleAd
@@ -19531,13 +19701,16 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 ://*btbtt.*/view/image/QT_
 ://18comic*/templates/frontend/airav/js/jquery.avs-0.4.js
 ://8ox.cn/$third-party
+://a.ads.
 ://a02342.
 ://ad1.
+://ads.
 ://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads.$popup,badfilter
 ://ads.$popup,domain=~kakaku.com
 ://ads2.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+://adv.$domain=~adv.ru|~forex-tv-online.com
 ://affiliate.$third-party
 ://affiliates.$third-party
 ://aj2*.online^$xmlhttprequest,other
@@ -19707,18 +19880,21 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 ?ad_ids=
 ?ad_number=
 ?ad_tag=
+?ad_type=
 ?adformat=
 ?adid=
 ?adloc=
 ?adlocation=
 ?adsize=
 ?adspot_
+?adunit_id=
 ?adunitid=
 ?advertiser=
 ?advertiser_id=$domain=~ads.pinterest.com|~panel.rightflow.com
 ?advertiserid=$domain=~adadyn.com|~outbrain.com|~seek.co.nz|~seek.com.au
 ?advplaces=
 ?advtile=
+?adzone=
 ?bannerid=
 ?bv=0&autoScaleBox=$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
 ?client=ca-pub-$script,domain=karaoketexty.cz
@@ -19731,6 +19907,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 ?event=tracking:ajax
 ?eventtype=impression&pid=
 ?eventtype=request&pid=
+?file=ads&
 ?format=js|$script,domain=iprima.cz
 ?frm=*&ct=*&dit=$third-party
 ?guci=$subdocument,domain=iprima.cz
@@ -20047,6 +20224,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@|http://$xmlhttprequest,image,domain=cbsnews.com
 @@|http://*.net/*/$subdocument,third-party,domain=allanalpass.com|amy.gs|any.gs|cash4files.com|cash4links.co|deb.gs|drstickyfingers.com|dyo.gs|eafyfsuh.net|fapoff.com|filesonthe.net|freean.us|freegaysitepass.com|galleries.bz|goneviral.com|hornywood.tv|linkbabes.com|linkbucks.com|megaline.co|miniurls.co|picbucks.com|poontown.net|qqc.co|rqq.co|sasontnwc.net|seriousdeals.net|sexpalace.gs|theseblogs.com|theseforums.com|tinylinks.co|tnabucks.com|tubeviral.com|ultrafiles.net|urlbeat.net|whackyvidz.com|youfap.me|yyv.co|zatnawqy.net|zff.co
 @@|http://*adv$image,domain=naasongs.com|nsongs.com
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
@@ -21132,6 +21310,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||cbsistatic.com/scripts/NativeAdManager.js^$domain=cbsnews.com
 @@||ccb.com^*^ad
 @@||ccllaa.com^$generichide
+@@||cctv.com/js/cntv_Advertise.js
 @@||cd.connatix.com/connatix.player.js$domain=loot.tv
 @@||cd.connatix.com/connatix.playspace.js$domain=inc.com
 @@||cd.connatix.com/connatix.playspace.js$domain=loot.tv
@@ -25858,6 +26037,8 @@ _1_qqbr.js?$script,third-party
 _1baidu.js$script,third-party
 _300-250-
 _300600.
+_300_250.
+_300_250_
 _300x250&
 _300x250-
 _300x250.
@@ -25868,6 +26049,7 @@ _350x100.
 _420x80_
 _460_60.
 _468-60.
+_468.gif
 _468_60.
 _468_60_
 _468x60.
@@ -25902,12 +26084,15 @@ _ad.jsp?
 _ad.php?
 _ad/*.js*$domain=~mp.weixin.qq.com
 _ad/public/
+_ad01.
 _ad01.$domain=~adv.asahi.com
+_ad1.$~stylesheet
 _ad1.$~stylesheet,domain=~messenger.com
 _ad2.
 _ad3.
 _ad4.
 _ad5.
+_ad6.
 _ad6.$domain=~facebook.com|~facebookcorewwwi.onion|~messenger.com
 _ad9.
 _ad_background.
@@ -25938,6 +26123,7 @@ _adhoriz.
 _adobe_analytics.
 _adobe_analytics_
 _ads.html
+_ads.js?
 _ads.php?
 _ads/css/
 _ads1.
@@ -30742,6 +30928,7 @@ dlsharefile.com##+js(window.open-defuser)
 dm.cw49z0.cn
 dm.qa7mp9j.cn
 dm456.com,dm456.iqiyi.com##DIV[style*="height:90px;"],IFRAME[width="978"][height="90"],IFRAME[src^="/m/"],DIV#bdLeft,IFRAME[width="980"][height="92"],DIV#p-right,DIV#p-left
+dm5.com###a1
 dm5.com###youce
 dm5.com##.index-side-code
 dm5.com##div#float_tc_pop_299,div[adgroupid="0"],div.beitouc,div.cl760,div.cl970,.yddiv,.adCon,.adform_2,.adform_1,#nAd
@@ -32999,7 +33186,7 @@ g1.tagtic.cn
 g1c5.com
 gaara-fr.com###ga-skin-left
 gaara-fr.com###ga-skin-right
-gaara-fr.com###ga-skin-top||yinyouapp.com^
+gaara-fr.com###ga-skin-top! EasyList Lite
 gaara-fr.com###pub01
 gab.com##div[role="feed"] > a div[class][aria-label^="Sponsored:"]
 gadgetguideonline.com##+js(set-constant, ai_wait_for_jquery, noopFunc)
@@ -39237,6 +39424,7 @@ msn.cn##div[class^="nativeAd-DS-card"]
 msn.com###main > div.stripecontainer[aria-label="promotions"]
 msn.com###taboola-above-homepage-thumbnails
 msn.com##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
+msn.com##.ad
 msn.com##.adchoicesjs
 msn.com##.adlabel
 msn.com##.adprocess
@@ -44552,6 +44740,7 @@ tgfcer.com##.ad_headerbanner
 tgfcer.com##.ad_text
 tgfcer.com##.portalbox
 tgfcer.com##div[id^="ad_thread"]
+tgfcer.com#@##content_adv
 tgju.org##.advertise
 tgr.ygqjt.cn
 tgu.tjqwb.cn
@@ -51437,6 +51626,7 @@ zzpzero.com
 ||77777.org^$third-party
 ||777g.me/cs$script
 ||778669.com^
+||778669.com^$third-party
 ||7791.com.cn^
 ||7794.com$third-party
 ||7794.com^
@@ -53307,6 +53497,7 @@ zzpzero.com
 ||ad.daum.net^
 ||ad.digitimes.com.tw/*_bigbutton.jpg
 ||ad.directrev.com^$popup
+||ad.doubleclick.net^$~object-subrequest,third-party
 ||ad.edugram.com^
 ||ad.emule-island.eu^
 ||ad.ettoday.net^$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
@@ -53544,6 +53735,7 @@ zzpzero.com
 ||adf.acrosspf.com^
 ||adf.dahe.cn^
 ||adf.ly/funcript
+||adf.ly/js/$third-party,domain=~j.gs|~q.gs
 ||adf.ly/js/display.js
 ||adf.ly/js/link-converter.js
 ||adf.ly/puscript$script,domain=imgnova.xyz
@@ -53713,6 +53905,7 @@ zzpzero.com
 ||adnetasia.com^
 ||adnetpub.yaolan.com^
 ||adnetworkperformance.com^
+||adnetworkperformance.com^$third-party
 ||adnex.tech^
 ||adnext.co^
 ||adnext.fr^
@@ -53867,6 +54060,7 @@ zzpzero.com
 ||adsage.com^$third-party
 ||adsalvo.com^
 ||adsame.com^
+||adsame.com^$third-party
 ||adsb.pub^
 ||adsbang.top
 ||adsblockkpush.com^
@@ -54836,6 +55030,7 @@ zzpzero.com
 ||allyes.
 ||allyes.$third-party
 ||allyes.com^
+||allyes.com^$third-party
 ||almamedia.fi^*/scroll-monitor.min.js
 ||almasatten.com^
 ||alnko.cn^
@@ -54915,6 +55110,7 @@ zzpzero.com
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon_apstag.js,domain=wp.pl|money.pl|open.fm
 ||amazon-adsystem.com^
 ||amazon-adsystem.com^$domain=spiegel.de
+||amazon-adsystem.com^$third-party
 ||amazon-indonesia.vip^
 ||amazon.$removeparam=/^__mk_*_/
 ||amazon.$removeparam=/^aa_/
@@ -57120,6 +57316,7 @@ zzpzero.com
 ||bbttkk.com^
 ||bbtys.net^
 ||bbuni.com^
+||bbuni.com^$third-party
 ||bbvdd.com^
 ||bbvms.com/zone/js/zonestats.js
 ||bbwfvxw.cn^
@@ -59669,6 +59866,7 @@ zzpzero.com
 ||chihiro.nostalgie.fr^
 ||childlikecook.com^
 ||childlikeform.com^
+||china-netwave.com^$third-party
 ||china.chemnet.com/cnbanner/
 ||china.cn/js/common/daniel_pop/
 ||china.cn/js/common/local_hydn/
@@ -62426,6 +62624,7 @@ zzpzero.com
 ||dayouyuanliao.com^
 ||daysou.com/images/huaweicloud.png
 ||dazhantai.com^
+||dazhantai.com^$third-party
 ||dazhi360.cn^
 ||dazhonghua.cn^
 ||dazibenwm.com^
@@ -65395,6 +65594,7 @@ zzpzero.com
 ||exoclick.com/ad_track.js$important
 ||exoclick.com^
 ||exoclick.com^$domain=~admin.exoclick.com|~api.exoclick.com
+||exoclick.com^$third-party
 ||exofrwe.com^
 ||exomonyf.com^
 ||exoprsdds.com^
@@ -67726,6 +67926,7 @@ zzpzero.com
 ||googlesyndication.com/pagead/$domain=spiegel.de
 ||googlesyndication.com/safeframe/
 ||googlesyndication.com/safeframe/$domain=spiegel.de
+||googlesyndication.com/safeframe/$third-party
 ||googlesyndication.com/simgad/$domain=spiegel.de
 ||googlesyndication.com/sodar/$domain=spiegel.de
 ||googlesyndication.com^
@@ -71698,6 +71899,7 @@ zzpzero.com
 ||jiasule.com/static/js/http_error.js
 ||jiathis.com^
 ||jiawen88.com^
+||jiawen88.com^$third-party
 ||jiayi2019.top^
 ||jiayiss.com^
 ||jiayu.net/comiis_ad/
@@ -72807,6 +73009,7 @@ zzpzero.com
 ||kkbiqu2.com/js/one.js
 ||kkbiqu2.com/js/yuedu.js
 ||kkcaicai.com^
+||kkddlt2f.site^$third-party
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
 ||kkmacsqsbf.info^
@@ -73054,6 +73257,7 @@ zzpzero.com
 ||kukudm.com/mg/show
 ||kukudm.com/top.htm
 ||kukulm.com^
+||kukuplay.com/upload/*.swf
 ||kulcdtw.cn^
 ||kumao2018.com/temp/Banner/
 ||kumeng.cc
@@ -78710,6 +78914,7 @@ zzpzero.com
 ||ocexikc.cn^
 ||oci.dyn.com^
 ||oclaserver.com^$third-party
+||oclasrv.com^$third-party
 ||oclgbmykr.com^
 ||ocmail1.in/rtw/$image
 ||ocmhood.com^
@@ -80424,6 +80629,7 @@ zzpzero.com
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||pixfuture.com^$third-party
 ||pixfuture.net^
+||pixfuture.net^$third-party
 ||pixiedust.buzzfeed.com^
 ||piximedia.com^$third-party
 ||pixiv.org^
@@ -82893,6 +83099,7 @@ zzpzero.com
 ||revrtb.com^
 ||revrtb.net^
 ||revsci.net^
+||revsci.net^$third-party
 ||revupads.com^
 ||rewardsaffiliates.com^
 ||rewardtv.com^$third-party
@@ -89325,6 +89532,7 @@ zzpzero.com
 ||teacher1.shop^
 ||teads.tv^
 ||teads.tv^$domain=spiegel.de
+||teads.tv^$third-party
 ||tealiumiq.com^$domain=autobild.de|metal-hammer.de|musikexpress.de|transfermarkt.de
 ||tealiumiq.com^$third-party
 ||team-rec.jp^$third-party
@@ -90152,6 +90360,7 @@ zzpzero.com
 ||topolino.it^*/omniture.php?
 ||topprofitablecpm.com^
 ||topprofitablegate.com^
+||topqualitylink.com^$third-party
 ||toprevenuecpmnetwork.com^
 ||toprevenuenetwork.com^
 ||topsem.com^$third-party
@@ -96288,6 +96497,7 @@ zzpzero.com
 ||yinooo.com^
 ||yinvmh.com^
 ||yinyating.top^
+||yinyouapp.com^
 ||yinyuehu.cn^
 ||yinyuetai.com/others/admin/*_1200x100.
 ||yinyuetai.com/proment/get-play-medias?*&position=overlay
@@ -96680,6 +96890,7 @@ zzpzero.com
 ||ytuxrqbxf.com^
 ||ytybl.com^
 ||yu0123456.com^
+||yu0123456.com^$third-party
 ||yu520o.top^
 ||yu987.com^$third-party
 ||yuailairuci.com^
