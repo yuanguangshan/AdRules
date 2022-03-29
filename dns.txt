@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: WLWv1FaDTHuwycy8fLzuEw
+! Checksum: 7DF6OhfLod6x/KMsC0OvOQ
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-29 22:56:36（北京时间） 
-! Total count: 96956
+! Version: 2022-03-29 23:17:18（北京时间） 
+! Total count: 96953
 /ad.ams.
 /ad.min.
 /ad.redirect.
@@ -1923,7 +1923,6 @@
 ||36a5b7eb2808.com^
 ||36pn.com^
 ||36yoo.net^
-||372988.site^
 ||375553.com^
 ||3761fcd24ef9281f5.com^
 ||3765329.fls.doubleclick.net^
@@ -10933,7 +10932,6 @@
 ||afftrackr.com^
 ||afftrk.online^
 ||affvantage.com^
-||affyscan.online^
 ||afgfjdivrf.com^
 ||afgmyvid.com^
 ||afgr1.com^
@@ -50792,7 +50790,6 @@
 ||liveyield.com^
 ||livezombymil.com^
 ||livhdtv.com^
-||livromeu.online^
 ||livwrite.com^
 ||liwanting0305.com^
 ||liwhetsu.com^
@@ -96962,4 +96959,4 @@
 ||zzyonghao.com^
 ||zzz.pissrip.net^
 ||zzznews.ru^
-||zzznews.ruecede.com^
+||zzznews.ruxml.ak-is.net^
