@@ -14,7 +14,7 @@ echo '开始下载规则...'
 easylist=(
 #  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" #反广告屏蔽规则
 #  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #反广告屏蔽规则
-  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt" #EasyChina和Easylist 基础规则
+#  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt" #EasyChina和Easylist 基础规则
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #百度超级净化 @坂本大佬
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt" #一个URL过滤器
@@ -98,13 +98,10 @@ dns=(
   #以下规则不做阐述
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/gh-pages/Filters/filter.txt"
- # "https://adaway.org/hosts.txt" #adaway规则
   "https://abp.oisd.nl/basic/"
- # "https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/abp_light.txt"
   "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt"
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
   "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
-  "https://raw.githubusercontent.com/DandlionSprout/adfilt/master/AdGuard%20Home%20Compilation%20List/AdGuardHomeCompilationList-Notifications.txt"
 )
 
 hosts=(
@@ -179,7 +176,7 @@ cat allow-domains0.txt | sed '/^$/d' | grep -v "#" \
  | uniq | awk '!a[$0]++' > pre-allow1.txt  #将允许域名转换为ABP规则
 
 cat *.txt | sed '/^$/d' \
- |grep -E "^[\/][a-z][\S]+\.$" \
+ |grep -E "^\/[a-z]+?\.[a-z]+\.$" \
  |sort -u > l.txt
 
 #cat l.txt
