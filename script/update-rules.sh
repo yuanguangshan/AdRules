@@ -12,22 +12,15 @@ echo '新建TMP文件夹完成'
 # Start Download Filter File
 echo '开始下载规则...'
 easylist=(
-#  "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt" #反广告屏蔽规则
-#  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt" #反广告屏蔽规则
-#  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt" #EasyChina和Easylist 基础规则
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
   "https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt" #百度超级净化 @坂本大佬
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt" #一个URL过滤器
   "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt" #乘风视频广告规则
   "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt" #大萌主针的盗版网站的规则
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt" #Clean Url 扩展的规则
-#  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt" #My AdFilter (For PC)
-#  "https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt" #反广告拦截规则合集
   "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt" #杏梢的全量规则
-#  "https://filters.adtidy.org/extension/ublock/filters/104_optimized.txt"
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载按钮
-#  "https://easylist-downloads.adblockplus.org/fanboy-notifications.txt"
-#  "https://easylist-downloads.adblockplus.org/i_dont_care_about_cookies.txt"
+  "https://easylist.to/easylist/easyprivacy.txt"
 )
 
 easylist_plus=(
