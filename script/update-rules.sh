@@ -188,19 +188,19 @@ cat *.txt | sed '/^$/d' \
 
 echo 开始合并
 cat .././mod/rules/adblock-rules.txt easylist*.txt \
- | grep -Ev "^[(#!！[)]" | grep -v 'local.adguard.org' |grep -E -v "^[\.||]+[com]+[\^]$" \
+ | grep -Ev "^[(!！[)]" | grep -v 'local.adguard.org' |grep -E -v "^[\.||]+[com]+[\^]$" \
  | sort -n | uniq >> tmp-adblock.txt #处理主规则
 
 cat .././mod/rules/adblock-rules.txt *easylist*.txt full-adg*.txt \
- |grep -Ev "^[(#!！[)]" | grep -v 'local.adguard.org' \
+ |grep -Ev "^[(!！[)]" | grep -v 'local.adguard.org' \
  | sort -u | sort -n | uniq | awk '!a[$0]++' > tmp-adblock+adguard.txt #处理Plus规则
 
 cat adguard*.txt \
- |grep -Ev "^[(#!！[)]" \
+ |grep -Ev "^[(!！[)]" \
  | sort -n | uniq | awk '!a[$0]++' > tmp-adguard.txt #处理AdGuard的规则
 
 cat full-adguard*.txt \
- |grep -Ev "^[(#![)]" \
+ |grep -Ev "^[(![)]" \
  | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full.txt #处理AdGuard的Full规则
 
 #cat ubo-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-ubo.txt #处理AdGuard的规则
