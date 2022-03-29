@@ -1,0 +1,4 @@
+/fakethebitch\.com\/\d?\.php/$domain=fakethebitch.com
+/pcbeta\.com\/data\/cache\/(?:common)?_[a-z]{14}\.js\?/$script,~third-party,domain=pcbeta.com,match-case
+/pornpictureshq\.com\/[A-Za-z]+\d+\.html/$domain=pornpictureshq.com
+Binary file (standard input) matches
