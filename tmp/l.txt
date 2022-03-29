@@ -1,7 +1,0 @@
-/daclips\.in\/[A-Za-z0-9]{7,8}\.[A-Za-z0-9]{7,8}$/$domain=daclips.in
-/fakethebitch\.com\/\d?\.php/$domain=fakethebitch.com
-/fakethebitch\.com\/\d?\.php/$domain=fakethebitch.com
-/pcbeta\.com\/data\/cache\/(?:common)?_[a-z]{14}\.js\?/$script,~third-party,domain=pcbeta.com,match-case
-/pcbeta\.com\/data\/cache\/(?:common)?_[a-z]{14}\.js\?/$script,~third-party,domain=pcbeta.com,match-case
-/pornpictureshq\.com\/[A-Za-z]+\d+\.html/$domain=pornpictureshq.com
-/pornpictureshq\.com\/[A-Za-z]+\d+\.html/$domain=pornpictureshq.com
