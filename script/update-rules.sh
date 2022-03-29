@@ -140,8 +140,14 @@ wait
 
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list \
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts999.txt
+
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list \
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts998.txt
+
+curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt \
+ | grep -Ev "^!-- URL --[\s\S]*|\[Adblock Plus 2.0][\s\S]*!-- Host --" \
+ | sed "s/^0.0.0.0 &/g" > hosts997.txt
+
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt \
  | grep -v '^#' > plus-hosts1.txt
 echo '规则下载完成'
