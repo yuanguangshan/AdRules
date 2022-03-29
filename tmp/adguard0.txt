@@ -1,8 +1,8 @@
-! Checksum: uF/aG8DD8iQ7TZGUE14RRw
+! Checksum: D7j5DZDzKYJs2/frzViA9A
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.23.39
-! TimeUpdated: 2022-03-29T14:31:25+00:00
+! Version: 2.2.23.40
+! TimeUpdated: 2022-03-29T15:31:16+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -22582,6 +22582,7 @@ tf2r.com#@#.adverts
 ||districtm.ca^
 ||districtm.io^
 ||divaduolite.com^
+||divedconservativemember.com^
 ||dividedscientific.com^
 ||dj-updates.com^
 ||djfiln.com^
@@ -22679,6 +22680,7 @@ tf2r.com#@#.adverts
 ||dynspt.com^
 ||dynsrvtbg.com^
 ||dynssp.com^
+||dysuriasps.com^
 ||dz4ad.com^
 ||dzhjmp.com^
 ||dzienkudrow.com^
@@ -24399,6 +24401,7 @@ tf2r.com#@#.adverts
 ||occxfzqyhhq.com^
 ||oclgbmykr.com^
 ||ocmhood.com^
+||octicdsects.com^
 ||octoberanger.com^
 ||octopod.cc^
 ||odhrnejegx.com^
@@ -25865,6 +25868,7 @@ tf2r.com#@#.adverts
 ||tvgvlpnpetxysl.com^
 ||tvlipevrj.com^
 ||twentycustomimprovement.com^
+||twingedapoda.com^
 ||twinpinenetwork.com^
 ||twinrdack.com^
 ||twinrdsrv.com^
@@ -26129,6 +26133,7 @@ tf2r.com#@#.adverts
 ||webtradehub.com^
 ||wedgeenclosed.com^
 ||wegnimal.com^
+||wellishunderly.com^
 ||wellmov.com^
 ||wellnesszap.com^
 ||werelateral.com^
@@ -26402,6 +26407,7 @@ tf2r.com#@#.adverts
 ||zagxgmzmiledvh.com^
 ||zamiasbrouze.com^
 ||zaomavzcoww.com^
+||zaphakesleigh.com^
 ||zauglomo.net^
 ||zayac2volk11.com^
 ||zazennef.com^

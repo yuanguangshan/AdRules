@@ -1,8 +1,8 @@
-! Checksum: PqFkIsPXuyCcsOPR6OxgGg
+! Checksum: J3/v9reJBLV1YOLO6PuIPA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.66
-! TimeUpdated: 2022-03-29T14:30:44+00:00
+! Version: 2.1.13.67
+! TimeUpdated: 2022-03-29T15:30:35+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7270,6 +7270,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+whitebit.com###__layout > div > main + div.ui-kit.is-dark
 uber.com##div[data-baseweb="toaster"]
 prosta-spolka.pl###mfn-gdpr
 finishline.com###PrivacyPolicyBanner

@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: hDJk5m5y0D7OsRQ/AhQzMg
+! Checksum: 7PrcWV/aL7DfjYhvHHLDPw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-29 23:29:46（北京时间） 
-! Total count: 17113
+! Version: 2022-03-30 00:18:22（北京时间） 
+! Total count: 17115
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -8215,6 +8215,7 @@
 @@||iframe.twainmarky.online^$stealth,domain=yonjatv8.com
 @@||ifttt.com^$generichide
 @@||igeeksblog.com/wp-content/plugins/wp-quads-pro/assets/js/ads.js
+@@||igg-games.com^$ghide
 @@||igg-games.com^$script,1p
 @@||iglive.me^$generichide
 @@||ignboards.com^$ghide
@@ -17117,4 +17118,5 @@
 @@||zxctunnel.com^$ghide
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+@ageAdvert
 @||crunchyroll.com/*/ads_enabled_flag*.js$script

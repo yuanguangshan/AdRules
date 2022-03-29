@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: IP+9S210lyLrtTh/foJScQ
+! Checksum: didOJxxPgSoI3lODc5XAoQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-29 23:29:46（北京时间） 
-! Total count: 94407
+! Version: 2022-03-30 00:18:22（北京时间） 
+! Total count: 94414
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -28996,6 +28996,7 @@
 0.0.0.0 divaduolite.com
 0.0.0.0 divascam.com
 0.0.0.0 divavillage.advertserve.com
+0.0.0.0 divedconservativemember.com
 0.0.0.0 divehope.com
 0.0.0.0 divergentoffer.com
 0.0.0.0 dividedscientific.com
@@ -30404,6 +30405,7 @@
 0.0.0.0 dyshigichu.com
 0.0.0.0 dysoool.com
 0.0.0.0 dyssir.com
+0.0.0.0 dysuriasps.com
 0.0.0.0 dytupr.com
 0.0.0.0 dyuadask.com
 0.0.0.0 dyv1bugovvq1g.cloudfront.net
@@ -58080,6 +58082,7 @@
 0.0.0.0 octclck.xyz
 0.0.0.0 octffocdigiturk.cc
 0.0.0.0 octhkas.cn
+0.0.0.0 octicdsects.com
 0.0.0.0 octoberanger.com
 0.0.0.0 octobird.com
 0.0.0.0 octoclick.net
@@ -65166,6 +65169,7 @@
 0.0.0.0 qinongyouxuan.cn
 0.0.0.0 qinqiaotrade.com
 0.0.0.0 qinvaris.com
+0.0.0.0 qinzhihao.com
 0.0.0.0 qinzigenjudi.com
 0.0.0.0 qip.ng
 0.0.0.0 qip.ru
@@ -67800,6 +67804,7 @@
 0.0.0.0 rongangongzu.cn
 0.0.0.0 rongdingkeji.cn
 0.0.0.0 rongdingwl.cn
+0.0.0.0 rongedui.com
 0.0.0.0 rongeundhis.ru
 0.0.0.0 rongillenfinearts.com
 0.0.0.0 rongnews.com
@@ -88893,6 +88898,7 @@
 0.0.0.0 wellcalls.com
 0.0.0.0 welldanius.com
 0.0.0.0 wellgroomedbat.com
+0.0.0.0 wellishunderly.com
 0.0.0.0 welllwrite.com
 0.0.0.0 wellmadefrog.com
 0.0.0.0 wellmov.com
@@ -88922,6 +88928,7 @@
 0.0.0.0 wenluoxi.com
 0.0.0.0 wenqiche.com
 0.0.0.0 wenqixiefu.cn
+0.0.0.0 wenrunyu.com
 0.0.0.0 wensoono.com
 0.0.0.0 wentwidespread.com
 0.0.0.0 wenxiang.work

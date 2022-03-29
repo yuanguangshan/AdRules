@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: q68tzyoSD6m42hFx8msylg
+! Checksum: YPG5Mx6IIe82LW7ylSMH0A
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-29 23:29:46（北京时间） 
-! Total count: 97747
+! Version: 2022-03-30 00:18:22（北京时间） 
+! Total count: 97753
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -18694,7 +18694,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 3dmgame.com##a[href^="https://down.hyds360.com/"] > div[style]
 3dmgame.com#?#.downl_list:-abp-has(style)
 3dmodelshare.org#@#.homeadv
-3dn.ru,a-point.info,addfiles.ru,asia-tv.su,at.ua,autosimgames.ru,chernobyl-soul.com,clan.su,cliphq.ru,coop-lands.ru,db-energo.ru,devdrivers.ru,do.am,dtva-it-rus.gq,elegos.ru,elektronika56.ru,elektrosat.ru,fon-ki.com,for-gsm.ru,free-dream.ru,ftechedu.ru,fukushima-news.ru,gals.md,gamesdendy.ru,giginfo.ru,gloria-cedric.ru,goldformat.ru,greenflash.su,hero-empire.com,igrul-ka.ru,jetvis.ru,kinovego.ru,krasnickij.ru,krolmen.ru,kubik3.ru,megaclips.net,mod-rus.ru,moy.su,mp3songs.ru,mp4android.ru,mrcmirgorod.com.ua,mult-online.net,my1.ru,narod.ru,newgames.com.ua,novospasskoe-city.ru,omsimclub.ru,online-supernatural.ru,onlinestargate.ru,others.name,pidru4nik.com,pkrc.ru,play-force.ru,pokatushki-pmr.ru,pro-zakupki.ru,project-ss.ru,psxworld.ru,radiodom.org,rocketdockfree.ru,sdr-deluxe.com,skidrowcrack.ru,soft-game.net,stalker-gsc.ru,stalker-zone.info,stalkermods.ru,svadbatomsk.ru,tes-game.ru,torm-egan.ru,torrent-file.top,torfiles.ru,ucoz.club,ucoz.com,ucoz.net,ucoz.org,ucoz.ru,ucoz.ua,usite.pro,vodopads.ru,warcraftda.ru,xakevsoft.ru,xn--80aeshkkbdj.xn--p1ai,yaminecraft.ru,zona-stalkera.ru#$#abort-on-property-read Object.prototype.clunduse; abort-on-property-read k_init; abort-on-property-read Object.prototype.u_vastplayer
+3dn.ru,a-point.info,addfiles.ru,asia-tv.su,at.ua,autosimgames.ru,chernobyl-soul.com,clan.su,cliphq.ru,coop-lands.ru,db-energo.ru,devdrivers.ru,do.am,dtva-it-rus.gq,elegos.ru,elektronika56.ru,elektrosat.ru,fon-ki.com,for-gsm.ru,free-dream.ru,ftechedu.ru,fukushima-news.ru,gals.md,gamesdendy.ru,giginfo.ru,gloria-cedric.ru,goldformat.ru,greenflash.su,hero-empire.com,igrul-ka.ru,jetvis.ru,kinovego.ru,krasnickij.ru,krolmen.ru,kubik3.ru,megaclips.net,mod-rus.ru,moy.su,mp3songs.ru,mp4android.ru,mrcmirgorod.com.ua,mult-online.net,my1.ru,narod.ru,newgames.com.ua,novospasskoe-city.ru,obschestvo-9999.gq,omsimclub.ru,online-supernatural.ru,onlinestargate.ru,others.name,pidru4nik.com,pkrc.ru,play-force.ru,pokatushki-pmr.ru,pro-zakupki.ru,project-ss.ru,psxworld.ru,radiodom.org,rocketdockfree.ru,sdr-deluxe.com,skidrowcrack.ru,soft-game.net,stalker-gsc.ru,stalker-zone.info,stalkermods.ru,svadbatomsk.ru,tes-game.ru,torm-egan.ru,torrent-file.top,torfiles.ru,ucoz.club,ucoz.com,ucoz.net,ucoz.org,ucoz.ru,ucoz.ua,usite.pro,vodopads.ru,warcraftda.ru,xakevsoft.ru,xn--80aeshkkbdj.xn--p1ai,yaminecraft.ru,zona-stalkera.ru#$#abort-on-property-read Object.prototype.clunduse; abort-on-property-read k_init; abort-on-property-read Object.prototype.u_vastplayer
 3dpianyuan.net##div#frameWu92km,div#djscontent,div[style="float:left;margin-top:5px"]
 3dsiso.com#@##ad_global_above_footer
 3dsmaxvideo.ru,archicadvideo.ru,autocadvideo.ru,coreldrawvideo.ru,excelvideo.ru,kompasvideo.ru,photoshopvideo.ru,solidworksvideo.ru,wordvideo.ru###prozrachnyi2,#video_window2
@@ -63084,6 +63084,7 @@ zzpzero.com
 ||divaduolite.com^
 ||divcss5.com*/ibeifeng/
 ||divcss5.com*/liping/
+||divedconservativemember.com^
 ||divehope.com^$third-party
 ||divergentoffer.com^
 ||dividedscientific.com^
@@ -63846,6 +63847,7 @@ zzpzero.com
 ||dysitecdn.com/gg
 ||dysitecdn.com^*.php
 ||dyssir.com^
+||dysuriasps.com^
 ||dytt.com/oj.js
 ||dytt.com/pc.js
 ||dytt.com^*yb.js
@@ -78700,6 +78702,7 @@ zzpzero.com
 ||ocs-pl.oktawave.com/v1/AUTH_*/Reklamy/$object-subrequest,domain=freedisc.pl|reseton.pl
 ||octavius.rocks^$third-party
 ||octhkas.cn^
+||octicdsects.com^
 ||octoberanger.com^
 ||octomarket.com^$third-party
 ||octopart-analytics.com^$third-party
@@ -91730,6 +91733,7 @@ zzpzero.com
 ||twentytwowords.com/static/clients/twentytwowords/3CVQBi14_init.js
 ||twh5.com^
 ||twiago.com^$domain=spiegel.de
+||twingedapoda.com^
 ||twinpinenetwork.com^
 ||twinrdack.com^
 ||twinrdsrv.com/preroll.engine$xmlhttprequest,redirect=noop.txt
@@ -93747,6 +93751,7 @@ zzpzero.com
 ||wejibk.com.cn^
 ||wekb.club^
 ||wellgroomedbat.com^
+||wellishunderly.com^
 ||wellmadefrog.com^
 ||wellmov.com^
 ||wellnesszap.com^
@@ -96919,6 +96924,7 @@ zzpzero.com
 ||zap.buzz^$subdocument
 ||zap.dw-world.de^$image
 ||zapcdn.space/zapret.js
+||zaphakesleigh.com^
 ||zaphakesleigh.com^$third-party
 ||zappos.com/err.cgi?
 ||zappos.com/karakoram/js/main.
