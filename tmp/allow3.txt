@@ -3306,7 +3306,147 @@ mozilla-russia.org#@#img[width="88"][height="31"]
 ! Swedish
 @@||blocket.se^*/xtcore.js
 @@||reseguiden.se^*.siteCatalyst.js
-araba.net/bbs/read.cgi/internet/25463/1598352715/232
+ blocked
+@@||googletagmanager.com/gtm.js$domain=thethaiger.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/98801
+!+ PLATFORM(ios, ext_android_cb)
+@@||cdn.optimizely.com/js/*.js$domain=yemeksepeti.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/99421
+@@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=mediastream.microsoft.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/98682
+pizzakiosk.ee#@#img[width="88"][height="31"]
+! unbreak https://ozerki.ru/catalog/?q=%D0%BF%D0%B0%D1%80%D0%B0%D1%86%D0%B5%D1%82%D0%B0%D0%BC%D0%BE%D0%BB
+@@||cdn.retailrocket.*/*/tracking.js$domain=ozerki.ru
+! Vodafone app - error when viewing detail
+@@||dpm.demdex.net^$app=com.appseleration.android.selfcare
+! ! https://github.com/AdguardTeam/Scriptlets/issues/160
+! https://github.com/AdguardTeam/AdguardFilters/issues/97512
+!+ PLATFORM(ios, ext_safari)
+@@||googletagmanager.com/gtag/js?id=$domain=alternative.me|justjaredjr.com|r-graph-gallery.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/98557
+@@||googletagmanager.com/gtm.js$domain=iltalehti.fi
+! https://github.com/AdguardTeam/AdguardFilters/issues/98724
+@@||googletagmanager.com/gtag/js$domain=xl-bygg.no
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/797
+@@||ced-ns.sascdn.com/diff/video/current/libs/js/controller.js$domain=ln24.be
+@@||ced.sascdn.com/tag/*/smart.js$domain=ln24.be
+@@||googletagmanager.com/gtag/js$domain=ln24.be
+! https://github.com/AdguardTeam/AdguardFilters/issues/97229
+@@||recs.richrelevance.com/rrserver/p13n_generated.js$domain=drogaraia.com.br
+! https://github.com/AdguardTeam/AdguardFilters/issues/97207
+!#if (adguard_ext_firefox || ext_ublock)
+@@||cdn.mxpnl.com/libs/mixpanel-*-latest.min.js$domain=everydaykoala.com|sportzbonanza.com
+@@||certify-js.alexametrics.com/atrk.js$domain=wallpaperdata.com
+!#endif
+! welt.de - broken "News aus der Redaktion" https://github.com/AdguardTeam/AdguardFilters/issues/98289
+@@||cdn.taboola.com/libtrc/axelspringer-dieweltprojectberlin/loader.js$domain=welt.de
+@@||cdn.taboola.com/libtrc/impl.*.js$domain=welt.de
+@@||trc.taboola.com/axelspringer-dieweltprojectberlin/trc*json$domain=welt.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/101922
+! TODO: replace by redirect rule when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/166
+@@||bloctel.gouv.fr/assets/scripts/smarttag.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/97956
+! TODO: replace by redirect rule when it will be added - https://github.com/AdguardTeam/Scriptlets/issues/166
+@@||tag.aticdn.net/*/smarttag.js$domain=ebp.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/98014
+@@||ssl.geoplugin.net/javascript.gp$domain=retrohahn.myshopify.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/96576
+! It's caused by EasyPrivacy, but issue occurs only with content blockers, so fixed in our filters
+!+ PLATFORM(ios, ext_safari)
+@@||bing.com/fd/ls/GLinkPing.aspx?
+! https://github.com/AdguardTeam/AdguardFilters/issues/96375
+@@||googletagmanager.com/gtm.js$domain=gfn.ru
+! https://github.com/easylist/easylist/pull/9436
+@@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/96186
+@@||indeed.com/rpc/log/myjobs/transition_job_state$xmlhttprequest
+||indeed.com/rpc/log^$xmlhttprequest,other,image,redirect=nooptext,important
+! https://github.com/AdguardTeam/AdguardFilters/issues/97196
+@@||csm.cxpublic.com^$script,domain=tarzanweb.jp
+@@||cxense.com/cx.cce.js$domain=tarzanweb.jp
+@@||cxense.com/cx.js$domain=tarzanweb.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/96134
+@@||static.klaviyo.com/onsite/js/klaviyo.js$domain=productionmusiclive.com
+@@||klaviyo.com/ajax/subscriptions/subscribe$domain=productionmusiclive.com
+! idiva.com - broken video
+! url: https://www.idiva.com/videos/types-of-moms/if-indian-moms-were-influencers/videoshow/18024157
+@@||slike.indiatimes.com/feed/$domain=idiva.com
+! tvid.in - embedded player not showing
+@@||tvid.in/sdk/loader.js$domain=tvid.in
+@@||slike.indiatimes.com/feed^$domain=tvid.in
+! https://github.com/AdguardTeam/AdguardFilters/issues/95739
+@@||scdn.cxense.com/cx.js$domain=gizmodo.jp
+@@||api.cxense.com/public/widget/data$domain=gizmodo.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/96706
+!+ PLATFORM(ios, ext_android_cb)
+@@||googletagmanager.com/gtm.js$domain=live.vodafone.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/96520
+@@||facebook.com/tr$domain=rusradio.ru
+! https://github.com/AdguardTeam/AdguardFilters/issues/96151
+@@||googletagmanager.com/gtm.js$domain=nykaa.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/96271
+@@||api.fw.tv/embed/$domain=filmibeat.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/95470
+@@||google-analytics.com/analytics.js$domain=boostnote.io
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=boostnote.io
+! https://github.com/AdguardTeam/AdguardFilters/issues/95508
+@@||googletagmanager.com/gtm.js$domain=jn.pt
+! https://github.com/easylist/easylist/pull/9256
+@@||googletagmanager.com/gtm.js$domain=mangaseek.net
+! https://github.com/AdguardTeam/AdguardFilters/issues/95380
+@@||googletagmanager.com/gtm.js$domain=fortune.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/95512
+!+ PLATFORM(ios, ext_android_cb)
+@@||eduscho.at/*/exactag_clientside.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/95294
+@@||twowheeler.policybazaar.com/js/googleanalytics.js
+! fix no response on click
+@@||googletagmanager.com/gtm.js$domain=dholic.co.jp
+@@||googletagmanager.com/gtag/js$domain=dholic.co.jp
+! fix comments
+@@||googletagmanager.com/gtm.js$domain=eda.ru
+! https://github.com/AdguardTeam/AdguardFilters/issues/95222
+||googletagmanager.com/gtm.js$script,xmlhttprequest,redirect=googletagmanager-gtm,important,domain=cuk.pl
+||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=cuk.pl
+@@||googletagmanager.com/gtm.js$domain=cuk.pl
+@@||google-analytics.com/analytics.js$domain=cuk.pl
+! https://github.com/AdguardTeam/AdguardFilters/issues/95029
+@@||stats.g.doubleclick.net^|$app=com.nttdocomo.android.danimeapp
+@@||static.ads-twitter.com^|$app=com.nttdocomo.android.danimeapp
+@@||docomo-analytics.com^|$app=com.nttdocomo.android.danimeapp
+@@||google-analytics.com^|$app=com.nttdocomo.android.danimeapp
+! https://github.com/AdguardTeam/AdguardFilters/issues/95233
+||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=venturebeat.com
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||google-analytics.com/analytics.js$domain=venturebeat.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/95058
+@@||ups.xplosion.de/ctx?event_id=$domain=tz.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/95018
+@@||track.ksta.de/cre-*/tracking/tracking.js
+@@||track.ksta.de/cre-*/tracking/call.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/95534
+@@||collector.appconsent.io/save$domain=commentcamarche.net
+@@||collector.appconsent.io/hello$domain=commentcamarche.net
+! https://github.com/easylist/easylist/pull/9195
+@@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
+@@||googletagmanager.com/gtm.js$domain=benesse-style-care.co.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/94990
+@@||tag.aticdn.net/*/smarttag.js$domain=kicker.de
+! https://gamerch.com/to-arise/ comment form broken
+||gamerch.com/s3-assets/library/js/fingerprint2.min.js$script,redirect=noopjs,important
+@@||gamerch.com/s3-assets/library/js/fingerprint2.min.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/94457
+@@||googletagmanager.com/gtm.js$domain=infoq.com
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=infoq.com,important
+@@||google-analytics.com/analytics.js$domain=infoq.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/94577
+!+ PLATFORM(ios, ext_android_cb)
+@@||google-analytics.com/analytics.js$domain=key-hub.eu
+! https://github.com/AdguardTeam/AdguardFilters/issues/94674
+@@||lcs.naver.com/m?u=$domain=smartstore.naver.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/94219
+@@||play.google.com/log?$domain=meet.google.com
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/232
 !#if (!adguard_app_windows && !adguard_app_mac)
 @@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
 @@||log000.goo.ne.jp/js/VLTraceDMD.js$domain=news.goo.ne.jp

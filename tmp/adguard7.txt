@@ -1,8 +1,8 @@
-! Checksum: KIaFwZmnbZ6G9QR+T53q2Q
+! Checksum: 344+SP7haf/kCnG1PIpgsQ
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.58.47
-! TimeUpdated: 2022-03-29T07:31:27+00:00
+! Version: 2.0.58.51
+! TimeUpdated: 2022-03-29T10:31:33+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -818,6 +818,7 @@ slowturk.com.tr##.desc-share-group
 gammaplus.takeshobo.co.jp##.r-linkbutton.r-main
 wsj.com##div[class^="WSJTheme-module--infocard__share--"]
 wsj.com##div[class^="WSJTheme-module--share-"]
+zingnews.vn##.z-share-wrapper
 melonbooks.co.jp##.special_btns
 melonbooks.co.jp###head_btns
 melonbooks.co.jp##.product-under-sns-btns
@@ -833,13 +834,18 @@ suzuri.jp##.product__share-button-wrapper
 cybernews.com##.links-bar
 shop.benesse.ne.jp##.item-detail-sns
 kyounoryouri.jp##.common--sns-share
+japan.zdnet.com##.article-sns-btn
 news.line.me##.mdCMN03Share
+oceans-nadia.com##.c-sns-btn
 tvlife.jp##.entry-meta
 tvlife.jp##.meta-wrap
 cookien.com###middle_share_ttl
 lexpress.fr##div[data-trigger="share"]
 shop.driveplaza.com###plg_social_area
 app.famitsu.com##.aside-sns
+baby-calendar.jp,nikkeibp.co.jp##.snsBtn
+baby-calendar.jp##.article-sns-buttons
+baby-calendar.jp##.recipe-share-area
 nikkeibp.co.jp##.snsBtn
 shindanmaker.com###btn-modal-shareShindan
 aumo.jp##.entry-sns-btns
@@ -2029,7 +2035,8 @@ themeisle.com##.ti-tweet_wrapper
 tripoto.com##.margin-top-med[data-original-title="Share on Facebook"]
 outlookindia.com##.newstory_page_social > a:not(.gocomments)
 ferret-plus.com##.js-sns-share-action-button:not(.static-button-rss):not(.static-button-link)
-futurelearn.com##.ShareIconWrapper
+soundlibrary.pokemon.co.jp,futurelearn.com##.ShareIconWrapper
+soundlibrary.pokemon.co.jp##.fqGPxw
 futurelearn.com##.fl-share-this-wrap
 analyticsinsight.net##.share-article-body
 testbook.com##.share-icons-list

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: DbmjwJcV1qnw5SsxKscNLA
+! Checksum: cS1hUZpjo6mlTUAc2gLCVw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-29 16:16:49（北京时间） 
-! Total count: 77418
+! Version: 2022-03-29 19:28:22（北京时间） 
+! Total count: 77202
 /addtoany.
 /addtogoogle.
 /adsconsent.
@@ -290,7 +290,6 @@
 /youtubesquare.
 /zdconsent.
 /zdprivacy.
-@@||*bili*api.*^
 @@||1sapp.com^
 @@||3975.com^
 @@||7moor.com^
@@ -310,19 +309,15 @@
 @@||aizhigu.com.cn^
 @@||alcohol-soft.com^
 @@||alissl.ucdl.pp.uc.cn^
-@@||aod.itunes.apple.com^
-@@||aod.itunes.g.aaplimg.com^
 @@||api-game.meizu.com^
 @@||api.cortana.ai^
 @@||api.iplay.163.com^
 @@||api.jr.mi.com^
 @@||api.sec.miui.com^
 @@||api.tv.sohu.com^
-@@||api.yjllq.com^
 @@||apiwz.midukanshu.com^
 @@||apm3.music.163.com^
 @@||app.link^
-@@||app.qq.com^
 @@||appdownload.alicdn.com^
 @@||assets.ckjr001.com^
 @@||auditude.com^
@@ -333,7 +328,6 @@
 @@||binaryage.com^
 @@||bitbucket.io^
 @@||bj.bcebos.com^
-@@||bkimg.cdn.bcebos.com^
 @@||bluehost.com^
 @@||bluesoleil.com^
 @@||boxer.baidu.com^
@@ -383,7 +377,6 @@
 @@||d3tsytm1wtjqo2.cloudfront.net^
 @@||d5nxst8fruw4z.cloudfront.net^
 @@||da.mmarket.com^
-@@||dash.cloudflare.com^
 @@||data.bilibili.com^
 @@||data.video.iqiyi.com^
 @@||db5-eap.settings-win.data.microsoft.com.akadns.net^
@@ -401,7 +394,6 @@
 @@||dldir1.qq.com^
 @@||doublecklick.net^
 @@||down.360safe.com^
-@@||drive.quark.cn^
 @@||du.163.com^
 @@||duckdns.org^
 @@||duiba.com.cn^
@@ -445,7 +437,6 @@
 @@||gstaticadssl.l.google.com^
 @@||gvt1.com^
 @@||gvt2.com^
-@@||gw.m.163.com^
 @@||haohuo.snssdk.com^
 @@||hinet.net^
 @@||hlrcv.stage.adobe.com^
@@ -455,19 +446,15 @@
 @@||hubpd.com^
 @@||huoying666.com^
 @@||i.niupic.com^
-@@||idqqimg.com^
 @@||iface2.iqiyi.com^
 @@||iflow.uczzd.cn^
-@@||ilce.alicdn.com^
 @@||image.box.xiaomi.com^
 @@||image.uczzd.cn^
 @@||image.zzd.sm.cn^
 @@||imagetwist.com^
 @@||img.zuoyebang.cc^
 @@||img1.sj.qq.com^
-@@||imgstat.baidu.com^
 @@||imop.com^
-@@||inews.gtimg.com^
 @@||instant.page^
 @@||ip-adress.com^
 @@||ip-api.com^
@@ -501,7 +488,6 @@
 @@||licenses.adobe.com^
 @@||licenses.ashampoo.com^
 @@||licensing.tableausoftware.com^
-@@||list-manage.com
 @@||live-trace.bilibili.com^
 @@||live.simcitybuildit.com^
 @@||live800.com^
@@ -516,13 +502,9 @@
 @@||m.1234567.com.cn^
 @@||m.qpic.cn^
 @@||m.uczzd.cn^
-@@||maccms.com^
 @@||manhuachi.com^
-@@||map.qq.com^
 @@||mazu.3g.qq.com^
-@@||mb.yidianzixun.com^
 @@||mbd.baidu.com^
-@@||metrics1.data.hicloud.com^
 @@||minergate.com^
 @@||minexmr.com^
 @@||mini.eastday.com^
@@ -543,10 +525,7 @@
 @@||orbit.jd.com^
 @@||ozone.10jqka.com.cn^
 @@||p-l.play.aiseet.atianqi.com^
-@@||p.qlogo.cn^
 @@||pacaio.match.qq.com^
-@@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
-@@||pan.quark.cn^
 @@||pass.1688.com^
 @@||pdc.micloud.xiaomi.net^
 @@||pdst.fm^
@@ -570,10 +549,7 @@
 @@||pusher.com^
 @@||pv.sohu.com^
 @@||qihucdn.com^
-@@||qq-web.cdn-go.cn^
 @@||qualtrics.com^
-@@||quark.sm.cn^
-@@||qun.qq.com^
 @@||rambler.ru^
 @@||rarbg.to^
 @@||rarbg2019.org^
@@ -589,7 +565,6 @@
 @@||rarbgprx.org^
 @@||rarbgto.org^
 @@||rarbgway.org^
-@@||redditarchive.com^
 @@||resolver.msg.xiaomi.net^
 @@||retcode.taobao.com^
 @@||rs6.net^
@@ -624,12 +599,9 @@
 @@||sqimg.qq.com^
 @@||ss.cnnic.cn^
 @@||stat.10jqka.com.cn^
-@@||static.tieba.baidu.com^
-@@||static.yximgs.com^
 @@||stats.gc.apple.com^
 @@||stdl.qq.com^
 @@||subscription.iqiyi.com^
-@@||sug.browser.miui.com^
 @@||sugar.zhihu.com^
 @@||suo.im^
 @@||supportxmr.com^
@@ -653,7 +625,6 @@
 @@||tanx.com^
 @@||tbskip.taobao.com^
 @@||techsmith.com^
-@@||thirdwx.qlogo.cn^
 @@||threatbook.cn^
 @@||top.baidu.com^
 @@||tracking.epicgames.com^
@@ -666,14 +637,10 @@
 @@||upd.faronicslabs.com^
 @@||update.avlyun.sec.miui.com^
 @@||upload.cc^
-@@||uri6.com^
 @@||v.shopify.com^
 @@||v.smtcdns.net^
 @@||valf.atm.cp31.ott.cibntv.net^
-@@||w.pandora.xiaomi.com^
 @@||w8.com.cn^
-@@||wallpaper.cdn.pandora.xiaomi.com^
-@@||wan.yxskill.com^
 @@||wangbase.com^
 @@||wanproxy.127.net^
 @@||watchtimes.com.cn^
@@ -685,7 +652,6 @@
 @@||wl.jd.com^
 @@||wl.spotify.com^
 @@||woniu.com^
-@@||woozooo.com^
 @@||wtradv.market.xiaomi.com^
 @@||wup.imtt.qq.com^
 @@||www.bitsumactivationserver.com^
@@ -696,7 +662,6 @@
 @@||www.meipian7.cn^
 @@||www.supportxmr.com.cdn.cloudflare.net^
 @@||www.supportxmr.com^
-@@||wx.qlogo.cn^
 @@||wxapp.lvyadx.cn^
 @@||x6img.com^
 @@||xifuquan.com^
@@ -710,7 +675,6 @@
 @@||zconfig.alibabausercontent.com^
 @@||zimuku.la^
 @@||ztgame.com^
-Binary file (standard input) matches
 ||0.nextyourcontent.com^
 ||0.r.msn.com^
 ||00-gov.cn^
@@ -3346,7 +3310,6 @@ Binary file (standard input) matches
 ||aadultwork.com^
 ||aafdcq.com^
 ||aag.yahooapis.jp^
-||aaid.umeng.com^
 ||aakardesignstudio.com^
 ||aalbc.advertserve.com^
 ||aalures.com^
@@ -3667,8 +3630,6 @@ Binary file (standard input) matches
 ||access-analyze.org^
 ||access-mc.com^
 ||access.conversantmedia.com^
-||access.pangolin-sdk-toutiao-b.com^
-||access1.tpns.tencent.com^
 ||accessi.it^
 ||accessiblescopevisitor.com^
 ||accessintel.com^
@@ -9003,7 +8964,6 @@ Binary file (standard input) matches
 ||aetoaluminium.com^
 ||aetv.112.2o7.net^
 ||aetv.tt.omtrdc.net^
-||aeventlog.beacon.qq.com^
 ||aevents.izooto.com^
 ||aexception.bugly.qq.com^
 ||aexp.demdex.net^
@@ -9573,7 +9533,6 @@ Binary file (standard input) matches
 ||airsaurd.com^
 ||airserve.net^
 ||aiservice.vn^
-||aish.com^*-Subscribe-
 ||aishangcan.com^
 ||aishowbger.com^
 ||aishyana.com^
@@ -9832,8 +9791,6 @@ Binary file (standard input) matches
 ||alertmovingscam.com^
 ||alertpay.com^
 ||alerts.adpone.com^
-||alerts.ndtv.com^
-||alerts.thedailystar.net^
 ||alertsecurities.in^
 ||alespeonor.com^
 ||alessandraleone.com^
@@ -10052,7 +10009,6 @@ Binary file (standard input) matches
 ||allyes.cn^
 ||allyes.com^
 ||allywhistledpostman.com^
-||alma-cmp.almamedia.io^
 ||almasatten.com^
 ||almeriahot.com^
 ||almoeqatar.com^
@@ -10471,7 +10427,6 @@ Binary file (standard input) matches
 ||analytics-chi-nfl.yinzcam.com^
 ||analytics-cms.whitebeard.me^
 ||analytics-collector-28944298.us-east-1.elb.amazonaws.com^
-||analytics-consent-manager.azureedge.net^
 ||analytics-egain.com^
 ||analytics-eu.clickdimensions.com^
 ||analytics-eu.tactilews.com^
@@ -11366,8 +11321,6 @@ Binary file (standard input) matches
 ||api-05.com^
 ||api-2-0.spot.im^
 ||api-a.op-mobile.opera.com^
-||api-access.pangolin-sdk-toutiao-b.com^
-||api-access.pangolin-sdk-toutiao.com^
 ||api-ad-data.kajicam.com^
 ||api-ad.kajicam.com^
 ||api-adro.xtremepush.com^
@@ -12192,7 +12145,6 @@ Binary file (standard input) matches
 ||appclick.net^
 ||appclick.rqmob.com^
 ||appconfig.cmgdigital.com^
-||appconsent.io^
 ||appdatum.com^
 ||appdcars.com^
 ||appdeumext.tdameritrade.com^
@@ -12973,7 +12925,6 @@ Binary file (standard input) matches
 ||asti.pk^
 ||astop.xyz^
 ||astra9dlya10.com^
-||astrategy.beacon.qq.com^
 ||astrazichostfilez2.xyz^
 ||astro-way.com^
 ||astroadvicebaba.com^
@@ -17790,7 +17741,6 @@ Binary file (standard input) matches
 ||cache.am^
 ||cache.betweendigital.com^
 ||cache.celtra.com^
-||cache.datamart.windows.com^
 ||cache.dtmpub.com^
 ||cache.fm^
 ||cache.izearanks.com^
@@ -18386,7 +18336,6 @@ Binary file (standard input) matches
 ||cc.calltracking.ru^
 ||cc.connextra.com^
 ||cc.iwon.com^
-||cc.labu24.de^
 ||cc.lbesec.com^
 ||cc.swiftype.com^
 ||cc.sys.intl.xiaomi.com^
@@ -18429,7 +18378,6 @@ Binary file (standard input) matches
 ||ccmasheville.com^
 ||ccmdgg.com^
 ||cconseent.info^
-||ccpa-script.psg.nexstardigital.net^
 ||ccpa.psg.nexstardigital.net^
 ||ccpmo.com^
 ||ccportal.iad.apple.com^
@@ -19189,7 +19137,6 @@ Binary file (standard input) matches
 ||cdn2.specificmedia.com^
 ||cdn2.teads.tv.edgekey.net^
 ||cdn2.teads.tv^
-||cdn259.talksport.com^
 ||cdn2reference.com^
 ||cdn2sitescout-a.akamaihd.net^
 ||cdn3.adexprts.com^
@@ -19857,7 +19804,6 @@ Binary file (standard input) matches
 ||chochungcuhanoi.com^
 ||chocohjuanfhdhf.com^
 ||choconart.com^
-||choice.microsoft.com^
 ||choicedealz.com^
 ||choices.trustarc.com^
 ||choices.truste.com^
@@ -20919,22 +20865,10 @@ Binary file (standard input) matches
 ||cmp-lb-ap-southeast.tubemogul.com^
 ||cmp.112.2o7.net^
 ||cmp.advertising.com^
-||cmp.cdn.thesun.ie^
-||cmp.deondernemer.nl^
 ||cmp.dmgmediaprivacy.co.uk^
 ||cmp.dreamlab.pl^
 ||cmp.geodns.tubemogul.com^
-||cmp.infopro-digital.com^
-||cmp.lepoint.fr^
-||cmp.network-n.com^
-||cmp.nextday.media^
 ||cmp.optad360.io^
-||cmp.osano.com^
-||cmp.parkers.co.uk^
-||cmp.parool.nl^
-||cmp.pcwelt.de^
-||cmp.trouw.nl^
-||cmp.tvspielfilm.de^
 ||cmp.uniconsent.com^
 ||cmp.us.intellitxt.com^
 ||cmpdotnetjunkiescom.112.2o7.net^
@@ -21018,7 +20952,6 @@ Binary file (standard input) matches
 ||cnhitribunestara.122.2o7.net^
 ||cnhregisterherald.122.2o7.net^
 ||cnhv.co^
-||cnil.links-lab.fr^
 ||cniuv.com^
 ||cnjiudao.cn^
 ||cnjmvwowygm.com^
@@ -21792,20 +21725,9 @@ Binary file (standard input) matches
 ||consensad.com^
 ||consent-dev.mediaforge.com^
 ||consent-manager-events.ogury.io^
-||consent-wrapper.jameda.de^
-||consent.23g.io^
-||consent.amateurphotographer.co.uk^
-||consent.berliner-kurier.de^
-||consent.cmp.oath.com^
-||consent.faz.net^
-||consent.gutefrage.net^
 ||consent.linksynergy.com^
 ||consent.mediaforge.com^
-||consent.prismamedia.com^
-||consent.t-mobile.cz^
-||consent.themeteocompany.com^
 ||consentedconscientious.com^
-||consentement.ouest-france.fr^
 ||consentrenovate.com^
 ||consequentlyinmate.com^
 ||conservesoy.com^
@@ -22064,15 +21986,10 @@ Binary file (standard input) matches
 ||cookie-guard-erdee.ey.r.appspot.com^
 ||cookie-matching.mediarithmics.com^
 ||cookie-sync-service-prod.steelhousemedia.com^
-||cookie.aerostatonet.it^
 ||cookie.brealtime.com^
-||cookie.consents.app^
-||cookie.gazeta.pl^
 ||cookie.pebblemedia.be^
 ||cookie.sync.usonar.jp^
-||cookie.vrt.be^
 ||cookie.vrtzads.com^
-||cookie.wieni.be^
 ||cookiea1.veinteractive.com^
 ||cookiecontainer.blox.pl^
 ||cookiee1.veinteractive.com^
@@ -22083,19 +22000,7 @@ Binary file (standard input) matches
 ||cookiematch-us-east-1.prod.justpremium.com^
 ||cookiematch-us-west-2.prod.justpremium.com^
 ||cookies.cmpnet.com^
-||cookies.fakt.pl^
-||cookies.forbes.pl^
-||cookies.gardena.net^
-||cookies.innershed.co.uk^
-||cookies.jeugdjournaal.nl^
-||cookies.leadplace.fr^
 ||cookies.livepartners.com^
-||cookies.lmt.lv^
-||cookies.nos.nl^
-||cookies.ptj.de^
-||cookies.ster.nl^
-||cookies.teraz.sk^
-||cookies.unidadeditorial.es^
 ||cookiescript.info^
 ||cookiescriptcdn.pro^
 ||cookiesync.mparticle.com^
@@ -22198,7 +22103,6 @@ Binary file (standard input) matches
 ||corp.leanplum.com^
 ||corp.meitu.com^
 ||corp.specificmedia.com^
-||corp.sts.microsoft.com^
 ||corparquivos.s3.amazonaws.com^
 ||corpolevesuplementos.com.br^
 ||corporate.crakmedia.com^
@@ -23820,7 +23724,6 @@ Binary file (standard input) matches
 ||d2edfzx4ay42og.cloudfront.net^
 ||d2enprlhqqv4jf.cloudfront.net^
 ||d2ers4gi7coxau.cloudfront.net^
-||d2eucw4fxv7nil.cloudfront.net^
 ||d2fbkzyicji7c4.cloudfront.net^
 ||d2fbvay81k4ji3.cloudfront.net^
 ||d2fhjyz3dwdx87.cloudfront.net^
@@ -23883,7 +23786,6 @@ Binary file (standard input) matches
 ||d2qmp7jjpd79k7.cloudfront.net^
 ||d2qz7ofajpstv5.cloudfront.net^
 ||d2r173wcohmi6.cloudfront.net^
-||d2r1yp2w7bby2u.cloudfront.net^
 ||d2r3rw91i5z1w9.cloudfront.net^
 ||d2r7bmv6l6bnd1.cloudfront.net^
 ||d2rnkf2kqy5m6h.cloudfront.net^
@@ -24472,7 +24374,6 @@ Binary file (standard input) matches
 ||data.nexxt.com^
 ||data.optad360.com^
 ||data.queryly.com^
-||data.reachplc.com^
 ||data.sec.intl.miui.com^
 ||data.sec.miui.com^
 ||data.sharethis.com^
@@ -24511,7 +24412,6 @@ Binary file (standard input) matches
 ||datadsk.com^
 ||datafeed.a8.net^
 ||datafeedfile.com^
-||dataflow.biliapi.com^
 ||dataforce.net^
 ||datafront.co^
 ||dataidea.it^
@@ -25342,8 +25242,6 @@ Binary file (standard input) matches
 ||deviantart.crwdcntrl.net^
 ||device-api.asnapieu.com^
 ||device-api.urbanairship.com^
-||device-metrics-us-2.amazon.com^
-||device-metrics-us.amazon.com^
 ||device.4seeresults.com^
 ||device.marketingcloudapis.com^
 ||device.maxmind.com^
@@ -25472,7 +25370,6 @@ Binary file (standard input) matches
 ||diagnose.igstatic.com^
 ||diagnosedifferentlycompute.com^
 ||diagnosis.ad.intl.xiaomi.com^
-||diagnostics.support.microsoft.com^
 ||diagram-shape.com^
 ||diaita.ch^
 ||dialgold.com^
@@ -25542,7 +25439,6 @@ Binary file (standard input) matches
 ||diffusion-tracker.com^
 ||diffusionpub.com^
 ||difief.com^
-||dig.bdurl.net
 ||dig.bdurl.net^
 ||dig.ultimedia.com^
 ||digadser.com^
@@ -26666,7 +26562,6 @@ Binary file (standard input) matches
 ||ds-api-public.addthis.com.edgekey.net^
 ||ds-ll.serving-sys.com^
 ||ds-m.addthisedge.com.edgekey.net^
-||ds-recommender.styria.hr^
 ||ds-s7.addthis.com.edgekey.net^
 ||ds-ui-mockups.dev.gumgum.com^
 ||ds-vn.serving-sys.com^
@@ -27068,7 +26963,6 @@ Binary file (standard input) matches
 ||dz4ad.com^
 ||dz5bomaog2c5t.cloudfront.net^
 ||dzbrr144kh0m6.cloudfront.net^
-||dzc-metrics.mzstatic.com^
 ||dzctkjj.cn^
 ||dzd9.cn^
 ||dzgroup.vn^
@@ -28143,7 +28037,6 @@ Binary file (standard input) matches
 ||email.positionly.com^
 ||emailanywhere.co.za^
 ||emailer.raymandp.ir^
-||emailing.rfi.fr^
 ||emailretargeting.com^
 ||emancipation.org.in^
 ||emanog.com^
@@ -29483,7 +29376,6 @@ Binary file (standard input) matches
 ||external.monerise.com^
 ||external.simpleanalytics.io^
 ||extfiles.net^
-||extlog.snssdk.com^
 ||extmaps-api.yandex.net^
 ||extmedia.trafficstars.com^
 ||extnetcool.com^
@@ -30136,8 +30028,6 @@ Binary file (standard input) matches
 ||feedads.g.doubleclick.net^
 ||feedback.microsoft-hohm.com^
 ||feedback.promotionalads.yahoo.co.jp^
-||feedback.search.microsoft.com^
-||feedback.windows.com^
 ||feedbackexplorer.com^
 ||feedbackresearch.com^
 ||feedcat.net^
@@ -31522,7 +31412,6 @@ Binary file (standard input) matches
 ||fundamentalcoordinatebolt.com^
 ||fundamentalenvironmental.com^
 ||fundardsesaz.club^
-||fundingchoicesmessages.google.com^
 ||fundingxperts.com^
 ||fundlitebank.com^
 ||fungus.online^
@@ -31931,7 +31820,6 @@ Binary file (standard input) matches
 ||game.res.meizu.com^
 ||game.ssl2.duapps.com^
 ||game.weibo.com.cn^
-||game.weixin.qq.com^
 ||game4343.com^
 ||gameads-admin.applifier.com^
 ||gameads.io^
@@ -32263,10 +32151,7 @@ Binary file (standard input) matches
 ||gdpr.alcmpn.com^
 ||gdpr.branch.io^
 ||gdpr.fc2.com^
-||gdpr.internetbrands.com^
-||gdpr.laxd.com^
 ||gdpr.rw.yieldmo.com^
-||gdpr.studybreakmedia.com^
 ||gdrvwsqlikh.com^
 ||gds.mmstat.com^
 ||gds786bomyc.com^
@@ -33084,7 +32969,6 @@ Binary file (standard input) matches
 ||gmx.oewabox.at^
 ||gmyze.com^
 ||gmzdaily.com^
-||gn-flagpoles.api.bbci.co.uk^
 ||gnar.grammarly.com^
 ||gnatgrocery.com^
 ||gnatneatlyembodiment.com^
@@ -36259,7 +36143,6 @@ Binary file (standard input) matches
 ||i.singular.net^
 ||i.skimresources.com^
 ||i.smartnews-ads.com^
-||i.snssdk.com^
 ||i.trkjmp.com^
 ||i.ua-passport.top^
 ||i.uguu.se^
@@ -36275,7 +36158,6 @@ Binary file (standard input) matches
 ||i0s26ol9.com^
 ||i1.2leep.com^
 ||i1.cnt.my^
-||i1.services.social.microsoft.com^
 ||i1.teaser-goods.ru^
 ||i1010.smaato.net^
 ||i16-tb.isnssdk.com.edgekey.net^
@@ -37086,7 +36968,6 @@ Binary file (standard input) matches
 ||img1.yulu99.com^
 ||img1.zergnet.com^
 ||img100-321.xvideos.com^
-||img14.360buyimg.com^
 ||img16.diyifanwen.com^
 ||img2.126.net^
 ||img2.autoimg.cn^
@@ -37346,7 +37227,6 @@ Binary file (standard input) matches
 ||imuba.metodista.org.br^
 ||imwx.com^
 ||imzahrwl.xyz^
-||in-addr.arpa^
 ||in-appadvertising.com^
 ||in-cdn.effectivemeasure.net^
 ||in-gmtdmp.mookie1.com^
@@ -38343,7 +38223,6 @@ Binary file (standard input) matches
 ||is-tracking-pixel-api-prod.appspot.com^
 ||is-webs.com^
 ||is.accesstrade.net^
-||is.snssdk.com^
 ||is.yllix.com^
 ||is1.clixgalore.com^
 ||is2.websearch.com^
@@ -39201,7 +39080,6 @@ Binary file (standard input) matches
 ||joblessdrum.com^
 ||joblo.us.intellitxt.com^
 ||jobs.logrocket.com^
-||jobs.mobilemarketingreads.com^
 ||jobs.smartadserver.com^
 ||jobsfe.funshion.com^
 ||jobsnetwork.pk^
@@ -40483,7 +40361,6 @@ Binary file (standard input) matches
 ||koltypoolty.com^
 ||komi168.com^
 ||komloromnikopicko.com^
-||kommersant.uk^*-subscribe-
 ||komodia.com^
 ||komoona.com^
 ||kompasads.com^
@@ -40529,7 +40406,6 @@ Binary file (standard input) matches
 ||korastar.net^
 ||korat54ycat.com^
 ||korean911.com^
-||koreatimeshawaii.com^*_btn_top.
 ||korenizsemi.net^
 ||koreniztreh.net^
 ||korenizvosmi.net^
@@ -41004,7 +40880,6 @@ Binary file (standard input) matches
 ||lanistaconcepts.com^
 ||lankanewschannel.net^
 ||lankychaosrun.com^
-||lanm.huliyinzi.com
 ||lanonna.co.uk^
 ||lanopoon.net^
 ||lanshiwan.cn^
@@ -42018,7 +41893,6 @@ Binary file (standard input) matches
 ||liveupdt.com^
 ||liveviewer.ez.no^
 ||livew.l.qq.com^
-||liveweb*.msstatic.com^
 ||livewebstats.dk^
 ||livewell.net^
 ||livewidget.net^
@@ -42216,8 +42090,6 @@ Binary file (standard input) matches
 ||lofe.shop^
 ||lofv.xyz^
 ||log-api.aillis.net^
-||log-api.pangolin-sdk-toutiao-b.com^
-||log-api.pangolin-sdk-toutiao.com^
 ||log-collector.shopee.vn^
 ||log-collector.svctr.zynga.com^
 ||log-collectors-73517960.us-east-1.elb.amazonaws.com^
@@ -44271,7 +44143,6 @@ Binary file (standard input) matches
 ||mdpparents.112.2o7.net^
 ||mds.nipa.co.th^
 ||mdsatnali.com^
-||mdsngpush.finanzen.net^
 ||mdsp.avazutracking.net^
 ||mdstaugustine.112.2o7.net^
 ||mdt-www.marketo.com^
@@ -44974,7 +44845,6 @@ Binary file (standard input) matches
 ||metrics.apartments.com^
 ||metrics.api.drift.com^
 ||metrics.api.yle.fi^
-||metrics.apple.com^
 ||metrics.ariba.com^
 ||metrics.att.com^
 ||metrics.autobytel.com^
@@ -45019,7 +44889,6 @@ Binary file (standard input) matches
 ||metrics.ctvdigital.net^
 ||metrics.dailystrength.org^
 ||metrics.dallasnews.com^
-||metrics.data.hicloud.com^
 ||metrics.delta.com^
 ||metrics.dickssportinggoods.com^
 ||metrics.discovery.com^
@@ -45177,12 +45046,7 @@ Binary file (standard input) matches
 ||metrics.yellowpages.com^
 ||metrics.yousendit.com^
 ||metrics0.com^
-||metrics1.data.hicloud.com^
-||metrics2.data.hicloud.com^
-||metrics3.data.hicloud.com^
 ||metrics34.com^
-||metrics4.data.hicloud.com^
-||metrics5.data.hicloud.com^
 ||metricscollector.lp.xcal.tv^
 ||metricsimage.com^
 ||metricskey.com^
@@ -45369,7 +45233,6 @@ Binary file (standard input) matches
 ||midar.112.2o7.net^
 ||midas-i.com^
 ||midas-network.com^
-||midas.gtimg.cn^
 ||midasatlas.com^
 ||midastouchrt.com^
 ||midcru.112.2o7.net^
@@ -45779,7 +45642,6 @@ Binary file (standard input) matches
 ||mmptrack.com^
 ||mms.al.com^
 ||mms.cleveland.com^
-||mms.cmpsky.com^
 ||mms.cnn.com^
 ||mms.deadspin.com^
 ||mms.gizmodo.com^
@@ -46612,7 +46474,6 @@ Binary file (standard input) matches
 ||msjxxz.com^
 ||mskjf.com^
 ||mslinks-downloads.com^
-||msmetrics-test.ws.sonos.com^
 ||msmetrics.ws.sonos.com^
 ||msmobiles.de.intellitxt.com^
 ||msn-cdn.effectivemeasure.net^
@@ -46661,7 +46522,6 @@ Binary file (standard input) matches
 ||msr.cpufan.club^
 ||msri.club^
 ||mssbcprod.112.2o7.net^
-||mssdk-bu.snssdk.com^
 ||mstat.acestream.net^
 ||mstat.ga^
 ||mstcs.info^
@@ -47987,8 +47847,6 @@ Binary file (standard input) matches
 ||newsinternational.122.2o7.net^
 ||newsite.ugbswebakenyaltd.com^
 ||newsletter-link.com^
-||newsletter.bdnews24.com^
-||newsletters.vocento.com^
 ||newsm247.online^
 ||newsmagic.net^
 ||newsmaxfeednetwork.com^
@@ -48568,7 +48426,6 @@ Binary file (standard input) matches
 ||notification.trackpush.com^
 ||notification.tubecup.net^
 ||notification.webengage.com^
-||notifiche.secoloditalia.it^
 ||notifpush.com^
 ||notifscreen.com^
 ||notify-bugs-fra1.rtl.de^
@@ -48580,7 +48437,6 @@ Binary file (standard input) matches
 ||notify.beap.gemini.yahoo.com^
 ||notify.bugsnag.appstore.a2z.com^
 ||notify.bugsnag.com^
-||notify.hindustantimes.com^
 ||notify.mgid.com^
 ||notify.nuviad.com^
 ||notify.rocks^
@@ -48709,7 +48565,6 @@ Binary file (standard input) matches
 ||ns-vip3.hitbox.com^
 ||ns-zhy.com^
 ||ns.5.p2l.info^
-||ns.adobe.com^
 ||ns.netnet.or.jp^
 ||ns.nint.ac.cn^
 ||ns.rvmkitt.com^
@@ -48755,7 +48610,6 @@ Binary file (standard input) matches
 ||nsclickvideo.baidu.com^
 ||nscollectureob.info^
 ||nscontext.com^
-||nscreenmedia.com^*-newsletter.
 ||nsdfsfi1q8asdasdzz.com^
 ||nsdldlese.112.2o7.net^
 ||nsdsvc.com^
@@ -49527,7 +49381,6 @@ Binary file (standard input) matches
 ||okeyletsgo.ml^
 ||okgvtr.com^
 ||okinawatonic.club^
-||okjapan.jp^*_gotop_
 ||oklahomadepartmentofcommerce.112.2o7.net^
 ||okm918.com^
 ||okmagazine.us.intellitxt.com^
@@ -49738,7 +49591,6 @@ Binary file (standard input) matches
 ||one88.vip^
 ||oneandonlynetwork.com^
 ||oneapm.com^
-||onecollector.cloudapp.aria.akadns.net^
 ||onecomcomcomcom.com^
 ||oneday88.com^
 ||onedmp.com^
@@ -50333,8 +50185,6 @@ Binary file (standard input) matches
 ||otcdn2.auditude.com^
 ||otclick-adv.ru^
 ||otdsngganpsgru.com^
-||oth.eve.mdt.qq.com^
-||oth.eve.qq.com^
 ||othecheb.net^
 ||othepbuttit.com^
 ||other.appcpi.net^
@@ -51851,7 +51701,6 @@ Binary file (standard input) matches
 ||pgpartner.com^
 ||pgpl.g5e.com^
 ||pgpyce.com^
-||pgs.aviationweek.com^
 ||pgs.io^
 ||pgssl.com^
 ||pgt1.voyage-prive.es^
@@ -53747,14 +53596,11 @@ Binary file (standard input) matches
 ||pritesol.com^
 ||priusonline.us.intellitxt.com^
 ||priv-policy.imrworldwide.com^
-||privacy-cdn.sixfifty.com^
 ||privacy-policy.truste.com^
 ||privacy-tools-for-you-795.com^
 ||privacy.as.criteo.com^
-||privacy.claytonhomes.com^
 ||privacy.commander1.com^
 ||privacy.outdoorsg.com^
-||privacy.schibsted.com^
 ||privacy.smrtb.com^
 ||privacy.us.criteo.com^
 ||privacy.yieldlove-ad-serving.net^
@@ -53762,8 +53608,6 @@ Binary file (standard input) matches
 ||privacycounter.com^
 ||privacyheelvest.com^
 ||privacymorrowexecute.com^
-||privacypolicy.trgr.be^
-||privacyportal.fatergroup.com^
 ||privacyprotector.com^
 ||privacysearching.com^
 ||privacysecurityprotection.com^
@@ -53873,7 +53717,6 @@ Binary file (standard input) matches
 ||prod.html5-ads.vk-apps.com^
 ||prod.justpremium.com^
 ||prod.leanplum.com^
-||prod.nexusrules.live.com.akadns.net^
 ||prod.one.lt^
 ||prod.pr.analytics.console.aws.a2z.com^
 ||prod.pw.analytics.console.aws.a2z.com^
@@ -54725,7 +54568,6 @@ Binary file (standard input) matches
 ||push.app.autohome.com.cn^
 ||push.apusapps.com^
 ||push.cdnads.com^
-||push.cnnindonesia.com^
 ||push.connecto.io^
 ||push.content-ad.net^
 ||push.delivery.ethinking.de^
@@ -54740,7 +54582,6 @@ Binary file (standard input) matches
 ||push.mobile.kugou.com^
 ||push.mobilefonex.com^
 ||push.music.baidu.com^
-||push.neko-san.fr^
 ||push.oncustomer.asia^
 ||push.popcash.net^
 ||push.poptm.com^
@@ -56230,7 +56071,6 @@ Binary file (standard input) matches
 ||redir.goraps.com^
 ||redir.jads.co^
 ||redir.juicyads.com^
-||redir.metaservices.microsoft.com^
 ||redir.uprimp.com^
 ||redir9.alteabz.it^
 ||redirecionador.fun^
@@ -56962,7 +56802,6 @@ Binary file (standard input) matches
 ||revivestar.com^
 ||revlift.io^
 ||revmob.com^
-||revntv.com^*-Subscribe-
 ||revoffers.com^
 ||revoke-dashboard.com^
 ||revoltprohibit.com^
@@ -57371,7 +57210,6 @@ Binary file (standard input) matches
 ||rocm0c.site^
 ||rodeoconfig.yodo1api.com^
 ||rodeopolice.com^
-||rodo.agora.pl^
 ||roduster.com^
 ||roeraz.com^
 ||roewnand.biz^
@@ -58445,7 +58283,6 @@ Binary file (standard input) matches
 ||s3-analytics-events.easybrain.com^
 ||s3-ap-southeast-1-amazonaws.com^
 ||s3-ap-southeast-2-amazonaws.com^
-||s3-fe-scm.pglstatp-toutiao.com^
 ||s3-iad-2.cf.dash.row.aiv-cdn.net^
 ||s3-iad-ww.cf.videorolls.row.aiv-cdn.net^
 ||s3-us.servebom.com^
@@ -58487,7 +58324,6 @@ Binary file (standard input) matches
 ||s3015.t.eloqua.com^
 ||s323.t.eloqua.com^
 ||s39134.p938.sites.pressdns.com^
-||s3a.pstatp.com^
 ||s3cf.flashtalking.com^
 ||s3m.mediav.com^
 ||s3p.estream.to^
@@ -58553,7 +58389,6 @@ Binary file (standard input) matches
 ||sabaistsubmit.com^
 ||sabaithaimassage.com.au^
 ||sabavision.com^
-||sabcnews.com^*-iabsa-
 ||saber.srvcs.tumblr.com^
 ||sabio.us^
 ||sablesmile.com^
@@ -58784,7 +58619,6 @@ Binary file (standard input) matches
 ||sapatoru.widget.criteo.com^
 ||sapclasped.com^
 ||sape.ru^
-||sapere.it^*_slimheader.
 ||sapha.com^
 ||saporshoping.com^
 ||sapsixysho.pro^
@@ -58821,9 +58655,6 @@ Binary file (standard input) matches
 ||sass.webmine.pro^
 ||sass2.authcaptcha.com^
 ||sass2.directprimal.com^
-||sassyhongkong.com^*-mailchimp-
-||sassymamahk.com^*-Newsletter-
-||sassymamahk.com^*-news-letter-
 ||sat.public.bd.313.nl^
 ||sat.sanoma.fi^
 ||satarabazar.com^
@@ -59658,7 +59489,6 @@ Binary file (standard input) matches
 ||securegate9.com^
 ||securelogonweb.com^
 ||securely-send.com^
-||securemetrics.apple.com^
 ||securemoney.ru^
 ||securemypc.co.uk^
 ||securepaths.com^
@@ -60288,8 +60118,6 @@ Binary file (standard input) matches
 ||setrise.nl^
 ||setting.adzcore.com^
 ||setting.rayjump.com^
-||settings-sandbox.data.microsoft.com^
-||settings-win.data.microsoft.com^
 ||settings.crashlytics.com^
 ||settings.luckyorange.net^
 ||settlef.com^
@@ -60353,12 +60181,7 @@ Binary file (standard input) matches
 ||sf.bizible.com^
 ||sf.nazs.socdm.com^
 ||sf.vserv.mobi^
-||sf1-be-pack.pglstatp-toutiao.com^
 ||sf14g.com^
-||sf3-be-pack.pglstatp-toutiao.com^
-||sf3-fe-tos.pglstatp-toutiao.com^
-||sf3-ttcdn-tos.pstatp.com^
-||sf6-be-pack.pglstatp-toutiao.com^
 ||sf9yvla26s5t.com^
 ||sfads.osdn.com^
 ||sfceco.cn^
@@ -60367,7 +60190,6 @@ Binary file (standard input) matches
 ||sfg8mbh.cn^
 ||sfixretarum.com^
 ||sfl-engin.surge.systems^
-||sfl-fe-tos.pglstatp-toutiao.com^
 ||sfo1.ipromote.com^
 ||sfo2.ipromote.com^
 ||sfo3.ipromote.com^
@@ -61227,7 +61049,6 @@ Binary file (standard input) matches
 ||skatestooped.com^
 ||skattabrain.com^
 ||skcyber.xyz^
-||skdisplay.jd.com^
 ||skeettools.com^
 ||skegness.net^
 ||skelaxin.1.p2l.info^
@@ -61846,7 +61667,6 @@ Binary file (standard input) matches
 ||sochr.com^
 ||social-sb.com^
 ||social-touch.com^
-||social.dw.de^
 ||social.speaker20.com^
 ||socialadsonline.com^
 ||socialanxietysupport.us.intellitxt.com^
@@ -62157,15 +61977,6 @@ Binary file (standard input) matches
 ||source3.boys4dayz.com^
 ||sourcecode.pro^
 ||sourcelog.cool^
-||sourcepoint.avclub.com^
-||sourcepoint.deadspin.com^
-||sourcepoint.dexerto.com^
-||sourcepoint.gizmodo.com^
-||sourcepoint.jalopnik.com^
-||sourcepoint.lifehacker.com^
-||sourcepoint.theonion.com^
-||sourcepoint.theroot.com^
-||sourcepoint.thetakeout.com^
 ||sourcepoint.vice.com^
 ||sourcetobin.com^
 ||soursejone.com^
@@ -62250,7 +62061,6 @@ Binary file (standard input) matches
 ||sp.jconline.com^
 ||sp.jsonline.com^
 ||sp.kitsapsun.com^
-||sp.knowyourmeme.com^
 ||sp.knoxnews.com^
 ||sp.lancastereaglegazette.com^
 ||sp.lansingstatejournal.com^
@@ -62697,8 +62507,6 @@ Binary file (standard input) matches
 ||spylees.com^
 ||spylog.com^
 ||spylog.ru^
-||spynet2.microsoft.com^
-||spynetalt.microsoft.com^
 ||spyoff.com^
 ||spysubstance.com^
 ||spytrack.tic.ru^
@@ -64295,7 +64103,6 @@ Binary file (standard input) matches
 ||stockgroup.us.intellitxt.com^
 ||stockingsneeze.com^
 ||stocks-analytics-events.apple.com^
-||stocks-analytics-events.news.apple-dns.net^
 ||stockuz.com^
 ||stockyab.ir^
 ||stolytipse.com^
@@ -64653,7 +64460,6 @@ Binary file (standard input) matches
 ||sumbalowen.com^
 ||sumberiklan.com^
 ||sumedhaonline.com^
-||sumitclub.jp^*_topButton.
 ||summer.ntua.edu.tw^
 ||summerhamster.com^
 ||summerobject.com^
@@ -64909,7 +64715,6 @@ Binary file (standard input) matches
 ||sv-static-lottery.headlines.pw^
 ||sv-static1-lottery.headlines.pw^
 ||sv.brand-display.com^
-||sv.mnyh.fun^
 ||sv.nexoads.com^
 ||sv2.biz^
 ||sv88.com^
@@ -64999,7 +64804,6 @@ Binary file (standard input) matches
 ||swift.lifestreet.com^
 ||swiftad.com^
 ||swiftmining.win^
-||swimg2.tsderen.cn^
 ||swimslope.com^
 ||swimsunleisure.com^
 ||swingingcommunity.com^
@@ -65483,7 +65287,6 @@ Binary file (standard input) matches
 ||t1.clipkit.com^
 ||t1.extreme-dm.com^
 ||t1.trackalyzer.com^
-||t13.9to5google.com^
 ||t1g2.cn^
 ||t2.beanstalkdata.com^
 ||t2.chartboost.com^
@@ -66255,11 +66058,9 @@ Binary file (standard input) matches
 ||telemetries.jeeng.com^
 ||telemetry.api.playstation.com^
 ||telemetry.api.swiftkey.com^
-||telemetry.appex.bing.net^
 ||telemetry.art19.com^
 ||telemetry.jivosite.com^
 ||telemetry.malwarebytes.com^
-||telemetry.microsoft.com^
 ||telemetry.navigatorapp.net^
 ||telemetry.phenixrts.com^
 ||telemetry.reembed.com^
@@ -66270,7 +66071,6 @@ Binary file (standard input) matches
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
 ||telemetry.tradingview.com^
-||telemetry.urs.microsoft.com^
 ||telemetry.voxeet.com^
 ||telemetryverification.net^
 ||telenoticiasdepeten.com^
@@ -66622,7 +66422,6 @@ Binary file (standard input) matches
 ||theclubgym.in^
 ||thecoffeeilove.com^
 ||thecryptocurrencyconsultants.com^
-||thedailyblog.co.nz^*_Facebook_Promo-
 ||thedailystarcom.112.2o7.net^
 ||thedatesafe.com^
 ||thederati.com^
@@ -68771,7 +68570,6 @@ Binary file (standard input) matches
 ||traffic.revenuedirect.com^
 ||traffic.ru^
 ||traffic.shareaholic.com^
-||traffic.styria.hr^
 ||traffic.tc-clicks.com^
 ||traffic.tcmagnet.com^
 ||traffic2.adsconex.com^
@@ -69965,7 +69763,6 @@ Binary file (standard input) matches
 ||ufs.adkmob.com^
 ||ufz.doesxyz.com^
 ||ug-sg.byteoversea.com^
-||ug.snssdk.com^
 ||ugahutoa.com^
 ||uganod.com^
 ||ugc.moji001.com^
@@ -70368,7 +70165,6 @@ Binary file (standard input) matches
 ||uoredi.com^
 ||uowbqce.surf^
 ||uoyrsd.com^
-||up-cookiemon.wavecdn.net^
 ||up-rank.com^
 ||up.nytimes.com^
 ||up.qingdaonews.com^
@@ -70862,7 +70658,6 @@ Binary file (standard input) matches
 ||uttermosthobbies.com^
 ||utteroccupied.com^
 ||uttium.com^
-||uty.micocc.com
 ||uu.domainforlite.com^
 ||uu.qq.com^
 ||uu1.3gu.com^
@@ -71002,7 +70797,6 @@ Binary file (standard input) matches
 ||v2profit.com^
 ||v2st.shinobi.jp^
 ||v3-ads-st-vcdn.anthill.vn^
-||v3-be-pack.pglstatp-toutiao.com^
 ||v3-fastupload.s3-accelerate.amazonaws.com^
 ||v3-st-vcdn.anthill.vn^
 ||v3.denakop.com^
@@ -72266,10 +72060,6 @@ Binary file (standard input) matches
 ||voradu.com^
 ||voredi.com^
 ||vorseh.com^
-||vortex-sandbox.data.microsoft.com^
-||vortex-win.data.microsoft.com^
-||vortex.data.microsoft.com.akadns.net^
-||vortex.data.microsoft.com^
 ||vortex.data.msn.com^
 ||vot.beeppool.org^
 ||vote.sparklit.com^
@@ -72865,8 +72655,6 @@ Binary file (standard input) matches
 ||wateryvan.com^
 ||watieb.com^
 ||watrz.com^
-||watson.live.com^
-||watson.microsoft.com^
 ||wattpad.adsbynimbus.com^
 ||wau.tynt.com^
 ||waudeesestew.com^
@@ -75006,8 +74794,6 @@ Binary file (standard input) matches
 ||wxqcshgc.icu^
 ||wxs666.cn^
 ||wxskqy.cn^
-||wxsnsdy.wxs.qq.com^
-||wxsnsdythumb.wxs.qq.com^
 ||wxspfkln.com^
 ||wxtp.cdn.bcebos.com^
 ||wxxfqc.com^
@@ -76223,7 +76009,6 @@ Binary file (standard input) matches
 ||ymxlm.cc^
 ||ymxpb.com^
 ||ymzrrizntbhde.com^
-||yna.co.kr^*_btn_top.
 ||ynbojie.com^
 ||ynbyutongdianqi.com^
 ||yncjsc.cn^
@@ -76901,7 +76686,6 @@ Binary file (standard input) matches
 ||zglecc.com^
 ||zgncpjyw.cn^
 ||zgnieka.cn^
-||zgody.infor.pl^
 ||zgrsq.cn^
 ||zgsdk.zhugeio.com^
 ||zgsxhx.com^
@@ -77269,7 +77053,6 @@ Binary file (standard input) matches
 ||zt.1rx.io^
 ||zt2088.com^
 ||ztcadx.com^
-||zte.com.cn^*_back_top.
 ||zteikg.com^
 ||ztekkhosting.com^
 ||ztest1track.com^
@@ -77424,4 +77207,5 @@ Binary file (standard input) matches
 ||zzxlhwyp.com^
 ||zzy1.quyaoya.com^
 ||zzyonghao.com^
+||zzznews.ru1m3.com^
 ||zzznews.ru^
