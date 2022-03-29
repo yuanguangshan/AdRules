@@ -101,6 +101,11 @@ dns=(
   "https://abp.oisd.nl/basic/"
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
   "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
+  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt"
+  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
+  "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
+  "https://easylist.to/easylist/easyprivacy.txt"
 )
 
 hosts=(
