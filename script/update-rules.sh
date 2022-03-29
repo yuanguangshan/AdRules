@@ -145,7 +145,7 @@ curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts998.txt
 
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt \
- | grep -Ev "^!-- URL --[\s\S]*|\[Adblock Plus 2.0][\s\S]*!-- Host --" \
+ | grep -Ev "^!*-- URL --[\s\S]*|\[Adblock Plus 2.0][\s\S]*!*-- Host --" \
  | sed "s/^0.0.0.0 &/g" > hosts997.txt
 
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt \
@@ -182,7 +182,7 @@ cat allow-domains0.txt | sed '/^$/d' | grep -v "#" \
  | uniq | awk '!a[$0]++' > pre-allow1.txt  #将允许域名转换为ABP规则
 
 cat *.txt | sed '/^$/d' \
- |grep -E "^\/[a-z]+?\.[a-z]+\.$" \
+ |grep -E "^\/[a-z]+?\.[a-z]*\.$" \
  |sort -u > l.txt
 
 #cat l.txt
