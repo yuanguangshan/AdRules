@@ -1,8 +1,8 @@
-! Checksum: WLLTg+eQ1c+PtTeVOgwrJQ
+! Checksum: z2+Tp0gwT7ibVc3UqInkNg
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.63
-! TimeUpdated: 2022-03-29T12:30:49+00:00
+! Version: 2.1.13.65
+! TimeUpdated: 2022-03-29T13:30:46+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7270,6 +7270,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+uber.com##div[data-baseweb="toaster"]
 prosta-spolka.pl###mfn-gdpr
 finishline.com###PrivacyPolicyBanner
 ||dimedic.eu/*/cookies/cookies
@@ -10921,7 +10922,7 @@ openuserjs.org,oses.com.tr,turklab.com.tr,sanalmagaza.droetker.com.tr,discounto.
 generali.com.tr##.kvk-footer
 sonnenapotheke-hauenstein.de,apoase.de,apotheke-marienbrunn.de###cookie-message ~ .design
 cookpad.com##div[data-id="cookie_dialog"]
-alsatkitap.com,allday.com.tr##.cerez-politikasi
+inbox.com.tr,alsatkitap.com,allday.com.tr##.cerez-politikasi
 iys.org.tr##.cerezall
 bsl.com.tr,alvinaonline.com###CookieNotificationArea
 warnerbros.com###WB-floating-notice
@@ -18677,7 +18678,7 @@ partner.yahoo.co.jp##.Rsab
 gyao.yahoo.co.jp##.to-app-banner
 paypayfleamarket.yahoo.co.jp###appadbnr
 m.qoo10.jp##.app_download_banner
-||baby-calendar.jp/img/common/app/header_
+||baby-calendar.jp/img/common/app/
 s.kakaku.com##.homebtnbnr
 windy.com###open-in-app
 hk01.com##div[id^="ig-"][data-title$="app download"]
