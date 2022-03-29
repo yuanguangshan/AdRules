@@ -754,11 +754,13 @@
 @@www.any.gs$urlblock
 @@www.any.gs$urlblock
 @@www.cocomanga.com/js/ad_/ad2.js
+@@|(img[class^="head-info_authicon_"][src^="data"])
 @@|*ads.$script,domain=wstream.video
 @@|about:blank|$popup,domain=vipbox.*
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
 @@|affiliates.adsterra.com^|
+@@|area[style^="height:60px;"]
 @@|beta.affiliates.adsterra.com^|
 @@|beta.partners.adsterra.com^|
 @@|beta.publishers.adsterra.com^|
@@ -6222,6 +6224,7 @@
 @@||ctldl.windowsupdate.com^
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
+@@||ctrip.com/Customer-|zhaopin.cn^*/adbox_
 @@||ctrip.com^$important
 @@||ctrlv.link/js/seo-ads.js
 @@||ctrlv.link/js/seo-ads.js
