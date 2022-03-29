@@ -213,8 +213,8 @@ cat full-adguard*.txt \
 #cat ubo-full-adguard*.txt | grep -v '.!' | grep -v '^!' | grep -v '^# ' | grep -v '^# ' | grep -v '^\[' | grep -v '^\【' | sort -n | uniq | awk '!a[$0]++' > tmp-adguard-full-ubo.txt #处理AdGuard的规则
 
 cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.txt \
- | grep '^||\|^@@||' | grep -v './' \
- | grep -v '^\[' | grep -v '.\[' | grep -v '.\$' | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' \
+ | grep -E "^(||@)+[\S\s]+[\^]" \
+ | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' \
  | sed 's/\^|/\^/' |sort -n > ll.txt 
 
 cat l*.txt pre-allow1.txt abp-hosts*.txt \
