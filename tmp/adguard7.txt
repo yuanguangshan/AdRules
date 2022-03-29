@@ -1,8 +1,8 @@
-! Checksum: 344+SP7haf/kCnG1PIpgsQ
+! Checksum: 8+gxdr1mRdyiwH9SYiOdCg
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
-! Version: 2.0.58.51
-! TimeUpdated: 2022-03-29T10:31:33+00:00
+! Version: 2.0.58.52
+! TimeUpdated: 2022-03-29T11:31:28+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -911,7 +911,7 @@ gqjapan.jp##div[class^="NativeShareIconWrapper-"]
 gqjapan.jp##button[class^="BaseButton-"][data-event-click='{"pattern":"NativeShareButton"}']
 camcam.cc###show-sharing-buttons
 finders.me##.__post-share
-7x7-journal.ru##.article__footer-column-social-share
+semnasem.org##.article__footer-column-social-share
 svgoptimizer.com,epstopng.com,epstosvg.com,svgtopdf.com,pdftosvg.com,jpg2svg.com,svgtojpg.com,svgtopng.com,png2svg.com,pngtogif.com,giftopng.com,gifcompressor.com,giftomp4.com##.footer__title
 busan.com##.btns > li[onclick^="cosmosfarm_share_"][class]
 yoromaru.jp##.block-goods-sub--sns

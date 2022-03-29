@@ -1,8 +1,8 @@
-! Checksum: iei7MW6O7dJuIXCsY3btWw
+! Checksum: JE5RhEAthalEtCxYVuLidg
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.51.81
-! TimeUpdated: 2022-03-29T10:31:02+00:00
+! Version: 2.0.51.82
+! TimeUpdated: 2022-03-29T11:30:59+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -11046,6 +11046,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||010gkw.com/a*.js
 szxx.com.cn###A0
+lenovo.com.cn##.AdSite
 lspdfrcn.com###cancms_float_bar_fixed_bottom
 szxx.com.cn###A1
 szxx.com.cn###A2
