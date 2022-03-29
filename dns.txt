@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: vp7TY0my1svUJPgeFFomdg
+! Checksum: a0K4CT69ti5z0RKBva4/wQ
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-30 00:18:22（北京时间） 
-! Total count: 96790
+! Version: 2022-03-30 06:39:39（北京时间） 
+! Total count: 96817
 /ad.ams.
 /ad.min.
 /ad.redirect.
@@ -25159,6 +25159,7 @@
 ||concocting.wang^
 ||concord.systems^
 ||concreteriversideca.com^
+||concurfickle.com^
 ||concypt.com^
 ||conde.amp.permutive.com^
 ||condeconsumermarketing.112.2o7.net^
@@ -28190,6 +28191,7 @@
 ||dakic-ia-300.com^
 ||dakks.in^
 ||daklatasvir.su^
+||dakolk.com^
 ||dal9hkyfi0m0n.cloudfront.net^
 ||daldt.adsafeprotected.com^
 ||dalecta.com^
@@ -28222,6 +28224,7 @@
 ||damjangro.org^
 ||damlaelektrik.com^
 ||damnimcute.us.intellitxt.com^
+||damnpresume.com^
 ||damow.cn^
 ||dampdock.com^
 ||damskiy.xyz^
@@ -32484,6 +32487,7 @@
 ||eeoylmkd.com^
 ||eephysiotherapy.co.uk^
 ||eepl.me^
+||eepltxvnf.xyz^
 ||eepn.us.intellitxt.com^
 ||eeree.top^
 ||eererg.com^
@@ -37085,6 +37089,7 @@
 ||fribeiro.com.br^
 ||fridge.consumable.com^
 ||fridrici.info^
+||friedprovenance.com^
 ||friend-card.com^
 ||friend-greetings.com^
 ||friend17.net^
@@ -37199,6 +37204,7 @@
 ||fstatic.iadvize.com^
 ||fstats.xyz^
 ||fstaw.com^
+||fstexydzode.com^
 ||fstredirr.com^
 ||fstrk.net^
 ||fsxzbs.cn^
@@ -39671,6 +39677,7 @@
 ||goontex.com^
 ||gooo.al^
 ||gooods4you.com^
+||gooooodle.com^
 ||goosebomb.com^
 ||goosecontradiction.com^
 ||goosedetectives.com^
@@ -42820,6 +42827,7 @@
 ||hvato.info^
 ||hvcbkr.com^
 ||hvd-store.com^
+||hvooyieoei.com^
 ||hvrhgt.the-sun.com^
 ||hvrhgt.thescottishsun.co.uk^
 ||hvrhgt.thesun.co.uk^
@@ -45116,6 +45124,7 @@
 ||inspikon.com^
 ||inspire.webfleet.com^
 ||inspirebunwatchful.com^
+||inspiringaccurate.com^
 ||insta-cash.net^
 ||instabug.com^
 ||instadia.112.2o7.net^
@@ -47578,6 +47587,7 @@
 ||jyhfuqoh.info^
 ||jyhyfyjy.com^
 ||jyigozm.cn^
+||jyjgtpurrwg.xyz^
 ||jyjhkz.com^
 ||jynp9m209p.com^
 ||jypugepha.pro^
@@ -48266,6 +48276,7 @@
 ||kitrigthy.com^
 ||kittenmilletfoggy.com^
 ||kittyaction.com^
+||kityamurlika.com^
 ||kityko.com^
 ||kiupoo.stroeerdp.de^
 ||kivaphugri.com^
@@ -49846,6 +49857,7 @@
 ||lhhlkj.yoursuperfoods.de^
 ||lhhrupisllmy.com^
 ||lhinsights.com^
+||lhmmhobckftdcfx.top^
 ||lhs-3844b.com^
 ||lhxwnzht.cn^
 ||lhy1.xyz^
@@ -51855,6 +51867,7 @@
 ||lutanedukasi.co.id^
 ||lutsoops.net^
 ||luublimaluulo.com^
+||luulibaluli.com^
 ||luumhi.whatonearthcatalog.com^
 ||luuming.com^
 ||luuobigooubi.com^
@@ -55303,6 +55316,7 @@
 ||mijifen.com^
 ||mijinogu.com^
 ||mikaeljigmo.com^
+||mikellli.com^
 ||mikeloayza.com^
 ||mikhailmotoringschool.com^
 ||mikla.site^
@@ -59927,6 +59941,7 @@
 ||ocatdog.today^
 ||occi.opencoccoc.com^
 ||occultcreed.com^
+||occume.com^
 ||occupyskinnymaggot.com^
 ||occursexpertloving.com^
 ||occustantwidity.com^
@@ -60214,6 +60229,7 @@
 ||ohston.com^
 ||ohtdsplu.com^
 ||ohthub.com.cn^
+||ohxlwmto.com^
 ||oi.fapnado.com^
 ||oi.fapnado.xxx^
 ||oi.fapnow.xxx^
@@ -61347,6 +61363,7 @@
 ||oumbikcdwmjxqt.xyz^
 ||ouncialliberte.site^
 ||oundaymi.co^
+||ouorhxolxdqqf.com^
 ||oupaumul.net^
 ||oupe71eiun.com^
 ||ouphoarg.com^
@@ -63134,6 +63151,7 @@
 ||pgthetradedeskv275874568748.s.moatpixel.com^
 ||pgthetradedeskvideo910663478306.s.moatpixel.com^
 ||pgttdinnovidna5267443539015.s.moatpixel.com^
+||pgvgqtmy.com^
 ||ph-ad.focalink.com^
 ||ph-ad01.focalink.com^
 ||ph-ad02.focalink.com^
@@ -65798,6 +65816,7 @@
 ||pronostici.app^
 ||prontocampaign.com^
 ||pronunciationpreoccupyinconsistency.com^
+||pronunciationspecimens.com^
 ||proof-x.com^
 ||proof.mediaz.vn^
 ||proof.sudo.vn^
@@ -66958,6 +66977,7 @@
 ||qasqs.com^
 ||qatarchekmak.com^
 ||qatrhe.moonyamoonya.com^
+||qavkqjndaqjbre.xyz^
 ||qawiman.com^
 ||qayenl.amberholl.ru^
 ||qaykb.com^
@@ -74125,6 +74145,7 @@
 ||sift-campaign-creatives.sift.co^
 ||sift.com^
 ||siftscience.com^
+||siftshortagepopped.com^
 ||sifuglie.com^
 ||sig.atdmt.com^
 ||sig.nadex.com^
@@ -79521,6 +79542,7 @@
 ||sticker.yadro.ru^
 ||stickervillain.com^
 ||stickssheep.com^
+||sticksurroundingsconstitutional.com^
 ||stickyadstv.com.akadns.net^
 ||stickyadstv.com.edgekey.net^
 ||stickyadstv.com^
@@ -84655,6 +84677,7 @@
 ||track.sunmedia.tv^
 ||track.superad2.com.sg^
 ||track.superfastmediation.com^
+||track.swaptrap.live^
 ||track.tappx.com^
 ||track.tcppu.com^
 ||track.td3x.com^
@@ -85951,6 +85974,7 @@
 ||triphasil.3.p2l.info^
 ||triphasil.4.p2l.info^
 ||triplelift.com^
+||triplewhale-pixel.web.app^
 ||trippealbirthda.info^
 ||tripsbooth.com^
 ||tripsthorpelemonade.com^
@@ -90684,6 +90708,7 @@
 ||wd.staging.sharethis.com^
 ||wda.com^
 ||wdads.sx.atl.publicus.com^
+||wdagdictse.com^
 ||wdanjsscqabsi.com^
 ||wdc.beeppool.org^
 ||wdcs.trendmicro.com^
@@ -95051,6 +95076,7 @@
 ||yieldoptimizer.com^
 ||yieldpartners.com^
 ||yieldpass.com^
+||yieldrealistic.com^
 ||yieldscale.com^
 ||yieldselect.com^
 ||yieldsoftware.com^
@@ -95284,6 +95310,7 @@
 ||yoobest.cn^
 ||yoochoose.net^
 ||yookcasula.com^
+||yookimooki.com^
 ||yooli.com^
 ||yoomanies.com^
 ||yoomedia.de^

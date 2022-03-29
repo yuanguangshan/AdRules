@@ -1,8 +1,8 @@
-! Checksum: D7j5DZDzKYJs2/frzViA9A
+! Checksum: Jpx86iouZk7XS7/cmicmyw
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.23.40
-! TimeUpdated: 2022-03-29T15:31:16+00:00
+! Version: 2.2.23.41
+! TimeUpdated: 2022-03-29T16:31:18+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -15,6 +15,7 @@
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_setConstant=function(e,a){if("undefined"===a)a=void 0;else if("false"===a)a=!1;else if("true"===a)a=!0;else if("noopFunc"===a)a=function(){};else if("trueFunc"===a)a=function(){return!0};else if("falseFunc"===a)a=function(){return!1};else if(/^\d+$/.test(a)){if(a=parseFloat(a),isNaN(a)||32767<Math.abs(a))return}else return;var b=!1;AG_defineProperty(e,{get:function(){return a},set:function(c){if(b)var d=!0;else void 0!==c&&void 0!==a&&typeof c!==typeof a&&(b=!0),d=b;d&&(a=c)}})};
+||batsdivannab.com^
 ||garotas.info^
 ||adultnetworksc.com^$third-party
 ||housemaiddevolution.com^
@@ -13112,6 +13113,7 @@ implbits.com#@#.banner_container
 @@||gittigidiyor.com/*&gclid=$stealth
 @@||clickserve.dartsearch.net/link/click?*&gclid=$stealth
 !#########################################
+@@||api.mapbox.com/geocoding/$stealth
 @@||novelpia.com^$stealth
 @@||vaughnsoft.net/play/$stealth,domain=vaughn.live
 @@||imasdk.googleapis.com^$stealth,domain=news.tvb.com
@@ -21830,6 +21832,7 @@ tf2r.com#@#.adverts
 ||bapdqzqhu.com^
 ||baqyxncqiwedn.com^
 ||baradoot.com^
+||barbelskerugma.com^
 ||baresi.xyz^
 ||barfsmiaowpit.com^
 ||barkierrevives.com^
@@ -22344,6 +22347,7 @@ tf2r.com#@#.adverts
 ||commonvivacious.com^
 ||complicationaffrayframes.com^
 ||concentrationminefield.com^
+||concurfickle.com^
 ||condles-temark.com^
 ||condolecourtesywry.com^
 ||condolencessumcomics.com^
@@ -22471,8 +22475,10 @@ tf2r.com#@#.adverts
 ||daichoho.com^
 ||dailydistanceparallel.com^
 ||dairma.com^
+||dakolk.com^
 ||dalecta.com^
 ||damedamehoy.xyz^
+||damnpresume.com^
 ||dantbritingd.club^
 ||dapper.net^
 ||daredstrapelinor.com^
@@ -22736,6 +22742,7 @@ tf2r.com#@#.adverts
 ||eekdjxqjlrx.com^
 ||eensoans.com^
 ||eeoylmkd.com^
+||eepltxvnf.xyz^
 ||eergithi.com^
 ||eeroawug.com^
 ||eesihighlyrec.xyz^
@@ -23027,6 +23034,7 @@ tf2r.com#@#.adverts
 ||freshintimate.com^
 ||freychang.fun^
 ||friarsspiffy.com^
+||friedprovenance.com^
 ||friskindebtedtorch.com^
 ||fristminyas.com^
 ||frnwvialjbey.xyz^
@@ -23037,6 +23045,7 @@ tf2r.com#@#.adverts
 ||fsalfrwdr.com^
 ||fsobjvtkew.com^
 ||fsswokpc.com^
+||fstexydzode.com^
 ||fsznrodyocq.com^
 ||ftblltrck.com^
 ||ftd.agency^
@@ -23404,6 +23413,7 @@ tf2r.com#@#.adverts
 ||hurriedlyvaliantperplex.com^
 ||husfly.com^
 ||hushpub.com^
+||hvooyieoei.com^
 ||hwsokkar.com^
 ||hxnfgzotzkhbpw.com^
 ||hxrylvbm.com^
@@ -23508,6 +23518,7 @@ tf2r.com#@#.adverts
 ||insnative.com^
 ||insolencemanipulative.com^
 ||inspectorstrongerpill.com^
+||inspiringaccurate.com^
 ||instaflrt.com^
 ||instauser.tk^
 ||instinctiveads.com^
@@ -23684,6 +23695,7 @@ tf2r.com#@#.adverts
 ||jxirpyci.com^
 ||jxqkiqpvg.com^
 ||jygotubvpyguak.com^
+||jyjgtpurrwg.xyz^
 ||jypugepha.pro^
 ||kagrooxa.net^
 ||kahrpinvritz.com^
@@ -23730,6 +23742,7 @@ tf2r.com#@#.adverts
 ||kinsmenmislies.com^
 ||kirnscraps.com^
 ||kitrigthy.com^
+||kityamurlika.com^
 ||kiwqdhfvrxf.xyz^
 ||kiynew.com^
 ||kkmacsqsbf.info^
@@ -23844,6 +23857,7 @@ tf2r.com#@#.adverts
 ||lghdoxzulv.com^
 ||lgpumcja.com^
 ||lhacgsdvkrm.com^
+||lhmmhobckftdcfx.top^
 ||lhs-3844b.com^
 ||li2meh6eni3tis.com^
 ||liantmartier.info^
@@ -23939,6 +23953,7 @@ tf2r.com#@#.adverts
 ||luomjtajrhaqan.xyz^
 ||lurgaimt.net^
 ||luublimaluulo.com^
+||luulibaluli.com^
 ||luuming.com^
 ||luuobigooubi.com^
 ||luvaihoo.com^
@@ -24397,6 +24412,7 @@ tf2r.com#@#.adverts
 ||obrqetfu.xyz^
 ||obtainlylibuk.club^
 ||oc2tdxocb3ae0r.com^
+||occume.com^
 ||occustantwidity.com^
 ||occxfzqyhhq.com^
 ||oclgbmykr.com^
@@ -24423,6 +24439,7 @@ tf2r.com#@#.adverts
 ||ogmghzpyq.com^
 ||ograuwih.com^
 ||ohsatum.info^
+||ohxlwmto.com^
 ||ointmentaloofpincers.com^
 ||oirmwitmrfpl.com^
 ||ojpem.com^
@@ -24513,6 +24530,7 @@ tf2r.com#@#.adverts
 ||oufauthy.net^
 ||ouftukoo.net^
 ||oujouniw.com^
+||ouorhxolxdqqf.com^
 ||oupaumul.net^
 ||ouphoarg.com^
 ||ouphouch.com^
@@ -24641,6 +24659,7 @@ tf2r.com#@#.adverts
 ||pgbxrigvbmdz.com^
 ||pgntcjglm.com^
 ||pgonews.pro^
+||pgvgqtmy.com^
 ||phagueq.cn^
 ||phalingy.net^
 ||phapihwvah.com^
@@ -24819,6 +24838,7 @@ tf2r.com#@#.adverts
 ||projectagoratech.com^
 ||projectwonderful.com^
 ||promo-bc.com^
+||pronunciationspecimens.com^
 ||propellerclick.com^
 ||proposedpartly.com^
 ||propu.sh^
@@ -24946,6 +24966,7 @@ tf2r.com#@#.adverts
 ||q1mediahydraplatform.com^
 ||q8ntfhfngm.com^
 ||qatarchekmak.com^
+||qavkqjndaqjbre.xyz^
 ||qbcpicrtdje.com^
 ||qdatasales.com^
 ||qdayipnsir.com^
@@ -25395,6 +25416,7 @@ tf2r.com#@#.adverts
 ||siamtheo.online^
 ||siamzone.com^
 ||sidebyz.com^
+||siftshortagepopped.com^
 ||sightjutfar.com^
 ||sikrlzlq.com^
 ||silklanguish.com^
@@ -25568,6 +25590,7 @@ tf2r.com#@#.adverts
 ||stelagharris.com^
 ||sterilecute.com^
 ||stevoglutu.com^
+||sticksurroundingsconstitutional.com^
 ||stilfb.com^
 ||stimtavy.net^
 ||stinkcomedian.com^
@@ -26125,6 +26148,7 @@ tf2r.com#@#.adverts
 ||wciivrou.com^
 ||wcjlsohd.com^
 ||wct.link^
+||wdagdictse.com^
 ||wdeliv.net^
 ||wdvnvwayfcy.com^
 ||web-security.cloud^
@@ -26346,6 +26370,7 @@ tf2r.com#@#.adverts
 ||yieldmanager.com^
 ||yieldmanager.net^
 ||yieldoptimizer.com^
+||yieldrealistic.com^
 ||yieldscale.com^
 ||yiopse.com^
 ||yitcmu.com^
@@ -26368,6 +26393,7 @@ tf2r.com#@#.adverts
 ||yomeno.xyz^
 ||yonhelioliskor.com^
 ||yookcasula.com^
+||yookimooki.com^
 ||yoopigoopi.com^
 ||yougotacheck.com^
 ||your-notice.com^
@@ -26988,6 +27014,7 @@ tf2r.com#@#.adverts
 ||jelulymy.pro^$popup
 ||jomtingi.net^$popup
 ||jrpkizae.com^$popup
+||kityamurlika.com^$popup
 ||linkonclick.com^$popup
 ||linkredirect.biz^$popup
 ||liveadexchanger.com^$popup
@@ -27014,6 +27041,7 @@ tf2r.com#@#.adverts
 ||pontymonti.com^$popup
 ||procuredawestruckpoint.com^$popup
 ||profitablegate.com^$popup
+||pronunciationspecimens.com^$popup
 ||psuhexitu.pro^$popup
 ||qz496amxfh87mst.com^$popup
 ||realsrv.com^$popup
@@ -27028,6 +27056,7 @@ tf2r.com#@#.adverts
 ||runkillmiss.top^$popup
 ||safestgatetocontent.com^$popup
 ||saycasksabnegation.com^$popup
+||siftshortagepopped.com^$popup
 ||slidecaffeinecrown.com^$popup
 ||slipdashedundermine.com^$popup
 ||smallfunnybears.com^$popup
@@ -27046,6 +27075,7 @@ tf2r.com#@#.adverts
 ||vcdc.com^$popup
 ||videocampaign.co^$popup
 ||vkgtrack.com^$popup
+||vooshagy.net^$popup
 ||whampamp.com^$popup
 ||whapsomuku.com^$popup
 ||whopexesho.pro^$popup

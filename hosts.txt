@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: didOJxxPgSoI3lODc5XAoQ
+! Checksum: eVdddQOq7gOD2hF4N4lnUw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-30 00:18:22（北京时间） 
-! Total count: 94414
+! Version: 2022-03-30 06:39:39（北京时间） 
+! Total count: 94441
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -24126,6 +24126,7 @@
 0.0.0.0 concocting.wang
 0.0.0.0 concord.systems
 0.0.0.0 concreteriversideca.com
+0.0.0.0 concurfickle.com
 0.0.0.0 concypt.com
 0.0.0.0 conde.amp.permutive.com
 0.0.0.0 condemnwithgrandfather.com
@@ -27090,6 +27091,7 @@
 0.0.0.0 dakic-ia-300.com
 0.0.0.0 dakks.in
 0.0.0.0 daklatasvir.su
+0.0.0.0 dakolk.com
 0.0.0.0 dal9hkyfi0m0n.cloudfront.net
 0.0.0.0 daldt.adsafeprotected.com
 0.0.0.0 dalecta.com
@@ -27122,6 +27124,7 @@
 0.0.0.0 damjangro.org
 0.0.0.0 damlaelektrik.com
 0.0.0.0 damnimcute.us.intellitxt.com
+0.0.0.0 damnpresume.com
 0.0.0.0 damow.cn
 0.0.0.0 dampdock.com
 0.0.0.0 damskiy.xyz
@@ -31293,6 +31296,7 @@
 0.0.0.0 eeoylmkd.com
 0.0.0.0 eephysiotherapy.co.uk
 0.0.0.0 eepl.me
+0.0.0.0 eepltxvnf.xyz
 0.0.0.0 eepn.us.intellitxt.com
 0.0.0.0 eeree.top
 0.0.0.0 eererg.com
@@ -35770,6 +35774,7 @@
 0.0.0.0 fribeiro.com.br
 0.0.0.0 fridge.consumable.com
 0.0.0.0 fridrici.info
+0.0.0.0 friedprovenance.com
 0.0.0.0 friend-card.com
 0.0.0.0 friend-greetings.com
 0.0.0.0 friend17.net
@@ -35884,6 +35889,7 @@
 0.0.0.0 fstatic.iadvize.com
 0.0.0.0 fstats.xyz
 0.0.0.0 fstaw.com
+0.0.0.0 fstexydzode.com
 0.0.0.0 fstredirr.com
 0.0.0.0 fstrk.net
 0.0.0.0 fsxzbs.cn
@@ -38284,6 +38290,7 @@
 0.0.0.0 goontex.com
 0.0.0.0 gooo.al
 0.0.0.0 gooods4you.com
+0.0.0.0 gooooodle.com
 0.0.0.0 goosebomb.com
 0.0.0.0 goosecontradiction.com
 0.0.0.0 goosedetectives.com
@@ -41314,6 +41321,7 @@
 0.0.0.0 hvato.info
 0.0.0.0 hvcbkr.com
 0.0.0.0 hvd-store.com
+0.0.0.0 hvooyieoei.com
 0.0.0.0 hvrhgt.the-sun.com
 0.0.0.0 hvrhgt.thescottishsun.co.uk
 0.0.0.0 hvrhgt.thesun.co.uk
@@ -43587,6 +43595,7 @@
 0.0.0.0 inspikon.com
 0.0.0.0 inspire.webfleet.com
 0.0.0.0 inspirebunwatchful.com
+0.0.0.0 inspiringaccurate.com
 0.0.0.0 insta-cash.net
 0.0.0.0 instabug.com
 0.0.0.0 instadia.net
@@ -46008,6 +46017,7 @@
 0.0.0.0 jyhfuqoh.info
 0.0.0.0 jyhyfyjy.com
 0.0.0.0 jyigozm.cn
+0.0.0.0 jyjgtpurrwg.xyz
 0.0.0.0 jyjhkz.com
 0.0.0.0 jynp9m209p.com
 0.0.0.0 jypugepha.pro
@@ -46687,6 +46697,7 @@
 0.0.0.0 kitrigthy.com
 0.0.0.0 kittenmilletfoggy.com
 0.0.0.0 kittyaction.com
+0.0.0.0 kityamurlika.com
 0.0.0.0 kityko.com
 0.0.0.0 kiupoo.stroeerdp.de
 0.0.0.0 kivaphugri.com
@@ -48251,6 +48262,7 @@
 0.0.0.0 lhhlkj.yoursuperfoods.de
 0.0.0.0 lhhrupisllmy.com
 0.0.0.0 lhinsights.com
+0.0.0.0 lhmmhobckftdcfx.top
 0.0.0.0 lhs-3844b.com
 0.0.0.0 lhxwnzht.cn
 0.0.0.0 lhy1.xyz
@@ -50241,6 +50253,7 @@
 0.0.0.0 lutanedukasi.co.id
 0.0.0.0 lutsoops.net
 0.0.0.0 luublimaluulo.com
+0.0.0.0 luulibaluli.com
 0.0.0.0 luumhi.whatonearthcatalog.com
 0.0.0.0 luuming.com
 0.0.0.0 luuobigooubi.com
@@ -53603,6 +53616,7 @@
 0.0.0.0 mijifen.com
 0.0.0.0 mijinogu.com
 0.0.0.0 mikaeljigmo.com
+0.0.0.0 mikellli.com
 0.0.0.0 mikeloayza.com
 0.0.0.0 mikhailmotoringschool.com
 0.0.0.0 mikla.site
@@ -58029,6 +58043,7 @@
 0.0.0.0 ocatdog.today
 0.0.0.0 occi.opencoccoc.com
 0.0.0.0 occultcreed.com
+0.0.0.0 occume.com
 0.0.0.0 occupyskinnymaggot.com
 0.0.0.0 occursexpertloving.com
 0.0.0.0 occustantwidity.com
@@ -58316,6 +58331,7 @@
 0.0.0.0 ohston.com
 0.0.0.0 ohtdsplu.com
 0.0.0.0 ohthub.com.cn
+0.0.0.0 ohxlwmto.com
 0.0.0.0 oi.fapnado.com
 0.0.0.0 oi.fapnado.xxx
 0.0.0.0 oi.fapnow.xxx
@@ -59428,6 +59444,7 @@
 0.0.0.0 oumbikcdwmjxqt.xyz
 0.0.0.0 ouncialliberte.site
 0.0.0.0 oundaymi.co
+0.0.0.0 ouorhxolxdqqf.com
 0.0.0.0 oupaumul.net
 0.0.0.0 oupe71eiun.com
 0.0.0.0 ouphoarg.com
@@ -61186,6 +61203,7 @@
 0.0.0.0 pgs.io
 0.0.0.0 pgssl.com
 0.0.0.0 pgt1.voyage-prive.es
+0.0.0.0 pgvgqtmy.com
 0.0.0.0 ph-ad.focalink.com
 0.0.0.0 ph-ad01.focalink.com
 0.0.0.0 ph-ad02.focalink.com
@@ -63814,6 +63832,7 @@
 0.0.0.0 pronostici.app
 0.0.0.0 prontocampaign.com
 0.0.0.0 pronunciationpreoccupyinconsistency.com
+0.0.0.0 pronunciationspecimens.com
 0.0.0.0 proof-x.com
 0.0.0.0 proof.mediaz.vn
 0.0.0.0 proof.sudo.vn
@@ -64965,6 +64984,7 @@
 0.0.0.0 qasqs.com
 0.0.0.0 qatarchekmak.com
 0.0.0.0 qatrhe.moonyamoonya.com
+0.0.0.0 qavkqjndaqjbre.xyz
 0.0.0.0 qawiman.com
 0.0.0.0 qayenl.amberholl.ru
 0.0.0.0 qaykb.com
@@ -72031,6 +72051,7 @@
 0.0.0.0 sift-campaign-creatives.sift.co
 0.0.0.0 sift.com
 0.0.0.0 siftscience.com
+0.0.0.0 siftshortagepopped.com
 0.0.0.0 sifuglie.com
 0.0.0.0 sig.atdmt.com
 0.0.0.0 sig.nadex.com
@@ -77388,6 +77409,7 @@
 0.0.0.0 sticker.yadro.ru
 0.0.0.0 stickervillain.com
 0.0.0.0 stickssheep.com
+0.0.0.0 sticksurroundingsconstitutional.com
 0.0.0.0 stickyadstv.com
 0.0.0.0 stickyadstv.com.akadns.net
 0.0.0.0 stickyadstv.com.edgekey.net
@@ -82441,6 +82463,7 @@
 0.0.0.0 track.sunmedia.tv
 0.0.0.0 track.superad2.com.sg
 0.0.0.0 track.superfastmediation.com
+0.0.0.0 track.swaptrap.live
 0.0.0.0 track.tappx.com
 0.0.0.0 track.tcppu.com
 0.0.0.0 track.td3x.com
@@ -83726,6 +83749,7 @@
 0.0.0.0 triphasil.3.p2l.info
 0.0.0.0 triphasil.4.p2l.info
 0.0.0.0 triplelift.com
+0.0.0.0 triplewhale-pixel.web.app
 0.0.0.0 trippealbirthda.info
 0.0.0.0 tripsbooth.com
 0.0.0.0 tripsthorpelemonade.com
@@ -88365,6 +88389,7 @@
 0.0.0.0 wd.staging.sharethis.com
 0.0.0.0 wda.com
 0.0.0.0 wdads.sx.atl.publicus.com
+0.0.0.0 wdagdictse.com
 0.0.0.0 wdanjsscqabsi.com
 0.0.0.0 wdc.beeppool.org
 0.0.0.0 wdcs.trendmicro.com
@@ -92694,6 +92719,7 @@
 0.0.0.0 yieldoptimizer.com
 0.0.0.0 yieldpartners.com
 0.0.0.0 yieldpass.com
+0.0.0.0 yieldrealistic.com
 0.0.0.0 yieldscale.com
 0.0.0.0 yieldselect.com
 0.0.0.0 yieldsoftware.com
@@ -92927,6 +92953,7 @@
 0.0.0.0 yoobest.cn
 0.0.0.0 yoochoose.net
 0.0.0.0 yookcasula.com
+0.0.0.0 yookimooki.com
 0.0.0.0 yooli.com
 0.0.0.0 yoomanies.com
 0.0.0.0 yoomedia.de
