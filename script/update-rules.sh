@@ -99,7 +99,6 @@ dns=(
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/gh-pages/Filters/filter.txt"
   "https://abp.oisd.nl/basic/"
-  "https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt"
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
   "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
 )
