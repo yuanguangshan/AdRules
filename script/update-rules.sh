@@ -214,7 +214,7 @@ cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.
  | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' \
  | sed 's/\^|/\^/' |sort -n > ll.txt 
 
-cat l*.txt pre-allow1.txt abp-hosts*.txt \
+cat l*.txt abp-hosts*.txt \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
  |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
 
