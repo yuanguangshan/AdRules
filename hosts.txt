@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: n0Prz0ggfy2eXuucFKW+Fw
+! Checksum: D1+AVRZjutiZU5PoTcPfsw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-29 22:24:42（北京时间） 
-! Total count: 94406
+! Version: 2022-03-29 22:56:36（北京时间） 
+! Total count: 94411
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -20261,6 +20261,7 @@
 0.0.0.0 catschickens.com
 0.0.0.0 catsnbootsncats2020.com
 0.0.0.0 catsnetwork.ru
+0.0.0.0 catsupsfloit.com
 0.0.0.0 catsys.jp
 0.0.0.0 catverticalposterity.com
 0.0.0.0 catwenbat.com
@@ -22041,6 +22042,7 @@
 0.0.0.0 chordeez.net
 0.0.0.0 chosensoothespeechless.com
 0.0.0.0 chotdonhang.com
+0.0.0.0 chottsapocha.com
 0.0.0.0 chouftak.net
 0.0.0.0 choujiang1.top
 0.0.0.0 choujimai.top
@@ -35785,6 +35787,7 @@
 0.0.0.0 frightenedpotato.com
 0.0.0.0 frightfuljourney.com
 0.0.0.0 frillsretore.casa
+0.0.0.0 friskindebtedtorch.com
 0.0.0.0 fristminyas.com
 0.0.0.0 fritterhurtfuldowry.com
 0.0.0.0 frivol-ads.com
@@ -84398,6 +84401,7 @@
 0.0.0.0 twin188.co
 0.0.0.0 twinadsrv.com
 0.0.0.0 twindiversity.com
+0.0.0.0 twingedapoda.com
 0.0.0.0 twinings.grupoformax.net
 0.0.0.0 twinpinenetwork.com
 0.0.0.0 twinplan.com
@@ -94413,3 +94417,4 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
+0.0.0.0 zzznews.ruecede.com

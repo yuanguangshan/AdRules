@@ -6222,6 +6222,7 @@
 @@||ctldl.windowsupdate.com^
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
+@@||ctrip.com/Customer-maltadaily.mt##div[id^="malta-"]
 @@||ctrip.com^$important
 @@||ctrlv.link/js/seo-ads.js
 @@||ctrlv.link/js/seo-ads.js
@@ -8054,10 +8055,6 @@
 @@||forexprostools.com^$domain=shougedui.com
 @@||forgeofempires.com/game/json
 @@||forgeofempires.com/game/json
-@@||form.typeform.com^$domain=amie.so
-@@||form.typeform.com^$domain=eventcairo.com
-@@||form.typeform.com^$domain=help.anytech365.com
-@@||form.typeform.com^$domain=springpod.co.uk
 @@||forms.ministryforms.net/*.aspx^$stealth,domain=app.clovergive.com
 @@||forms.ministryforms.net/embed.aspx?formId=$extension
 @@||formula.ifz.ru/cgi-bin/tex2img-new.cgi$stealth
