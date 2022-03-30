@@ -105,6 +105,7 @@ dns=(
 hosts=(
   "https://adaway.org/hosts.txt"
 "https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt"
+"https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts"
 )
 
 ad_domains=(
