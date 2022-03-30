@@ -175,7 +175,7 @@ cat allow-domains0.txt | sed '/^$/d' | grep -v "#" \
  | uniq | awk '!a[$0]++' > pre-allow1.txt  #将允许域名转换为ABP规则
 
 cat *.txt | sed '/^$/d' \
- |grep -E "^\/[a-z]+?\.[a-z]*\.$" \
+ |grep -E "^\/[a-z]([a-z]|\.)*\.$" \
  |sort -u > l.txt
 
 #cat l.txt
