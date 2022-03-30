@@ -126,7 +126,7 @@ cat hosts*.txt | sort -n| sed '/^$/d' | grep -v -E "^((#.*)|(\s*))$" \
  | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
  | sed s/127.0.0.1/0.0.0.0/g | sed s/::/0.0.0.0/g |grep '0.0.0.0' |grep -Ev '.0.0.0.0 ' | sort \
  | uniq >base-src-hosts.txt &
-
+wait
 cat base-src-hosts.txt | sed '/^$/d' | grep -Ev '#|\$|@|!|/|\\|\*'\
  | grep -v -E "^((#.*)|(\s*))$" \
  | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
@@ -179,14 +179,14 @@ wait
 cat l*.txt abp-hosts*.txt \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
  |sort -n |uniq >> tmp-dns.txt & #处理DNS规则
-
+wait
 cat base-src-hosts.txt tmp-dns.txt \
  | sed '/^$/d' |grep '^||\|^[0-9]' | grep -v '\*'\
  | grep -v './'| grep -v '^\[' | grep -v '.!' \
  | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
  |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" \
  | sort -n | uniq > tmp-hosts.txt & #处理Hosts规则
-
+wait
 cat tmp-hosts.txt \
  | sed 's/0.0.0.0 //' \
  | sort -n | uniq > tmp-ad-domains.txt & #处理广告域名
@@ -225,9 +225,9 @@ mkdir -p ./md5/
 diffFile="$(ls pre |sort -u)"
 for i in $diffFile; do
  titleName=$(echo "$i" |sed 's#.txt#-title.txt#') &
- cat ./mod/title/$titleName ./pre/$i | awk '!a[$0]++'> ./$i &
- sed -i '/^$/d' $i &
- md5sum $i | sed "s/$i//" > ./md5/$i.md5 &
+ cat ./mod/title/$titleName ./pre/$i | awk '!a[$0]++'> ./$i 
+ sed -i '/^$/d' $i 
+ md5sum $i | sed "s/$i//" > ./md5/$i.md5 
  perl ./script/addchecksum.pl ./$i &
  #echo "合并${i}的标题中"
 done
