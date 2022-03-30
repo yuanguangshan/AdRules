@@ -1,8 +1,8 @@
-! Checksum: BGPlCE+N010Ftm8iQ0MKjg
+! Checksum: owwSQ98d33E/GJlUm3CI1g
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.28.12
-! TimeUpdated: 2022-03-30T09:30:23+00:00
+! Version: 2.0.28.13
+! TimeUpdated: 2022-03-30T12:30:20+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -98,6 +98,7 @@
 ||adcr.naver.com^$app=com.kakao.talk
 .ad.kakaocorp.com^
 .ad.kakao.com^
+||athena.api.kwalee.com^
 ||mobondhrd.appspot.com^
 ||a.cookpad-ads.com^
 ||api.ads.newsdigest.jp^

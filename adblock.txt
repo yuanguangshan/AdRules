@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: pdbTsqbimQM+wKpYYjsw1g
+! Checksum: 1NVBrAe78uPrYxIXCCn3cg
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-30 20:24:51（北京时间） 
-! Total count: 97778
+! Version: 2022-03-30 20:34:26（北京时间） 
+! Total count: 97779
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -7804,8 +7804,8 @@ $removeparam=effect_source
 $removeparam=effi_id
 $removeparam=effi_id2
 $removeparam=ei,domain=google.*
+$removeparam=eid,document,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*
 $removeparam=eid,domain=facebook.com
-$removeparam=eid,~xmlhttprequest,denyallow=embed.tapkal.fi,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*
 $removeparam=elq
 $removeparam=elqCampaignId
 $removeparam=elqTrack
@@ -39615,6 +39615,7 @@ olx.ro,olx.kz,olx.pl,olx.pt,olx.ua,olx.uz,olx.in,olx.com#@##adContainer
 olx.ro,olx.kz,olx.pl,olx.pt,olx.ua,olx.uz,olx.in,olx.com#@#.adLink
 olx.ro,olx.kz,olx.pl,olx.pt,olx.ua,olx.uz,olx.in,olx.com#@#.adRow
 olx.ro,olx.kz,olx.pl,olx.pt,olx.ua,olx.uz,olx.in,olx.com#@#.adbox
+omain=backcountry.com
 omlube.com/O/1000970O3001405O1O.js
 omni.se###banner--fullscreen
 omyy.com##.indexadv,[height="60"]
@@ -89448,8 +89449,8 @@ zznews.cn##.ad:not([style])
 ||tijd.be/track/
 ||tiktok.com/captcha/report
 ||tiktok.com/whale/
-||tiktok.com^$doc,removeparam=sec_user_id
-||tiktok.com^$doc,removeparam=user_id
+||tiktok.com^$document,removeparam=sec_user_id
+||tiktok.com^$document,removeparam=user_id
 ||tiktok.com^$removeparam=_d
 ||tiktok.com^$removeparam=_r
 ||tiktok.com^$removeparam=checksum
