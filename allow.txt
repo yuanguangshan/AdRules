@@ -1,6 +1,10 @@
-! Version: 2022-03-31 00:12:23（北京时间） 
-! Checksum: jT6xFXZ5Uf/ABwrvMvrv7g
-! Total count: 17120
+! Title: AdRules Allowlist
+! Checksum: 9H6FXCquKJ7D+rDEEEXWYA
+! Homepage: https://github.com/Cats-Team/AdRules
+! Powerd by CatsTeam
+! Expires: 8 Hours
+! Version: 2022-03-31 00:14:05（北京时间） 
+! Total count: 17121
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -573,7 +577,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgt
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgg.pinkerton.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
