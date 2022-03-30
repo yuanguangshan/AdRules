@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: EuxuIfqQJecNiRVP3/of3A
+! Checksum: VufzRplVnHVzs8diGCDPwA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-30 21:48:39（北京时间） 
-! Total count: 17119
+! Version: 2022-03-30 21:50:16（北京时间） 
+! Total count: 17120
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -16947,6 +16947,7 @@
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
+@@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$d#ysm-umu
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||yllix.com/banner_show.php$subdocument,domain=ogmods.net
 @@||ymcdn.site/check.php?callback=$stealth
