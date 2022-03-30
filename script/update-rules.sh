@@ -224,7 +224,7 @@ cd ../
 mkdir -p ./md5/
 diffFile="$(ls pre |sort -u)"
 for i in $diffFile; do
- titleName=$(echo "$i" |sed 's#.txt#-title.txt#') &
+ titleName=$(echo "$i" |sed 's#.txt#-title.txt#') 
  cat ./mod/title/$titleName ./pre/$i | awk '!a[$0]++'> ./$i 
  sed -i '/^$/d' $i 
  md5sum $i | sed "s/$i//" > ./md5/$i.md5 
