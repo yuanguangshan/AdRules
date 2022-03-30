@@ -31,10 +31,6 @@ easylist_plus=(
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt" #ubo基础过滤器
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt" #ubo隐私保护
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
-#"https://raw.githubusercontent.com/Cats-Team/AdRule/main/rules-admin.txt" #一些零碎规则 by Hacamer
-#"https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt" #adgk规则 @坂本大佬
- # "https://easylist.to/easylist/fanboy-annoyance.txt" #烦人规则
- #"https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt" #fanboy-annoyance
 )
 
 adguard=(
@@ -59,28 +55,6 @@ adguard_full=(
   "https://filters.adtidy.org/windows/filters/17.txt"  #adgURL过滤器
 )
 
-adguard_full_ubo=(
-  "https://filters.adtidy.org/extension/ublock/filters/2.txt" #adg基础过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/11.txt" #adg移动设备过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/3.txt" #adg防跟踪
-  "https://filters.adtidy.org/extension/ublock/filters/224.txt" #adg中文过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/14.txt" #adg烦人过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/5.txt" #adg实验过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/4.txt" #adg社交过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/17.txt"  #adgURL过滤器
-)
-
-adguard_ubo=(
-  "https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt" #adg基础过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/11_optimized.txt" #adg移动设备过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/17_optimized.txt"  #adgURL过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/3_optimized.txt" #adg防跟踪
-  "https://filters.adtidy.org/extension/ublock/filters/224_optimized.txt" #adg中文过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt" #adg烦人过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/5_optimized.txt" #adg实验过滤器
-  "https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt" #adg社交过滤器
-)
-
 allow=(
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/whitelist.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/whitelist.txt"
@@ -93,18 +67,15 @@ dns=(
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/gh-pages/Filters/filter.txt"
   "https://abp.oisd.nl/basic/"
-  "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
   "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
-  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
-  "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt"
-  "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt"
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
   "https://easylist.to/easylist/easyprivacy.txt"
 )
 
 hosts=(
   "https://adaway.org/hosts.txt"
-"https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt"
+  "https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt"
+  "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"
 #"https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts"
 )
 
@@ -116,8 +87,6 @@ allow_domains=(
   "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt"
   "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt"
   "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt"
-  #"https://raw.githubusercontent.com/Ultimate-Hosts-Blacklist/whitelist/master/domains.list"
-  #"https://raw.githubusercontent.com/neodevpro/neodevhost/master/customallowlist"
 )
 
 for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard_full[@]}" "${!adguard[@]}" "${!adguard_full_ubo[@]}" "${!adguard_ubo[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_domains[@]}"  "${!allow_domains[@]}"
@@ -143,8 +112,6 @@ curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list \
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts998.txt
 
-curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt \
- | grep -v '^#' > plus-hosts1.txt
 echo '规则下载完成'
 
 # 添加空格
