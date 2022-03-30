@@ -3409,8 +3409,8 @@
 @@||azerty.nl/_azerty/data/marketing/banners/
 @@||azgeek01.*^$ghide
 @@||azlink.xyz^$ghide
-@@||azmath.info/peel.js$domain=go.slink.bid
-@@||azmath.info/peel.js$domain=go.slink.bid
+@@||azmath.info/peel.js
+@@||azmath.info/peel.js
 @@||azmath.info/peel.js$domain=leechpremium.link
 @@||azmath.info/peel.js$domain=leechpremium.link
 @@||azulyblanco.co^$generichide
@@ -19628,6 +19628,8 @@
 @@||teams.microsoft.com^$generichide
 @@||tech-platform.info^$generichide
 @@||tech-platform.info^$generichide
+@@||techacode.com/peel.js
+@@||techacode.com/peel.js
 @@||techacode.com/wp-banners.js
 @@||techacode.com^$script,1p
 @@||techadvisor.com/cmsdata/$image,~third-party

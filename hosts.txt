@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: QwNXqXMtGpIlpu97GoTLMw
+! Checksum: i6ixypZxvCRoylHe4H8BHA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-30 16:16:58（北京时间） 
-! Total count: 94453
+! Version: 2022-03-30 19:59:27（北京时间） 
+! Total count: 94460
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -14282,6 +14282,7 @@
 0.0.0.0 atlassbx.com
 0.0.0.0 atlassolutions.com
 0.0.0.0 atlihk.dukeanddexter.com
+0.0.0.0 atljkcq.cn
 0.0.0.0 atm.im-apps.net
 0.0.0.0 atm.youku.com
 0.0.0.0 atmalinks.com
@@ -21738,6 +21739,7 @@
 0.0.0.0 chaochaogege.net
 0.0.0.0 chaoge.club
 0.0.0.0 chaogej.com
+0.0.0.0 chaojituoke.club
 0.0.0.0 chaoseskhedahs.com
 0.0.0.0 chaoyi4.com
 0.0.0.0 chap24pro.com
@@ -26600,6 +26602,7 @@
 0.0.0.0 d26adrx9c3n0mq.cloudfront.net
 0.0.0.0 d26c6kzavi5zwd.cloudfront.net
 0.0.0.0 d26tbbq8zqdi4v.cloudfront.net
+0.0.0.0 d26yfyk0ym2k1u.cloudfront.net
 0.0.0.0 d27gtglsu4f4y2.cloudfront.net
 0.0.0.0 d27qffx6rqb3qm.cloudfront.net
 0.0.0.0 d27x580xb9ao1l.cloudfront.net
@@ -57103,6 +57106,7 @@
 0.0.0.0 noelsun.com
 0.0.0.0 noen.oewabox.at
 0.0.0.0 noerwe5gianfor19e4st.com
+0.0.0.0 noesbsnt.com
 0.0.0.0 noextramoney.com
 0.0.0.0 nofejectontrab.info
 0.0.0.0 noflake-aggregator-http.narvar.com
@@ -84554,6 +84558,7 @@
 0.0.0.0 tyxo.com
 0.0.0.0 tz-dsp.com
 0.0.0.0 tz284.com
+0.0.0.0 tz88.store
 0.0.0.0 tzbtw.com
 0.0.0.0 tzfafzmooqum.com
 0.0.0.0 tzh019.cn
@@ -87648,6 +87653,7 @@
 0.0.0.0 vrmynha.cn
 0.0.0.0 vroku-bis-1.vidazoo.com
 0.0.0.0 vrptgslcxm.com
+0.0.0.0 vrrzmvb.cn
 0.0.0.0 vrs.cz
 0.0.0.0 vrsshsdaa.com
 0.0.0.0 vrstage.com
@@ -89020,6 +89026,7 @@
 0.0.0.0 weviralyou.com
 0.0.0.0 wevjjiolpse.mobi
 0.0.0.0 wew.dushiwenxue.net
+0.0.0.0 weway.club
 0.0.0.0 wewillrocknow.com
 0.0.0.0 wewon.to
 0.0.0.0 wexesz.com

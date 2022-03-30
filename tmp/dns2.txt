@@ -7,7 +7,7 @@
 !  Title: oisd basic     
 !  Syntax: abp       
 !  Entries: 60510  
-!  TimeUpdated: 30 Mar 2022 08:07 UTC         
+!  TimeUpdated: 30 Mar 2022 10:07 UTC         
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -60522,5 +60522,4 @@
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 ||zzznews.ru^
-
 

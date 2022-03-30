@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: M1Hy5txavk3y7f+t2ME2aQ
+! Checksum: NUtgiI75h2sMxJkPdpTctQ
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-30 16:16:58（北京时间） 
-! Total count: 96830
+! Version: 2022-03-30 19:59:27（北京时间） 
+! Total count: 96837
 /ad.ams.
 /ad.min.
 /ad.redirect.
@@ -15078,6 +15078,7 @@
 ||atlassian.122.2o7.net^
 ||atlassolutions.com^
 ||atlihk.dukeanddexter.com^
+||atljkcq.cn^
 ||atm.im-apps.net^
 ||atm.youku.com^
 ||atmalinks.com^
@@ -22706,6 +22707,7 @@
 ||chaochaogege.net^
 ||chaoge.club^
 ||chaogej.com^
+||chaojituoke.club^
 ||chaoseskhedahs.com^
 ||chaoyi4.com^
 ||chap24pro.com^
@@ -27678,6 +27680,7 @@
 ||d26adrx9c3n0mq.cloudfront.net^
 ||d26c6kzavi5zwd.cloudfront.net^
 ||d26tbbq8zqdi4v.cloudfront.net^
+||d26yfyk0ym2k1u.cloudfront.net^
 ||d27gtglsu4f4y2.cloudfront.net^
 ||d27qffx6rqb3qm.cloudfront.net^
 ||d27x580xb9ao1l.cloudfront.net^
@@ -58960,6 +58963,7 @@
 ||noelsun.com^
 ||noen.oewabox.at^
 ||noerwe5gianfor19e4st.com^
+||noesbsnt.com^
 ||noextramoney.com^
 ||nofejectontrab.info^
 ||noflake-aggregator-http.narvar.com^
@@ -86788,6 +86792,7 @@
 ||tyxo.com^
 ||tz-dsp.com^
 ||tz284.com^
+||tz88.store^
 ||tzbtw.com^
 ||tzfafzmooqum.com^
 ||tzh019.cn^
@@ -89957,6 +89962,7 @@
 ||vrmynha.cn^
 ||vroku-bis-1.vidazoo.com^
 ||vrptgslcxm.com^
+||vrrzmvb.cn^
 ||vrs.cz^
 ||vrsshsdaa.com^
 ||vrstage.com^
@@ -91344,6 +91350,7 @@
 ||weviralyou.com^
 ||wevjjiolpse.mobi^
 ||wew.dushiwenxue.net^
+||weway.club^
 ||wewillrocknow.com^
 ||wewon.to^
 ||wexesz.com^
