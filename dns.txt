@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: mbxIykPpeRHX3btb7GHILQ
+! Checksum: o2h7X2zAuvFznaXoNykovA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-30 21:50:16（北京时间） 
-! Total count: 99675
+! Version: 2022-03-30 22:25:23（北京时间） 
+! Total count: 99679
 /aaddright.
 /abstat.
 /ad.ams.
@@ -31491,6 +31491,7 @@
 ||dhipc.cn^
 ||dhivaanshi.com^
 ||dhjkasdhaksdbaksdhkasargya.blogspot.com^
+||dhjrjqgclb.com^
 ||dhkwxpzgvqgr.com^
 ||dhlh.org^
 ||dhlmy.com^
@@ -90849,6 +90850,7 @@
 ||uytestion.info^
 ||uyueread.com^
 ||uyunad.com^
+||uywmpewouyqv.com^
 ||uz-analysis.akamaized.net^
 ||uz4cb.cn^
 ||uzamart.com^
@@ -99022,6 +99024,7 @@
 ||zhemaijs.net^
 ||zhenghemold.com^
 ||zhenglianabang.vip^
+||zhengxiaoliu.top^
 ||zhengyejixie.com^
 ||zhengyuanguojimc.com^
 ||zhengzhoupengbo.com^
@@ -99681,4 +99684,5 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
+||zzznews.ru.io^
 ||zzznews.ru^
