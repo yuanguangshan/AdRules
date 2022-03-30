@@ -142,7 +142,7 @@ curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts998.txt
 
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt \
- | grep -Ev "^!*-- URL --[\s\S]*|\[Adblock Plus 2.0][\s\S]*!*-- Host --" \
+ | grep -E "^[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+" \
  | sed "s/^0.0.0.0 &/g" > hosts997.txt
 
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt \
