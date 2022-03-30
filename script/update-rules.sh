@@ -204,8 +204,8 @@ cat full-adguard*.txt \
 
 cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.txt \
  | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \
- | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" | grep -v '^!' \
- | sed 's/\^|/\^/' |sort -n > ll.txt 
+ | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
+ | sort > ll.txt 
 
 cat l*.txt abp-hosts*.txt \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
