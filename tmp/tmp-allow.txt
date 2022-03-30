@@ -1214,7 +1214,6 @@
 @@||a-ads.com/*?size=$xmlhttprequest,domain=hitbits.io
 @@||a-d-k.ru/bitrix/templates/ad/
 @@||a-invdn-com.akamaized.net/Broker_Button_New^$domain=investing.com
-@@||a-invdn-com.akamaized.net/Broker_Button_New^$domain=investing.com
 @@||a-o.ninja/bannerinc.js
 @@||a.ads.cn.miaozhen.com^$domain=youku.com
 @@||a.ads.cn.miaozhen.com^$domain=youku.com
@@ -1641,6 +1640,7 @@
 @@||adlink.wf^
 @@||adlink.wf^
 @@||adlinkme.com/js/ads.js
+@@||adload.ru^
 @@||adload.ru^
 @@||adlpu.com^$generichide
 @@||adm.10jqka.com.cn^
@@ -8021,7 +8021,6 @@
 @@||freebitco.in^$generichide
 @@||freebitco.in^$generichide
 @@||freebitcoin.win/static/deliver_ads/popunder_moon_ads_*.js$~third-party
-@@||freebitcoin.win/static/deliver_ads/popunder_moon_ads_*.js$~third-party
 @@||freebitcoin.win^$ghide
 @@||freecourselab.com^$generichide
 @@||freecoursesite.com^$generichide
@@ -10654,7 +10653,7 @@
 @@||hls.jetcdn.co/public/dist/index.html$stealth
 @@||hls.kinoplayer.co/hls/*/*.ts$stealth
 @@||hls.kinoplayer.co/hls/*/playlist.m3u8$stealth
-@@||hls.redefine.pl^$stealth,domain=polsatgo.pl|polsatnews.pl|pluscdn.pl
+@@||hls.redefine.pl^$stealth,domain=interia.pl|polsatgo.pl|polsatnews.pl|pluscdn.pl
 @@||hls.ted.com^
 @@||hlserve.com/Delivery/$domain=costco.com,script
 @@||hlserve.com/Delivery/$domain=costco.com,script
@@ -13261,6 +13260,7 @@
 @@||main-echo.de^$ghide
 @@||maisgasolina.com^$elemhide
 @@||majalahikan.com^$generichide
+@@||majalahikan.com^$generichide
 @@||majesy.com/advertisement.js
 @@||majesy.com/css-cdn/advertisement.js
 @@||majesy.com^$generichide
@@ -13900,6 +13900,8 @@
 @@||mnighthk.net^$elemhide
 @@||mnighthk.net^$elemhide
 @@||moat.com/api/entity_report/advertiser/$domain=moat.com
+@@||moat.com/api/entity_report/advertiser/$domain=moat.com
+@@||moat.com/creatives/advertiser/$domain=moat.com
 @@||moat.com/creatives/advertiser/$domain=moat.com
 @@||mobi.oui9.com/advertisement.js
 @@||mobiflip.de/wp-content/themes/mobiTheme*/js/ads.js
@@ -19763,7 +19765,6 @@
 @@||the-man.gr^$ghide
 @@||the-race.com^$ghide
 @@||theantiadblocker.com^$generichide
-@@||theantiadblocker.com^$generichide
 @@||theatlantic.com^$generichide
 @@||thebeastnews.com^$generichide
 @@||theblogcash.in/*/advertisement.js
@@ -19860,7 +19861,6 @@
 @@||thevideos.tv/embed-$stealth
 @@||thevideos.tv/embed-*.html$domain=putlocker.is
 @@||thewatchcartoononline.tv*inc/embed/ads.js
-@@||thewatchcartoononline.tv/inc/videojs-qualityselector/videojs-qualityselector.min.js
 @@||thewatchcartoononline.tv/inc/videojs-qualityselector/videojs-qualityselector.min.js
 @@||thewatchcartoononline.tv^$ghide
 @@||thewindowsclub.thewindowsclubco.netdna-cdn.com/wp-includes/*$domain=thewindowsclub.com

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: qbIpNMcdvgf9SGMhCrJfEw
+! Checksum: M1Hy5txavk3y7f+t2ME2aQ
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-30 08:59:11（北京时间） 
-! Total count: 96819
+! Version: 2022-03-30 16:16:58（北京时间） 
+! Total count: 96830
 /ad.ams.
 /ad.min.
 /ad.redirect.
@@ -161,6 +161,7 @@
 @@||ad.ourgame.com^
 @@||adcdn.pingan.com^
 @@||adlink.wf^
+@@||adload.ru^
 @@||admin.mailchimp.com^
 @@||adobeid-*.services.adobe.com^
 @@||adobelogin.com^
@@ -19087,6 +19088,7 @@
 ||boreasinflash.com^
 ||boredborder.com^
 ||boredcrown.com^
+||borgach.com^
 ||borgmesteren.com^
 ||boringbell.com^
 ||boringberry.com^
@@ -28517,6 +28519,7 @@
 ||datafront.co^
 ||datag.polo.com^
 ||dataidea.it^
+||datajsext.com^
 ||datalogix.com^
 ||datam.com^
 ||datam16.adlooxtracking.com^
@@ -31396,6 +31399,7 @@
 ||duusuu.com^
 ||duuzseb2b7-jp.cheqzone.com^
 ||duxumpou.com^
+||duyixpy.top^
 ||duyousxtd.com^
 ||duzt6rhr7wo8p.cloudfront.net^
 ||dv.adnow.cc^
@@ -40873,6 +40877,7 @@
 ||haojun.info^
 ||haojun.shop^
 ||haokan3.cn^
+||haokoubei.top^
 ||haolew.com^
 ||haomaiweb.com^
 ||haomaojin.com^
@@ -45442,6 +45447,7 @@
 ||investingchannel.us.intellitxt.com^
 ||investmentstar.org^
 ||investmeny.org^
+||investnewsbrazil.com^
 ||investopedia.adblade.com^
 ||investopedia.us.intellitxt.com^
 ||investormanage.net^
@@ -45873,6 +45879,7 @@
 ||itblisseyer.com^
 ||itcameruptr.com^
 ||itcgin.net^
+||itchaxun.cn^
 ||itchess.cn^
 ||itchimpish.com^
 ||itchingadore.com^
@@ -52739,6 +52746,7 @@
 ||manyou.com^
 ||mao1.jsnovel.com^
 ||maobujie.com^
+||maodz.cn^
 ||maomaotang.com^
 ||maoxilucai.cn^
 ||maoyumao.net^
@@ -62169,6 +62177,7 @@
 ||panp.top^
 ||panruo.net.cn^
 ||pansidlike.net^
+||pantafives.com^
 ||panther.goguardian.com^
 ||pantherads.com^
 ||pantomimethat.com^
@@ -69446,6 +69455,7 @@
 ||riccol.cn^
 ||ricead.com^
 ||riceck.cn^
+||ricettadellanonna.com^
 ||ricewaterh.co^
 ||rich.otherlevels.com^
 ||richard-group.com^
@@ -77527,6 +77537,7 @@
 ||ssjpx.com^
 ||ssjqkt.ekosport.it^
 ||ssjxwlkj.com^
+||ssjy.shop^
 ||sskmnews.pro^
 ||ssl-avd.innity.net^
 ||ssl-cdn.media.innity.net^
@@ -82616,7 +82627,6 @@
 ||thetradedeskv275874568748.s.moatpixel.com^
 ||thetraderinpajamas.com^
 ||thetrafficstat.net^
-||thetranny.online^
 ||thetreuntalle.pro^
 ||theunwired.us.intellitxt.com^
 ||theuseful.com^
@@ -95031,6 +95041,7 @@
 ||yhhtmdvuubnbtbp.com^
 ||yhig.info^
 ||yhjzg.cn^
+||yhkiain.cn^
 ||yhmceakev.com^
 ||yhmtech.co.il^
 ||yhpknxzspo8a.kvest.ee^

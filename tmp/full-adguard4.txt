@@ -1,8 +1,8 @@
-! Checksum: AoKyAGtL8DiQhbBJ8JZNdg
+! Checksum: VNA6yAyDRE0K52sd8qB83A
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.70
-! TimeUpdated: 2022-03-29T22:30:38+00:00
+! Version: 2.1.13.72
+! TimeUpdated: 2022-03-30T07:30:35+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7270,6 +7270,7 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+zobacz-online.ml##cookie-notice
 veed.io##div[fs-cc="banner"]
 floristics.info###redim-cookiehint-bottom
 whitebit.com###__layout > div > main + div.ui-kit.is-dark
@@ -28550,6 +28551,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 !
 1tv.od.ua##.telegram-link-block
 vgorode.ua##.main-page-baf
+answers.ten-navi.com##.cvMail
 news-front.info##.social-news-buttons
 milliyet.com.tr##.breadcrumb__google-news
 semnasem.org##.article__footer-row-tags-subscription-form

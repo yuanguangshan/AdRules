@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: /68SqSAh7ykdC5wOEm6Puw
+! Checksum: tZ7n83fa6RTWgWqi7xHbuw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-30 08:59:11（北京时间） 
+! Version: 2022-03-30 16:16:58（北京时间） 
 ! Total count: 17118
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -7946,7 +7946,7 @@
 @@||hls.jetcdn.co/public/dist/index.html$stealth
 @@||hls.kinoplayer.co/hls/*/*.ts$stealth
 @@||hls.kinoplayer.co/hls/*/playlist.m3u8$stealth
-@@||hls.redefine.pl^$stealth,domain=polsatgo.pl|polsatnews.pl|pluscdn.pl
+@@||hls.redefine.pl^$stealth,domain=interia.pl|polsatgo.pl|polsatnews.pl|pluscdn.pl
 @@||hls.ted.com^
 @@||hlserve.com/Delivery/$domain=costco.com,script
 @@||hlssec.rambler.eaglecdn.com/get.ts$stealth
