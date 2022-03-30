@@ -29645,7 +29645,6 @@ embedupload.com#@#.text_ad
 embedupload.com#@#.text_ads
 emome.net##.source_advertising
 emonitoring.poczta-polska.pl###getbaner
-emoveparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.com
 empflix.com##+js(set-constant, FlixPop.isPopGloballyEnabled, falseFunc)
 empflix.com##[id^="player_top_"]
 empireg.ru#$#abort-current-inline-script Math zfgloaded
