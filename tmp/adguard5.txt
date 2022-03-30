@@ -1,8 +1,8 @@
-! Checksum: oVOzEcyT/aL/ncakU6CQ6w
+! Checksum: 71GM6R6a2X/qLwdNpED4HA
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.76
-! TimeUpdated: 2022-03-30T12:30:36+00:00
+! Version: 2.1.13.77
+! TimeUpdated: 2022-03-30T13:02:17+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -14040,7 +14040,7 @@ qt.io##.c-sidebar-newsletter
 playmaker24.ru##.tg-popup
 playmaker24.ru##.ya-news-block
 playmaker24.ru##.subscrite-widget-wrap
-theage.com.au##section[data-testid="article-body-bottom"] div[data-testid="registration-prompt"]
+smh.com.au,theage.com.au##section[data-testid="article-body-bottom"] div[data-testid="registration-prompt"]
 calvinklein.com.br##.vtex-modal-layout-0-x-modal--newsletter-block-class
 fernsehserien.de##.erinnerungs-service
 agroxxi.ru##.yadzen

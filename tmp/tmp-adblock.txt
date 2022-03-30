@@ -37783,7 +37783,6 @@ olx.ro,olx.kz,olx.pl,olx.pt,olx.ua,olx.uz,olx.in,olx.com#@##adContainer
 olx.ro,olx.kz,olx.pl,olx.pt,olx.ua,olx.uz,olx.in,olx.com#@#.adLink
 olx.ro,olx.kz,olx.pl,olx.pt,olx.ua,olx.uz,olx.in,olx.com#@#.adRow
 olx.ro,olx.kz,olx.pl,olx.pt,olx.ua,olx.uz,olx.in,olx.com#@#.adbox
-omain=backcountry.com
 omlube.com/O/1000970O3001405O1O.js
 omni.se###banner--fullscreen
 omyy.com##.indexadv,[height="60"]
@@ -72251,6 +72250,7 @@ zznews.cn##.ad:not([style])
 ||lwdown.com/user08/user_*_
 ||lwgadm.com^
 ||lwhsdfc.cn^
+||lwjvyd.com^
 ||lwlscy.com^
 ||lwlwlw.com/ggzx/
 ||lwlwlw.com/js/FVgg.js
@@ -96945,7 +96945,7 @@ zznews.cn##.ad:not([style])
 121xz.com##.c_money
 123-hd.com###banner_right
 123-hd.com###banner_top
-123-movies.ninja,123movies.net,4anime.biz,4anime.gg,animebee.to,animeheaven.pro,animekisa.in,animekisa.tv,batotoo.com,bravoporn.com,dramacool.pk,dulu.to,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,herogayab.net,mangadna.com,mangceh.cc,messitv.net,miraculous.to,prmovies.bz,prmovies.li,ssoap2day.to,tamilyogi.best,vanime.co,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pm,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,123movies.net,4anime.biz,4anime.gg,animebee.to,animeheaven.pro,animekisa.in,animekisa.tv,batotoo.com,bravoporn.com,dramacool.pk,dulu.to,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,herogayab.net,mangadna.com,mangceh.cc,messitv.net,miraculous.to,playlist-youtu.be,prmovies.bz,prmovies.li,ssoap2day.to,tamilyogi.best,vanime.co,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pm,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 123.chinaso.com##.right-list6
 123.com.cn##.bottom-ylink
 123.com.cn##.fixed-top
