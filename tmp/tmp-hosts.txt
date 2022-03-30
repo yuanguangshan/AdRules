@@ -7805,6 +7805,7 @@
 0.0.0.0 ads.watson.ch
 0.0.0.0 ads.weather.ca
 0.0.0.0 ads.web.de
+0.0.0.0 ads.web.tr
 0.0.0.0 ads.web21.com
 0.0.0.0 ads.webfeat.com
 0.0.0.0 ads.webheat.com
@@ -14243,6 +14244,7 @@
 0.0.0.0 atg-officiall.id
 0.0.0.0 atgafl.com
 0.0.0.0 athena-ads.wikia.com
+0.0.0.0 athena.api.kwalee.com
 0.0.0.0 athenainstitute.biz
 0.0.0.0 athercompet.club
 0.0.0.0 atherenoth.info

@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: i6ixypZxvCRoylHe4H8BHA
+! Checksum: KbUzWnwycrJtA+PPSE+aVg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-30 19:59:27（北京时间） 
-! Total count: 94460
+! Version: 2022-03-30 20:20:00（北京时间） 
+! Total count: 94462
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -7814,6 +7814,7 @@
 0.0.0.0 ads.watson.ch
 0.0.0.0 ads.weather.ca
 0.0.0.0 ads.web.de
+0.0.0.0 ads.web.tr
 0.0.0.0 ads.web21.com
 0.0.0.0 ads.webfeat.com
 0.0.0.0 ads.webheat.com
@@ -14252,6 +14253,7 @@
 0.0.0.0 atg-officiall.id
 0.0.0.0 atgafl.com
 0.0.0.0 athena-ads.wikia.com
+0.0.0.0 athena.api.kwalee.com
 0.0.0.0 athenainstitute.biz
 0.0.0.0 athercompet.club
 0.0.0.0 atherenoth.info

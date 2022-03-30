@@ -1,9 +1,9 @@
 ! Title: AdRules Ad Domains List
-! Checksum: xPHFe+IBSAp19iYMRdU9lQ
+! Checksum: LN3LdCjKmFD1sSqz1/jlUA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
-! Expires: 8 Hours! Version: 2022-03-30 19:59:27（北京时间） 
-! Total count: 94460
+! Expires: 8 Hours! Version: 2022-03-30 20:20:00（北京时间） 
+! Total count: 94462
 .weixingshexiangji.net
 0--e.info
 0.nextyourcontent.com
@@ -7811,6 +7811,7 @@ ads.watchmygf.net
 ads.watson.ch
 ads.weather.ca
 ads.web.de
+ads.web.tr
 ads.web21.com
 ads.webfeat.com
 ads.webheat.com
@@ -14249,6 +14250,7 @@ atfitreasonyou.live
 atg-officiall.id
 atgafl.com
 athena-ads.wikia.com
+athena.api.kwalee.com
 athenainstitute.biz
 athercompet.club
 atherenoth.info

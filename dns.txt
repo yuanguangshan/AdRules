@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: NUtgiI75h2sMxJkPdpTctQ
+! Checksum: V8KzkJ1Vo3Mnm0CMIsWfrA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-30 19:59:27（北京时间） 
-! Total count: 96837
+! Version: 2022-03-30 20:20:00（北京时间） 
+! Total count: 96839
 /ad.ams.
 /ad.min.
 /ad.redirect.
@@ -8469,6 +8469,7 @@
 ||ads.watson.ch^
 ||ads.weather.ca^
 ||ads.web.de^
+||ads.web.tr^
 ||ads.web21.com^
 ||ads.webfeat.com^
 ||ads.webheat.com^
@@ -15046,6 +15047,7 @@
 ||atg-officiall.id^
 ||atgafl.com^
 ||athena-ads.wikia.com^
+||athena.api.kwalee.com^
 ||athenainstitute.biz^
 ||athercompet.club^
 ||atherenoth.info^

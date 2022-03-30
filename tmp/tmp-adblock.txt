@@ -24952,6 +24952,7 @@ amateurfapper.com,iceporn.tv,pornmonde.com##.sources
 amateurporn.me,severeporn.com#?#.block-video > div.table:has(> div.opt)
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
 amazon.*##div[class*="btf_ad-placements-"]
+amazon.*##div[data-cel-widget^="MAIN-SHOPPING_ADVISER-"]
 amazon.*#$?#.a-carousel-card > div > div[cel_widget_id^="adplacements:"]:upward(2) { remove: true; }
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###nav-swmslot
 amazon.ae,amazon.ca,amazon.cn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###sponsoredProducts2_feature_div
@@ -29429,6 +29430,7 @@ dstar.pzk.pl#@#.adsbygoogle
 dt.no##.am-bazaar-ad
 dtf.ru,tjournal.ru,vc.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "]
 dtrcw.cc
+dualshockers.com##+js(set-constant, pbjs.setConfig, noopFunc)
 duanwenxue.com##.qgzdwx
 duanwenxue.com##.shuang11_gg
 duanwenxue.com##.shuang11_mb
@@ -90183,6 +90185,7 @@ zzpzero.com
 ||tz-dsp.com^
 ||tz-dsp.com^$third-party
 ||tz284.com^$third-party
+||tz88.store^
 ||tzbtw.com^
 ||tzfafzmooqum.com^
 ||tzfdc.com.cn/userfiles/flash/
