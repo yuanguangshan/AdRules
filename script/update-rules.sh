@@ -3,6 +3,7 @@ LC_ALL='C'
 
 rm *.txt
 rm -rf md5 tmp
+wait
 # Create temporary folder
 echo '新建TMP文件夹...'
 mkdir -p ./tmp/
@@ -178,9 +179,8 @@ cat *.txt | sed '/^$/d' \
  |grep -E "^\/[a-z]([a-z]|\.)*\.$" \
  |sort -u > l.txt
 
-#cat l.txt
+
 # Start Merge and Duplicate Removal
-#set LC_ALL='C'
 
 echo 开始合并
 cat .././mod/rules/adblock-rules.txt easylist*.txt \
@@ -206,11 +206,11 @@ cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.
  | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \
  | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
  | sort > ll.txt 
-
+wait
 cat l*.txt abp-hosts*.txt \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
  |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
-
+wait
 cat base-src-hosts.txt tmp-dns.txt \
  | sed '/^$/d' |grep '^||\|^[0-9]' | grep -v '\*'\
  | grep -v './'| grep -v '^\[' | grep -v '.!' \
