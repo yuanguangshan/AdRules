@@ -22045,6 +22045,7 @@
 @@||xstream.click^$stealth
 @@||xsts.auth.xboxlive.com^
 @@||xtool.ru/js/analyze.js$script,domain=xtool.ru
+@@||xumo.com/xumocdn/*/beacon?$domain=roku.com
 @@||xuxon.com^$ghide
 @@||xvideos.*/*-channels/*/videos/$elemhide,jsinject,extension,xmlhttprequest
 @@||xvideos.*/amateur-channels/$elemhide,jsinject,extension,xmlhttprequest

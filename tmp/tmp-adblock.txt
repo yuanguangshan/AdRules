@@ -3136,6 +3136,7 @@
 ##.ads.MREC3
 ##.ads.MREC4
 ##.ads.bottom
+##.ads.cell
 ##.ads.rectangle300
 ##.ads.top
 ##.ads.widget
@@ -23985,6 +23986,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||xsc.lise.edu.cn/ad/
 @@||xshark.me^$generichide
 @@||xtool.ru/js/analyze.js$script,domain=xtool.ru
+@@||xumo.com/xumocdn/*/beacon?$domain=roku.com
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
 @@||yafud.pl^$generichide
 @@||yalujailbreak.net^$generichide
@@ -56197,6 +56199,7 @@ zzpzero.com
 ||bjcathay.com/
 ||bjcathay.com/s?z=
 ||bjcathay.com^$third-party
+||bjcwwsc.xyz^
 ||bjdianyue.com^
 ||bjeai.com^
 ||bjename.cn^
@@ -64834,6 +64837,7 @@ zzpzero.com
 ||fstexydzode.com^
 ||fstrk.net^$third-party
 ||fsxzbs.cn^
+||fsyc.xyz^
 ||fsyzcs.com^
 ||fsz1.francoisesaget.com^
 ||fszhxd.com^

@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: ayKirPHW/2MuRin7z0r0Aw
+! Checksum: qp7vkHM1gImy3CFlCGSfRQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-30 06:48:29（北京时间） 
-! Total count: 94441
+! Version: 2022-03-30 08:59:11（北京时间） 
+! Total count: 94443
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -17530,6 +17530,7 @@
 0.0.0.0 bjark.com.cn
 0.0.0.0 bjcass.com
 0.0.0.0 bjcathay.com
+0.0.0.0 bjcwwsc.xyz
 0.0.0.0 bjdata.ads.oppomobile.com
 0.0.0.0 bjdianyue.com
 0.0.0.0 bjdsfgg.pro
@@ -35893,6 +35894,7 @@
 0.0.0.0 fstredirr.com
 0.0.0.0 fstrk.net
 0.0.0.0 fsxzbs.cn
+0.0.0.0 fsyc.xyz
 0.0.0.0 fsyzcs.com
 0.0.0.0 fsz1.francoisesaget.com
 0.0.0.0 fszhxd.com

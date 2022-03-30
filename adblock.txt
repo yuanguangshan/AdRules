@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: mLna2WZ/tJXOVH1rp0pUCA
+! Checksum: 6ViC62YU1slmXQ9BYoJBXA
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-30 06:48:29（北京时间） 
-! Total count: 97996
+! Version: 2022-03-30 08:59:11（北京时间） 
+! Total count: 98000
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -3117,6 +3117,7 @@
 ##.ads.MREC3
 ##.ads.MREC4
 ##.ads.bottom
+##.ads.cell
 ##.ads.rectangle300
 ##.ads.top
 ##.ads.widget
@@ -25885,6 +25886,7 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 @@||xsc.lise.edu.cn/ad/
 @@||xshark.me^$generichide
 @@||xtool.ru/js/analyze.js$script,domain=xtool.ru
+@@||xumo.com/xumocdn/*/beacon?$domain=roku.com
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
 @@||yafud.pl^$generichide
 @@||yalujailbreak.net^$generichide
@@ -58097,6 +58099,7 @@ zzpzero.com
 ||bjcathay.com/
 ||bjcathay.com/s?z=
 ||bjcathay.com^$third-party
+||bjcwwsc.xyz^
 ||bjdianyue.com^
 ||bjeai.com^
 ||bjename.cn^
@@ -66734,6 +66737,7 @@ zzpzero.com
 ||fstexydzode.com^
 ||fstrk.net^$third-party
 ||fsxzbs.cn^
+||fsyc.xyz^
 ||fsyzcs.com^
 ||fsz1.francoisesaget.com^
 ||fszhxd.com^

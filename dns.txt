@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: a2BSsHK62R2Mlqh64miSXg
+! Checksum: qbIpNMcdvgf9SGMhCrJfEw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-30 06:48:29（北京时间） 
-! Total count: 96817
+! Version: 2022-03-30 08:59:11（北京时间） 
+! Total count: 96819
 /ad.ams.
 /ad.min.
 /ad.redirect.
@@ -18400,6 +18400,7 @@
 ||bjark.com.cn^
 ||bjcass.com^
 ||bjcathay.com^
+||bjcwwsc.xyz^
 ||bjdata.ads.oppomobile.com^
 ||bjdianyue.com^
 ||bjdsfgg.pro^
@@ -37208,6 +37209,7 @@
 ||fstredirr.com^
 ||fstrk.net^
 ||fsxzbs.cn^
+||fsyc.xyz^
 ||fsyzcs.com^
 ||fsz1.francoisesaget.com^
 ||fszhxd.com^
