@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: CQb3SmVolzA8e+i3YwgSiw
+! Checksum: n5zixYZeLOhxkxlXoxI9hg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-30 22:44:05（北京时间） 
+! Version: 2022-03-30 23:46:45（北京时间） 
 ! Total count: 17120
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -14063,6 +14063,7 @@
 @@||socks24.org^$generichide
 @@||socksproxylist24.blogspot.com^$generichide
 @@||socksproxylist24.blogspot.de^$generichide
+@@||soft.com##[style*="width:3"][style*="height:2"]
 @@||soft98.ir^$generichide
 @@||soft98.ir^$ghide
 @@||softairbay.com/autoSAB/src/google-ads.js
@@ -16947,7 +16948,6 @@
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
-@@||yktj.ymobi/js/app-bar-
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||yllix.com/banner_show.php$subdocument,domain=ogmods.net
 @@||ymcdn.site/check.php?callback=$stealth

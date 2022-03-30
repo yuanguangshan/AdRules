@@ -42300,6 +42300,7 @@ tobosu.com###alert_order
 tobosu.com##.tbs-bottom-order
 tobys.dk#@#.adsbygoogle
 todaypktv.me,mp3lac.blogspot.com,mp4moviez.ch##+js(window.open-defuser)
+todopolicia.com,turkishaudiocenter.com,gamingfactor.xyz,tamilbrahmins.com,onlytech.com,kodscript.com,hostingunlock.com,crackturkey.com,opelim.net,arabincest.com,milanworld.net,ootech.vn,devotag.com,isgfrm.com,spleaks.org,grandoldteam.com,bmw-scooters.com,cgarmy.com,ctx700-forum.com,demonscripts.com,eurocccam.net,forum.shoppingtelly.com,iptvsat-forum.com,largescaleforums.com,leaked.im,longpoint.on.ca,scriptsfire.com,udevstudio.com##+js(abort-current-script, $, !document.getElementById(btoa)
 toeflmocks.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 tokopedia.com##div[data-testid="topadsCPMWrapper"]
 tokyoghoulre.com,demonslayermanga.com##.js-pages-container > div.flex.text-center > div[style="width: 450px;"]
@@ -42604,7 +42605,6 @@ turfomania.fr###adblock-overlay
 turkdown.com###duyuru
 turkdown.com##+js(abort-current-script, document.getElementById, bannerad)
 turkdown.com##+js(set-constant, agzblocker.adsBlocked, noopFunc)
-turkishaudiocenter.com,gamingfactor.xyz,tamilbrahmins.com,onlytech.com,kodscript.com,hostingunlock.com,crackturkey.com,opelim.net,arabincest.com,milanworld.net,ootech.vn,devotag.com,isgfrm.com,spleaks.org,grandoldteam.com,bmw-scooters.com,cgarmy.com,ctx700-forum.com,demonscripts.com,eurocccam.net,forum.shoppingtelly.com,iptvsat-forum.com,largescaleforums.com,leaked.im,longpoint.on.ca,scriptsfire.com,udevstudio.com##+js(abort-current-script, $, !document.getElementById(btoa)
 turkleech.com###h237
 turystyka.wp.pl#$#abort-on-property-read pbjsChunk
 turystyka.wp.pl,opinie.wp.pl,gry.wp.pl,moto.wp.pl,gwiazdy.wp.pl,tech.wp.pl,kobieta.wp.pl,wiadomosci.wp.pl#?#div[class*="-"] > div[class*="-"][class*=" "]:has(> img[src="https://i.wpimg.pl/O/56x45/i.wp.pl/a/i/stg/pkf/bg.png"])
@@ -95336,6 +95336,7 @@ zznews.cn##.ad:not([style])
 ||zhenghemold.com^
 ||zhengjie.com/a_d?
 ||zhenglianabang.vip^
+||zhengxiaoliu.top^
 ||zhengyejixie.com^
 ||zhengyuanguojimc.com^
 ||zhengzhoupengbo.com^
@@ -95955,6 +95956,7 @@ zznews.cn##.ad:not([style])
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ~weibo.com##.con_ad
 ~zhidmai.com##a[href*="https://www.zhidmai.com"]
+！ 移除某大佬修改idm的弹窗
 .1.1.1.l80.js^$third-party
 .189.gd^*.html?p=$popup,third-party
 .194007.com/4058.gif

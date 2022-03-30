@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 8mnAixHhjxdLTWjgHVIIpQ
+! Checksum: hfLCDv9Budt8rYSBFz2Ntw
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-30 22:44:05（北京时间） 
-! Total count: 97781
+! Version: 2022-03-30 23:46:45（北京时间） 
+! Total count: 97783
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -44132,6 +44132,7 @@ tobosu.com###alert_order
 tobosu.com##.tbs-bottom-order
 tobys.dk#@#.adsbygoogle
 todaypktv.me,mp3lac.blogspot.com,mp4moviez.ch##+js(window.open-defuser)
+todopolicia.com,turkishaudiocenter.com,gamingfactor.xyz,tamilbrahmins.com,onlytech.com,kodscript.com,hostingunlock.com,crackturkey.com,opelim.net,arabincest.com,milanworld.net,ootech.vn,devotag.com,isgfrm.com,spleaks.org,grandoldteam.com,bmw-scooters.com,cgarmy.com,ctx700-forum.com,demonscripts.com,eurocccam.net,forum.shoppingtelly.com,iptvsat-forum.com,largescaleforums.com,leaked.im,longpoint.on.ca,scriptsfire.com,udevstudio.com##+js(abort-current-script, $, !document.getElementById(btoa)
 toeflmocks.com##+js(no-fetch-if, pagead2.googlesyndication.com)
 tokopedia.com##div[data-testid="topadsCPMWrapper"]
 tokyoghoulre.com,demonslayermanga.com##.js-pages-container > div.flex.text-center > div[style="width: 450px;"]
@@ -44436,7 +44437,6 @@ turfomania.fr###adblock-overlay
 turkdown.com###duyuru
 turkdown.com##+js(abort-current-script, document.getElementById, bannerad)
 turkdown.com##+js(set-constant, agzblocker.adsBlocked, noopFunc)
-turkishaudiocenter.com,gamingfactor.xyz,tamilbrahmins.com,onlytech.com,kodscript.com,hostingunlock.com,crackturkey.com,opelim.net,arabincest.com,milanworld.net,ootech.vn,devotag.com,isgfrm.com,spleaks.org,grandoldteam.com,bmw-scooters.com,cgarmy.com,ctx700-forum.com,demonscripts.com,eurocccam.net,forum.shoppingtelly.com,iptvsat-forum.com,largescaleforums.com,leaked.im,longpoint.on.ca,scriptsfire.com,udevstudio.com##+js(abort-current-script, $, !document.getElementById(btoa)
 turkleech.com###h237
 turystyka.wp.pl#$#abort-on-property-read pbjsChunk
 turystyka.wp.pl,opinie.wp.pl,gry.wp.pl,moto.wp.pl,gwiazdy.wp.pl,tech.wp.pl,kobieta.wp.pl,wiadomosci.wp.pl#?#div[class*="-"] > div[class*="-"][class*=" "]:has(> img[src="https://i.wpimg.pl/O/56x45/i.wp.pl/a/i/stg/pkf/bg.png"])
@@ -97168,6 +97168,7 @@ zznews.cn##.ad:not([style])
 ||zhenghemold.com^
 ||zhengjie.com/a_d?
 ||zhenglianabang.vip^
+||zhengxiaoliu.top^
 ||zhengyejixie.com^
 ||zhengyuanguojimc.com^
 ||zhengzhoupengbo.com^
@@ -97787,3 +97788,4 @@ zznews.cn##.ad:not([style])
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ~weibo.com##.con_ad
 ~zhidmai.com##a[href*="https://www.zhidmai.com"]
+！ 移除某大佬修改idm的弹窗

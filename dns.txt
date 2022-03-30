@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 75l8tLcQHRdGsrLd4gb6wQ
+! Checksum: Vm+fGTGXtxN301migOGVgw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-30 22:44:05（北京时间） 
-! Total count: 99678
+! Version: 2022-03-30 23:46:45（北京时间） 
+! Total count: 99682
 /aaddright.
 /abstat.
 /ad.ams.
@@ -37349,6 +37349,7 @@
 ||favor1.fractal.jp^
 ||favoriteruffle.com^
 ||favourableencampmentdecency.com^
+||favourablequickdelve.com^
 ||favouritesuitable.com^
 ||favourmiles.com^
 ||fawenys.xyz^
@@ -52241,6 +52242,7 @@
 ||limaten.info^
 ||limberkilnman.cam^
 ||limbloyal.com^
+||limdarwin.top^
 ||limeclassycaption.com^
 ||limei.com^
 ||limelightcopper.com^
@@ -52843,6 +52845,7 @@
 ||lm213.com^
 ||lm245.com^
 ||lm335.com^
+||lm336.com^
 ||lm342.com^
 ||lm343.com^
 ||lm465.com^
@@ -95366,6 +95369,7 @@
 ||wtdtjs.rocks^
 ||wtfdontblock.theporndudes.xyz^
 ||wtg-ads.com^
+||wtg-ads.cozhihuirenjia.xyz^
 ||wtgnmr.golfdigest.co.jp^
 ||wtgongsi.com^
 ||wthnbwzk.com^

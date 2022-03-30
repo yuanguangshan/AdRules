@@ -18477,6 +18477,7 @@
 @@||socks24.org^$generichide
 @@||socksproxylist24.blogspot.com^$generichide
 @@||socksproxylist24.blogspot.de^$generichide
+@@||soft.com##[style*="width:3"][style*="height:2"]
 @@||soft98.ir^$generichide
 @@||soft98.ir^$generichide
 @@||soft98.ir^$ghide
@@ -22171,7 +22172,6 @@
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
 @@||yiqifa.com/ad_images/$~third-party
-@@||yktj.ymobi/js/app-bar-
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||yllix.com/banner_show.php$subdocument,domain=ogmods.net
