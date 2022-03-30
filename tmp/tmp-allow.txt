@@ -6028,6 +6028,7 @@
 @@||cps.kaola.com^
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cpubenchmark.net/js/ads.js$script
+@@||cq.qq._mrec
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cqcounter.com^$domain=cqcounter.com
@@ -22171,6 +22172,7 @@
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
 @@||yiqifa.com/ad_images/$~third-party
+@@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$d"border-top:1px dotted #ddd;line-height:1;"]
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||yllix.com/banner_show.php$subdocument,domain=ogmods.net

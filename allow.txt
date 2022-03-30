@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 5N79qQxbSggMncrNclQi/g
+! Checksum: llrfZ6SdCf5Hf2dsPp9cbw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-03-30 20:20:00（北京时间） 
-! Total count: 17119
+! Version: 2022-03-30 20:24:51（北京时间） 
+! Total count: 17121
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -4587,6 +4587,7 @@
 @@||cps.kaola.com^
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cpubenchmark.net/js/ads.js$script
+@@||cq.qq._mrec
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cr.acecounter.com/Web/AceCounter_AW.js$domain=berryjam.co.kr
@@ -16947,6 +16948,7 @@
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
+@@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$d"border-top:1px dotted #ddd;line-height:1;"]
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
 @@||yllix.com/banner_show.php$subdocument,domain=ogmods.net
 @@||ymcdn.site/check.php?callback=$stealth
