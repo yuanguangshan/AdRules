@@ -208,10 +208,11 @@ cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.
  | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
  | sort > ll.txt 
 wait
+
 cat l*.txt abp-hosts*.txt \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
  |sort -n |uniq >> tmp-dns.txt  #处理DNS规则
-wait
+
 cat base-src-hosts.txt tmp-dns.txt \
  | sed '/^$/d' |grep '^||\|^[0-9]' | grep -v '\*'\
  | grep -v './'| grep -v '^\[' | grep -v '.!' \
@@ -238,7 +239,7 @@ echo '移动完成'
 
 # Python 处理重复规则
 python .././script/rule.py
-echo '规则去重处理完成'
+
 # Start Add title and date
 diffFile="$(ls|sort -u)"
 for i in $diffFile; do
@@ -249,7 +250,7 @@ for i in $diffFile; do
  cat ./tpdate.txt ./$i-tpdate.txt ./$i > ./$new
  rm $i *tpdate.txt
 done
-
+echo '规则添加统计数据完成'
 # Add Title and MD5
 cd ../
 mkdir -p ./md5/
@@ -263,16 +264,6 @@ for i in $diffFile; do
  #echo "合并${i}的标题中"
 done
 echo '规则处理完成'
-# Check Rules
-a=`cat dns.txt |wc -l`
-b=1000
-if [ "$a" -lt "$b" ]
-then
- #bash ./script/update-rules.sh
- exit
-else
- echo Check PASS
-fi
 
 rm -rf pre
 exit
