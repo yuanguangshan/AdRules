@@ -176,7 +176,7 @@ cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.
  | sort > ll.txt &
 wait
 
-cat l*.txt abp-hosts*.txt \
+cat l*.txt abp-hosts*.txt pre-allow1.txt \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
  |sort -n |uniq >> tmp-dns.txt & #处理DNS规则
 wait
