@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: TW6cGa/aTCFImZasBqp4CA
+! Checksum: CdBKQh7TwHMebcktKRfKJQ
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-03-31 23:52:27（北京时间） 
-! Total count: 97821
+! Version: 2022-04-01 00:17:47（北京时间） 
+! Total count: 97828
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -18171,6 +18171,8 @@ $~xmlhttprequest,~media,removeparam=source,denyallow=googlevideo.com,domain=1sol
 123movies.*,123movieshd.ws,123moviestube.io,gomovies.cool,gomovies.la,putlockersnewsite2018.com,watch5s.is,z123movies4u.com##.mvic-btn
 123movies.*,watchseries.*,1putlocker.io##.content-kuss
 123moviesfree.love##+js(noeval)
+123moviesgo.club#$#abort-current-inline-script Math /break|case/
+123moviesgo.club#$#abort-on-property-write atAsyncContainers
 123phim.top,playvid.host,javmvp.com,playvideo.best,fakyutube.com,videogreen.xyz,hentai4.me,gaobook.review##+js(abort-on-property-read, pop)
 123putlocker.club#$#abort-current-inline-script _0xbc13
 123unblock.*#$?#html { margin-top: 0 !important; }
@@ -46619,6 +46621,7 @@ xh127.com###teinka
 xhaiwai.com##.baoru
 xhamster.com##.player-container > div[class*="-"]:not([class*="player"])
 xhamster.com##.sponsorBottom
+xhamster.com##.video-view-ads
 xhamster.com##.wio-x
 xhamster.com##.wit-sponsor-banner
 xhamster.com##.xplayer-banner-bottom
@@ -56429,6 +56432,7 @@ zznews.cn##.ad:not([style])
 ||best-offer-for-you.com^
 ||best-top.de^$third-party
 ||best-top.ro^$third-party
+||bestadload.com^
 ||bestadmax.com^
 ||bestanimegame.com^$popup
 ||bestaryua.com^
@@ -61711,6 +61715,7 @@ zznews.cn##.ad:not([style])
 ||detour.click^
 ||detowd.com^*.php
 ||detrimentaljigsaw.com^
+||deulderby.com^
 ||deut1.fdj.fr^
 ||dev-tacticalma.actonservice.com^
 ||dev.rubaoo.com/TimeDiaryV2^$app=idm.internet.download.manager.plus
@@ -66491,6 +66496,7 @@ zznews.cn##.ad:not([style])
 ||gleam.io/seen?
 ||gleam.io^$script,third-party
 ||gleamingtrade.com^
+||glebypraiss.com^
 ||glersakr.com^
 ||glersakr.com^$popup
 ||glgelevator.com^
@@ -93059,6 +93065,7 @@ zznews.cn##.ad:not([style])
 ||waiyuyou.com^
 ||wakamoment.tk^
 ||wakefulcook.com^
+||wakiupswacken.com^
 ||wal.co/cdn-perf.min.js
 ||wal.wolfram.com^
 ||walibao.com^$third-party
