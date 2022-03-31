@@ -181,9 +181,9 @@ wait
 
 cat l*.txt abp-hosts*.txt pre-allow1.txt \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
- |sort -n |uniq >> tmp-dns1.txt & #处理DNS规则
+ |sort -n |uniq >> tmp1-dns1.txt & #处理DNS规则
 wait
-cat tmp-dns1.txt deadblock.txt deadblock.txt \
+cat tmp1-dns1.txt deadblock.txt deadblock.txt \
  | sort -n |uniq -u >tmp-dns.txt #去重过期域名
 #wait
 cat base-src-hosts.txt tmp-dns.txt \
