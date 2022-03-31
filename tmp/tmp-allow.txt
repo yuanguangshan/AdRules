@@ -771,7 +771,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmajor-expert.ru^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -16099,6 +16099,7 @@
 @@||plejada.pl/*&srcc=ucs$removeparam
 @@||plejada.pl/*srcc=ucs$stealth
 @@||plex.tv/api/v*/users/*?utm_source=$removeparam=utm_source,domain=watch.plex.tv
+@@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||pleximum.com^$ghide
 @@||pln-pskov.ru/js/ads.js
 @@||plok01234.tistory.com^$generichide
@@ -22196,6 +22197,7 @@
 @@||youaima.com/zz/play_
 @@||youaima.com/zz/play_
 @@||youbora.com/*/js/adapters/jwplayer$script
+@@||youbora.com/*/js/adapters/theoplayer$script
 @@||youfap.me/intermission/loadTargetUrl$xmlhttprequest
 @@||yougetsignal.com/img/*_igoogle.gif
 @@||youjizz.com/js/default.js
@@ -22264,7 +22266,6 @@
 @@||yyfweb.postar.cn^$important
 @@||yygsz.com^$generichide
 @@||yygsz.com^$generichide
-@@||yytcdn.com/others/*_175x660.
 @@||yyv.co/intermission/loadTargetUrl$xmlhttprequest
 @@||yzzkb.com.cn^*ad.
 @@||yzzkb.com.cn^*ad.

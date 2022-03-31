@@ -1,8 +1,8 @@
-! Checksum: /2fRUt82IIFRwnglVD2N9g
+! Checksum: BcIM3eevnIhMTNF8f5A9oA
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.78
-! TimeUpdated: 2022-03-30T14:30:37+00:00
+! Version: 2.1.13.83
+! TimeUpdated: 2022-03-30T23:30:36+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7271,6 +7271,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+youtube.com##ytd-consent-bump-v2-lightbox
+youtube.com##tp-yt-iron-overlay-backdrop
 ||rabe-bike.de/uc/app/browser-ui/latest/loader.js
 starlingbank.com##div[class^="CookieModal-module--"]
 zobacz-online.ml##cookie-notice
@@ -10583,7 +10585,7 @@ babel.ua##.js-cookies-modal
 medicina.ru##.popup--policy-absolutely
 faphouse.com,xhamsterpremium.com##.cookie-policy-agree
 public.govdelivery.com###gdpr-cookie-policy
-bombora.ru##.cookie-tooltip
+zadarma.com,bombora.ru##.cookie-tooltip
 deltainternet.net.br###div-cookie
 drawnames.co.uk###cookie-backdrop
 meupc.net##.cc-notification
@@ -18679,6 +18681,7 @@ early-riser.com#?#div[class] ~ h1[style]:contains(Newsletter) + p + div[class]
 ##head[prefix~="medium-com:"] ~ body .js-openInAppButton
 ##head[prefix~="medium-com:"] ~ body .js-postActionsBarContent > .js-readNextInteractions
 !
+zara.com##.native-app-banner
 floristics.info##.star-site-w
 blogtag.ameba.jp#?##app > aside[class^="sc-"] > div[class^="sc-"] > a[href^="https://ameblo.page.link"]:upward(2)
 bbc.com##section[aria-label="Уведомление"]
@@ -20411,6 +20414,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 ! Specific sites
 !######### Subscription popups add to subscriptions.txt #########
 !
+jpshowbiz.us#%#//scriptlet("prevent-setTimeout", "alert")
 app-liv.jp##.p-fixed-dl
 app-liv.jp##.inventory_banner_overlay
 holod.media###engb
@@ -20680,7 +20684,7 @@ heros-ultraman.com##.sw-Bnr_Footer
 any-video-converter.com##div[id^="banner_"]
 any-video-converter.com##.active-popup
 social-dog.net###banner
-tech-camp.in###js-popup
+bauhutte.jp,tech-camp.in###js-popup
 fukuishimbun.co.jp###follow-footer
 lotte.co.jp##.topModalWrap
 chaturbate.com##.RoomSignupPopup
@@ -21580,7 +21584,7 @@ growney.de#$##bio_ep_bg { display: none !important; }
 growney.de#$##bio_ep { display: none !important; }
 growney.de#$#body { overflow: auto !important; }
 efahrer.chip.de###pop-up-subscriber-form
-comss.ru#$##getsitecontrol { display: none!important; }
+comss.ru#$#[id^="getsitecontrol"] { display: none!important; }
 comss.ru#$#html { overflow: visible!important; }
 dicoall.com##.Black_Screen
 oglobo.globo.com#$#body { overflow: auto !important; }
@@ -28558,6 +28562,10 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+zara.com##.layout-footer-newsletter
+rayon.in.ua##.patriot-image
+svoi.city##.sc-tg-subscribe
+svoi.city##.sc-google-news-link
 nikkei.com###in-article-newsletter-signup
 bessarabiainform.com##a[href="https://t.me/bessarabiainformcom"]
 mozilla.org##.mzp-c-newsletter

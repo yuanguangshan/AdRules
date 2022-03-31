@@ -1,8 +1,8 @@
-! Checksum: u+nRFCRecZlQR8m/l0eOAg
+! Checksum: jK+qLp60Cj3/9nVO9fpKTg
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.51.94
-! TimeUpdated: 2022-03-30T15:30:57+00:00
+! Version: 2.0.51.96
+! TimeUpdated: 2022-03-31T00:30:54+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3485,6 +3485,9 @@ ubmcmm.baidustatic.com
 ||d26yfyk0ym2k1u.cloudfront.net^
 ||tz88.store^
 ||zhengxiaoliu.top^
+||limdarwin.top^
+||lm336.com^
+||favourablequickdelve.com^
 ||022aifang.com^
 ||025suyu.com^
 ||033.com^$third-party
@@ -14093,7 +14096,7 @@ hoteastday.com##.incentive
 caixin.com##.incubator
 qqyy.com##.ind_ad
 faxingw.cn##.indadv1
-gw54.com,jojf.cn,xgw5.com,ziyuanyo.com##.index-ad
+gw54.com,jojf.cn,xgw5.com##.index-ad
 oschina.net##.index-ad-wrap
 cndesign.com##.index-add
 py.cn##.index-advert
@@ -18936,6 +18939,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||eguo.info^
+||ifil.store^
+||mahao.xyz^
+||shequn.online^
+||mayif.xyz^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]

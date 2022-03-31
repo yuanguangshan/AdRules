@@ -1,8 +1,8 @@
-! Checksum: EaGxyhrWILudYJ0Ubn1z7A
+! Checksum: G3Wo+0PBbBF8T4FLN94Tzw
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.78
-! TimeUpdated: 2022-03-30T14:30:37+00:00
+! Version: 2.1.13.83
+! TimeUpdated: 2022-03-30T23:30:36+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3357,6 +3357,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 /wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
+youtube.com##ytd-consent-bump-v2-lightbox
+youtube.com##tp-yt-iron-overlay-backdrop
 ||rabe-bike.de/uc/app/browser-ui/latest/loader.js
 starlingbank.com##div[class^="CookieModal-module--"]
 zobacz-online.ml##cookie-notice
@@ -5389,6 +5391,7 @@ babel.ua##.js-cookies-modal
 medicina.ru##.popup--policy-absolutely
 faphouse.com,xhamsterpremium.com##.cookie-policy-agree
 public.govdelivery.com###gdpr-cookie-policy
+zadarma.com,bombora.ru##.cookie-tooltip
 meupc.net##.cc-notification
 nestoria.com.br##.wrap-cookies-desktop
 comidinhasdochef.com,scorchin.com,xhamsterlive.com##.cookies-reminder
@@ -9065,6 +9068,7 @@ therahnuma.com##.post-footer-on-bottom
 ##amp-app-banner
 ###smartbanner.ios
 ###smartbanner.windows
+zara.com##.native-app-banner
 floristics.info##.star-site-w
 blogtag.ameba.jp#?##app > aside[class^="sc-"] > div[class^="sc-"] > a[href^="https://ameblo.page.link"]:upward(2)
 bbc.com##section[aria-label="Уведомление"]
@@ -9954,6 +9958,7 @@ smallpdf.com##body > div#app > div[class]:has(> div > div > img[alt="Chrome"])
 ||form.typeform.com^$domain=theoryandpractice.ru
 theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 !######### Subscription popups add to subscriptions.txt #########
+jpshowbiz.us#%#//scriptlet("prevent-setTimeout", "alert")
 app-liv.jp##.p-fixed-dl
 app-liv.jp##.inventory_banner_overlay
 holod.media###engb
@@ -10176,7 +10181,7 @@ brilliant.org#$#.sponsor-modal { display: none !important; }
 brilliant.org#$#body.locked { overflow: auto !important; }
 any-video-converter.com##.active-popup
 social-dog.net###banner
-tech-camp.in###js-popup
+bauhutte.jp,tech-camp.in###js-popup
 chaturbate.com##.RoomSignupPopup
 kwm.co.jp##.book_link
 bunshun.jp##.footer-overlay
@@ -10768,6 +10773,7 @@ typography.com##div[class^="App__footerRegion_"] > footer[class^="SiteFooter__fo
 playground.ru###tzrContainer
 growney.de#$#body { overflow: auto !important; }
 efahrer.chip.de###pop-up-subscriber-form
+comss.ru#$#[id^="getsitecontrol"] { display: none!important; }
 comss.ru#$#html { overflow: visible!important; }
 dicoall.com##.Black_Screen
 oglobo.globo.com#$#body { overflow: auto !important; }
@@ -13771,6 +13777,10 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ||cp.unisender.com/*/form-widget-loader.js$third-party
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
+zara.com##.layout-footer-newsletter
+rayon.in.ua##.patriot-image
+svoi.city##.sc-tg-subscribe
+svoi.city##.sc-google-news-link
 nikkei.com###in-article-newsletter-signup
 bessarabiainform.com##a[href="https://t.me/bessarabiainformcom"]
 mozilla.org##.mzp-c-newsletter
