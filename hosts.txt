@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: xxiMNyUSZ1fZJ+CuUjLTHQ
+! Checksum: PTNmRnAUcXcOttx+t3TIwQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-03-31 08:55:54（北京时间） 
-! Total count: 96596
+! Version: 2022-03-31 16:15:33（北京时间） 
+! Total count: 96606
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.nextyourcontent.com
@@ -2236,6 +2236,7 @@
 0.0.0.0 921ce2aa2264.com
 0.0.0.0 922.hittail.com
 0.0.0.0 925.lt
+0.0.0.0 92lottery.com
 0.0.0.0 92mile.com
 0.0.0.0 92qj1u.cn
 0.0.0.0 92sales.com
@@ -2441,7 +2442,6 @@
 0.0.0.0 a.4aqq.com
 0.0.0.0 a.52wubi.com
 0.0.0.0 a.52zxw.com
-0.0.0.0 a.6vids.space
 0.0.0.0 a.777n.com
 0.0.0.0 a.78yx.net
 0.0.0.0 a.91nets.cn
@@ -2753,7 +2753,6 @@
 0.0.0.0 a.yellowurl.cn
 0.0.0.0 a.yixie8.com
 0.0.0.0 a.youdao.com
-0.0.0.0 a.youtubersgonewild.net
 0.0.0.0 a.yuzhainan.com
 0.0.0.0 a.zdbb.net
 0.0.0.0 a.zeroredirect1.com
@@ -14184,7 +14183,6 @@
 0.0.0.0 asg.page-x.com
 0.0.0.0 asg.phukienthoitranggiare.com
 0.0.0.0 asg.pornoplay.online
-0.0.0.0 asg.pornx99.us
 0.0.0.0 asg.sdtraff.com
 0.0.0.0 asg.soundrussian.com
 0.0.0.0 asg1.xueserverhost.com
@@ -21112,7 +21110,6 @@
 0.0.0.0 cdn.aralego.net
 0.0.0.0 cdn.arcstudiopro.com
 0.0.0.0 cdn.as.amanad.adtdp.com
-0.0.0.0 cdn.asce.xyz
 0.0.0.0 cdn.asdfix.com
 0.0.0.0 cdn.asdfix.xyz
 0.0.0.0 cdn.asecw.xyz
@@ -21262,7 +21259,6 @@
 0.0.0.0 cdn.flashtalking.com
 0.0.0.0 cdn.flashtalking.com.edgekey.net
 0.0.0.0 cdn.flurry.com
-0.0.0.0 cdn.fluxy.xyz
 0.0.0.0 cdn.fqtag.com
 0.0.0.0 cdn.freefaits.com
 0.0.0.0 cdn.freehonor.com
@@ -21284,6 +21280,7 @@
 0.0.0.0 cdn.goldclick.xyz
 0.0.0.0 cdn.gotraffic.net
 0.0.0.0 cdn.gumgum.com
+0.0.0.0 cdn.haocaa.com
 0.0.0.0 cdn.hauleddes.com
 0.0.0.0 cdn.hbplatform.com
 0.0.0.0 cdn.hdat.xyz
@@ -24802,6 +24799,7 @@
 0.0.0.0 connexionsafe.com
 0.0.0.0 connexity.net
 0.0.0.0 connexplace.com
+0.0.0.0 connext-cdn.azureedge.net
 0.0.0.0 connextra.com
 0.0.0.0 connperf.immomo.com
 0.0.0.0 conqueredcousin.com
@@ -25294,6 +25292,7 @@
 0.0.0.0 cornerstoneadvisory.com.au
 0.0.0.0 cornerstonecreativestudios.com
 0.0.0.0 cornplus.cn
+0.0.0.0 corona999.com
 0.0.0.0 corp-assets.triplelift.com
 0.0.0.0 corp-downloads.com
 0.0.0.0 corp.leanplum.com
@@ -34423,6 +34422,7 @@
 0.0.0.0 f7ds.liberation.fr
 0.0.0.0 f8260adbf8558d6.com
 0.0.0.0 f8272.com
+0.0.0.0 f8bet0.com
 0.0.0.0 f8ij9.life
 0.0.0.0 f8phvntohv.tpetry.me
 0.0.0.0 f92j5.com
@@ -42940,6 +42940,7 @@
 0.0.0.0 igrs.ca
 0.0.0.0 igsn.us
 0.0.0.0 igtdovf.pro
+0.0.0.0 igusoft.com
 0.0.0.0 igvuw.com
 0.0.0.0 igvxnenqgu.com
 0.0.0.0 ih.adscale.de
@@ -45657,6 +45658,7 @@
 0.0.0.0 jd.revolvermaps.com
 0.0.0.0 jd01estvpr.club
 0.0.0.0 jdaili.xyz
+0.0.0.0 jdb66.vip
 0.0.0.0 jdbzurmhiixqm.com
 0.0.0.0 jdd01.198game.net
 0.0.0.0 jddaw.com
@@ -66490,6 +66492,7 @@
 0.0.0.0 qeyps.com
 0.0.0.0 qezfer.motelamiio.com
 0.0.0.0 qfbles.elefant.ro
+0.0.0.0 qfcdgy.cn
 0.0.0.0 qfcrjdrp.com
 0.0.0.0 qfdn3gyfbs.com
 0.0.0.0 qfdzba.sport-schuster.de
@@ -73209,6 +73212,7 @@
 0.0.0.0 shawuh2a8nyam09.com
 0.0.0.0 shaxiq.com
 0.0.0.0 shbbr.com
+0.0.0.0 shbet0.com
 0.0.0.0 shbmymhkwsaskje.xyz
 0.0.0.0 shcy3.com
 0.0.0.0 shcylxl.com
@@ -73274,6 +73278,7 @@
 0.0.0.0 shieldof5adam.com
 0.0.0.0 shifoagn.uk
 0.0.0.0 shiftintercoursebridge.com
+0.0.0.0 shigl.top
 0.0.0.0 shiguangyx.cn
 0.0.0.0 shihoult.com
 0.0.0.0 shihualandun.cn
@@ -73717,6 +73722,7 @@
 0.0.0.0 simpleview.it
 0.0.0.0 simpli.fi
 0.0.0.0 simplifi.partners.tremorhub.com
+0.0.0.0 simpliftsbefore.info
 0.0.0.0 simplinteriors.com
 0.0.0.0 simplisticstem.com
 0.0.0.0 simply.lucanet.com
@@ -80947,6 +80953,7 @@
 0.0.0.0 taobc.com
 0.0.0.0 taobeike.com
 0.0.0.0 taobso.cn
+0.0.0.0 taocangjituan.com
 0.0.0.0 taoguanda.com
 0.0.0.0 taoguohe.com
 0.0.0.0 taohanpai.com
@@ -83053,8 +83060,10 @@
 0.0.0.0 top50.co.uk
 0.0.0.0 top88.club
 0.0.0.0 top88.fun
+0.0.0.0 top88.me
 0.0.0.0 top88.uk
 0.0.0.0 top88.us
+0.0.0.0 top88.vn
 0.0.0.0 top90.ro
 0.0.0.0 topacity.info
 0.0.0.0 topad.mobi
@@ -89197,6 +89206,7 @@
 0.0.0.0 vnq53.com
 0.0.0.0 vnq73.com
 0.0.0.0 vnq8.bet
+0.0.0.0 vnq8.com
 0.0.0.0 vnr81.com
 0.0.0.0 vnr82.com
 0.0.0.0 vnr83.com
@@ -94797,6 +94807,7 @@
 0.0.0.0 yieldtraffic.com
 0.0.0.0 yieldx.com
 0.0.0.0 yierheng.top
+0.0.0.0 yifenghuyu.com
 0.0.0.0 yifuffbypvps.xyz
 0.0.0.0 yigao.com
 0.0.0.0 yigemi.com
@@ -96602,4 +96613,3 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.ru.0.0.0 foldingfileartist.com

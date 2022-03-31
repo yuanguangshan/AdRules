@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ry1GCyj+HnezzRy14AvtrA
+! Checksum: cCF62e4jOTs6YpS0dU16dw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-03-31 08:55:54（北京时间） 
-! Total count: 100624
+! Version: 2022-03-31 16:15:33（北京时间） 
+! Total count: 100634
 /aaddright.
 /abstat.
 /ad.ams.
@@ -4454,6 +4454,7 @@
 ||924e60106cd9d0e.com^
 ||925.lt^
 ||92c49223-b37f-4157-904d-daf4679f14d5.usrfiles.com^
+||92lottery.com^
 ||92mile.com^
 ||92qj1u.cn^
 ||92sales.com^
@@ -4683,7 +4684,6 @@
 ||a.4aqq.com^
 ||a.52wubi.com^
 ||a.52zxw.com^
-||a.6vids.space^
 ||a.777n.com^
 ||a.78yx.net^
 ||a.91nets.cn^
@@ -4995,7 +4995,6 @@
 ||a.yellowurl.cn^
 ||a.yixie8.com^
 ||a.youdao.com^
-||a.youtubersgonewild.net^
 ||a.yuzhainan.com^
 ||a.zdbb.net^
 ||a.zeroredirect1.com^
@@ -16625,7 +16624,6 @@
 ||asg.page-x.com^
 ||asg.phukienthoitranggiare.com^
 ||asg.pornoplay.online^
-||asg.pornx99.us^
 ||asg.sdtraff.com^
 ||asg.soundrussian.com^
 ||asg1.xueserverhost.com^
@@ -23724,7 +23722,6 @@
 ||cdn.aralego.net^
 ||cdn.arcstudiopro.com^
 ||cdn.as.amanad.adtdp.com^
-||cdn.asce.xyz^
 ||cdn.asdfix.com^
 ||cdn.asdfix.xyz^
 ||cdn.asecw.xyz^
@@ -23874,7 +23871,6 @@
 ||cdn.flashtalking.com.edgekey.net^
 ||cdn.flashtalking.com^
 ||cdn.flurry.com^
-||cdn.fluxy.xyz^
 ||cdn.fqtag.com^
 ||cdn.freefaits.com^
 ||cdn.freehonor.com^
@@ -23896,6 +23892,7 @@
 ||cdn.goldclick.xyz^
 ||cdn.gotraffic.net^
 ||cdn.gumgum.com^
+||cdn.haocaa.com^
 ||cdn.hauleddes.com^
 ||cdn.hbplatform.com^
 ||cdn.hdat.xyz^
@@ -27487,6 +27484,7 @@
 ||connexionsafe.com^
 ||connexity.net^
 ||connexplace.com^
+||connext-cdn.azureedge.net^
 ||connextra.com^
 ||connperf.immomo.com^
 ||conpst.112.2o7.net^
@@ -27983,6 +27981,7 @@
 ||cornerstoneadvisory.com.au^
 ||cornerstonecreativestudios.com^
 ||cornplus.cn^
+||corona999.com^
 ||corp-assets.triplelift.com^
 ||corp-downloads.com^
 ||corp.leanplum.com^
@@ -37359,6 +37358,7 @@
 ||f8272.com^
 ||f853150605ccb.com^
 ||f87b88d3649456.com^
+||f8bet0.com^
 ||f8ij9.life^
 ||f8phvntohv.tpetry.me^
 ||f92j5.com^
@@ -46103,6 +46103,7 @@
 ||igrs.ca^
 ||igsn.us^
 ||igtdovf.pro^
+||igusoft.com^
 ||igvuw.com^
 ||igvxnenqgu.com^
 ||ih.adscale.de^
@@ -48860,6 +48861,7 @@
 ||jd.revolvermaps.com^
 ||jd01estvpr.club^
 ||jdaili.xyz^
+||jdb66.vip^
 ||jdbzurmhiixqm.com^
 ||jdd01.198game.net^
 ||jddaw.com^
@@ -70134,6 +70136,7 @@
 ||qeyps.com^
 ||qezfer.motelamiio.com^
 ||qfbles.elefant.ro^
+||qfcdgy.cn^
 ||qfcrjdrp.com^
 ||qfdn3gyfbs.com^
 ||qfdzba.sport-schuster.de^
@@ -76953,6 +76956,7 @@
 ||shawuh2a8nyam09.com^
 ||shaxiq.com^
 ||shbbr.com^
+||shbet0.com^
 ||shbmymhkwsaskje.xyz^
 ||shcy3.com^
 ||shcylxl.com^
@@ -77018,6 +77022,7 @@
 ||shieldof5adam.com^
 ||shifoagn.uk^
 ||shiftintercoursebridge.com^
+||shigl.top^
 ||shiguangyx.cn^
 ||shihoult.com^
 ||shihualandun.cn^
@@ -77462,6 +77467,7 @@
 ||simpleview.it^
 ||simpli.fi^
 ||simplifi.partners.tremorhub.com^
+||simpliftsbefore.info^
 ||simplinteriors.com^
 ||simplisticstem.com^
 ||simply.lucanet.com^
@@ -84754,6 +84760,7 @@
 ||taobc.com^
 ||taobeike.com^
 ||taobso.cn^
+||taocangjituan.com^
 ||taoguanda.com^
 ||taoguohe.com^
 ||taohanpai.com^
@@ -86914,8 +86921,10 @@
 ||top50.co.uk^
 ||top88.club^
 ||top88.fun^
+||top88.me^
 ||top88.uk^
 ||top88.us^
+||top88.vn^
 ||top90.ro^
 ||topacity.info^
 ||topad.mobi^
@@ -93151,6 +93160,7 @@
 ||vnq53.com^
 ||vnq73.com^
 ||vnq8.bet^
+||vnq8.com^
 ||vnr81.com^
 ||vnr82.com^
 ||vnr83.com^
@@ -98806,6 +98816,7 @@
 ||yieldtraffic.com^
 ||yieldx.com^
 ||yierheng.top^
+||yifenghuyu.com^
 ||yifuffbypvps.xyz^
 ||yigao.com^
 ||yigemi.com^
@@ -100629,5 +100640,4 @@
 ||zzyanhushi.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru.0.0.0 foldingfileartist.com^
 ||zzznews.ru^
