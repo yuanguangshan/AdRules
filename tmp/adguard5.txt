@@ -1,8 +1,8 @@
-! Checksum: di8ohJcYA0pBsTOCMKIDBw
+! Checksum: OiumxrP8WxiLcUKL3zhGQg
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.13.88
-! TimeUpdated: 2022-03-31T11:30:40+00:00
+! Version: 2.1.13.92
+! TimeUpdated: 2022-03-31T14:30:47+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1392,11 +1392,6 @@ sharree.com#%#//scriptlet("abort-current-inline-script", "$", "Adblock")
 lapumia.org#%#//scriptlet("set-constant", "adblock", "false")
 tabstats.com##.incontainer > .afill
 @@||m.media-amazon.com/images/*/csm/showads.*.js
-lesechos.fr#@#.adBox
-lesechos.fr#@#.ad-box
-lesechos.fr#@#.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner)
-lesechos.fr#@#.adBanner
-lesechos.fr#@#.adbanner
 otempo.com.br##.adblock-info
 png.is#$#ins.adsbygoogle { height: 1px!important; }
 @@||poedb.tw/dfp.js
@@ -3357,6 +3352,11 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 /wrapperMessagingWithoutDetection.js$script,domain=lovelybooks.de|hannover.de|visit-hannover.com|wetteronline.de|autozeitung.de|sportbible.com|vox.de|essen-und-trinken.de|jameda.de|gutefrage.net|planetiphone.de|computerfrage.net|helpster.de|dpd.com|dpd.de|duden.de|sky.de|sky.com|cardscout.de|meineorte.com|tecchannel.de|itpro.co.uk|tvnow.at|tvnow.de|netdoktor.de|computerwoche.de|the-sun.com|thescottishsun.co.uk|thesun.co.uk|thesun.ie|handelsblatt.com|macwelt.de|lancashiretelegraph.co.uk|idealo.de|myhomebook.de|4players.de|n-page.de|planet3ds.de|planetds.de|planetgameboy.de|planetswitch.de|planetvita.de|playstationportable.de|portablegaming.de|denofgeek.com|classicfm.com|globalplayer.com|radio.pl|politico.eu|expertreviews.co.uk|radio.net|rtlplus.de|rtl-passion.de|geo-television.de|gruenderkueche.de|techstage.de|praxisvita.de|kn-online.de|nnn.de|geo.de|leserreisen.mz-web.de|kuechengoetter.de|cio.de|cio.com|tv14.de|nitro-tv.de|elektroauto-news.net|channelpartner.de|nowtv.it|macworld.com|radio.de|svz.de|axelspringer.com|businessinsider.es|sueddeutsche.de|livingathome.de|jetzt.de|leonberger-kreiszeitung.de|finanzfrage.net|frag-mutti.de|bestcheck.de|dexerto.com|techadvisor.com|stuff.tv|baby-und-familie.de|netmoms.de|testedich.de|toggo.de|senioren-ratgeber.de|autoexpress.co.uk|shz.de|prignitzer.de|meine.noz.de|mediaimpact.de|ad-alliance.de|studyflix.de|speed.io|computerhoy.com|liberation.fr|auto-motor-und-sport.de|mcnmotorcycleshow.com|familie.de|oekotest.de|csoonline.com|dailyresearchplot.com|menshealth.de|camping.info|badoo.com
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
+calendardate.com##body > div[style="position: fixed; left: 0px; bottom: 0px; width: 100%;"]
+metabo.com##nsd-cookie-banner
+||metabo.com/*/metabo/src/js/nsd-cookie-banner/nsd-cookie-banner.min.js
+netflix.com###cookie-disclosure
+plurall.net##div[class^="PrivacyBanner_privacy_"]
 ainex.jp###cookie_attention
 delta.com###gdpr-banner-blurred-background
 youtube.com##ytd-consent-bump-v2-lightbox
@@ -4594,7 +4594,8 @@ fpv24.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 fpv24.com#$##cookieModal { display: none !important; }
 fpv24.com#$##cookieModal ~ div.modal-backdrop { display: none !important; }
 news247.gr##.newsletter-form
-bw-discount.de,teddytoys.de,topdoors.de,main-moebel.de,shop.pistenbully.com##.eightworks-cookie-consent-plus
+campingshop-24.de##.eightworks-cookie-consent-plus-toggler
+campingshop-24.de,bw-discount.de,teddytoys.de,topdoors.de,main-moebel.de,shop.pistenbully.com##.eightworks-cookie-consent-plus
 etxt.ru##.mod-cookie
 godbolt.org###simplecook
 coolblue.nl#$#.cookie { display: none !important; }
@@ -9062,6 +9063,9 @@ therahnuma.com##.post-footer-on-bottom
 ##amp-app-banner
 ###smartbanner.ios
 ###smartbanner.windows
+wear.jp###hdr_download
+wear.jp###secAppDownload
+||mangalove.me/images/app_yuudou.png
 vandaaginside.nl##.qlf-promo-footer[promotype="promofooter"]
 zara.com##.native-app-banner
 floristics.info##.star-site-w
@@ -9156,6 +9160,7 @@ tfm.co.jp###super
 mhealth.ru##.pwa-nameplate
 academia.edu#$?#body > div:has(> div.ds-Modal button:contains(/^Get the app$/)) { display: none!important; }
 academia.edu#$#body { overflow: auto!important; }
+gu-global.com###smbn_app
 m.kuku.lu#?#table[width="100%"] > tbody > tr > td:has(> a[href^="https://play.google.com"])
 ekitan.com##.header-app-invitation
 tapple.me#?##gatsby-focus-wrapper > div.py-10.pl-4.pr-16:has(> div > div > a.w-full[href^="https://go.onelink.me"])
@@ -9957,6 +9962,8 @@ smallpdf.com##body > div#app > div[class]:has(> div > div > img[alt="Chrome"])
 ||form.typeform.com^$domain=theoryandpractice.ru
 theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 !######### Subscription popups add to subscriptions.txt #########
+quizlet.com##.SetPageTermsStickyBanner
+quizlet.com###UniversalUpsellTarget
 jpshowbiz.us#%#//scriptlet("prevent-setTimeout", "alert")
 app-liv.jp##.p-fixed-dl
 app-liv.jp##.inventory_banner_overlay
@@ -13307,6 +13314,7 @@ www.tf1.fr##div[class^="MaxBanner_container_"]
 experts-exchange.com#$#.interceptReplaceElement { display: block!important; }
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
+zhidao.baidu.com##.earn-points-exchange-gifts-bubble
 disk.yandex.*##.direct-public__bottom-direct-wrapper
 yandex.*##.meteum-promo
 price.ua##.top-categories-autoscroll
@@ -15158,7 +15166,7 @@ commentcamarche.net##.nl-box
 ||app.conversiobot.com^$third-party
 correiobraziliense.com.br##.revue-embed
 cnx-software.com#?##secondary > section.widget:has(> div.textwidget a[rel="nofollow"]:contains(Subscribe))
-jardima.com,farklifarkli.com##.g1-slideup-newsletter
+geniusinteractive.org,jardima.com,farklifarkli.com##.g1-slideup-newsletter
 golospravdy.eu###text-130
 mvideo.ru#?#.footer div.footer-subscribe-title:upward(2)
 coincodex.com##app-sidebar-subscribe
@@ -15257,6 +15265,7 @@ xataka.com#?#.aside-box:has(> form.newsletter-form)
 patronlardunyasi.com##form[action="/newsletter.asp"]
 windowscentral.com,androidcentral.com##.block-newsletter
 lisa.ru,budzma.org##.subscriber
+geniusinteractive.org,olumhaberi.com##.g1-newsletter
 ad.nl##.fjs-newsletter
 herder.de##div[id$="upanNewsletter"]
 monstersandcritics.com##.newsletter-surround
@@ -15873,10 +15882,6 @@ magazine.skyeng.ru##.tg-banner
 !######### CSS tweaks #########
 !##############################
 shavetape.*,adblockstrtape.link,adblockstrtech.link,adblockstreamtape.*,stape.fun,strcloud.link,streamtape.*#%#//scriptlet("adjust-setTimeout", "counter", "", "0.02")
-loanapply.info#$##showlink { display: block !important; }
-loanapply.info#$#.to:style { display: block !important; }
-loanapply.info#$##pleasewait { display none !important; }
-loanapply.info#$##pleasewaits { display none !important; }
 jardima.com#$##wpsafe-generate { display: block !important; }
 jardima.com#$##wpsafe-link { display: block !important; }
 jardima.com#$#div[id^="wpsafe-wait"] { display none !important; }
