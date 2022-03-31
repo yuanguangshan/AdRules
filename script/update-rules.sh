@@ -111,6 +111,9 @@ curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4
 
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list \
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts998.txt &
+
+curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/FusionPlmH/dead-block/master/deadblock \
+ | sed "s/^/||&/g" | sed "s/$/&^/g" > deadblock.txt &
 wait
 echo '规则下载完成'
 
@@ -173,13 +176,16 @@ cat full-adguard*.txt \
 cat .././mod/rules/*-rules.txt dns*.txt *easylist*.txt full-adg*.txt abp-hosts*.txt \
  | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \
  | grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
- | sort > ll.txt &
+ | sort | uniq > ll.txt &
 wait
 
 cat l*.txt abp-hosts*.txt pre-allow1.txt \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
- |sort -n |uniq >> tmp-dns.txt & #处理DNS规则
+ |sort -n |uniq >> tmp-dns1.txt & #处理DNS规则
 wait
+cat tmp-dns1.txt deadblock.txt deadblock.txt \
+ | sort -n |uniq -u >tmp-dns.txt #去重过期域名
+#wait
 cat base-src-hosts.txt tmp-dns.txt \
  | sed '/^$/d' |grep '^||\|^[0-9]' | grep -v '\*'\
  | grep -v './'| grep -v '^\[' | grep -v '.!' \
