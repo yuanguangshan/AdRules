@@ -1,8 +1,8 @@
-! Checksum: 5+46pSZ4M8GDc7xYZ+tkjg
+! Checksum: GODychjyEAb18Y4BsJjeQQ
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.28.15
-! TimeUpdated: 2022-03-30T17:01:52+00:00
+! Version: 2.0.28.17
+! TimeUpdated: 2022-03-31T10:30:20+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1850,6 +1850,7 @@ cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m
 praxistipps.focus.de,praxistipps.chip.de##.StickyAd
 yakuji.co.jp,asahi.com,m.winporn.com,slate.com,sankei.com,gameranbu.jp,seiga.nicovideo.jp,m.arukikata.co.jp,setn.com,hateblo.jp,hatenablog.com,hatenablog.jp,hatenadiary.com,hatenadiary.jp,hatenadiary.org,syosetu.org##.ad
 javfan.one##div[style^="width: 300px;"][style*="height: 250px;"]
+league-funny.com##div[class^="clone_pmp"]
 baby-calendar.jp##div[id^="JP_BABY_sp_all_"]
 blogtag.ameba.jp###app > aside[class^="sc-"] > div[class]:empty
 blogtag.ameba.jp##main > ul > div[class]:empty
@@ -1924,6 +1925,7 @@ free-erobooks.*##.pbox
 dokuha.jp##.ad-size-rect
 wired.com##amp-subscriptions-dialog
 am-our.com##div[style="min-height: 100px"]
+otakei.otakuma.net##.banner-header
 abendzeitung-muenchen.de##.ad-widebox
 m.ynet.co.il##._adunit_
 ||kalerkantho.com/banner/

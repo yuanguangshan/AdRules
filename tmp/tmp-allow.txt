@@ -771,7 +771,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgpark.ru^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -779,7 +779,6 @@
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://media.amazon.map.fastly.net^$script
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
-@@|ifa.com/ad_images/$~third-party
 @@|partners.adsterra.com^|
 @@|publishers.adsterra.com^|
 @@|steamgamesales.com^$urlblock
@@ -9950,6 +9949,8 @@
 @@||googletagmanager.com/gtm.js$domain=superesportes.com.br
 @@||googletagmanager.com/gtm.js$domain=superesportes.com.br
 @@||googletagmanager.com/gtm.js$domain=suwen.com.tr
+@@||googletagmanager.com/gtm.js$domain=systemrequirementslab.com
+@@||googletagmanager.com/gtm.js$domain=systemrequirementslab.com
 @@||googletagmanager.com/gtm.js$domain=t-online.de
 @@||googletagmanager.com/gtm.js$domain=t-online.de
 @@||googletagmanager.com/gtm.js$domain=tagesanzeiger.ch
@@ -20004,6 +20005,10 @@
 @@||tmgrup.com.tr/bd/hb/prebid.js$domain=atv.com.tr
 @@||tmgrup.com.tr/site/$script,stylesheet,stealth
 @@||tmohentai.com^$ghide
+@@||tms.delta.com/delta/dl_bastian/*.js$domain=delta.com
+@@||tms.delta.com/delta/dl_bastian/*.js$domain=delta.com
+@@||tms.delta.com/delta/dl_bastian/serverComponent.php$domain=delta.com
+@@||tms.delta.com/delta/dl_bastian/serverComponent.php$domain=delta.com
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
 @@||tnabucks.com/intermission/loadTargetUrl$xmlhttprequest
 @@||tns-counter.ru/tcounter.js$domain=forbes.ru
@@ -20593,6 +20598,8 @@
 @@||uploadrocket.net/ads.js
 @@||uploadrocket.net/advertising/ads.js
 @@||uploadrocket.net/advertising/ads.js$script
+@@||uploads-ssl.webflow.com/*/css/adcentral.webflow.*.css$domain=joinadcentral.com
+@@||uploads-ssl.webflow.com/*/css/adcentral.webflow.*.css$domain=joinadcentral.com
 @@||uploads.forumcommunity.it^$stealth
 @@||uploadshub.com^$elemhide
 @@||uploadx.link^$generichide
@@ -22175,7 +22182,6 @@
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
 @@||yimuhe.com/n_js/advertiser.js
 @@||yimuhe.com/n_js/advertiser.js
-@@||yiqang.com#?#p:-abp-has(a[href="http://www.sm9166.com"])
 @@||yiqifa.com/ad_images/$~third-party
 @@||yiqifa.com/ad_images/$~third-party
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn

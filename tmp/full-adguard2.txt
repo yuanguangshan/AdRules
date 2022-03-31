@@ -1,8 +1,8 @@
-! Checksum: uTcoY1ZeBOy+zbYacshvlQ
+! Checksum: 721E3m8IrUZBDE/qq9T5wg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.37.32
-! TimeUpdated: 2022-03-30T13:31:22+00:00
+! Version: 2.0.37.36
+! TimeUpdated: 2022-03-31T11:31:26+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -20482,8 +20482,16 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+||ddla593ymz72o.cloudfront.net^
+||mail.yahoo.com/px.gif?
+||mail.yahoo.com/comscore_beacon/
+||s.yimg.com/cx/pv/perf-vitals_
+||mail.yahoo.com/d/log?count=
+||udc.yahoo.com/*/yql?
+||infusionsoft.app/app/webTracking/
 ||cdn.lr-in.com/logger-1.min.js
 ||cdn.lr-in.com/LogRocket.min.js
+||popularwidget.com/tracker/
 ||share.9cdn.net/share/long_cache/js/tracking/
 ||cdnweb.avansas.com/_ui/shared/js/analyticsmediator.js
 ||b-cdn.milliyet.com.tr/banalytics.js
@@ -24495,6 +24503,12 @@ $app=com.miui.analytics
 ! For platforms which do not support $redirect rules
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/113819
+@@||googletagmanager.com/gtm.js$domain=systemrequirementslab.com
+||googletagmanager.com/gtm.js$script,xmlhttprequest,redirect=googletagmanager-gtm,domain=systemrequirementslab.com,important
+! https://github.com/AdguardTeam/AdguardFilters/issues/114148
+@@||tms.delta.com/delta/dl_bastian/*.js$domain=delta.com
+@@||tms.delta.com/delta/dl_bastian/serverComponent.php$domain=delta.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/111180
 @@||ssl.kaptcha.com/collect/$domain=mybalancenow.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113256
