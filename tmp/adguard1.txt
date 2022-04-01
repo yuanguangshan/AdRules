@@ -1,8 +1,8 @@
-! Checksum: dYRtSagf1jeF+wo+vwJ1Rg
+! Checksum: yUjd8FRWa9iRX9SeI/rQlA
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.28.18
-! TimeUpdated: 2022-03-31T13:01:56+00:00
+! Version: 2.0.28.19
+! TimeUpdated: 2022-04-01T18:30:18+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1192,6 +1192,7 @@ avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotak
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#?#.js_post-content > div[class]:has(> .instream-native-video)
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#?#article > div[class]:has(> div[class] > p:contains(Advertisement))
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#?#.js_sticky-footer:has(> .js_ad-sticky-footer)
+avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#?#section div > div[class] div[class]:has(> .ad-container)
 m.sports.ru#?#.b-material-list__container > article:has(> div.b-material-list__item-content > div.b-material-list__item-content-details > span:contains(Реклама))
 m.sports.ru#?#.g-wrap > article:has(> div.poll > div.poll__ad-label)
 m.sports.ru#?#.b-news-item__content > div.poll:has(> div.poll__ad-label)

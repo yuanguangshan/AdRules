@@ -1,3 +1,80 @@
+
+/((^)|(.))adchoice./
+/((^)|(.))adnxs./
+/((^)|(.))adsdk./
+/((^)|(.))adserv./
+/((^)|(.))analytic./
+/((^)|(.))app-measurement((^)|(.))/
+/((^)|(.))crashlytics((^)|(.))/
+/((^)|(.))doubleclick((^)|(.))/
+/((^)|(.))events./
+/((^)|(.))imrworldwide((^)|(.))/
+/((^)|(.))insightexpressai((^)|(.))/
+/((^)|(.))metric./
+/((^)|(.))mopub./
+/((^)|(.))nexage((^)|(.))/
+/((^)|(.))scorecardresearch((^)|(.))/
+/((^)|(.))smaato./
+/((^)|(.))svr-algorix./
+/((^)|(.))telemetry./
+/((^)|(.))tracking./
+/((^)|(.))trackmenow*/
+/((^)|(.))trackmenowsitn((^)|(.))/
+/((^)|(.))trackscale./
+/((^)|(.))trkmenow*/
+/((^)|(.))trkmenowapptwtree((^)|(.))/
+/([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?advertising\.com/
+/([A-Za-z0-9.-]*\.)?appnexus(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?clicks\.beap/
+/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2 ,4})/
+/([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?evidon\.com/
+/([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?flashtalking\.com/
+/([A-Za-z0-9.-]*\.)?global\.ard\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?info\.yahoo\.com/
+/([A-Za-z0-9.-]*\.)?match\.com/
+/([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?mathtag\.com/
+/([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?s\.yimg\.com/cv/ae/us/audience/
+/([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?scorecardresearch\.com/
+/([A-Za-z0-9.-]*\.)?secure\.footprint\.net/
+/([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?surveylink/
+/([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?turn\.com/
+/([A-Za-z0-9.-]*\.)?w55c(\.\w{2}\.\w{2}|\.\w{2,4})/
+/([A-Za-z0-9.-]*\.)?yieldmanager(\.\w{2}\.\w{2}|\.\w{2,4})/
+/(\.?)redfast\./
+/(^|\.)buffpanel\.com$/
+/(^|\.)bugsnag\.com$/
+/(^|\.)redshell\.io$/
+/(^|\.)treasuredata\.com$/
+/(^|\.)unityads(|\.co)\.com$/
+/(ads|logs|cloudservices).roku.com$/
+/^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]/
+/^(.+[_.-])?telemetry[_.-]/
+/^([a-z0-9]+[.])*(ads|captive|cloudservices|logs)\.roku\.co/
+/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/
+/^adim(age|g)s?[0-9]*[_.-]/
+/^adtrack(er|ing)?[0-9]*[_.-]/
+/^advert(s|is(ing|ements?))?[0-9]*[_.-]/
+/^aff(iliat(es?|ion))?[_.-]/
+/^analytics?[_.-]/
+/^banners?[_.-]/
+/^beacons?[0-9]*[_.-]/
+/^count(ers?)?[0-9]*[_.-]/
+/^mads\./
+/^pixels?[-.]/
+/^stat(s|istics)?[0-9]*[_.-]/
 /aaddright.
 /abstat.
 /ad.ams.
@@ -4456,6 +4533,7 @@
 ||7b532401e9.com^
 ||7bpeople.com^
 ||7c0210y.cn^
+||7c060ad96a.com^
 ||7c0616849b.com^
 ||7ca78m3csgbrid7ge.com^
 ||7caidai.xyz^
@@ -12851,6 +12929,7 @@
 ||alloysteel.ru^
 ||allpdfmags.net^
 ||allpopular.org^
+||allprofitsurvey.top^
 ||allpurposefrigilityfrigility.com^
 ||allrefer.us.intellitxt.com^
 ||allsiemens.com^
@@ -18594,6 +18673,7 @@
 ||bebo.crwdcntrl.net^
 ||beboo.ru^
 ||bebreloomr.com^
+||becacy.com^
 ||becanium.com^
 ||becasp.com^
 ||becausecheckingitaly.com^
@@ -20206,6 +20286,7 @@
 ||boreasinflash.com^
 ||boredborder.com^
 ||boredcrown.com^
+||boredomsidion.com^
 ||borgach.com^
 ||borgmesteren.com^
 ||boringbell.com^
@@ -20855,6 +20936,7 @@
 ||buildhoodpip.club^
 ||buildingdoodlesquare.com^
 ||buildkiteanalytics.com^
+||buildnaq91.site^
 ||buildotech.com^
 ||buildsintellecttweak.com^
 ||buildtraffic.com^
@@ -30180,6 +30262,7 @@
 ||dfe.mic.mob.com^
 ||dfebr.com^
 ||dfehnb.xyz^
+||dffaernr.com^
 ||dfffpyu8fhawcnd.ru^
 ||dfg.penghy.top^
 ||dfgallery.id^
@@ -33039,6 +33122,7 @@
 ||efd3b86a5fbddda.com^
 ||efe0df50ac.com^
 ||efendri.net^
+||eferjqjtdhehr.com^
 ||effacerevealing.com^
 ||effad.ru^
 ||effateuncrisp.com^
@@ -46861,6 +46945,7 @@
 ||jqueryserve.com^
 ||jqueryserve.org^
 ||jqueryserver.com^
+||jqwhjuxv.xyz^
 ||jqwww.download^
 ||jqyde7msbro2.com^
 ||jr.captivias.site^
@@ -52995,10 +53080,10 @@
 ||marketshot.com^
 ||marketshot.fr^
 ||marketworksinc.122.2o7.net^
-||markhought.com^
 ||markmansonbooklst.com^
 ||markofathenaluk.com^
 ||markreptiloid.com^
+||marks.automd.com^
 ||marksandspencer.122.2o7.net^
 ||marksidfgs.ug^
 ||markskernelrecorder.com^
@@ -57121,6 +57206,7 @@
 ||n2s.co.kr^
 ||n315.com^
 ||n339.asp-cc.com^
+||n3owhe6qa4.com^
 ||n4052ad.doubleclick.net^
 ||n4061ad.hk.doubleclick.net^
 ||n4403ad.doubleclick.net^
@@ -58178,6 +58264,7 @@
 ||nimbleswan.io^
 ||nimdinb.com^
 ||nimhuemark.com^
+||nimilimigimi.com^
 ||nimiq-network.com^
 ||nimiq.com^
 ||nimiq.network^
@@ -60013,6 +60100,7 @@
 ||onexone.elementor.cloud^
 ||oneyearonechange.com^
 ||oneyouxi.com.cn^
+||onfckepwq.com^
 ||onfluencer.net^
 ||onfocus.io^
 ||onghfx.revolve.com^
@@ -60442,6 +60530,7 @@
 ||orbit*.lun.ua^
 ||orbit.jd.com^
 ||orbit.lun.ua^
+||orbmehcerqxamdy.com^
 ||orbsclawand.com^
 ||orca.qubitproducts.com^
 ||orcapia.com^
@@ -60649,6 +60738,7 @@
 ||otisephie.com^
 ||otium.cv.opentecsuporte.com^
 ||otlffresod.com^
+||otlmdnazmac.com^
 ||otm-r.com^
 ||otmolod.ru^
 ||otnolabttmup.com^
@@ -61413,6 +61503,7 @@
 ||paishuiban.ltd^
 ||paishuno.net^
 ||pajigkcel.work^
+||pajikrqhbqth.xyz^
 ||pajinse.top^
 ||pakbanners.com^
 ||pakcommunications.net^
@@ -61803,6 +61894,7 @@
 ||paternalhumiliate.com^
 ||patgsrv.com^
 ||path.qidian.com^
+||pathfinder.analytics.komoot.net^
 ||pathful.com^
 ||pathosacetals.com^
 ||pathsinvestor.com^
@@ -62050,6 +62142,7 @@
 ||pd.sogou.com^
 ||pd3a.cn^
 ||pdaorg.adspeed.net^
+||pdayyocpnvh.ru^
 ||pdbu.net^
 ||pdc.bidswitch.net^
 ||pdc.dmleonyc.com^
@@ -64120,6 +64213,7 @@
 ||postupset.com^
 ||postureconstituent.com^
 ||postut.cn^
+||potaffableeaten.com^
 ||potatointakeafraid.com^
 ||potawe.com^
 ||potd.onlytease.com^
@@ -68312,6 +68406,7 @@
 ||revampcdn.com^
 ||revart.trade^
 ||revbigo.com^
+||revbikecrept.com^
 ||revcatch.com^
 ||revcontent.com^
 ||revdepo.com^
@@ -82083,6 +82178,7 @@
 ||toodlepork.com^
 ||toofab.us.intellitxt.com^
 ||tookawie.com^
+||tookimookin.com^
 ||tool-site.com^
 ||tool.acces-vod.com^
 ||tool.cleverads.vn^
@@ -83656,6 +83752,7 @@
 ||tracking.keywee.co^
 ||tracking.klickthru.com^
 ||tracking.koego.com^
+||tracking.komoot.de^
 ||tracking.krone.at^
 ||tracking.kubota.ca^
 ||tracking.kurier.at^
@@ -85850,6 +85947,7 @@
 ||unimr0k7em.cn^
 ||uninterestedquarter.com^
 ||uninua.com^
+||unioch.com^
 ||union*.365inews.com^
 ||union-tracking.duapps.com^
 ||union-wifi.com^
@@ -86633,6 +86731,7 @@
 ||uymkdz9s.com^
 ||uynpzvdvcnpd.com^
 ||uytestion.info^
+||uytwvgrshiakd.xyz^
 ||uyueread.com^
 ||uyunad.com^
 ||uywmpewouyqv.com^
@@ -87077,6 +87176,7 @@
 ||vcs.snssdk.com^
 ||vcslotoplay.com^
 ||vcsoat.cn^
+||vczkzswrjais.com^
 ||vd.7vid.net^
 ||vd.l.qq.com^
 ||vda.17173.com^
@@ -88032,6 +88132,7 @@
 ||vndbet88.com^
 ||vnet.cn^
 ||vnet.ink^
+||vngajgpvosjxdo.xyz^
 ||vngame66.com^
 ||vngmbyij.cn^
 ||vniwis.pro^
@@ -91654,6 +91755,7 @@
 ||www2.survey-poll.com^
 ||www2.yidsense.com^
 ||www25.victoriassecret.com^
+||www2metrics.mathworks.com^
 ||www2s.automd.com^
 ||www3.2giga.link^
 ||www3.addfreestats.com^
@@ -93092,6 +93194,7 @@
 ||ybsyyh.com^
 ||ybtianxi.com^
 ||ybx.yahoo.co.jp^
+||ybz1jsblbv.com^
 ||ybzcmz.momoshop.com.tw^
 ||yc-ads.s3.amazonaws.com^
 ||ycbetnqpnjwptu.com^
@@ -93578,6 +93681,7 @@
 ||yonsandileer.com^
 ||yonxatuor.com^
 ||yoobest.cn^
+||yoobidooby.com^
 ||yoochoose.net^
 ||yookcasula.com^
 ||yookimooki.com^
@@ -95113,3 +95217,4 @@
 ||zzyonghao.com^
 ||zzz.pissrip.net^
 ||zzznews.ru^
+||zzznews.ruorolova.s3.nl-ams.scw.cloud^

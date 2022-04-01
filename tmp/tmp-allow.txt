@@ -771,7 +771,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrty
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgeting.pac.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -13637,6 +13637,7 @@
 @@||megaline.co/intermission/loadTargetUrl$xmlhttprequest
 @@||megapolisonline.ru/wp-content/plugins/easy-vkontakte-connect/js/social-likes.min.js
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js$script,1p
+@@||megaup.net/*.gif$image,1p
 @@||megaup.net/ads.js
 @@||megaup.net^$generichide
 @@||megaup.net^$generichide
@@ -22181,7 +22182,6 @@
 @@||yimg.com/ud/fp/js/GoldenGate$script,domain=mobi.yahoo.com
 @@||yimg.com/ud/fp/js/SocialBar$script,domain=mobi.yahoo.com
 @@||yimg.com/uq/syndication/yad.js$domain=zdnet.com
-@@||yimg.com/zz/combo?*&*.css$domain=~s##.ad-banner-placeholder
 @@||yimg.com/zz/combo?*&*.css$domain=~search.yahoo.com
 @@||yimg.com/zz/combo?*&*.css$domain=~search.yahoo.com
 @@||yimg.com^*/combo?*/followus.$domain=yahoo.com
