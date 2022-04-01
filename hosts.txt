@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: uWLPB9cuXxbryWT3Refx2g
+! Checksum: az8wzR5ChQqiapvYCSYzFw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-01 23:07:02（北京时间） 
-! Total count: 89837
+! Version: 2022-04-02 00:19:14（北京时间） 
+! Total count: 89839
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
@@ -28303,6 +28303,7 @@
 0.0.0.0 dsum.casalemedia.com.edgekey.net
 0.0.0.0 dsxdn.com
 0.0.0.0 dsxgg.com
+0.0.0.0 dsxteqljrwqxeo.com
 0.0.0.0 dszan.com
 0.0.0.0 dt-secure.videohub.tv
 0.0.0.0 dt.adsafeprotected.com
@@ -48846,6 +48847,7 @@
 0.0.0.0 marketron.com
 0.0.0.0 marketshot.com
 0.0.0.0 marketshot.fr
+0.0.0.0 markhought.com
 0.0.0.0 markmansonbooklst.com
 0.0.0.0 markofathenaluk.com
 0.0.0.0 markreptiloid.com
