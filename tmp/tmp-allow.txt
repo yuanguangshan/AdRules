@@ -771,6 +771,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||gnshwf.room-park.ru^
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3232,6 +3234,8 @@
 @@||assets.pinterest.com/pidget.html$domain=rafflecopter.com
 @@||assets.portfolio.hu/js/ad_300x250.js
 @@||assets.purch.com/ramp/js/Advertisement/advertisement.js
+@@||assets.shiropro-re.net/html/image/ad5.png
+@@||assets.shiropro-re.net/html/image/ad5.png
 @@||assets.sport1.de/bundles/
 @@||assets.strossle.com/strossle-widget-sdk/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
@@ -8745,6 +8749,10 @@
 @@||gogoplay1.com/encrypt-ajax.php?id=
 @@||gogoplay1.com/streaming.php?id=
 @@||gogoplay1.com/streaming.php?id=
+@@||gogoplay5.com/streaming.php$subdocument
+@@||gogoplay5.com/streaming.php$subdocument
+@@||gogoplay5.com^$subdocument
+@@||gogoplay5.com^$subdocument
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
 @@||gohofstra.com/common/templates/dfp/dfp-
 @@||gohub.pw^$generichide
@@ -14140,6 +14148,8 @@
 @@||mvastorage.microsoft.com/public/scripts/cookieConsent-*.js
 @@||mw5blog.blogspot.com^$generichide
 @@||mx-sh.net/advertisements.js
+@@||mxdcontent.net^$xmlhttprequest,domain=mixdrop.co
+@@||mxdcontent.net^$xmlhttprequest,domain=mixdrop.co
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|thefrisky.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|thefrisky.com

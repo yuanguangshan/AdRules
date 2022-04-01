@@ -3374,6 +3374,7 @@ zrozz.com##+js(set, adblock, false)
 empflix.com##+js(aopw, popzone)
 empflix.com##+js(nowoif)
 empflix.com##+js(set, FlixPop.isPopGloballyEnabled, falseFunc)
+empflix.com##+js(aeld, , /exo)
 tnaflix.com##+js(aopr, ads.pop_url)
 tnaflix.com##+js(aeld, getexoloader)
 ||tnaflix.com/*.php$script,1p
@@ -3386,6 +3387,7 @@ empflix.com##.mewDv
 empflix.com##.padAdvx
 empflix.com#@##hideAd
 empflix.com##.pause-overlay
+empflix.com##.col-xs-6:not([data-vid])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1231
 fantasti.cc##+js(aopr, document.dispatchEvent)
@@ -4388,11 +4390,12 @@ chyoa.com##.chyoa-banner
 chyoa.com##.chyoa-adzone
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1711
-3movs.com##+js(aeld, /^(?:click|mousedown)$/, B6S)
 3movs.com##+js(popads-dummy)
 3movs.com##+js(noeval-if, ExoLoader)
+3movs.com##+js(set, flashvars.adv_pause_html, '')
 3movs.com##[src*="aid="]
 3movs.com###player-pop-layer
+||3movs.com/su4unbl-ssu.js
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8359
 sourceforge.net##+js(set, SF.adblock, true)
