@@ -1,8 +1,8 @@
-! Checksum: YeLvY1CD9FlmlfgYBsmmlA
+! Checksum: 9Q7kWmPj2omYIAMlgXYnFQ
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.52.5
-! TimeUpdated: 2022-04-01T05:02:53+00:00
+! Version: 2.0.52.8
+! TimeUpdated: 2022-04-01T13:02:37+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -292,6 +292,7 @@
 ||zjgfq.com^$third-party
 ||ad.juksy.com^
 ||ads.tvb.com^
+18comic.*#@#img[style*="300px"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=m.twfanti.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=m.twfanti.com,important
 slashview.com#@#.adsbygoogle
@@ -3183,6 +3184,7 @@ ubmcmm.baidustatic.com
 ##div[id^="ad_thread"]
 ##div[id^="adv-"].adv
 ##div[id^="photo-header-title-content-text-dall"]
+##div[onclick*="?i_code="]
 ##div[onclick*=".leyu"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:1000px;  margin:0 auto;"] > a > img[height="60px"]
@@ -18946,6 +18948,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 ||wulongqiyi.com^
+||shenfagg.com^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
