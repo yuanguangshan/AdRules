@@ -89,7 +89,13 @@ allow_domains=(
   "https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt"
 )
 
-for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard_full[@]}" "${!adguard[@]}" "${!adguard_full_ubo[@]}" "${!adguard_ubo[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_domains[@]}"  "${!allow_domains[@]}"
+dead_hosts=(
+  "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt"
+  "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.dead.txt"
+)
+
+
+for i in "${!easylist[@]}" "${!easylist_plus[@]}" "${!adguard_full[@]}" "${!adguard[@]}" "${!adguard_full_ubo[@]}" "${!adguard_ubo[@]}" "${!allow[@]}" "${!hosts[@]}" "${!dns[@]}" "${!ad_domains[@]}"  "${!allow_domains[@]}" "${!dead_hosts[@]}"
 do
   curl -m 68 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "easylist${i}.txt" --connect-timeout 60 -s "${easylist[$i]}" |iconv -t utf-8 &
   curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "plus-easylist${i}.txt" --connect-timeout 60 -s "${easylist_plus[$i]}"  |iconv -t utf-8 &
@@ -102,6 +108,7 @@ do
   curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "hosts${i}.txt" --connect-timeout 60 -s "${hosts[$i]}" |iconv -t utf-8 &
   curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "ad-domains${i}.txt" --connect-timeout 60 -s "${ad_domains[$i]}" |iconv -t utf-8 &
   curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "allow-domains${i}.txt" --connect-timeout 60 -s "${allow_domains[$i]}" |iconv -t utf-8 &
+  curl -m 60 --retry-delay 2 --retry 5 --parallel --parallel-immediate -k -L -C - -o "dead-hosts${i}.txt" --connect-timeout 60 -s "${dead_hosts[$i]}" |iconv -t utf-8 &
   # shellcheck disable=SC2181
 done
 wait
@@ -112,8 +119,6 @@ curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list \
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' > hosts998.txt &
 
-curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/FusionPlmH/dead-block/master/deadblock \
- | sed "s/^/||&/g" | sed "s/$/&^/g" > deadblock.txt &
 wait
 echo '规则下载完成'
 
@@ -150,6 +155,8 @@ cat *.txt | sed '/^$/d' \
  |grep -E "^\/[a-z]([a-z]|\.)*\.$" \
  |sort -u > l.txt &
 
+cat dead-hosts* \
+ | sed "s/^/||&/g" | sed "s/$/&^/g" > deadblock.txt &
 
 # Start Merge and Duplicate Removal
 
