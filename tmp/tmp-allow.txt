@@ -771,8 +771,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||gnshwf.room-park.ru^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgies.
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2191,6 +2190,7 @@
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/mirage*.js$domain=rule34.xxx
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/mirage*.js$domain=rule34.xxx
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$domain=cloudvideo.tv
+@@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$domain=cloudvideo.tv
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$domain=movizland.online
 @@||ajax.googleapis.com/ajax/$script,domain=pch.com
 @@||ajax.googleapis.com/ajax/libs/$script,domain=flashx.to|flashx.tv
@@ -3128,6 +3128,7 @@
 @@||arstechnica.com/services/incr.php?*=interactions.adblock-annoy.click$xmlhttprequest
 @@||arstechnica.com^$generichide,badfilter
 @@||arstechnica.com^$generichide,badfilter
+@@||art-reklama.razitko.cz^$domain=art-reklama.razitko.cz
 @@||art-reklama.razitko.cz^$domain=art-reklama.razitko.cz
 @@||arte.tv/images/social-sprite.png$domain=arte.tv
 @@||arte.tv^*/xtcore.js
@@ -4571,7 +4572,6 @@
 @@||cdn.cpex.cz/logos/cnc.png$domain=zive.cz
 @@||cdn.cpex.cz/logos/cnc.png$domain=zive.cz
 @@||cdn.cpmstar.com/cached/js/advertisement.js
-@@||cdn.cpmstar.com/cached/js/advertisement.js
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=karstadt.de
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=karstadt.de
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=sloggi.com
@@ -4803,7 +4803,6 @@
 @@||cdn.plyr.io/*/plyr.svg$domain=mp4upload.com
 @@||cdn.plyr.io/*/plyr.svg$domain=zippyshare.com
 @@||cdn.plyr.io/*/plyr.svg$domain=zippyshare.com
-@@||cdn.plytv.me/scripts/embed.min.js
 @@||cdn.plytv.me/scripts/embed.min.js
 @@||cdn.plytv.me/scripts/jquery.js
 @@||cdn.pogo.com/*/blockadblock$script,1p
@@ -7227,7 +7226,6 @@
 @@||eloqua.com/visitor/v200/svrgp.aspx?$domain=itworld.com|juniper.net
 @@||eloqua.com/visitor/v200/svrgp.aspx?$domain=itworld.com|juniper.net
 @@||eloqua.com^$domain=forms.progress.com
-@@||eloqua.com^$domain=forms.progress.com
 @@||elrellano.com^$ghide
 @@||elsate.com/styles/elsate/template/*$script,1p
 @@||elsfile.net^$generichide
@@ -7326,7 +7324,6 @@
 @@||envoy.com/images/*/reddit.png
 @@||eolinker.com^$generichide
 @@||eolinker.com^$generichide
-@@||ephoto360.com/js/blockadblock.js
 @@||ephoto360.com/js/blockadblock.js
 @@||epicgames.com/id/api/analytics$~third-party,xmlhttprequest
 @@||episode.pmcontent.com^$stealth
@@ -11341,7 +11338,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nova.cz
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nova.cz
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=noz.de
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=noz.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nrl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nrl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ntvspor.net
@@ -11447,6 +11443,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.foxnews.com|video.foxbusiness.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.gazzetta.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.gazzetta.it
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.lastampa.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.lastampa.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.onnetwork.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=video.onnetwork.tv
@@ -15359,6 +15356,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=toyoheadquarters.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tsviewer.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tutcourse.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tutcourse.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=udemydownload.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=unlimitdownloads.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=unlimitdownloads.com
@@ -16131,7 +16129,6 @@
 @@||plus.im/static/img/facebook.png
 @@||plus.im/static/img/facebook_over.png
 @@||pluspremieres.*^$ghide
-@@||plytv.me/sdembed
 @@||plytv.me/sdembed
 @@||pm.sourcepoint.mgr.consensu.org/?privacy_manager_id
 @@||pmd.cdn.turner.com^
@@ -17096,7 +17093,6 @@
 @@||ridediriddim.com^$generichide
 @@||rifey.ru/sites/default/files/advagg_js/$document
 @@||riffhold.com^$generichide
-@@||riffhold.com^$generichide
 @@||right.com.cn/forum/*300*250$image
 @@||right.com.cn/forum/*300*250$image
 @@||rightnowtech.com/engagement/api/consumer/nvidia/*/requestEngagement?pool=$removeparam
@@ -17754,7 +17750,6 @@
 @@||securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1$domain=vogue.ru
 @@||securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1$domain=vogue.ru
 @@||securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1$domain=wired.com
-@@||securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1$domain=wired.com
 @@||securepubads.g.doubleclick.net/gampad/ads^$domain=10play.com.au
 @@||securepubads.g.doubleclick.net/gampad/ads^$domain=10play.com.au
 @@||securepubads.g.doubleclick.net/gampad/ads^$domain=radio.de|radio.at
@@ -17802,7 +17797,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=today.line.me
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=tvmovie.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=viz.com
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=www.vulture.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=www.vulture.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=gentside.*|ohmymag.*|maxisciences.com|esgentside.com|ohmirevista.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=m.timesofindia.com
@@ -19053,6 +19047,7 @@
 @@||static.shorte.st/bundles/smeweb/$domain=sh.st
 @@||static.shorte.st/js/packed/interstitial-page.js$domain=sh.st
 @@||static.shorte.st/js/packed/smeadvert-locked.js$domain=sh.st
+@@||static.shorte.st/js/packed/smeadvert-locked.js$domain=sh.st
 @@||static.softlayer.com^
 @@||static.stands4.com/app_common/js/prebid-ads.js
 @@||static.sunmedia.tv^$script,xhr,domain=ivoox.com
@@ -19133,6 +19128,7 @@
 @@||stats.jtvnw.net/crossdomain.xml
 @@||stats.jtvnw.net/crossdomain.xml
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||stats.streamelements.com^
 @@||status.plex.tv^
 @@||staty.portalradiowy.pl/wstats/$script,third-party
@@ -19894,6 +19890,7 @@
 @@||thisisfutbol.com^$ghide
 @@||thisismoney.co.uk^$ghide
 @@||thoaimedia.com^$generichide
+@@||thoaimedia.com^$generichide
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party
 @@||thop.in/ads.js
 @@||threatbook.cn^
@@ -20600,6 +20597,7 @@
 @@||uploaded-premium-link-generator.com/advertisement.js
 @@||uploaded-premium.ru/ads/ad.js$script
 @@||uploadex.com^$elemhide
+@@||uploadex.com^$elemhide
 @@||uploadfiles.io/adsbygoogle.js
 @@||uploadocean.com^$generichide,content
 @@||uploadocean.com^$generichide,content
@@ -20648,6 +20646,7 @@
 @@||upvast.com/pop.js
 @@||upvast.com/pop.js$script
 @@||upvid.*^$ghide
+@@||upvid.co/embed-*.html$popup
 @@||upvid.co/embed-*.html$popup
 @@||upvtt.com/uploads^$third-party
 @@||upvtt.com/uploads^$third-party
@@ -20845,6 +20844,7 @@
 @@||vali.cp*.ott.cibntv.net^$domain=m.youku.com,third-party
 @@||validate.perfdrive.com^|
 @@||valipl.cp31.ott.cibntv.net^$xhr,domain=youku.com
+@@||valleybreeze.com/shared-content/art/tncms/api/access.js
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||valueresearchonline.com/ads.js
