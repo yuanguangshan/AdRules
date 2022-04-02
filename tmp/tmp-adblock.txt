@@ -11953,7 +11953,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /biddr-analytics.
 /bidiq.
 /bidiqCookieDropper.
-/bili-collect.
 /bilibili/okretro/GeneralResponse
 /bin/reff.php
 /bin/stats?
