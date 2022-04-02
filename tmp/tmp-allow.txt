@@ -771,7 +771,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgndex/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgthird-party
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -15084,6 +15084,7 @@
 @@||padstm.com^$image,subdocument,domain=bitzfree.com
 @@||pafpaf.info/advertisement.js
 @@||pagead.l.doubleclick.net^|
+@@||pagead2.googlesyndicatine.com##.css-1d8h8gm
 @@||pagead2.googlesyndication.com/$script,xmlhttprequest,domain=rjno1.com
 @@||pagead2.googlesyndication.com/$script,xmlhttprequest,domain=rjno1.com
 @@||pagead2.googlesyndication.com/*show_ads$script,domain=napisy24.pl
