@@ -257,7 +257,7 @@ echo '规则处理完成'
 
 #额外的规则
 cat ad-domains.txt \
- | sed "s/^/DOMAIN-SUFFIX,&/g" > banclash-ad.list
+ | grep -v "^!"| sed "s/^/DOMAIN-SUFFIX,&/g" > banclash-ad.list
 
 rm -rf pre
 exit
