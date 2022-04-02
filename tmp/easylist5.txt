@@ -1,660 +1,1020 @@
-! Title: ClearURLs for uBo
-! Homepage: https://github.com/DandelionSprout/adfilt/discussions/163
-! Description: Want to use ClearURLs' tracking protection without installing another extension? This list is a (unofficial) version of the ClearURLs rules, designed for use in uBlock Origin and AdGuard
-! Last updated: 26/03/2022
-! Script last updated: 26/3/2022
-! Expires: 1 day
-! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
-! Note: This was based off of https://gist.github.com/rusty-snake/5cd83a87d680ecbd03e79a1a06758207, which is based off of https://github.com/ClearURLs/Rules. The maintainers of Adfilt (DandelionSprout and iam-py-test, and contributors) have made some modifications as to keep it up-to-date with the source and to fix issues
-! IMPORTANT NOTE: Do not modify this file in pull requests. This file is auto-generated and therefore any direct edit to it will be undone. Instead, modifications must be made to https://github.com/DandelionSprout/adfilt/blob/master/ClearURLs%20for%20uBo/compile.py or to the upstream ClearURLs rules. If you experience an issue, please report it to https://github.com/DandelionSprout/adfilt/discussions/163, and we (the Adfilt maintainers and community) will look into it and either add an exclusion or report it to the ClearURLs team
-! Important note about the purpose of this list: this list can not bypass tracker redirects through third-party domains. This can be done by strict-blocking said domain and using the ability to view params on the strict-block page to bypass it
-! The developers would like to thank https://github.com/rusty-snake for helping create this list
+[Adblock Plus 2.1]
+! Version: 20220225001
+! Title: NoAppDownload
+! Last modified: 2022/02/25 14:00:00 +0800
+! Homepage: https://github.com/Noyllopa/NoAppDownload
 
-$removeparam=/^p[fd]_rd_[a-z]*=/,domain=amazon.*
-$removeparam=qid,domain=amazon.*
-$removeparam=/^srs?=/,domain=amazon.*
-$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/,domain=amazon.*
-$removeparam=spIA,domain=amazon.*
-$removeparam=ms3_c,domain=amazon.*
-$removeparam=/^[a-z%0-9]*ie=/,domain=amazon.*
-$removeparam=refRID,domain=amazon.*
-$removeparam=/^colii?d=/,domain=amazon.*
-$removeparam=/^[^a-z%0-9]adId=/,domain=amazon.*
-$removeparam=qualifier,domain=amazon.*
-$removeparam=_encoding,domain=amazon.*
-$removeparam=smid,domain=amazon.*
-$removeparam=field-lbr_brands_browse-bin,domain=amazon.*
-$removeparam=/^ref_?=/,domain=amazon.*
-$removeparam=th,domain=amazon.*
-$removeparam=sprefix,domain=amazon.*
-$removeparam=crid,domain=amazon.*
-$removeparam=keywords,domain=amazon.*
-$removeparam=/^cv_ct_[a-z]+=/,domain=amazon.*
-$removeparam=linkCode,domain=amazon.*
-$removeparam=creativeASIN,domain=amazon.*
-$removeparam=ascsubtag,domain=amazon.*
-$removeparam=aaxitk,domain=amazon.*
-$removeparam=hsa_cr_id,domain=amazon.*
-$removeparam=/^sb-ci-[a-z]+=/,domain=amazon.*
-$removeparam=rnid,domain=amazon.*
-$removeparam=dchild,domain=amazon.*
-$removeparam=camp,domain=amazon.*
-$removeparam=creative,domain=amazon.*
-||amazon.*/s?$removeparam=/^p[fd]_rd_[a-z]*=/
-||amazon.*/s?$removeparam=qid
-||amazon.*/s?$removeparam=/^srs?=/
-||amazon.*/s?$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
-||amazon.*/s?$removeparam=spIA
-||amazon.*/s?$removeparam=ms3_c
-||amazon.*/s?$removeparam=/^[a-z%0-9]*ie=/
-||amazon.*/s?$removeparam=refRID
-||amazon.*/s?$removeparam=/^colii?d=/
-||amazon.*/s?$removeparam=/^[^a-z%0-9]adId=/
-||amazon.*/s?$removeparam=qualifier
-||amazon.*/s?$removeparam=_encoding
-||amazon.*/s?$removeparam=smid
-||amazon.*/s?$removeparam=field-lbr_brands_browse-bin
-||amazon.*/s?$removeparam=/^ref_?=/
-||amazon.*/s?$removeparam=th
-||amazon.*/s?$removeparam=sprefix
-||amazon.*/s?$removeparam=crid
-||amazon.*/s?$removeparam=/^cv_ct_[a-z]+=/
-||amazon.*/s?$removeparam=linkCode
-||amazon.*/s?$removeparam=creativeASIN
-||amazon.*/s?$removeparam=ascsubtag
-||amazon.*/s?$removeparam=aaxitk
-||amazon.*/s?$removeparam=hsa_cr_id
-||amazon.*/s?$removeparam=/^sb-ci-[a-z]+=/
-||amazon.*/s?$removeparam=rnid
-||amazon.*/s?$removeparam=dchild
-||amazon.*/s?$removeparam=camp
-||amazon.*/s?$removeparam=creative
-$removeparam=/^bi[a-z]*=/,domain=google.*
-$removeparam=/^gfe_[a-z]*=/,domain=google.*
-$removeparam=ei,domain=google.*
-$removeparam=/^gs_[a-z]*=/,domain=google.*
-$removeparam=site,domain=google.*
-$removeparam=oq,domain=google.*
-$removeparam=esrc,domain=google.*
-$removeparam=uact,domain=google.*
-$removeparam=cd,domain=google.*
-$removeparam=cad,domain=google.*
-$removeparam=/^gws_[a-z]*=/,domain=google.*
-$removeparam=atyp,domain=google.*
-$removeparam=vet,domain=google.*
-$removeparam=zx,domain=google.*
-$removeparam=_u,domain=google.*
-$removeparam=je,domain=google.*
-$removeparam=dcr,domain=google.*
-$removeparam=ie,domain=google.*
-$removeparam=sei,domain=google.*
-$removeparam=dpr,domain=google.*
-$removeparam=/^btn[a-z]*=/,domain=google.*
-$removeparam=cd,domain=google.*
-$removeparam=cad,domain=google.*
-$removeparam=uact,domain=google.*
-$removeparam=aqs,domain=google.*
-$removeparam=sourceid,domain=google.*
-$removeparam=sxsrf,domain=google.*
-$removeparam=rlz,domain=google.*
-$removeparam=i-would-rather-use-firefox,domain=google.*
-$removeparam=pcampaignid,domain=google.*
-||google.*/search?$removeparam=sclient
-$removeparam=/^utm(_[a-z_]*)?=/
-$removeparam=/^ga_[a-z_]+=/
-$removeparam=yclid
-$removeparam=_openstat
-$removeparam=/^fb_action_(types|ids)=/
-$removeparam=/^fb_(source|ref)=/
-$removeparam=fbclid
-$removeparam=/^action_(object|type|ref)_map=/
-$removeparam=gs_l
-$removeparam=mkt_tok
-$removeparam=/^hmb_(campaign|medium|source)=/
-$removeparam=gclid
-$removeparam=/^otm_[a-z_]*=/
-$removeparam=cmpid
-$removeparam=os_ehash
-$removeparam=_ga
-$removeparam=_gl
-$removeparam=__twitter_impression
-$removeparam=/^wt_?z?mc=/
-$removeparam=wtrid
-$removeparam=/^[a-z]?mc=/
-$removeparam=dclid
-$removeparam=Echobox
-$removeparam=spm
-$removeparam=/^vn(_[a-z]*)+=/
-$removeparam=tracking_source
-$removeparam=ceneo_spo
-$removeparam=feature,domain=youtube.com
-$removeparam=gclid,domain=youtube.com
-$removeparam=kw,domain=youtube.com
-$removeparam=/^hc_[a-z_%\[\]0-9]*=/,domain=facebook.com
-$removeparam=/^[a-z]*ref[a-z]*=/,domain=facebook.com
-$removeparam=__tn__,domain=facebook.com
-$removeparam=eid,domain=facebook.com
-$removeparam=/^__(xts|cft)__(\[|%5B)\d(\]|%5D)=/,domain=facebook.com
-$removeparam=comment_tracking,domain=facebook.com
-$removeparam=dti,domain=facebook.com
-$removeparam=app,domain=facebook.com
-$removeparam=video_source,domain=facebook.com
-$removeparam=ftentidentifier,domain=facebook.com
-$removeparam=pageid,domain=facebook.com
-$removeparam=padding,domain=facebook.com
-$removeparam=ls_ref,domain=facebook.com
-$removeparam=action_history,domain=facebook.com
-$removeparam=tracking,domain=facebook.com
-$removeparam=referral_code,domain=facebook.com
-$removeparam=referral_story_type,domain=facebook.com
-$removeparam=/^(ref_?)?src=/,domain=twitter.com
-$removeparam=cn,domain=twitter.com
-$removeparam=ref_url,domain=twitter.com
-$removeparam=%24deep_link,domain=reddit.com
-$removeparam=/^\x24deep_link=/,domain=reddit.com
-$removeparam=correlation_id,domain=reddit.com
-$removeparam=ref_campaign,domain=reddit.com
-$removeparam=ref_source,domain=reddit.com
-$removeparam=%243p,domain=reddit.com
-$removeparam=/^\x243p=/,domain=reddit.com
-$removeparam=%24original_url,domain=reddit.com
-$removeparam=/^\x24original_url=/,domain=reddit.com
-$removeparam=_branch_match_id,domain=reddit.com
-$removeparam=trackId,domain=netflix.com
-$removeparam=tctx,domain=netflix.com
-$removeparam=/^jb[a-z]*?=/,domain=netflix.com
-$removeparam=ncid,domain=techcrunch.com
-$removeparam=sr,domain=techcrunch.com
-$removeparam=sr_share,domain=techcrunch.com
-$removeparam=cvid,domain=bing.*
-$removeparam=form,domain=bing.*
-$removeparam=sk,domain=bing.*
-$removeparam=sp,domain=bing.*
-$removeparam=sc,domain=bing.*
-$removeparam=qs,domain=bing.*
-$removeparam=qp,domain=bing.*
-$removeparam=nb,domain=tweakers.net
-$removeparam=u,domain=tweakers.net
-$removeparam=tt_medium,domain=twitch.com
-$removeparam=tt_content,domain=twitch.com
-$removeparam=pk_campaign,domain=vivaldi.com
-$removeparam=pk_kwd,domain=vivaldi.com
-$removeparam=from,domain=indeed.com
-$removeparam=alid,domain=indeed.com
-$removeparam=/^[a-z]*tk=/,domain=indeed.com
-$removeparam=vss,domain=hh.ru
-$removeparam=t,domain=hh.ru
-$removeparam=swnt,domain=hh.ru
-$removeparam=grpos,domain=hh.ru
-$removeparam=ptl,domain=hh.ru
-$removeparam=stl,domain=hh.ru
-$removeparam=exp,domain=hh.ru
-$removeparam=plim,domain=hh.ru
-$removeparam=_trkparms,domain=ebay.*
-$removeparam=_trksid,domain=ebay.*
-$removeparam=_from,domain=ebay.*
-$removeparam=hash,domain=ebay.*
-$removeparam=ftag,domain=cnet.com
-$removeparam=ref_,domain=imdb.com
-$removeparam=/^pf_rd_[a-z]*=/,domain=imdb.com
-$removeparam=u1,domain=walmart.com
-$removeparam=/^ath[a-z]*=/,domain=walmart.com
-$removeparam=pl,domain=net-parade.it
-$removeparam=xid,domain=prvnizpravy.cz
-$removeparam=tpa,domain=youku.com
-$removeparam=smid,domain=nytimes.com
-$removeparam=wbdcd,domain=tchibo.de
-$removeparam=snr,domain=steampowered.com
-$removeparam=src,domain=shutterstock.com
-$removeparam=src,domain=mozilla.org
-$removeparam=platform,domain=mozilla.org
-$removeparam=redirect_source,domain=mozilla.org
-$removeparam=ref,domain=readdc.com
-$removeparam=email,domain=dailycodingproblem.com
-$removeparam=email_token,domain=github.com
-$removeparam=email_source,domain=github.com
-$removeparam=ws_ab_test,domain=aliexpress.*
-$removeparam=btsid,domain=aliexpress.*
-$removeparam=algo_expid,domain=aliexpress.*
-$removeparam=algo_pvid,domain=aliexpress.*
-$removeparam=gps-id,domain=aliexpress.*
-$removeparam=/^scm[_a-z-]*=/,domain=aliexpress.*
-$removeparam=cv,domain=aliexpress.*
-$removeparam=af,domain=aliexpress.*
-$removeparam=mall_affr,domain=aliexpress.*
-$removeparam=sk,domain=aliexpress.*
-$removeparam=dp,domain=aliexpress.*
-$removeparam=terminal_id,domain=aliexpress.*
-$removeparam=aff_request_id,domain=aliexpress.*
-$removeparam=sid,domain=mozillazine.org
-$removeparam=ref,domain=9gag.com
-$removeparam=ref,domain=giphy.com
-$removeparam=/^ref_?=/,domain=woot.com
-$removeparam=_requestid,domain=vitamix.com
-$removeparam=cid,domain=vitamix.com
-$removeparam=dl,domain=vitamix.com
-$removeparam=di,domain=vitamix.com
-$removeparam=sd,domain=vitamix.com
-$removeparam=bi,domain=vitamix.com
-$removeparam=__twitter_impression,domain=nypost.com
-$removeparam=partner,domain=ozon.ru
-$removeparam=link_id,domain=norml.org
-$removeparam=can_id,domain=norml.org
-$removeparam=source,domain=norml.org
-$removeparam=email_referrer,domain=norml.org
-$removeparam=email_subject,domain=norml.org
-$removeparam=refId,domain=linkedin.com
-$removeparam=trk,domain=linkedin.com
-$removeparam=/^li[a-z]{2}=/,domain=linkedin.com
-||linkedin.com/learning$removeparam=u
-$removeparam=b,domain=spiegel.de
-$removeparam=igshid,domain=instagram.com
-$removeparam=ad_src,domain=lazada.com.my
-$removeparam=did,domain=lazada.com.my
-$removeparam=pa,domain=lazada.com.my
-$removeparam=mp,domain=lazada.com.my
-$removeparam=impsrc,domain=lazada.com.my
-$removeparam=cid,domain=lazada.com.my
-$removeparam=pos,domain=lazada.com.my
-$removeparam=h,domain=boredpanda.com
-$removeparam=/^dbkanal_[0-9]{3}=/,domain=bahn.de
-$removeparam=cuid,domain=disq.us
-$removeparam=cm_lm,domain=moosejaw.com
-$removeparam=cm_mmc,domain=moosejaw.com
-$removeparam=webUserId,domain=moosejaw.com
-$removeparam=spMailingID,domain=moosejaw.com
-$removeparam=spUserID,domain=moosejaw.com
-$removeparam=spJobID,domain=moosejaw.com
-$removeparam=spReportId,domain=moosejaw.com
-$removeparam=si,domain=spotify.com
-$removeparam=lr,domain=yandex.*
-$removeparam=redircnt,domain=yandex.*
-$removeparam=ecp,domain=healio.com
-$removeparam=m_bt,domain=healio.com
-$removeparam=iref,domain=zoho.com
-$removeparam=sc_referrer,domain=snapchat.com
-$removeparam=sc_ua,domain=snapchat.com
-$removeparam=source,domain=medium.com
-$removeparam=source,domain=swp.de
-$removeparam=from,domain=wps.com
-$removeparam=context,domain=firefox.com
-$removeparam=entrypoint,domain=firefox.com
-$removeparam=form_type,domain=firefox.com
-$removeparam=as,domain=mozilla.org
-||kevinroebert.gitlab.io/ClearUrls/void/index.html$removeparam=test
-||test.clearurls.xyz/void/index.html$removeparam=test
-$removeparam=from,domain=diepresse.com
-$removeparam=xtor,domain=diepresse.com
-$removeparam=xt_at,domain=diepresse.com
-$removeparam=x,domain=newsletter.lidl.*
-$removeparam=reco_id,domain=allegro.pl
-$removeparam=sid,domain=allegro.pl
-$removeparam=CMP_SKU,domain=backcountry.com
-$removeparam=MER,domain=backcountry.com
-$removeparam=mr:trackingCode,domain=backcountry.com
-$removeparam=mr:device,domain=backcountry.com
-$removeparam=mr:adType,domain=backcountry.com
-$removeparam=iv_,domain=backcountry.com
-$removeparam=CMP_ID,domain=backcountry.com
-$removeparam=k_clickid,domain=backcountry.com
-$removeparam=rmatt,domain=backcountry.com
-$removeparam=INT_ID,domain=backcountry.com
-$removeparam=ti,domain=backcountry.com
-$removeparam=fl,domain=backcountry.com
-$removeparam=rv,domain=meetup.com
-$removeparam=_xtd,domain=meetup.com
-$removeparam=app,domain=apple.com
-$removeparam=/^ign-itsc[a-z]+=/,domain=apple.com
-$removeparam=source,domain=newyorker.com
-$removeparam=bxid,domain=newyorker.com
-$removeparam=cndid,domain=newyorker.com
-$removeparam=esrc,domain=newyorker.com
-$removeparam=mbid,domain=newyorker.com
-$removeparam=track_click,domain=gog.com
-$removeparam=link_id,domain=gog.com
-$removeparam=CMP,domain=theguardian.com
-$removeparam=price,domain=taobao.com
-$removeparam=sourceType,domain=taobao.com
-$removeparam=suid,domain=taobao.com
-$removeparam=ut_sk,domain=taobao.com
-$removeparam=un,domain=taobao.com
-$removeparam=share_crt_v,domain=taobao.com
-$removeparam=sp_tk,domain=taobao.com
-$removeparam=cpp,domain=taobao.com
-$removeparam=shareurl,domain=taobao.com
-$removeparam=short_name,domain=taobao.com
-$removeparam=app,domain=taobao.com
-$removeparam=/^scm[_a-z-]*=/,domain=taobao.com
-$removeparam=pvid,domain=taobao.com
-$removeparam=algo_expid,domain=taobao.com
-$removeparam=algo_pvid,domain=taobao.com
-$removeparam=ns,domain=taobao.com
-$removeparam=abbucket,domain=taobao.com
-$removeparam=ali_refid,domain=taobao.com
-$removeparam=ali_trackid,domain=taobao.com
-$removeparam=acm,domain=taobao.com
-$removeparam=utparam,domain=taobao.com
-$removeparam=pos,domain=taobao.com
-$removeparam=abtest,domain=taobao.com
-$removeparam=trackInfo,domain=taobao.com
-$removeparam=utkn,domain=taobao.com
-$removeparam=scene,domain=taobao.com
-$removeparam=mytmenu,domain=taobao.com
-$removeparam=turing_bucket,domain=taobao.com
-$removeparam=lygClk,domain=taobao.com
-$removeparam=impid,domain=taobao.com
-$removeparam=bftTag,domain=taobao.com
-$removeparam=bftRwd,domain=taobao.com
-$removeparam=spm,domain=taobao.com
-$removeparam=_u,domain=taobao.com
-$removeparam=price,domain=tmall.com
-$removeparam=sourceType,domain=tmall.com
-$removeparam=suid,domain=tmall.com
-$removeparam=ut_sk,domain=tmall.com
-$removeparam=un,domain=tmall.com
-$removeparam=share_crt_v,domain=tmall.com
-$removeparam=sp_tk,domain=tmall.com
-$removeparam=cpp,domain=tmall.com
-$removeparam=shareurl,domain=tmall.com
-$removeparam=short_name,domain=tmall.com
-$removeparam=app,domain=tmall.com
-$removeparam=/^scm[_a-z-]*=/,domain=tmall.com
-$removeparam=pvid,domain=tmall.com
-$removeparam=algo_expid,domain=tmall.com
-$removeparam=algo_pvid,domain=tmall.com
-$removeparam=ns,domain=tmall.com
-$removeparam=abbucket,domain=tmall.com
-$removeparam=ali_refid,domain=tmall.com
-$removeparam=ali_trackid,domain=tmall.com
-$removeparam=acm,domain=tmall.com
-$removeparam=utparam,domain=tmall.com
-$removeparam=pos,domain=tmall.com
-$removeparam=abtest,domain=tmall.com
-$removeparam=trackInfo,domain=tmall.com
-$removeparam=user_number_id,domain=tmall.com
-$removeparam=utkn,domain=tmall.com
-$removeparam=scene,domain=tmall.com
-$removeparam=mytmenu,domain=tmall.com
-$removeparam=turing_bucket,domain=tmall.com
-$removeparam=lygClk,domain=tmall.com
-$removeparam=impid,domain=tmall.com
-$removeparam=bftTag,domain=tmall.com
-$removeparam=bftRwd,domain=tmall.com
-$removeparam=activity_id,domain=tmall.com
-$removeparam=sm,domain=tb.cn
-$removeparam=callback,domain=bilibili.com
-$removeparam=spm_id_from,domain=bilibili.com
-$removeparam=from_source,domain=bilibili.com
-$removeparam=from,domain=bilibili.com
-$removeparam=seid,domain=bilibili.com
-$removeparam=share_source,domain=bilibili.com
-$removeparam=msource,domain=bilibili.com
-$removeparam=refer_from,domain=bilibili.com
-$removeparam=share_medium,domain=bilibili.com
-$removeparam=share_source,domain=bilibili.com
-$removeparam=share_plat,domain=bilibili.com
-$removeparam=share_tag,domain=bilibili.com
-$removeparam=share_session_id,domain=bilibili.com
-$removeparam=timestamp,domain=bilibili.com
-$removeparam=unique_k,domain=bilibili.com
-$removeparam=bbid,domain=m.bilibili.com
-$removeparam=ts,domain=m.bilibili.com
-$removeparam=visit_id,domain=live.bilibili.com
-$removeparam=session_id,domain=live.bilibili.com
-$removeparam=broadcast_type,domain=live.bilibili.com
-$removeparam=is_room_feed,domain=live.bilibili.com
-$removeparam=type_recherche,domain=marketscreener.com
-$removeparam=mots,domain=marketscreener.com
-$removeparam=noredirect,domain=marketscreener.com
-$removeparam=RewriteLast,domain=marketscreener.com
-$removeparam=lien,domain=marketscreener.com
-$removeparam=aComposeInputSearch,domain=marketscreener.com
-$removeparam=type_recherche_forum,domain=marketscreener.com
-$removeparam=add_mots,domain=marketscreener.com
-$removeparam=countview,domain=marketscreener.com
-||marketscreener.com/search/?$removeparam=type_recherche
-||marketscreener.com/search/?$removeparam=noredirect
-||marketscreener.com/search/?$removeparam=RewriteLast
-||marketscreener.com/search/?$removeparam=lien
-||marketscreener.com/search/?$removeparam=aComposeInputSearch
-||marketscreener.com/search/?$removeparam=type_recherche_forum
-||marketscreener.com/search/?$removeparam=countview
-$removeparam=irclickid,domain=bestbuy.com
-$removeparam=irgwc,domain=bestbuy.com
-$removeparam=loc,domain=bestbuy.com
-$removeparam=acampID,domain=bestbuy.com
-$removeparam=mpid,domain=bestbuy.com
-$removeparam=intl,domain=bestbuy.com
-$removeparam=u_code,domain=tiktok.com
-$removeparam=preview_pb,domain=tiktok.com
-$removeparam=_d,domain=tiktok.com
-$removeparam=timestamp,domain=tiktok.com
-$removeparam=user_id,domain=tiktok.com
-$removeparam=share_app_name,domain=tiktok.com
-$removeparam=share_iid,domain=tiktok.com
-$removeparam=source,domain=tiktok.com
-$removeparam=idprob,domain=autoplus.fr
-$removeparam=hash,domain=autoplus.fr
-$removeparam=sending_id,domain=autoplus.fr
-$removeparam=site_id,domain=autoplus.fr
-$removeparam=dr_tracker,domain=autoplus.fr
-$removeparam=pc,domain=bigfishgames.com
-$removeparam=npc,domain=bigfishgames.com
-$removeparam=/^npv[0-9]+=/,domain=bigfishgames.com
-$removeparam=npi,domain=bigfishgames.com
-$removeparam=actId,domain=cafepedagogique.net
-$removeparam=actCampaignType,domain=cafepedagogique.net
-$removeparam=actSource,domain=cafepedagogique.net
-$removeparam=/^tl_[a-z_]+=/,domain=bloculus.com
-$removeparam=rtoken,domain=zillow.com
-$removeparam=ex,domain=realtor.com
-$removeparam=identityID,domain=realtor.com
-$removeparam=MID,domain=realtor.com
-$removeparam=RID,domain=realtor.com
-$removeparam=riftinfo,domain=redfin.com
-$removeparam=epic_affiliate,domain=epicgames.com
-$removeparam=epic_gameId,domain=epicgames.com
-$removeparam=srcc,domain=onet.pl
-$removeparam=utm_v,domain=onet.pl
-$removeparam=utm_medium,domain=onet.pl
-$removeparam=utm_source,domain=onet.pl
-$removeparam=internalSource,domain=allrecipes.com
-$removeparam=referringId,domain=allrecipes.com
-$removeparam=referringContentType,domain=allrecipes.com
-$removeparam=clickId,domain=allrecipes.com
-$removeparam=xtor,domain=europe1.fr
-$removeparam=istCompanyId,domain=argos.co.uk
-$removeparam=istFeedId,domain=argos.co.uk
-$removeparam=istItemId,domain=argos.co.uk
-$removeparam=istBid,domain=argos.co.uk
-$removeparam=clickOrigin,domain=argos.co.uk
-$removeparam=src,domain=thunderbird.net
-$removeparam=__source,domain=cnbc.com
-$removeparam=refPageId,domain=roblox.com
-$removeparam=_returnURL,domain=cell.com
-$removeparam=redirectedFrom,domain=academic.oup.com
-$removeparam=source,domain=agata88.com
-$removeparam=share,domain=hs.fi
-$removeparam=origin,domain=yle.fi
-$removeparam=/^otracker.?=/,domain=flipkart.com
-$removeparam=ssid,domain=flipkart.com
-$removeparam=/^[cilp]id=/,domain=flipkart.com
-$removeparam=marketplace,domain=flipkart.com
-$removeparam=store,domain=flipkart.com
-$removeparam=srno,domain=flipkart.com
-$removeparam=store,domain=flipkart.com
-$removeparam=ppn,domain=flipkart.com
-$removeparam=ppt,domain=flipkart.com
-$removeparam=fm,domain=flipkart.com
-$removeparam=collection-tab-name,domain=flipkart.com
-$removeparam=/^sattr\[\]=/,domain=flipkart.com
-$removeparam=/^p\[\]=/,domain=flipkart.com
-$removeparam=st,domain=flipkart.com
-$removeparam=sid,domain=idealo.de
-$removeparam=src,domain=idealo.de
-$removeparam=siteId,domain=idealo.de
-$removeparam=lcb,domain=idealo.de
-$removeparam=leadOutUrl,domain=idealo.de
-$removeparam=offerListId,domain=idealo.de
-$removeparam=osId,domain=idealo.de
-$removeparam=cancelUrl,domain=idealo.de
-$removeparam=disc,domain=idealo.de
-$removeparam=internal,domain=teletrader.com
-$removeparam=ecid,domain=deeplearning.ai
-$removeparam=_hsmi,domain=deeplearning.ai
-$removeparam=_hsenc,domain=deeplearning.ai
-$removeparam=PostType,domain=gamespot.com
-$removeparam=ServiceType,domain=gamespot.com
-$removeparam=ftag,domain=gamespot.com
-$removeparam=UniqueID,domain=gamespot.com
-$removeparam=TheTime,domain=gamespot.com
-$removeparam=src,domain=tokopedia.com
-$removeparam=trkid,domain=tokopedia.com
-$removeparam=whid,domain=tokopedia.com
-$removeparam=ddw,domain=wkorea.com
-$removeparam=ds_ch,domain=wkorea.com
-$removeparam=source,domain=eonline.com
-$removeparam=medium,domain=eonline.com
-$removeparam=content,domain=eonline.com
-$removeparam=taid,domain=reuters.com
-$removeparam=source_location,domain=change.org
-$removeparam=psf_variant,domain=change.org
-$removeparam=share_intent,domain=change.org
-$removeparam=tag,domain=ceneo.pl
-$removeparam=intcid,domain=wired.com
-$removeparam=pid,domain=arms-retcode.aliyuncs.com
-$removeparam=uid,domain=arms-retcode.aliyuncs.com
-$removeparam=tag,domain=arms-retcode.aliyuncs.com
-$removeparam=release,domain=arms-retcode.aliyuncs.com
-$removeparam=environment,domain=arms-retcode.aliyuncs.com
-$removeparam=sample,domain=arms-retcode.aliyuncs.com
-$removeparam=behavior,domain=arms-retcode.aliyuncs.com
-$removeparam=enableSPA,domain=arms-retcode.aliyuncs.com
-$removeparam=enableLinkTrace,domain=arms-retcode.aliyuncs.com
-$removeparam=page,domain=arms-retcode.aliyuncs.com
-$removeparam=begin,domain=arms-retcode.aliyuncs.com
-$removeparam=c2,domain=arms-retcode.aliyuncs.com
-$removeparam=c3,domain=arms-retcode.aliyuncs.com
-$removeparam=success,domain=arms-retcode.aliyuncs.com
-$removeparam=code,domain=arms-retcode.aliyuncs.com
-$removeparam=msg,domain=arms-retcode.aliyuncs.com
-$removeparam=api,domain=arms-retcode.aliyuncs.com
-$removeparam=traceId,domain=arms-retcode.aliyuncs.com
-$removeparam=pv_id,domain=arms-retcode.aliyuncs.com
-$removeparam=flag,domain=arms-retcode.aliyuncs.com
-$removeparam=sr,domain=arms-retcode.aliyuncs.com
-$removeparam=vp,domain=arms-retcode.aliyuncs.com
-$removeparam=ct,domain=arms-retcode.aliyuncs.com
-$removeparam=_v,domain=arms-retcode.aliyuncs.com
-$removeparam=sampling,domain=arms-retcode.aliyuncs.com
-$removeparam=dl,domain=arms-retcode.aliyuncs.com
-$removeparam=post_res,domain=arms-retcode.aliyuncs.com
-$removeparam=adid,domain=nikkei.com
-$removeparam=i_cid,domain=nikkei.com
-$removeparam=n_cid,domain=nikkei.com
-$removeparam=waad,domain=nikkei.com
-$removeparam=weibo_id,domain=weibo.*
-$removeparam=dt_dapp,domain=weibo.*
-$removeparam=context_referrer,domain=fiverr.com
-$removeparam=source,domain=fiverr.com
-$removeparam=ref_ctx_id,domain=fiverr.com
-$removeparam=funnel,domain=fiverr.com
-$removeparam=click_key,domain=etsy.com
-$removeparam=click_sum,domain=etsy.com
-$removeparam=organic_search_click,domain=etsy.com
-$removeparam=itm_campaign,domain=magento.com
-$removeparam=itm_medium,domain=magento.com
-$removeparam=itm_source,domain=magento.com
-$removeparam=itm_term,domain=magento.com
-$removeparam=dop_ab_variant,domain=novinky.cz
-$removeparam=dop_source_zone_name,domain=novinky.cz
-$removeparam=dop_req_id,domain=novinky.cz
-$removeparam=dop_id,domain=novinky.cz
-$removeparam=source,domain=novinky.cz
-$removeparam=seq_no,domain=novinky.cz
-$removeparam=dop_ab_variant,domain=aktualne.cz
-$removeparam=dop_source_zone_name,domain=aktualne.cz
-$removeparam=dop_req_id,domain=aktualne.cz
-$removeparam=dop_id,domain=aktualne.cz
-$removeparam=dop_ab_variant,domain=seznamzpravy.cz
-$removeparam=dop_source_zone_name,domain=seznamzpravy.cz
-$removeparam=dop_req_id,domain=seznamzpravy.cz
-$removeparam=dop_id,domain=seznamzpravy.cz
-$removeparam=source,domain=seznamzpravy.cz
-$removeparam=seq_no,domain=seznamzpravy.cz
-$removeparam=log,domain=billiger.de
-$removeparam=p,domain=billiger.de
-@@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/gp\/.*?(redirector.html|cart\/ajax-update.html|video\/api\/)/$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/(hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
-@@||mail.google.com/mail/u/$removeparam
-@@/^https?:\/\/(docs|accounts)\.google(\.[a-z]{2,}){1,}/$removeparam
-@@/^https?:\/\/([a-z0-9-\.])*drive\.google\.com\/videoplayback/$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}(\/upload)?\/drive\//$removeparam
-@@||news.google.com.*?hl=$removeparam
-@@||hangouts.google.com/webchat*zx=$removeparam
-@@||client-channel.google.com/client-channel*zx=$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}\/s\?tbm=map.*?gs_[a-z]*=./$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}\/(complete\/search|setprefs|searchbyimage)/$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?google(\.[a-z]{2,}){1,}\/(appsactivity|aclk\?)/$removeparam
-@@||matrix.org/_matrix/$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?(cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
-@@$removeparam,domain=myaccount.google.*
-@@/^https?:\/\/([a-z0-9-]+\.)*?gcsip\.(com|nl)[^?]*\?.*?&?ref_?=./$removeparam
-@@/^https?:\/\/[^/]+/[^/]+/[^/]+\/-\/refs\/switch[^?]*\?.*?&?ref_?=./$removeparam
-@@/^https?:\/\/bugtracker\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
-@@||comment-cdn.9gag.com/*comment-list.json?$removeparam
-@@||battle.net/login$removeparam
-@@||blizzard.com/oauth2$removeparam
-@@$removeparam,domain=kreditkarten-banking.lbb.de
-@@$removeparam,domain=www.tinkoff.ru
-@@||www.cyberport.de/adscript.php$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?tweakers\.net\/ext\/lt\.dsp\?.*?(%3F)?&?ref_?=./$removeparam
-@@/^https?:\/\/git(lab)?\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
-@@||amazon.*/message-us?$removeparam
-@@$removeparam,domain=authorization.td.com
-@@$removeparam,domain=support.steampowered.com
-@@||privacy.vakmedianet.nl/*ref=$removeparam
-@@||sso.serverplan.com/manage2fa/check?ref=$removeparam
-@@||login.meijer.com/*?ref=$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?facebook\.com\/(login_alerts|ajax|should_add_browser)//$removeparam
-@@||facebook.com/groups/member_bio/bio_dialog/$removeparam
-@@$removeparam,domain=api.taiga.io
-@@||gog.com/click.html$removeparam
-@@$removeparam,domain=login.progressive.com
-@@||www.sephora.com/api/$removeparam
-@@$removeparam,domain=www.contestgirl.com
-@@$removeparam,domain=agenciatributaria.gob.es
-@@$removeparam,domain=login.ingbank.pl
-@@|wss://zoom.us^$removeparam
-@@$removeparam,domain=api.bilibili.com
-@@||onet.pl/*?*utm_campaign=$removeparam
-@@||stripe.com/*?*referrer=$removeparam
-@@||lichess.org/login*referrer=$removeparam
-@@||like.co/api/like/likebutton/*?*referrer=$removeparam
-@@||button.like.co/in/*referrer=$removeparam
-@@$removeparam,domain=www.mma.go.kr
-@@$removeparam,domain=github.com
-@@||billiger.de/*mc=$removeparam
-@@||amazon-adsystem.*/v3/oor?$removeparam
-@@||youtube.com/signin?$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?facebook\.com\/.*?(plugins|ajax)\//$removeparam
-@@/^https?:\/\/([a-z0-9-]+\.)*?facebook\.com\/dialog\/(share|send)/$removeparam
-@@||facebook.com/groups/member_bio/bio_dialog/$removeparam
-@@||facebook.com/photo.php?$removeparam
-@@||facebook.com/privacy/specific_audience_selector_dialog/$removeparam
-@@||facebook.com/photo/download/$removeparam
-@@||bing.*/WS/redirect/$removeparam
-@@||indeed.com/rc/clk$removeparam
-@@||mozilla.org/api$removeparam
-@@||comment-cdn.9gag.com/*comment-list.json?$removeparam
-@@$removeparam,domain=api.bilibili.com
-@@||marketscreener.com/search/?$removeparam
+!-----------------------Desktop-----------------------
 
-! This is an allowlist added by the adflit maintainers
-@@||tix.axs.com^$removeparam=utm_campaign
-@@||tix.axs.com^$removeparam=utm_content
-@@||tix.axs.com^$removeparam=utm_medium
-@@||tix.axs.com^$removeparam=utm_source
-@@||tix.axs.com^$removeparam=utm_term
+! ---12306---
+12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
+
+! ---163---
+163.com##.ns_side_qrcode
+163.com##.newsapp-qrcode
+
+! ---www.360doc.com---
+www.360doc.com##.ul-similar
+www.360doc.com##div.str_border:nth-of-type(5)
+
+! ---36kr---
+36kr.com##.phone
+
+! ---www.360kuai.com---
+www.360kuai.com##.side-wrapper
+www.360kuai.com##.float--left.right_aside_wrapper
+
+! ---acfun---
+acfun.cn##.app-guide
+acfun.cn##.download-app
+
+! ---Baidu---
+baidu.com###s-hotsearch-wrapper
+baike.baidu.com##.appdownload.item
+baike.baidu.com##.wgt-baikeapp-promote-container
+baike.baidu.com###J-bds_app
+jingyan.baidu.com##.task-panel-entrance
+jingyan.baidu.com##.fresh-share-exp-e
+
+! ---Bing---
+bing.com###TopApp
+
+! ---Bilibili---
+bilibili.com##a[href="//app.bilibili.com"]
+bilibili.com###fixed_app_download
+bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
+bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
+bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
+bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
+bilibili.com##.index__floatOpenBtn__src-videoPage-floatOpenBtn-
+bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
+bilibili.com##.bili-app-link-container
+bilibili.com##.open-app-bar
+bilibili.com##.btn-ctnr
+bilibili.com##.bili-app
+bilibili.com###openAppBtn
+bilibili.com##.mobile.nav-item
+bilibili.com##.clearfix.h5-download-bar
+bilibili.com##.app-download-link
+bilibili.com##.van-popover__reference:-abp-contains(下载)
+manga.bilibili.com##.app-button.download-app
+
+! ---chinaso---
+chinaso.com###Fixed_app
+
+! ---cnbeta---
+cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
+
+! ---csdn.net---
+csdn.net##.toolbar-subMenu
+csdn.net###csdn-toolbar > div.toolbar-advert:first-child > a.toolbar-advert-default:first-child
+
+! ---ctrip.com---
+ctrip.com##.set-phone.set-list > .nav-myctrip.person-text
+ctrip.com###fl_wrap_default
+
+! ---dangdang---
+dangdang.com##.bottom_fixed
+dangdang.com##.panel
+dangdang.com##.code2s
+dangdang.com##.dangQRCode
+dangdang.com##.little
+dangdang.com###fix_erweima
+dangdang.com##.foot_tip_ad
+dangdang.com##.side_bar_code
+
+! ---discord---
+discord.com##div[class*=notice]
+
+! ---douban---
+douban.com##.lnk-doubanapp
+fm.douban.com##.left
+
+! ---douyu---
+douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
+douyu.com##li.RightNavigate-item:nth-of-type(1)
+douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
+douyu.com##li.RightNavigate-item:nth-of-type(2)
+douyu.com##.SuperFansGuideTips
+douyu.com##.is-active.UPlayerLotteryEnter
+douyu.com##.FudaiGiftToolBarTips
+douyu.com##.PrivilegeGiftModalDialog
+douyu.com###FansFestival2003Tips
+douyu.com##div[class*=LiveRoomDianzan]
+douyu.com##.TaskIcon
+douyu.com##.FishpondTreasure
+douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
+douyu.com##div.Title-row:nth-of-type(3)
+douyu.com##div.is-normal.Title-col:nth-of-type(2)
+douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
+douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
+douyu.com##.PcDiversion
+douyu.com##.HeaderGif-right
+douyu.com###js-room-activity
+douyu.com###js-player-dialog
+douyu.com##.Bottom
+douyu.com###js-player-guessgame
+douyu.com##.HeaderGif-left
+douyu.com##.ConfigBroadcast.ani-broadcast
+douyu.com##.ChatEffect
+douyu.com##.is-mask.MedalUserGuide
+douyu.com##.Header-download-wrap
+douyu.com##.ToolbarActivityArea
+
+! ---egame.qq.com---
+egame.qq.com###inner-container
+egame.qq.com##li.interactive-redenvelope:nth-of-type(2)
+egame.qq.com##.widget-box
+egame.qq.com##.nav-download
+egame.qq.com##.live-list-guess
+egame.qq.com##div.live-review:nth-of-type(6)
+egame.qq.com##.left-menu-footer
+egame.qq.com##.live-panel-player-bottom
+
+! ---gome---
+gome.com.cn###gome-phone
+gome.com.cn###gome-aside-app-code
+gome.com.cn###gome-aside-app
+
+! ---gwdang---
+gwdang.com###tool-menu > li.fl.item:nth-of-type(2)
+gwdang.com##.qr-area
+
+! ---hujiang---
+fr.hujiang.com###regModule
+fr.hujiang.com###uzt-mask
+hujiang.com##.login-modal-mask
+hujiang.com##.login-modal-wrapper
+hujiang.com##.qrcode
+
+! ---huya---
+huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
+huya.com##.wrap-income.chat-wrap-panel
+huya.com##div[class*="NavDownload"]
+
+! ---huxiu---
+huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
+
+! ---ifanr---
+ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-sns:first-child > DIV.c-header-sns__wrapper > DIV.c-header-sns__about:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
+ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-navbar:first-child > DIV.c-header-navbar__content > DIV.c-header-navbar－content__right:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
+ifanr.com##DIV.page-body:first-child > DIV.c-goto-top:nth-child(8) > DIV.c-goto-top-item.c-goto-top-item--app:nth-child(2)
+ifanr.com##DIV.page-body:first-child > DIV.c-goto-top:nth-child(8) > DIV.c-goto-top-item.c-goto-top-item--qrcodes:nth-child(3)
+ifanr.com##.popup-top__desc
+ifanr.com##.js-download-link-another
+ifanr.com##.popup-download__item
+ifanr.com##.popup-download-wrapper
+ifanr.com##.popup,.popup-top
+ifanr.com##.popup-download
+ifanr.com##.bottom-clap-scroll-down.js-bottom-clap.bottom-clap-wrapper
+
+! ---ifeng---
+ifeng.com##div[class^="fixSlideBox"]
+ifeng.com##div[class^="bottomSlide"]
+ifeng.com##div[class^="bottom_box"]
+ifeng.com##div[class^="hot_box"]
+ifeng.com##div[class^="silde_box"]
+ifeng.com##div[class^="shareFix"]
+ifeng.com##div[class^="ad_box"]
+ifeng.com##div[class^="share_box"]
+
+! ---ishare----
+ishare.iask.sina.com.cn##.loginRedPacket-dialog
+
+! ---jd---
+jd.com###J_mobile > DIV.dt.mobile_txt:first-child
+jd.com###J_mobile > DIV.mobile_static:nth-child(2)
+jr.jd.com###app-jr
+jr.jd.com##.app.ui-sidebar-block
+jd.com###ttbar-apps
+jd.com###toolbar-qrcode
+item.jd.com##[href="#none"] > .tab-ico
+item.jd.com##.jdm-tbar-tab-qrcode.jdm-toolbar-tab.J-trigger
+home.jd.com###ttbar-apps > .cw-icon.dt
+
+! ---jianshu---
+jianshu.com###web-nav-app-download-btn
+jianshu.com##a[href*="/apps?utm_medium=desktop&utm_source=navbar-apps"]
+jianshu.com###index-aside-download-qrbox
+jianshu.com##div[class$="_0"]
+jianshu.com##div[role="button"]:-abp-contains(抽奖)
+jianshu.com##div[aria-label="抽奖关闭"]
+jianshu.com##._27yofX
+jianshu.com##._13lIbp
+jianshu.com##div._1pUUKr:nth-of-type(3)
+
+! ---jikipedia.com---
+jikipedia.com##.cursor.download-img
+jikipedia.com##[href="/app"]
+jikipedia.com##.download-link
+jikipedia.com##.components-container
+jikipedia.com##.cursor.link.app-link
+
+! ---juejin---
+juejin.cn##.recommend-box
+juejin.cn##.aside.index-aside > .shadow.app-download-sidebar-block.sidebar-block
+
+! ---ke.com---
+ke.com##.app_content
+ke.com##.app_daoliu_layer
+
+! ---juejin---
+juejin.im##.extension
+juejin.im##.request-health-alert
+
+! ---mbalib---
+doc.mbalib.com###viewer > div.doc-ad
+
+! ---meizu---
+bbs.meizu.cn##.download
+detail.mall.meizu.com##.bnr-link
+detail.mall.meizu.com##.app detail
+meizu.com###meizu-header-link-product-download
+
+! ---mi---
+mi.com##.item-image.item
+mi.com###J_siteDownloadApp
+mi.com##span.sep:nth-of-type(10)
+
+! ---new.qq.com---
+new.qq.com##[href="//new.qq.com/hb_index.htm"]
+new.qq.com##.group-pic-bar
+new.qq.com##.hot-choice-bar
+new.qq.com##.original-bar
+new.qq.com##.tuijian-bar
+new.qq.com###Recomend
+new.qq.com##.cms-bar
+
+! ---oneplusbbs---
+oneplusbbs.com###bbsRegisterGuide
+oneplusbbs.com##li[style*="position: relative; border: 0px;"]
+
+! ---pingwest---
+pingwest.com##.down-app
+pingwest.com##.download-app
+pingwest.com##.article-bottom-bd
+pingwest.com##.bd-right
+pingwest.com##article[class*="item bd"]
+pingwest.com##section[class*=options]
+pingwest.com##section[class*=download-app-tip]
+pingwest.com##a[href="https://events.pingwest.com/tic-wh-2021"]
+
+! ---qdaily.com---
+qdaily.com##.app
+qdaily.com##.clearfix.com-header-brief
+
+! ---qq---
+qq.com##+js(json-prune, ad)
+
+! ---rrys---
+rrys2019.com##.app_link
+rrys2020.com##.app_link
+zmz2019.com##.chat-enterbox
+
+! ---sina---
+sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
+sina.com.cn##.part-a-l > .mod-02
+sina.cn##.j_sax sina_tj_banner
+sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
+finance.sina.com.cn##.clearfix.blk-zcapp
+finance.sina.com.cn###tab_related_btn
+finance.sina.com.cn##.clearfix.blk-wxfollow
+finance.sina.com.cn##.first.tool-audio.tool-icon
+finance.sina.com.cn##.fc_s_list
+finance.sina.com.cn##.sina-client-tl
+finance.sina.com.cn##[href^="https://finance.sina.cn/event/2021rili/pcjoin.shtml"]
+finance.sina.com.cn##.appendQr_wrap.clearfix
+finance.sina.com.cn##.app-viplive
+finance.sina.cn##.s_card.cj_24
+finance.sina.com.cn##.hqPart_bot
+finance.sina.com.cn##.zc-app-btn.right-bar-btn
+finance.sina.com.cn##.clearfix.tech-quotation:-abp-contains(下载客户端)
+finance.sina.com.cn###most_read
+super.sina.cn##.call_up_banner
+
+! ---sm.cn---
+sm.cn###index_hot_news
+sm.cn###index_banner
+
+! ---smzdm---
+smzdm.com###global-search > DIV.search-inner.z-clearfix > DIV.download:last-child
+smzdm.com###index-elevator > LI:nth-child(3)
+search.smzdm.com###elevator > LI:first-child > SPAN:first-child
+search.smzdm.com###elevator > LI:first-child
+smzdm.com###elevator > LI:first-child > SPAN:first-child
+smzdm.com###elevator > LI:first-child
+smzdm.com##.logo-download
+smzdm.com##.top-applink
+smzdm.com##.J_ota
+smzdm.com##.footer-floating-layer
+smzdm.com###index-elevator > li:nth-of-type(1)
+smzdm.com###index-elevator > li:nth-of-type(2)
+smzdm.com##.footer-new-guide
+
+! ---sohu---
+sohu.com##.download-app
+
+!---sogou---
+sogou.com##.erwm-box
+sogou.com###vl
+sogou.com###right
+
+! ---suning---
+suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
+suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js.sn-sidebar-tab-hover:nth-child(3)
+suning.com###sn-sidebar-change-redpacket
+suning.com##.sn-sidebar-tab-js.sn-sidebar-redpacket.sn-sidebar-wider-tab.sn-sidebar-tab
+suning.com##.tab-icon-code.tab-icon
+suning.com##.ng-bar-node mb-suning touch-href
+suning.com##.ng-bar-node-box app-down-box
+suning.com##.tab-tip-code-warp
+suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
+suning.com##.touch-href.mb-suning.ng-bar-node
+suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
+suning.com###sn-sidebar-change-code
+suning.com##.tab-icon-code.tab-icon
+
+! ---taobao---
+taobao.com##.clearfix.qr-bd
+taobao.com##.qr-ft.J_QrFt > .tb-ifont
+taobao.com##.qr-ft.J_QrFt
+taobao.com##.qr-tip
+taobao.com##.show.J_TWeiTaoPopup.weitao-popup
+taobao.com##.J_TWeitaoHover.follow-mobile
+taobao.com##.smartbanner-wrapper
+taobao.com##.rb-op
+
+! ---tech.sina.com.cn---
+n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
+tech.sina.com.cn##.zc-app
+tech.sina.com.cn##.zc-app-btn.right-bar-btn
+n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
+
+! ---thepaper---
+thepaper.cn##.download
+
+! ---tmall---
+tmall.com##.sn-mobile
+tmall.com##.mui-mbarp-qrcode-tip
+tmall.com##.mui-mbar-tab-logo-qrcode.mui-mbar-tab-logo
+tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
+tmall.com##.mui-mbarp-qrcode-bubble-close.mui-mbar-bubble-close
+tmall.com##.mui-mbarp-qrcode-arr.mui-mbar-arr
+tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
+tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
+tmall.com##div[style*="z-index: 99999; display: block;"]
+tmall.com###J_smartloader
+
+! ---userstyles.org---
+userstyles.org###top_android_button
+userstyles.org##.android_button_button
+userstyles.org##.android_button_banner
+
+! ---vip.com---
+vip.com##.sidebarcom-qrcode
+vip.com##.wp-phone
+
+! ---vivo.com.cn---
+vivo.com.cn##.vp-vivo-app
+
+! ---v.qq.com---
+v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
+v.qq.com##.svg_icon_client.svg_quick_icon
+v.qq.com###pc_client > .quick_link
+
+! ---xiaomiyoupin---
+xiaomiyoupin.com##.site-item.m-download.fl
+xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
+
+! ---you.163.com---
+you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child > DIV.yx-cp-siteNavItem:last-child > DIV.yx-cp-siteNavItemHd.pipe:first-child
+you.163.com##[href^="/downloadapp"]
+you.163.com##.m-appDownloadGuide
+you.163.com###j-yx-fixedtoolDownloadlink
+you.163.com##.downloadAppBtn.w-button-ghost.w-button-xl.w-button.btn
+
+! ---note.youdao.com---
+note.youdao.com##.top-btns
+
+! ---wenku.baidu.com---
+wenku.baidu.com##.vip-member-pop-content
+wenku.baidu.com##.extension
+wenku.baidu.com##.qricon
+wenku.baidu.com##.browser-label-guide
+wenku.baidu.com##.pay-vip-btn-wrap
+wenku.baidu.com##.inner-vip.vip-pop-wrap
+wenku.baidu.com##.docBtns.-VIP_RIGHT.core-btn-wrapper
+wenku.baidu.com##.fix-block.relative-course-wrapper
+wenku.baidu.com##.vip-card-wrap
+wenku.baidu.com##.searchBox.-VIP_RIGHT.core-btn-wrapper
+wenku.baidu.com##.vip-activity-wrap
+wenku.baidu.com##.client-download-wrap
+wenku.baidu.com##.client-rec-wrapper
+wenku.baidu.com##.fold-page-tip
+wenku.baidu.com##.fold-page-btn
+wenku.baidu.com##.clearfix.sb-con > .qrHover
+wenku.baidu.com##.reader-download-app
+wenku.baidu.com##.tool-bar.app-btn.small-btn > .tool-icon
+wenku.baidu.com##.client-btn.small-btn > .tool-icon
+wenku.baidu.com##.pure-tool-btn.tool-btn.full-screen
+wenku.baidu.com##.client-btn.middle-btn
+wenku.baidu.com##.doc-btns-wrap > .app-btn.small-btn
+wenku.baidu.com##.vip-pay-pop-v2-wrap
+wenku.baidu.com##.vip-activity-wrap-new
+
+! ---yystv---
+yystv.cn##li:nth-of-type(7) > [href="/app/download"]
+
+!---zhihu---
+daily.zhihu.com##.active
+daily.zhihu.com##.Daily
+zhihu.com##.Card Banner
+zhihu.com##.CommentsForOia > .Button--blue.Button--primary.Button
+zhihu.com##OpenInAppButton OpenInApp is-shown
+zhihu.com##.ContentItem-more
+zhihu.com##.DownloadGuide
+zhihu.com##.HotQuestions
+zhihu.com##.HotQuestions-bottomButton
+zhihu.com##.MBannerAd
+zhihu.com##.MHotFeedAd
+zhihu.com##.MobileAppHeader-downloadLink
+zhihu.com##.OpenInApp
+zhihu.com##.OpenInAppButton
+zhihu.com##.Profile-followButton
+zhihu.com##.TopstoryItem--advertCard
+zhihu.com##.ViewAllInappButton
+zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(2) > div.Post-content > div.Post-Sub.Post-NormalSub:last-child > div.Recommendations-Main:first-child
+
+! ---zhipin.com---
+zhipin.com##.siderbar-app
+zhipin.com##.jconfirm-white.jconfirm
+
+! ---zx.sina.cn---
+zx.sina.cn##.z_c2.j_article_relevent_news.s_card
+zx.sina.cn##.hotRank_icon.fl_suspension_template
+zx.sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
+zx.sina.cn##.j_relevent_video.s_card
+
+! ---zuimeia---
+zuimeia.com##.app-ad
+zuimeia.com###rightside_download_zuimei
+
+!-----------------------Mobile-----------------------
+
+! ---36kr.com---
+36kr.com##.slide-in.suction-bottom > .kr-mobile-goapp
+36kr.com##.goapp-wrapper > .kr-mobile-goapp
+36kr.com##.goapp-btn
+36kr.com##.open-app-fixed
+
+! ---3g.163.com---
+3g.163.com##.js-wakeupclient.wakeup_client
+3g.163.com##.hotSearch-box
+3g.163.com##.open-modal-mask
+3g.163.com##div[class*="toast-"]
+3g.163.com##div[class*="relativedoc"]
+3g.163.com##.big_boom
+3g.163.com##.js-replylink.reply_count
+3g.163.com##.comment_bot
+3g.163.com##.bottom.widget-slider-article.widget-slider
+3g.163.com##iframe[id*=open_newsapp_iframe]
+3g.163.com##div[class*=hot-news]
+3g.163.com##article.card-type-news.news-card:-abp-contains(打开APP)
+3g.163.com##.js-new-relative-doc.new_relative_doc
+
+! ---9game.cn---
+a.9game.cn##.bannerson
+a.9game.cn##.downApp
+a.9game.cn##.DownBox
+a.9game.cn##.downUnder
+a.9game.cn##.gameInformation
+a.9game.cn##section.normal-module:nth-of-type(2)
+a.9game.cn##.newGame.normal-module
+a.9game.cn##.JS_xlyx_down.down-app
+a.9game.cn##.JS_xlyx_down.zq-down-box
+a.9game.cn##.biubiu-recommend-box
+
+! ---baidu---
+baidu.com###header > div:last-child
+m.baidu.com##.ec_wise_ad
+m.baidu.com##.blank-frame
+m.baidu.com###bottom
+m.baidu.com##.suggest-hot
+m.baidu.com##.callicon-wrap
+m.baidu.com###navs
+m.baidu.com###page-copyright
+m.baidu.com##.square-banner-bgicon.index-banner
+m.baidu.com##.water-container.tab-news-content
+m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
+baidu.com##.square-banner-bgicon.index-banner
+baidu.com###tab_news_1
+baidu.com###header > div > div
+baidu.com###tab_news_1 > div.tab-news-content.water-container:nth-child(2)
+baidu.com###login-wraps > a.index-banner.square-banner-bgicon
+
+! ---baijiahao.baidu.com---
+baijiahao.baidu.com##.layer-item:-abp-contains(百度)
+baijiahao.baidu.com##.headDeflectorContainer
+baijiahao.baidu.com##.related-news
+baijiahao.baidu.com##div[class^="_"]
+baijiahao.baidu.com##.wxUnfoldText
+baijiahao.baidu.com##span[class*="cm-variable"]
+baijiahao.baidu.com##div[style^="left: calc"]
+baijiahao.baidu.com##.contentPadding.bottomTTSStruct
+baijiahao.baidu.com##div.layer-item:-abp-contains(打开)
+baijiahao.baidu.com##.ByGTNZMLOdQ-LzxbSZ-mc
+baijiahao.baidu.com##.openImg
+
+! ---baike.baidu.com---
+baike.baidu.com##.squareAni.square.super-layer-promote
+baike.baidu.com##.BK-after-content-wrapper
+baike.baidu.com##div[style="height: 57px;"]
+baike.baidu.com##a[onclick="page.Mixedor.mixedOpen(this,0)"]
+baike.baidu.com##.top-icon.spark-icon
+
+! ---bilibili---
+m.bilibili.com##.m-home-float-openapp
+m.bilibili.com##div[class*="openapp"]
+m.bilibili.com##.nav-open-app-img
+m.bilibili.com##.m-nav-openapp.open-app-btn
+m.bilibili.com##.home-float-openapp.open-app-btn
+m.bilibili.com##div[class^="open-app-btn"]
+m.bilibili.com##.visible-open-app-btn.m-video-main-openapp.open-app-btn
+m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
+m.bilibili.com##.m-video2-float-openapp
+m.bilibili.com##.m-float-openapp.open-app-btn
+m.bilibili.com##.m-comment-openapp.open-app-btn
+m.bilibili.com##.v-switcher__content__wrap
+m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mplayer-control-btn-speed"]
+m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
+m.bilibili.com##.v-switcher__content__wrap
+m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
+
+! ---chinaso---
+m.chinaso.com##.chinaso_weixin
+m.chinaso.com##.wrap-layout > .wrap-toolbar
+
+! ---coolapk---
+coolapk.com##.mobile-header-content
+
+! ---csdn.net---
+csdn.net##.wap-shadowbox.weixin-shadowbox
+csdn.net##.feed-Sign-span
+csdn.net##.btn_open_app_prompt_div
+csdn.net###wap_open_app_btn
+csdn.net##li > [href^="//www.csdn.net/apps/download"]
+csdn.net##.m_toolbar_left_app_btn
+
+! ---dangdang---
+m.dangdang.com##.app_download
+m.dangdang.com##.redrain-index-i
+m.dangdang.com###zdmad
+m.dangdang.com##.container > a
+
+! ---douban---
+m.douban.com##.green.btn
+m.douban.com##.icon-wrap
+m.douban.com##.TalionNav-static > .info
+m.douban.com##h2 > [href^="https://www.douban.com/doubanapp/card/get_app"]
+m.douban.com###comment-list > div > .show-all
+m.douban.com##.movie-reviews.bd > .show-all
+m.douban.com##.write-review
+m.douban.com##[href^="https://erebor.douban.com/monitor/"]
+m.douban.com##div.center > div
+m.douban.com##.score-write
+m.douban.com##.write-comment
+m.douban.com##.sub-vendor > [href^="https://www.douban.com/doubanapp/card/get_app"]
+m.douban.com##.oia-wrap
+m.douban.com#?#div:matches-css(width:68px)
+m.douban.com##.show-all
+m.douban.com##a:-abp-contains(用App看更多)
+
+! ---douyu---
+m.douyu.com##.btn-open-app.open-btn-more
+m.douyu.com##.HomeHeader-openAppB
+m.douyu.com##.btn-open-app
+m.douyu.com##.abtest-downloadDialog
+m.douyu.com##.clarity-downDialog
+m.douyu.com##.DownloadBtn
+
+
+! ---egame.qq.com---
+m.egame.qq.com###installbar
+m.egame.qq.com###gcOfficialWidgetWrapper
+m.egame.qq.com##.widget-wrapper
+m.egame.qq.com###installGameBar
+m.egame.qq.com##.ui-border-b.ui-tab-nav > li:nth-of-type(4)
+
+! ---m.gome.com.cn---
+m.gome.com.cn##.m-downapp
+
+! ---m.huxiu.com---
+m.huxiu.com###qr_code_pc
+
+! ---h5.m.taobao.com---
+taobao.com##.open-app
+taobao.com##button:-abp-contains(打开手机淘宝)
+
+! ---huya---
+m.huya.com##.u-btn-down.header-app-btn
+m.huya.com###js-info-openApp
+m.huya.com##.u-btn-down.start-btn
+m.huya.com##.header-app-btn
+m.huya.com##.pop-download
+m.huya.com##.start-btn
+
+! ---ifeng---
+i.ifeng.com##div[class^=content-]>div[class^=link-]
+i.ifeng.com##div[class^=list-]:-abp-contains(APP)
+ishare.ifeng.com##header
+ishare.ifeng.com##section[class^="bottom"]
+ishare.ifeng.com##div[class^="callup"]
+ishare.ifeng.com##.callUpBox
+ishare.ifeng.com##section[class^="allLook"]
+ishare.ifeng.com##section[class^="relateVideo"]
+ishare.ifeng.com##div[class^="more_box"]
+
+! --iqiyi---
+iqiyi.com##.m-iqyGuide-layer
+iqiyi.com##.header_app.iqiyi-h5-empty
+iqiyi.com##.m-user > div > div
+iqiyi.com##.m-iqylink-diversion
+iqiyi.com##.m-iqyGuide-layer
+iqiyi.com##div[class="iqiyi-h5-empty header_app"]
+iqiyi.com##section[class^="ChannelHomeBanner"]
+iqiyi.com##div[class="vue-portal-target "]
+iqiyi.com##div[class="m-iqylink-guide"]
+iqiyi.com##.hotWords-wrap
+iqiyi.com##div[class^=style_appDownload]
+iqiyi.com##div[class^=styles_openApp]
+iqiyi.com##div[class^=style_toApp]
+
+! ---iyingdi---
+iyingdi.com##.downLoadApp
+mob.iyingdi.com##.down-load-app-container
+mob.iyingdi.com##.reply
+
+! ---m.jd.com---
+m.jd.com###pannelSeat
+m.jd.com###m_common_tip_div
+item.m.jd.com###imk2FixedBottom
+item.m.jd.com###jdLive > .icon
+item.m.jd.com##.J_ping.mhistory-layer__btn
+
+! ---jianshu.com---
+jianshu.com##.call-app-btn
+jianshu.com##.comment-open-app-btn-wrap
+jianshu.com##.download
+jianshu.com##.border.item
+jianshu.com##.app-open
+jianshu.com##.header-download
+jianshu.com###recommended-notes
+jianshu.com##.index_call-app-btn
+jianshu.com##div.download-app-guidance:last-child > div.guidance-content > div.guidance-wrap-conetnt > div.guidance-wrap-item:nth-child(2)
+jianshu.com###recommended-notes
+jianshu.com##.note-graceful-button
+www.jianshu.com##div[class^=baidu-app-download]
+
+! ---m.jiemian.com---
+m.jiemian.com##.box-home
+m.jiemian.com##.download-app
+m.jiemian.com##.open
+m.jiemian.com##.download
+m.jiemian.com##.open-app
+m.jiemian.com##.app-open
+
+! ---jikipedia.com---
+jikipedia.com##.download-link
+jikipedia.com##.components-container
+jikipedia.com##.cursor.link.app-link
+
+! ---m.jd.com---
+m.jd.com###imk2FixedSideText
+m.jd.com###imk2FixedBottom
+
+! ---m.ke.com---
+m.ke.com##.home-page.main-page > div.lj-track:nth-of-type(1)
+m.ke.com##.conch-ui-ke.conch-ui-app-download
+m.ke.com##.kem__download-app-ad
+m.ke.com##.ershoufang-detail-page__agent-card-bottom.lj-track
+m.ke.com##.lj-track > div.lj-track:nth-of-type(3)
+m.ke.com##.more-box
+m.ke.com##.community-box.community-house > div > .lj-track
+m.ke.com##.ershoufang-detail-page__house-intro > .lj-track
+m.ke.com##div.lj-track:nth-of-type(9)
+m.ke.com##div.lj-track:nth-of-type(12)
+m.ke.com##div.lj-track:nth-of-type(14)
+
+! ---m.lianjia.com---
+m.lianjia.com##div.mod_download:nth-of-type(1) 
+m.lianjia.com##.fadeDown.download_topfixed.mod_download
+m.lianjia.com##.download_fixed
+m.lianjia.com##.agent_download_head.arrow.agent_download.lazyload_ulog.flexbox.pictext
+m.lianjia.com##.contact_agent.fixed_bar
+m.lianjia.com##.mod_app.mod_sub_tit.mod_tit
+m.lianjia.com##.download_full_box
+
+! ---wiki.mbalib.com---
+wiki.mbalib.com##.app-ad
+wiki.mbalib.com##.download_app.news-banner-container
+
+! ---meituan.com---
+meituan.com##.banner-download
+
+! ---meizu---
+mf.meizu.cn##.guide-suspend.suspend
+
+! ---pingwest---
+pingwest.com###J_newsListModule > article.item.bd:-abp-contains(广告)
+pingwest.com##.options
+pingwest.com##.bd.item
+pingwest.com##a[href="https://s.growingio.com/LWqRgA"]:-abp-contains(打开APP)
+
+! ---m.qidian.com---
+m.qidian.com###footerApp
+m.qidian.com##div.book-detail-btn:nth-of-type(3)
+
+! ---sina.cn---
+sina.cn##a.j_callST.appOnly_card
+sina.cn##article.single-pic.article:-abp-contains(APP专享)
+sina.cn##article.single-pic.article:-abp-contains(APP专享)
+sina.cn##.an.cm_art_push
+sina.cn##.an.j_callST.callApp_fl_btn
+sina.cn##.btn_follow.j_article_wbreco
+sina.cn##.client-down
+sina.cn##.cm_index_popup
+sina.cn##div[class^=m-client-call]
+sinadaxue.cn##.fixed-tips.app-tips
+sina.cn##.fl_suspension_box
+sina.cn##.j_relevent_video.s_card
+sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
+sina.cn###j_card_miniVideo
+sina.cn##.look_more_a, .j_callST
+sina.cn##.m_f_a_r:-abp-contains(打开APP)
+sina.cn##.plague_Card, .index
+sina.cn##.popGo.ok
+sina.cn##.sw_c2
+sina.cn##.s_card.cj_24
+sina.cn##span[class*=callApp]
+sina.cn##.topLogoBar
+sina.cn##.zhidi.sw_c0
+sina.cn##.z_c2.j_article_relevent_news.s_card
+
+! ---m.smzdm.com---
+smzdm.com##.footer-banner
+smzdm.com##.new-zone
+smzdm.com##.J_copy.btn-open-app
+smzdm.com##.see-all
+smzdm.com##.btn-open-app-b.btn-open-app
+
+! ---m.sohu.com---
+m.sohu.com##.topbox.comment-reply__bar.comment-reply__box
+m.sohu.com##.art-rec-news
+m.sohu.com##.art-sogou-hotw
+m.sohu.com###artLifeService
+m.sohu.com##.article-main > div:nth-of-type(3)
+m.sohu.com##.fr
+m.sohu.com##.new.fixed.fixed_setto_desktop
+m.sohu.com##.visible.promotion-box
+m.sohu.com##.navbar-icon
+m.sohu.com##.index.new.fixed.fixed-setto-desktop
+m.sohu.com##.cbd-top-bar
+m.tv.sohu.com##.btn-xz-app
+m.tv.sohu.com##.js-app-topbanner.actv-banner
+
+! ---m.sogou.com---
+wap.sogou.com###indexAppOneBtn
+wap.sogou.com##.index-carousel
+wap.sogou.com##.index-tab
+wap.sogou.com###indexAppOneClose
+wap.sougou.com###sug_wraper
+m.sogou.com##.recommend-pop.vr-recommend
+
+! ---m.suning.com---
+m.suning.com##.common-right-d
+m.suning.com##.to-login
+m.suning.com##.hide.f-l-o-a-t-s-a-l-e
+
+! ---m.taobao.com---
+main.m.taobao.com##button
+
+! ---m.tieba.com---
+tieba.baidu.com##.top-guide-wrap.top-guide
+tieba.baidu.com##.open-style
+tieba.baidu.com###diversBanner
+tieba.baidu.com##.father-cut-daoliu-normal-box
+tieba.baidu.com##.father-cut-recommend-normal-box
+tieba.baidu.com##.top-guide-wrap.top-guide
+tieba.baidu.com##div[class*="appPromote"]
+tieba.baidu.com##li.tb-share__item:nth-of-type(1)
+tieba.baidu.com##.img-open-app
+tieba.baidu.com##.post-cut-guide
+tieba.baidu.com##.recommend-list
+tieba.baidu.com##.bottom-guide-box
+tieba.baidu.com##.open-app-guide
+tieba.baidu.com##.banner-wrapper
+tieba.baidu.com##div[class*="fixed-nav-bar nav-bar-wrapper"]
+tieba.baidu.com##div[class*="nav-bar-wrapper"]
+
+! ---thepaper---
+m.thepaper.cn##.header_moblink
+m.thepaper.cn##.listen_btn
+m.thepaper.cn###bottomBanner
+m.thepaper.cn###moblink_moreread
+m.thepaper.cn##.moblink_btn-650-white
+m.thepaper.cn##.btn_app
+m.thepaper.cn##li.icon_openapp
+m.thepaper.cn###recommend
+m.thepaper.cn###newDetailHotRecommend
+
+! ---toutiao---
+m.toutiao.com##.fold-btn-btn
+m.toutiao.com###root > div > div:last-child > div:first-child
+m.toutiao.com###root > div > div.top-banner-container:first-child
+m.toutiao.com###root > div > div.bgwhite.android:nth-child(2) > div.article-container:nth-child(2) > div.fold-btn-container > div.fold-btn:last-child > div.fold-btn-btn:last-child
+m.toutiao.com###root > div > div:nth-child(3) > div:first-child
+m.toutiao.com###root > div > div:nth-child(3)
+
+! ---m.weathercn.com---
+m.weathercn.com##.red-package
+
+! ---m.you.163.com---
+m.you.163.com##.mask
+m.you.163.com##.close.u-icon-modalClose.u-icon
+m.you.163.com##.modal
+m.you.163.com##.m-userTypeModal
+m.you.163.com##.m-defaultBanner
+m.you.163.com##.m-downloadBanner > .g-row
+m.you.163.com##.m-downloadBanner
+m.you.163.com##.w-button
+
+! ---m.mi.com---
+m.mi.com##.download-app-go
+
+! ---music.163.com---
+music.163.com##.topfr
+music.163.com##.m-homeft
+music.163.com##.u-ft
+music.163.com##.cmt_more_applink
+music.163.com##.m-moreLists
+
+! ---mparticle.uc.cn---
+mparticle.uc.cn##.UtpAd
+mparticle.uc.cn##.share-import-title
+mparticle.uc.cn##div[class^=recommend]
+mparticle.uc.cn##div[class^=ShowContent__ShowContentButton]
+
+! ---v.qq.com---
+m.v.qq.com##.mod_app_banner
+m.v.qq.com##.swiper-container-android.swiper-container-horizontal.mod_source_box_fixed.mod_source_box
+m.v.qq.com##.mod_game_rec.mod_box
+m.v.qq.com##.mod_open
+m.v.qq.com##.mod_end__btn
+m.v.qq.com##.mod_rec__animate.mod_rec
+m.v.qq.com##.mod_more
+m.v.qq.com##.mod_rec
+
+! ---m.weibo.cn---
+m.weibo.cn##.wrap
+
+! ---woozooo---
+up.woozooo.com##.ves
+
+! ---wk.baidu.com---
+wk.baidu.com##.bottom-bar-guid-to-univer.bottom-bar-global
+wk.baidu.com##.btn-welfare
+wk.baidu.com##.btn-vip
+wk.baidu.com##.card-below-reader.card
+wk.baidu.com##.card-vip.card-wrap
+wk.baidu.com##.color-e9e9e9.border-1px-tb.related-doc-list-wrap
+wk.baidu.com##.core-card
+wk.baidu.com##.fc-ad-contain
+wk.baidu.com##.guess-rec-text-root > .w-container.rec-head > .rec-go-search-guide
+wk.baidu.com##.guide-to-univer-app-root
+wk.baidu.com##.guidetowkappwg-root
+wk.baidu.com##.icon-app
+wk.baidu.com##.lure.btn-download
+wk.baidu.com###na-dialog-root
+wk.baidu.com##.open-app-btn
+wk.baidu.com##.pay-doc-marquee
+wk.baidu.com##.pop-manager-view-containter
+wk.baidu.com##.reader-pop-manager-view-containter
+wk.baidu.com##.sf-edu-gonglve-id-rec-adv-second.rec-adv-second
+wk.baidu.com##.top-banner-guide
+wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
+wk.baidu.com##.video-rec-inner
+wk.baidu.com##.rec-text-root
+
+! ---www.xiaohongshu.com---
+www.xiaohongshu.com##.fixed
+www.xiaohongshu.com##.bottom-bar.button-bottom-bar.cube-z-bottom-bar
+www.xiaohongshu.com##.wx-open-launch-app-container
+www.xiaohongshu.com##.more-image-desc
+www.xiaohongshu.com##.android.all-comment
+www.xiaohongshu.com##.section.related-notes
+
+! ---xiaomiyoupin---
+m.xiaomiyoupin.com##.download-bar-container
+m.xiaomiyoupin.com##[src="//m.xiaomiyoupin.com/shopcenter/erised/index.html"]
+m.xiaomiyoupin.com##.lib10-opapp-wrap
+m.xiaomiyoupin.com###download-bar
+
+! ---xw.qq.com---
+xw.qq.com##.btn-ok
+xw.qq.com##div[data-boss*="modular"]
+xw.qq.com##div[class*="elevator"]
+||mat1.gtimg.com/rain/bailing20/*.jpg$image
+||mat1.gtimg.com/rain/bailing20/*.*.png$image
+xw.qq.com##div[class*="content-more"]
+xw.qq.com###recommend-modules
+xw.qq.com##div[class*="follow_top"]
+xw.qq.com###taskTips
+xw.qq.com##section[style="display: block;"]
+xw.qq.com##div[data-boss-expo="&modular=quicknews_m"]
+xw.qq.com##div[class*=pictureBottomBtn]
+xw.qq.com##.wrap:-abp-contains(去种树)
+xw.qq.com##.btn-app:-abp-contains(打开)
+xw.qq.com##.comment.follow_top:-abp-contains(热评)
+xw.qq.com##div.showDividingLine.container:-abp-contains(APP专享)
+
+! ---y.qq.com---
+y.qq.com###js_mod_dialog
+y.qq.com##.top_box
+y.qq.com##.bottom_bar
+y.qq.com##.top_bar
+y.qq.com##.top_operation_box
+y.qq.com##.lyric_action
+y.qq.com##.sing
+y.qq.com##.btn_download
+y.qq.com##.open_qqmusic__btn
+y.qq.com##.similar_song
+y.qq.com##.related_album
+y.qq.com##.related_info
+y.qq.com##.recommend_mv
+y.qq.com##.mod_lead_flow
+y.qq.com##.qui_dialog
+y.qq.com##.c_bg1.bottom_bar__bd
+y.qq.com##.top_operation_bar__btn
+
+! ---m.yicai.com---
+m.yicai.com##.m-float-appopen
+m.yicai.com##.linkapp
+m.yicai.com###app1
+
+! ---youku---
+youku.com##div[class^="clip"]
+youku.com##div[class*="Corner-container"]
+youku.com##.ad-banner-wrapper
+
+! ---yystv---
+yystv.cn##.flex-box.flex.top-nav-download
+yystv.cn##.fixed-container
+
+! ---m.zhanqi.tv---
+m.zhanqi.tv##.topbarOpenApp.btn-1
+m.zhanqi.tv##.h5-foot-area
+
+!---zhihu---
+zhihu.com##.MobileAppHeader-downloadLink
+zhihu.com##.RelatedReadings.Card
+zhihu.com##.Button--blue.Button--primary.css-mqjss2.Button
+zhihu.com##div.ModalWrap-item:nth-of-type(2)
+zhihu.com##.ZVideo-sideColumn
+zhihu.com##button:-abp-contains(App)
+
+! ---zhidao.baidu.com---
+zhidao.baidu.com##.daily-header-download
+zhidao.baidu.com##.singin-bubble
+zhidao.baidu.com##.icon-bdad
+zhidao.baidu.com###feed-recommend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
