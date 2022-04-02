@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: kyDz+NE+QNDEK4M4/geiTg
+! Checksum: u22c+MmbYMUMkOoL4h6aYA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-02 07:04:15（北京时间） 
-! Total count: 94058
+! Version: 2022-04-02 08:55:19（北京时间） 
+! Total count: 94059
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -16572,6 +16572,7 @@
 ||autoworldnews.us.intellitxt.com^
 ||autozone.actonservice.com^
 ||autsaubs.net^
+||autumnleaf.ltd^
 ||auuayepftovx.com^
 ||auuux.com^
 ||auweelta.net^
@@ -42183,6 +42184,7 @@
 ||huitiankuaiji.com^
 ||huiun.com^
 ||huiwbpmphy.com^
+||huixiangdou.xyz^
 ||huixianjiaoyuedu.com^
 ||huixingcheng.cn^
 ||huiyef.cn^
@@ -48018,6 +48020,7 @@
 ||kubet77.win^
 ||kubet9.com^
 ||kubet9.net^
+||kubiadserv.icu^
 ||kubicserves.icu^
 ||kubient.com^
 ||kubrer.com^
@@ -52396,7 +52399,6 @@
 ||markmansonbooklst.com^
 ||markofathenaluk.com^
 ||markreptiloid.com^
-||marks.automd.com^
 ||marksandspencer.122.2o7.net^
 ||marksidfgs.ug^
 ||markskernelrecorder.com^
@@ -84153,6 +84155,7 @@
 ||twjxmd.com^
 ||twlihzvdrdf.com^
 ||twlrvvejszww.com^
+||twnb.xyz^
 ||two.tracedock.com^
 ||twodrive.su^
 ||twokidjay.com^
@@ -90652,7 +90655,6 @@
 ||www2.survey-poll.com^
 ||www2.yidsense.com^
 ||www25.victoriassecret.com^
-||www2metrics.mathworks.com^
 ||www2s.automd.com^
 ||www3.2giga.link^
 ||www3.addfreestats.com^
@@ -94063,4 +94065,3 @@
 ||zzyonghao.com^
 ||zzz.pissrip.net^
 ||zzznews.ru^
-||zzznews.ruorolova.s3.nl-ams.scw.cloud^

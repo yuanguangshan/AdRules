@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: twVI0vfdTzGWBzdkiycZUw
+! Checksum: picNSKZRpWqvZOCOUyEMqA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-02 07:04:15（北京时间） 
-! Total count: 89867
+! Version: 2022-04-02 08:55:19（北京时间） 
+! Total count: 89868
 0.0.0.0 .weixingshexiangji.net
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
@@ -13680,6 +13680,7 @@
 0.0.0.0 autoworldnews.us.intellitxt.com
 0.0.0.0 autozone.actonservice.com
 0.0.0.0 autsaubs.net
+0.0.0.0 autumnleaf.ltd
 0.0.0.0 auuayepftovx.com
 0.0.0.0 auuux.com
 0.0.0.0 auweelta.net
@@ -38754,6 +38755,7 @@
 0.0.0.0 huitiankuaiji.com
 0.0.0.0 huiun.com
 0.0.0.0 huiwbpmphy.com
+0.0.0.0 huixiangdou.xyz
 0.0.0.0 huixianjiaoyuedu.com
 0.0.0.0 huixingcheng.cn
 0.0.0.0 huiyef.cn
@@ -44519,6 +44521,7 @@
 0.0.0.0 kubet77.win
 0.0.0.0 kubet9.com
 0.0.0.0 kubet9.net
+0.0.0.0 kubiadserv.icu
 0.0.0.0 kubicserves.icu
 0.0.0.0 kubient.com
 0.0.0.0 kubrer.com
@@ -48858,7 +48861,6 @@
 0.0.0.0 markmansonbooklst.com
 0.0.0.0 markofathenaluk.com
 0.0.0.0 markreptiloid.com
-0.0.0.0 marks.automd.com
 0.0.0.0 marksidfgs.ug
 0.0.0.0 markskernelrecorder.com
 0.0.0.0 marktang.love
@@ -80090,6 +80092,7 @@
 0.0.0.0 twjxmd.com
 0.0.0.0 twlihzvdrdf.com
 0.0.0.0 twlrvvejszww.com
+0.0.0.0 twnb.xyz
 0.0.0.0 two.tracedock.com
 0.0.0.0 twodrive.su
 0.0.0.0 twokidjay.com
@@ -86488,7 +86491,6 @@
 0.0.0.0 www2.survey-poll.com
 0.0.0.0 www2.yidsense.com
 0.0.0.0 www25.victoriassecret.com
-0.0.0.0 www2metrics.mathworks.com
 0.0.0.0 www2s.automd.com
 0.0.0.0 www3.2giga.link
 0.0.0.0 www3.addfreestats.com
@@ -89873,4 +89875,3 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.ruorolova.s3.nl-ams.scw.cloud
