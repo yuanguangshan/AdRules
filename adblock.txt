@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: FzZrn3nEEnTmKaUpqInEaw
+! Checksum: hzyjqKa0pNM+JNaOv3t59w
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-04-02 08:55:19（北京时间） 
-! Total count: 97863
+! Version: 2022-04-02 09:42:10（北京时间） 
+! Total count: 97869
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -49638,6 +49638,7 @@ zznews.cn##.ad:not([style])
 ||4oney.com^$third-party
 ||4paradigm.com^$domain=sina.com.cn
 ||4pda.ru/stat/
+||4po6iqp9.cn^
 ||4rgm6z478o.cn^
 ||4shared.com/js/blockDetect/blockDetect.4min.js$script
 ||4skd2j.cn^
@@ -53390,6 +53391,7 @@ zznews.cn##.ad:not([style])
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
 ||akqrt.cn^
 ||aksb-a.akamaihd.net^
+||aksdkfj.biexsite.net^
 ||aksjkdfjk.shqdwh.com^
 ||aksldkjfd.11jianzhan.com^
 ||aksldkjfkdl.bhichong.com^
@@ -54464,6 +54466,7 @@ zznews.cn##.ad:not([style])
 ||apextag.com^$third-party
 ||apextwo.com^$third-party
 ||apexwantstar.com^
+||apfobmfr.cn^
 ||apglinks.net/static/script/jala-aes.js$third-party
 ||apglinks.net^
 ||aphycolourses.info^$third-party
@@ -65127,6 +65130,7 @@ zznews.cn##.ad:not([style])
 ||fixcounter.com^$third-party
 ||fj.sina.com.cn/iframe/63/
 ||fj95560.com^
+||fja9881.niulai0323166.space^
 ||fjctlnn.top^
 ||fjdfqy.com^
 ||fjdy.cc^
@@ -73214,6 +73218,7 @@ zznews.cn##.ad:not([style])
 ||link.touchtunes.com^
 ||link.touchtunesmail.com^
 ||link.tr.freshly.com^
+||link.tv-asahi.co.jp/tver/cookiesync?
 ||link.usa-network.com^
 ||link.watchbravotv.com^
 ||link.watchoxygen.com^
@@ -73977,6 +73982,7 @@ zznews.cn##.ad:not([style])
 ||lsbeim.mediamart.vn^
 ||lscckgm.cn^
 ||lsdkfjks.fvsymbol.net^
+||lsdkjfkdlsf.ydtykj.net^
 ||lsdkjfslkdf.jiumai88.com^
 ||lsebay.com^
 ||lsebez.cn^
