@@ -7399,6 +7399,7 @@ animeheaven.*##+js(set, check_adblock, true)
 ||animeheaven.*/api/pop.php$xhr,1p
 animeheaven.pro##+js(nowoif)
 animeheaven.pro##+js(acis, JSON.parse, Promise)
+animeheaven.pro##+js(aopw, __C)
 
 ! https://forums.lanik.us/viewtopic.php?p=139367#p139367
 @@||bizjournals.com^$ghide
@@ -7526,6 +7527,7 @@ anysex.com##.fluid_share_cs
 anysex.com##.divExoCustomLayer
 anysex.com##[class^="content"] > .no_pop
 anysex.com###content > .naf_dd
+||anysex.com/js/initsite.js
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3162
 ||nwch.az-cdn.ch^$script,domain=solothurnerzeitung.ch
@@ -8202,9 +8204,10 @@ hitomi.la##+js(noeval)
 *$script,3p,domain=hitomi.la
 hitomi.la##+js(aopr, open)
 hitomi.la##+js(aopr, pops)
+hitomi.la##+js(aopw, hitomi)
 hitomi.la##[href*="nutaku.net/signup/"]
 hitomi.la##[class^="hitomi-"]
-/^https:\/\/ltn\.hitomi\.la\/[A-Za-z]{4,7}\/(?=[a-z]{0,15}[A-Z])[A-Za-z]{10,16}\.js$/$script,1p,match-case,domain=hitomi.la
+/^https:\/\/ltn\.hitomi\.la\/[A-Za-z]{4,}\/(?=[a-z]{0,19}[A-Z])[A-Za-z]{4,20}\.js$/$script,1p,match-case,domain=hitomi.la
 
 ! https://forums.lanik.us/viewtopic.php?p=141036#p141036
 fupa.net##+js(set, jQuery.adblock, 1)
@@ -8624,6 +8627,7 @@ tokyoghoulre.net##.code-block
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10405
 nhentai.net##+js(nowoif)
+nhentai.net##+js(set, _n_app.popunder, null)
 
 ! https://github.com/NanoMeow/QuickReports/issues/214
 @@||findflac.com^$script,1p
@@ -8949,6 +8953,11 @@ mac-torrent-download.net###entry-content > aside > div > aside
 mac-torrent-download.net###hdkk
 mac-torrent-download.net###chromealert
 mac-torrent-download.net###btn-container
+mac-torrent-download.net##+js(rc, hide, .button-checkbox)
+mac-torrent-download.net##+js(rc, btn-disable, button)
+mac-torrent-download.net##+js(ra, disabled, button)
+mac-torrent-download.net##.button-checkbox:style(opacity: 1 !important)
+mac-torrent-download.net##.preloader
 ||cataspboa.site^$3p
 ||notifscreen.com^$all
 ||sundhopen.site^$all
@@ -12545,7 +12554,7 @@ telepisodes.org##a.button-link.mybutton:has-text(Play)
 7r6.com##+js(set, blurred, false)
 7r6.com##.banner
 @@||7r6.com^$ghide
-*$script,3p,denyallow=google.com|gstatic.com|recaptcha.net,domain=7r6.com
+*$script,3p,denyallow=cloudfront.net|google.com|gstatic.com|recaptcha.net,domain=7r6.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5305#issuecomment-480661667
 b3infoarena.in##+js(aeld, load, 2000)
@@ -14319,7 +14328,6 @@ washingtonpost.com##div.grey-bg
 washingtonpost.com##section > div:has-text(/^AD$/)
 washingtonpost.com##:xpath(//*[(text()='AD')]/..)
 washingtonpost.com##.bottom-ad--bigbox:upward(1)
-washingtonpost.com##div[data-qa="right-rail-ad"]
 ! https://github.com/uBlockOrigin/uAssets/issues/9185#issuecomment-847835587
 !#if env_mobile
 washingtonpost.com##div.mb-lg.mt-lg.pb-lg.pt-lg.bc-gray-lighter.bh.b.justify-center.items-center.flex.dn-hp-sm-to-mx
@@ -15547,6 +15555,7 @@ uiporn.com##+js(aopr, document.dispatchEvent)
 xcafe.com##+js(aopr, document.dispatchEvent)
 xcafe.com##+js(popads-dummy)
 xcafe.com##+js(aeld, , bi())
+||xcafe.com/js/initsite.js
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/mghv7b/no_solution_for_coinlyhub/
 @@||coinlyhub.com^$ghide

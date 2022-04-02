@@ -1,4 +1,4 @@
-! Checksum: QBv7Ezz/qtopqLsyr/LCyQ
+! Checksum: KmyJW6L+N1R/VtgNwwAN3g
 ! Title: AdGuard Social Media filter (Optimized)
 ! Description: Filter for social media widgets such as 'Like' and 'Share' buttons and more.
 ! Version: 2.0.58.87
@@ -328,7 +328,6 @@ dachnye-sovety.ru#?#main > center:contains(ПОДЕЛИТЕСЬ С ДРУЗЬЯ�
 gorodche.ru#?#h4:contains(/^Поделиться$/)
 codersera.com#?#.elementor-widget-wrap > .elementor-section-boxed:has(> .elementor-container > .elementor-row > .elementor-column > .elementor-column-wrap > .elementor-widget-wrap > .elementor-share-buttons--view-icon)
 tausendkind.de#?#div.r-icon:contains(/^Teilen$/)
-rupprecht.de#?#.article-more-actions > div.well > div:has(> ul.list-group > li > a.social-facebook)
 solvusoft.com##.grid_4 > div.side-box:has(> div#fb-root)
 ua-football.com#?#div.show-bottom-name:contains(/^Поделиться с друзьями:$/)
 ariel.co.uk#?#.exp-detail-left > .tips-head + .span12:has(> div[id$="pnlShare"])
@@ -1746,6 +1745,7 @@ acuvue.ru##.janrain-social-share-button
 liveagent.com##.BlogPost__share
 gadgets360.com##.reddit-icon
 sketchup.cgtips.org##.widget_bs-likebox
+miraimedia.asahi.com##.p-single-share
 linuxuprising.com##.share-box
 freepng.ru##.pdt-share
 andreadekker.com##.social-rocket-evernote
@@ -2195,7 +2195,6 @@ vpnranks.com##.ss-plugin
 dogatch.jp,tver.jp##.snsbtn
 tele-sport.ru##.-social-with-counter
 eurotransport.de##.v-A_-article__socialmedia
-yatahonga.com##.block-social-love
 psychologies.com##.psycho_2019_comments_and_social_networks_right
 electrical4u.com###sh-box
 dropmefiles.com##a[id^="sharelink"]
@@ -2500,7 +2499,6 @@ maersk.com##.p-section__article__meta__share
 tebernuskirecci.com.tr##.share-tags
 10web.io##.blog_share_bottom
 10web.io##.blog_share > ul > li[class^="share_"]
-interfax.by##div.socials__text
 every-tuesday.com##.etwp-socialNav
 hek.de##.js_social_facebook
 hek.de##.js_social_xing
@@ -3252,6 +3250,7 @@ letsstudytogether.co,techtoday.in.ua##.td-post-sharing-classic
 ichip.ru##body .article-action
 theregister.com##.sharing_widget
 medrxiv.org##.service-links > a[href^="/highwire_log/share/"]
+vkurier.info##.heateor_sss_sharing_ul
 waterstones.com##.action-share-container
 gp.by##.yashare-wrap
 ||m.imgur.com/js/share.*.bundle.js
@@ -3310,8 +3309,6 @@ animal.mx###ax_single_bar_sharers
 allcalidad.la###barraPlus1
 tecmundo.com.br##.tec--article__share-grid
 tecmundo.com.br##.tec--share
-freelistenonline.com##.feedback_social
-freelistenonline.com##.fb_btn
 news.yahoo.co.jp,freelistenonline.com##.tw_btn
 myinstants.com,fool.com###share-box
 steelorbis.com,myinstants.com##a[onclick^="share"]
@@ -4430,7 +4427,6 @@ nicovideo.jp##.Snap.Balloon-arrowWrap
 nicovideo.jp##button[class*="ShareButton"]
 indiatvnews.com##.social.pull-left
 indiatvnews.com##.social.pull-right
-lalawin.com###article > .title-sns-share
 merlininkazani.com##.author-share .share
 alohatube.com##.shoring.cat-bottom
 watch.impress.co.jp###floating-social-buttons
@@ -4443,7 +4439,6 @@ klerk.ru##.actions__share
 ukraina.ru##.b-sharebar
 politeka.net##.b__share-buttons
 last.fm##.share-features
-skor.sozcu.com.tr##.news-footer > .share
 ansa.it,1kr.ua,101xp.com,mavikadin.com##.news-social
 kompas.com##.social--article
 ndtv.com##.story__social
@@ -4718,6 +4713,7 @@ fragmanlarim.com##.frg-paylas-konu
 pixiz.com##.grooves > .facebook
 doctor.ndtv.com##.social-widget2
 autobild.de##.socialmedia
+maximonline.ru##.article-soclikes
 porsche.com##.b-sharepanel
 lenta.ru##.b-socials__sharing
 screenanarchy.com##.post-actions__social > a:not(.post-action--comments)
@@ -4904,6 +4900,7 @@ index.hr,simpladent.com,hotstar.com,trthaber.com,stereogum.com##.social-holder
 rosenheim24.de,innsalzach24.de,bgland24.de,az-online.de,hna.de,kreiszeitung.de,nordbuzz.de##.id-Actionbox-items-el--facebook
 rosenheim24.de,innsalzach24.de,bgland24.de,az-online.de,nordbuzz.de##.id-Actionbox-items-el--twitter
 tah.de,autobild.de,computerbild.de,wetteronline.de###socialmedia
+shariki-games.ru##a#link_test
 politrussia.com##.soc_btn
 deviantart.com###gmi-ResourceViewShare
 cn.ru##.cnsocnets
@@ -4994,7 +4991,6 @@ washingtonpost.com###NN-module-rr
 cpu-world.com###SHARE_LINKS
 stuttgarter-nachrichten.de,np-coburg.de,frankenpost.de,abendzeitung-muenchen.de###article-social-bar
 dailymail.co.uk###articleIconLinksContainer > ul
-asn24.ru###asd_share_buttons
 thehill.com###bottom-story-socials
 fishki.net###cboxBottom
 donday.ru###cboxOverlay
@@ -6190,6 +6186,7 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.widget_FacebookLikeBox
 ##.widget_as_facebook_mem_likebox
 ##.widget_socialwidget
+##.woo_share_buttons
 ##.xing-button
 ##.ya-share
 ##.ya-share-icon
@@ -6435,7 +6432,6 @@ gastronom.ru##.js-bother
 ebrosur.com###popID-Like
 jagongoding.com#$##modal-fb { display: none !important; }
 jagongoding.com#$#body { overflow: visible !important; }
-freelistenonline.com###FblikeModal
 flyuia.com###promo-sub
 gorod24.online##.dialog-message-result
 afisha.ru##.headline__bottom--social-rotation
