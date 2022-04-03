@@ -1,8 +1,8 @@
-! Checksum: gWxHQMgzEi+Zy5NUIGwnLw
+! Checksum: syc2o1MBIHmXIZcK73MqBg
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.37.46
-! TimeUpdated: 2022-04-02T11:31:19+00:00
+! Version: 2.0.37.47
+! TimeUpdated: 2022-04-03T15:31:18+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -122,6 +122,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||1ee085aa-4c05-43a8-a4fe-fafedbedd062.xyz^
 ||track.swaptrap.live^
 ||triplewhale-pixel.web.app^
 ||tracking.hyros.com^
@@ -19830,6 +19831,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
+||jsdelivr.net/npm/mrnndputqc@latest/dist/script.min.js
 ||eiu.com/n/wp-content/plugins/eiu-google-tag-manager/assets/dist/js/eiu-google-tag-manager.min.js
 ||link.tv-asahi.co.jp/tver/cookiesync?
 ||dist.micres.cyberowl.jp/packs/link-tracker.js

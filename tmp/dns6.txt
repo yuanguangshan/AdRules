@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2rXQ8m1D5EaGxFKtaIqIzA
+! Checksum: MXULJQHp4Ld5NVd9oWHUBw
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204030833
-! Last modified: 2022-04-03 08:33 UTC
+! Version: 202204031533
+! Last modified: 2022-04-03 15:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -84650,6 +84650,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tijd.be/track/
 ||topspin.npo.nl^
 ||track.pexi.nl^
+||tracking.voordeeluitjes.nl^
 ||tweakers.net/x/scripts/min/TyYQlL.js
 ||tweakers.net^*&p=$image
 ||vroom.be^*/stats.js?
@@ -119606,6 +119607,7 @@ _subscribers_newsletters/
 ##.cookies-notifications
 ##.cookies-notificator
 ##.cookies-notify
+##.cookies-notis
 ##.cookies-obligation-clause
 ##.cookies-open:not(body)
 ##.cookies-overlay
