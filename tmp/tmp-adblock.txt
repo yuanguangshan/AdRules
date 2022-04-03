@@ -17927,6 +17927,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||ad.doubleclick.net/ddm/adj^$xmlhttprequest,domain=ppss.kr
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/pfadx/$object-subrequest,domain=play.tv|playtv.fr
+@@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||ad.doubleclick.net/favicon.ico$xmlhttprequest,domain=graffica.info
 @@||ad.ettoday.net/msg_liveshow.php^$domain=ettoday.net
 @@||ad.filmweb.pl/adbanner/reklamy/adx.js$script
@@ -38722,7 +38723,6 @@ t66y.com##.tpc_content.do_not_catch > span.f24
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"]
 t66y.com##a[href^="http://www.viidii.info/?https://po88_"] ~ :nth-child(-n+115)
 t66y.com#$?#.sptable_do_not_remove { visibility: hidden !important; }
-t^
 tabletowo.pl##.grad
 tabootube.xxx##.spot-primary
 tabootube.xxx,amateur8.com,maturetubehere.com,cum-shows.net,pornwild.to,crazyporn.xxx,pornissimo.org,lesbian8.com,enf-cmnf.com,recorded-webcams.com,filtercams.com,thesquarshers.com,bigassporn.tv,camhoes.tv,hdporn.org,porn00.org,keekass.com,fuckit.cc,camwhoresbay.com,vqtube.com,private-shows.net,camwhoreshd.com,fapster.xxx##.block-video > div.table
@@ -54881,6 +54881,7 @@ zznews.cn##.ad:not([style])
 ||dlbvvrqq.top^
 ||dldsrs.com^
 ||dlesjf.jutarnji.hr^
+||dlevpmd.cn^
 ||dlfvgndsdfsn.com^
 ||dlhygj.com^
 ||dlkfm8bqz0bpx.cloudfront.net^$script
@@ -79635,6 +79636,7 @@ zznews.cn##.ad:not([style])
 ||tgvtlpi.cn^
 ||tgzobwoutuwn.com^
 ||th-make.com^
+||th.bing.com/th/*&riu=$image,third-party
 ||th21333.com^
 ||thaibeco.com^
 ||thaickoo.net^
@@ -85712,6 +85714,7 @@ zznews.cn##.ad:not([style])
 ||yangpinwang.com/wp-content/uploads/*E5%B9%BF%E5%91%8A.
 ||yangtingchina.com^
 ||yangtzeev.com^
+||yanguomedia.top^
 ||yangzhenpeng.top^
 ||yangzheqing.cn^
 ||yanjiao.com/zt/indexad/
@@ -86500,6 +86503,7 @@ zznews.cn##.ad:not([style])
 ||yypd.top^
 ||yyrtv.com/static/js/dsp.js
 ||yyshow.top^
+||yystzl.cn^
 ||yysvzaodorhv.com^
 ||yyt.heshun365.cn^
 ||yytcdn.com/headfile/avt/

@@ -818,7 +818,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgndex/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgo.uk^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1507,6 +1508,7 @@
 @@||ad.doubleclick.net/ddm/pfadx/$object-subrequest,domain=play.tv|playtv.fr
 @@||ad.doubleclick.net/ddm/pfadx^$domain=n-tv.de
 @@||ad.doubleclick.net/ddm/trackclk/$popup,domain=pricehipster.com
+@@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*https://www.thegoodguys.com.au/*?utm_source=Partner$stealth
 @@||ad.doubleclick.net/ddm/trackclk^$domain=partners.webmasterplan.com
@@ -17218,7 +17220,7 @@
 @@||quantcast.mgr.consensu.org/*/cmp2ui.js$domain=independent.co.uk
 @@||quantcast.mgr.consensu.org/*/vendor-list-trimmed-*.json$domain=space.com
 @@||quantcast.mgr.consensu.org/*/vendor-list.json$domain=independent.co.uk
-@@||quantcast.mgr.consensu.org/GVL-v2/$domain=comingsoon.it|express.co.uk|independent.co.uk|money.it|skoften.net|vi.nl
+@@||quantcast.mgr.consensu.org/GVL-v2/$domain=comingsoon.it|express.co.uk|fly4free.com|independent.co.uk|money.it|skoften.net|vi.nl
 @@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json
 @@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json$domain=joe.ie|joe.co.uk
 @@||quantcast.mgr.consensu.org/choice/$domain=joe.ie|joe.co.uk
@@ -17242,7 +17244,7 @@
 @@||quantcast.mgr.consensu.org/cmp.js$domain=hideout.co
 @@||quantcast.mgr.consensu.org/cmp.js$domain=ladbible.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|express.co.uk|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org/tcfv2/$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|gianlucadimarzio.com|ilbianconero.com|independent.co.uk|money.it|skoften.net|vi.nl
+@@||quantcast.mgr.consensu.org/tcfv2/$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|gianlucadimarzio.com|ilbianconero.com|independent.co.uk|money.it|skoften.net|vi.nl
 @@||quantcast.mgr.consensu.org/tcfv2/$domain=joe.ie|joe.co.uk
 @@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$domain=independent.co.uk
 @@||quantcast.mgr.consensu.org/tcfv2^
@@ -17254,8 +17256,8 @@
 @@||quantcast.mgr.consensu.org^$domain=pcgamer.com
 @@||quantcast.mgr.consensu.org^$domain=podcasts.podinstall.com
 @@||quantcast.mgr.consensu.org^$domain=standard.co.uk
-@@||quantcast.mgr.consensu.org^*/choice.js$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|formulapassion.it|gianlucadimarzio.com|ilbianconero.com|money.it|skoften.net|vi.nl
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cnews.fr|comingsoon.it|cyclingnews.com|dailyrecord.co.uk|digitalcameraworld.com|donnaglamour.it|einthusan.tv|euronics.it|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|ilbianconero.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|nfl.com|pcgamer.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|skoften.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|vi.nl|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/choice.js$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|formulapassion.it|gianlucadimarzio.com|ilbianconero.com|money.it|skoften.net|vi.nl
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cnews.fr|comingsoon.it|cyclingnews.com|dailyrecord.co.uk|digitalcameraworld.com|donnaglamour.it|einthusan.tv|euronics.it|express.co.uk|f1aldia.com|fantacalcio.it|fly4free.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|ilbianconero.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|nfl.com|pcgamer.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|skoften.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|vi.nl|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
 @@||quanzhi.cn/v3/images/index_ad/
@@ -17936,6 +17938,7 @@
 @@||samehadaku.net/wp-content/themes/jannah/js/advertisement.js
 @@||samehadaku.tv/wp-content/themes/*/js/advertisement.js
 @@||samfw.com^$ghide
+@@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-paramme-television.org^
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||sammyboy.com/threads/advertisement$xmlhttprequest
 @@||samplefan.com/img/ad/$image

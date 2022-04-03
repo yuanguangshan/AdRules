@@ -1,8 +1,8 @@
-! Checksum: lXbob0rWCHh32S98XRpTcw
+! Checksum: 1IjNAzyQPEBhVqu9gWfJFg
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.14.16
-! TimeUpdated: 2022-04-03T05:02:07+00:00
+! Version: 2.1.14.17
+! TimeUpdated: 2022-04-03T07:30:34+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -16984,7 +16984,7 @@ koe-koe.com##.rss_c
 eromanga-cafe.com###custom_html-4
 eromanga-cafe.com###custom_html-7
 eromanga-cafe.com##.loop-single-widget
-doujincafe.com,ero-manga-platinum.net,ero-mangasokuhou.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.boxi800
+dojinwatch.com,eromanga-castle.com,doujincafe.com,ero-manga-platinum.net,ero-mangasokuhou.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.boxi800
 otakumix.doorblog.jp###rss1
 otakumix.doorblog.jp##iframe[src="http://otakumix.doorblog.jp/testrss.html"]
 openworldnews.net###headline
