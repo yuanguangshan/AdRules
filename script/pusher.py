@@ -28,7 +28,7 @@ count_al = iter_count("allow.txt") -9
 count_A = iter_count("adblock.txt") -9
 count_d = iter_count("dns.txt") -9
 count_ad = iter_count("hosts.txt") -9
-count_domians = iter_count("ad-domains.txt") -3
+count_domians = iter_count("ad-domains.txt") -6
 
 #设置时区
 #tz_utc_8 = timezone(timedelta(hours=8))
