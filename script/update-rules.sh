@@ -70,6 +70,7 @@ dns=(
   "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
   "https://easylist.to/easylist/easyprivacy.txt"
+  "https://www.fanboy.co.nz/r/fanboy-ultimate.txt"
 )
 
 hosts=(
