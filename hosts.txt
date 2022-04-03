@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: 9VA00A6cMUsjKbwtq+mVCw
+! Checksum: o09x0jVOBCv/6MXjaslhSg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-03 16:15:03（北京时间） 
-! Total count: 82194
+! Version: 2022-04-03 16:23:12（北京时间） 
+! Total count: 82192
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
 0.0.0.0 0.r.msn.com
@@ -57833,7 +57833,6 @@
 0.0.0.0 res.mmstat.com
 0.0.0.0 res.paruvendu.fr
 0.0.0.0 res.pinpai8.cn
-0.0.0.0 res.progo
 0.0.0.0 res.programme-television.org
 0.0.0.0 res.public.fr
 0.0.0.0 res.rbl.ms
@@ -65574,7 +65573,6 @@
 0.0.0.0 st.eclick.vn
 0.0.0.0 st.fanatics.com
 0.0.0.0 st.hbrd.io
-0.0.0.0 st.hbrd.iom
 0.0.0.0 st.html.polyad.net
 0.0.0.0 st.l.a.eclick.vn
 0.0.0.0 st.linkfire.com
