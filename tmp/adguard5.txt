@@ -1,8 +1,8 @@
-! Checksum: 1IjNAzyQPEBhVqu9gWfJFg
+! Checksum: varIvHVsdk35FY3FzEI+5Q
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.14.17
-! TimeUpdated: 2022-04-03T07:30:34+00:00
+! Version: 2.1.14.18
+! TimeUpdated: 2022-04-03T08:30:34+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -10008,7 +10008,6 @@ media.rakuten-sec.net##.m-vote-banner
 shopee.*#$#shopee-banner-popup-stateful { display: none !important; }
 shopee.*#$#.shopee-no-scroll { overflow: auto !important; }
 shopee.*##div[class^="shopee-floating-icon"]
-ipinfo.io###overlay
 wired.com##.paywall-modal
 englex.ru##.stb-overlay
 france24.com##div[data-pwa-android-screen]
@@ -10247,7 +10246,6 @@ opencritic.com##app-youtube-modal
 rugbypass.com##.news-bottom-articles.fixed
 techplay.jp#$##v-event-recommend-modal { display: none!important; }
 e2enetworks.com###newpop
-fileproinfo.com,e2enetworks.com##.overlay
 zippia.com#$#.gated-popup { display: none !important; }
 zippia.com#$#body[style*="overflow:"] { overflow: auto !important; position: inherit !important; }
 knowledgehut.com#$#.blog-offer-modal { display: none!important; }
@@ -10666,7 +10664,6 @@ coursehero.com###fmup-modal-container
 sm.ms##.notify
 gruender.de##.elementor-popup-modal
 e.mail.ru##.application > div.notify-stack_fixed
-saratogian.com#$#body { overflow: auto !important; }
 ||d24.user.com/widget.js$domain=cyberdefence24.pl
 aftermarket.pl##.help-widget-invite
 cocoleech.com##.altumcode
@@ -10861,7 +10858,6 @@ lawrato.com###chat-box
 ericsson.com##div.open[data-showafter]
 instapage.com##div[data-title="Blog Subscribe"]
 trustradius.com##.vendor-shout
-auto-doc.at##.overlay
 thehindubusinessline.com#$#.tp-modal { display: none!important; }
 thehindubusinessline.com#$#.tp-backdrop { display: none!important; }
 thehindubusinessline.com#$#body { overflow: visible!important; }
@@ -10960,8 +10956,9 @@ psy.su#$#body { overflow: visible !important; }
 autoc-one.jp##.show-up.floating
 autoc-one.jp#$##diagnoseModal { display: none!important; }
 denverpost.com#$#body { overflow: auto !important; }
-lostiempos.com,nazya.com,firstthings.com###colorbox
-lostiempos.com,nazya.com,firstthings.com###cboxOverlay
+saratogian.com,denverpost.com#$#.modal-scrollable ~ div.connext-modal-backdrop { display: none !important; }
+saratogian.com#$#body { overflow: auto !important; }
+androidcanavari.net,lostiempos.com,nazya.com,firstthings.com###cboxOverlay
 nitro.download###superbox-wrapper
 nitro.download###superbox-overlay
 vamvelosiped.ru###TucanModal
@@ -11385,6 +11382,7 @@ slivki.by###lastPurchaseNofify
 brut.media##.nl-corner
 bizhint.jp###jsi-signup-modal
 vstroyka-solo.ru###callBackBtn
+unn.com.ua,next24.ru##.jqmOverlay
 promobit.com.br#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("leave_blog.out", "true") } } catch (ex) {} })();
 corriere.it#$#body { overflow: visible !important; }
 themagger.com##.newsletter-post-fixed
@@ -11502,7 +11500,6 @@ pdfdrive.com#$#.modal-backdrop { display: none !important; }
 pdfdrive.com#$#body { overflow: visible !important; padding-right: 0 !important; }
 dreamstime.com#%#//scriptlet("prevent-setTimeout", "SignUPPopup_load", "5000")
 motorola.com,wagwalking.com##.ReactModal__Overlay--after-open
-legendas.tv,cxid.info,zaehlerschrank24.de,wppbaz.com,prostobank.ua###overlay
 tvr.by###flybox
 gruppal.com###mailal
 instagram.com#%#//scriptlet("set-constant", "_sharedData.is_whitelisted_crawl_bot", "true")
@@ -11578,7 +11575,6 @@ windowschimp.com#$#body { overflow: visible !important; padding-right: 0 !import
 windowschimp.com#$#html { overflow: visible !important; }
 xrel.to##.the_big_misunderstanding
 ||traffclick.me^$domain=terminy.info
-smclinic-spb.ru###overlay
 smclinic-spb.ru###callmeForm
 invitro.ru##.subscription
 kingston.com##.emailsignup-popup
@@ -11627,7 +11623,6 @@ sima-land.ru###lt-label
 floristics.info##.exitblock
 leroymerlin.ru##uc-cbf-facing-buttons-menu
 britva11.ru###active-popup
-britva11.ru###popup-container
 komus.ru##.online_call
 ||messengers.insales.ru/widget/script.js$domain=xn--80aaadf9a6agjohr9n.xn--p1ai
 xn--80abdx3bn.xn--p1ai#$#html { overflow: visible!important; }
@@ -11719,6 +11714,7 @@ sparheld.de#$#body { overflow: visible!important; }
 sparwelt.de##.deal-alarm
 studentshare.org#$#.leave-popup { display: none!important; }
 studentshare.org#$#body { overflow: visible!important; }
+alexanderschimpf.de,geo.de,essen-und-trinken.de##.blocker
 sparwelt.de#$#body { overflow: visible!important; position: static!important; }
 bbcearth.com#$#body { overflow: visible!important; }
 bbcearth.com#$#html { overflow: visible!important; }
@@ -11736,6 +11732,7 @@ kodi-tipps.de#$#html { overflow: visible!important; }
 handelsblatt.com#$#.isShadowLayer { overflow: visible !important; }
 qna.habr.com###register-banner
 prostofinovo.ru##.sotbit-modal-social
+gurme.com.tr,etver.ru###pop
 profesor10demates.com###elementor-popup-modal-5929
 taz.de##div[id^="tzi-paywahl-"]
 pickpoint.ru##.a-popup
@@ -11746,6 +11743,7 @@ povarenok.ru##.dr
 zmega.com#$?#.overlay_promo { remove: true; }
 marca.com##.banda_suscripcion
 mcdulll.com##.pixnet-happix-pilot__launcher-bubble
+girisimhaber.com,britva11.ru###popup-container
 kliinik.ee,yoox.com###popupNewsletter
 football24.ua###user-vote-trigger
 daxon.fr#$##popin-welcome { display: none !important; }
@@ -11913,10 +11911,8 @@ maxpark.com##.innerActsWrapper
 maxpark.com##.innerOverlay
 precitaj.si#%#document.cookie = "efbl_dont_show=1; path=/;";
 sky.com##.mast-c-sign-in-notification
-firsatbufirsat.com###overlay
 firsatbufirsat.com##.blockOverlay
 firsatbufirsat.com##.login-modal
-wotsite.net###overlay
 wiwo.de##.c-sticky-footer
 glassdoor.com##.mfp-bg
 ottawacitizen.com#$#body { overflow:visible!important; }
@@ -12003,7 +11999,7 @@ geniusmarketing.me,indigowild.com##.modal-overlay
 ispaniagid.ru#$#body { overflow: visible!important; }
 baikal-daily.ru#$#body { overflow: visible!important; }
 ||gaua.hit.gemius.pl/*/rexdot.js
-prospektangebote.de,budsgunshop.com,godealla.pl##.overlay
+720dgree.de,fileproinfo.com,e2enetworks.com,auto-doc.at,prospektangebote.de,budsgunshop.com,godealla.pl##.overlay
 kissanime.*,kisscartoon.*,xmovies8.*,bmovies.cz###upgrade_pop
 blog.google##.uni-newsletter-toast
 bostonglobe.com#$#body { overflow:visible!important; }
@@ -12098,6 +12094,8 @@ rynek-kolejowy.pl##.popupModal
 rynek-kolejowy.pl##.popupElement
 siporcu.com,tavsanlihaber.com.tr,hurdusun.com,bodrumtime.net,capakcurgazetesi.com.tr,turkiyeaktuel.com,koroglugazetesi.com,ukraynahayat.com###socialslide
 brainly.co.id,eodev.com##.sg-overlay
+bagnet.org,rupor.info###fb_pop
+bagnet.org,rupor.info###overlay_pop
 ok.ru##.html5-vpl_info-panel
 radiosvoboda.org##.slide-in-wg
 burgerking.hu,batshort.com##div[class^="modal"]
@@ -12129,17 +12127,17 @@ t-online.de###Tnotificationoverlay
 appleyardim.org###vb-vbturkopopup-kararti
 appleyardim.org###vbturkopopup
 antena3.ro,ilenta.com,cnetfrance.fr##body > div#slidebox
-votzaraza.ru###popupwindow
 cosmopolitan.fr,magazine-avantages.fr,magicmaman.com,marieclaire.fr##.MagazineSubscription-popin
 thurrott.com##.lean-overlay
 lifeistravel.com.ua,inettools.net###ouibounce-modal
+surf.az,votzaraza.ru###popupwindow
 azerbaycan24.com##body > #ouibounce-modal
 digitalcamerawarehouse.com.au,marketrealist.com,columbiaspectator.com###PopupSignupForm_0
 kv.by##.block-kv-maillist
 latribune.fr##[id^="acquisition-modal"]
 psd-tutorials.de###overlay-newsletter
 tvnetil.net##.warnpop
-tvnetil.net###backgroundPopup
+freedio.co.il,indiatimes.com,tvnetil.net###backgroundPopup
 groupon.nl###subscribe_modal_container
 groupon.nl###spotlight
 topito.com###social-slide-box
@@ -12151,24 +12149,24 @@ energienutricao.com.br,922tp.com,itshokunin.cc,omaske.ru,animesrbija.com,adbuff.
 groupon.com,groupon.co.uk,groupon.be,groupon.fr###subscribe_modal_container
 3suisses.fr##body > .mfp-ready
 englex.ru,4kfilme.de##.stb-container
+komtv.org,4kfilme.de###stb-overlay
 sportspass.de,info-direkt.eu##div[id^="spu-"]
 thinkster.io##div[id^="Modal-react-component-"]
 esenyurthaberleri.com#%#AG_onLoad(function() { setTimeout(function() { document.body.className = document.body.className.replace("jconfirm-noscroll",""); }, 500); });
-segodnya.ua###overlay
+bigkiev.com.ua,experttur.com,liniakino.com,plutonpromo.az,znaj.ua###parent_popup
 software.informer.com###jqibox
 haberkibris.com##.boxfb
-haberkibris.com###overlay
 utro.ru##.mask
 news.rambler.ru#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { localStorage.setItem('rnews.disablePopups', '9999999999999'); }
 zaful.com##.xubox_layer
 zaful.com##.xubox_shade
 thefreedictionary.com###SubscrSlider
 felomena.com###b-pop_up__ajax_horo_na_zavtra
-indiatimes.com###backgroundPopup
 expertreviews.co.uk,autoexpress.co.uk,alphr.com,itpro.co.uk###block-dennis-newsletter-newsletter-block
 tarotman.ru,siberbulten.com,getintocourse.com,thedigitalhacker.com,rumaysho.com,latesthdmovies.*,gotravelblogger.com,cozumpark.com,gsminfo.com.ua,tehnotech.com,lafmacun.net,windowsable.com,indirin.co,unikampus.net,sosyalmedyapazarlama.com,rockistasyonu.com,hukukbook.com,havadiskibris.com,hukukiblog.com,ankaram.net,ciltbilgi.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,borsarti.com,besttechinfo.com,gamesforpublic.de,filmlinks4u.is,geziseli.com,z-news.link###check-also-box
+lostiempos.com,nazya.com,firstthings.com,nikolaev24.com.ua,odessa.net.ua,kr24.com.ua,androidcanavari.net,dnepr24.com.ua###colorbox
 skipol.pl,nosteam.ro,gifyagusi.pl,legendas.tv,polszczyzna.pl,boardgamesonline.net,yes-icancook.com,bestel.az,nosteamgames.ro,majorgeeks.com,bestfilmeshd.com,mangakyo.net,programminggeek.in,elise.com.ua,for-ua.com,asn.in.ua,mocasoft.ro,cydiaplus.com,dtorrent.com.br,tarihkomplo.com,uptobox.com,uptostream.com###fanback
-bolgegazetesi.com###kodac
+ozyurtgazetesi.com,bolgegazetesi.com###kodac
 bianalisi.it,prostobank.ua,ibe.kr,e-files.net,sex-empire.tv###modal
 savefrom.net###modal-container.center-popup-cont
 savefrom.net###modal-container > div.popup-content
@@ -12182,10 +12180,12 @@ vinbazar.com###parent-popup
 thebodyshop.com.tr,14.ru,116.ru,154.ru,161.ru,164.ru,178.ru,26.ru,29.ru,35.ru,42.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,62.ru,63.ru,68.ru,70.ru,71.ru,72.ru,74.ru,75.ru,76.ru,86.ru,89.ru,93.ru,e1.ru,ekat.ru,irkutsk.ru,kbs.ru,mgorsk.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs38.ru,ngs42.ru,ngs54.ru,ngs55.ru,ngs70.ru,nn.ru,omsk1.ru,proizhevsk.ru,provoronezh.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru###popup_container
 tvrain.ru###promo_bottom_nest
 unn.com.ua###social_popup
+secretmag.ru,steambuy.com###subscribe-popup
 mobilluck.com.ua###subscripepopup
 businessua.com##.b-counter
 eugene.kaspersky.ru##.blog_subscription_wrapper
 forumodua.com##.body_wrapper > div > table[width="100%"] > tbody > tr > td[valign="top"]
+rgmechanics.com,takprosto.cc,hzonesp.com##.jquery-modal.blocker
 eugene.kaspersky.ru##.mask-overlay2
 d3olbu2cl74039.cloudfront.net,d29z1quku5t3sk.cloudfront.net,currenttime.tv##.media-block-wrapper.slide-in-widget
 wyborcza.pl##.mod.mod_ddbox.is-visible

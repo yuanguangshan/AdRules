@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: J+MKBTmXzlIRFppvDH7mBQ
+! Checksum: IFgVCvQFnwWj4dWO6KY3OA
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-04-03 16:23:12（北京时间） 
-! Total count: 88824
+! Version: 2022-04-03 17:14:32（北京时间） 
+! Total count: 88828
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -61389,6 +61389,7 @@ zznews.cn##.ad:not([style])
 ||haoxxoo.com/player/ad.html
 ||haoxxwang.com^$third-party
 ||haoyongdm.com^
+||haoyun.lb-lt.com.cn^
 ||haoyundm.com^
 ||haoyundmn.com^
 ||haoyundmtaotao.com^
@@ -70229,6 +70230,7 @@ zznews.cn##.ad:not([style])
 ||newegg.com^$removeparam=nm_mc
 ||newegg.com^$removeparam=quicklink
 ||newelements.de/tracker/
+||newg.manggo.fun^
 ||newreven.com^
 ||newrrb.bid^$third-party
 ||news-easy.org^
@@ -71048,6 +71050,7 @@ zznews.cn##.ad:not([style])
 ||old.legacy.tester.controller.net.zooplus.com^
 ||oldapi.admins.net.zooplus.de^
 ||oldapi.login.net.zooplus.de^
+||oldart.shop^
 ||oldgyhogola.com^
 ||oldmilram.com^
 ||olefinefraist.com^
@@ -82703,6 +82706,7 @@ zznews.cn##.ad:not([style])
 ||tracking.visma.se^
 ||tracking.vismaraet.nl^
 ||tracking.vodafone.com^
+||tracking.voordeeluitjes.nl^
 ||tracking.warehouseautomation.com^
 ||tracking.waterfrontmedia.com^
 ||tracking.webtradecenter.com^

@@ -59908,6 +59908,7 @@ zznews.cn##.ad:not([style])
 ||haoxxoo.com/player/ad.html
 ||haoxxwang.com^$third-party
 ||haoyongdm.com^
+||haoyun.lb-lt.com.cn^
 ||haoyundm.com^
 ||haoyundmn.com^
 ||haoyundmtaotao.com^
@@ -68748,6 +68749,7 @@ zznews.cn##.ad:not([style])
 ||newegg.com^$removeparam=nm_mc
 ||newegg.com^$removeparam=quicklink
 ||newelements.de/tracker/
+||newg.manggo.fun^
 ||newreven.com^
 ||newrrb.bid^$third-party
 ||news-easy.org^
@@ -69567,6 +69569,7 @@ zznews.cn##.ad:not([style])
 ||old.legacy.tester.controller.net.zooplus.com^
 ||oldapi.admins.net.zooplus.de^
 ||oldapi.login.net.zooplus.de^
+||oldart.shop^
 ||oldgyhogola.com^
 ||oldmilram.com^
 ||olefinefraist.com^
@@ -81222,6 +81225,7 @@ zznews.cn##.ad:not([style])
 ||tracking.visma.se^
 ||tracking.vismaraet.nl^
 ||tracking.vodafone.com^
+||tracking.voordeeluitjes.nl^
 ||tracking.warehouseautomation.com^
 ||tracking.waterfrontmedia.com^
 ||tracking.webtradecenter.com^
