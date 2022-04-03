@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 6f12S2ZqgyjUcrfFSI2MPw
+! Checksum: e0z4drO7dRU3tRFNr3VykA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-03 10:19:20（北京时间） 
-! Total count: 86232
+! Version: 2022-04-03 11:12:40（北京时间） 
+! Total count: 86235
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -1961,6 +1961,7 @@
 @@||da.mgtv.com^
 @@||da.mmarket.com^
 @@||dash.cloudflare.com^
+@@||dash.xns.one^
 @@||data.bilibili.com^
 @@||data.video.iqiyi.com^
 @@||db5-eap.settings-win.data.microsoft.com.akadns.net^
@@ -1976,6 +1977,7 @@
 @@||direct.wap.zol.com.cn^
 @@||dl.360safe.com^
 @@||dldir1.qq.com^
+@@||doc.weixin.qq.com^
 @@||doublecklick.net^
 @@||down.360safe.com^
 @@||download.adguard.com^
@@ -2138,6 +2140,7 @@
 @@||pass.yandex.kz^
 @@||pass.yandex.ru^
 @@||passets-cdn.pinterest.com^
+@@||paste.in^
 @@||pdc.micloud.xiaomi.net^
 @@||pdst.fm^
 @@||pepsico.com.cn^
@@ -2293,6 +2296,7 @@
 @@||www.supportxmr.com.cdn.cloudflare.net^
 @@||www.supportxmr.com^
 @@||wx.qlogo.cn^
+@@||wx.tenpay.com^
 @@||wxapp.lvyadx.cn^
 @@||x6img.com^
 @@||xifuquan.com^
@@ -86236,5 +86240,4 @@
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru.0 clientmetrics-pa.googleapis.com^
 ||zzznews.ru^

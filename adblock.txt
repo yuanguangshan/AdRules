@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Gti1AyE/FZiwwPY5HkZYzg
+! Checksum: 1sw6Jb3oa+GgiAFDppQmFA
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、adgk、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-04-03 10:19:20（北京时间） 
-! Total count: 88892
+! Version: 2022-04-03 11:12:40（北京时间） 
+! Total count: 88904
 ###AC_ad
 ###ADCENTER
 ###ADSLOT_1
@@ -1199,7 +1199,6 @@
 ###footerad
 ###footerads
 ###fpad2
-###frame37boCx
 ###frameS8CyqB
 ###frnAdSky
 ###frnBannerAd
@@ -20669,6 +20668,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||darmowa-bramkasms.pl/ad-server/$script
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||dash.cloudflare.com^$domain=dash.cloudflare.com,important
+@@||dash.xns.one^
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
 @@||dashboard.jwplayer.com^$document
 @@||dashboard.mgid.com^$popup
@@ -20768,6 +20768,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||dnsleaktest.com^$content,elemhide,jsinject
 @@||dnspod.cn/static/common/js/analytics.js
+@@||doc.weixin.qq.com^
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
 @@||docs.amplify.aws^*/platform/js/autotrack.json$~third-party
@@ -23108,6 +23109,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||passiontimes.hk^$generichide
 @@||passiontimes.hk^*-ad.php?
 @@||passport.yandex.ru^$domain=yandex.ua
+@@||paste.in^
 @@||pastemod.com^$generichide
 @@||pastepub.com^$generichide
 @@||pastes.binbox.io/ad/banner$subdocument
@@ -24718,6 +24720,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||wwwshooter.com/js/adblockdetect/_advertisement.js$script
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
+@@||wx.tenpay.com^
 @@||xboxdvr.com/assets/ads-*.js$~third-party
 @@||xboxforum.pl^$generichide
 @@||xda-cdn.com/css/webfonts/$font
@@ -34535,6 +34538,7 @@ libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[hre
 libvio.com##.hidden-log
 libvio.com##.inner-advertise
 libvio.com##.t-img-box
+libvio.com##a[href*=".jd.com"]
 lien-torrent.com###ad_divl
 lien-torrent.com###ad_divr
 liepin.com##DIV[id^="nodetpl_g_"]
@@ -42685,6 +42689,7 @@ www.qq.com##div[class^="adRight"]
 www.qrz.ru#?#div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
 www.qsptv.net/tpl/newstyle/js/pv.js
 www.raybt.com##td[width="13"]
+www.rjno1.com#%#var g_times=0;function myfun(){let el=document.querySelectorAll("[style*='width: '][style*='; height: '],.adsbygoogle");el.forEach(e=>e.remove());if(g_times>=20){window.clearInterval(timer)}g_times++}var timer=setInterval(myfun,500);myfun();
 www.rkanr.com##div[id^="rkrCp"]
 www.seznam.cz##+js(set-constant, sssp, emptyObj)
 www.sina.com.cn###SI_EDU_AD
@@ -53159,6 +53164,7 @@ zznews.cn##.ad:not([style])
 ||check-out-this.site^
 ||check.ddos-guard.net^$third-party
 ||check.deadlinefunnel.com^$third-party
+||checkadblock.ru/banners^$domain=checkadblock.ru
 ||checkeffect.at^$third-party
 ||checkinform.net^
 ||checkm8.com^
@@ -55444,6 +55450,7 @@ zznews.cn##.ad:not([style])
 ||d3vpf6i51y286p.cloudfront.net^
 ||d3zr5ye.cn^
 ||d4.sina.com.cn^$object,script
+||d40.xyz^
 ||d41.co^$third-party
 ||d49-a.sdn.cz^$image,domain=ahaonline.cz|auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|info.cz|iprima.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|onetv.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
 ||d4ax0r5detcsu.cloudfront.net^
@@ -64650,6 +64657,7 @@ zznews.cn##.ad:not([style])
 ||jnkangnuo.com^
 ||jnlc.com/www/fund/newsmarket
 ||jnmqym4.cn^
+||jnqiangzhi.xyz^
 ||jnrtavp2x66u.com^
 ||jnsdkjzs.com^
 ||jntmedia.cn^$third-party
@@ -65347,6 +65355,7 @@ zznews.cn##.ad:not([style])
 ||kgbtjgqpdrrcjra.com^
 ||kgdvs9ov3l2aasw4nuts.com^
 ||kgftlnvgql.com^
+||kgho.info^
 ||kgimg.com/public/root//images/hardware.jpg
 ||kgnpwdf.cn^$third-party
 ||kgq.ink^
@@ -70835,6 +70844,7 @@ zznews.cn##.ad:not([style])
 ||nwxs5.com/js/
 ||nwyhtl.hollyhood.com.tr^
 ||nxakpj4ac8gkd53.info^
+||nxdfg.xyz^
 ||nxes.mercury.sogou.com^
 ||nxhh.net/gw/gw.js
 ||nxing.cn/uploads/uploads/*-size1220x
@@ -73137,6 +73147,7 @@ zznews.cn##.ad:not([style])
 ||premiumvertising.com^
 ||premovenonda.com^
 ||prepareplanes.com^$third-party
+||preroot.xyz^
 ||presage.io^$third-party
 ||presetrabbits.com^
 ||pressize.com^
@@ -88898,3 +88909,4 @@ zznews.cn##.ad:not([style])
 ~weibo.com##.con_ad
 ~zhidmai.com##a[href*="https://www.zhidmai.com"]
 ！ 移除某大佬修改idm的弹窗
+！paste.in

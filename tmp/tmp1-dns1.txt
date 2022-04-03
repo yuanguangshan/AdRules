@@ -1953,6 +1953,7 @@
 @@||da.mgtv.com^
 @@||da.mmarket.com^
 @@||dash.cloudflare.com^
+@@||dash.xns.one^
 @@||data.bilibili.com^
 @@||data.video.iqiyi.com^
 @@||db5-eap.settings-win.data.microsoft.com.akadns.net^
@@ -1968,6 +1969,7 @@
 @@||direct.wap.zol.com.cn^
 @@||dl.360safe.com^
 @@||dldir1.qq.com^
+@@||doc.weixin.qq.com^
 @@||doublecklick.net^
 @@||down.360safe.com^
 @@||download.adguard.com^
@@ -2130,6 +2132,7 @@
 @@||pass.yandex.kz^
 @@||pass.yandex.ru^
 @@||passets-cdn.pinterest.com^
+@@||paste.in^
 @@||pdc.micloud.xiaomi.net^
 @@||pdst.fm^
 @@||pepsico.com.cn^
@@ -2285,6 +2288,7 @@
 @@||www.supportxmr.com.cdn.cloudflare.net^
 @@||www.supportxmr.com^
 @@||wx.qlogo.cn^
+@@||wx.tenpay.com^
 @@||wxapp.lvyadx.cn^
 @@||x6img.com^
 @@||xifuquan.com^
@@ -87317,5 +87321,4 @@
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru.0 clientmetrics-pa.googleapis.com^
 ||zzznews.ru^

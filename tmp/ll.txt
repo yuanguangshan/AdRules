@@ -29,6 +29,8 @@
 @@||captcha.su.baidu.com^
 @@||da.mgtv.com^
 @@||dash.cloudflare.com^
+@@||dash.xns.one^
+@@||doc.weixin.qq.com^
 @@||download.adguard.com^
 @@||drive.quark.cn^
 @@||guce.advertising.com^
@@ -56,6 +58,7 @@
 @@||pass.yandex.kz^
 @@||pass.yandex.ru^
 @@||passets-cdn.pinterest.com^
+@@||paste.in^
 @@||privat24.privatbank.ua^
 @@||qq-web.cdn-go.cn^
 @@||quark.sm.cn^
@@ -78,6 +81,7 @@
 @@||wl.jd.com^
 @@||woozooo.com^
 @@||wx.qlogo.cn^
+@@||wx.tenpay.com^
 ||0--e.info^
 ||0.oldgyhogola.com^
 ||0.r.msn.com^
@@ -83534,5 +83538,4 @@
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
-||zzznews.ru.0 clientmetrics-pa.googleapis.com^
 ||zzznews.ru^
