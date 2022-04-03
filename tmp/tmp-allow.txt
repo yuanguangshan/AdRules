@@ -1,3 +1,4 @@
+@@##[ontouchstart]
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -713,6 +714,7 @@
 @@player*.html$frame,1p,domain=slreamplay.*
 @@playtv.fr$object-subrequest,domain=play.tv|playtv.fr
 @@plugins/blockalyzer-adblock-counter/img/ads/$image
+@@tion
 @@truyen$stealth,image,domain=blogtruyen.vn
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@u-ads.adap.tv*youku.$domain=youku.com

@@ -1,8 +1,8 @@
-! Checksum: pC/BS5t9oPriDMchb6bRMA
+! Checksum: CXfz8u5NeufP6NYzo6GVOg
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.14.13
-! TimeUpdated: 2022-04-02T08:30:34+00:00
+! Version: 2.1.14.15
+! TimeUpdated: 2022-04-02T20:31:12+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3355,6 +3355,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 /wrapperMessagingWithoutDetection.*.js$script,domain=netzwelt.de
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com
 filecloud.com###gdpr_accept
+digitalocean.com#?#body > div[class^="_panel_"]:has(> div > p > a[href*="privacy-policy"])
+wirexapp.com##wx-cookie-policy-notification
 ||compliance-pack.carlsberggroup.com/cbgCConsent.js
 mitsubishi.com##.l-cookieAlert
 ||cmp.ganref.jp^
@@ -5303,7 +5305,6 @@ ssf-co.com,blogging-techies.com,sshuebner.org,хрюши.рф###gdpr-cookie-cons
 newhollandsp.ru##.policy_popup
 chess24.com##.dataConsentModal
 chess24.com##.background
-digitalocean.com##body > script + div[class^="_"]
 80.lv##div[id="__next"] > div[class]:last-child > div[class]:last-child > div[class]
 att.com##.cookie-disclaimer-component
 online.sberbank.ru##footer div + div:contains(Cookies)
@@ -5383,7 +5384,6 @@ softonic.com#$#html > body.didomi-popup-open { overflow: visible !important; pos
 akweb.de,alkapida.com##.privacy-consent
 bim.com.tr##.cookie-window-select
 samsungparavoce.com.br,saraiva.com.br##.sy-lgpd
-digitalocean.com##body > div[class^="_panel_"]:last-child > div[class^="_wrap_"]
 spbtvonline.ru###agreeC
 babel.ua##.js-cookies-modal
 medicina.ru##.popup--policy-absolutely
@@ -6446,7 +6446,7 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 limakhotels.com,taliun.com,globaltvapp.net,ntgreekguy.com,ikbalthermal.com,sitemodify.com,wmespeakers.com###d-notification-bar
 newser.com###divCM
 polygonscan.com,etherscan.com,bscscan.com,ocsworldwide.co.uk,etherscan.io###divcookie
-surfeasy.com,vw.com.br,vueling.com,easyjet.com,fidelity.de,experianidentityservice.co.uk,nortonlifelock.com,experian.co.uk,norton.com,beerwulf.com,volkswagen.ch,volkswagenplus.ca,bhphotovideo.com,binekarac.vw.com.tr,latimes.com,scotsman.com###ensNotifyBanner
+ensighten.com,surfeasy.com,vw.com.br,vueling.com,easyjet.com,fidelity.de,experianidentityservice.co.uk,nortonlifelock.com,experian.co.uk,norton.com,beerwulf.com,volkswagen.ch,volkswagenplus.ca,bhphotovideo.com,binekarac.vw.com.tr,latimes.com,scotsman.com###ensNotifyBanner
 forum-kulturystyka.pl###fk-terms
 4gtv.tv###footer > #Allow[style^="width:"]
 mvm.hu###footer-consent
@@ -9068,6 +9068,8 @@ therahnuma.com##.post-footer-on-bottom
 ##amp-app-banner
 ###smartbanner.ios
 ###smartbanner.windows
+jumpbookstore.com###header_app_banner
+jumpbookstore.com###flipdesk
 tenor.com##.UpsellPill
 lulucos-bys.jp##.p-article__app-dl-banner
 lulucos-bys.jp##.p-article__app-download-banner
@@ -13787,6 +13789,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 androidinsider.ru#?#.article-body > p:has(> code > a[href="https://zen.yandex.ru/androidinsider.ru"])
 androidinsider.ru#?#.article-body > p:has(> code > a[href="https://t.me/sunduk_aliexpress"])
 mir24.tv##article a[href^="https://yandex.ru/chat/"]
+aljazeera.com##.sib-newsletter-form
 greenbelarus.info##.block--subscribe
 hi-news.ru#?#.text > p:has(> code > a[href="https://t.me/hinews_ru"])
 partnerkin.com##.subscriber_form
