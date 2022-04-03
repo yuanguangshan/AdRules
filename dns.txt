@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 8UFdYLgK+NCxBD4QhhkAkg
+! Checksum: +KLUkBVtlJgkkwkerd+Phw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-03 17:14:32（北京时间） 
-! Total count: 86284
+! Version: 2022-04-03 17:20:30（北京时间） 
+! Total count: 86283
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -2334,7 +2334,6 @@
 @@||zconfig.alibabausercontent.com^
 @@||zimuku.la^
 @@||ztgame.com^
-|nclub.com^
 ||0--e.info^
 ||0.oldgyhogola.com^
 ||0.r.msn.com^
@@ -24804,6 +24803,7 @@
 ||cpro.baidu.com^
 ||cpro.baidustatic.com^
 ||cpro.bdrmb.cn^
+||cpt.9136.com^
 ||cpt.geniee.jp^
 ||cpt.itv.com^
 ||cptmgp.villaciniz.com.tr^
@@ -34343,7 +34343,6 @@
 ||g.mashable.com^
 ||g.mnw.cn^
 ||g.msn.com^
-||g.njoyn.com^
 ||g.pcmag.com^
 ||g.promosrv.com^
 ||g.rain8.com^

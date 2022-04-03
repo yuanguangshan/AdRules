@@ -21745,6 +21745,7 @@
 0.0.0.0 cpro.baidu.com
 0.0.0.0 cpro.baidustatic.com
 0.0.0.0 cpro.bdrmb.cn
+0.0.0.0 cpt.9136.com
 0.0.0.0 cpt.geniee.jp
 0.0.0.0 cpt.itv.com
 0.0.0.0 cptmgp.villaciniz.com.tr
@@ -31091,7 +31092,6 @@
 0.0.0.0 g.mashable.com
 0.0.0.0 g.mnw.cn
 0.0.0.0 g.msn.com
-0.0.0.0 g.njoyn.com
 0.0.0.0 g.pcmag.com
 0.0.0.0 g.promosrv.com
 0.0.0.0 g.rain8.com

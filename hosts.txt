@@ -1,11 +1,11 @@
 ! Title: AdRules（For adaway）
-! Checksum: Ppls+O1BVcfRQlCjvvPRIA
+! Checksum: gv7QxfpWW2Xm+2tJBHMMSA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-03 17:14:32（北京时间） 
+! Version: 2022-04-03 17:20:30（北京时间） 
 ! Total count: 82199
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
@@ -21754,6 +21754,7 @@
 0.0.0.0 cpro.baidu.com
 0.0.0.0 cpro.baidustatic.com
 0.0.0.0 cpro.bdrmb.cn
+0.0.0.0 cpt.9136.com
 0.0.0.0 cpt.geniee.jp
 0.0.0.0 cpt.itv.com
 0.0.0.0 cptmgp.villaciniz.com.tr
@@ -31100,7 +31101,6 @@
 0.0.0.0 g.mashable.com
 0.0.0.0 g.mnw.cn
 0.0.0.0 g.msn.com
-0.0.0.0 g.njoyn.com
 0.0.0.0 g.pcmag.com
 0.0.0.0 g.promosrv.com
 0.0.0.0 g.rain8.com
