@@ -69,14 +69,20 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ||st.huliyinzi.com/ads_app_pic/^
 ！ 移除某大佬修改idm的弹窗
 ||dev.rubaoo.com/TimeDiaryV2^$app=idm.internet.download.manager.plus
+! checkadblock
+||checkadblock.ru/banners^$domain=checkadblock.ru
+! RJNO1
+www.rjno1.com#%#var g_times=0;function myfun(){let el=document.querySelectorAll("[style*='width: '][style*='; height: '],.adsbygoogle");el.forEach(e=>e.remove());if(g_times>=20){window.clearInterval(timer)}g_times++}var timer=setInterval(myfun,500);myfun();
 ! -------加强屏蔽End------- !
 
 ! -------白名单Start------- !
 
 ! 今日头条视频
 @@||api*.toutiaoapi.com^$app=com.ss.android.article.news
-! 微信红包封面
-!@@||wxsnsdy.wxs.qq.com^
+! 微信
+@@||doc.weixin.qq.com^
+@@||wx.tenpay.com^
+
 ! [淘宝]
 ! // 关闭隐身模式，以便正常使用发票功能
 @@||invoice-ua.taobao.com/e-invoice/invoice-apply-online.html?source$stealth
@@ -147,4 +153,8 @@ bilibili.com#@#.btn-ctnr
 
 ! 皮皮虾评论区误杀
 @@||i.snssdk.com/bds^$app=com.sup.android.superb
+! DNS
+@@||dash.xns.one^
+！paste.in
+@@||paste.in^
 ! --------白名单End-------- !
