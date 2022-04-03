@@ -45787,6 +45787,7 @@ zznews.cn##.ad:not([style])
 ||access.acspubs.org^
 ||access.pangolin-sdk-toutiao-b.com^
 ||access.sunpower.com^
+||access.toggle.qq.com^
 ||access1.tpns.tencent.com^
 ||accessi.it^$third-party
 ||accessiblescopevisitor.com^
@@ -80189,6 +80190,7 @@ zznews.cn##.ad:not([style])
 ||tobapplog.ctobsnssdk.com^
 ||tobleronchiko.com^
 ||toblog.ctobsnssdk.com^
+||toblog.volceapplog.com^
 ||toboads.com^
 ||toc.io^$third-party
 ||tochgw.com^

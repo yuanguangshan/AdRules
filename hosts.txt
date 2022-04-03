@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: /mB2Ds4mjun3FN0G+tnI0Q
+! Checksum: wQq/RBEykSnpqUCx47O9JQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-03 11:12:40（北京时间） 
-! Total count: 82175
+! Version: 2022-04-03 11:17:33（北京时间） 
+! Total count: 82177
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
 0.0.0.0 0.r.msn.com
@@ -3439,6 +3439,7 @@
 0.0.0.0 access.conversantmedia.com
 0.0.0.0 access.pangolin-sdk-toutiao-b.com
 0.0.0.0 access.sunpower.com
+0.0.0.0 access.toggle.qq.com
 0.0.0.0 access1.tpns.tencent.com
 0.0.0.0 accessi.it
 0.0.0.0 accessiblescopevisitor.com
@@ -70339,6 +70340,7 @@
 0.0.0.0 tobleronchiko.com
 0.0.0.0 toblog.ctobsnssdk.com
 0.0.0.0 toblog.snssdk.com
+0.0.0.0 toblog.volceapplog.com
 0.0.0.0 toboads.com
 0.0.0.0 toc.io
 0.0.0.0 tochgw.com
