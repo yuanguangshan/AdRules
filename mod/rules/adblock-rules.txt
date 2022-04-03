@@ -14,6 +14,8 @@
 ||coolapk.com/v6/search?type=hotSearch$replace=/\{"data":\[.*\]/{"data":[]/
 !去除随机应用推荐
 ||coolapk.com/v6/main/indexV8?$replace=/\,\{.*?"entityType": "card"\,"entityTemplate":"apkImageCard".*?\}\,\{"id"/,{"id"/
+!去除评论区下某广告
+||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
 
 ! 某广告
 malimali2.com##div.leo-container:nth-child(4) > div:nth-child(7)
