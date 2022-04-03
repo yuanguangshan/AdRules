@@ -110,3 +110,6 @@ AdRules (For AdGuard)的全量版，一般来说订阅AdRules AdBlock Full List�
 ## Star数
 
 [![Stargazers over time](https://starchart.cc/Cats-Team/AdRules.svg)](https://starchart.cc/Cats-Team/AdRules)
+
+## 题外话
+**如果你对本项目有任何意见，欢迎提iuess提出各种建议或批评**
