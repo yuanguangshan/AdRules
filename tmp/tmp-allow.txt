@@ -681,7 +681,6 @@
 @@_cpa_adview_$domain=52xkdy.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
-@@a.com##.index_bttg
 @@acloud*.com^$stealth,image,domain=wfwf135.com|wfwf137.com|wfwf138.com
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
 @@adsense$domain=adnanguney.com,image
@@ -755,8 +754,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orga.com^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgpt,domain=ebay.com
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrics.marshandmclennan.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru

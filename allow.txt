@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: INInQAIlavhQuxNHfzRFzA
+! Checksum: xvWBF/Ki4/Phg5HLtsV4zw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-04-03 09:12:21（北京时间） 
-! Total count: 16992
+! Version: 2022-04-03 09:39:51（北京时间） 
+! Total count: 16990
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -502,7 +502,6 @@
 @@_ads_cpc_$domain=90lover.cn
 @@_cpa_adview_$domain=52xkdy.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
-@@a.com##.index_bttg
 @@acloud*.com^$stealth,image,domain=wfwf135.com|wfwf137.com|wfwf138.com
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
 @@adsense$domain=adnanguney.com,image
@@ -561,8 +560,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orga.com^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgpt,domain=ebay.com
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrics.marshandmclennan.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$script,domain=sport1.de
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
