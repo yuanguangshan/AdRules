@@ -285,7 +285,7 @@
 ||ipv4.gdt.qq.com^
 ||isdspeed.qq.com^
 ||isee.weishi.qq.com^
-||iwx.mail.qq.com^
+!||iwx.mail.qq.com^
 ||j.wit.qq.com^
 ||jingjia.qq.com^
 ||jpush.html5.qq.com^
