@@ -71,6 +71,8 @@ dns=(
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
   "https://easylist.to/easylist/easyprivacy.txt"
   "https://www.fanboy.co.nz/r/fanboy-ultimate.txt"
+  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
+  "https://raw.githubusercontent.com/DivineEngine/AdGuardFilter/master/filter.txt"
 )
 
 hosts=(
