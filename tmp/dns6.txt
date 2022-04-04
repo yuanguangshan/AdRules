@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cgz+G+u2qAN9MvCm2jOdBQ
+! Checksum: YWAwmYl7fmcXQkx5EfNmlw
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204040233
-! Last modified: 2022-04-04 02:33 UTC
+! Version: 202204040733
+! Last modified: 2022-04-04 07:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -54768,6 +54768,7 @@ skysports.com###mpu-1
 spin.ph###mrec3
 whatshappening.com.ph###mrecCarousel
 nitrome.com###mu_3_container
+wrestlingnews.co###mvp-head-top
 atlantatribune.com,barrettsportsmedia.com,footballleagueworld.co.uk,ripplecoinnews.com,tribune.net.ph###mvp-leader-wrap
 twinfinite.net###mvp-main-content-wrap
 barrettsportsmedia.com###mvp-wallpaper
@@ -54978,6 +54979,7 @@ electronicshub.org,net-load.com###text-25
 2smsupernetwork.com,zambiareports.com###text-3
 electronicshub.org###text-34
 needsomefun.net###text-36
+wrestlingnews.co###text-38
 vgleaks.com###text-4
 needsomefun.net###text-41
 bigblueball.com###text-416290631

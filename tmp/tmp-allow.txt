@@ -666,7 +666,6 @@
 @@/webtracking/*$domain=pasts.lv
 @@/webtrends.js$domain=radio-canada.ca|canon.com|horizon-bcbsnj.com|kaiserpermanente.org|logitech.com|reuters.com|telegraph.co.uk|usps.com
 @@/wp-banners.js$domain=scratch247.info|azsoft.*|downfile.site
-@@/wp-banners.js$domain=scratch247.info|azsoft.*|downfile.site
 @@/wp-content/*/adve*.js$script,xmlhttprequest
 @@/wp-content/*/show-ads.js$script,xmlhttprequest
 @@/wp-content/*/social_$domain=servercat.me
@@ -711,6 +710,7 @@
 @@5.148.189.203:443$network
 @@5.148.189.204:443$network
 @@5.148.189.205:443$network
+@@://*.ico$domain=livenewschat.eu
 @@://*.ico$domain=livenewschat.eu
 @@://*.xuk.ru^$stealth
 @@://*/gg/$domain=gg.go.kr
@@ -819,7 +819,6 @@
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnclub.com^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgramme-television.org^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1995,7 +1994,6 @@
 @@||ads.viralize.tv/display/$domain=quotidiano.net
 @@||ads.viralize.tv/display/$stealth,domain=ilrestodelcarlino.it
 @@||ads.viralize.tv/player/$domain=ilrestodelcarlino.it
-@@||ads.viralize.tv/player/$domain=quotidiano.net
 @@||ads.viralize.tv/player/$domain=quotidiano.net
 @@||ads.viralize.tv/player/$third-party,xmlhttprequest,domain=quotidiano.net
 @@||ads.viralize.tv/player/$third-party,xmlhttprequest,domain=quotidiano.net
@@ -4114,7 +4112,6 @@
 @@||braze.com/api/$domain=deezer.com
 @@||breakoutlist.com/assets/logos/*-logo.png$domain=breakoutlist.com
 @@||brenhealth.com^$generichide
-@@||brid.tv/player/$script,domain=prosport.ro
 @@||brid.tv/player/build/plugins/adunit.js$script,domain=pluralist.com
 @@||brightcove.com^$domain=wwe.com
 @@||brightcove.com^$domain=wwe.com
@@ -4555,6 +4552,7 @@
 @@||cdn.adsafeprotected.com/iasPET.1.js$script,domain=gentside.com
 @@||cdn.adsafeprotected.com^$script,domain=gentside.*|ohmymag.*|maxisciences.com|esgentside.com|ohmirevista.com
 @@||cdn.adspirit.de/banner/_default/160x600.jpg$domain=streetdir.com|roaddir.com
+@@||cdn.adspirit.de/banner/_default/160x600.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/468x60.jpg$domain=streetdir.com|roaddir.com
@@ -4849,7 +4847,6 @@
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=meucdn.vip
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/$domain=waaw.tv|waaw1.tv|waaws.tk
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.css$domain=yandexcdn.com
-@@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=videoxseries.xyz|scenelife.org|piratulhd.com|hqq.tv|newhost.me|czxxx.org|waaw.tv
 @@||cdn.jsdelivr.net/npm/videojs-contrib-ads/dist/videojs.ads.min.js$domain=yandexcdn.com
 @@||cdn.jsdelivr.net^$css,script,domain=p2xfxd.com
@@ -8930,7 +8927,6 @@
 @@||giveaway-club.com/includes/js/ads.js
 @@||givingassistant.org/Advertisers/$~third-party
 @@||givingassistant.org/Advertisers/$~third-party
-@@||giz.ro^$ghide
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
 @@||gizmochina.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js$~third-party
 @@||gizmodo.com/embed/comments/$removeparam
@@ -9682,6 +9678,7 @@
 @@||google.com/recaptcha/api.js
 @@||google.com/recaptcha/api2/$document
 @@||google.com/recaptcha/api2/$document
+@@||google.com/settings/ads/onweb$urlblock
 @@||google.com/settings/ads/onweb$urlblock
 @@||google.com/translate_$media,third-party,xmlhttprequest
 @@||google.com/translate_$media,third-party,xmlhttprequest
@@ -10579,7 +10576,6 @@
 @@||grahaflasher.com^$ghide
 @@||gram.pl/js/advertising.js$script
 @@||grandcentral.1plus1.video^$stealth
-@@||grandhotelcalciomercato.com/js/prebid-ads.js
 @@||grandhotelcalciomercato.com/js/prebid-ads.js
 @@||grapeshot.co.uk/image-resize/$image
 @@||grapeshot.co.uk/image-resize/$image
@@ -11583,6 +11579,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=games.word.tips
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=games.word.tips
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gameswf.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gameswf.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gamezhero.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gamezhero.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
@@ -11926,7 +11923,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=viu.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=vivo.sx
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=waaw.tv|waaw1.tv|waaws.tk
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wall-street.ro
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=webnovel.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wilmaa.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=winfuture.de
@@ -14357,7 +14353,6 @@
 @@||mobygames.com/images/promo/$image,~third-party
 @@||mobygames.com/images/promo/$image,~third-party
 @@||mocasoft.net/wp-content/themes/jannah/js/advertisement.js
-@@||mocasoft.ro^$ghide
 @@||modapkfree.me^$generichide
 @@||modd.io/showads.js$xhr,1p
 @@||modelist-konstruktor.com*/_adsense_/*.json
@@ -15645,7 +15640,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=3dnews.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=4movierulz.red
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=abczdrowie.pl
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=abdoutech.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=abdoutech.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aiarticlespinner.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akinator.com|akinator.mobi
@@ -17965,6 +17959,7 @@
 @@||sascdn.com/diff/templates/ts/dist/banner/sas-banner-$script,domain=dr.dk
 @@||sascdn.com/video/controller.js$domain=mjakmama24.pl
 @@||sascdn.com/video/controller.js$domain=towideo.pl
+@@||sascdn.com/video/controller.js$domain=towideo.pl
 @@||sascdn.com/video/players/jwplayer/
 @@||sascdn.com/video/players/jwplayer/
 @@||sascdn.com^
@@ -18793,6 +18788,7 @@
 @@||sickworldmusic.com^$generichide
 @@||sigma4pc.com^$generichide
 @@||sign.mojebanka.cz$elemhide,jsinject
+@@||sign.mojebanka.cz$elemhide,jsinject
 @@||signalshares.com/webtrends.min.js$script,~third-party
 @@||signalstart.com/assets/global/plugins/cookieconsent/cookieconsent.min.js
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
@@ -18925,6 +18921,7 @@
 @@||slidesharecdn.com^*/linkedin-$image,domain=slideshare.net
 @@||slike.indiatimes.com/feed/$domain=idiva.com
 @@||slike.indiatimes.com/feed/$domain=idiva.com
+@@||slike.indiatimes.com/feed/playerconfig/*.json$domain=timesnownews.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=zoomtventertainment.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=zoomtventertainment.com
 @@||slike.indiatimes.com/feed/stream/*.json$domain=economictimes.indiatimes.com
@@ -19227,7 +19224,6 @@
 @@||sport.cz/js/adBlockTest^
 @@||sport1.de/bundles/*ad$script
 @@||sport5.co.il/js/angulartics-google-analytics.js
-@@||sportbikerider.us^$generichide
 @@||sportbikerider.us^$generichide
 @@||sportdeutschland.tv/assets/*$script,1p
 @@||sportdeutschland.vidibuscloud.net/themes/sportdeutschland-623/javascripts/lib/my_ad_integration.js$script

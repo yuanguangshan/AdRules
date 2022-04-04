@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: DqPeuGvdCSd6KJboEXalvw
+! Checksum: J+W7/9gRmdedWzQxRLbhPw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-04 10:56:36（北京时间） 
-! Total count: 81071
+! Version: 2022-04-04 16:16:26（北京时间） 
+! Total count: 81064
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -4495,7 +4495,6 @@
 ||a.flashtalking.com^
 ||a.flizmovies.cc^
 ||a.focusde.info^
-||a.gaypornlove.net^
 ||a.gedidigital.it^
 ||a.gerasopa.com^
 ||a.getaawp.com^
@@ -8678,7 +8677,6 @@
 ||ads.xemphimso.com^
 ||ads.xhamster.com^
 ||ads.xlxtra.com^
-||ads.xmov.net^
 ||ads.xtra.co.nz^
 ||ads.xxxad.net^
 ||ads.yadro.ru^
@@ -13714,13 +13712,10 @@
 ||asextube.net^
 ||asf-tm.everesttech.net^
 ||asg.allweb.click^
-||asg.animehdl.net^
 ||asg.dormtapes.com^
 ||asg.faperoni.com^
-||asg.japanxxxvideo.net^
 ||asg.page-x.com^
 ||asg.phukienthoitranggiare.com^
-||asg.pornoplay.online^
 ||asg.sdtraff.com^
 ||asg.soundrussian.com^
 ||asg1.xueserverhost.com^
@@ -19131,7 +19126,6 @@
 ||cdn.as.amanad.adtdp.com^
 ||cdn.asdfix.com^
 ||cdn.asdfix.xyz^
-||cdn.asecw.xyz^
 ||cdn.at.atwola.com^
 ||cdn.atdmt.com^
 ||cdn.atomex.net^
@@ -19221,7 +19215,6 @@
 ||cdn.doubleverify.com^
 ||cdn.download.sweetpacks.com^
 ||cdn.driveback.ru^
-||cdn.dupx.xyz^
 ||cdn.dynamicyield.com^
 ||cdn.easyads28.info^
 ||cdn.easyads28.mobi^
@@ -19414,7 +19407,6 @@
 ||cdn.rlcdn.com^
 ||cdn.rmtag.com^
 ||cdn.rocks.io^
-||cdn.ropx.xyz^
 ||cdn.rove.cl^
 ||cdn.rtbid.me^
 ||cdn.rudderlabs.com^
@@ -19438,7 +19430,6 @@
 ||cdn.smartnews-ads.com^
 ||cdn.snigelweb.com^
 ||cdn.socialannex.com^
-||cdn.soxg.xyz^
 ||cdn.speakol.com^
 ||cdn.speedcurve.com^
 ||cdn.speedshiftmedia.com^
@@ -20248,7 +20239,6 @@
 ||chrjkn.cn^
 ||chromatography.mac-mod.com^
 ||chromc.com^
-||chrome-loading.car-insurance-reviews.com^
 ||chronicads.com^
 ||chrumedia.com^
 ||chslwea.top^
@@ -27768,6 +27758,7 @@
 ||edba.brealtime.com^
 ||edchargina.pro^
 ||edd249a64b.com^
+||eddiclucilia.com^
 ||eddoesenwraps.com^
 ||edenhermosa.com^
 ||ederiorbrit.xyz^
@@ -32277,6 +32268,7 @@
 ||garenaj.vn^
 ||garera.vn^
 ||garglesoon.com^
+||garialerosely.website^
 ||garnetsnails.com^
 ||garoagre.com^
 ||garotas.info^
@@ -42007,6 +41999,7 @@
 ||liadm.com^
 ||lianfuhuang.cn^
 ||liangxiaoru.cn^
+||liangzhuangxiu.top^
 ||liangzimo.ltd^
 ||liangziweixg.com^
 ||lianjikeji.cn^
