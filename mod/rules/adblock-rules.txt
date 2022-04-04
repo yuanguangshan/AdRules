@@ -81,6 +81,7 @@ www.rjno1.com#%#var g_times=0;function myfun(){let el=document.querySelectorAll(
 
 ! 今日头条视频
 !@@||api*.toutiaoapi.com^$app=com.ss.android.article.news
+@@||api5-normal-lq.toutiaoapi.com^$app=com.ss.android.article.news
 ! 微信
 @@||doc.weixin.qq.com^
 @@||wx.tenpay.com^
