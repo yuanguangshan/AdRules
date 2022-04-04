@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: wQJuXFVgALRpQ9elod/IVw
+! Checksum: PbqiCwj8eDTm0vCPJaImAw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-04 19:33:02（北京时间） 
-! Total count: 81110
+! Version: 2022-04-04 20:26:44（北京时间） 
+! Total count: 81124
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -4496,6 +4496,7 @@
 ||a.flashtalking.com^
 ||a.flizmovies.cc^
 ||a.focusde.info^
+||a.gayvideo.me^
 ||a.gedidigital.it^
 ||a.gerasopa.com^
 ||a.getaawp.com^
@@ -11516,6 +11517,7 @@
 ||analytics.apnewsregistry.com^
 ||analytics.app-adforce.jp^
 ||analytics.appsbnet.com.br^
+||analytics.appservice.tech^
 ||analytics.archive.org^
 ||analytics.artirix.com^
 ||analytics.arunraghavan.net^
@@ -19124,6 +19126,7 @@
 ||cdn.aralego.net^
 ||cdn.arcstudiopro.com^
 ||cdn.as.amanad.adtdp.com^
+||cdn.asdccc.xyz^
 ||cdn.asdfix.com^
 ||cdn.asdfix.xyz^
 ||cdn.at.atwola.com^
@@ -19516,6 +19519,7 @@
 ||cdn.wuyulou.com^
 ||cdn.xapads.com^
 ||cdn.xianliao.me^
+||cdn.xtow.xyz^
 ||cdn.yanews24.com^
 ||cdn.yourwebbars.com^
 ||cdn.z-profit.com^
@@ -20576,6 +20580,7 @@
 ||clgserv.pro^
 ||clhko.top^
 ||cli.ambient-platform.com^
+||cli.its2.net^
 ||cli.linksynergy.com^
 ||cli.m.ambient-platform.com^
 ||cli2020.com^
@@ -29360,6 +29365,7 @@
 ||event-reporting-dot-webylytics.appspot.com^
 ||event-search.jorte.com^
 ||event-staging.inner-active.mobi^
+||event-stream.spot.im^
 ||event-tracking-project.ap-southeast-1.log.aliyuncs.com^
 ||event-tracking.com^
 ||event.adbrix.io^
@@ -35649,6 +35655,7 @@
 ||hondasamulla.com^
 ||honeenatrus.com^
 ||honershexosan.com^
+||honestlyvicinityscene.com^
 ||honey.briefly.ru^
 ||honeybulb.com^
 ||honeycombastrayabound.com^
@@ -51057,6 +51064,7 @@
 ||oschgds.pro^
 ||osd.oxygem.it^
 ||osdata.solutions^
+||osdfjsk5.dikematou.com^
 ||osdoma.xyz^
 ||oshlzg.takealot.com^
 ||oshrs.cn^
@@ -51965,6 +51973,7 @@
 ||parentful.club^
 ||parflushfeet.com^
 ||parhadat.com^
+||parimpiables.com^
 ||paripartner.com^
 ||paripartners.online^
 ||paripartners.ru^
@@ -62026,6 +62035,7 @@
 ||sinefight-skinesia.com^
 ||sinewedretore.casa^
 ||sing.3h1fpq39jb.ru^
+||sing.wcoeaykv78.ru^
 ||single.runative.com^
 ||single.upsight-api.com^
 ||singlefeed.com^
@@ -63984,6 +63994,7 @@
 ||somelandingpage.com^
 ||somelco.com^
 ||somemembersgesture.com^
+||someperceptionparade.com^
 ||somethingglamourbeams.com^
 ||somethingprecursorfairfax.com^
 ||sometired.com^
@@ -75135,6 +75146,7 @@
 ||vpn-access.site^
 ||vpn-europe.conversantmedia.com^
 ||vpn-offers.com^
+||vpn-offers.org^
 ||vpn-us-west.conversantmedia.com^
 ||vpn.baolq666.com^
 ||vpn1service.com^
@@ -75380,6 +75392,7 @@
 ||vz-cdn2.adtng.com^
 ||vz-cdn2.contentabc.com^
 ||vz-cdn2.trafficjunky.net^
+||vz.7vid.net^
 ||vz681.com^
 ||vz79.com^
 ||vzeyba.shopee.co.id^
@@ -77806,6 +77819,7 @@
 ||www.harm6stop.com^
 ||www.hazy4cant.com^
 ||www.head3high.com^
+||www.healmsuoguurd.eu^
 ||www.healthcare-distribution.com^
 ||www.hear8crew.com^
 ||www.heat6have.com^

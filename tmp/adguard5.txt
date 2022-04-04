@@ -1,8 +1,8 @@
-! Checksum: qOfsu/hwL2/i7Y0ma3padA
+! Checksum: STUQaZdj2OunuXikV42WTA
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.14.24
-! TimeUpdated: 2022-04-04T10:30:34+00:00
+! Version: 2.1.14.25
+! TimeUpdated: 2022-04-04T11:30:35+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -2020,7 +2020,6 @@ $script,redirect-rule=noopjs,domain=aternos.org
 @@/prebid.$domain=aternos.org
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=aternos.org$domain=aternos.org
 @@||securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1$domain=aternos.org
-aternos.org#$?#.ad-label { remove: true; }
 aternos.org##.ad.responsive-skyscraper
 @@||aternos.org^$generichide
 @@||onetag-sys.com/prebid-request$domain=aternos.org
@@ -2044,6 +2043,7 @@ aternos.org##.ad.responsive-skyscraper
 @@||ib.adnxs.com/ut/v3/prebid|$domain=aternos.org
 @@||c.amazon-adsystem.com/*/bid?$xmlhttprequest,domain=aternos.org
 @@||bidder.criteo.com/cdb$xmlhttprequest,domain=aternos.org
+$xmlhttprequest,redirect-rule=nooptext,domain=aternos.org
 promote.telegram.org#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links.ads-header.ads-content { display: block !important; }
 goodfon.ru#$#.ad-text.adBanner.adbanner.adBlock.adContent.adSense.Adsense.AdSense.pub_300x250m.pub_728x90.text-ad.text-ad-links.text-ads.text_ad.text_ads.TextAd.textAd.textad.textad { display: block !important; }
 factor.ua#$#.ads.ad.adsbox.ad-placement.carbon-ads { display: block!important; }
@@ -9061,6 +9061,7 @@ therahnuma.com##.post-footer-on-bottom
 ##amp-app-banner
 ###smartbanner.ios
 ###smartbanner.windows
+recipe.rakuten.co.jp##div[class^="rakuten_recipe_app"]
 webstatic-sea.hoyolab.com##.bbs-qr
 prostovasya.ru##.t-popup_show
 jumpbookstore.com###header_app_banner
@@ -13781,6 +13782,9 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ||cp.unisender.com/*/form-widget-loader.js$third-party
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
+blog.statcounter.com,kuponla.com,forums.flyer.co.uk,page-online.de##.widget_newsletter
+gs.statcounter.com,7labs.io###email-subscribe
+pagesix.com##.nyp-zephr-flyout
 androidinsider.ru#?#.article-body > p:has(> code > a[href="https://zen.yandex.ru/androidinsider.ru"])
 androidinsider.ru#?#.article-body > p:has(> code > a[href="https://t.me/sunduk_aliexpress"])
 mir24.tv##article a[href^="https://yandex.ru/chat/"]
@@ -15014,7 +15018,6 @@ thequint.com#?#.container > div[class] > div > div[class] > div[class]:nth-child
 thequint.com#?#.container > div > div[class] > div[class]:last-child > div[class]:nth-child(2) > div[class] > div[class]:contains(/^Stay Updated$/):upward(2)
 bestreviews.net###contact-form
 notateslaapp.com#?#.content > div[class^="col-a"] > div.container:has(> div.release > div.subscribe-container)
-7labs.io###email-subscribe
 forward.com##.newsletter-signup-container
 hackaday.com##.widget-had-subscribe
 highspeedinternet.com##.active-campaign__form-wrapper
@@ -15025,7 +15028,6 @@ edsys.in#?#div[class^="_"] > div[data-toggle="collapse"]:has(> h6:contains(Subsc
 edsys.in#?#div[class^="_"] > div[data-toggle="collapse"]:has(> h6:contains(Subscribe)) + div
 seths.blog#?#.sidebar-content > div.sidebar-widget > div#subscribeform:upward(1)
 sleepfoundation.org##div[class^="sf-newsletter-signup"]
-kuponla.com##.widget_newsletter
 premierguitar.com##div[id^="sNewsletter_"]
 timesofindia.indiatimes.com#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("gendernlsubscription", "") } } catch (ex) {} })();
 timesofindia.indiatimes.com##.gendernewsletternudge
@@ -15376,7 +15378,6 @@ tokion.jp,thescholarshipsystem.com,blogs.perficient.com,copyblogger.com,gotoadm.
 liga.net###subscribe-right
 ewn.co.za##.mailer-signup-sidebar
 wtftime.ru##.art-telegram-container
-forums.flyer.co.uk##.widget_newsletter
 marstranslation.com##.new_letter_block
 vegetarian.ru#?#.widget:has(> div[id] > div.bx-subscribe)
 maxmoore.ru##.footer_subscribe_block

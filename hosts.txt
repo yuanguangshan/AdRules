@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: dmRlQF+uiyeIBVK1hHLUkQ
+! Checksum: sE5n+YWjKPG86NXlVkgZCw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-04 19:33:02（北京时间） 
-! Total count: 78020
+! Version: 2022-04-04 20:26:44（北京时间） 
+! Total count: 78034
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
 0.0.0.0 0.r.msn.com
@@ -1875,6 +1875,7 @@
 0.0.0.0 a.flashtalking.com
 0.0.0.0 a.flizmovies.cc
 0.0.0.0 a.focusde.info
+0.0.0.0 a.gayvideo.me
 0.0.0.0 a.gedidigital.it
 0.0.0.0 a.gerasopa.com
 0.0.0.0 a.getaawp.com
@@ -8818,6 +8819,7 @@
 0.0.0.0 analytics.apnewsregistry.com
 0.0.0.0 analytics.app-adforce.jp
 0.0.0.0 analytics.appsbnet.com.br
+0.0.0.0 analytics.appservice.tech
 0.0.0.0 analytics.archive.org
 0.0.0.0 analytics.artirix.com
 0.0.0.0 analytics.arunraghavan.net
@@ -16354,6 +16356,7 @@
 0.0.0.0 cdn.aralego.net
 0.0.0.0 cdn.arcstudiopro.com
 0.0.0.0 cdn.as.amanad.adtdp.com
+0.0.0.0 cdn.asdccc.xyz
 0.0.0.0 cdn.asdfix.com
 0.0.0.0 cdn.asdfix.xyz
 0.0.0.0 cdn.at.atwola.com
@@ -16746,6 +16749,7 @@
 0.0.0.0 cdn.wuyulou.com
 0.0.0.0 cdn.xapads.com
 0.0.0.0 cdn.xianliao.me
+0.0.0.0 cdn.xtow.xyz
 0.0.0.0 cdn.yanews24.com
 0.0.0.0 cdn.yourwebbars.com
 0.0.0.0 cdn.z-profit.com
@@ -17800,6 +17804,7 @@
 0.0.0.0 clgserv.pro
 0.0.0.0 clhko.top
 0.0.0.0 cli.ambient-platform.com
+0.0.0.0 cli.its2.net
 0.0.0.0 cli.linksynergy.com
 0.0.0.0 cli.m.ambient-platform.com
 0.0.0.0 cli2020.com
@@ -26491,6 +26496,7 @@
 0.0.0.0 event-reporting-dot-webylytics.appspot.com
 0.0.0.0 event-search.jorte.com
 0.0.0.0 event-staging.inner-active.mobi
+0.0.0.0 event-stream.spot.im
 0.0.0.0 event-tracking-project.ap-southeast-1.log.aliyuncs.com
 0.0.0.0 event-tracking.com
 0.0.0.0 event.adbrix.io
@@ -32727,6 +32733,7 @@
 0.0.0.0 hondasamulla.com
 0.0.0.0 honeenatrus.com
 0.0.0.0 honershexosan.com
+0.0.0.0 honestlyvicinityscene.com
 0.0.0.0 honey.briefly.ru
 0.0.0.0 honeybulb.com
 0.0.0.0 honeycombastrayabound.com
@@ -48071,6 +48078,7 @@
 0.0.0.0 oschgds.pro
 0.0.0.0 osd.oxygem.it
 0.0.0.0 osdata.solutions
+0.0.0.0 osdfjsk5.dikematou.com
 0.0.0.0 osdoma.xyz
 0.0.0.0 oshlzg.takealot.com
 0.0.0.0 oshrs.cn
@@ -48977,6 +48985,7 @@
 0.0.0.0 parentful.club
 0.0.0.0 parflushfeet.com
 0.0.0.0 parhadat.com
+0.0.0.0 parimpiables.com
 0.0.0.0 paripartner.com
 0.0.0.0 paripartners.online
 0.0.0.0 paripartners.ru
@@ -58996,6 +59005,7 @@
 0.0.0.0 sinefight-skinesia.com
 0.0.0.0 sinewedretore.casa
 0.0.0.0 sing.3h1fpq39jb.ru
+0.0.0.0 sing.wcoeaykv78.ru
 0.0.0.0 single.runative.com
 0.0.0.0 single.upsight-api.com
 0.0.0.0 singlefeed.com
@@ -60952,6 +60962,7 @@
 0.0.0.0 somelandingpage.com
 0.0.0.0 somelco.com
 0.0.0.0 somemembersgesture.com
+0.0.0.0 someperceptionparade.com
 0.0.0.0 somethingglamourbeams.com
 0.0.0.0 somethingprecursorfairfax.com
 0.0.0.0 sometired.com
@@ -72063,6 +72074,7 @@
 0.0.0.0 vpn-access.site
 0.0.0.0 vpn-europe.conversantmedia.com
 0.0.0.0 vpn-offers.com
+0.0.0.0 vpn-offers.org
 0.0.0.0 vpn-us-west.conversantmedia.com
 0.0.0.0 vpn.baolq666.com
 0.0.0.0 vpn1service.com
@@ -72308,6 +72320,7 @@
 0.0.0.0 vz-cdn2.adtng.com
 0.0.0.0 vz-cdn2.contentabc.com
 0.0.0.0 vz-cdn2.trafficjunky.net
+0.0.0.0 vz.7vid.net
 0.0.0.0 vz681.com
 0.0.0.0 vz79.com
 0.0.0.0 vzeyba.shopee.co.id
@@ -74726,6 +74739,7 @@
 0.0.0.0 www.harm6stop.com
 0.0.0.0 www.hazy4cant.com
 0.0.0.0 www.head3high.com
+0.0.0.0 www.healmsuoguurd.eu
 0.0.0.0 www.healthcare-distribution.com
 0.0.0.0 www.hear8crew.com
 0.0.0.0 www.heat6have.com
