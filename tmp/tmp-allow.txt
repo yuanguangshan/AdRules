@@ -818,7 +818,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnclub.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orglockflame.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3073,6 +3073,7 @@
 @@||api.vigo.ru^*/network_status?$object,xmlhttprequest,domain=vk.com
 @@||api.yjllq.com^
 @@||api.youla.io^$stealth
+@@||api5-normal-lq.toutiaoapi.com^$app=com.ss.android.article.news
 @@||apiavsee.com/player.php$stealth
 @@||apibay.org^$script,xmlhttprequest,domain=thepiratebay.org
 @@||apibay.org^$script,xmlhttprequest,domain=thepiratebay.org
@@ -3134,6 +3135,8 @@
 @@||app.sendgrid.com$document
 @@||app.sendgrid.com^$elemhide,jsinject
 @@||app.sendgrid.com^$elemhide,jsinject
+@@||app.trangchu.news/peel.js
+@@||app.trangchu.news/peel.js
 @@||app.usercentrics.eu/*/main.js$domain=liebherr.com
 @@||app.usercentrics.eu/browser-sdk/*/cross-domain-bridge.html$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||app.usercentrics.eu/browser-ui/latest/bundle.js$domain=studycheck.de
@@ -3530,8 +3533,6 @@
 @@||azlink.xyz^$ghide
 @@||azmath.info/peel.js
 @@||azmath.info/peel.js
-@@||azmath.info/peel.js$domain=leechpremium.link
-@@||azmath.info/peel.js$domain=leechpremium.link
 @@||azulyblanco.co^$generichide
 @@||azulyblanco.co^$stealth
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
@@ -8317,7 +8318,8 @@
 @@||freeproxylist.me^$generichide
 @@||freepsdvn.com/wp-content/themes/mts_sense/js/ads.js
 @@||freepsdvn.com^$generichide
-@@||freereceivesms.com/js/wp-banners.js
+@@||freereceivesms.com/js/*.js
+@@||freereceivesms.com/js/*.js
 @@||freeride.se/img/admarket/$~third-party
 @@||freeride.se/img/admarket/$~third-party
 @@||freeserial-keys.blogspot.com^$generichide
@@ -16240,6 +16242,7 @@
 @@||pbs.twimg.com/ad_img/$image,xmlhttprequest
 @@||pbskids.org/js/ga-current.js
 @@||pc-builds.com/wp-content/themes/Newspaper-child/js/calculatorInitV2.js
+@@||pcbac.com/web/legacy/js/analytics.js$script,~third-party
 @@||pcbolsa.com^*/ads.js$script
 @@||pcforum.biz/abp/adblock_detector.js
 @@||pcgameshardware.de/common/deliverad/$script
@@ -18922,12 +18925,13 @@
 @@||slike.indiatimes.com/feed/$domain=idiva.com
 @@||slike.indiatimes.com/feed/$domain=idiva.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=timesnownews.com
+@@||slike.indiatimes.com/feed/playerconfig/*.json$domain=timesnownews.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=zoomtventertainment.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=zoomtventertainment.com
 @@||slike.indiatimes.com/feed/stream/*.json$domain=economictimes.indiatimes.com
 @@||slike.indiatimes.com/feed/stream/*.json$domain=economictimes.indiatimes.com
 @@||slike.indiatimes.com/feed/stream/*.json$domain=indiatimes.com|timesofindia.com|timesnownews.com|zoomtventertainment.com
-@@||slike.indiatimes.com/feed/stream/*.json$domain=indiatimes.com|timesofindia.com|timesnownews.com|zoomtventertainment.com
+@@||slike.indiatimes.com/feed/stream/*.json$domain=newspointapp.com|indiatimes.com|timesofindia.com|timesnownews.com|zoomtventertainment.com
 @@||slike.indiatimes.com/feed/stream/*.json$domain=timesofindia.indiatimes.com
 @@||slike.indiatimes.com/feed/stream/*.json$domain=timesofindia.indiatimes.com
 @@||slike.indiatimes.com/feed^$domain=tvid.in

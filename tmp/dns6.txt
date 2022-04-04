@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YWAwmYl7fmcXQkx5EfNmlw
+! Checksum: s1S1c9cUYVH52TRGAIUQQA
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204040733
-! Last modified: 2022-04-04 07:33 UTC
+! Version: 202204041033
+! Last modified: 2022-04-04 10:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -33819,6 +33819,7 @@ tf2r.com#@#.adverts
 ||banfourmind.com^
 ||bangladest.com^
 ||bangtyranclank.com^
+||banibajury.website^
 ||banicywan.com^
 ||bankingconcede.com^
 ||banneradsday.com^
@@ -36523,6 +36524,7 @@ tf2r.com#@#.adverts
 ||edampeci.com^
 ||edchargina.pro^
 ||edd249a64b.com^
+||eddiclucilia.com^
 ||eddoesenwraps.com^
 ||ederiorbrit.xyz^
 ||edfuyyweyz.com^
@@ -37684,6 +37686,7 @@ tf2r.com#@#.adverts
 ||gardoult.com^
 ||gardourd.com^
 ||garglesoon.com^
+||garialerosely.website^
 ||garnetsnails.com^
 ||garoagre.com^
 ||garristo.com^
@@ -98648,7 +98651,6 @@ _subscribers_newsletters/
 ##.Total_Shares_Box
 ##.Trend-social
 ##.Ttwitter
-##.Twitter
 ##.Twitter-icon
 ##.TwitterActivity
 ##.TwitterArea

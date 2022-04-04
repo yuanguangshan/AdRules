@@ -5,8 +5,8 @@
 #
 #  Title: oisd basic     
 #  Syntax: hosts     
-#  Entries: 58291  
-#  TimeUpdated: 4 Apr 2022 03:47 UTC          
+#  Entries: 58290  
+#  TimeUpdated: 4 Apr 2022 11:20 UTC          
 #  Maintainer: sjhgvr
 #  Expires: 1 day (update frequency)
 #  Homepage: https://oisd.nl
@@ -51934,7 +51934,6 @@
 0.0.0.0 tt128viet.com
 0.0.0.0 ttahsdu.top
 0.0.0.0 ttarget.ru
-0.0.0.0 ttauri.techradar.com
 0.0.0.0 ttayy.cn
 0.0.0.0 ttbc33.com
 0.0.0.0 ttffhe.top

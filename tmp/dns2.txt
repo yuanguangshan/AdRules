@@ -6,8 +6,8 @@
 !
 !  Title: oisd basic     
 !  Syntax: abp       
-!  Entries: 48285  
-!  TimeUpdated: 4 Apr 2022 03:47 UTC          
+!  Entries: 48284  
+!  TimeUpdated: 4 Apr 2022 11:20 UTC          
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -43056,7 +43056,6 @@
 ||tt128viet.com^
 ||ttahsdu.top^
 ||ttarget.ru^
-||ttauri.techradar.com^
 ||ttayy.cn^
 ||ttbc33.com^
 ||ttffhe.top^
