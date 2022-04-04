@@ -6881,7 +6881,6 @@
 ##embed[width="300"][height="250"]
 ##embed[width="468"][height="60"]
 ##embed[width="728"][height="90"]
-##headerAd
 ##iframe[id^="google_ads_frame"]
 ##iframe[src*=".xxmh891.com/"]
 ##iframe[src^="//tempest.services.disqus.com/ads-iframe/"]

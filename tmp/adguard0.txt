@@ -1,8 +1,8 @@
-! Checksum: 2DF3/K6NfkyiDCS/MZkhgA
+! Checksum: x0yhzj/d0zWzazO6cpdtyQ
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.24.24
-! TimeUpdated: 2022-04-04T14:31:20+00:00
+! Version: 2.2.24.25
+! TimeUpdated: 2022-04-04T15:31:19+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -13159,6 +13159,7 @@ implbits.com#@#.banner_container
 @@||gittigidiyor.com/*&gclid=$stealth
 @@||clickserve.dartsearch.net/link/click?*&gclid=$stealth
 !#########################################
+@@||checkoutshopper-live.adyen.com/checkoutshopper/*/securedFields.html$stealth
 @@||dapi.kakao.com/*/maps/sdk.js$stealth,domain=kfckorea.com
 @@||api.mapbox.com/geocoding/$stealth
 @@||novelpia.com^$stealth
