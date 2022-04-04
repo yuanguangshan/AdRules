@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: 4m/dnQSYXfjhlKg+qbNIHA
+! Checksum: px02XQV84bwb4HD+Ahrhcw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-04 08:58:31（北京时间） 
-! Total count: 77983
+! Version: 2022-04-04 10:56:36（北京时间） 
+! Total count: 77981
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
 0.0.0.0 0.r.msn.com
@@ -41855,7 +41855,6 @@
 0.0.0.0 marketinghub.zoho.eu
 0.0.0.0 marketingsolutions.yahoo.com
 0.0.0.0 marketingweek.imgix.net
-0.0.0.0 marketinramme-television.org
 0.0.0.0 marketizator.com
 0.0.0.0 marketland.me
 0.0.0.0 marketleverage.com
@@ -54633,7 +54632,6 @@
 0.0.0.0 res.mmstat.com
 0.0.0.0 res.paruvendu.fr
 0.0.0.0 res.pinpai8.cn
-0.0.0.0 res.prognclub.com
 0.0.0.0 res.programme-television.org
 0.0.0.0 res.public.fr
 0.0.0.0 res.rbl.ms
