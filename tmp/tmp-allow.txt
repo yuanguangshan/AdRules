@@ -586,6 +586,7 @@
 @@/pub1/??$domain=banggo.com
 @@/pub1/??$domain=banggo.com
 @@/pubads*theguardian.com
+@@/pubads*theguardian.com
 @@/pubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodale.tv|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/rutorrent/plugins/rss/*$image,~third-party
 @@/s-code-$domain=elgiganten.dk|elgiganten.se|elkjop.no|gigantti.fi|markantalo.fi
@@ -816,7 +817,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnclub.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgndex/*
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2141,7 +2142,6 @@
 @@||advert.popunder.ru/banners/advert.php$image,subdocument,domain=proaudioz2.audio
 @@||advert.popunder.ru/banners/advert.php$image,subdocument,domain=torrent-rutor.org
 @@||advert.vg.no/1v*.js?v=$domain=e24.no
-@@||advert.vg.no/1v*.js?v=$~third-party
 @@||advert.vg.no/1v*.js?v=$~third-party
 @@||advertisement.vg.no/1v*.js?v=$domain=e24.no
 @@||advertisement.vg.no/1v*.js?v=$~third-party
@@ -5770,6 +5770,7 @@
 @@||cnki.com.cn/cnki/images/ad/2020/1112_45711271.jpg
 @@||cnn.com/cnnnext/*-social-$image
 @@||cnn.com^*/ad_policy.xml$domain=cnn.com
+@@||cnn.com^*/ad_policy.xml$domain=cnn.com
 @@||cnnic.cn^
 @@||cnnic.net.cn^
 @@||cnnic.net^
@@ -9124,8 +9125,6 @@
 @@||google-analytics.com/analytics.js$domain=cheatengine.org
 @@||google-analytics.com/analytics.js$domain=chess24.com
 @@||google-analytics.com/analytics.js$domain=chess24.com
-@@||google-analytics.com/analytics.js$domain=chip.com.tr
-@@||google-analytics.com/analytics.js$domain=chip.com.tr
 @@||google-analytics.com/analytics.js$domain=chocotv.com.tw
 @@||google-analytics.com/analytics.js$domain=chocotv.com.tw
 @@||google-analytics.com/analytics.js$domain=chowhound.com
@@ -9229,7 +9228,6 @@
 @@||google-analytics.com/analytics.js$domain=janusnotes.com
 @@||google-analytics.com/analytics.js$domain=joblo.com
 @@||google-analytics.com/analytics.js$domain=joblo.com
-@@||google-analytics.com/analytics.js$domain=jula.no
 @@||google-analytics.com/analytics.js$domain=jula.no
 @@||google-analytics.com/analytics.js$domain=jump.com.tr
 @@||google-analytics.com/analytics.js$domain=jump.com.tr
@@ -10485,7 +10483,6 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=imgur.com
 @@||googletagservices.com/tag/js/gpt.js$domain=infocar.ua
 @@||googletagservices.com/tag/js/gpt.js$domain=livexlive.com
-@@||googletagservices.com/tag/js/gpt.js$domain=livexlive.com
 @@||googletagservices.com/tag/js/gpt.js$domain=nbcsports.com
 @@||googletagservices.com/tag/js/gpt.js$domain=nbcsports.com
 @@||googletagservices.com/tag/js/gpt.js$domain=ndtv.in
@@ -11648,7 +11645,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=livexlive.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=livexlive.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=loot.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=loot.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=m.pandora.tv
@@ -12520,6 +12516,7 @@
 @@||javaguides.net^$ghide
 @@||javfor.me/jav-api.php$stealth
 @@||javgay.com^$generichide
+@@||javhdonline.com^$generichide
 @@||javhdonline.com^$generichide
 @@||javhdx.tv$generichide
 @@||javmost.com/ad*.php$subdocument,~third-party
@@ -17586,6 +17583,7 @@
 @@||retcode.taobao.com^
 @@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||retweetpicker.com^$generichide
+@@||retweetpicker.com^$generichide
 @@||reuters.com/ads.js|
 @@||reuters.com/ads.js|
 @@||reuters.com^$generichide
@@ -18380,7 +18378,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=infocar.ua
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=irctc.co.in
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=irctc.co.in
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=livexlive.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=livexlive.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=maharashtratimes.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=midomi.com
@@ -20383,6 +20380,7 @@
 @@||the-man.gr^$ghide
 @@||the-race.com^$ghide
 @@||theantiadblocker.com^$generichide
+@@||theantiadblocker.com^$generichide
 @@||theatlantic.com^$generichide
 @@||thebeastnews.com^$generichide
 @@||theblogcash.in/*/advertisement.js
@@ -20423,6 +20421,7 @@
 @@||themarker.com/ad/dclk^
 @@||themarker.com/dclk/dfp/$xmlhttprequest,script
 @@||themarker.com/dclk/dfp/test/
+@@||themarker.com/htz/js/advertisement.js
 @@||themarker.com/htz/js/advertisement.js
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
 @@||themarker.com/logger/p.gif?*=COMMENTS$xmlhttprequest

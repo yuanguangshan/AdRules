@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: 8V/FvlTm2idugr8L9s+EoA
+! Checksum: gPjQmlOjAVtMbKCVke2Zzw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-05 10:33:42（北京时间） 
-! Total count: 78231
+! Version: 2022-04-05 13:42:06（北京时间） 
+! Total count: 78200
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
 0.0.0.0 0.r.msn.com
@@ -4896,7 +4896,6 @@
 0.0.0.0 admidainsight.com
 0.0.0.0 admile.ru
 0.0.0.0 admilk.ru
-0.0.0.0 admin.adnation.com
 0.0.0.0 admin.adsplay.net
 0.0.0.0 admin.adsplay.xyz
 0.0.0.0 admin.appnext.com
@@ -9772,7 +9771,6 @@
 0.0.0.0 api.adfly.vn
 0.0.0.0 api.adfurikun.jp
 0.0.0.0 api.adintext.net
-0.0.0.0 api.adnation.com
 0.0.0.0 api.adnet.mob.com
 0.0.0.0 api.adnsafe.org
 0.0.0.0 api.adomik.com
@@ -25857,7 +25855,6 @@
 0.0.0.0 engine.espace.netavenir.com
 0.0.0.0 engine.fxempire.com
 0.0.0.0 engine.fyber.com
-0.0.0.0 engine.gettopple.com
 0.0.0.0 engine.laweekly.com
 0.0.0.0 engine.lvehaisen.com
 0.0.0.0 engine.mobileapptracking.com
@@ -36516,6 +36513,7 @@
 0.0.0.0 jira.smaato.net
 0.0.0.0 jirafe.com
 0.0.0.0 jirivsoxvdk.com
+0.0.0.0 jirtb.top
 0.0.0.0 jistaumt.com
 0.0.0.0 jistenbefor.space
 0.0.0.0 jistvotestabl.space
@@ -41038,7 +41036,6 @@
 0.0.0.0 m.helloworld2018.top
 0.0.0.0 m.hgbasics.com
 0.0.0.0 m.hlcnzz.com
-0.0.0.0 m.hsrvv.com
 0.0.0.0 m.huerty.site
 0.0.0.0 m.ib.sin1.geoadnxs.com
 0.0.0.0 m.ikunikun.xyz
@@ -41064,7 +41061,6 @@
 0.0.0.0 m.nanyangqiaoxiang.cn
 0.0.0.0 m.nereus.live
 0.0.0.0 m.nxtck.com
-0.0.0.0 m.optnx.com
 0.0.0.0 m.optvx.com
 0.0.0.0 m.photoshelter.com
 0.0.0.0 m.pmtong.shop
@@ -55804,7 +55800,6 @@
 0.0.0.0 rtb.da.us.criteo.com
 0.0.0.0 rtb.djaxadserver.com
 0.0.0.0 rtb.eclick.vn
-0.0.0.0 rtb.exoclick.com
 0.0.0.0 rtb.gamoshi.io
 0.0.0.0 rtb.gumgum.com
 0.0.0.0 rtb.hk.as.criteo.com
@@ -56259,9 +56254,6 @@
 0.0.0.0 s.durhamregion.com
 0.0.0.0 s.eclick.vn
 0.0.0.0 s.effectivemeasure.net
-0.0.0.0 s.elink2c.com
-0.0.0.0 s.elnk4b.com
-0.0.0.0 s.elnk66.com
 0.0.0.0 s.elnkp2.com
 0.0.0.0 s.exv6.com
 0.0.0.0 s.fengmishop.cn
@@ -56300,7 +56292,6 @@
 0.0.0.0 s.kenh14.vn
 0.0.0.0 s.kma1.biz
 0.0.0.0 s.lianmeng.360.cn
-0.0.0.0 s.linkv3c.com
 0.0.0.0 s.linkw2g.com
 0.0.0.0 s.lkqd.net
 0.0.0.0 s.logsss.com
@@ -56326,8 +56317,6 @@
 0.0.0.0 s.ntv.io
 0.0.0.0 s.o333o.com
 0.0.0.0 s.opoxv.com
-0.0.0.0 s.optidigital.com
-0.0.0.0 s.optnx.com
 0.0.0.0 s.optvx.com
 0.0.0.0 s.ourwindsor.ca
 0.0.0.0 s.outbrain.com
@@ -56400,12 +56389,10 @@
 0.0.0.0 s.vertamedia.com
 0.0.0.0 s.vi-serve.com
 0.0.0.0 s.viites.com
-0.0.0.0 s.vlink6.com
 0.0.0.0 s.voicefive.com
 0.0.0.0 s.waterloochronicle.ca
 0.0.0.0 s.webtrends.com
 0.0.0.0 s.wellandtribune.ca
-0.0.0.0 s.wlink1.com
 0.0.0.0 s.worldofmacros.net
 0.0.0.0 s.yaozui.com
 0.0.0.0 s.yieldmo.com
@@ -56414,11 +56401,6 @@
 0.0.0.0 s.zixuntop.com
 0.0.0.0 s.zkcdn.net
 0.0.0.0 s.zlink2.com
-0.0.0.0 s.zlink4.com
-0.0.0.0 s.zlink6.com
-0.0.0.0 s.zlink8.com
-0.0.0.0 s.zlink9.com
-0.0.0.0 s.zlinkm.com
 0.0.0.0 s.zsxpx.com
 0.0.0.0 s0-2mdn-net.l.google.com
 0.0.0.0 s0.2mdn.net
@@ -64638,28 +64620,16 @@
 0.0.0.0 syndication.adxoo.com
 0.0.0.0 syndication.cntrafficpro.com
 0.0.0.0 syndication.dynsrvtbg.com
-0.0.0.0 syndication.dynsrvwer.com
-0.0.0.0 syndication.elink12.com
-0.0.0.0 syndication.elink77.com
-0.0.0.0 syndication.epcmh.com
-0.0.0.0 syndication.epcmk.com
 0.0.0.0 syndication.exdynsrv.com
 0.0.0.0 syndication.exoclick.com
 0.0.0.0 syndication.exosrv.com
 0.0.0.0 syndication.exrtbsrv.com
 0.0.0.0 syndication.jsadapi.com
-0.0.0.0 syndication.link2nx.com
-0.0.0.0 syndication.link5a.com
 0.0.0.0 syndication.link5c.com
-0.0.0.0 syndication.link5v.com
-0.0.0.0 syndication.linkfryn.com
-0.0.0.0 syndication.linkgett.com
-0.0.0.0 syndication.linkwitt.com
 0.0.0.0 syndication.optimizesrv.com
 0.0.0.0 syndication.realsrv.com
 0.0.0.0 syndication.trafficreps.com
 0.0.0.0 syndication.whibd.com
-0.0.0.0 syndication.whibp.com
 0.0.0.0 syndication.winadx.com
 0.0.0.0 syndicpop.com
 0.0.0.0 syndocassyth.com
@@ -75050,8 +75020,6 @@
 0.0.0.0 www.node7seat.com
 0.0.0.0 www.nora7nice.com
 0.0.0.0 www.norm0care.com
-0.0.0.0 www.notify6.com
-0.0.0.0 www.notifysrv.com
 0.0.0.0 www.npttech.com
 0.0.0.0 www.nw-rail-03.com
 0.0.0.0 www.ny79641.com
@@ -76717,6 +76685,7 @@
 0.0.0.0 yinyouapp.com
 0.0.0.0 yinyuehu.cn
 0.0.0.0 yinzantouzi.com
+0.0.0.0 yiongminghan.xyz
 0.0.0.0 yiopse.com
 0.0.0.0 yiotufp.cn
 0.0.0.0 yipanhaocai.com

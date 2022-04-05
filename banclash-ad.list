@@ -4887,7 +4887,6 @@ DOMAIN-SUFFIX,admidadsp.com
 DOMAIN-SUFFIX,admidainsight.com
 DOMAIN-SUFFIX,admile.ru
 DOMAIN-SUFFIX,admilk.ru
-DOMAIN-SUFFIX,admin.adnation.com
 DOMAIN-SUFFIX,admin.adsplay.net
 DOMAIN-SUFFIX,admin.adsplay.xyz
 DOMAIN-SUFFIX,admin.appnext.com
@@ -9763,7 +9762,6 @@ DOMAIN-SUFFIX,api.adfalcon.com
 DOMAIN-SUFFIX,api.adfly.vn
 DOMAIN-SUFFIX,api.adfurikun.jp
 DOMAIN-SUFFIX,api.adintext.net
-DOMAIN-SUFFIX,api.adnation.com
 DOMAIN-SUFFIX,api.adnet.mob.com
 DOMAIN-SUFFIX,api.adnsafe.org
 DOMAIN-SUFFIX,api.adomik.com
@@ -25848,7 +25846,6 @@ DOMAIN-SUFFIX,engine.eroge.com
 DOMAIN-SUFFIX,engine.espace.netavenir.com
 DOMAIN-SUFFIX,engine.fxempire.com
 DOMAIN-SUFFIX,engine.fyber.com
-DOMAIN-SUFFIX,engine.gettopple.com
 DOMAIN-SUFFIX,engine.laweekly.com
 DOMAIN-SUFFIX,engine.lvehaisen.com
 DOMAIN-SUFFIX,engine.mobileapptracking.com
@@ -36507,6 +36504,7 @@ DOMAIN-SUFFIX,jira.novaon.asia
 DOMAIN-SUFFIX,jira.smaato.net
 DOMAIN-SUFFIX,jirafe.com
 DOMAIN-SUFFIX,jirivsoxvdk.com
+DOMAIN-SUFFIX,jirtb.top
 DOMAIN-SUFFIX,jistaumt.com
 DOMAIN-SUFFIX,jistenbefor.space
 DOMAIN-SUFFIX,jistvotestabl.space
@@ -41029,7 +41027,6 @@ DOMAIN-SUFFIX,m.hbstjt88.cn
 DOMAIN-SUFFIX,m.helloworld2018.top
 DOMAIN-SUFFIX,m.hgbasics.com
 DOMAIN-SUFFIX,m.hlcnzz.com
-DOMAIN-SUFFIX,m.hsrvv.com
 DOMAIN-SUFFIX,m.huerty.site
 DOMAIN-SUFFIX,m.ib.sin1.geoadnxs.com
 DOMAIN-SUFFIX,m.ikunikun.xyz
@@ -41055,7 +41052,6 @@ DOMAIN-SUFFIX,m.myams.cn
 DOMAIN-SUFFIX,m.nanyangqiaoxiang.cn
 DOMAIN-SUFFIX,m.nereus.live
 DOMAIN-SUFFIX,m.nxtck.com
-DOMAIN-SUFFIX,m.optnx.com
 DOMAIN-SUFFIX,m.optvx.com
 DOMAIN-SUFFIX,m.photoshelter.com
 DOMAIN-SUFFIX,m.pmtong.shop
@@ -55795,7 +55791,6 @@ DOMAIN-SUFFIX,rtb.d.adup-tech.com
 DOMAIN-SUFFIX,rtb.da.us.criteo.com
 DOMAIN-SUFFIX,rtb.djaxadserver.com
 DOMAIN-SUFFIX,rtb.eclick.vn
-DOMAIN-SUFFIX,rtb.exoclick.com
 DOMAIN-SUFFIX,rtb.gamoshi.io
 DOMAIN-SUFFIX,rtb.gumgum.com
 DOMAIN-SUFFIX,rtb.hk.as.criteo.com
@@ -56250,9 +56245,6 @@ DOMAIN-SUFFIX,s.duapps.com
 DOMAIN-SUFFIX,s.durhamregion.com
 DOMAIN-SUFFIX,s.eclick.vn
 DOMAIN-SUFFIX,s.effectivemeasure.net
-DOMAIN-SUFFIX,s.elink2c.com
-DOMAIN-SUFFIX,s.elnk4b.com
-DOMAIN-SUFFIX,s.elnk66.com
 DOMAIN-SUFFIX,s.elnkp2.com
 DOMAIN-SUFFIX,s.exv6.com
 DOMAIN-SUFFIX,s.fengmishop.cn
@@ -56291,7 +56283,6 @@ DOMAIN-SUFFIX,s.kau.li
 DOMAIN-SUFFIX,s.kenh14.vn
 DOMAIN-SUFFIX,s.kma1.biz
 DOMAIN-SUFFIX,s.lianmeng.360.cn
-DOMAIN-SUFFIX,s.linkv3c.com
 DOMAIN-SUFFIX,s.linkw2g.com
 DOMAIN-SUFFIX,s.lkqd.net
 DOMAIN-SUFFIX,s.logsss.com
@@ -56317,8 +56308,6 @@ DOMAIN-SUFFIX,s.nslookup.io
 DOMAIN-SUFFIX,s.ntv.io
 DOMAIN-SUFFIX,s.o333o.com
 DOMAIN-SUFFIX,s.opoxv.com
-DOMAIN-SUFFIX,s.optidigital.com
-DOMAIN-SUFFIX,s.optnx.com
 DOMAIN-SUFFIX,s.optvx.com
 DOMAIN-SUFFIX,s.ourwindsor.ca
 DOMAIN-SUFFIX,s.outbrain.com
@@ -56391,12 +56380,10 @@ DOMAIN-SUFFIX,s.vdo.ai
 DOMAIN-SUFFIX,s.vertamedia.com
 DOMAIN-SUFFIX,s.vi-serve.com
 DOMAIN-SUFFIX,s.viites.com
-DOMAIN-SUFFIX,s.vlink6.com
 DOMAIN-SUFFIX,s.voicefive.com
 DOMAIN-SUFFIX,s.waterloochronicle.ca
 DOMAIN-SUFFIX,s.webtrends.com
 DOMAIN-SUFFIX,s.wellandtribune.ca
-DOMAIN-SUFFIX,s.wlink1.com
 DOMAIN-SUFFIX,s.worldofmacros.net
 DOMAIN-SUFFIX,s.yaozui.com
 DOMAIN-SUFFIX,s.yieldmo.com
@@ -56405,11 +56392,6 @@ DOMAIN-SUFFIX,s.youmi.net
 DOMAIN-SUFFIX,s.zixuntop.com
 DOMAIN-SUFFIX,s.zkcdn.net
 DOMAIN-SUFFIX,s.zlink2.com
-DOMAIN-SUFFIX,s.zlink4.com
-DOMAIN-SUFFIX,s.zlink6.com
-DOMAIN-SUFFIX,s.zlink8.com
-DOMAIN-SUFFIX,s.zlink9.com
-DOMAIN-SUFFIX,s.zlinkm.com
 DOMAIN-SUFFIX,s.zsxpx.com
 DOMAIN-SUFFIX,s0-2mdn-net.l.google.com
 DOMAIN-SUFFIX,s0.2mdn.net
@@ -64629,28 +64611,16 @@ DOMAIN-SUFFIX,syndication.advertiserurl.com
 DOMAIN-SUFFIX,syndication.adxoo.com
 DOMAIN-SUFFIX,syndication.cntrafficpro.com
 DOMAIN-SUFFIX,syndication.dynsrvtbg.com
-DOMAIN-SUFFIX,syndication.dynsrvwer.com
-DOMAIN-SUFFIX,syndication.elink12.com
-DOMAIN-SUFFIX,syndication.elink77.com
-DOMAIN-SUFFIX,syndication.epcmh.com
-DOMAIN-SUFFIX,syndication.epcmk.com
 DOMAIN-SUFFIX,syndication.exdynsrv.com
 DOMAIN-SUFFIX,syndication.exoclick.com
 DOMAIN-SUFFIX,syndication.exosrv.com
 DOMAIN-SUFFIX,syndication.exrtbsrv.com
 DOMAIN-SUFFIX,syndication.jsadapi.com
-DOMAIN-SUFFIX,syndication.link2nx.com
-DOMAIN-SUFFIX,syndication.link5a.com
 DOMAIN-SUFFIX,syndication.link5c.com
-DOMAIN-SUFFIX,syndication.link5v.com
-DOMAIN-SUFFIX,syndication.linkfryn.com
-DOMAIN-SUFFIX,syndication.linkgett.com
-DOMAIN-SUFFIX,syndication.linkwitt.com
 DOMAIN-SUFFIX,syndication.optimizesrv.com
 DOMAIN-SUFFIX,syndication.realsrv.com
 DOMAIN-SUFFIX,syndication.trafficreps.com
 DOMAIN-SUFFIX,syndication.whibd.com
-DOMAIN-SUFFIX,syndication.whibp.com
 DOMAIN-SUFFIX,syndication.winadx.com
 DOMAIN-SUFFIX,syndicpop.com
 DOMAIN-SUFFIX,syndocassyth.com
@@ -75041,8 +75011,6 @@ DOMAIN-SUFFIX,www.nice3aiea.com
 DOMAIN-SUFFIX,www.node7seat.com
 DOMAIN-SUFFIX,www.nora7nice.com
 DOMAIN-SUFFIX,www.norm0care.com
-DOMAIN-SUFFIX,www.notify6.com
-DOMAIN-SUFFIX,www.notifysrv.com
 DOMAIN-SUFFIX,www.npttech.com
 DOMAIN-SUFFIX,www.nw-rail-03.com
 DOMAIN-SUFFIX,www.ny79641.com
@@ -76708,6 +76676,7 @@ DOMAIN-SUFFIX,yinyating.top
 DOMAIN-SUFFIX,yinyouapp.com
 DOMAIN-SUFFIX,yinyuehu.cn
 DOMAIN-SUFFIX,yinzantouzi.com
+DOMAIN-SUFFIX,yiongminghan.xyz
 DOMAIN-SUFFIX,yiopse.com
 DOMAIN-SUFFIX,yiotufp.cn
 DOMAIN-SUFFIX,yipanhaocai.com
