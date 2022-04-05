@@ -817,7 +817,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgg*.euroads.fi^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgycircle.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1081,6 +1081,7 @@
 @@||4gtv.tv/4gtv/Data/GetAD.ashx
 @@||4horlover.com^$generichide
 @@||4horlover.com^$generichide
+@@||4kya.com/?url=$stealth,domain=netflix.mom
 @@||4players.de/javascript/adtag.check.js$script
 @@||4shared.com/ads.html^$document
 @@||4shared.com/images/icons/social-connect-buttons.png
@@ -2953,6 +2954,8 @@
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
+@@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
+@@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
@@ -4801,6 +4804,7 @@
 @@||cdn.iubenda.com/cookie_solution/iubenda_cs$script,domain=hwupgrade.it
 @@||cdn.iubenda.com/cookie_solution/iubenda_cs/$domain=ilmessaggero.it
 @@||cdn.iubenda.com/cookie_solution/iubenda_cs/*$domain=video.lastampa.it
+@@||cdn.iubenda.com/cs/*.json$domain=atlantico.fr
 @@||cdn.iubenda.com/cs/iubenda_cs.js$domain=ilmessaggero.it
 @@||cdn.iubenda.com/cs/iubenda_cs.js$domain=video.lastampa.it
 @@||cdn.iubenda.com/cs/tcf/$domain=ilmessaggero.it
@@ -4810,6 +4814,7 @@
 @@||cdn.iubenda.com^$domain=105.net
 @@||cdn.iubenda.com^$domain=video.repubblica.it
 @@||cdn.iubenda.com^$domain=virginradio.it
+@@||cdn.iubenda.com^$script,domain=atlantico.fr
 @@||cdn.jetcdn.co/reklam-button.png
 @@||cdn.jsdelivr.net/*/clappr^
 @@||cdn.jsdelivr.net/*/clappr^
@@ -12446,6 +12451,7 @@
 @@||itworld.com/elqNow/$script
 @@||itworld.com/elqnow/elq*.js
 @@||itworld.com/elqnow/elq*.js
+@@||iubenda.com/cookie-solution/confs/js/$domain=atlantico.fr
 @@||iubenda.com/cookie-solution/confs/js/*.js$domain=movieplayer.it
 @@||iubenda.com/cookie_solution/$script,domain=iphoneitalia.com|quotidiano.net
 @@||iubenda.com^$domain=mediaset.it
@@ -15345,6 +15351,7 @@
 @@||online.a1.by/l/v/track.php?event=$domain=a1.by
 @@||online.americanexpress.com/myca/statementimage/$document
 @@||online.americanexpress.com/myca/statementimage/$document
+@@||online.anidub.com/player/js/anidub-ad2.js
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||online.bfgruppe.de^$extension
 @@||online.cosmosbank.in^$document
@@ -18026,6 +18033,8 @@
 @@||scdn.cxense.com/cx.js$domain=13.cl
 @@||scdn.cxense.com/cx.js$domain=deadspin.com|theinventory.com|thetakeout.com|splinternews.com|theroot.com|kotaku.com|jezebel.com|gizmodo.com
 @@||scdn.cxense.com/cx.js$domain=deadspin.com|theinventory.com|thetakeout.com|splinternews.com|theroot.com|kotaku.com|jezebel.com|gizmodo.com
+@@||scdn.cxense.com/cx.js$domain=delfi.lt
+@@||scdn.cxense.com/cx.js$domain=delfi.lt
 @@||scdn.cxense.com/cx.js$domain=digi24.ro
 @@||scdn.cxense.com/cx.js$domain=digi24.ro
 @@||scdn.cxense.com/cx.js$domain=digisport.ro

@@ -1,8 +1,8 @@
-! Checksum: +cL2OATa/yDB0YRy5wEc+A
+! Checksum: t/GgUEcH0uXrxm+n7+5tTg
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.37.58
-! TimeUpdated: 2022-04-05T07:31:19+00:00
+! Version: 2.0.37.60
+! TimeUpdated: 2022-04-05T11:31:27+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -123,6 +123,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||taplytics.com^$third-party
 ||event-stream.spot.im^
 ||1ee085aa-4c05-43a8-a4fe-fafedbedd062.xyz^
 ||track.swaptrap.live^
@@ -4808,6 +4809,9 @@ nethunt.com/api/v1/track/email/$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 ||telemetry.mozilla.org^
+||ts.delfi.lt^
+||metrics.beyondwords.io^
+||launcher.spot.im^
 ||api.data.ciceksepeti.com^
 ||wlog.tmon.co.kr^
 ||analytics.appservice.tech^
@@ -23401,7 +23405,6 @@ $app=com.miui.analytics
 ||api.gameanalytics.com^
 ||api.gimbal.com^
 ||api.sec.miui.com^
-||api.taplytics.com^
 ||appmetrica.yandex.net^
 ||appmetrica.yandex.com^
 ||ar.umeng.com^
@@ -23475,7 +23478,6 @@ $app=com.miui.analytics
 ||oc.umeng.com^
 ||online-metrix.net^
 ||openstat.net^
-||ping.taplytics.com^
 ||ping.xlmc.sandai.net^
 ||pingma.qq.com/mstat/
 ||pingma.qq.com^
@@ -23573,6 +23575,8 @@ $app=com.miui.analytics
 !#################
 @@||mc.yandex.ru/metrika/tag.js$domain=coddyschool.com
 @@||mc.yandex.ru/metrika/watch.js$domain=auth.wi-fi.ru
+@@||scdn.cxense.com/cx.js$domain=delfi.lt
+@@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=filmzie.com
 @@||lp.sophos.com/email-preferences-
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=timesnownews.com

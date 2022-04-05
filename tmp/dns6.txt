@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ILshH7SHdZXDLcpZmUk1ew
+! Checksum: yjgktv9nek4pJhZlpALX9g
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204050733
-! Last modified: 2022-04-05 07:33 UTC
+! Version: 202204051033
+! Last modified: 2022-04-05 10:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -61490,7 +61490,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /google_page_track
 /google_tag.
 /google_tag/*
-/google_tag_$script
+/google_tag_extra.
 /google_tracker.
 /GoogleAdnalyticsJs?
 /googleana.
