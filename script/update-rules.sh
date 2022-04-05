@@ -67,7 +67,7 @@ dns=(
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/gh-pages/Filters/filter.txt"
   "https://abp.oisd.nl/basic/"
-  "https://easylist-downloads.adblockplus.org/easylistchina+easylistchina_compliance+easylist.txt"
+  "https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
   "https://easylist.to/easylist/easyprivacy.txt"
   "https://www.fanboy.co.nz/r/fanboy-ultimate.txt"
