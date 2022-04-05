@@ -215,7 +215,7 @@ cat tmp-hosts.txt \
  | sed 's/0.0.0.0 //' \
  | sort -n | uniq > tmp-ad-domains.txt & #处理广告域名
 
-cat *.txt | grep '^@' \
+cat .././mod/rules/* *.txt | grep '^@' \
  | sort -n | uniq > tmp-allow.txt & #允许清单处理
 wait
 
