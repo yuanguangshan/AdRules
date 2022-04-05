@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: XaBfaGUjiS46ZUdjUQ733Q
+! Checksum: ZMVXTP+fobDdzQpxSg7r6A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-04-05 00:19:10（北京时间） 
-! Total count: 17894
+! Version: 2022-04-05 08:56:26（北京时间） 
+! Total count: 17890
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -54,7 +54,6 @@
 @@*$third-party,image,domain=avaxhome.pro
 @@*$xhr,domain=dl.ccbluex.net,3p
 @@*$xhr,domain=thehouseofportable.com
-@@*$xhr,script,domain=pluspremieres.nl
 @@*.js|$script,domain=unique-tutorials.info,3p
 @@*/assets/prebid/$script,xhr,1p,domain=esgentside.com|gentside.*|maxisciences.com|ohmirevista.com|ohmymag.*
 @@*ad*.cms$domain=indiatimes.com|timesofindia.com
@@ -624,7 +623,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgg.njoyn.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orglockflame.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -7818,7 +7817,7 @@
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|inside-games.jp|mycar-life.com|newscafe.ne.jp|reanimal.jp|resemom.jp|response.jp|scan.netsecurity.ne.jp|spyder7.com
 @@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|nap-camp.com|radiko.jp|sanwacompany.co.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
-@@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
+@@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=ciudad.com.ar
 @@||googletagmanager.com/gtm.js$script,domain=clipmyhorse.tv
@@ -8511,7 +8510,6 @@
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||ibmmainframes.com^$ghide
 @@||ibon.com.tw/imageserver/images/ad_file/
-@@||ibubu.org^$ghide
 @@||icantw.com/platform/cover_ad/cover_ad.js
 @@||icashier.alipay.com^$domain=aliexpress.com
 @@||icbc.com.cn/ICBC_ADJS/
@@ -12764,7 +12762,6 @@
 @@||plus.googleapis.com/*/comments$document
 @@||plus.im/static/img/facebook.png
 @@||plus.im/static/img/facebook_over.png
-@@||pluspremieres.*^$ghide
 @@||plytv.me/sdembed
 @@||pm.sourcepoint.mgr.consensu.org/?privacy_manager_id
 @@||pmd.cdn.turner.com^
@@ -13210,7 +13207,7 @@
 @@||quantcast.mgr.consensu.org/*/cmp2ui.js$domain=independent.co.uk
 @@||quantcast.mgr.consensu.org/*/vendor-list-trimmed-*.json$domain=space.com
 @@||quantcast.mgr.consensu.org/*/vendor-list.json$domain=independent.co.uk
-@@||quantcast.mgr.consensu.org/GVL-v2/$domain=comingsoon.it|express.co.uk|fly4free.com|independent.co.uk|money.it|skoften.net|vi.nl
+@@||quantcast.mgr.consensu.org/GVL-v2/$domain=comingsoon.it|express.co.uk|fly4free.com|ilbianconero.com|independent.co.uk|money.it|skoften.net|vi.nl
 @@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json
 @@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json$domain=joe.ie|joe.co.uk
 @@||quantcast.mgr.consensu.org/choice/$domain=joe.ie|joe.co.uk
@@ -17693,7 +17690,6 @@
 @@||yimg.com/mi/eu/ywa.js$domain=immowelt.de
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
-@@||yimg.com/ss/rapid-3.*.js$domain=hk.yainer
 @@||yimg.com/ss/rapid-3.7.js$domain=deals.yahoo.com
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||yimg.com/ud/fp/js/ADPositions.*.min.js$domain=mobi.yahoo.com
