@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: B3qyRnORpN5gtBUe1g2zuw
+! Checksum: JLbi0A81vs4GP9rZemwJjA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-05 19:37:56（北京时间） 
+! Version: 2022-04-05 19:38:55（北京时间） 
 ! Total count: 81286
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
