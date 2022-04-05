@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FeaxBPO0X6Egj138xb2NMQ
+! Checksum: ILshH7SHdZXDLcpZmUk1ew
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204050433
-! Last modified: 2022-04-05 04:33 UTC
+! Version: 202204050733
+! Last modified: 2022-04-05 07:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -58872,8 +58872,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||zergnet.com^$image,script,stylesheet,domain=ci.craveonline.com|ci.gamerevolution.com|ci.momtastic.com|ci.thefashionspot.com|ci.totallyher.com
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 ! Webcompat fixes (Avoid any potential filters being applied to non-ad domains)
-@@||google.com/recaptcha/$csp,subdocument
-@@||google.com/recaptcha/api.js
+@@||google.com/recaptcha/$csp,script,subdocument
 @@||gstatic.com/recaptcha/
 @@||hcaptcha.com/captcha/$script,subdocument
 @@||hcaptcha.com^*/api.js
@@ -64727,6 +64726,7 @@ cgi-bin/counter
 .getblueshift.com/q/
 .google-analytics.com/
 .hootsuite.com/trk?
+.informz.net/z/$image
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
@@ -64833,6 +64833,7 @@ cgi-bin/counter
 /t.ifly.southwest.com/*$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
+/T/OFC4/*$image
 /track/open.php?
 /track/open?
 /tracking.fanbridge.com/*
@@ -133179,7 +133180,7 @@ novapdf.com###novapdf_accept_cookies
 professionalbatterychargers.com###nscmsboxboxsimple
 spreaker.com###nt_container
 northwell.edu###nwh_footer_banner_legal
-accor.com,arkadium.com,askubuntu.com,bankofhope.com,consequence.net,cp.com,gesund24.at,getyourguide.com,huawei.com,logitech.com,logitechg.com,mastercard.us,mathoverflow.net,maximintegrated.com,msn.com,oe24.at,paramountplus.com,redbull.com,refinitiv.com,serverfault.com,slack.com,soundcloud.com,sparknotes.com,stackexchange.com,stackoverflow.com,subway.com,superuser.com,thecloroxcompany.com,validity.com,vishay.com,wetter.at,wirkochen.at,xn--sterreich-z7a.at###onetrust-consent-sdk
+accor.com,arkadium.com,askubuntu.com,bankofhope.com,calendly.com,consequence.net,cp.com,gesund24.at,getyourguide.com,huawei.com,logitech.com,logitechg.com,mastercard.us,mathoverflow.net,maximintegrated.com,msn.com,oe24.at,paramountplus.com,redbull.com,refinitiv.com,serverfault.com,slack.com,soundcloud.com,sparknotes.com,stackexchange.com,stackoverflow.com,subway.com,superuser.com,thecloroxcompany.com,validity.com,vishay.com,wetter.at,wirkochen.at,xn--sterreich-z7a.at###onetrust-consent-sdk
 play-cricket.com###openglobal_privacy_widget
 accenture.com###optanon-minimize-wrapper
 harvester.co.uk###optin-optout

@@ -817,7 +817,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgndex/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgg*.euroads.fi^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -9666,12 +9666,10 @@
 @@||google.com/maps/embed/v*/place?key=$stealth
 @@||google.com/payments/*/adwords.$document,subdocument
 @@||google.com/payments/*/adwords.$document,subdocument
-@@||google.com/recaptcha/$csp,subdocument
-@@||google.com/recaptcha/$csp,subdocument
+@@||google.com/recaptcha/$csp,script,subdocument
+@@||google.com/recaptcha/$csp,script,subdocument
 @@||google.com/recaptcha/$domain=vidoza.net
 @@||google.com/recaptcha/$domain=vidoza.net
-@@||google.com/recaptcha/api.js
-@@||google.com/recaptcha/api.js
 @@||google.com/recaptcha/api2/$document
 @@||google.com/recaptcha/api2/$document
 @@||google.com/settings/ads/onweb$urlblock
@@ -10034,6 +10032,7 @@
 @@||googletagmanager.com/gtm.js$domain=falkirkherald.co.uk
 @@||googletagmanager.com/gtm.js$domain=filgoal.com
 @@||googletagmanager.com/gtm.js$domain=filgoal.com
+@@||googletagmanager.com/gtm.js$domain=filmzie.com
 @@||googletagmanager.com/gtm.js$domain=flo.com.tr
 @@||googletagmanager.com/gtm.js$domain=flo.com.tr
 @@||googletagmanager.com/gtm.js$domain=flyingv.cc
