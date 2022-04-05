@@ -113,3 +113,15 @@ AdRules (For AdGuard)的全量版，一般来说订阅AdRules AdBlock Full List�
 
 ## 题外话
 **如果你对本项目有任何意见，欢迎提iuess提出各种建议或批评**
+
+**如果您不喜欢本项目
+可寻找其他替代品**
+
+<details><summary><strong><code>AdRules的替代品</code></strong></summary></code>
+
+**EasyChina+EasyList** :https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt  
+**AdGuard Chinese filter** :https://filters.adtidy.org/windows/filters/224.txt  
+**乘风广告规则**：https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt  
+**AdGuard DNS Filter** :https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/gh-pages/Filters/filter.txt  
+
+</details>
