@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yjgktv9nek4pJhZlpALX9g
+! Checksum: VlbqLR+mXLAuach8AG+xow
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204051033
-! Last modified: 2022-04-05 10:33 UTC
+! Version: 202204051533
+! Last modified: 2022-04-05 15:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21455,6 +21455,7 @@ _800x80_
 ##.adsmedrect
 ##.adsmedrectright
 ##.adsmessage
+##.adsninja-ad-zone
 ##.adsnippet_widget
 ##.adsns
 ##.adsonar-after
@@ -22312,6 +22313,7 @@ _800x80_
 ##.advertisements-sidebar
 ##.advertisementsOutterDiv
 ##.advertisements_contain
+##.advertisements_heading
 ##.advertisementsubtitle
 ##.advertisementwrap
 ##.advertiser
@@ -23254,6 +23256,8 @@ _800x80_
 ##.block-mps
 ##.block-nmadition
 ##.block-nst-googledfp
+##.block-nyx-ads-ninja
+##.block-nyx-ads-ninja-ad-block
 ##.block-ohtdisplayad
 ##.block-openads
 ##.block-openadstream
@@ -38263,6 +38267,7 @@ tf2r.com#@#.adverts
 ||gyluheshy.com^
 ||gynax.com^
 ||gyofhxepanmkgx.com^
+||gyppedsquiss.com^
 ||gypsiedjilt.com^
 ||gyqevddwaha.com^
 ||gysapiny.com^
@@ -38572,6 +38577,7 @@ tf2r.com#@#.adverts
 ||hoanoola.net^
 ||hobbyatticnickname.com^
 ||hobfadbig.com^
+||hockeyhavoc.com^
 ||hoemasfat.site^
 ||hofofici.com^
 ||hogawn.com^
@@ -55703,6 +55709,7 @@ businessinsider.in##.clmb_eoa
 kissanime.com.ru##.close_ad_button
 brmangas.com##.closebf
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
+thenetnaija.co##.cmp-list
 drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
@@ -56140,6 +56147,7 @@ intomobile.com##.im_970x90
 searchenginejournal.com##.img-mmax-100
 wmtips.com##.img100
 exchangerates.org.uk##.imt4
+businessinsider.com##.in-post-sticky
 crash.net##.inarticle-wrapper
 mail.com##.indeed
 brudirect.com##.index-banner
@@ -56201,6 +56209,7 @@ goldprice.org##.kenbi
 trustedreviews.com##.keystone-single-widget
 wantedinafrica.com##.kn-widget-banner
 myanimelist.net##.koukoku-sticky-wrapper
+iphonelife.com##.l-header
 wwe.com##.l-hybrid-col-frame_rail-wrap
 weatherpro.com##.large-leaderboard
 democraticunderground.com##.largeleaderboard-container
@@ -126583,6 +126592,7 @@ m###teaser-newsletter
 ||tidiochat.com^$media
 ||userbot.ai/widget-chat/dist/audio/
 ||userway.org/widgetapp/sounds/
+||widget.insent.ai/static/media/
 ||wpengine.com/wp-content/mu-plugins/wpengine-dotcom/audio/
 ||zdassets.com/web_widget/$media
 ||zohocdn.com/salesiq/*/sound/
@@ -133978,6 +133988,7 @@ devonlive.com##.pwa-prompt
 sdrplugins.com##.px_-h-auto.px_-z-index-10000
 decrypt.co##.py-3.max-w-full
 picarto.tv##.qHsVk
+support.sia.tech##.r-l13dpy
 niceareas.co.uk##.rayAlertBox
 blacklimba.com##.recommendation-modal__backdrop
 hazlitt.net##.region-masthead-inner
@@ -139467,6 +139478,7 @@ alfa-tv.ua##.cook
 agroportal.ua,kaktus.ua,svitroslyn.ua##.cookie
 auto24.org,binomo.com,compendium.com.ua,darnitsa.ua,unian.ua##.cookies
 gigatrans.ua##.coook
+shotam.info##.dialog-lightbox-message
 amway.ua##.disclaimer-container
 squad.ua##.footerPolicy_style_2j8xK
 my.ua##.gLfiyr
