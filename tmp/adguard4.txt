@@ -1,8 +1,8 @@
-! Checksum: k09zhadfCqRR29cblsBwWA
+! Checksum: dsEczc/eZw6ueu6nELg8XA
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.52.30
-! TimeUpdated: 2022-04-05T15:30:54+00:00
+! Version: 2.0.52.33
+! TimeUpdated: 2022-04-06T00:30:53+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -707,6 +707,7 @@ ipv6.baidu.com,m.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###resul
 ||alicdn.com^$image,domain=m.k1k.cc|thcdy.co|27k.cc|1024pa.com|hg6384.com-www.6u7u.com|4080kan.com|dy686.net
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > .result ~ div:not([class]):not([style])
 /^(?!.*(bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com)).*$/$third-party,script,domain=yemancomic.com
+niusnews.com##a[href^="https://www.niusnews.com/index.php/main/gotoBanner/"]
 4kya.com###player_pause
 so.lenovo.com.cn##.AdSite
 league-funny.com##div[class^="dan_pmp"]
@@ -1813,6 +1814,7 @@ bmvc2020-conference.com#@#div[id][style="width: 100%;"] > iframe[scrolling="no"]
 nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 @@||nfmovies.com/static/side.jpg$xmlhttprequest,domain=nfmovies.com
 -*-*-*-*.panda^$script,third-party
+:4443/ty/x-$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
 -90mh-gg.
@@ -2481,6 +2483,7 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 ://*.tv/ad/$domain=~moviedj.tv
 ://*:*/api/v4/g?kyurl=$script,third-party
 ://*:*/jscode/*.js$script,third-party
+://*:*/oklist/vars.js
 ://*:*/s.php?id=$script,third-party
 ://bttzyw*/Runtime/js/psData.
 ://ssh.*:10443/$third-party
@@ -2493,7 +2496,6 @@ nfmovies.com#@?#div[id]:-abp-has(>img[onclick="openurl()"])
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
-://*:*/oklist/vars.js
 :45324/cd/$subdocument,third-party
 :52789/gg/
 :538/attachment/js/
@@ -3075,10 +3077,10 @@ ubmcmm.baidustatic.com
 ##.txp_ad[data-role="txpad-interact-pause"]
 ##.uk-width-1-1.adbox
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
+##.video-item-ads
 ##.w100b > .m_adv
 ##.wemziguanggao
 ##.wf_ad_block
-##.video-item-ads
 ##.widget-qianhuiji
 ##.widget-topadding
 ##.widget-xlxba
@@ -3354,6 +3356,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/2486090.com/"]
 ##a[href*="/2e9c9aa9.com/"]
 ##a[href*="/3337818.com/"]
+##a[href*="/33966676.com/"]
 ##a[href*="/33hth.cn"]
 ##a[href*="/3400com-o15.com/"]
 ##a[href*="/3525v.com:"]
@@ -3463,15 +3466,12 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
-##A[href*="/33966676.com/"]
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 .8ox.cn
-||govshanghai.cn^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
-||govchaozhou.cn^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -4212,6 +4212,7 @@ ubmcmm.baidustatic.com
 ||d15cjcet1djbmv.cloudfront.net^
 ||d1ad.com^$third-party
 ||d26yfyk0ym2k1u.cloudfront.net^
+||d32bug9eb0g0bh.cloudfront.net^
 ||d40.xyz^
 ||d8360.com^$third-party
 ||dadjia.com^
@@ -4438,6 +4439,7 @@ ubmcmm.baidustatic.com
 ||googleadsl.com^$third-party
 ||gotonav.com^$third-party
 ||gouweida.cn^
+||govchaozhou.cn^
 ||govchongqing.cn^
 ||govgaungzhou.cn^
 ||govgift.com^
@@ -4447,6 +4449,7 @@ ubmcmm.baidustatic.com
 ||govheyuan.cn^
 ||govkunming.cn^
 ||govqingdao.cn^
+||govshanghai.cn^
 ||govshangxi.cn^
 ||govshanxi.cn^
 ||govshenzhen.cn^
@@ -6270,6 +6273,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||123.sogou.com/discover/?
 ||12333sbt.com/inc/
 ||126.com/get.do?*=themeHandler.
+||126.net/2022/0315/c82ed9e0g00r8seoy015pd00104003cp.gif
 ||126.net/house/hrb/flash/*X
 ||126.net/ntesrich/*/suning-
 ||127.net/2018/08/15/71ee02b5b61c4090b3ce0116306596c2.jpeg
@@ -7929,6 +7933,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||doubleclick.ctfile.com^
 ||douguo.net/upload/post/d/
 ||doutula.com/img/upupoo/
+||douyinstatic.com/obj/tos-cn-i-xg/6fea25a4f79d4ec88428ce202a9aa395?.appdownv4.js
 ||douyu*/upload/signs/*.swf
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
@@ -11056,7 +11061,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||douyinstatic.com/obj/tos-cn-i-xg/6fea25a4f79d4ec88428ce202a9aa395?.appdownv4.js
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -18799,7 +18803,6 @@ _NYTEF.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 ##a[href*=".com/tg.html?id="]
-##iframe[src*=".xxmh"][src*="?u="]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href="/ad2.html"]
@@ -18809,6 +18812,7 @@ _muytrf.js$script,third-party
 ##div[onclick^="window.location.href"][onclick*=".haoyundm.com"]
 ##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
 ##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
+##iframe[src*=".xxmh"][src*="?u="]
 xhtml?%22+$script,third-party
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 .m.biduoxs.com^
@@ -18942,14 +18946,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
-||qyshbf.ltd^
-||51yw.club^
-||ytb2017.club^
-||liangzhuangxiu.top^
-||chenaiwx.xyz^
-||wltt.xyz^
-||yiongminghan.xyz^
-||jirtb.top^
+||1095.mobi^
+||zyyz.pro^
+||yigesi.top^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -19096,6 +19095,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||51vs.club^
 ||51wxyx.cn^
 ||51yusi.xyz^
+||51yw.club^
 ||51zdwy.cn^
 ||52homie.cn^
 ||52jimi.top^
@@ -19694,6 +19694,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||chayibu.com^
 ||chegulu.ren^
 ||chekeshi.com^
+||chenaiwx.xyz^
 ||chendjiangxing.cn^
 ||chengdahdf.cn^
 ||chengduyiren.cn^
@@ -20781,6 +20782,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||jinyinggroup.cn^
 ||jinzpeng.cn^
 ||jipezy.cn^
+||jirtb.top^
 ||jisufeifei.com^
 ||jituangongsi.cn^
 ||jiucaishuo.cn^
@@ -21080,6 +21082,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||lhxwnzht.cn^
 ||lhyang.top^
 ||lianfuhuang.cn^
+||liangzhuangxiu.top^
 ||liangzimo.ltd^
 ||lianjikeji.cn^
 ||lianruntang.cn^
@@ -21767,6 +21770,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qycg.wang^
 ||qydoc.com^$third-party
 ||qyjzleh.cn^
+||qyshbf.ltd^
 ||qysyyg.com^
 ||qytkjsz.com^
 ||qzbxfs.com^
@@ -22525,6 +22529,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||wlaoc.cn^
 ||wlbqczk.vip^
 ||wlmhdk.cn^
+||wltt.xyz^
 ||wlxzzx.cn^
 ||wmbuilr.cn^
 ||wmgt.xyz^
@@ -22850,6 +22855,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yinlt.com^
 ||yinvmh.com^
 ||yinzantouzi.com^
+||yiongminghan.xyz^
 ||yiotufp.cn^
 ||yiqima.xyz^
 ||yitiaoyu.top^
@@ -22918,6 +22924,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||yswenhua.com^
 ||yswuen.top^
 ||ysyhljt.vip^
+||ytb2017.club^
 ||ytbnm.cn^
 ||ytcard.cn^
 ||ytlkmy.cn^

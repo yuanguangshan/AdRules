@@ -817,7 +817,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgdex/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -17242,6 +17242,7 @@
 @@||quantcast.mgr.consensu.org^$domain=pcgamer.com
 @@||quantcast.mgr.consensu.org^$domain=podcasts.podinstall.com
 @@||quantcast.mgr.consensu.org^$domain=standard.co.uk
+@@||quantcast.mgr.consensu.org^$domain=t3.com
 @@||quantcast.mgr.consensu.org^*/choice.js$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|formulapassion.it|gianlucadimarzio.com|ilbianconero.com|money.it|skoften.net|vi.nl
 @@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cnews.fr|comingsoon.it|cyclingnews.com|dailyrecord.co.uk|digitalcameraworld.com|donnaglamour.it|einthusan.tv|euronics.it|express.co.uk|f1aldia.com|fantacalcio.it|fly4free.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|ilbianconero.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|nfl.com|pcgamer.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|skoften.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|vi.nl|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
