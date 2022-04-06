@@ -9441,15 +9441,16 @@ consoletarget.com##+js(aopr, loadTool)
 ||eecain7z.com^$3p
 
 ! https://github.com/NanoAdblocker/NanoFilters/issues/220
+! https://github.com/AdguardTeam/AdguardFilters/issues/114751
 @@||asianclub.*^$ghide
 asianclub.*##+js(set, clientSide.adbDetect, noopFunc)
 asianclub.*##+js(aopr, AaDetector)
 asianclub.*##+js(aopr, jwplayer.utils.Timer)
-asianclub.*,javmost.com##+js(aopw, _pop)
+asianclub.*,javmost.*##+js(aopw, _pop)
 asianclub.*##+js(nowoif)
 asianclub.*##+js(aopr, __Y)
 asianclub.*##+js(acis, globalThis, break;case)
-javmost.com##center > div[style^="width:100%; height: 100px"]
+javmost.*##center > div[style^="width:100%; height: 100px"]
 watchjavnow.xyz##+js(aopr, __Y)
 
 ! https://github.com/NanoMeow/QuickReports/issues/408
@@ -10808,7 +10809,7 @@ ilinks.in##+js(set, blurred, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/4636
 ||cloudvideo.tv/sw.js$script,1p
 cloudvideotv.*,cloudvideo.tv##^script:has-text(break;case $.)
-cloudvideotv.*,cloudvideo.tv##+js(acis, JSON.parse, $.)
+cloudvideotv.*,cloudvideo.tv##+js(acis, JSON, break;case)
 cloudvideotv.*,cloudvideo.tv##^script:has-text(FingerprintJS)
 cloudvideo.tv##+js(set, SubmitDownload1, noopFunc)
 cloudvideotv.*,cloudvideo.tv##+js(nowoif)

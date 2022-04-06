@@ -421,6 +421,7 @@
 @@/dh-anti-adblocker/public/js/prebid-ads.js
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
+@@/dist/cookieconsent.js$domain=apexlegendsstatus.com
 @@/embed/*$subdocument,stealth,domain=strims.world|daddylive.co
 @@/embed/comments^$removeparam,~third-party,domain=avclub.com|clickhole.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com|sportskeeda.com
 @@/embed/player/image/ads.png$domain=kakaotv.daum.net|play-tv.kakao.com|tv.kakao.com|media.daum.net|v.daum.net|entertain.daum.net|gallery.v.daum.net|namu.wiki
@@ -777,6 +778,7 @@
 @@player*.html$frame,1p,domain=slreamplay.*
 @@playtv.fr$object-subrequest,domain=play.tv|playtv.fr
 @@plugins/blockalyzer-adblock-counter/img/ads/$image
+@@stmggv*.*/images/$stealth,domain=manhuascan.com
 @@truyen$stealth,image,domain=blogtruyen.vn
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@u-ads.adap.tv*youku.$domain=youku.com
@@ -818,7 +820,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgokies.
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom/verify.pl?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -887,6 +889,8 @@
 @@||107.182.131.103/cache/?q=/images/*/
 @@||107.182.131.103/cache/?q=/images/*/
 @@||109.163.231.44^$generichide
+@@||10drives.com/api/$stealth,domain=premiumebooks.xyz
+@@||10drives.com/downv*.php$stealth
 @@||10play.com.au/static/ads.js
 @@||111.75.255.103/Scripts/Controls/PageView.js
 @@||111.75.255.103/Scripts/Controls/PageView.js
@@ -2455,6 +2459,7 @@
 @@||allsport-live.net^$stealth
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
+@@||allthingsvegas.com^$ghide
 @@||alluc.ee/js/ads.js$script
 @@||allvideos.me^$generichide
 @@||allvidview.com^$ghide
@@ -2534,6 +2539,8 @@
 @@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||amazonaws.com/socketloop/show_ads_epmads.js$script,domain=socketloop.com
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
+@@||amazonaws.com/storage.liveabc.com/ads/$domain=store.liveabc.com
+@@||amazonaws.com/storage.liveabc.com/ads/$domain=store.liveabc.com
 @@||amazonaws.com/warclicks-bucket/public_html/assets/scripts/cookie-js/js-cookie-master/src/js.cookie.js$domain=warclicks.com
 @@||amazonaws.com/zeroistanbulplaylist/$stealth,domain=zeroistanbul.com
 @@||amazonaws.com^
@@ -21008,6 +21015,8 @@
 @@||tutorial.siberuang.com/wp-content/plugins/wp-safelink/assets/fuckadblock.js
 @@||tutorials-technology.info^$generichide
 @@||tv-kino.net/wp-content/plugins/fb-traffic-pop/
+@@||tv.ads.spotx.tv^$domain=rakuten.tv
+@@||tv.ads.spotx.tv^$domain=rakuten.tv
 @@||tv.kakao.com^$stealth
 @@||tv.media.jio.com/streams_live/$stealth,domain=jionews.com
 @@||tv.sanook.com/ajax/get_ads?

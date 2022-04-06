@@ -1,8 +1,8 @@
-! Checksum: Nmtko9TWeDj8NT3+oy9LTA
+! Checksum: bwrNqAXfUJCky9yanYmkTg
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.28.30
-! TimeUpdated: 2022-04-06T07:30:17+00:00
+! Version: 2.0.28.36
+! TimeUpdated: 2022-04-06T15:30:24+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1062,6 +1062,7 @@
 ||smilered.com^
 ||weboohost.com^
 @@||m.beautypageants.in^$elemhide
+eromanga-kishin.com#@#.ad_widget
 @@||t7z.cupid.iqiyi.com/show2?$xmlhttprequest,domain=m.iqiyi.com
 m.humoruniv.com#%#//scriptlet("set-constant", "NAVER_ADPOST_V2", "noopFunc")
 m.livehindustan.com#$#html { overflow: auto !important; }
@@ -1496,8 +1497,8 @@ mudainodocument.com#$#.fixed { overflow: auto!important; position: static!import
 news.owata-net.com#$#.adnetwork.article-interstitial.overlay { display: none!important; }
 news.owata-net.com#$#html[style="overflow: hidden;"] { overflow: auto!important; }
 coolaler.com#$#.message-inner { display: flex !important; }
-shikotch.net#$##is_w_area { display: none!important; }
-shikotch.net#$#html.inv_scroll_cancel { overflow: auto!important; }
+jav.direct,shikotch.net#$##is_w_area { display: none!important; }
+jav.direct,shikotch.net#$#html.inv_scroll_cancel { overflow: auto !important; }
 izi.ua#$#div[class^="ProductFooter__root-"] { height: 0 !important; }
 r7.com#$#body.main-r7mobile { margin-top: 50px !important; }
 r7.com#$#body.main-r7mobile .wrapper-mobile-header { height: 50px !important; }
@@ -1855,6 +1856,18 @@ gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,techrada
 sports.ru,manager-magazin.de,amp.macwelt.de,amp.fitforfun.de,tomsguide.com,nordbayern.de,dallasnews.com,kansascity.com,futurezone.de,fr.de,spox.com,ran.de,stern.de,ruhr24.de,golem.de,berliner-zeitung.de,news.de,abendzeitung-muenchen.de,inside-digital.de,boerse.de,emtb-news.de,caravaning.de,areadvd.de,familie.de,derwesten.de,finanzen.net,o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.com,techbook.de,forbes.com,auto-swiat.pl,dialog.ua,mobile.reuters.com,spiegel.de,amp.welt.de,forum.xda-developers.com,sueddeutsche.de,amp.usatoday.com,m.gadgets.ndtv.com##amp-ad
 scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
+jav.direct##div[style^="width: 300px; height: 250px"]
+trinixy.ru##div.mdl-card[style^="text-align: center;"]
+sirogohan.com##.sp-banner
+yomiuri.co.jp##.p-ad-txt-wrap
+yomiuri.co.jp##.p-ad-list-item
+eromanga-kishin.com##.ad_morelow
+eromanga-kishin.com###spwrapper
+eromanga-kishin.com##.picad2row
+yomiuri.co.jp##.home-2021-ad-head-sp
+yomiuri.co.jp##.sp_ad_banner
+nukerumannga.com,ero-mangasokuhou.com,ero-mangalife.com,eromanga-cafe.com,doujincafe.com##.archive > div[style="margin:0 auto;"]:not([class])
+missav.com##div[style="width: 300px; height: 100px;"]
 augsburger-allgemeine.de##.aa-ad-frame
 mobile.baidu.com##.detail-banner
 psychologies.ru###div-hb-low-wrap
@@ -2081,7 +2094,7 @@ m.sport-express.ru##div[style*="width:325px;"][style*="height: 250px;"]
 softportal.com##.cardPageDescMain > div[style*="float:left;"][style*="max-width:100%;"]
 rg.ru###articleContainer + div.b-contacts__wrap
 heise.de##.article-body > .visible-xs > .visible-xs[style*="min-height:"]
-ero-cluster.com,chinshiko-outfit.com,eromanga-pon.com###ad_inview_area
+ddd-smart.net,ero-cluster.com,chinshiko-outfit.com,eromanga-pon.com###ad_inview_area
 eromanga-pon.com##.ad_big
 ||eromanga-castle.com/famsiro1.html
 dojinwatch.com,eromanga-castle.com,eromanga-cafe.com,doujincafe.com,nukerumannga.com,ero-mangalife.com,ero-mangasokuhou.com,ero-manga-platinum.net,erodoujinjohoukan.com,erodoujinshi-world.com,ero-comic-hunter.net,eromanga-cafe.com,eromanga-sevendays.net,moeero-library.com##.cntiframe
@@ -5022,6 +5035,7 @@ fplgameweek.com##mobile-sticky-ads
 ||graph.facebook.com^$app=com.quoord.tapatalkpro.activity
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 ||app.adjust.com^$app=com.easybrain.nonogram|ru.pikabu.android|com.maroieqrwlk.unpin|com.touchtao.soccerkinggoogle|com.mobirix.zumaking2|com.mobirix.swipebrick2|com.mobirix.mahjongking2|com.mobirix.hit7.casino.slots|com.mobirix.gmm|com.mobirix.fishingchampionship|com.mobirix.airhockey|com.mobirix.abmon|com.mobirix.MultiplyWar
+||cdn.skt-asum.com^$app=com.skt.prod.dialer
 @@||s9.cnzz.com^$app=com.unionpay
 ||startup.mobile.yandex.net^$app=ru.yandex.rasp
 ||m.mradx.net^$app=com.avito.android
