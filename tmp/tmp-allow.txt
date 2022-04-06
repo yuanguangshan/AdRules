@@ -81,6 +81,7 @@
 @@.com/adv/$domain=my.ctrip.com
 @@.com/adv/$domain=my.ctrip.com
 @@.com/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
+@@.com/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
 @@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
@@ -817,7 +818,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgokies.
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4721,6 +4722,7 @@
 @@||cdn.cpex.cz/logos/cnc.png$domain=zive.cz
 @@||cdn.cpex.cz/logos/cnc.png$domain=zive.cz
 @@||cdn.cpmstar.com/cached/js/advertisement.js
+@@||cdn.cpmstar.com/cached/js/advertisement.js
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=karstadt.de
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=karstadt.de
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=sloggi.com
@@ -4789,6 +4791,7 @@
 @@||cdn.hanime.tv/exoclick.ads*.js
 @@||cdn.honor.ru/pms/pages/adsImages/$domain=honor.ru
 @@||cdn.howtofixwindows.com/wp-content/*/better-adsmanager/js/advertising.min-*.js
+@@||cdn.hsmedia.ru/dist/maxim/$stealth
 @@||cdn.http.anno.channel4.com^$domain=channel4.com
 @@||cdn.http.anno.channel4.com^$domain=channel4.com
 @@||cdn.inside-handy.de/ih/top/
@@ -4991,6 +4994,7 @@
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=faz.net
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=fitforfun.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=freenet-funk.de
+@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=freiepresse.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=gentside.com|ohmymag.com
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=giga.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=saechsische.de
@@ -5216,7 +5220,6 @@
 @@||cdn.wololo.net/utilcave_com/templates/combine.php
 @@||cdn01js.dziennikwschodni.pl/js/showads.min.js
 @@||cdn1.pron.tv/xjs/advertisement.js$domain=pron.tv
-@@||cdn1.pron.tv/xjs/advertisement.js$domain=pron.tv
 @@||cdn1.smartadserver.com^
 @@||cdn13.com/*.mp4?$domain=xhamster.com
 @@||cdn13.com/*.mp4?$domain=xhamster.com
@@ -5332,6 +5335,7 @@
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls^
 @@||cdnjs.cloudflare.com^
 @@||cdnnetwork.info^$stealth,domain=hejo.tv
+@@||cdnpotok.com/*.php$stealth
 @@||cdnqq.net/ad/api/popunder.js$script
 @@||cdnqq.net/ad/api/popunder.js$script
 @@||cdnrole.com/videojs$script,domain=gounlimited.to
@@ -5650,7 +5654,6 @@
 @@||cloudflare.com/ajax/$stylesheet,domain=shink.me|shon.xyz
 @@||cloudflare.com/ajax/libs/*/fuckadblock.js$script,domain=depositfiles.org|dfiles.eu
 @@||cloudflare.com/ajax/libs/dash-shaka-playback/$script,domain=vpornvideos.com
-@@||cloudflare.com/ajax/libs/dash-shaka-playback/$script,domain=vpornvideos.com
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$script,domain=gamebox.gesoten.com
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$script,domain=gamebox.gesoten.com
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
@@ -5819,6 +5822,7 @@
 @@||code.jivosite.com^$domain=help.letyshops.ru
 @@||code.jquery.com/*.min.js$domain=audioz.download
 @@||code.jquery.com/*.min.js$domain=audioz.download
+@@||code.jquery.com/jquery-*.min.js$domain=kimcartoon.to
 @@||code.jquery.com/jquery-*.min.js$domain=kimcartoon.to
 @@||code.jquery.com^$domain=debridnet.com
 @@||code.jquery.com^$domain=mixdrop.co
@@ -7095,6 +7099,7 @@
 @@||driverays.com^$ghide
 @@||driverseddirect.com/html5/$document
 @@||drivetrain.ai/drive/*/metrics/$~third-party
+@@||drnasserelbatal.com/assets/js/prebid-ads.js
 @@||droid-life.com/wp-content/uploads/*-logo.$image,domain=droid-life.com
 @@||droid-life.com/wp-content/uploads/*-twitter.$image,domain=droid-life.com
 @@||droidtk.com^$generichide
@@ -11191,7 +11196,6 @@
 @@||hypercomments.com/api/login?
 @@||hypercomments.com/api/login?
 @@||hypercomments.com/auth/
-@@||hypercomments.com/auth/
 @@||hyperdebrid.*^$ghide
 @@||hyperdebrid.net^$generichide
 @@||hyperdebrid.net^$generichide
@@ -13140,8 +13144,6 @@
 @@||leakyfaucet.uk/show_ads.js$script
 @@||leanplum.com^$domain=nbc.com|leanplum.com
 @@||learnmania.org/js/*.js?_v=$script,~third-party
-@@||learnmania.org/js/*.js?_v=$script,~third-party
-@@||learnmania.org^$generichide
 @@||learnmania.org^$generichide
 @@||leboncoin.fr^$content
 @@||leboncoin.fr^$content
@@ -16751,7 +16753,6 @@
 @@||porngun.net^$ghide
 @@||pornhdx.tv^$generichide
 @@||pornhub.*/*?*&ajax=$xmlhttprequest
-@@||pornhub.*/*?*&ajax=$xmlhttprequest
 @@||pornhub.*/*?ajax=*&$xmlhttprequest
 @@||pornhub.*/*?ajax=*&$xmlhttprequest
 @@||pornhub.*/comment^
@@ -17889,6 +17890,7 @@
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
 @@||s8-tvn24.cdntvn.pl/js/_compressed/_adv/advert.js
+@@||s9.cnzz.com^$app=com.unionpay
 @@||sa.symcb.com^
 @@||saabcentral.com^$generichide
 @@||saabcentral.com^$generichide
@@ -20672,7 +20674,7 @@
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
 @@||toolforge.org/ad_block_test.js
-@@||tools.pdf24.org/de/cookie-banner-iframe
+@@||tools.pdf24.org/*/cookie-banner-iframe
 @@||tools.services.tvn.pl/_ads/advert.js
 @@||tools.usps.com/go/TrackConfirmAction
 @@||tools.usps.com/go/TrackConfirmAction
@@ -21083,6 +21085,7 @@
 @@||twimg.com^
 @@||twimg.com^*/img/twitter_web_sprite_$domain=twitter.com
 @@||twimg.com^*/tweets.js$domain=twitter.com
+@@||twineer.com^$generichide
 @@||twineer.com^$generichide
 @@||twitchadvertising.tv/wp-content/uploads/2014/06/header_logo_advertising.png
 @@||twitlonger.com/images/sign-in-with-twitter.png
@@ -22166,6 +22169,7 @@
 @@||web.archive.org^$generichide
 @@||web.de/fairplay/?section=$ghide
 @@||web.facebook.com^$generichide
+@@||web.mention.com^$document
 @@||web.mention.com^$document
 @@||web.skype.com^$stealth
 @@||web.telegram.org^$generichide

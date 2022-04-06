@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: htRkKuyYlUhXkLJOMO9EzQ
+! Checksum: XjhB6rDBleR6cOATVYETRw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-06 08:59:58（北京时间） 
-! Total count: 81126
+! Version: 2022-04-06 16:16:10（北京时间） 
+! Total count: 81133
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -20151,6 +20151,7 @@
 ||chiaperottipaolo.it^
 ||chiasephim.xyz^
 ||chicaudo.com^
+||chicgar.info^
 ||chichayen.com^
 ||chichosebook.com^
 ||chickencashier.com^
@@ -20277,6 +20278,7 @@
 ||chuckfaganco.com^
 ||chuckledinadmissible.com^
 ||chuckozeas.com^
+||chudongcaiwu.xyz^
 ||chufudsi.net^
 ||chugagre.com^
 ||chukalapopi.com^
@@ -38838,6 +38840,7 @@
 ||iwantglobal.actonservice.com^
 ||iwanttodeliver.com^
 ||iwantuonly.com^
+||iwe.ktvgv.com^
 ||iwebtrack.com^
 ||iwfofotjwlcphm.xyz^
 ||iwhha.top^
@@ -47447,6 +47450,7 @@
 ||moviets.tc.qq.com^
 ||movii-loft.cn^
 ||mowfruit.com^
+||mowunai.ru^
 ||mowuzoji.xyz^
 ||mowvra.idlookmall.com^
 ||mowyappedbibs.com^
@@ -77484,6 +77488,7 @@
 ||wudejia.com^
 ||wudr.net^
 ||wueihlouuw.com^
+||wufeilong.top^
 ||wufel.ml^
 ||wuidtl.com^
 ||wulian.in^
@@ -79291,6 +79296,7 @@
 ||yanend.com^
 ||yanghuaer.mobi^
 ||yanglangkk.cn^
+||yangtianc.xyz^
 ||yangtingchina.com^
 ||yangtzeev.com^
 ||yanguomedia.top^
@@ -81131,4 +81137,5 @@
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
+||zzznews.ru0 cdn.pubnative.net^
 ||zzznews.ru^

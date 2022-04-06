@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: w7/dvIvW6rR7o2pJEW9akQ
+! Checksum: whp8aJzS8Zp5NuU8cVMCJA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-04-06 08:59:58（北京时间） 
-! Total count: 17872
+! Version: 2022-04-06 16:16:10（北京时间） 
+! Total count: 17877
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -622,7 +622,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgokies.
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3656,6 +3656,7 @@
 @@||cdn.hanime.tv/exoclick.ads*.js
 @@||cdn.honor.ru/pms/pages/adsImages/$domain=honor.ru
 @@||cdn.howtofixwindows.com/wp-content/*/better-adsmanager/js/advertising.min-*.js
+@@||cdn.hsmedia.ru/dist/maxim/$stealth
 @@||cdn.http.anno.channel4.com^$domain=channel4.com
 @@||cdn.inside-handy.de/ih/top/
 @@||cdn.interactivemedia.net/live/Med1.de/live/globalAdTag.min.js$domain=med1.de
@@ -3818,6 +3819,7 @@
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=faz.net
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=fitforfun.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=freenet-funk.de
+@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=freiepresse.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=gentside.com|ohmymag.com
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=giga.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=saechsische.de
@@ -4072,6 +4074,7 @@
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls^
 @@||cdnjs.cloudflare.com^
 @@||cdnnetwork.info^$stealth,domain=hejo.tv
+@@||cdnpotok.com/*.php$stealth
 @@||cdnqq.net/ad/api/popunder.js$script
 @@||cdnrole.com/videojs$script,domain=gounlimited.to
 @@||cdnrole.com^$css,domain=gounlimited.to
@@ -5455,6 +5458,7 @@
 @@||driverays.com^$ghide
 @@||driverseddirect.com/html5/$document
 @@||drivetrain.ai/drive/*/metrics/$~third-party
+@@||drnasserelbatal.com/assets/js/prebid-ads.js
 @@||droid-life.com/wp-content/uploads/*-logo.$image,domain=droid-life.com
 @@||droid-life.com/wp-content/uploads/*-twitter.$image,domain=droid-life.com
 @@||droidtk.com^$generichide
@@ -13742,6 +13746,7 @@
 @@||s7.addthis.com^*/addthis_widget.js*username=$domain=iamsecond.com
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
 @@||s8-tvn24.cdntvn.pl/js/_compressed/_adv/advert.js
+@@||s9.cnzz.com^$app=com.unionpay
 @@||sa.symcb.com^
 @@||saabcentral.com^$generichide
 @@||saarbruecker-zeitung.de/assets/adsbygoogle.js$script,1p
@@ -15926,7 +15931,7 @@
 @@||toolbox.dfb.de/img/partner-logos^
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
 @@||toolforge.org/ad_block_test.js
-@@||tools.pdf24.org/de/cookie-banner-iframe
+@@||tools.pdf24.org/*/cookie-banner-iframe
 @@||tools.services.tvn.pl/_ads/advert.js
 @@||tools.usps.com/go/TrackConfirmAction
 @@||tools.usps.com/go/scripts/tracking.js

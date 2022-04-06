@@ -14547,6 +14547,7 @@ crunchyroll.com###template_skin_leaderboard
 ! https://github.com/uBlockOrigin/uAssets/issues/6029
 *$popunder,3p,domain=spankbang.com
 spankbang.com##+js(nowoif)
+spankbang.com##+js(set, chrome, undefined)
 spankbang.com##a[class][href^="https://www.blacked.com/"]
 spankbang.com##.video-item:not([id]):not([data-id])
 spankbang.com###interstitial_div
@@ -18247,6 +18248,7 @@ customgames.ru##+js(acis, $, samAdBlockAction)
 
 ! fellowsfilm .com anti adb
 fellowsfilm.com##+js(acis, document.querySelector, XF)
+fellowsfilm.com##[data-author="Advertisement"]
 
 ! zwergenstadt .com anti adb
 zwergenstadt.com##+js(aeld, load, onload)
