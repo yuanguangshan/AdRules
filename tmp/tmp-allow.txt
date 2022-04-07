@@ -820,7 +820,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgokies.
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3486,8 +3486,6 @@
 @@||autotrader.co.uk^*/advert$~third-party
 @@||autotrader.co.uk^*/advert$~third-party
 @@||av-th.info^$ghide
-@@||av01.tv/av01/videojs/imads.js
-@@||av01.tv/wp-content/themes/wp-script-theme/vendor/*/trigger_video_hls.js
 @@||av30.xyz/cs/2.js
 @@||av30.xyz/cs/2.js
 @@||av4u.info/source/plugin/unadblock^
@@ -9680,7 +9678,6 @@
 @@||google.com/maps/embed/v*/place?key=$stealth
 @@||google.com/payments/*/adwords.$document,subdocument
 @@||google.com/payments/*/adwords.$document,subdocument
-@@||google.com/recaptcha/$csp,script,subdocument
 @@||google.com/recaptcha/$csp,subdocument
 @@||google.com/recaptcha/$csp,subdocument
 @@||google.com/recaptcha/$domain=vidoza.net
@@ -9855,7 +9852,6 @@
 @@||googlesyndication.com^$xhr,domain=extremereportbot.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
-@@||googletagmanager.com/gtag/js$domain=av01.tv
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
