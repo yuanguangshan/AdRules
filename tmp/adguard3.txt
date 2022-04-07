@@ -1,8 +1,8 @@
-! Checksum: GgK+jodJmHVnw/gI2JH0Ag
+! Checksum: k183fPOw70XhGdXH36FDmg
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.37.66
-! TimeUpdated: 2022-04-06T14:31:22+00:00
+! Version: 2.0.37.69
+! TimeUpdated: 2022-04-06T20:31:23+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -4811,6 +4811,7 @@ nethunt.com/api/v1/track/email/$image
 ||tags.news.com.au^$~script
 ||telemetry.mozilla.org^
 ||ts.delfi.lt^
+||tracking.gvm.com.tw^
 ||metrics.beyondwords.io^
 ||launcher.spot.im^
 ||api.data.ciceksepeti.com^
@@ -19583,6 +19584,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||plausible.io/js/p.js
 ||plausible.io/api/event
 /umami.js
+/com_jrealtimeanalytics/*
+/koko-analytics/*
+/top-10-tracker.min.js
 /bsp-analytics.
 /acclog.cgi?
 /acclog.js
@@ -19972,6 +19976,7 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
+chinatimes.com##.popin-recommend
 ||static.sahibinden.com/assets/analytics*.js
 ||prtimes.jp/common/*/html/js/heatmap-senddata.js
 ||prtimes.jp/common/js/GTMhead.js
@@ -22618,6 +22623,8 @@ link.gmapp*.net$image
 ||daumcdn.net/*/ba.min.js
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||bing.com/fd/ls/
+||ok.ru^$cookie=_statid
+||ok.ru^$cookie=mtrc
 ||popmech.ru^$cookie=popmech_nuid
 ||productreview.com.au^$cookie=pr_guest_id
 ||productreview.com.au^$cookie=pr_visitor_id

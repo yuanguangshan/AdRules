@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: zSKTwxdsnnWIlnK5bjw3dQ
+! Checksum: X0LEVwE6RsID4fRfapd8hg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-04-07 00:17:57（北京时间） 
-! Total count: 17884
+! Version: 2022-04-07 08:58:25（北京时间） 
+! Total count: 17883
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -624,7 +624,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom/verify.pl?
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgketing.navieninc.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3695,7 +3696,6 @@
 @@||cdn.jsdelivr.net/gh/imediacdn/wp-plugins@main/imedia-basic/doubleserve.js$domain=sgxnifty.org
 @@||cdn.jsdelivr.net/gh/njentit/testads/ads.js
 @@||cdn.jsdelivr.net/gh/video-dev^
-@@||cdn.jsdelivr.net/hls.js/latest/hls.min.js$domain=javmost.com
 @@||cdn.jsdelivr.net/jwplayer/5.10/jwplayer.js$script
 @@||cdn.jsdelivr.net/npm/$domain=strikeout.co
 @@||cdn.jsdelivr.net/npm/*/fuckadblock$script,xhr,domain=series-d.com
@@ -5257,7 +5257,6 @@
 @@||diymediahome.org/*/adframe.min.js$script,~third-party
 @@||dizhi99.com^$generichide
 @@||dizigold.org^$stealth
-@@||dizilabapi.com/embed-$stealth
 @@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
 @@||dkb.de^$cookie=dtCookie
 @@||dkbs.sabio.de/sabio/services/$removeparam
@@ -7977,6 +7976,7 @@
 @@||grandcentral.1plus1.video^$stealth
 @@||grandhotelcalciomercato.com/js/prebid-ads.js
 @@||grapeshot.co.uk/image-resize/$image
+@@||grapeshot.co.uk/main/channels.cgi$script,domain=telegraph.co.uk
 @@||grapeshot.co.uk/sare-api/
 @@||graph.facebook.com/?id=$domain=mintmanga.com|findanime.me|doramatv.ru|librebook.me|selflib.me|grouple.co|readmanga.me
 @@||graph.facebook.com^
@@ -8992,6 +8992,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/outstream.js$domain=wanted5games.com
 @@||imasdk.googleapis.com/js/sdkloader/outstream.js$script,domain=agar.io
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$domain=vod.tvp.pl
+@@||imasdk.googleapis.com/js/sdkloautube.com##.promoted-sparkles-text-search-root-container
 @@||imasdk.googleapis.com/native/core*/native_bridge__*.js$domain=2mdn.net
 @@||imasdk.googleapis.com/native/core/$app=com.dailymail.online
 @@||imasdk.googleapis.com/native/core/*/native_bridge_$app=com.goldtouch.ynet
@@ -9443,11 +9444,9 @@
 @@||javgay.com^$generichide
 @@||javhdonline.com^$generichide
 @@||javhdx.tv$generichide
-@@||javmost.com/ad*.php$subdocument,~third-party
 @@||javpee.com/*.js|$script
 @@||javplayer.com^$ghide
 @@||javporn.*^$ghide
-@@||javpost.net/ads*.php?id=$subdocument,domain=javmost.com
 @@||javpost.net/ads.php
 @@||javsubtitle.co^$generichide
 @@||javsubtitle.co^$ghide
@@ -10976,7 +10975,7 @@
 @@||mps.nbcuni.com/request/component/automagic?name=abga.js$domain=nbcsports.com
 @@||mps.nbcuni.com/request/page/jsonp?CALLBACK=mpsCallback&cat=home$domain=nbcsports.com
 @@||mpsnare.iesnare.com/general5/wdp.js$domain=usbank.com
-@@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
+@@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|equifax.ca|login.skype.com|vitacost.com
 @@||mpsnare.iesnare.com/snare.js$domain=rossmann.de
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
 @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
@@ -12008,6 +12007,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=humannootropicsindex.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ifate.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imagetotext.iblogbox.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imagetotext.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=investing.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=it-actual.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=jaanmusic.in
@@ -15929,7 +15929,6 @@
 @@||toggo.de/module/catchup/admeta.php
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
 @@||tokviewer.com^$ghide
-@@||tokyoghoulre.net^$ghide
 @@||tomato.to^$generichide
 @@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||tonatto.com/skin/*css
@@ -17532,7 +17531,6 @@
 @@||x5.xclicks.net/js/x3165.js$domain=small-breasted-teens.com
 @@||x6img.com^
 @@||xarold.com/*ads.php
-@@||xarold.com^$ghide
 @@||xavierstuder.com^$ghide
 @@||xbox-store-checker.com/assets/js/*ads*.js
 @@||xbox.ipv6.microsoft.com^
@@ -17573,6 +17571,7 @@
 @@||xiaomifirmwareupdater.com^$generichide
 @@||xiaomifirmwareupdater.com^$ghide
 @@||xiaomitoday.com^$ghide
+@@||xiaoyuanzhao.com/adserviccom##.centerBannerRight
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@||xidian.edu.cn^$generichide
 @@||xifuquan.com^
