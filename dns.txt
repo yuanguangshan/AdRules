@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 03BjCW4QOQBpo+bY5mqrcg
+! Checksum: 62GsjNh2tjChdBVGZcKRNA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、adgk、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-07 08:58:25（北京时间） 
-! Total count: 81477
+! Version: 2022-04-07 10:05:40（北京时间） 
+! Total count: 81487
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -5626,6 +5626,7 @@
 ||abasgimental.com^
 ||abashcoppercocky.com^
 ||abasir.com^
+||abb.lxiaoxin.com^
 ||abbalin.com^
 ||abbanreddy.com^
 ||abbeyxxx.com^
@@ -30568,6 +30569,7 @@
 ||fc.dt243100.com^
 ||fc.focusonus.top^
 ||fc.gaizong.cn^
+||fc.holor857.cn^
 ||fc.itmedia.co.jp^
 ||fc.jgshwx.com^
 ||fc.tiepan.cn^
@@ -30837,6 +30839,7 @@
 ||fg.kzxsrxf.cn^
 ||fg.rmzbfum.cn^
 ||fg.yilianqing.com^
+||fg.yystzl.cn^
 ||fg.zgnajue.com^
 ||fgafkk.com^
 ||fgaqwtr.com^
@@ -39231,6 +39234,7 @@
 ||ja.ad-stir.com^
 ||ja.daimude.com^
 ||ja.ouxutong.com^
+||ja.stmzzs.com^
 ||ja.wenluoxi.com^
 ||ja.yushuha.com^
 ||ja2n2u30a6rgyd.com^
@@ -41094,6 +41098,7 @@
 ||kmr.yhjzg.cn^
 ||kmr.yvfnb.cn^
 ||kmrcewt.cn^
+||kmt.cslpf.cn^
 ||kmt.oomll.cn^
 ||kmt.xkzjq.cn^
 ||kmt.zhwpg.cn^
@@ -41302,6 +41307,7 @@
 ||kropka.onet.pl^
 ||krotovroman.ru^
 ||krouekal.com^
+||krt.zhengxiaoliu.top^
 ||krum.vsct.fr^
 ||krusevo.gov.mk^
 ||krutilka.net^
@@ -45436,6 +45442,7 @@
 ||mc.xheqbc.cn^
 ||mc.yandex.com^
 ||mc.yandex.ru^
+||mc.yqgzaewe.cn^
 ||mc876.com^
 ||mcad.mods-clinic.com^
 ||mcaril.com^
@@ -46596,6 +46603,7 @@
 ||mg.32r.com^
 ||mg.adskeeper.co.uk^
 ||mg.dt00.net^
+||mg.excsyrv.cn^
 ||mg.glwxw.net^
 ||mg.hxhhb120.cn^
 ||mg.jomwihn.cn^
@@ -72340,6 +72348,7 @@
 ||trkunited.com^
 ||trl.upperbooking.com^
 ||trlf8mmpbfz1.com^
+||trlxcf05.com^
 ||trmads.eu^
 ||trmget.eu^
 ||trmit.com^
@@ -81482,4 +81491,5 @@
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 ||zzz.pissrip.net^
+||zzznews.ru020workaffnew.top^
 ||zzznews.ru^

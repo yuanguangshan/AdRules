@@ -820,8 +820,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgketing.navieninc.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -11974,7 +11972,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/outstream.js$domain=wanted5games.com
 @@||imasdk.googleapis.com/js/sdkloader/outstream.js$script,domain=agar.io
 @@||imasdk.googleapis.com/js/sdkloader/vpaid_adapter.js$domain=vod.tvp.pl
-@@||imasdk.googleapis.com/js/sdkloautube.com##.promoted-sparkles-text-search-root-container
 @@||imasdk.googleapis.com/native/core*/native_bridge__*.js$domain=2mdn.net
 @@||imasdk.googleapis.com/native/core/$app=com.dailymail.online
 @@||imasdk.googleapis.com/native/core/*/native_bridge_$app=com.goldtouch.ynet
@@ -22764,7 +22761,6 @@
 @@||xiaomifirmwareupdater.com^$generichide
 @@||xiaomifirmwareupdater.com^$ghide
 @@||xiaomitoday.com^$ghide
-@@||xiaoyuanzhao.com/adserviccom##.centerBannerRight
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@||xidian.edu.cn^$generichide

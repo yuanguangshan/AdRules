@@ -30970,7 +30970,6 @@ hvg.hu##.hvg-bank360
 hvg.hu##.leaderboard-1a
 hvg.hu##a[title="Ratecard"]
 hvg.hu#@#[class="articleitem clear smallimage imgleft"]
-hwc.com^
 hwinfo.com##.download > div[class^="xds"]
 hwsw.hu##.adoomany
 hwupgrade.it###col-dx-inner > div[style="width:300px; height:250px; "]:not([class]):not([id])
@@ -45572,6 +45571,7 @@ zznews.cn##.ad:not([style])
 ||abandonedaction.com^
 ||abasgimental.com^
 ||abasir.com^
+||abb.lxiaoxin.com^
 ||abbao.cn^*adblock
 ||abblm.com^
 ||abc.bayer04.de^
@@ -57513,6 +57513,7 @@ zznews.cn##.ad:not([style])
 ||fc.dt243100.com^
 ||fc.focusonus.top^
 ||fc.gaizong.cn^
+||fc.holor857.cn^
 ||fc.jgshwx.com^
 ||fc.tiepan.cn^
 ||fc.vodafone.de^
@@ -57662,6 +57663,7 @@ zznews.cn##.ad:not([style])
 ||fg.kzxsrxf.cn^
 ||fg.rmzbfum.cn^
 ||fg.yilianqing.com^
+||fg.yystzl.cn^
 ||fg.zgnajue.com^
 ||fgbgtt.cian.ru^
 ||fgbsrtolbscjy.com^
@@ -62830,6 +62832,7 @@ zznews.cn##.ad:not([style])
 ||ja*.gamersky.com^
 ||ja.daimude.com^
 ||ja.ouxutong.com^
+||ja.stmzzs.com^
 ||ja.wenluoxi.com^
 ||ja.yushuha.com^
 ||ja2n2u30a6rgyd.com^
@@ -64161,6 +64164,7 @@ zznews.cn##.ad:not([style])
 ||kmr.yhjzg.cn^
 ||kmr.yvfnb.cn^
 ||kmrcewt.cn^
+||kmt.cslpf.cn^
 ||kmt.oomll.cn^
 ||kmt.xkzjq.cn^
 ||kmt.zhwpg.cn^
@@ -64276,6 +64280,7 @@ zznews.cn##.ad:not([style])
 ||krnhplalugndkkf.com^
 ||kronosspell.com^
 ||kropka.onet.pl^
+||krt.zhengxiaoliu.top^
 ||krw.yrehdfer.com^
 ||krxd.net^
 ||krxd.net^$domain=focus.de
@@ -66877,6 +66882,7 @@ zznews.cn##.ad:not([style])
 ||mc.xheqbc.cn^
 ||mc.yandex.com^
 ||mc.yandex.ru^
+||mc.yqgzaewe.cn^
 ||mcad.mods-clinic.com^
 ||mcafee.com^$removeparam=ccstype
 ||mcafee.com^$removeparam=cctype
@@ -67599,6 +67605,7 @@ zznews.cn##.ad:not([style])
 ||mfr.cdn.dopc.cz^$script,domain=www.idnes.cz|expres.cz
 ||mftnmq.keyuca.com^
 ||mg.32r.com^
+||mg.excsyrv.cn^
 ||mg.glwxw.net^
 ||mg.hxhhb120.cn^
 ||mg.jomwihn.cn^
