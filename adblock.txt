@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: weA8Lo8XPeJWl144uTy+rA
+! Checksum: z+33QdaAeRYvg4962ZxUgA
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-04-07 22:39:41（北京时间） 
-! Total count: 89095
+! Version: 2022-04-07 23:17:04（北京时间） 
+! Total count: 89098
 ###ADCENTER
 ###ADSLOT_1
 ###ADTOP
@@ -17770,7 +17770,6 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 18h.avmimi.com##body > table[width="100%"]:nth-child(2)
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
 18porn.sex,4kporn.xxx,bigtitslust.com,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,heroero.com,intporn.com,japaneseporn.xxx,mrdeepfakes.com,pornchimp.com,porndr.com,rare-videos.net,sortporn.com,xcavy.com,xgroovy.com,xxxshake.com##.table
-19.aspx?clickref=1100liwZjcmH&c=kelkoo_uk&af_siteid=1100l62250&af_sub_siteid=1011l271&af_cost_model=CPA&af_channel=affiliate&is_retargeting=true
 1905.com##.ad-couplet,#hd-tab-label4,div.bd-tab.video-list:last-child
 1905.com##.mobile_ad_promote
 1905.com##.zx-pic
@@ -39864,11 +39863,12 @@ spanishdict.com##+js(nano-setTimeout-booster, function(){c(e)}, *)
 spanishdict.com##.video-ad
 spanishdict.com##.whitelist
 spanishdict.com##div[id^="adSide"]
-spankbang.com###interstitial_div
 spankbang.com##+js(no-setTimeout-if, window.location=page_url)
+spankbang.com##+js(set-constant, chrome, undefined)
 spankbang.com##+js(window.open-defuser)
 spankbang.com##.ptgncdn_holder
 spankbang.com##.video-item:not([id]):not([data-id])
+spankbang.com#$##interstitial_div { display: none !important; }
 spankwire.com#$#abort-on-property-write ppAb
 sparknotes.com##.distroscale_container_right_rail
 sparknotes.com##.incontent-ads-container
@@ -45680,6 +45680,7 @@ zznews.cn##.ad:not([style])
 ||6dvip.com^
 ||6g.sybnzs.cn^
 ||6gt.cc^
+||6gukaitu.xyz^
 ||6gustis.xyz^
 ||6huu.com^
 ||6ldu6qa.com^$third-party
@@ -62381,7 +62382,9 @@ zznews.cn##.ad:not([style])
 ||howtogeek.com/emv2/
 ||howtoremoveadblock.com/js/adblock-detector.js$script
 ||hp.com^$removeparam=jumpid
+||hpav.tv/a720.html
 ||hpi.de^$removeparam=tracking_id
+||hpjav.tv/a720.html
 ||hpjhmgip.com^
 ||hpl.tyjnwg.top^
 ||hpr.outbrain.com^
