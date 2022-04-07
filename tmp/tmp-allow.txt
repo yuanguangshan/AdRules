@@ -1244,6 +1244,7 @@
 @@||9anime.to/assets^
 @@||9anime.to/captcha/
 @@||9anime.to/user/ajax/
+@@||9anime.to/user/ajax/
 @@||9anime.vip/ajax/
 @@||9anime.vip/ajax/
 @@||9anime.vip/assets/js/ads.js
@@ -7442,6 +7443,7 @@
 @@||eloqua.com/visitor/v200/svrgp.aspx?$domain=itworld.com|juniper.net
 @@||eloqua.com/visitor/v200/svrgp.aspx?$domain=itworld.com|juniper.net
 @@||eloqua.com^$domain=forms.progress.com
+@@||eloqua.com^$domain=forms.progress.com
 @@||eloqua.com^*/svrGP.aspx?$subdocument,domain=itworld.com
 @@||elrellano.com^$ghide
 @@||elsate.com/styles/elsate/template/*$script,1p
@@ -10460,7 +10462,6 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=askmen.com
 @@||googletagservices.com/tag/js/gpt.js$domain=biblestudytools.com
 @@||googletagservices.com/tag/js/gpt.js$domain=cars.ksl.com
-@@||googletagservices.com/tag/js/gpt.js$domain=cars.ksl.com
 @@||googletagservices.com/tag/js/gpt.js$domain=chelseafc.com|epaper.timesgroup.com|k2radio.com|koel.com|kowb1290.com|nbcsports.com|scotsman.com|uefa.com|vimeo.com|windalert.com
 @@||googletagservices.com/tag/js/gpt.js$domain=chelseafc.com|epaper.timesgroup.com|k2radio.com|koel.com|kowb1290.com|nbcsports.com|scotsman.com|uefa.com|vimeo.com|windalert.com
 @@||googletagservices.com/tag/js/gpt.js$domain=cinemaxx.de
@@ -10583,6 +10584,7 @@
 @@||grahaflasher.com^$ghide
 @@||gram.pl/js/advertising.js$script
 @@||grandcentral.1plus1.video^$stealth
+@@||grandhotelcalciomercato.com/js/prebid-ads.js
 @@||grandhotelcalciomercato.com/js/prebid-ads.js
 @@||grapeshot.co.uk/image-resize/$image
 @@||grapeshot.co.uk/image-resize/$image
@@ -11053,7 +11055,6 @@
 @@||hopper.com/static2/w2/images/google-$domain=hopper.com
 @@||hoquangdai.com/j2/src/advertisement.js
 @@||hornywood.tv/intermission/loadTargetUrl$xmlhttprequest
-@@||horriblesubs.info/static/hs.js
 @@||horriblesubs.info/static/hs.js
 @@||hostedprebid.com/*/jita.js$domain=sonichits.com
 @@||hosting24.com^
@@ -12866,8 +12867,6 @@
 @@||kfcorder.com.tw^*/Advert
 @@||kfcorder.com.tw^*/Advert
 @@||khcu.ac.kr/resources/user/adImg/
-@@||khcu.ac.kr/resources/user/adImg/
-@@||khcu.ac.kr/resources/user/adcss/
 @@||khcu.ac.kr/resources/user/adcss/
 @@||khedame.com^$generichide
 @@||khelnow.com^$ghide
@@ -14262,6 +14261,7 @@
 @@||mitsubishiclub.cz^$ghide
 @@||mitsubishielectric.com/*/js/cookie_policy.js
 @@||mittui.com/?*token=$stealth
+@@||miui.com/unlock/$stealth
 @@||miuipro.ru/advert.js
 @@||miuiturkiye.net^$ghide
 @@||mivo.com^$generichide
@@ -15435,7 +15435,6 @@
 @@||openx.net^$script,domain=allmusic.com
 @@||opjav.com^$ghide
 @@||oploverz.in/wp-content/*.png#*_ad
-@@||oploverz.in^$generichide
 @@||oploverz.in^$generichide
 @@||ops.prismamediadigital.com/js/advertisement.js$xmlhttprequest,domain=voici.fr
 @@||opt.semasio.net/optsvc^$domain=youronlinechoices.com
@@ -17090,7 +17089,6 @@
 @@||publicwww.com^$generichide
 @@||publicwww.com^$generichide
 @@||publiekeomroep.nl/data/script/cconsent$domain=vpro.nl
-@@||publisher.adservice.com^$document
 @@||publisher.adservice.com^$document
 @@||publisher.adservice.com^$domain=publisher.adservice.com
 @@||publisher.adservice.com^$domain=publisher.adservice.com
@@ -20246,7 +20244,6 @@
 @@||teamquest.pl/img/static/$image
 @@||teams.microsoft.com^$generichide
 @@||teams.microsoft.com^$generichide
-@@||tech-platform.info^$generichide
 @@||tech-platform.info^$generichide
 @@||techacode.com/peel.js
 @@||techacode.com/peel.js
