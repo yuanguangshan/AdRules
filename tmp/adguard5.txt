@@ -1,8 +1,8 @@
-! Checksum: IrEA8LnWaC1rmu6huuoieg
+! Checksum: 4/vF6V/PFt1gZJQQfSdafg
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.14.85
-! TimeUpdated: 2022-04-07T14:30:37+00:00
+! Version: 2.1.14.86
+! TimeUpdated: 2022-04-07T15:30:35+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -16884,7 +16884,6 @@ legionscans.com,a2zapk.com,flinsetyadi.com,theaircurrent.com,fully-fundedscholar
 now.rememberapp.co.kr,melodelaa.link,asus-zenfone.com,techieway.blogspot.com,chronologia.pl#%#//scriptlet("abort-current-inline-script", "document.onselectstart")
 hinfomax.co.kr,britg.kr,japanxxxmovie.com,sexpox.com,47news.jp,learn-from-homey.blogspot.com,belajarbro.id#%#//scriptlet("abort-current-inline-script", "$", "contextmenu")
 priemnaya.duma.gov.ru#%#AG_onLoad(function() {setTimeout(() => $('#treat_body_text').unbind(), 300);});
-gosuslugi.ru#%#//scriptlet("prevent-addEventListener", "click", "native")
 gosuslugi.ru#%#//scriptlet("prevent-addEventListener", "/keyup|keydown/")
 yodu.org,linovelib.com#%#//scriptlet('remove-attr', 'onselectstart', 'body')
 xn--b1aew.xn--p1ai#%#//scriptlet("abort-on-property-write", "document.onselectstart")

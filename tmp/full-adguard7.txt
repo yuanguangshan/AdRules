@@ -1,8 +1,8 @@
-! Checksum: 5iPAaTP/KlOrm13duVckTA
+! Checksum: NI2i/H6eG0DbYFuB6VpfNA
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.2.35
-! TimeUpdated: 2022-04-06T07:30:40+00:00
+! Version: 2.0.2.36
+! TimeUpdated: 2022-04-07T15:30:42+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -139,6 +139,9 @@ $removeparam=fbclid
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! popin.cc widgets
+||popin.cc/popin_discovery/$script,removeparam=info
+||popin.cc/popin_discovery/$script,removeparam=uid
 ! cancanlah.com
 ||cancanlah.com^$removeparam=click_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114505

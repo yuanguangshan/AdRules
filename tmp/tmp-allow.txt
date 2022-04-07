@@ -820,6 +820,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgketing.navieninc.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -16727,7 +16728,6 @@
 @@||popcorntv.it^$ghide
 @@||popeater.com/traffic/?$script,domain=popeater.com
 @@||popeater.com/traffic/?$script,domain=popeater.com
-@@||popin.cc/popin_discovery/$script,domain=mainichikirei.jp
 @@||popjav.tv^$generichide
 @@||popjav.tv^$generichide
 @@||popler.tv^$stealth

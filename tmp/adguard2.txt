@@ -1,8 +1,8 @@
-! Checksum: phj+5rpVGJjWoXeRhakYPw
+! Checksum: Qy2ZGSnc5Tz4a7uAjc5RlQ
 ! Title: AdGuard URL Tracking filter (Optimized)
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.2.35
-! TimeUpdated: 2022-04-06T07:30:40+00:00
+! Version: 2.0.2.36
+! TimeUpdated: 2022-04-07T15:30:42+00:00
 ! Expires: 4 days (update frequency)
 $removeparam=adfrom
 $removeparam=nx_source
@@ -93,6 +93,8 @@ $removeparam=oly_enc_id
 $removeparam=ebisAdID
 $removeparam=irgwc
 $removeparam=fbclid
+||popin.cc/popin_discovery/$script,removeparam=info
+||popin.cc/popin_discovery/$script,removeparam=uid
 ||cancanlah.com^$removeparam=click_id
 ||api.cxense.com/public/widget/data?json=$script,removeparam=usi
 ||api.cxense.com/public/widget/data?json=$script,removeparam=widgetId
