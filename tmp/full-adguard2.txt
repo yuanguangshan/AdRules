@@ -1,8 +1,8 @@
-! Checksum: +qje7bHCYHmeT6jkRmLJtA
+! Checksum: HqoGAFTsRpSPMn5NEADAyw
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.37.75
-! TimeUpdated: 2022-04-07T15:31:20+00:00
+! Version: 2.0.37.79
+! TimeUpdated: 2022-04-07T21:31:16+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -319,6 +319,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||stlog.d.dmkt-sp.jp^
+||dynatrace-managed.com^
 ||cdn.reproio.com^
 ||init.blackcrow.ai^
 ||taplytics.com^$third-party
@@ -5105,6 +5107,7 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||alxc.addlv.smt.docomo.ne.jp^
 ||pa.pinpoll.com^
 ||d2wu036mkcz52n.cloudfront.net^
 ||ts.delfi.lt^
@@ -20633,6 +20636,9 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
 !
+bizjournals.com##.c1-ad-sticky
+||player.filmizle.vip/js/video.counters.2.js
+||dxlive.com/js/dtrace.js
 chinatimes.com##.popin-recommend
 ||static.sahibinden.com/assets/analytics*.js
 ||prtimes.jp/common/*/html/js/heatmap-senddata.js

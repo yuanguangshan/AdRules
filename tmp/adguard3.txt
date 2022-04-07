@@ -1,8 +1,8 @@
-! Checksum: 0J7faTqDsJ67emEdF9LEbA
+! Checksum: Z9LwEs7xpF4Hdogceh4XOg
 ! Title: AdGuard Tracking Protection filter (Optimized)
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.37.75
-! TimeUpdated: 2022-04-07T15:31:20+00:00
+! Version: 2.0.37.79
+! TimeUpdated: 2022-04-07T21:31:16+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -122,6 +122,8 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||ib.snssdk.com^
 ||xlog.snssdk.com^
 ||log.snssdk.com^
+||stlog.d.dmkt-sp.jp^
+||dynatrace-managed.com^
 ||cdn.reproio.com^
 ||init.blackcrow.ai^
 ||taplytics.com^$third-party
@@ -4811,6 +4813,7 @@ nethunt.com/api/v1/track/email/$image
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||tags.news.com.au^$~script
 ||telemetry.mozilla.org^
+||alxc.addlv.smt.docomo.ne.jp^
 ||pa.pinpoll.com^
 ||d2wu036mkcz52n.cloudfront.net^
 ||ts.delfi.lt^
@@ -19979,6 +19982,9 @@ _tracking.php?b=
 ||adc.nine.com.au/?token=$redirect=nooptext,important,domain=9now.com.au
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 /analytics.js$domain=bataryapil.com|journey.com.tr|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|partifabrik.com|newsmax.com|bolgehastanesi.com|ewtc.de
+bizjournals.com##.c1-ad-sticky
+||player.filmizle.vip/js/video.counters.2.js
+||dxlive.com/js/dtrace.js
 chinatimes.com##.popin-recommend
 ||static.sahibinden.com/assets/analytics*.js
 ||prtimes.jp/common/*/html/js/heatmap-senddata.js

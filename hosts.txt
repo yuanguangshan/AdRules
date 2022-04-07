@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: UwLhkS4s8m+C/semlgM1CQ
+! Checksum: gG4LMhKHfJuwMvh7nvrNMA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-08 00:17:59（北京时间） 
-! Total count: 78456
+! Version: 2022-04-08 06:57:29（北京时间） 
+! Total count: 78464
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
 0.0.0.0 0.r.msn.com
@@ -963,6 +963,7 @@
 0.0.0.0 3q3l.cn
 0.0.0.0 3qk4s31iy0.rest
 0.0.0.0 3qsys.com
+0.0.0.0 3qz8c.site
 0.0.0.0 3r1kwxcd.top
 0.0.0.0 3rdads.com
 0.0.0.0 3redlightfix.com
@@ -1703,6 +1704,7 @@
 0.0.0.0 8ue9q7i.com
 0.0.0.0 8wey4x0c.com
 0.0.0.0 8wtkfxiss1o2.com
+0.0.0.0 8xbet22.com
 0.0.0.0 8xv8.com
 0.0.0.0 8zp3wtw7783xta3n.com
 0.0.0.0 90158js.com
@@ -17185,6 +17187,7 @@
 0.0.0.0 centralcdmx.gq
 0.0.0.0 centralheat.me
 0.0.0.0 centralheat.net
+0.0.0.0 centralized.zaloapp.com
 0.0.0.0 centralnervous.net
 0.0.0.0 centraltag.com
 0.0.0.0 centralwestwater.com.au
@@ -22525,6 +22528,7 @@
 0.0.0.0 delivery.gettopple.com
 0.0.0.0 delivery.hunterycity.com
 0.0.0.0 delivery.kabbmedia.com
+0.0.0.0 delivery.lavamedia.vn
 0.0.0.0 delivery.lavanetwork.net
 0.0.0.0 delivery.locari.jp
 0.0.0.0 delivery.m.ambient-platform.com
@@ -24556,6 +24560,7 @@
 0.0.0.0 dynamictoolbar.com
 0.0.0.0 dynamitedata.com
 0.0.0.0 dynamitedepressionweapons.com
+0.0.0.0 dynatrace-managed.com
 0.0.0.0 dynatracesaas.com
 0.0.0.0 dync.c.appier.net
 0.0.0.0 dync4.c.appier.net
@@ -26376,7 +26381,6 @@
 0.0.0.0 eshouloo.net
 0.0.0.0 esi.amp.permutive.com
 0.0.0.0 esignificanvi.info
-0.0.0.0 esigninrio.com.br
 0.0.0.0 eskimi.com
 0.0.0.0 esliga.ru
 0.0.0.0 eslipdd.ltd
@@ -45046,6 +45050,7 @@
 0.0.0.0 mtxs.xyz
 0.0.0.0 mu722.com
 0.0.0.0 mu9.com
+0.0.0.0 mu9.vip
 0.0.0.0 mu9.win
 0.0.0.0 muatui.com
 0.0.0.0 muchads.com
@@ -47892,6 +47897,7 @@
 0.0.0.0 one88.us
 0.0.0.0 one88.vip
 0.0.0.0 one88.vn
+0.0.0.0 one88.win
 0.0.0.0 oneandonlynetwork.com
 0.0.0.0 onecollector.cloudapp.aria.akadns.net
 0.0.0.0 onecomcomcomcom.com
@@ -52134,7 +52140,6 @@
 0.0.0.0 projects.net.zooplus.com
 0.0.0.0 projectsunblock.com
 0.0.0.0 projectwonderful.com
-0.0.0.0 projet.com.tn
 0.0.0.0 proko.cn
 0.0.0.0 prolinker.ru
 0.0.0.0 prom.b.qq.com
@@ -62540,7 +62545,6 @@
 0.0.0.0 stagepopkek.com
 0.0.0.0 stagewp.sharethis.com
 0.0.0.0 stagezomation.carte-gr.total.fr
-0.0.0.0 staginbuilds.com
 0.0.0.0 staging-ads.adtarget.me
 0.0.0.0 staging-ads.blogherads.com
 0.0.0.0 staging-api.omappapi.com
@@ -62623,7 +62627,6 @@
 0.0.0.0 standtrouble.com
 0.0.0.0 stankyrich.com
 0.0.0.0 stansoam.com
-0.0.0.0 staqinqbuilds.com
 0.0.0.0 star-advertising.com
 0.0.0.0 star-cntr-5.com
 0.0.0.0 star.fnggukz.cn
@@ -62983,6 +62986,7 @@
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.doublemax.net
 0.0.0.0 static.download.mclick.mobi
+0.0.0.0 static.dtadnetwork.com
 0.0.0.0 static.dynamicyield.com
 0.0.0.0 static.eclick.vn
 0.0.0.0 static.ecorebates.com
@@ -68739,6 +68743,7 @@
 0.0.0.0 tracking.visma.se
 0.0.0.0 tracking.vismaraet.nl
 0.0.0.0 tracking.vitringez.com
+0.0.0.0 tracking.vnncdn.net
 0.0.0.0 tracking.vodafone.com
 0.0.0.0 tracking.voordeeluitjes.nl
 0.0.0.0 tracking.vtcnew.com.vn
@@ -71254,6 +71259,7 @@
 0.0.0.0 v6jt.cn
 0.0.0.0 v6t39t.ru
 0.0.0.0 v7.cdn.onthe.io
+0.0.0.0 v79top.com
 0.0.0.0 v7ac.com
 0.0.0.0 v7king.com
 0.0.0.0 v8.analytics.pinsightmedia.com
@@ -71711,6 +71717,7 @@
 0.0.0.0 vgo.vegaoopro.com
 0.0.0.0 vgw35hwr4w6x.com
 0.0.0.0 vh.adscale.de
+0.0.0.0 vh79.com
 0.0.0.0 vhajaja.pro
 0.0.0.0 vhiaxerjzbqi.com
 0.0.0.0 vhlduhrldc.com
@@ -71742,6 +71749,7 @@
 0.0.0.0 vianoivernom.com
 0.0.0.0 viapizza.online
 0.0.0.0 viapush.com
+0.0.0.0 viaqoo.tech
 0.0.0.0 viatepigan.com
 0.0.0.0 viatorayme.com
 0.0.0.0 viaxmr.com
@@ -72336,6 +72344,7 @@
 0.0.0.0 vnq8.bet
 0.0.0.0 vnq8.com
 0.0.0.0 vnq8.net
+0.0.0.0 vnq8.win
 0.0.0.0 vnr81.com
 0.0.0.0 vnr82.com
 0.0.0.0 vnr83.com
@@ -77566,6 +77575,7 @@
 0.0.0.0 za-cdn.effectivemeasure.net
 0.0.0.0 za-gmtdmp.mookie1.com
 0.0.0.0 za-ssl.effectivemeasure.net
+0.0.0.0 za.baomoi.com
 0.0.0.0 za.zdn.vn
 0.0.0.0 za.zeroredirect1.com
 0.0.0.0 za2.zeroredirect8.com
@@ -78351,7 +78361,6 @@
 0.0.0.0 zvsuhljiha-a.akamaihd.net
 0.0.0.0 zwaar.org
 0.0.0.0 zwdq.xyz
-0.0.0.0 zwkiwierzyce.pl
 0.0.0.0 zwmosu.xyz
 0.0.0.0 zwmunz.com
 0.0.0.0 zwnxzckwihg.com
@@ -78462,4 +78471,3 @@
 0.0.0.0 zzyonghao.com
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.rumatic.com
