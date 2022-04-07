@@ -1,8 +1,8 @@
-! Checksum: /ZsVud0f9xBTnYYslWY/SA
+! Checksum: pyIXnMn8xnla2rWoTNN1zg
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.14.80
-! TimeUpdated: 2022-04-07T09:30:36+00:00
+! Version: 2.1.14.83
+! TimeUpdated: 2022-04-07T12:30:39+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -7263,7 +7263,6 @@ consent2.rblive.de#%#AG_onLoad(function(){if(window.location.href.includes("cons
 consent.faz.net#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button[title="EINVERSTANDEN"]');b&&b.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 consent.falkirkherald.co.uk#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button[title="I Accept"]');b&&b.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 cyberport.de#%#AG_onLoad(function(){if(!document.cookie.includes("__cmpcccu")){var g=new MutationObserver(function(){var b=document.querySelector('#cmpwrapper').shadowRoot.querySelector('#cmpbntnotxt');b&&b.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
-baseendpoint.stern.de#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var c=new MutationObserver(function(){var b=document.querySelector('button[title*="anpassen" i]');b&&b.click();setTimeout(function(){var a=document.querySelectorAll(".page-action");a[0]&&a[0].click()},300);setTimeout(function(){document.querySelectorAll(".is-checked").forEach(function(a){a.click()})},300);setTimeout(function(){var a=document.querySelector("button[title*='speichern']");a&&a.click()},300)});c.observe(document,{childList:!0, subtree:!0});setTimeout(function(){c.disconnect()},1E4)}});
 nwzonline.de#%#AG_onLoad(function(){if(!document.cookie.includes("__cmpcccu3039")){var g=new MutationObserver(function(){setTimeout(function(){var b=document.querySelector("#cmpwrapper").shadowRoot.querySelectorAll("a.cust-btn[onclick]");b[0]&&b[0].click();},500);});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 cmp.heise.de#%#AG_onLoad(function(){if(document.cookie.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button.message-component[title*="ustimmen"]');b&&b.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 cmp-sp.lvz.de,cmp-sp.maz-online.de#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var b=new MutationObserver(function(){var c=document.querySelector('button[title^="Einstellungen"]');setTimeout(function(){var a=document.querySelectorAll(".page-action");a[0]&&a[0].click()},300);setTimeout(function(){var a=document.querySelector(".is-checked");a&&(a.click(),(a=document.querySelector('button[title^="Speichern"]'))&&a.click())},300);c&&(b.disconnect(),c.click())});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}});
@@ -7715,7 +7714,8 @@ elearningindustry.com#%#document.cookie = "cookie_preferences=0-0-0-0";
 kinopoisk.ru,yandex.*#%#//scriptlet("set-cookie", "gdpr", "0")
 selgros.pl#%#//scriptlet('set-cookie', 'cookie_new_msg', '1')
 guard.io#%#//scriptlet('set-cookie', 'cookie_consent_seen', '1')
-youtube.com#%#AG_onLoad(function(){if(document.cookie.split('CONSENT').filter((el) => el.includes('YES+'))){var a=new MutationObserver(function(){var b=document.querySelector('.termlinks + div[class*="ytd-consent-bump-"] > ytd-button-renderer:last-child');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
+m.youtube.com#%#//scriptlet('set-cookie-reload', 'visitor', '1')
+youtube.com#%#AG_onLoad(function(){if(document.cookie.indexOf('CONSENT=YES+yt.') === -1){var a=new MutationObserver(function(){var b=document.querySelector('.termlinks + div[class*="ytd-consent-bump-"] > ytd-button-renderer:last-child');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 consent.google.*#%#AG_onLoad(function(){if(window.location.href.includes("consent.google.")){var a=document.querySelector('form[action^="https://consent.google."][action$="/s"]');if(a)a.submit();else{var b=new MutationObserver(function(){a&&(b.disconnect(),a.submit())});b.observe(document,{childList:!0,subtree:!0});setTimeout(function(){b.disconnect()},1E4)}}});
 consent.youtube.com#%#AG_onLoad(function(){if(window.location.href.includes("consent.youtube.com")){var a=new MutationObserver(function(){var b=document.querySelector('form[action="https://consent.youtube.com/s"]');b&&(a.disconnect(),b.submit())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 zweitausendeins.de,meyer-gartenbedarf.de#%#//scriptlet('set-cookie', 'amcookie_allowed', '1')
@@ -7885,7 +7885,7 @@ cmpv2.networkworld.com,cmpv2.pcworld.com#%#AG_onLoad(function(){if(window.locati
 cmpv2.techadvisor.com#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('.message-component > button[aria-label^="I Agree"]');b&&(g.disconnect(),b.click())});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 cmpv2.hitc.com#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('.message-component > button[aria-label^="AGREE"]');b&&(g.disconnect(),b.click())});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 cmp.utopia.de#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button[title^="Zustimmen" i]');b&&(g.disconnect(),b.click())});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
-baseendpoint.urbia.de,cmptcf2.rheinpfalz.de,cmp-sp.paz-online.de,cmp-sp.ln-online.de,baseendpoint.schoener-wohnen.de,baseendpoint.gala.de,sourcepoint.rtl2.de,cmp-sp.sn-online.de,cmp-sp.goettinger-tageblatt.de,cmp-sp.waz-online.de,cmp-sp.ostsee-zeitung.de,cmp-sp.dnn.de,cmp-sp.sportbuzzer.de,cmp-sp.rnd.de,cmp-sp.haz.de#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var a=new MutationObserver(function(){var b=document.querySelector('button[title^="Zustimmen"]')||document.querySelector('button[title^="Alle akzeptieren" i]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
+baseendpoint.stern.de,baseendpoint.urbia.de,cmptcf2.rheinpfalz.de,cmp-sp.paz-online.de,cmp-sp.ln-online.de,baseendpoint.schoener-wohnen.de,baseendpoint.gala.de,sourcepoint.rtl2.de,cmp-sp.sn-online.de,cmp-sp.goettinger-tageblatt.de,cmp-sp.waz-online.de,cmp-sp.ostsee-zeitung.de,cmp-sp.dnn.de,cmp-sp.sportbuzzer.de,cmp-sp.rnd.de,cmp-sp.haz.de#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var a=new MutationObserver(function(){var b=document.querySelector('button[title^="Zustimmen"]')||document.querySelector('button[title^="Alle akzeptieren" i]');b&&(a.disconnect(),b.click())});a.observe(document,{childList:!0,subtree:!0});setTimeout(function(){a.disconnect()},1E4)}});
 cmp-cdn.golem.de#%#AG_onLoad(function(){if(window.location.href.includes("consentUUID")){var g=new MutationObserver(function(){var b=document.querySelector('button[title^="Zustimmen"]');b&&(g.disconnect(),b.click())});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)}});
 fitforfun.de,goettinger-tageblatt.de,waz-online.de,maz-online.de,ostsee-zeitung.de,dnn.de,sportbuzzer.de,rnd.de,haz.de,golem.de#%#//scriptlet('remove-class', 'sp-message-open', 'html.sp-message-open')
 jobs.golem.de#%#AG_onLoad(function() {if (!document.cookie.includes("jwconsent")) {var g = new MutationObserver(function() {var b = document.querySelector('span.jwtpl-jmpt-btCookieNoticeAgreeAll');b&&b.click();});g.observe(document, {childList: !0,subtree: !0});setTimeout(function() {g.disconnect()}, 1E4)}});
@@ -9128,6 +9128,7 @@ therahnuma.com##.post-footer-on-bottom
 ##amp-app-banner
 ###smartbanner.ios
 ###smartbanner.windows
+mc.163.com##.down-box
 abema.tv##.c-application-MobileAppContainer__floating-app-button
 abema.tv##.c-application-MobileAppContainer__footer
 abema.tv##.com-application-MobileHeaderBannerBase
@@ -10095,6 +10096,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 !######### Subscription popups add to subscriptions.txt #########
 magazine.tabelog.com##.tm-floating-banner
 managertoday.com.tw##.mtaa
+niusnews.com##.fixed-footer-ad
 news.cookpad.com##.ext_spring2022_spweb_lead-show_modal
 blog.livedoor.com##body[data-page="top"] > a[href="https://blog.livedoor.com/tag/"]
 xhamster.com##.vpn-geo-picker-container
@@ -10158,7 +10160,7 @@ popmech.ru##.detail-video-recommendation
 jp.sharp##.floating
 pixeldrain.com##.intro_popup
 kokoiko.smbc-card.com##.surfaceFixedBanner
-volstar-official.jp###bfb_content_sp
+special.goo.ne.jp,volstar-official.jp###bfb_content_sp
 qobuz.com##.store-launch-injector
 qobuz.com##.modal-backdrop
 noklapja.hu#$#.blurry { filter: none !important; }
@@ -12367,10 +12369,6 @@ yandex.ru#$#body.body-modal-active { overflow: visible !important; padding-right
 yandex.ru#$?#body.body-modal-active > div[class] > div#popup-wrapper:upward(1) { display: none !important; }
 google.*##iframe[role="presentation"][src*="ogs.google."][src*="widget/callout"]
 google.*##iframe[role="presentation"][src*="ogs.google."][src*="widget/callout"]:upward(div[style^="overflow: hidden; position: absolute; top: 0px; width: 370px;"])
-!+ NOT_OPTIMIZED
-iasabhiyan.com##.sfsi_outr_div
-!+ NOT_OPTIMIZED
-iasabhiyan.com###sfsi_floater
 json.cn#%#AG_onLoad(function(){var g=new MutationObserver(function(){var b=document.querySelector('#shuangshi1Modal1 button.close');b&&b.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E4)});
 tomsguide.com#%#AG_onLoad(function(){var g=new MutationObserver(function(){var b=document.querySelector('.jwplayer__wrapper .sticky-close.stick-on');b&&b.click();});g.observe(document,{childList:!0,subtree:!0});setTimeout(function(){g.disconnect()},1E6)});
 fiverr.com#%#AG_onLoad(function(){var a=new MutationObserver(function(){if(document.querySelector(".signing-modal")){document.querySelector('.signing-modal').click(); a.disconnect();}});a.observe(document,{childList: !0, subtree: !0});setTimeout(function(){a.disconnect()},1E4)});
@@ -12402,8 +12400,6 @@ chronicle.com#$#.bcpNotificationBarStickyBottom { display: none !important; }
 chronicle.com#$#html { overflow: auto !important; }
 chronicle.com#$#body { overflow: auto !important; }
 roscontrol.com#$#html { overflow: auto!important; }
-!+ NOT_OPTIMIZED
-medonet.pl##body.withFPU::before
 solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#body { overflow: auto !important; padding-right: 0 !important; }
 solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#.modal-backdrop { display: none !important; }
 solarmovie.pe,cineb.net,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$##modalshare { display: none !important; }
@@ -12523,6 +12519,16 @@ facebook.com##.aclb > div._4b-b
 catalogmineralov.ru#$#body { overflow: visible!important; }
 easy-deutsch.de#%#AG_onLoad(function() { document.querySelector('html').style.cssText+=';overflow: auto!important'; });
 easy-deutsch.de#%#AG_onLoad(function() { setTimeout(function() { var el = document.querySelector('.tve-leads-slide-in.tve-tl-anim'); if (el) {el.remove()} }, 2500); });
+!+ NOT_OPTIMIZED
+iasabhiyan.com##.sfsi_outr_div
+!+ NOT_OPTIMIZED
+iasabhiyan.com###sfsi_floater
+!+ NOT_OPTIMIZED
+medonet.pl##body.withFPU::before
+!+ NOT_OPTIMIZED
+kurashiru.com#$##dly-LandingPopupBanner { display: none!important; }
+!+ NOT_OPTIMIZED
+kurashiru.com#$#html.dly-modal-active { overflow: auto!important; }
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||kbb.com/wp-content/themes/Newspaper-child/assets/KBBLogoRefresh.svg$domain=kbb.com
 wallstreet-online.de,dni.ru,polit.info#%#if (window.PushManager) { window.PushManager.prototype.subscribe = function () { return { then: function (func) { } }; }; }
@@ -13909,6 +13915,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ||cp.unisender.com/*/form-widget-loader.js$third-party
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
+star.com.tr##.ebulletin
 auto.ru##.ListingPromoSubscription
 kreiszeitung.de##.id-StoryElement-embed--newsletter
 augsburger-allgemeine.de##.aa-newsletter

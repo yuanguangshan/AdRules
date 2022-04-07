@@ -820,7 +820,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgfaultycanvas.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgokies.
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3487,8 +3487,6 @@
 @@||autotrader.co.uk^*/advert$~third-party
 @@||av-th.info^$ghide
 @@||av01.tv/av01/videojs/imads.js
-@@||av01.tv/av01/videojs/imads.js
-@@||av01.tv/wp-content/themes/wp-script-theme/vendor/*/trigger_video_hls.js
 @@||av01.tv/wp-content/themes/wp-script-theme/vendor/*/trigger_video_hls.js
 @@||av30.xyz/cs/2.js
 @@||av30.xyz/cs/2.js
@@ -9683,11 +9681,18 @@
 @@||google.com/payments/*/adwords.$document,subdocument
 @@||google.com/payments/*/adwords.$document,subdocument
 @@||google.com/recaptcha/$csp,script,subdocument
-@@||google.com/recaptcha/$csp,script,subdocument
+@@||google.com/recaptcha/$csp,subdocument
+@@||google.com/recaptcha/$csp,subdocument
 @@||google.com/recaptcha/$domain=vidoza.net
 @@||google.com/recaptcha/$domain=vidoza.net
+@@||google.com/recaptcha/api.js
+@@||google.com/recaptcha/api.js
 @@||google.com/recaptcha/api2/$document
 @@||google.com/recaptcha/api2/$document
+@@||google.com/recaptcha/enterprise.js
+@@||google.com/recaptcha/enterprise.js
+@@||google.com/recaptcha/enterprise/
+@@||google.com/recaptcha/enterprise/
 @@||google.com/settings/ads/onweb$urlblock
 @@||google.com/settings/ads/onweb$urlblock
 @@||google.com/translate_$media,third-party,xmlhttprequest
@@ -9851,7 +9856,8 @@
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
 @@||googletagmanager.com/gtag/js$domain=av01.tv
-@@||googletagmanager.com/gtag/js$domain=av01.tv
+@@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
+@@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bizimtoptan.com.tr
@@ -11380,6 +11386,7 @@
 @@||ikea.cn^*/img/ads/
 @@||ikea.com/cdn/googleanalytics/$~third-party,xmlhttprequest
 @@||iklangratiz.com^$generichide
+@@||iknow-pic.cdn.bcebos.com^$stealth
 @@||ilan.memurlar.net/common/job/advert/images/$domain=memurlar.net
 @@||ilan.memurlar.net/common/job/advert/images/*/headline.jpg|
 @@||ilan.memurlar.net/common/job/advert/images/*/headline.jpg|

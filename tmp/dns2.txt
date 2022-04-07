@@ -6,8 +6,8 @@
 !
 !  Title: oisd basic     
 !  Syntax: abp       
-!  Entries: 48530  
-!  TimeUpdated: 6 Apr 2022 23:37 UTC          
+!  Entries: 48529  
+!  TimeUpdated: 7 Apr 2022 11:37 UTC          
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -36503,7 +36503,6 @@
 ||s.deepl.com^
 ||s.frida.vse42.ru^
 ||s.giaoducthoidai.vn^
-||s.go-mpulse.net^
 ||s.homedy.com^
 ||s.infogram.com^
 ||s.izrnvo.com^

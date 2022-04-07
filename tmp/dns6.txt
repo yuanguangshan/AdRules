@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nZ/yY2gf+v6+eGG0KZ0rAA
+! Checksum: 2yjswPUDcySBnP8xBLfxGw
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204070933
-! Last modified: 2022-04-07 09:33 UTC
+! Version: 202204071133
+! Last modified: 2022-04-07 11:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25134,6 +25134,7 @@ _800x80_
 ##.google-ad-widget
 ##.google-ad-wrapper-ui
 ##.google-ads
+##.google-ads-billboard
 ##.google-ads-bottom
 ##.google-ads-boxout
 ##.google-ads-container
@@ -50227,6 +50228,7 @@ tf2r.com#@#.adverts
 ||civadsoo.net^$popup
 ||ciwhacheho.pro^$popup
 ||cjl58f3agc.com^$popup
+||ckwlurries.com^$popup
 ||ckre.net^$popup
 ||clbanners16.com^$popup
 ||cldrck.com^$popup
@@ -52471,6 +52473,7 @@ tf2r.com#@#.adverts
 ||etrader.kalahari.com^
 ||etrader.kalahari.net^
 ||extensoft.com/artisteer/banners/
+||expertsulfury.com^$third-party
 ||facebook.com/audiencenetwork/$third-party
 ||familytreedna.com/img/affiliates/
 ||fancybar.net/ac/fancybar.js?zoneid
@@ -54279,7 +54282,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ! Domain popups
 /^https?:\/\/.*\.(club|net|xyz|top|casa)\//$popup,domain=123movies2022.org|123moviesme.online|9anime.to|databasegdriveplayer.co|dood.la|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|fmovies.to|fmovies.world|fplayer.info|gogoanimes.to|gogoplay1.com|mixdrop.co|redirect-ads.com|strtpe.link|wawacity.work
 ! html/image popups
-/^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt|css)/$popup,domain=0123movie.ru|123-movies.ninja|123movies.net|123movies2022.org|123moviesfree4u.com|123moviesme.online|123proxy.biz|123series.ru|2embed.ru|4anime.gg|4stream.gg|5movies.fm|720pstream.tv|9anime.to|9xmovies.homes|adblockstrtape.link|adf.ly|animefreak.vip|animekisa.cc|animepahe.com|asianembed.io|bato.to|batotoo.com|batotwo.com|bflix.to|bunnycdn.ru|clicknupload.to|clipconverter.cc|cloudvideo.tv|cmovies.online|dailyuploads.net|databasegdriveplayer.co|dood.la|dood.sh|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|dopebox.to|dramacool.pk|eplayvid.com|eplayvid.net​|eplsite.uk|europixhd.net|extreme-down.plus|fcdn.stream|files.im|filmestorrents.net|filmyzilla.beauty|filmyzilla.directory|filmyzilla.makeup|flashx.net|flixtor.video|fmovies.app|fmovies.ps|fmovies.pub|fmovies.to|fmovies.world|fplayer.info|gdtot.nl|go-stream.site|gogoanime.run|gogoanimes.to|gogoplay1.com|gomovies.cyou|gospeljingle.com|gowatchseries.online|hexupload.net|hindilinks4u.nl|hulkstreams.com|hurawatch.at|hurawatch.it|jackstream.net|jackstreams.com|jujutsukaisen-manga.online|kimoitv.com|kiss-anime.org|kissanime-ru.ws|lookmoviess.com|manhuascan.com|mcubd.host|meomeo.pw|mixdrop.co|mixdrop.sx|mkvcage.site|mkvhub.tech|mlsbd.shop|movies2watch.tv|movies2watch.tv​|movies7.to|moviesbaba.life|moviesin.co|moviesverse.mobi|mp4upload.com|myflixer.ac|myflixer.it|myflixer.pw|myflixer.site|myflixer.to|myflixer.today|myflixer.ws|myflixertv.to|mystream.to|olympicstreams.me|pahe.ph|paidnaija.com|playemulator.online|player.cineflixtv.com|prmovies.bz|prmovies.net|projectfreetv.one|projectfreetv.watch|projectfreetv2.com|putlocker68.com|putlockers.fm|putlockers.gs|redirect-ads.com|sdmoviespoint.online|seriestv.watch|sflix.to|shingekinokyojin.tv|skidrow-games.com|skidrowcodex.net|soap2day.md|soap2dayto.org|speedvideo.net|sportsbay.watch|ssoap2day.to|stemplay.cc|streamani.net|streamsb.net|streamsport.icu|streamta.pe|streamtape.cc|streamtape.com|streamtape.net|streamz.ws|streamzz.to|strikeout.cc|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|strtpe.link|tapecontent.net|telerium.net|turkish123.com|upbam.org|uploadmaza.com|upornia.com|uprot.net|upstream.to|upvid.co|usagoals.sx|vidbam.org|vidembed.cc|videovard.sx|vidnext.net|vido.fun|vidsrc.me|vipbox.lc|vipleague.im|vipleague.tv|viprow.me|voe.sx|vumoo.to|watchseries.ninja|watchserieshd.bz|watchserieshd.tv|watchserieshd.watch|watchseriess.net|watchseriesstream.com|wawacity.work|yesmovies.id|ymovies.to|yomovies.nl|yomovies.pm|yseries.tv|ytanime.tv|yts.movie|ștream2watch.com
+/^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt|css)/$popup,domain=0123movie.ru|123-movies.ninja|123movies.net|123movies2022.org|123moviesfree4u.com|123moviesme.online|123proxy.biz|123series.ru|2embed.ru|4anime.gg|4stream.gg|5movies.fm|720pstream.tv|9anime.to|9xmovies.homes|adblockstrtape.link|adf.ly|animefreak.vip|animekisa.cc|animepahe.com|asianembed.io|bato.to|batotoo.com|batotwo.com|bflix.to|bunnycdn.ru|clicknupload.to|clipconverter.cc|cloudvideo.tv|cmovies.online|dailyuploads.net|databasegdriveplayer.co|dood.la|dood.sh|dood.so|dood.to|dood.video|dood.watch|dood.ws|doodcdn.com|dopebox.to|dramacool.pk|eplayvid.com|eplayvid.net​|eplsite.uk|europixhd.net|extreme-down.plus|fcdn.stream|files.im|filmestorrents.net|filmyzilla.beauty|filmyzilla.directory|filmyzilla.makeup|flashx.net|flixtor.video|fmovies.app|fmovies.ps|fmovies.pub|fmovies.to|fmovies.world|fplayer.info|gdtot.nl|go-stream.site|gogoanime.run|gogoanimes.to|gogoplay1.com|gomovies.cyou|gospeljingle.com|gowatchseries.online|hexupload.net|hindilinks4u.nl|hulkstreams.com|hurawatch.at|hurawatch.it|jackstream.net|jackstreams.com|jujutsukaisen-manga.online|jujutsukaisenonline.net|kimoitv.com|kiss-anime.org|kissanime-ru.ws|lookmoviess.com|manhuascan.com|mcubd.host|meomeo.pw|mixdrop.co|mixdrop.sx|mkvcage.site|mkvhub.tech|mlsbd.shop|movies2watch.tv|movies2watch.tv​|movies7.to|moviesbaba.life|moviesin.co|moviesverse.mobi|mp4upload.com|myflixer.ac|myflixer.it|myflixer.pw|myflixer.site|myflixer.to|myflixer.today|myflixer.ws|myflixertv.to|mystream.to|olympicstreams.me|pahe.ph|paidnaija.com|playemulator.online|player.cineflixtv.com|prmovies.bz|prmovies.net|projectfreetv.one|projectfreetv.watch|projectfreetv2.com|putlocker68.com|putlockers.fm|putlockers.gs|redirect-ads.com|sdmoviespoint.online|seriestv.watch|sflix.to|shingekinokyojin.tv|skidrow-games.com|skidrowcodex.net|soap2day.md|soap2dayto.org|speedvideo.net|sportsbay.watch|ssoap2day.to|stemplay.cc|streamani.net|streamsb.net|streamsport.icu|streamta.pe|streamtape.cc|streamtape.com|streamtape.net|streamz.ws|streamzz.to|strikeout.cc|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.me|strtpe.link|tapecontent.net|telerium.net|turkish123.com|upbam.org|uploadmaza.com|upornia.com|uprot.net|upstream.to|upvid.co|usagoals.sx|vidbam.org|vidembed.cc|videovard.sx|vidnext.net|vido.fun|vidsrc.me|vipbox.lc|vipleague.im|vipleague.tv|viprow.me|voe.sx|vumoo.to|watchseries.ninja|watchserieshd.bz|watchserieshd.tv|watchserieshd.watch|watchseriess.net|watchseriesstream.com|wawacity.work|yesmovies.id|ymovies.to|yomovies.nl|yomovies.pm|yseries.tv|ytanime.tv|yts.movie|ștream2watch.com
 ! *** easylist:easylist_adult/adult_specific_block.txt ***
 ||037jav.com/wp-content/uploads/2021/04/*.gif
 ||18porn.sex/ptr18.js
@@ -57652,7 +57655,7 @@ carls-sims-4-guide.com##hr.post_separator + .windowbg
 avanigo.com##iframe.lazyloaded
 micky.com.au##iframe[height="90"]
 coincodex.com,yourbittorrent.com##iframe[src]
-123-movies.ninja,123movies.net,4anime.biz,4anime.gg,animebee.to,animeheaven.pro,animekisa.in,animekisa.tv,batotoo.com,bravoporn.com,dramacool.pk,dulu.to,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,herogayab.net,mangadna.com,mangahere.today,manganatos.com,mangceh.cc,messitv.net,miraculous.to,playlist-youtu.be,prmovies.bz,prmovies.li,putlockers.li,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pm,ytmp3.cc##iframe[style*="z-index: 2147483647"]
+123-movies.ninja,123movies.net,4anime.biz,4anime.gg,animebee.to,animeheaven.pro,animekisa.in,animekisa.tv,batotoo.com,bravoporn.com,dramacool.pk,dulu.to,filmyzilla.autos,filmyzilla.makeup,gogoanime.be,gogoanime.co.in,gogoanime.lol,herogayab.net,jujutsukaisenonline.net,mangadna.com,mangahere.today,manganatos.com,mangceh.cc,messitv.net,miraculous.to,playlist-youtu.be,prmovies.bz,prmovies.li,putlockers.li,ssoap2day.to,tamilyogi.best,vanime.co,wat32.tv,watchseries.ninja,webtoonshare.com,yomovies.bz,yomovies.pm,ytmp3.cc##iframe[style*="z-index: 2147483647"]
 fansshare.com##iframe[width="300"]
 shoesession.com##iframe[width="732"]
 premiumtimesng.com##img[alt$=" Ad"]
@@ -110678,6 +110681,7 @@ _subscribers_newsletters/
 ###ccpa-prompt-wrapper
 ###ccpa.container
 ###ccpa.show
+###ccpa.without-overlay
 ###ccpaBanner
 ###ccpaContainer
 ###ccpaCookieBanner
@@ -117119,6 +117123,7 @@ _subscribers_newsletters/
 ##.alert-site-cookie
 ##.alert-warning-footer
 ##.alert-wrapper-cookie
+##.alert.ccpa-message
 ##.alertCookies
 ##.alertCookiesCnil
 ##.alertLDGPBackground
@@ -131151,6 +131156,7 @@ metservice.com##.img-responsive-container
 newengland.com##.inline-text-ad
 wired.com##.journey-unit
 themarkup.org##.js-promotion
+virgool.io##.js-userLogin-popup.popup-register
 time.com##.magazine-outer
 bitchute.com##.membership-container > .spa
 bitchute.com##.membership-container > span
@@ -133433,7 +133439,7 @@ eumostwanted.eu###sortingPreference
 openweather.co.uk###stick-footer-panel
 gotoparts.com###sticky-bar
 tesco.com###sticky-bar-wrapper
-ffonts.net,whatfontis.com###sticky-popup
+equilar.com,ffonts.net,whatfontis.com###sticky-popup
 firefoxosdevices.org###storage-notice
 tatsubuilder.com###tatsu-header-container
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###taw > div > [data-ved]
@@ -133485,6 +133491,7 @@ cryptokitties.co##.Banner
 rottweil-ammunition.com##.BannerManager
 cryptokitties.co##.BottomBanner
 itsfoss.com##.CampaignType--floating
+tri.global##.CookieBanner_CookieBanner__xta6A
 auto1.com##.CookieBanner_cookieBanner__1kPLb
 app.daily.dev##.CookieBanner_cookieBanner__2lrmB
 skyvegas.com##.CookieBanner_cookieBanner__M3OxU
@@ -133783,6 +133790,7 @@ vesselfinder.com##.downfooter
 kdanmobile.com##.dqgoYn
 dreame.com##.drawer-wrapper
 buffcoach.net##.dsgvowpplugin-globaloptin
+tresorit.com##.dx_lH
 msnbc.com##.dy_full_width_notifications_container
 iol.co.za##.dzuYZA
 ecologi.com##.e1kyoz4v6

@@ -5,8 +5,8 @@
 #
 #  Title: oisd basic     
 #  Syntax: hosts     
-#  Entries: 58542  
-#  TimeUpdated: 6 Apr 2022 23:37 UTC          
+#  Entries: 58541  
+#  TimeUpdated: 7 Apr 2022 11:37 UTC          
 #  Maintainer: sjhgvr
 #  Expires: 1 day (update frequency)
 #  Homepage: https://oisd.nl
@@ -43655,7 +43655,6 @@
 0.0.0.0 s.g.l.inmobicdn.net
 0.0.0.0 s.geniee.jp
 0.0.0.0 s.giaoducthoidai.vn
-0.0.0.0 s.go-mpulse.net
 0.0.0.0 s.growingio.com
 0.0.0.0 s.homedy.com
 0.0.0.0 s.iaudienc.com
