@@ -936,8 +936,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orglytics.certifriedit.com^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgting.lighting.philips.sk^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -6339,7 +6338,6 @@
 @@||chimica-online.it^$ghide
 @@||china.com/dianbo/adv1.xml
 @@||china.com/dianbo/adv1.xml
-@@||china.com/dianbopanorama
 @@||chinacourt.gov.cn/share/jquery/plugins/adbox/
 @@||chinacourt.gov.cn/share/jquery/plugins/adbox/
 @@||chinamobile.com^$generichide
@@ -25597,9 +25595,9 @@
 @@||wot.express/custom/wotexpress/js/adsbygoogle.js
 @@||wowebook.org^$generichide
 @@||wowescape.com^$ghide
-@@||wowsai.com/data/.switch_radios + div[class]
 @@||wowsai.com/data/files/ad/
 @@||wowsai.com/data/files/ad/
+@@||wowsai.com/data/panorama
 @@||woxikon.de^$ghide
 @@||wp-content.hackintosh.computer/plugins/better-adsmanager/js/advertising.min.js$domain=hackintosh.computer
 @@||wp-content.hackintosh.computer/plugins/better-adsmanager/js/advertising.min.js$domain=hackintosh.computer

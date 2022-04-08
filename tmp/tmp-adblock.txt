@@ -28125,7 +28125,6 @@ ehubsoft.net##+js(set-constant, gadb, false)
 eic.org.cn##.lx-btm-box
 einthusan.ca,einthusan.com,einthusan.tv##div[class^="adspace-"]
 einthusan.tv###load-status-screen
-ek.pl#$#.ads.adsbox.ad { display: block!important; }
 ekantipur.com##.static-sponsor
 ekstrabladet.dk##+js(set-constant, apntag.requests, noopFunc)
 ekstrabladet.dk##.eb-position
