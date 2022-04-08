@@ -22,6 +22,7 @@ easylist=(
   "https://raw.githubusercontent.com/hacamer/Adblist/master/adp-pc.txt" #杏梢的全量规则
   "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt" #去APP下载按钮
   "https://easylist.to/easylist/easyprivacy.txt"
+  "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock.txt"
 )
 
 easylist_plus=(
@@ -31,6 +32,7 @@ easylist_plus=(
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt" #ubo基础过滤器
 "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt" #ubo隐私保护
 "https://raw.githubusercontent.com/Cats-Team/AdRule/main/url-filter.txt" #url过滤器 by Hacamer
+"https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_privacy.txt"
 )
 
 adguard=(
@@ -73,6 +75,7 @@ dns=(
   "https://www.fanboy.co.nz/r/fanboy-ultimate.txt"
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
   "https://raw.githubusercontent.com/DivineEngine/AdGuardFilter/master/filter.txt"
+  "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt"
 )
 
 hosts=(
