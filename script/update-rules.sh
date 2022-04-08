@@ -124,7 +124,8 @@ do
 done
 wait
 
-curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/CipherOps/AdGuardBlocklists/main/REGEX.txt > dns998.txt &
+curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/CipherOps/AdGuardBlocklists/main/REGEX.txt \
+ | grep -Fv "/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/" > dns998.txt &
 
 wait
 echo '规则下载完成'
