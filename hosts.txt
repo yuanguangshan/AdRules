@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: GG/c0GcbQYo9bgEII6MFgQ
+! Checksum: YoOUhgOrwahg+Bhk0XV5Pg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-08 23:22:12（北京时间） 
-! Total count: 85952
+! Version: 2022-04-08 23:24:31（北京时间） 
+! Total count: 85955
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
 0.0.0.0 0.r.msn.com
@@ -57222,6 +57222,7 @@
 0.0.0.0 qianggou8.top
 0.0.0.0 qiangren.biz
 0.0.0.0 qiangzai.work
+0.0.0.0 qianhua.co
 0.0.0.0 qianlong.adsame.com
 0.0.0.0 qianmeiby.com
 0.0.0.0 qiannian.biz
@@ -57297,6 +57298,7 @@
 0.0.0.0 qkbwam.innisfree.com
 0.0.0.0 qkffv.com
 0.0.0.0 qkhhjm.autoscout24.nl
+0.0.0.0 qkixi.com
 0.0.0.0 qkptx.com
 0.0.0.0 qksbin.nocturne.com.tr
 0.0.0.0 qkspafpgg.com
@@ -84607,6 +84609,7 @@
 0.0.0.0 zzxjlr.com
 0.0.0.0 zzxlhwyp.com
 0.0.0.0 zzyonghao.com
+0.0.0.0 zzyytt.top
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
 000webhost.com###bottom-banner-with-counter-holder-desktop
