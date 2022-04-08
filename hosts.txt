@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: 0kmwRkxirByJ16PRdOAenQ
+! Checksum: lI8azKcPw5MNlWPEzoNe2Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-08 23:27:53（北京时间） 
-! Total count: 84591
+! Version: 2022-04-09 00:18:26（北京时间） 
+! Total count: 84590
 0.0.0.0 0--e.info
 0.0.0.0 0.oldgyhogola.com
 0.0.0.0 0.r.msn.com
@@ -9193,7 +9193,6 @@
 0.0.0.0 amobee.com
 0.0.0.0 amooma.sourcetaggers.com
 0.0.0.0 amorespasalon.com
-0.0.0.0 amospalla.es
 0.0.0.0 amountinue.info
 0.0.0.0 amp-cl1.mediaforge.com
 0.0.0.0 amp-cluster.mediaforge.com

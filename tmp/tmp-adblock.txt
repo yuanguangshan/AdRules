@@ -37077,6 +37077,7 @@ qzwb.com###Javascript\.RightDiv
 qzwb.com##.qzw_live_img
 qzwb.com##body > .area[style^="height:60px;"]
 r-bloggers.com#?#.sb-right > div.sb-widget:has(> h4:contains(Sponsors))
+r.channel4.com^
 r3ndy.com##+js(no-setInterval-if, hashLink)
 r3sub.com##div[class] > a[href^="show.php?id="]
 r3sub.com##div[class] > a[href^="show.php?id="][target="_blank"] > img
@@ -72688,6 +72689,7 @@ zznews.cn##.ad:not([style])
 ||qiangren.biz^
 ||qiangzai.work^
 ||qianhua.*/data/attachment/portal/
+||qianhua.co^
 ||qianmeiby.com^
 ||qiannian.biz^
 ||qianrenge.cc/qian/
@@ -72795,6 +72797,7 @@ zznews.cn##.ad:not([style])
 ||qjyzj.cn^
 ||qk6.org/file/script/
 ||qkhhjm.autoscout24.nl^
+||qkixi.com^
 ||qkkjd.com^$third-party
 ||qkptx.com^
 ||qksapp.net/gif/
@@ -87749,6 +87752,7 @@ zznews.cn##.ad:not([style])
 ||zzxhx.com^
 ||zzxlhwyp.com^
 ||zzyonghao.com^
+||zzyytt.top^
 ||zzz.pissrip.net^
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/

@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: P2WDMqUz3EtilqPkPGOC1Q
+! Checksum: ZGSZm9rCOg+BOZ266mgmzw
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-04-08 23:27:53（北京时间） 
-! Total count: 89285
+! Version: 2022-04-09 00:18:26（北京时间） 
+! Total count: 89289
 ###ADCENTER
 ###ADSLOT_1
 ###ADTOP
@@ -38578,6 +38578,7 @@ qzwb.com###Javascript\.RightDiv
 qzwb.com##.qzw_live_img
 qzwb.com##body > .area[style^="height:60px;"]
 r-bloggers.com#?#.sb-right > div.sb-widget:has(> h4:contains(Sponsors))
+r.channel4.com^
 r3ndy.com##+js(no-setInterval-if, hashLink)
 r3sub.com##div[class] > a[href^="show.php?id="]
 r3sub.com##div[class] > a[href^="show.php?id="][target="_blank"] > img
@@ -74189,6 +74190,7 @@ zznews.cn##.ad:not([style])
 ||qiangren.biz^
 ||qiangzai.work^
 ||qianhua.*/data/attachment/portal/
+||qianhua.co^
 ||qianmeiby.com^
 ||qiannian.biz^
 ||qianrenge.cc/qian/
@@ -74296,6 +74298,7 @@ zznews.cn##.ad:not([style])
 ||qjyzj.cn^
 ||qk6.org/file/script/
 ||qkhhjm.autoscout24.nl^
+||qkixi.com^
 ||qkkjd.com^$third-party
 ||qkptx.com^
 ||qksapp.net/gif/
@@ -89250,6 +89253,7 @@ zznews.cn##.ad:not([style])
 ||zzxhx.com^
 ||zzxlhwyp.com^
 ||zzyonghao.com^
+||zzyytt.top^
 ||zzz.pissrip.net^
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
