@@ -1,8 +1,8 @@
-! Checksum: HqoGAFTsRpSPMn5NEADAyw
+! Checksum: Hp0GMNoVj8o8GtSxhJigdg
 ! Title: AdGuard Tracking Protection filter
 ! Description: The most comprehensive list of various online counters and web analytics tools. Use this filter if you do not want your actions on the Internet to be tracked.
-! Version: 2.0.37.79
-! TimeUpdated: 2022-04-07T21:31:16+00:00
+! Version: 2.0.37.81
+! TimeUpdated: 2022-04-08T13:02:57+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -319,6 +319,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 !||i.snssdk.com/log/*
 !||i.snssdk.com/slardar/sdk.js
 !
+||gapp1.com^
 ||stlog.d.dmkt-sp.jp^
 ||dynatrace-managed.com^
 ||cdn.reproio.com^
@@ -20204,6 +20205,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Umami
 /umami.js
 !
+/w.gif?
 /com_jrealtimeanalytics/*
 /koko-analytics/*
 /top-10-tracker.min.js

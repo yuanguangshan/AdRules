@@ -819,7 +819,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgga-tracking-
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -13519,7 +13519,6 @@
 @@||loverscum.com^$ghide
 @@||lowcygier.pl/wp-content/themes/graphene/js/ads.js$script
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
-@@||lowframe.com^$ghide
 @@||loxtk.com/gLoader.php?GID=$script,third-party
 @@||loxtk.com/gTemplate.php?GID=$subdocument,third-party
 @@||lp.longtailvideo.com/5/yourlytics/yourlytics-1.js$domain=indiedb.com|indieroyale.com|moddb.com
@@ -16679,9 +16678,12 @@
 @@||polfan.pl/app/vendor/fingerprint2.min.js
 @@||polfan.pl/app/vendor/fingerprint2.min.js
 @@||policelifes.de/js/ads.js
+@@||policy.app.cookieinformation.com/*/jysk.nl/nl.js$domain=jysk.nl
+@@||policy.app.cookieinformation.com/cookiesharingiframe.html$domain=jysk.nl
 @@||policy.app.cookieinformation.com^$domain=jysk.nl|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$domain=skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$script,domain=altibox.no
+@@||policy.cookieinformation.com/uc.js$domain=jysk.nl
 @@||politainment.no/wp-content/plugins/complianz-gdpr/assets/*/cookieconsent.min.
 @@||politicalite.com/wp-content/plugins/simple-adblock-notice^
 @@||politiken.dk/*ad$script
@@ -20153,7 +20155,6 @@
 @@||tags2.adshell.net/j^$domain=h5.adshell.net
 @@||tagtic.cn^
 @@||taiba-dz.blogspot.com^$ghide
-@@||tailieupro.com^$ghide
 @@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
 @@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
 @@||taivenhanh.com^$ghide
@@ -21348,6 +21349,7 @@
 @@||usaa.com^$document
 @@||usaa.com^$document
 @@||usairways.com/en-US/Resources/javascript/omniture*.js
+@@||usanewstoday.club/safe*.php?link=$stealth
 @@||usbank.com^*/adrum.js?$script
 @@||usbank.com^*/reporting/Omniture_Constants.js
 @@||useinsider.com/ins.js$domain=pizzahut.jp
@@ -22546,7 +22548,6 @@
 @@||wuxiaworld.com^$csp=script-src 'self' * 'unsafe-inline'
 @@||wuyou.com.cn/Js/ad.js
 @@||wuyou.com.cn/Js/ad.js
-@@||wuyou.com.cn/Js/ad.jsky
 @@||ww251.smartadserver.com/ac?nwid=*&siteid=$domain=transfermarkt.de
 @@||wwa.wipe.de/wwa.js$domain=mobil.dasoertliche.de
 @@||wwa.wipe.de/wwa.js$domain=mobil.dasoertliche.de
