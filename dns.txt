@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: LASqslkwt2ez0h/+quTCuQ
+! Checksum: iA9xupKes4oh024i3UEWGA
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-08 06:57:29（北京时间） 
-! Total count: 81622
+! Version: 2022-04-08 08:58:28（北京时间） 
+! Total count: 81625
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -25609,6 +25609,7 @@
 ||deskdecision.com^
 ||deskmony.info^
 ||deskt.cn^
+||desktopmessages.com^
 ||desktopnotificationshub.com^
 ||desky.xyz^
 ||deslncsiq.com^
@@ -62458,6 +62459,7 @@
 ||sindicato1ucm.cl^
 ||sindirect.adsrvr.org^
 ||sinefight-skinesia.com^
+||sinefilmizlesen.com^
 ||sinewedretore.casa^
 ||sing.3h1fpq39jb.ru^
 ||sing.wcoeaykv78.ru^
@@ -67101,6 +67103,7 @@
 ||stkx888.cn^
 ||stla.eclick.vn^
 ||stliom.vidaxl.cz^
+||stlog.d.dmkt-sp.jp^
 ||stm-cdn.cn.miaozhen.com^
 ||stm-collect.cn.miaozhen.com^
 ||stm65i8.com^
