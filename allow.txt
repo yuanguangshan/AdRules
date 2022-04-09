@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: S4S4AOSjoVuVekIh/eBbgw
+! Checksum: 6Oa85C+qSh/U5V/4TDeKfg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-04-09 09:24:23（北京时间） 
+! Version: 2022-04-09 16:15:19（北京时间） 
 ! Total count: 17894
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -34,7 +34,7 @@
 @@*$css,1p,domain=acortalo.*|acortar.*|megadescarga.net
 @@*$generichide,domain=softonic.com|avoiderrors.com|animefever.tv|bsmotoring.com|healthfary.com|infosehatku.club|2o-my.com|quizlet.com|imggram.org|gsm1x.xyz|keezmovies.com|brainly.com|dailythanthi.com|javqd.com|v6download.com|queenfaucet.website|dragon-url.com|imggram.org|bitcoinminingforex.blogspot.com|dunyanews.xyz|abtakar.com|windowcleaningforums.co.uk|muzlan.top|ps-insar.com|sivitechno.com|altervista.org|megaxz.com|esportstales.com|crunchyroll.com|avsim.net|freetuts.download|getfreshcloud.xyz|dotesports.com|magiskmanager.com|usgamer.net|eurogamer.net|rockpapershotgun.com|vg247.com|reuters.com|icy-veins.com|zerohedge.com|digitaltrends.com|intoupload.net|purposegames.com|tubitv.com|webmd.com|rawstory.com|memegenerator.net|lewat.in|wokesloth.com|trueachievements.com|gayecho.com|loginissue.help|terradrift.com|mragus.com|gamepedia.com|mragus.com|tutorialxiaomi.com|wotinfo.net|pilerats.com|wowthugger.com|alphahistory.com|hdmotori.it|hdtroll.it|hdmagazine.it|hdblog.it|mundodroidgames.com|mundodoandroidapk.com|parkers.co.uk|eskago.pl|globalindo.co|replica-watch.info|textmechanic.com|freeiptv.life|iptvcanales.com|ourl.io|pixelspot.net|medienwoche.ch|thurrott.com|knowtechie.com|wcvb.com|bikeradar.com|oxo-nulled.info|j-talk.com|onlinemschool.com|1fichier.com|o2tvseries.com|comptoir-hardware.com|watchtheoffice.online|yesmangasbr.com|tvtropes.org|playview.io|seehd.pl|nrl.com|emedicinehealth.com|oxfordmail.co.uk|akvideo.stream|xxvideosporno.net|pg3dhacks.com|litecoin-faucet.com|verdirectotv.com|xarold.com|saikoanimes.net|filmesonline1080p.com|narutoimagem.com|wolverdon-filmes.org|pornotorrentz.com|hiphopisdream.info|nba.com|loadvid.online|solarmoviez.ru|rockfile.co|onitube.com|wabetainfo.com|sportspf.com|solarmovie.watch|solarmoviesc.com|techsolutiontips.com|kissmanga.com|rnbxclusive.review|filespace.com|pressgazette.co.uk|macup.org|deutsche-vogelstimmen.de|yudu.co.nz|300mbfilms.org|adbilty.me|agarserv.com|albanian.tv|android-zone.ws|anibatch.id|animedao5.xyz|archived.moe|attitude.co.uk|bemetal.net|bittorrent.am|bolor-toli.com|bookdl.org|cinemamkv.xyz|classicreload.com|cloudwebcopy.com|computerera.co.in|cyberterminators.co|dingit.tv|dl-wordpress.com|dupedornot.com|dwrean.net|fas.li|fileflares.com|filespace.com|forumcoin.win|freetutorials.us|freetvall.com|fuckingsession.com|futbolchile.net|gktoday.in|gratismas.org|hentaitake.net|hyperdebrid.download|ig2fap.com|intercelestial.com|jilhub.xyz|krassotaa.com|l2network.eu|l2s.io|leech.ae|libgen.io|lolalytics.com|maango.info|makeuseof.com|minatosuki.com|mokeedev.com|mwpaste.com|netflixcookie.com|nulledcode.cc|paladinsdecks.com|pasteca.sh|picfont.com|powerthesaurus.org|qoshe.com|randomarchive.com|revealedtricks4u.com|rnbxclusive.site|sadeempc.com|safebitcoin.info|samwoolfe.com|sankakucomplex.com|sh.st|syriancivilwarmap.com|seriesgato.tv|talkingpointsmemo.com|techygeekshome.info|tecknity.com|thebarchive.com|thememypc.net|thepiratebay.run|thestar.co.uk|thoaimedia.com|tinypaste.cc|uploads.to|wallpapermania.eu|weather.com|westeros.org|widestream.io|wikijob.co.uk|xkorean.net|yiv.com|yourlifeupdated.net
 @@*$ghide,domain=acortalo.*|acortar.*|megadescarga.net
-@@*$ghide,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
+@@*$ghide,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|gamezone.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
 @@*$ghide,domain=bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|designbump.com|grammarist.com|madworldnews.com|reviveusa.com|sonsoflibertymedia.com|thedesigninspiration.com|themattwalshblog.com|videogamesblogger.com
 @@*$ghide,domain=brainly.*|eodev.com
 @@*$ghide,domain=deinesexfilme.com|einfachtitten.com|halloporno.com|herzporno.com|hd-pornos.net|lesbenhd.com|milffabrik.com|porn-monkey.com|porndrake.com|pornhubdeutsch.net|pornoaffe.com|pornodavid.com|pornoente.tv|pornofisch.com|pornofelix.com|pornohammer.com|pornohelm.com|pornoklinge.com|pornotom.com|pornotommy.com|pornovideos-hd.com|pornozebra.com|xhamsterdeutsch.xyz|xnxx-sexfilme.com
@@ -624,7 +624,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org/*
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2264,6 +2264,7 @@
 @@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|equinoxplus.com|speedcheck.ky
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.iplay.163.com^
+@@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.its-mo.com^$stealth
 @@||api.joara.com/v1/banner/main_popup.joa$app=com.joara.mobile
@@ -7590,7 +7591,6 @@
 @@||googletagmanager.com/gtag/js^$domain=timparty.tim.it
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=aena.es

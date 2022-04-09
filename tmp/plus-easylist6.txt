@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202204080208
+! Version: 202204090253
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 41042
+! Lenth = 41055
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -7343,7 +7343,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||googletagmanager.com/gtag/js^$domain=timparty.tim.it
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=amd.com
 @@||googletagmanager.com/gtm.js$domain=anond.hatelabo.jp
@@ -7787,6 +7787,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||lastampa.it/modulo/tracciatori/js/nielsen.js
 @@||lastampa.it/modulo/tracciatori/js/webtrekk.js
 @@||latimes.com/hive/javascripts/loggingService.js
+@@||launcher.spot.im/spot/$script,domain=jac.yahoosandbox.com
 @@||lazada.co.th/js/tracking.js
 @@||lcs.naver.com/*?u=*service_id$image,domain=smartstore.naver.com
 @@||lcs.naver.com/m?u=$domain=smartstore.naver.com
@@ -9065,6 +9066,7 @@ pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutbo
 pizzakiosk.ee#@#img[width="88"][height="31"]
 politring.com##a[href="https://metrika.yandex.ru/"]
 polymail.io/v2/z$image
+popin.cc#%#//scriptlet('set-local-storage-item', '_ss_pp_id', '')
 popmech.ru#%#AG_onLoad(function() { window.POPMECH.increaseCounters = function() {} });
 portaltele.com.ua##.td-footer-template-9
 prjaga.ru#?##right > div#right_nav > h3:contains(Онлайн статистика)
@@ -9493,6 +9495,7 @@ znak.com##.relap
 ||a.oix.net^$third-party
 ||a.perfumesclub.fr^
 ||a.poki.com/observer/$script
+||a.popin.cc^
 ||a.pourquoidocteur.fr^
 ||a.pr-cy.ru/assets/img/analysis-counter.png$third-party
 ||a.pr-cy.ru/assets/js/counter.sqi.min.js
@@ -11516,6 +11519,7 @@ znak.com##.relap
 ||analyticcdn.globalmailer.com^
 ||analytics*.carambo.la^
 ||analytics*.clickdimensions.com^
+||analytics*.prezly.com^
 ||analytics-1.cavai.com^
 ||analytics-api.a-f.io^
 ||analytics-api.dvdfab.cn^
@@ -13598,6 +13602,7 @@ znak.com##.relap
 ||booking.com/sendlayoutevents
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
+||bookoffonline.co.jp/mbfiles/tracking/
 ||books-analytics-events.apple.com^
 ||books-analytics-events.news.apple-dns.net^
 ||booktopia.com.au/Ns7aBMIv/init.js
@@ -16455,6 +16460,7 @@ znak.com##.relap
 ||dash.getsitecontrol.com/api/*/events?
 ||dash.getsitecontrol.com^
 ||dashboard.io^$third-party
+||dashboard.popin.cc^$cookie=laravel_session
 ||dashingdirt.com^
 ||dashingdirt.com^$third-party
 ||dashingdrop.com^
@@ -19746,6 +19752,7 @@ znak.com##.relap
 ||gannett.hb.omtrdc.net^
 ||gannettdigital.com/capture_logger/
 ||ganon.yahoo.com^
+||gapp1.com^
 ||gas-sensing.spec-sensors.com^
 ||gassales.eversource.com^
 ||gastdn.wolfandbadger.com^
@@ -20618,6 +20625,7 @@ znak.com##.relap
 ||gzimdi.soloautos.mx^
 ||gzlxvg.papy.co.jp^
 ||h-bid.com^$third-party
+||h-cast.jp^$third-party
 ||h.cloudengage.com^$third-party
 ||h.imedia.cz^
 ||h.seznam.cz/hit/?
@@ -28558,6 +28566,9 @@ znak.com##.relap
 ||poorlydig.com^$third-party
 ||popfilmeshd.net/wp-content/plugins/google-analytics-dashboard-for-wp/front/js/tracking-analytics-events.js
 ||popin.cc/td_js_
+||popin.cc^$cookie=_ss_pp_id
+||popin.cc^$cookie=_td
+||popin.cc^$cookie=uid
 ||popmech.ru^$cookie=popmech_nuid
 ||popsample.com^$third-party
 ||popt.in^$third-party
@@ -29315,6 +29326,7 @@ znak.com##.relap
 ||rank-power.com^$third-party
 ||rank4all.eu^$third-party
 ||rankchamp.de^$third-party
+||ranker.com/api/tr?
 ||rankhit.china.com^
 ||ranking-charts.de^$third-party
 ||ranking-counter.de^$third-party
@@ -38399,6 +38411,7 @@ znak.com##.relap
 ||trvonu.k-manga.jp^
 ||trvtrk.com^$third-party
 ||trwl1.com/ascripts/gcrt.js
+||trx-hub.com^
 ||trx-hub.com^$third-party
 ||trx3.famousfix.com^
 ||try.abtasty.com/*.js$third-party
