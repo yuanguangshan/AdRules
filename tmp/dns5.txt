@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202204090648
+! Version: 202204091351
 ! Title: EasyPrivacy
-! Last modified: 09 Apr 2022 06:48 UTC
+! Last modified: 09 Apr 2022 13:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5807,6 +5807,7 @@ _mongo_stats/
 ||dm-event.net^
 ||dmpxs.com^
 ||dratingmaject.com^
+||dynatrace-managed.com^
 ||e1e.io^
 ||efreecode.com^
 ||emycewiw.xyz^
@@ -25675,12 +25676,12 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||beacon.watch.impress.co.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||bookoffonline.co.jp/mbfiles/tracking/
 ||carview.co.jp/include_api/log/
 ||contx.net/collect.js
 ||count.upc.rakuten.co.jp^
 ||dmm.com/analytics/
 ||dmm.com/imp?
+||dxlive.com/js/dtrace.js
 ||fensi.plus^*/tracking/
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js

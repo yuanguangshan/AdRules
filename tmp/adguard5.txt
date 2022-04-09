@@ -1,8 +1,8 @@
-! Checksum: 5ASWLoNO6waGA4XW7CD/xg
+! Checksum: q4ZV1qFmpKkCoF6ojVkOvQ
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.15.10
-! TimeUpdated: 2022-04-08T20:30:33+00:00
+! Version: 2.1.15.11
+! TimeUpdated: 2022-04-09T11:30:32+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -146,7 +146,7 @@ safecities.economist.com##div[class*="-AltAdvertisement"]
 rockmods.net###HTML1
 diamond.jp###trend-watch
 popularmechanics.com##.bar-content-disclaimer
-vgr.by##.edgtf-post-group
+vgr.by##body .edgtf-post-group
 kv.by###our-channels
 kv.by##.telegramim_button
 fb.ru##.intext
