@@ -3967,6 +3967,7 @@
 ##.centeradv
 ##.centered-ad
 ##.centralizer-adx
+##.cfa_popup
 ##.ch-ad-item
 ##.channel_ad_2016
 ##.channel_brand_ad
@@ -35712,7 +35713,6 @@ p4link.com,oceantech.xyz##+js(abort-on-property-read, tampilkanUrl)
 p4link.com,oceantech.xyz##+js(remove-attr, target, a[class='btn btn-success btn-lg get-link'][target='_blank'])
 p4link.com,oceantech.xyz##+js(remove-class, get-link, a[class='btn btn-success btn-lg get-link'][target='_blank'])
 p9.com.tw##.contentRightAd
-pFunc)
 pacogames.com###ga_sp_banner
 pacogames.com###ga_sp_preloader
 pacogames.com##.wgAdBlockMessage
@@ -38998,6 +38998,7 @@ tapmoi.net#$#abort-on-property-read SmartPopunder
 taptap.com###bottomBanner
 taraavery.com#@##banner-container
 tarafdari.com##div[id^="sanjagh_"]
+target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.my.com##+js(set-constant, trg.ads, true)
 tarikhema.org#@#.bsac
 tarikhema.org#@#.bsac-container
@@ -50542,7 +50543,6 @@ zznews.cn##.ad:not([style])
 ||bookmsg.com^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||bookoffonline.co.jp/mbfiles/tracking/
 ||bookopen.cn^
 ||bookrb.com/images/jtt
 ||books.com.tw/exep/ap/$third-party
@@ -60746,6 +60746,7 @@ zznews.cn##.ad:not([style])
 ||hittracker.com^$third-party
 ||hittracker.org/count.php
 ||hittracker.org/counter.php
+||hitugou.com^
 ||hitwake.com^$third-party
 ||hitwebcounter.com^$third-party
 ||hiuplq.diretta.it^
@@ -72753,6 +72754,7 @@ zznews.cn##.ad:not([style])
 ||qinmon.xyz^
 ||qinongyouxuan.cn^$third-party
 ||qinqiaotrade.com^
+||qintingapp.com^
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qinzhihao.com^
 ||qinzigenjudi.com^
@@ -82323,6 +82325,7 @@ zznews.cn##.ad:not([style])
 ||u26u.com^$popup,third-party
 ||u29qnuav3i6p.com^
 ||u2c8.cn^
+||u3c3.cc^*.gif
 ||u3c3.com^*.gif
 ||u3c3.org/3.png
 ||u3c3.org^*.gif
@@ -86882,6 +86885,7 @@ zznews.cn##.ad:not([style])
 ||yunzuowen.com^$third-party
 ||yuoyan.finanzen.de^
 ||yupoo.com/dapenti/5cfa8673/c6045c69.jpeg
+||yuquad.com^
 ||yushengyuancaishui.com^
 ||yushuha.com^
 ||yuubuslvsqhopkk.com^

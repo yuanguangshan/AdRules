@@ -6,8 +6,8 @@
 !
 !  Title: oisd basic     
 !  Syntax: abp       
-!  Entries: 51693  
-!  TimeUpdated: 9 Apr 2022 11:36 UTC          
+!  Entries: 51692  
+!  TimeUpdated: 9 Apr 2022 15:40 UTC          
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -35377,7 +35377,6 @@
 ||poorlygarrisondistant.com^
 ||poosoahe.com^
 ||poosugap.com^
-||pop-iad-2.cf.dash.row.aiv-cdn.net^
 ||pop-under.ru^
 ||pop.bid^
 ||pop.dojo.cc^
@@ -51705,4 +51704,5 @@
 ||zzxlhwyp.com^
 ||zzyonghao.com^
 ||zzznews.ru^
+
 

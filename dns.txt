@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: QqOARhDvPeTm2jXt0dV7SA
+! Checksum: WMiZk/rJ+hAmYYgA3v6xkw
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-09 22:01:12（北京时间） 
-! Total count: 93404
+! Version: 2022-04-10 00:17:04（北京时间） 
+! Total count: 93407
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
 /((^)|(.))adsdk./
@@ -47050,6 +47050,7 @@
 ||kuhnisister.ru^
 ||kuhou.com^
 ||kujrsivgg.com^
+||kukanlm-youeryuan.com^
 ||kukulm.com^
 ||kukury2hf8nd09.com^
 ||kulcdtw.cn^
@@ -47792,6 +47793,7 @@
 ||ledsitling.pro^
 ||ledslevier.com^
 ||lee.blueconic.net^
+||lee2code.com^
 ||leech.fuchsegg.at^
 ||leech.privacycloud.com^
 ||leech.stargate-project.de^
@@ -92282,6 +92284,7 @@
 ||yuppyads.com^
 ||yuqhtlry.xyz^
 ||yuqnibpyn.com^
+||yuquad.com^
 ||yuriaftereleven.com^
 ||yurivideo.com^
 ||yushengyuancaishui.com^
