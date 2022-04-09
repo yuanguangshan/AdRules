@@ -3648,6 +3648,7 @@
 @@||app.usercentrics.eu/*/main.js$domain=liebherr.com
 @@||app.usercentrics.eu/browser-sdk/*/cross-domain-bridge.html$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||app.usercentrics.eu/browser-ui/latest/bundle.js$domain=studycheck.de
+@@||app.usercentrics.eu/browser-ui^$domain=app.usercentrics.eu
 @@||app.usercentrics.eu/latest/bundle.js$domain=wetter.com|joyn.de|stromseite.de
 @@||app.usercentrics.eu/latest/main.js$domain=wetter.com|joyn.de|stromseite.de
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
@@ -14886,6 +14887,8 @@
 @@||latino-webtv.com^$stealth
 @@||latitu.ru^*/advert_$xmlhttprequest
 @@||latitu.ru^*/advert_$xmlhttprequest
+@@||launcher.spot.im/spot/$script,domain=jac.yahoosandbox.com
+@@||launcher.spot.im/spot/$script,domain=jac.yahoosandbox.com
 @@||launcher.spot.im/spot/sp_$script,domain=bizpacreview.com
 @@||launcher.spot.im/spot/sp_$script,domain=bizpacreview.com
 @@||laverdad.es^$ghide
@@ -21125,6 +21128,7 @@
 @@||sendgrid.com/marketing_campaigns$document
 @@||sendgrid.com/marketing_campaigns$document
 @@||senpa.io^$extension
+@@||senpa.io^$ghide
 @@||senseoflaw.com^$stealth
 @@||senseoflaw.com^$stealth
 @@||seo-fast.ru/js/adv.js

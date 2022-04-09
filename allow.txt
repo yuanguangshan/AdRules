@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: hLXtOUPogndIt5CCO9K2tQ
+! Checksum: CgYHyp66VHczxT1X0uLN1A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-04-09 00:18:26（北京时间） 
-! Total count: 17891
+! Version: 2022-04-09 08:57:17（北京时间） 
+! Total count: 17894
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -2387,6 +2387,7 @@
 @@||app.usercentrics.eu/*/main.js$domain=liebherr.com
 @@||app.usercentrics.eu/browser-sdk/*/cross-domain-bridge.html$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||app.usercentrics.eu/browser-ui/latest/bundle.js$domain=studycheck.de
+@@||app.usercentrics.eu/browser-ui^$domain=app.usercentrics.eu
 @@||app.usercentrics.eu/latest/bundle.js$domain=wetter.com|joyn.de|stromseite.de
 @@||app.usercentrics.eu/latest/main.js$domain=wetter.com|joyn.de|stromseite.de
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
@@ -9915,6 +9916,7 @@
 @@||latin.it/banner.php
 @@||latino-webtv.com^$stealth
 @@||latitu.ru^*/advert_$xmlhttprequest
+@@||launcher.spot.im/spot/$script,domain=jac.yahoosandbox.com
 @@||launcher.spot.im/spot/sp_$script,domain=bizpacreview.com
 @@||laverdad.es^$ghide
 @@||lavocedimanduria.it/TemplateLive/app/assets/js/prebid-ads.js
@@ -14249,6 +14251,7 @@
 @@||sendgb.com/*/?utm_source=$removeparam=utm_source
 @@||sendgrid.com/marketing_campaigns$document
 @@||senpa.io^$extension
+@@||senpa.io^$ghide
 @@||senseoflaw.com^$stealth
 @@||seo-fast.ru/js/adv.js
 @@||seomafia.net/stylesheets/ads.css

@@ -5010,7 +5010,9 @@ updato.com##+js(nostif, updato-overlay, 500)
 ! https://github.com/uBlockOrigin/uAssets/issues/1946
 animeland.*##+js(aopw, Fingerprint2)
 animeland.*##+js(nowebrtc)
-animeland.*##li#archives:has-text(/sponsor/i)
+animeland.*##li > center > .widget-title:has-text(Sponsor):upward(2)
+/akame300.html
+||animeland.tv/ios.html
 lolhentai.net##+js(nowoif)
 ! ! adding sites using the same script
 ! https://www.reddit.com/r/uBlockOrigin/comments/a6bbib/this_website_seems_to_be_able_to_bypass_ublock/
@@ -10616,6 +10618,7 @@ proxydocker.com##+js(nostif, (), 1000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4547
 illicoporno.com##+js(set, is_adblocked, false)
+*$popunder,domain=illicoporno.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4549
 mobdi3ips.com##+js(aeld, load, onload)
@@ -13550,6 +13553,7 @@ uploadever.com##+js(nano-stb)
 woxikon.de##.ads-wrapper
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5666
+@@||senpa.io^$ghide
 senpa.io##+js(nobab)
 senpa.io###ad-slot-left-panel
 senpa.io###ad-slot-center-panel
@@ -16785,6 +16789,7 @@ rutube.ru##+js(json-prune, cuepoints)
 ladepeche.fr##+js(aopr, localStorage)
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=43872
+projectfreetv.*##+js(acis, JSON.parse, break;case $.)
 projectfreetv.*##+js(aopw, _pop)
 projectfreetv.*##+js(aeld, , _0x)
 ##.overlay-advertising-new
@@ -20436,8 +20441,8 @@ techdracula.com##.adsbygoogle
 /[0-9a-f]{32}\/invoke\.js/$script,3p
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
 ! https://github.com/easylist/easylist/issues/6476
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[fiprt](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-4]\d{4}|[3-9]\d{3})(?:\?(param)?_\d?=\d+)?$/$frame,script,xhr,popup,3p,match-case
-/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[fiprt](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-4]\d{4}|[3-9]\d{3})(?:\?(param)?_\d?=\d+)?$/$frame,script,xhr,popup,3p,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.com\/[finprt](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-4]\d{4}|[3-9]\d{3})(?:\?(param)?_\d?=\d+)?$/$frame,script,xhr,popup,3p,match-case
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.website\/[finprt](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-4]\d{4}|[3-9]\d{3})(?:\?(param)?_\d?=\d+)?$/$frame,script,xhr,popup,3p,match-case
 ! https://github.com/easylist/easylist/issues/6471
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,3p,badfilter
 /\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{4,9}\.js$/$script

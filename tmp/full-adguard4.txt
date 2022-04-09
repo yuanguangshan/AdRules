@@ -1,8 +1,8 @@
-! Checksum: Pzfnp3scLwN64bRR+lcs7g
+! Checksum: bNdGbls0EYNWsdR3ahpucQ
 ! Title: AdGuard Annoyances filter
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.15.5
-! TimeUpdated: 2022-04-08T15:30:38+00:00
+! Version: 2.1.15.10
+! TimeUpdated: 2022-04-08T20:30:33+00:00
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -7298,6 +7298,8 @@ techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#bod
 !
 !
 !
+news.acer.com##div[class^="CookieConsentBar_"]
+kddi.com##.add-get-cookie
 consilium.europa.eu##.cookie-section
 mattermost.com##.module-gdpr-acceptance
 steambuy.com###sb-privacy-policy
@@ -9803,7 +9805,7 @@ perspektive-wiedereinstieg.de#$#body { overflow: visible !important; position: s
 vargonen.com###footer + div.readed-footer
 onetwotrip.com##div[data-locator="cookie-policy"]
 cloudmounter.net,eltima.com##.float-message__wrap
-refarming.pl,7labs.io###consent-popup
+uqwimax.jp,refarming.pl,7labs.io###consent-popup
 every-tuesday.com###et-gdpr-popup
 hek.de###colorbox
 hek.de###cboxOverlay
@@ -16610,7 +16612,9 @@ meine-rvb.de#@#.cookie-consent:not(body):not(html)
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/wrapper/$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/index.html$domain=saechsische.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/114538
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94915
+@@||app.usercentrics.eu/browser-ui^$domain=app.usercentrics.eu
 @@||usercentrics.eu^$domain=augsburger-allgemeine.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95437
 natgeotv.com#@##onetrust-consent-sdk
@@ -20614,6 +20618,7 @@ theoryandpractice.ru##a[href^="https://form.typeform.com/"]
 !######### Subscription popups add to subscriptions.txt #########
 !
 techacademy.jp##.pum-overlay[data-popmake*="640px"]
+techcrunch.com##.announcement-banner[style="position: fixed;"]
 hindustantimes.com##.toolTip
 hindustantimes.com##.blackOverlay
 ||ok.ru/res/js/app/AuthLoginPopup_
@@ -27889,6 +27894,8 @@ experts-exchange.com##.ctaSolutionStickyWrapper
 theguardian.com##.contributions__adblock
 ||contributions.guardianapis.com^
 !
+so-net.ne.jp##.comp-gate
+weather.smt.docomo.ne.jp###prlinksgtk
 g2a.com##.exit-modal--image > a[title="Weekly Sale"]
 g2a.com##.exit-modal--background
 opennet.ru##div[style="background-color: #E9EAD6; width:100%; height: 61px;"]
@@ -28743,6 +28750,7 @@ turkuazgazetesi.net,yenialanya.com,mansetaydin.com,seskocaeli.com,kocaelibarisga
 ##.widget_blog_subscription
 ~copays.org,~nothing.tech,~mega-debrid.eu,~curvegames.com,~news.un.org,~norwichzen.org.uk,~dereferer.me###mc_embed_signup
 !
+news.acer.com##div[class^="SubscribeForm_"]
 timesnownews.com##div[class^="ArticleShow-googleFollow-"]
 epravda.com.ua#?#.post__text > blockquote:has(> p > a[href="https://t.me/epravda"])
 life.pravda.com.ua##.content-block-column > div.img-wrap > div[style="text-align:center; padding-top: 0px;"]
@@ -35017,6 +35025,7 @@ spiegel.de##div[data-settings*="https://widget.civey.com/"]
 !
 ! Chat widgets
 !
+||showtalk.jp^$third-party
 ||procdncache.com/chat.php
 ||video.ibm.com/socialstream/$domain=myoplay.club
 /js/chat/edu_chat.js
