@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: cfA6k4dlWyBf8bs7gg1plw
+! Checksum: yJdiLbqLUQX9gP/em7UW3g
 ! Title: Fanboy+Easylist-Merged Ultimate List
 ! Version: 202204090033
 ! Last modified: 2022-04-09 00:33 UTC
@@ -109973,6 +109973,7 @@ _subscribers_newsletters/
 ###SiteInfoBanner[data-cookie-checker]
 ###SiteMasterPage_updCookieDisclaimer
 ###StCookieStyle-bar
+###StickyCookie-cookieSticky
 ###SwOverlayCookies
 ###TCCInfoCookie
 ###TNTpageContentPlaceHolder_pnlCookieMessage
@@ -111724,6 +111725,7 @@ _subscribers_newsletters/
 ###cookieAcknowledge
 ###cookieAcknowledgement
 ###cookieAcknowledgementSpacer
+###cookieAd
 ###cookieAdv
 ###cookieAdvertising
 ###cookieAdvice
@@ -126827,6 +126829,7 @@ m###teaser-newsletter
 ||echatsys.com/sounds/
 ||gubagoo.io/v4/media/
 ||helpscout.net/static/ui-sounds/
+||jivo.ru/sounds/
 ||jivosite.com/sounds/
 ||js.driftt.com/conductor/assets/media/
 ||js.driftt.com/deploy/assets/static/audio/
@@ -139117,6 +139120,7 @@ vonage.com.ph###onetrust-consent-sdk
 edge.pse.com.ph###policy
 sfasemicon.com.ph###privacyPolicy
 aia.com.ph,bpi-aia.com.ph,privacy.gov.ph##.alert
+mysky.com.ph##.cookie
 kvarta.ph##.cookie_cookie__vw_fs
 nocontact.manilacity.ph##.jconfirm-light
 nocontact.manilacity.ph##.jconfirm-row
@@ -139720,7 +139724,7 @@ emea.com.tr##.cookies
 ak-asya.com.tr##.dialog-lightbox-message
 ak-asya.com.tr##.dialog-type-lightbox
 yucebasmakine.com.tr##.fadeInUp
-muze.gen.tr##.fixed-bottom
+modoko.com.tr,muze.gen.tr##.fixed-bottom
 dizioneri.com##.modal-backdrop
 versus-omega.com.tr##.notification
 betuyab.com.tr,yenisafak.com##.policy

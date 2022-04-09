@@ -41359,6 +41359,7 @@ www.o2.pl#?##root div[class]:matches-property("/__reactInternalInstance/.return.
 www.o2.pl#?#div[class*=" "] > img[src^="https://www.o2.pl/"]:first-child + div:last-child:upward(1)
 www.o2.pl#?#div[class*=" "]:matches-css(position: relative) > img[class][src^="https://www.o2.pl/"][alt]:not([srcset]) + div:upward(1)
 www.o2.pl#?#div[class*=" "]:matches-css(position: relative) > img[class][src^="https://www.o2.pl/"][role="presentation"]:not([srcset]) + div:upward(1)
+www.olevod.com##DIV.B1Lss,.B1Rss
 www.pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],DIV#slide.layui-carousel,DIV.closeable
 www.pianba.tv/api/web_htmls.js
 www.pixnet.net###extradiv2
@@ -84953,6 +84954,7 @@ zznews.cn##.ad:not([style])
 ||www.google.$removeparam=iflsig
 ||www.google.$removeparam=uact
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
+||www.googletagmanager.com^
 ||www.govchengdu.cn^
 ||www.govchongqing.cn^
 ||www.govguangxi.cn^
