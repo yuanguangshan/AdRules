@@ -5,7 +5,6 @@
 0-partner.net.daraz.com
 0-proxy.net.zooplus.de
 0-transit.net.zooplus.de
-0.0.0.0	localhost.localdomain
 0.backend.net.zooplus.de
 0.csr1staff.net.zooplus.de
 0.data.net.zooplus.de
