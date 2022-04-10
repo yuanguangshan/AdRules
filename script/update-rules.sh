@@ -208,7 +208,7 @@ wait
 cat tmp1-dns1.txt deadblock.txt deadblock.txt \
  | sort -n |uniq -u >tmp-dns.txt #去重过期域名
 #wait
-cat base-src-hosts.txt tmp-dns.txt \
+cat .././mod/rules/adblock-rules.txt base-src-hosts.txt \
  | sed '/^$/d' |grep '^||\|^[0-9]' | grep -v '\*'\
  | grep -v './'| grep -v '^\[' | grep -v '.!' \
  | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
