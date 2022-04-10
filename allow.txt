@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ggZc7DE8Y79vb0KRptzXAw
+! Checksum: d2knEoAMhIk406P8IkGeqw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-04-10 15:35:19（北京时间） 
-! Total count: 17895
+! Version: 2022-04-10 15:52:13（北京时间） 
+! Total count: 17926
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -533,6 +533,45 @@
 @@/wutime$script,1p
 @@/yozons-lib/core.js$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 @@/zig_cookiepolicybar/*/CookieBar.js$script,~third-party
+@@0.0.0.0 aod.itunes.apple.com
+@@0.0.0.0 aod.itunes.g.aaplimg.com
+@@0.0.0.0 api.yjllq.com
+@@0.0.0.0 app.qq.com
+@@0.0.0.0 bkimg.cdn.bcebos.com
+@@0.0.0.0 dash.cloudflare.com
+@@0.0.0.0 dash.xns.one
+@@0.0.0.0 doc.weixin.qq.com
+@@0.0.0.0 drive.quark.cn
+@@0.0.0.0 gw.m.163.com
+@@0.0.0.0 idqqimg.com
+@@0.0.0.0 ilce.alicdn.com
+@@0.0.0.0 imgstat.baidu.com
+@@0.0.0.0 inews.gtimg.com
+@@0.0.0.0 local.adguard.org
+@@0.0.0.0 maccms.com
+@@0.0.0.0 map.qq.com
+@@0.0.0.0 mb.yidianzixun.com
+@@0.0.0.0 metrics1.data.hicloud.com
+@@0.0.0.0 p.qlogo.cn
+@@0.0.0.0 package.wallpaper.cdn.pandora.xiaomi.com.lan
+@@0.0.0.0 pan.quark.cn
+@@0.0.0.0 paste.in
+@@0.0.0.0 qq-web.cdn-go.cn
+@@0.0.0.0 quark.sm.cn
+@@0.0.0.0 qun.qq.com
+@@0.0.0.0 static.tieba.baidu.com
+@@0.0.0.0 static.yximgs.com
+@@0.0.0.0 sug.browser.miui.com
+@@0.0.0.0 thirdwx.qlogo.cn
+@@0.0.0.0 uri6.com
+@@0.0.0.0 w.pandora.xiaomi.com
+@@0.0.0.0 wallpaper.cdn.pandora.xiaomi.com
+@@0.0.0.0 wan.yxskill.com
+@@0.0.0.0 wl.jd.com
+@@0.0.0.0 woozooo.com
+@@0.0.0.0 wx.qlogo.cn
+@@0.0.0.0 wx.tenpay.com
+@@0.0.0.0 yyfweb.postar.cn
 @@12.24.58.15^$network
 @@144.43.243.208$network
 @@185.88.236.76:443$network
@@ -625,7 +664,6 @@
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org/ga-track.
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -10159,7 +10197,6 @@
 @@||loadus.exelator.com/load/?p=$script,domain=rrstar.com
 @@||lobi.co/1/track/event/
 @@||local.adguard.org^
-@@||local.adguard.org^$important
 @@||localbitcoins.com/ads_edit
 @@||log-upload.mihoyo.com^
 @@||log.mmstat.com^
@@ -10351,7 +10388,7 @@
 @@||mail.google.com/mail/$stealth
 @@||mail.google.com/mail/u/$removeparam
 @@||mail.google.com^$generichide
-@@||mail.google.com^$important,document
+@@||mail.google.com^,document
 @@||mail.protonmail.com^$generichide
 @@||mail.wo.cn/ad/
 @@||mail.yahoo.com/d/gemini_api/?adCount=
@@ -10503,7 +10540,6 @@
 @@||maxstream.video^$generichide
 @@||mazu.3g.qq.com^
 @@||mb.yidianzixun.com^
-@@||mb.yidianzixun.com^$important
 @@||mbank.cz/Adv/Scripts/$~third-party
 @@||mbank.sk/Adv/Scripts/$~third-party
 @@||mbd.baidu.com^
@@ -11865,7 +11901,6 @@
 @@||p2xfxd.com^$ghide
 @@||pacaio.match.qq.com^
 @@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
-@@||package.wallpaper.cdn.pandora.xiaomi.com.lan^$important
 @@||padsdel.com^$image,subdocument,domain=bitzfree.com
 @@||padstm.com^$image,subdocument,domain=bitzfree.com
 @@||pafpaf.info/advertisement.js
@@ -13266,7 +13301,6 @@
 @@||quizdiva.net^$ghide
 @@||quizlet.com^$ghide
 @@||qun.qq.com^
-@@||qun.qq.com^$important
 @@||qupeiyin.com/Home/images/share/play.png$image,~third-party
 @@||qvc.de/wcsstore/*/content/javascript/gdpr.js
 @@||qz.com/images/buttons/sign-in-with-twitter.png
@@ -15315,7 +15349,6 @@
 @@||sudoroot.net/*/|$stealth
 @@||sudupan.com^*/*.gif
 @@||sug.browser.miui.com^
-@@||sug.browser.miui.com^$important
 @@||sugar.zhihu.com^
 @@||suj.nu^$ghide
 @@||sulidshyly.com^$domain=wired.com
@@ -16936,7 +16969,6 @@
 @@||vw-page.com/wcf/js/advertisement.js
 @@||vypocitejto.cz/advertisment.js
 @@||w.pandora.xiaomi.com^
-@@||w.pandora.xiaomi.com^$important
 @@||w.sharethis.com/button/buttons.js$domain=legacy.com
 @@||w2g.tv/rooms/$stealth
 @@||w3spy.org/etc/geo.php?
@@ -16961,7 +16993,6 @@
 @@||wallpaper-house.com^$generichide
 @@||wallpaper-house.com^$ghide
 @@||wallpaper.cdn.pandora.xiaomi.com^
-@@||wallpaper.cdn.pandora.xiaomi.com^$important
 @@||wallpaperenginefree.com^$ghide
 @@||wallpapermania.eu/assets/js/ads.js
 @@||wallpapermania.eu/assets/js/ads.js$xmlhttprequest
@@ -17789,7 +17820,7 @@
 @@||yupptv.in^$generichide
 @@||yuudrive.me^$ghide
 @@||yximgs.com^
-@@||yyfweb.postar.cn^$important
+@@||yyfweb.postar.cn^
 @@||yygsz.com^$generichide
 @@||yyv.co/intermission/loadTargetUrl$xmlhttprequest
 @@||yzzkb.com.cn^*ad.

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: mzmIM8/SQZDLVGvHD352Ug
+! Checksum: LzpafqdEWas5lRlkI/0fmA
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-04-10 15:35:19（北京时间） 
+! Version: 2022-04-10 15:52:13（北京时间） 
 ! Total count: 89267
 ###ADCENTER
 ###ADSLOT_1
@@ -22306,7 +22306,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||mahimeta.com/networks/ad_code.php$domain=farescd.com
 @@||mail.google.com/mail/u/$removeparam
 @@||mail.google.com^$generichide
-@@||mail.google.com^$important,document
+@@||mail.google.com^,document
 @@||mail.protonmail.com^$generichide
 @@||mail.wo.cn/ad/
 @@||mail.yahoo.com/d/gemini_api/?adCount=
@@ -22357,7 +22357,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|elgato.com|fallout4.com|filld.com|ibanez.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||maxstream.video^$generichide
-@@||mb.yidianzixun.com^$important
+@@||mb.yidianzixun.com^
 @@||mc-premium.org/assets/js/fuckadblock.js
 @@||mc.yandex.ru/metrika/tag.js$script,domain=auto.yandex|coddyschool.com
 @@||mc.yandex.ru/metrika/watch.js$domain=f5haber.com
@@ -22780,7 +22780,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||p.jwpcdn.com/*/skins/$third-party
 @@||p.jwpcdn.com/player/*.js$domain=akwam.*
 @@||p.jwpcdn.com/player/plugins/vast/v/*/vast.js$domain=animefever.tv
-@@||package.wallpaper.cdn.pandora.xiaomi.com.lan^$important
+@@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
 @@||padsdel.com^$image,subdocument,domain=bitzfree.com
 @@||padstm.com^$image,subdocument,domain=bitzfree.com
 @@||pagead2.googlesyndication.com/$script,xmlhttprequest,domain=rjno1.com
@@ -23336,7 +23336,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
 @@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||quickbitco.in/js/ads.js$script
-@@||qun.qq.com^$important
+@@||qun.qq.com^
 @@||r.sascdn.com/diff/js/smart.js$script,domain=comics-sanctuary.com
 @@||r.sascdn.com/diff/js/smart.js$script,domain=manga-sanctuary.com
 @@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
@@ -23980,7 +23980,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||suarankri.me^$generichide
 @@||subfb.us^$generichide
 @@||sudupan.com^*/*.gif
-@@||sug.browser.miui.com^$important
+@@||sug.browser.miui.com^
 @@||sumeronline.com^$generichide
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||suning.cn/project/msIndex/js/??
@@ -24486,14 +24486,14 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||vvv.aaaf.info/*.ts$domain=159i.com
 @@||vvv.aaaf.info/*/playlist.m3u8$domain=159i.com
 @@||vvvvid.it/img/ad/advertisement.xml$xmlhttprequest
-@@||w.pandora.xiaomi.com^$important
+@@||w.pandora.xiaomi.com^
 @@||waaw.to/adv/ads/popunder.js$script
 @@||waaw.tv/js/adv/fuckadblock.js
 @@||waccoe.com^$generichide
 @@||waitrosecellar.com^*/eventTracking-Cellar.js$domain=waitrosecellar.com
 @@||walla.co.il^$csp
 @@||wallpaper-house.com^$generichide
-@@||wallpaper.cdn.pandora.xiaomi.com^$important
+@@||wallpaper.cdn.pandora.xiaomi.com^
 @@||wallpapermania.eu/assets/js/ads.js
 @@||wallpapermania.eu/assets/js/ads.js$xmlhttprequest
 @@||wallpapers.ispazio.net/advert^
@@ -24775,7 +24775,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||yupptv.in/images/*.png#
 @@||yupptv.in/images/yupptv.svg#
 @@||yupptv.in^$generichide
-@@||yyfweb.postar.cn^$important
+@@||yyfweb.postar.cn^
 @@||yygsz.com^$generichide
 @@||yyv.co/intermission/loadTargetUrl$xmlhttprequest
 @@||yzzkb.com.cn^*ad.
@@ -56377,7 +56377,7 @@ zznews.cn##.ad:not([style])
 ||difficultfog.com^
 ||difficultydilapidationsodium.com^
 ||diffusion-tracker.com^$third-party
-||dig.bdurl.net
+||dig.bdurl.net^
 ||dig.chouti.com/advert
 ||dig.qbao.com^
 ||dig.ultimedia.com^
@@ -66128,7 +66128,7 @@ zznews.cn##.ad:not([style])
 ||langya.cn/2014html/2014ad_
 ||langya.cn/2014html/ad/
 ||lankychaosrun.com^
-||lanm.huliyinzi.com
+||lanm.huliyinzi.com^
 ||lanmogu.net^$third-party
 ||lanopoon.net^
 ||lanrenzhijia.com/Public/images/head_right_top.gif
@@ -84273,7 +84273,7 @@ zznews.cn##.ad:not([style])
 ||uts.auction.co.kr^
 ||uttermosthobbies.com^
 ||utuypsohjvuf.com^
-||uty.micocc.com
+||uty.micocc.com^
 ||uu1.3gu.com^
 ||uuaoz.com^
 ||uubiqu.com^*.html$script
