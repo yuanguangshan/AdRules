@@ -214,6 +214,7 @@ wait
 
 cat l*.txt pre-allow1.txt dns99* \
  |grep -v '^!' | grep -E -v "^[\.||]+[com]+[\^]$" \
+ |grep -Ev "^\^" \
  |sort -n |uniq >> tmp1-dns1.txt & #处理DNS规则
 wait
 cat tmp1-dns1.txt deadblock.txt deadblock.txt \
