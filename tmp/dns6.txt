@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +/wZUoM2EmAZR0PRnFYS8w
+! Checksum: jCwNX3L6qbJdwQInY2imWA
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204091533
-! Last modified: 2022-04-09 15:33 UTC
+! Version: 202204100033
+! Last modified: 2022-04-10 00:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -585,7 +585,7 @@
 .openxtag.
 .org/ad-
 .org/ad.$~script
-.org/ad/
+.org/ad/$domain=~ylilauta.org
 .org/adgallery1
 .org/ads-
 .org/ads/
@@ -3319,6 +3319,8 @@
 /ajs.php?
 /ajs?auid=
 /ajs?zoneid=
+/akame160.html
+/akame300.html
 /amazon-ad-
 /amazon-apstag.
 /amazon-associates-link-$~stylesheet
@@ -7814,6 +7816,7 @@ _800x80_
 /popunder.$popup
 /popunder_$popup
 /popupads.$popup
+/prod/go.html?$popup
 /prod/redirect.html?lu=$popup
 /realmedia/ads/*$popup
 /show?bver=$popup
@@ -13338,6 +13341,7 @@ _800x80_
 ###ebsponsoredads
 ###editorsmpu
 ###elections-ad-container
+###elgoogybsda
 ###elite-ads
 ###em_ad_superbanner
 ###embedAD
@@ -21541,6 +21545,7 @@ _800x80_
 ##.adstyle
 ##.adsupperugo
 ##.adsupperugo_txt
+##.adsverting
 ##.adsvideo
 ##.adswallpapr
 ##.adswidget
@@ -26509,6 +26514,7 @@ _800x80_
 ##.m-advert
 ##.m-advertisement
 ##.m-advertisement--container
+##.m-balloon-header--ad
 ##.m-block-ad
 ##.m-card-group--rightrail-ad
 ##.m-content-advert
@@ -27991,6 +27997,7 @@ _800x80_
 ##.results_sponsor_right
 ##.rev-content-sponsored
 ##.rev_square_side_door
+##.revamp-ads
 ##.revcontent-main-ad
 ##.revcontent-slot
 ##.review-ad
@@ -31626,6 +31633,7 @@ _800x80_
 lalovings.com#@##AdContainer
 dez.ro#@##ad-carousel
 apnaohio.com,miradiorumba.com#@##ad-header
+so-net.ne.jp#@##ad-p3
 53.com#@##ad-rotator
 techymedies.com#@##ad-top
 afterdawn.com,download.fi,edukas.fi#@##ad-top-banner-placeholder
@@ -31673,6 +31681,8 @@ transparencyreport.google.com#@#.ad-icon
 flat-ads.com,lastpass.com#@#.ad-img
 dmkt-sp.jp#@#.ad-label
 guloggratis.dk#@#.ad-links
+so-net.ne.jp#@#.ad-notice
+so-net.ne.jp#@#.ad-outside
 hulu.com#@#.ad-root
 wiki.fextralife.com#@#.ad-sidebar
 wegotads.co.za#@#.ad-source
@@ -36065,7 +36075,6 @@ tf2r.com#@#.adverts
 ||dialoguehostcreepy.com^
 ||dialoguetramppayoff.com^
 ||diamondtraff.com^
-||diampokusy.com^
 ||dianomioffers.co.uk^
 ||diapersophisticated.com^
 ||diaryeavesdropdecipher.com^
@@ -37080,6 +37089,7 @@ tf2r.com#@#.adverts
 ||expertcamomile.com^
 ||expertist.xyz^
 ||expertnifg.com^
+||expertsulfury.com^
 ||explanationrecognise.com^
 ||exploitnookconsequently.com^
 ||exploreholidayexcellent.com^
@@ -42956,6 +42966,7 @@ tf2r.com#@#.adverts
 ||portedgatesfeel.com^
 ||portenttwinehypothetically.com^
 ||portkingric.net^
+||portoteamo.com^
 ||portoutsid.xyz^
 ||portprintingchecking.com^
 ||portscalculateappease.com^
@@ -46101,6 +46112,7 @@ tf2r.com#@#.adverts
 ||totentacruelor.com^
 ||tothisimpo.biz^
 ||totlnkbn.com^
+||totlnkcl.com^
 ||totogetica.com^
 ||totorogyring.com^
 ||totreatwith.co^
@@ -46195,6 +46207,7 @@ tf2r.com#@#.adverts
 ||trc85.com^
 ||trccmpnlnk.com^
 ||trcked.me^
+||trdnewsnow.net^
 ||treacherousaccentbruise.com^
 ||treacherouslongingjunkie.com^
 ||treasuresensignron.com^
@@ -51455,6 +51468,7 @@ tf2r.com#@#.adverts
 ||torrentsafeguard.com^$popup
 ||totaladperformance.com^$popup
 ||totalnicefeed.com^$popup
+||totlnkcl.com^$popup
 ||touroumu.com^$popup
 ||tozoruaon.com^$popup
 ||track-campaing.club^$popup
@@ -52549,7 +52563,6 @@ tf2r.com#@#.adverts
 ||essayerudite.com/images/banner/
 ||etrader.kalahari.com^
 ||etrader.kalahari.net^
-||expertsulfury.com^$third-party
 ||extensoft.com/artisteer/banners/
 ||facebook.com/audiencenetwork/$third-party
 ||familytreedna.com/img/affiliates/
@@ -53577,6 +53590,7 @@ tf2r.com#@#.adverts
 ||allmonitors24.com/ads-
 ||amazon.com/aan/$subdocument
 ||amazonaws.com/cdn.mobverify.com
+||animeland.tv/ios.html
 ||animesuge.to/E/aircraftmighty.com/
 ||aolcdn.com/ads/$script
 ||apl95.me/js/pop.js
@@ -53810,7 +53824,6 @@ tf2r.com#@#.adverts
 ||jordantimes.com/accu/
 ||kdnuggets.com/aps/
 ||kendrickcoleman.com/images/banners/
-||kiss-anime.org/akame
 ||kisscartoon.sh/api/pop.php
 ||kissmanga.org/rmad.php
 ||kitz.co.uk/files/jump2/
@@ -54529,6 +54542,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|9anime.id​|adblockstreamtap
 ||ipornxxx.net/banners/
 ||jav.work/p.js
 ||javhub.net/av/js/cpp.js
+||jennylist.xyz/img/yep.gif
+||jennylist.xyz/t63fd79f7055.js
 ||jerkdude.com/log300.jpg
 ||joysporn.sex/js/pj.js
 ||k-teen.com/banner/
@@ -58088,6 +58103,10 @@ guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
 haveibeenpwned.com##.actionsBar:-abp-has(.why1Password)
 haveibeenpwned.com##.bodyGradient>:-abp-has(.why1Password)
+instacart.com#?#.css-zlyu1d:-abp-contains(Sponsored)
+instacart.com#?#.css-1pc1srv-ItemCardHoverProvider:-abp-has(.css-cieada-SponsoredProductBadge)
+instacart.com#?#li[data-testid^="item_list_item_items_19462-"]:-abp-has(span:-abp-contains(Sponsored))
+kroger.com#?#.KDSProductCarouselView:-abp-has(span:-abp-contains(Featured))
 ksl.com#?#.queue:-abp-has(.sponsored)
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
 linkedin.com#?#.feed-shared-update-v2:-abp-has(.feed-shared-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|الترويج/))
@@ -59385,6 +59404,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
 @@||smarters.ro/academy$~third-party,xmlhttprequest
+@@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp
 @@||stranger.se/socket.io/$~third-party
 @@||strangermeetup.com/socket.io/$~third-party
@@ -60927,6 +60947,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /collector/pageview
 /collector?report=
 /collectStats;
+/collectsysteminfo?
 /com_joomla-visites/*
 /com_joomlawatch/*
 /common/analytics.js
@@ -64473,7 +64494,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /vglnk.js
 /vgwort/*
 /video-ga.js
-/video.counters.js
+/video.counters.
 /video/tracking.js
 /video_count.php?
 /videoanalytic/*
@@ -84655,6 +84676,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fc.vodafone.de^
 ||froglytics.eventfrog.ch^
 ||geoip.finanzen.net^
+||gmx.net/monitoring/
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hartgeld.com/cgi-sys/Count.cgi?
 ||heise.de/ivw-bin/ivw/cp/
@@ -84677,6 +84699,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||px.derstandard.at^
 ||rem-track.bild.de^
 ||responder.wt.heise.de^
+||ricardo.ch/api/browser-statistics/
 ||rt.bunte.de^
 ||schnaeppchenfuchs.com/js/default-
 ||squirrel.cividi.ch^
@@ -116636,6 +116659,7 @@ _subscribers_newsletters/
 ###we-use-cookies
 ###weUseCookies
 ###weUseCookiesPopup
+###we_use_cookies
 ###webLianderCookieBanner
 ###web_cookielaw_popup
 ###webarx-cookie-notice
@@ -128393,6 +128417,7 @@ usatoday.com###finishedArticleLoader
 westernjournal.com###firefly-poll-container
 tunein.com###fix_it
 moejackson.com###fixed-bar
+youtube4kdownloader.com###fixed-addon-banner
 newrepublic.com###fixed-header-container[style^="top:"]
 ncregister.com###fixedFooter
 techieapps.com###fixed_banner
@@ -132607,6 +132632,7 @@ ps4news.com##.loginBarRight a[target="_blank"] > img[alt^="PS4 News on "]
 naplesnews.com##.longform-flyouts
 intel.com##.look-for-intel
 porsche.com##.m-03-social-headline
+history.com##.m-social
 invenglobal.com##.m_quickmenu
 livemint.com##.mail-icon
 laserfiche.com##.main_cont__aside
@@ -133755,6 +133781,7 @@ commsec.com.au,soundcloud.com##.announcements
 cursr.app##.ant-bottom-left
 billhop.com##.ant-notification
 cryptoquant.com##.ant-row-center
+apkfree.com##.apf1
 leo.org##.app-footer-content
 crucial.com##.app-light > div[style*="fixed"]
 start.me##.app__message
@@ -137207,6 +137234,7 @@ autoline-eu.at,autoline-eu.ch,autoline.de,autoline.li,delivering-tomorrow.de,get
 hardwareluxx.de##.shariff-button
 zeit.de##.show_smk
 mindfactory.de##.sliderbar
+kapitalerhoehungen.de##.smIconsWrap
 amazon.de##.smTabCDiv
 deacademic.com##.smm
 playmassive.de,playnation.de##.sn
@@ -137224,6 +137252,7 @@ playnation.de##.sos
 geo.de##.soucials
 spiegel.de##.spHeaderFollow
 netzwelt.de##.stcl
+presseportal.de##.story-sharing
 autoscout24.ch##.tab-actions
 androidpit.de##.tile_Follow
 ndr.de##.to_facebook
@@ -138171,6 +138200,7 @@ filmmakers.de##.Aligner
 fertighaus.de##.BannerWrapper
 tempton.de##.ConsentBanner_locationFixture__vP_a4
 medizinfuchs.de##.ConsentHint
+centrotherm.de##.H_s
 aqualip.de##.HrSys-Gips-DivIBox
 aqualip.de##.HrSys-Gips-iBoxDivOverlay
 jaguar.at,landrover.at##.Modal
@@ -138217,6 +138247,7 @@ andinet.de##.coo
 bestofshirt.de,daparto.de,ebz-bildung.de,massanzug-online.at,massanzug-online.ch,massanzug-online.de,matratzen-concord.de,model-kartei.de,spartanien.de,specialdeal.at,starcar.de,thegap.at##.cookie
 teacheconomy.de##.cookie-banner
 verwaltung.bund.de##.cookie-consent__inner
+sunrise.ch##.cookieBanner_cookie-container__2h6CD
 fannatic.be,iwp.be,parfumsclub.de,reinbold-entsorgungstechnik.com,selfhost.de,svww.de##.cookies
 discover-utrecht.com##.dSWqfk
 bbbank.de,berliner-volksbank.de##.darken-layer
@@ -138315,10 +138346,6 @@ berlin-buehnen.de##div.tw-prose > .hydrated > aside
 deluxemusic.de##div[class^="CookieBanner-"]
 alltours.de##div[class^="CookieNotificationBox_"]
 oebv.net##form > div
-!
-! ---------- Swiss -----------
-!
-sunrise.ch##.cookieBanner_cookie-container__2h6CD
 !
 ! ---------- French ----------
 !
