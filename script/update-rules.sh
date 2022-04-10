@@ -163,10 +163,10 @@ cat hosts*.txt | sort -n| sed '/^$/d' | grep -v -E "^((#.*)|(\s*))$" \
 wait
 cat base-src-hosts.txt | sed '/^$/d' | grep -Ev '#|\$|@|!|/|\\|\*'\
  | grep -v -E "^((#.*)|(\s*))$" \
- | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|loopback)$" \
+ | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|loopback)$" \
  | sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' \
  | sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d' \
- | grep -v '^#' | grep -v 'local' \
+ | grep -v '^#' | grep -Ev '^\^' \
  | sort -n | uniq | awk '!a[$0]++' > abp-hosts.txt & #Hosts规则转ABP规则
 
 cat allow-domains*.txt | sed '/^$/d' | grep -v '#' \
