@@ -936,7 +936,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org/ga-track.
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgarethief.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -25007,7 +25007,6 @@
 @@||vuplay.co.uk/stats/adobe/*/VisitorAPI.js$script,domain=radioplus.be
 @@||vuster.xyz^$generichide
 @@||vuukle.com/platform.js$script,domain=order-order.com
-@@||vvic.com/m
 @@||vvic.com/monetize/ads/index/
 @@||vvic.com/monetize/ads/index/
 @@||vvv.aaaf.info/*.ts$domain=159i.com
