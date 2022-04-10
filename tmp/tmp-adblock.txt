@@ -61810,7 +61810,6 @@ zznews.cn##.ad:not([style])
 ||img1.leyun365.com^
 ||img1.qqwangming6.com^
 ||img1.yulu99.com^
-||img14.360buyimg.com^
 ||img16.diyifanwen.com^
 ||img2.126.net^
 ||img2.plures.net^*.gif
@@ -67816,7 +67815,6 @@ zznews.cn##.ad:not([style])
 ||mictests.com/myshowroom/view.php$subdocument
 ||midas-i.com^$third-party
 ||midas-network.com^$third-party
-||midas.gtimg.cn^
 ||midastouchrt.com^
 ||midenterprise.com^
 ||midifan.com/aaa/

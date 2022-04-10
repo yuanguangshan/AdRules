@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: ZE4yvueJiNekvPqKXxl/hg
+! Checksum: 8ySW4I5Ng76GHDrjULiSxw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-10 15:28:45（北京时间） 
-! Total count: 42
+! Version: 2022-04-10 15:35:19（北京时间） 
+! Total count: 40
 0.0.0.0 aaid.umeng.com
 0.0.0.0 access.pangolin-sdk-toutiao-b.com
 0.0.0.0 access.toggle.qq.com
@@ -20,13 +20,11 @@
 0.0.0.0 extlog.snssdk.com
 0.0.0.0 game.weixin.qq.com
 0.0.0.0 i.snssdk.com
-0.0.0.0 img14.360buyimg.com
 0.0.0.0 in-addr.arpa
 0.0.0.0 is.snssdk.com
 0.0.0.0 lanm.huliyinzi.com
 0.0.0.0 log-api.pangolin-sdk-toutiao-b.com
 0.0.0.0 log-api.pangolin-sdk-toutiao.com
-0.0.0.0 midas.gtimg.cn
 0.0.0.0 mssdk-bu.snssdk.com
 0.0.0.0 ns.adobe.com
 0.0.0.0 oth.eve.mdt.qq.com
