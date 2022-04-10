@@ -20923,6 +20923,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||microsoft.com/translate/auth
 @@||microsofttranslator.com/translate?
 @@||mid-day.com/*/ads.js$script
+@@||midas.gtimg.cn^
 @@||midiextreme.blogspot.com^$generichide
 @@||milanworld.net^$generichide
 @@||milfnut.net/pop.js
