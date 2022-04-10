@@ -1,8 +1,8 @@
-! Checksum: O7Ubkb1Xpqeao05gSdr2yA
+! Checksum: wn+J9sud9ZGCJN1Ynbmg2Q
 ! Title: AdGuard Mobile Ads filter (Optimized)
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.28.46
-! TimeUpdated: 2022-04-10T07:30:29+00:00
+! Version: 2.0.28.47
+! TimeUpdated: 2022-04-10T08:30:18+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -1654,6 +1654,20 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 @@||xda-cdn.com
 @@||tf-robots.nl^$elemhide,jsinject,content
 @@||yohalabs.com^
+@@||g.doubleclick.net/tag/js/gpt.js$domain=koigaku.machicon.jp
+@@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
+@@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=koigaku.machicon.jp
+@@||googletagservices.com/tag/js/gpt.js$domain=koigaku.machicon.jp
+@@||safeframe.googlesyndication.com^$subdocument,domain=koigaku.machicon.jp
+@@||tpc.googlesyndication.com^$script,~third-party
+koigaku.machicon.jp#@#div[id^="google_ads_iframe_"]
+koigaku.machicon.jp#@#[id^="google_ads_iframe"]
+safeframe.googlesyndication.com#@#div[id^="ad_position_"]
+safeframe.googlesyndication.com###ad_iframe
+safeframe.googlesyndication.com###towerVideo
+||googlevideo.com/videoplayback?$media,redirect=noopmp4-1s,domain=safeframe.googlesyndication.com
+||googlevideo.com/videoplayback?$xmlhttprequest,redirect=nooptext,domain=safeframe.googlesyndication.com
+||gvt1.com/videoplayback?$media,redirect=noopmp4-1s,domain=safeframe.googlesyndication.com
 @@||partner1.cashback.zen.com/aff_
 matomedane.jp#@##AdvHeader
 @@||g.doubleclick.net^$app=jp.co.alc.eow
@@ -1856,6 +1870,8 @@ gamesradar.com,laptopmag.com,livescience.com,musicradar.com,pcgamer.com,techrada
 sports.ru,manager-magazin.de,amp.macwelt.de,amp.fitforfun.de,tomsguide.com,nordbayern.de,dallasnews.com,kansascity.com,futurezone.de,fr.de,spox.com,ran.de,stern.de,ruhr24.de,golem.de,berliner-zeitung.de,news.de,abendzeitung-muenchen.de,inside-digital.de,boerse.de,emtb-news.de,caravaning.de,areadvd.de,familie.de,derwesten.de,finanzen.net,o2.pl,onet.pl,whathifi.com,amp.n-tv.de,dni.ru,independent.co.uk,komputerswiat.pl,dobreprogramy.pl,amp.pcwelt.de,tomshardware.com,techbook.de,forbes.com,auto-swiat.pl,dialog.ua,mobile.reuters.com,spiegel.de,amp.welt.de,forum.xda-developers.com,sueddeutsche.de,amp.usatoday.com,m.gadgets.ndtv.com##amp-ad
 scmp.com,theinventory.com,avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.inline-ad-container
 cartoonpornvideos.com,m.economictimes.com,beethovenmaster.com,m.mistrzowie.org,m.ura.news,siirtpress.com,up.ymgt.xyz,google.de,www-bento-de.cdn.ampproject.org,m-economictimes-com.cdn.ampproject.org,m.winfuture.de##.ads
+gourmet.aumo.jp###popin-ad-network
+gourmet.aumo.jp###popin-ad-network-2
 retty.me###page > div[style="text-align:center; margin-top:16px;"]
 vip.de##.content-teaser-ad
 portal.auone.jp##.rich-ad

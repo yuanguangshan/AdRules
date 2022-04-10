@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: gzvDp5H7zwZ3W9M4vjt68Q
+! Checksum: UXDgkYcSyGatqKERngaxxA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-04-10 16:15:06（北京时间） 
-! Total count: 17888
+! Version: 2022-04-10 16:42:46（北京时间） 
+! Total count: 17894
 @@$app=com.x.addon.cast
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -624,7 +624,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org/ga-track.
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgly.js$script,~third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -6581,6 +6581,7 @@
 @@||g.doubleclick.net/gampad/ads?$domain=cbs.com
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|tv-tokyo.co.jp|vogue.de|voici.fr
 @@||g.doubleclick.net/gampad/ads?$script,domain=wired.com
+@@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fgames.poki.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Frepuls.io$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
@@ -6594,6 +6595,7 @@
 @@||g.doubleclick.net/gpt/pubads_impl*.js$domain=v3.co.uk
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=chelseafc.com|edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=11freunde.de|auto-motor-und-sport.de|brigitte.de|gala.de|geo.de|guterhut.de|hardwareluxx.de|hbf-info.de|kochbar.de|n-tv.de|notebooksbilliger.de|rakuten.at|rakuten.de|rtl.de|stern.de|welt.de|zalando.de,badfilter
+@@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=spiegel.de
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=ukr.net
 @@||g.doubleclick.net/gpt/pubads_impl_*.js$domain=abczdrowie.pl
@@ -6601,6 +6603,7 @@
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=ff14angler.com
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=rjno1.com
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
+@@||g.doubleclick.net/tag/js/gpt.js$domain=koigaku.machicon.jp
 @@||g.doubleclick.net/tag/js/gpt.js$domain=spiegel.de
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
 @@||g.doubleclick.net^$app=jp.co.alc.eow
@@ -7908,6 +7911,7 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=ikitesurf.com
 @@||googletagservices.com/tag/js/gpt.js$domain=imgur.com
 @@||googletagservices.com/tag/js/gpt.js$domain=infocar.ua
+@@||googletagservices.com/tag/js/gpt.js$domain=koigaku.machicon.jp
 @@||googletagservices.com/tag/js/gpt.js$domain=livexlive.com
 @@||googletagservices.com/tag/js/gpt.js$domain=nbcsports.com
 @@||googletagservices.com/tag/js/gpt.js$domain=ndtv.in
@@ -13770,6 +13774,7 @@
 @@||safeframe.googlesyndication.com/safeframe/*/html/container.html$domain=castlesiege.io
 @@||safeframe.googlesyndication.com/safeframe/*/html/container.html$domain=games.softgames.com
 @@||safeframe.googlesyndication.com/safeframe/*/html/container.html$domain=tetrads.io
+@@||safeframe.googlesyndication.com^$subdocument,domain=koigaku.machicon.jp
 @@||safelink-jozz.blogspot.com^$ghide
 @@||safelinku.icu^$ghide
 @@||safelinku.net^$generichide
@@ -16018,6 +16023,7 @@
 @@||tpc.googlesyndication.com/simgad/$image,domain=a2zupload.com|unlockapk.com|newsjizz.in
 @@||tpc.googlesyndication.com/simgad/*$domain=simple.ripley.cl
 @@||tpc.googlesyndication.com^$domain=hoyts.com.au
+@@||tpc.googlesyndication.com^$script,~third-party
 @@||tpdads.com/configs/bigleaguepolitics.js$script,domain=bigleaguepolitics.com
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
 @@||tr.line.me^$app=jp.co.alc.eow

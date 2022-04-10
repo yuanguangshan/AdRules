@@ -1,8 +1,8 @@
-! Checksum: gWwHiS/SzoyQWa9kW4Of6Q
+! Checksum: l8f36I8MB2d8lh4+tr4loA
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.25.7
-! TimeUpdated: 2022-04-10T07:31:24+00:00
+! Version: 2.2.25.8
+! TimeUpdated: 2022-04-10T08:31:13+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -5382,7 +5382,6 @@ salon24.pl##.idsl--bg
 brief.pl##div[id^="brief-"] > a:not([href*="brief.pl"]) > img
 brief.pl##.sticked-sidebar > a:not([href*="brief.pl"]) > img
 brief.pl##.sidebar > .brief-widget > a:not([href*="brief.pl"]) > img
-medonet.pl##.pageHeader > #medServices > .floatLeft
 noizz.pl##.onet-ad
 ofeminin.pl##.marketPlaceWidget
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=videotarget.pl

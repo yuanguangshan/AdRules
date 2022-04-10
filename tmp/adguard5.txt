@@ -1,8 +1,8 @@
-! Checksum: D0ErSwM49hU6aYV1NQbYHw
+! Checksum: HaWFp4/NH1SAIpiRv37gZg
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups.
-! Version: 2.1.15.11
-! TimeUpdated: 2022-04-09T11:30:32+00:00
+! Version: 2.1.15.12
+! TimeUpdated: 2022-04-10T08:30:33+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -12382,7 +12382,7 @@ medialnk.com#%#Object.defineProperty(window, 'Lightbox', { get: function() { ret
 ||cache.ltn.com.tw/js/fb_mask.js
 ||malerex.ru^$third-party
 ||mediaset.it/include/js/attivaPopUpEstero.js
-twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com#$?#div[data-testid="sheetDialog"] div[role="button"] + div[role="button"]:upward(div[role="group"]) { display: none !important; }
+twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com#$?#div[data-testid="sheetDialog"] div[role="button"]:not([data-testid]) + div[role="button"]:not([data-testid]):upward(div[role="group"]) { display: none !important; }
 twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,twitter.com#$?#html { overflow: auto !important; padding-right: 0 !important; }
 yandex.*##.desk-notif-card__card[aria-label="Реклама"]
 yandex.*##.dist-overlay__popup
