@@ -119445,7 +119445,6 @@
 0.0.0.0 youtuba.com
 0.0.0.0 youtube.112.2o7.net
 0.0.0.0 youtube.cleverads.vn
-0.0.0.0 youtube.local
 0.0.0.0 youtube2top.com
 0.0.0.0 youtubecenter.net
 0.0.0.0 youtubepremiumuk.com
@@ -120959,9 +120958,4 @@
 0.0.0.0 zzyytt.top
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.01		ip6-localhost ip6-loopback
 fe000.0.0.00		ip6-localnet
-ff000.0.0.00		ip6-mcastprefix
-ff020.0.0.01		ip6-allnodes
-ff020.0.0.02		ip6-allrouters
-ff020.0.0.03		ip6-allhosts

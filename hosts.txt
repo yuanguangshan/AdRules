@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: lMy5jAynwL75YvZs5TklyQ
+! Checksum: /tubqHuKgIkfZpHJZNZ7bw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-10 17:26:25（北京时间） 
-! Total count: 117846
+! Version: 2022-04-10 17:55:29（北京时间） 
+! Total count: 117844
 0.0.0.0	localhost.localdomain
 0.0.0.0 0-bitbucket.net.zooplus.de
 0.0.0.0 0-cdn.net.zooplus.de
@@ -116388,7 +116388,6 @@
 0.0.0.0 youtuba.com
 0.0.0.0 youtube.112.2o7.net
 0.0.0.0 youtube.cleverads.vn
-0.0.0.0 youtube.local
 0.0.0.0 youtube2top.com
 0.0.0.0 youtubecenter.net
 0.0.0.0 youtubepremiumuk.com
@@ -117852,4 +117851,3 @@
 0.0.0.0 zzyytt.top
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.01		ip6-localhost ip6-loopback

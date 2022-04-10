@@ -1,9 +1,9 @@
 ! Title: AdRules Ad Domains List
-! Checksum: z2AKj8cAtyKrE6/QdGKpdA
+! Checksum: gSB8yT+/TlyOksKzW3ifcQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
-! Expires: 8 Hours! Version: 2022-04-10 17:26:25（北京时间） 
-! Total count: 117846
+! Expires: 8 Hours! Version: 2022-04-10 17:55:29（北京时间） 
+! Total count: 117844
 0-bitbucket.net.zooplus.de
 0-cdn.net.zooplus.de
 0-firewall.net.zooplus.de
@@ -12,7 +12,6 @@
 0-proxy.net.zooplus.de
 0-transit.net.zooplus.de
 0.0.0.0	localhost.localdomain
-0.0.0.01		ip6-localhost ip6-loopback
 0.1-priv.net.zooplus.de
 0.backend.net.zooplus.de
 0.csr1staff.net.zooplus.de
@@ -116386,7 +116385,6 @@ youtome.xyz
 youtuba.com
 youtube.112.2o7.net
 youtube.cleverads.vn
-youtube.local
 youtube2top.com
 youtubecenter.net
 youtubepremiumuk.com

@@ -6,7 +6,6 @@ DOMAIN-SUFFIX,0-partner.net.daraz.com
 DOMAIN-SUFFIX,0-proxy.net.zooplus.de
 DOMAIN-SUFFIX,0-transit.net.zooplus.de
 DOMAIN-SUFFIX,0.0.0.0	localhost.localdomain
-DOMAIN-SUFFIX,0.0.0.01		ip6-localhost ip6-loopback
 DOMAIN-SUFFIX,0.1-priv.net.zooplus.de
 DOMAIN-SUFFIX,0.backend.net.zooplus.de
 DOMAIN-SUFFIX,0.csr1staff.net.zooplus.de
@@ -116380,7 +116379,6 @@ DOMAIN-SUFFIX,youtome.xyz
 DOMAIN-SUFFIX,youtuba.com
 DOMAIN-SUFFIX,youtube.112.2o7.net
 DOMAIN-SUFFIX,youtube.cleverads.vn
-DOMAIN-SUFFIX,youtube.local
 DOMAIN-SUFFIX,youtube2top.com
 DOMAIN-SUFFIX,youtubecenter.net
 DOMAIN-SUFFIX,youtubepremiumuk.com

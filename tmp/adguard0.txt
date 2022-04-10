@@ -1,8 +1,8 @@
-! Checksum: l8f36I8MB2d8lh4+tr4loA
+! Checksum: wG+B1XbeDqmf6paD3jpgfA
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.25.8
-! TimeUpdated: 2022-04-10T08:31:13+00:00
+! Version: 2.2.25.9
+! TimeUpdated: 2022-04-10T09:31:14+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -15767,6 +15767,7 @@ _800x100.
 ###ad-sidebar1
 ###ad-sidebar2
 ###ad-skin
+###ad-skm-below-content
 ###ad-sky
 ###ad-skyscraper
 ###ad-skyscraper1-outer
@@ -20240,6 +20241,7 @@ _800x100.
 ##.textad_headline
 ##.textads
 ##.textadscontainer
+##.th-ad
 ##.theads
 ##.themidad
 ##.themonic-ad2
@@ -28077,7 +28079,7 @@ fakeupdate.net###itemz
 kvraudio.com###kvr300600
 247wallst.com###lb-fill
 corrosionpedia.com,firstnationsvoice.com,pistonheads.com###leaderBoard
-bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
+12tomatoes.com,bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,onthesnow.com.au,penny-arcade.com,publishersweekly.com,skysports.com,stuff.tv,theserverside.com,whitepages.ae###leaderboard
 vocm.com###leaderboard-area
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
@@ -28282,6 +28284,7 @@ journeybytes.com,thisisanfield.com,unfinishedman.com##.ai-viewport-1
 bizpacreview.com,browserhow.com,constructionreviewonline.com,planetanalog.com,windowslatest.com##.ai_widget
 apkmirror.com,net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
+shortlist.com##.align-xl-content-between
 livejournal.com##.allbanners
 cyberciti.biz##.amp-wp-4ed0dd1
 motor1.com##.ap
@@ -28567,7 +28570,7 @@ tripadvisor.com##.iab_leaBoa
 gamepressure.com##.if-no-baner
 pocket-lint.com##.im-desktop
 searchenginejournal.com##.img-mmax-100
-businessinsider.com##.in-post-sticky
+businessinsider.com,insider.com##.in-post-sticky
 inews.co.uk##.inews__advert
 inews.co.uk##.inews__mpu
 stocksnap.io##.info-col

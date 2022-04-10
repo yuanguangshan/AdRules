@@ -44243,10 +44243,6 @@
 ||ff.member.garenae.vn^
 ||ff.qichetansuo.com^
 ||ff.xue163.net^
-||ff000.0.0.00		ip6-mcastprefix^
-||ff020.0.0.01		ip6-allnodes^
-||ff020.0.0.02		ip6-allrouters^
-||ff020.0.0.03		ip6-allhosts^
 ||ff1c0cc5.api.splkmobile.com^
 ||ff5bd8d9f8df.com^
 ||ffbrfjnhhf.com^
