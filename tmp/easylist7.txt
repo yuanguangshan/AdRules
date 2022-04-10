@@ -1,9 +1,9 @@
 [uniartisan's Adblock List]
-! Version: 202204090253
+! Version: 202204100249
 ! Title:  uniartisan's Adblock List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 25855
+! Lenth = 25866
 ###Ad_windows
 ###ChapterView > .slide-baidu
 ###Layeraa1
@@ -530,6 +530,7 @@
 ##.c-ad
 ##.cari-ads
 ##.cc5278_banner_ad
+##.cfa_popup
 ##.chat-ad
 ##.chat-right-ad
 ##.chat-sysbroadcast-ad
@@ -4874,7 +4875,7 @@ aipai.com##.banner_90
 aipai.com##.video_gg
 aiqicha.baidu.com##.float-banner
 aiqicha.baidu.com#@#.share-label
-aiqicha.baidu.com#@#.share-title
+aiqicha.baidu.com,xinmin.cn#@#.share-title
 airav.cc###Panel_GambleZone
 airav.cc###Panel_GambleZone + .Hide_For_JP_AND_EN
 airav.cc###Right_Panel > div[style^="margin-"]
@@ -11102,7 +11103,6 @@ xinhuanet.com##.xhdf_moreAdv
 xinhuanet.com##.xhdf_row_adv
 xinmin.cn##a[href="http://sbiz.xinmin.cn/new/"]
 xinmin.cn#@#.a_p
-xinmin.cn#@#.share-title
 xinshuhaige.net##div[style="float:left;width:300px;height:300px;margin:10px;border:1px dashed blue;"]
 xitek.com##a[href*="/adclick"]
 xitek.com##a[href*="adclick"] + .info
@@ -14641,6 +14641,7 @@ zznews.cn##.ad:not([style])
 ||bf99.com/User*/Ad_
 ||bf99.com/User/Images/bg_Blued.jpg
 ||bfgg365.com^
+||bfjl.ink^
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bgelvy.cn^
 ||bgtrtv.top^
@@ -15763,6 +15764,7 @@ zznews.cn##.ad:not([style])
 ||d6262.com^$popup
 ||d67p.com/love/
 ||d8360.com^$third-party
+||d8962a.xyz^
 ||da-fan-shu.cn/images/kuaijie.jpg
 ||da.daji.com^
 ||da.duowan.com/loc/
@@ -17743,6 +17745,7 @@ zznews.cn##.ad:not([style])
 ||hissq.com^
 ||histock.tw/ad/
 ||hitime5.com/skin/css/*.js
+||hitugou.com^
 ||hivecn.cn^
 ||hixili.top^
 ||hjapi.com/v1/pageSoftText?
@@ -19429,6 +19432,7 @@ zznews.cn##.ad:not([style])
 ||kuk8.com^$third-party
 ||kukan5.com/ad
 ||kukan5.com/indexxzad.jpg
+||kukanlm-youeryuan.com^
 ||kuku99.com^$third-party
 ||kukulm.com^
 ||kukuplay.com/upload/*.swf
@@ -19563,6 +19567,7 @@ zznews.cn##.ad:not([style])
 ||lecai.com/page/zhuanti/baidu/
 ||lecuiwangluo.com^
 ||ledaren.cn^
+||lee2code.com^
 ||leejongsuk.top^
 ||leeleo.top^
 ||leelovelwj.com^
@@ -21508,6 +21513,7 @@ zznews.cn##.ad:not([style])
 ||qinmon.xyz^
 ||qinongyouxuan.cn^$third-party
 ||qinqiaotrade.com^
+||qintingapp.com^
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qinzhihao.com^
 ||qinzigenjudi.com^
@@ -22502,6 +22508,7 @@ zznews.cn##.ad:not([style])
 ||songcan.me^
 ||songlongtech.com^
 ||songrfid.com^
+||songshijiazu.cn^
 ||songsongyun.com/ads/
 ||sonimei.cn/images/gg.png
 ||sonimei.cn/images/llq.png
@@ -23050,6 +23057,7 @@ zznews.cn##.ad:not([style])
 ||tianshui.com.cn/datugg/
 ||tianshui.com.cn/newbg
 ||tianshui.com.cn/yb.html
+||tiantai.ink^
 ||tiantianwl.cn^
 ||tiantianyinyue.cn^
 ||tiantianzhibo.com/js/banner.js
@@ -23405,6 +23413,7 @@ zznews.cn##.ad:not([style])
 ||u1n6ok.cn^
 ||u26u.com^$popup,third-party
 ||u2c8.cn^
+||u3c3.cc^*.gif
 ||u3c3.com^*.gif
 ||u3c3.org/3.png
 ||u3c3.org^*.gif
@@ -23799,6 +23808,7 @@ zznews.cn##.ad:not([style])
 ||wangxuan.pw^
 ||wangyao.pro^
 ||wangyasen.link^
+||wangye.icu^
 ||wangyeshij.top^
 ||wangyh.icu^
 ||wangyuekun.xyz^
@@ -25202,6 +25212,7 @@ zznews.cn##.ad:not([style])
 ||yunzhan365.com/resourceFiles/js/weixin-share.js
 ||yunzuowen.com^$third-party
 ||yupoo.com/dapenti/5cfa8673/c6045c69.jpeg
+||yuquad.com^
 ||yushengyuancaishui.com^
 ||yushuha.com^
 ||yuuuxi.top^

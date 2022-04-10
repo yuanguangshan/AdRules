@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202204090253
+! Version: 202204100249
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 41055
+! Lenth = 41065
 ###qoo-counter
 ###ramblerCounter
 ###top100counter
@@ -2192,6 +2192,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /collector/hit?
 /collector/pageview
 /collector?report=
+/collectsysteminfo?
 /com.snowplowanalytics.$domain=~snowplowanalytics.com
 /com_joomla-visites/*
 /com_joomlawatch/*
@@ -2495,6 +2496,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /dynamictag.
 /dynamicyield/*
 /dynatrace-$domain=~dynatrace.com|~github.com
+/dynatrace-$~image,domain=~dynatrace.com|~github.com|~github.io
 /dynimpression?rkey=
 /e.gif?
 /e086ec.aspx?q=l3mkwgak
@@ -4537,6 +4539,10 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /rpc/preccount?
 /rr/t?step=
 /rrweb-record-
+/rrweb-script.
+/rrweb.js
+/rrweb.min.js
+/rrweb/*
 /rsya-tag-users/*
 /rt_tag.
 /rt_track.
@@ -5759,7 +5765,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 /vglnk.js
 /vgwort/*
 /video-ga.js
-/video.counters.js
+/video.counters.
 /video/tracking.js
 /videoAnalytics.
 /video_count.php?
@@ -6413,7 +6419,7 @@ $xmlhttprequest,domain=auroravid.to|flashx.cc|nowvideo.sx|onlinevideoconverter.c
 @@||api.ipify.org^$script,domain=right-on.co.jp
 @@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|equinoxplus.com|speedcheck.ky
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
-@@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
+@@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
 @@||api.mixpanel.com/track/*$domain=etcher.io
 @@||api.mixpanel.com/track/?data=$xmlhttprequest,domain=deezer.com
@@ -13602,7 +13608,6 @@ znak.com##.relap
 ||booking.com/sendlayoutevents
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||bookoffonline.co.jp/mbfiles/tracking/
 ||books-analytics-events.apple.com^
 ||books-analytics-events.news.apple-dns.net^
 ||booktopia.com.au/Ns7aBMIv/init.js
@@ -20121,6 +20126,7 @@ znak.com##.relap
 ||gmufag.starhit.ru^
 ||gmufag.wday.ru^
 ||gmufag.woman.ru^
+||gmx.net/monitoring/
 ||gn.informaengage.com^
 ||gnar.grammarly.com^
 ||gnavi.co.jp/analysis/
@@ -29740,6 +29746,7 @@ znak.com##.relap
 ||ria.ru/ping?
 ||ria.ru/polling?ticket=
 ||riastats.com^$third-party
+||ricardo.ch/api/browser-statistics/
 ||richard-group.com^$third-party
 ||richmetrics.com^$third-party
 ||richreceipt.com^
@@ -29822,6 +29829,7 @@ znak.com##.relap
 ||roinjg.mkluzkoviny.cz^
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
+||roistat.com^*/addVisit?
 ||roitesting.com^$third-party
 ||rolite.eu/wp-content/*/js/cntr.js
 ||rollbar.com^$third-party
@@ -37544,6 +37552,7 @@ znak.com##.relap
 ||tracker.cauly.co.kr^
 ||tracker.cdn-moneysmart.com^
 ||tracker.cdnbye.com^
+||tracker.comagic.ru^
 ||tracker.convead.io^$third-party
 ||tracker.cpapath.com^
 ||tracker.data-vp.com^
@@ -39157,6 +39166,7 @@ znak.com##.relap
 ||visitor-analytics.io^$third-party
 ||visitor-analytics.net^$third-party
 ||visitor-metrics.com^$third-party
+||visitor-microservice.ext.p-a.im^
 ||visitor-stats.de^$third-party
 ||visitor-track.com^$third-party
 ||visitor.arabiancentres.com^
