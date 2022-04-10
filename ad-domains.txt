@@ -1,52 +1,12 @@
 ! Title: AdRules Ad Domains List
-! Checksum: BZHlhyQjBHx6wiKjX7J9og
+! Checksum: PCyIzNXB1LL3aZkdwKjbpg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
-! Expires: 8 Hours! Version: 2022-04-10 15:52:13（北京时间） 
-! Total count: 657
-!iwx.mail.qq.com
+! Expires: 8 Hours! Version: 2022-04-10 15:58:00（北京时间） 
+! Total count: 617
 2052.flash2-http.qq.com
 3gsoftfile.tc.qq.com
 3gsoftfile.tcdn.qq.com
-@@aod.itunes.apple.com
-@@aod.itunes.g.aaplimg.com
-@@api.yjllq.com
-@@app.qq.com
-@@bkimg.cdn.bcebos.com
-@@dash.cloudflare.com
-@@dash.xns.one
-@@doc.weixin.qq.com
-@@drive.quark.cn
-@@gw.m.163.com
-@@idqqimg.com
-@@ilce.alicdn.com
-@@imgstat.baidu.com
-@@inews.gtimg.com
-@@local.adguard.org
-@@maccms.com
-@@map.qq.com
-@@mb.yidianzixun.com
-@@metrics1.data.hicloud.com
-@@p.qlogo.cn
-@@package.wallpaper.cdn.pandora.xiaomi.com.lan
-@@pan.quark.cn
-@@paste.in
-@@qq-web.cdn-go.cn
-@@quark.sm.cn
-@@qun.qq.com
-@@static.tieba.baidu.com
-@@static.yximgs.com
-@@sug.browser.miui.com
-@@thirdwx.qlogo.cn
-@@uri6.com
-@@w.pandora.xiaomi.com
-@@wallpaper.cdn.pandora.xiaomi.com
-@@wan.yxskill.com
-@@wl.jd.com
-@@woozooo.com
-@@wx.qlogo.cn
-@@wx.tenpay.com
-@@yyfweb.postar.cn
 a.ac.qq.com
 a.ssl.msdk.qq.com
 aaid.umeng.com
