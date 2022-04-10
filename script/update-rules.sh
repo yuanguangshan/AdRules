@@ -156,7 +156,7 @@ cat clash* \
 
 
 cat hosts*.txt | sort -n| sed '/^$/d' | grep -v -E "^((#.*)|(\s*))$" \
- | grep -v -E "^[0-9\.:]+\s+(ip6\-)?(localhost|local|loopback)$" \
+ | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|local|loopback)$" \
  | sed s/127.0.0.1/0.0.0.0/g | sed s/::/0.0.0.0/g |grep '0.0.0.0' |grep -Ev '.0.0.0.0 ' | sort \
  | uniq >base-src-hosts.txt &
 wait
