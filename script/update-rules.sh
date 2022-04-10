@@ -166,8 +166,9 @@ cat base-src-hosts.txt | grep -Ev '#|\$|@|!|/|\\|\*'\
  | grep -v -E "^[0-9f\.:]+\s+(ip6\-)|(localhost|loopback)$" \
  | sed 's/127.0.0.1 //' | sed 's/0.0.0.0 //' \
  | sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d' \
- | grep -v '^#' | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" \ 
- | sort -n | uniq | awk '!a[$0]++' > abp-hosts.txt & #Hosts规则转ABP规则
+ | grep -v '^#' \
+ | sort -n | uniq | awk '!a[$0]++' \
+ | grep -E "^[(\@\@)|(\|\|)][^\/\^]+\^$" > abp-hosts.txt & #Hosts规则转ABP规则
 
 cat allow-domains*.txt | sed '/^$/d' | grep -v '#' \
  | sed "s/^/@@||&/g" | sed "s/$/&^/g"  \
