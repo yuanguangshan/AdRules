@@ -1,11 +1,11 @@
 ! Title: AdRules（For adaway）
-! Checksum: yo8jUx8betTbXxQ7cb6VIA
+! Checksum: 10o7jA/ci8DpdwsoG0CZ0Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-10 16:59:12（北京时间） 
+! Version: 2022-04-10 17:22:18（北京时间） 
 ! Total count: 117847
 0.0.0.0	local
 0.0.0.0	localhost.localdomain
