@@ -35514,7 +35514,6 @@ onet.pl##aside[class^="CenterAd_container"]
 onet.pl##div[class^="AdPlaceholder_"]
 onet.pl#$#.insertedSlot { display: none !important; }
 onet.pl,medonet.pl,komputerswiat.pl###onet-ad-flat-belkagorna
-onetv.cz|zeny.cz|zive.cz
 oneurls.org##+js(abort-on-property-read, popunder)
 onifile.com#$#abort-on-property-read _pop
 onionplay.*##+js(remove-attr, href, a[href]#clickfakeplayer)

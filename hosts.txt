@@ -1,12 +1,12 @@
 ! Title: AdRules（For adaway）
-! Checksum: feZujXc/W4c7lQj3a9VHCA
+! Checksum: R4GqiNO/6xP/NGcrtVQMzQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-10 20:54:34（北京时间） 
-! Total count: 117844
+! Version: 2022-04-10 21:05:00（北京时间） 
+! Total count: 117843
 0.0.0.0 0-bitbucket.net.zooplus.de
 0.0.0.0 0-cdn.net.zooplus.de
 0.0.0.0 0-firewall.net.zooplus.de
@@ -117850,4 +117850,3 @@
 0.0.0.0 zzyytt.top
 0.0.0.0 zzz.pissrip.net
 0.0.0.0 zzznews.ru
-0.0.0.0 zzznews.rucom

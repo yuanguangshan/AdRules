@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 9hCbeAyiphwrFd25Vv05Kw
+! Checksum: PGXceOO0rL8zexBEZWTzOg
 ! Title: AdRules (For AdBlock)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自EasyList、EasyListChina、AdGuard Chinese Filter、EdentwCustom、ClearUrl、乘风规则等，并补充了一些规则
-! Version: 2022-04-10 20:54:33（北京时间） 
-! Total count: 89269
+! Version: 2022-04-10 21:05:00（北京时间） 
+! Total count: 89268
 ###ADCENTER
 ###ADSLOT_1
 ###ADTOP
@@ -37012,7 +37012,6 @@ onet.pl##aside[class^="CenterAd_container"]
 onet.pl##div[class^="AdPlaceholder_"]
 onet.pl#$#.insertedSlot { display: none !important; }
 onet.pl,medonet.pl,komputerswiat.pl###onet-ad-flat-belkagorna
-onetv.cz|zeny.cz|zive.cz
 oneurls.org##+js(abort-on-property-read, popunder)
 onifile.com#$#abort-on-property-read _pop
 onionplay.*##+js(remove-attr, href, a[href]#clickfakeplayer)
