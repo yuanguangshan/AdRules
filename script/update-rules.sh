@@ -82,6 +82,13 @@ hosts=(
   "https://adaway.org/hosts.txt"
   "https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt"
   "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"
+  "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt"
+  "https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts"
+  "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardTracking.txt"
+  "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/EasyPrivacy3rdParty.txt"
+  "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/EasyPrivacySpecific.txt"
+  "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/EasyPrivacyCNAME.txt"
+  "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardCNAME.txt"
 #"https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts"
 )
 
