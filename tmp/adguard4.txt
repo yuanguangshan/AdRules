@@ -1,8 +1,8 @@
-! Checksum: lAheDFJ13znnRj4M+M9X7w
+! Checksum: nacWN4MmuLOsZHFiBemuSw
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.0.52.65
-! TimeUpdated: 2022-04-10T00:30:54+00:00
+! Version: 2.0.52.66
+! TimeUpdated: 2022-04-10T06:30:56+00:00
 ! Expires: 4 days (update frequency)
 #%#var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
 #%#var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
@@ -3492,6 +3492,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 .8ox.cn
+||150075.com^
+||netkantu.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -18988,6 +18990,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||tiantai.ink^
 ||wangye.icu^
+||schlaftabletten.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
