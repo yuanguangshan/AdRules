@@ -1,11 +1,11 @@
 ! Title: AdRules（For adaway）
-! Checksum: cwgwBA+S/6owfZiT7/Dl4w
+! Checksum: CsDLZx68+mqJ2cHSmkSRpw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! 该规则合并自AdGuardDNS过滤器，Adaway等
 !
-! Version: 2022-04-10 16:06:04（北京时间） 
+! Version: 2022-04-10 16:09:36（北京时间） 
 ! Total count: 67003
 0.0.0.0 0.r.msn.com
 0.0.0.0 00-gov.cn
