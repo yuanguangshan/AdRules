@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rkDMSogPcTf8nZ23WzDjYQ
+! Checksum: ThS8coM0Ynv3iCNx+9m3uA
 ! Title: Fanboy+Easylist-Merged Ultimate List
-! Version: 202204100933
-! Last modified: 2022-04-10 09:33 UTC
+! Version: 202204101033
+! Last modified: 2022-04-10 10:33 UTC
 ! Expires: 3 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -29471,6 +29471,7 @@ _800x80_
 ##.tfagAd
 ##.tgads-box
 ##.tge-ad
+##.th-ad
 ##.thb_ad_before_header
 ##.thb_ad_header
 ##.theAdvert
@@ -55647,6 +55648,7 @@ journeybytes.com,thisisanfield.com,unfinishedman.com##.ai-viewport-1
 bizpacreview.com,browserhow.com,constructionreviewonline.com,planetanalog.com,windowslatest.com##.ai_widget
 apkmirror.com,net-load.com##.ai_widget.widget
 majorgeeks.com##.alford > tbody > tr
+shortlist.com##.align-xl-content-between
 livejournal.com##.allbanners
 silverprice.org##.alt-content
 forecast7.com##.altad
@@ -56382,7 +56384,7 @@ intomobile.com##.im_970x90
 searchenginejournal.com##.img-mmax-100
 wmtips.com##.img100
 exchangerates.org.uk##.imt4
-businessinsider.com##.in-post-sticky
+businessinsider.com,insider.com##.in-post-sticky
 crash.net##.inarticle-wrapper
 mail.com##.indeed
 brudirect.com##.index-banner
