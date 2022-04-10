@@ -89,6 +89,9 @@ hosts=(
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/EasyPrivacySpecific.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/EasyPrivacyCNAME.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardCNAME.txt"
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt"
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/someonewhocares.org/hosts"
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/data/yoyo.org/hosts"
 #"https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts"
 )
 
