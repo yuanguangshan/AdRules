@@ -209,7 +209,7 @@ cat tmp1-dns1.txt deadblock.txt deadblock.txt \
  | sort -n |uniq -u >tmp-dns.txt #去重过期域名
 #wait
 cat .././mod/rules/*-rules.txt base-src-hosts.txt \
- | sed '/^$/d' |grep -E "^([0-9].*)|((\|\|)[^\/\^]+\^$)" | grep -v '\*'\
+ | sed '/^$/d' |grep -E "^([0-9].*)|^((\|\|)[^\/\^]+\^$)" | grep -v '\*'\
  | grep -v './'| grep -v '^\[' | grep -v '.!' \
  | grep -v '.\$'|grep -Ev "([0-9]{1,3}.){3}[0-9]{1,3}" \
  |sed 's/||/0.0.0.0 /' | sed 's/\^//' | grep -v "^|" \
