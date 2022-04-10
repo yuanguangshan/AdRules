@@ -11,13 +11,11 @@
 0.0.0.0 extlog.snssdk.com
 0.0.0.0 game.weixin.qq.com
 0.0.0.0 i.snssdk.com
-0.0.0.0 img14.360buyimg.com
 0.0.0.0 in-addr.arpa
 0.0.0.0 is.snssdk.com
 0.0.0.0 lanm.huliyinzi.com
 0.0.0.0 log-api.pangolin-sdk-toutiao-b.com
 0.0.0.0 log-api.pangolin-sdk-toutiao.com
-0.0.0.0 midas.gtimg.cn
 0.0.0.0 mssdk-bu.snssdk.com
 0.0.0.0 ns.adobe.com
 0.0.0.0 oth.eve.mdt.qq.com

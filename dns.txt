@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: n9J8h1v0vFdc/ZyAYVDzOg
+! Checksum: EWEXqZXD+lzNe2e1SQlKhg
 ! Title: AdRules (For DNS)
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
 ! Description: 该规则合并自AdGuardDNS过滤器、乘风过滤规则、EasyChina、EasyList、Oisd Basic、Adaway等
-! Version: 2022-04-10 15:28:45（北京时间） 
+! Version: 2022-04-10 15:35:19（北京时间） 
 ! Total count: 93583
 /((^)|(.))adchoice./
 /((^)|(.))adnxs./
@@ -42761,7 +42761,6 @@
 ||img1.yulu99.com^
 ||img1.zergnet.com^
 ||img100-321.xvideos.com^
-||img14.360buyimg.com^
 ||img1458.r.worldssl.net^
 ||img1461.r.worldssl.net^
 ||img16.diyifanwen.com^
@@ -72975,6 +72974,7 @@
 ||smetrics.m1.com.sg^
 ||smetrics.mackenzieinvestments.com^
 ||smetrics.maclinfordcalgary.com^
+||smetrics.maclinfordcalgary.c|hal.courrierinternational.com^
 ||smetrics.maillife.co.uk^
 ||smetrics.mamypoko.com^
 ||smetrics.mandai.com^
